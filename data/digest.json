@@ -1,37 +1,37 @@
 {
-  "date": "2026-07-04",
-  "generatedAt": "2026-07-03T23:19:48.551Z",
+  "date": "2026-07-05",
+  "generatedAt": "2026-07-04T23:15:05.540Z",
   "picks": [
-    {
-      "title": "AI can't be listed as inventor on patent applications, Japan's top court rules",
-      "sourceUrl": "https://japannews.yomiuri.co.jp/science-nature/technology/20260306-314930/",
-      "source": "Hacker News",
-      "reason": "日本最高法院裁定AI不能列为专利发明人，具有重要法律先例意义。"
-    },
     {
       "title": "Protect your right to run local AI",
       "sourceUrl": "https://righttointelligence.org/",
       "source": "Hacker News",
-      "reason": "保护本地运行AI的权利，关乎用户自主与隐私，值得关注。"
+      "reason": "本地AI运行权关乎用户自主与隐私"
+    },
+    {
+      "title": "Jamesob's guide to running SOTA LLMs locally",
+      "sourceUrl": "https://github.com/jamesob/local-llm",
+      "source": "Hacker News",
+      "reason": "实用指南，降低SOTA模型本地部署门槛"
     },
     {
       "title": "Please stop the AI confidence theater",
       "sourceUrl": "https://www.elenaverna.com/p/please-stop-the-ai-confidence-theater",
       "source": "Hacker News",
-      "reason": "呼吁停止AI自信表演，直击行业过度宣传痛点，引发反思。"
+      "reason": "揭露AI过度自信，促进行业理性"
     },
     {
-      "title": "AI fake news complaining about how AI fake news is the death of real news",
-      "sourceUrl": "https://www.niemanlab.org/2026/07/now-were-getting-ai-fake-news-complaining-about-how-ai-fake-news-is-the-death-of-real-news/",
+      "title": "Performance per dollar is getting faster and cheaper",
+      "sourceUrl": "https://www.wafer.ai/blog/glm52-amd",
       "source": "Hacker News",
-      "reason": "AI假新闻吐槽AI假新闻，讽刺循环揭示信息生态危机。"
+      "reason": "性能成本比提升，AI普及关键趋势"
     },
     {
-      "title": "OpenAI ‘in early talks to give 5% stake to US government’",
-      "sourceUrl": "https://www.theguardian.com/technology/2026/jul/02/openai-stake-us-government-ai-sam-altman",
+      "title": "60% Fable cost cut by converting code to images and having the model OCR it",
+      "sourceUrl": "https://github.com/teamchong/pxpipe",
       "source": "Hacker News",
-      "reason": "OpenAI拟向美国政府出售5%股份，影响AI治理与商业格局。"
+      "reason": "创新方法大幅降本，启发效率思路"
     }
   ],
-  "trendSummary": "本周AI圈聚焦新模型迭代与监管动向，GPT-5.6预览版引发关注，同时美国拟限制其使用权限，开源项目与工具链创新持续活跃。"
+  "trendSummary": "本周AI圈热点集中在模型迭代与政策监管，GPT-5.6预览版引发关注，同时美国拟加强对高端模型使用管控，多款新项目如Claude Sonnet 5等也亮相。"
 }
