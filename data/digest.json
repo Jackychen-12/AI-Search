@@ -1,37 +1,37 @@
 {
-  "date": "2026-07-05",
-  "generatedAt": "2026-07-04T23:15:05.540Z",
+  "date": "2026-07-06",
+  "generatedAt": "2026-07-05T23:20:11.821Z",
   "picks": [
     {
-      "title": "Protect your right to run local AI",
-      "sourceUrl": "https://righttointelligence.org/",
+      "title": "GPT-5.5 Codex reasoning-token clustering may be leading to degraded performance",
+      "sourceUrl": "https://github.com/openai/codex/issues/30364",
       "source": "Hacker News",
-      "reason": "本地AI运行权关乎用户自主与隐私"
+      "reason": "GPT-5.5性能退化，揭示大模型前沿问题"
     },
     {
       "title": "Jamesob's guide to running SOTA LLMs locally",
       "sourceUrl": "https://github.com/jamesob/local-llm",
       "source": "Hacker News",
-      "reason": "实用指南，降低SOTA模型本地部署门槛"
+      "reason": "本地运行顶级LLM的实用指南，降低门槛"
     },
     {
-      "title": "Please stop the AI confidence theater",
-      "sourceUrl": "https://www.elenaverna.com/p/please-stop-the-ai-confidence-theater",
+      "title": "Command and Conquer Generals natively ported to macOS, iPhone, iPad using Fable",
+      "sourceUrl": "https://github.com/ammaarreshi/Generals-Mac-iOS-iPad/tree/main",
       "source": "Hacker News",
-      "reason": "揭露AI过度自信，促进行业理性"
+      "reason": "经典游戏原生移植苹果平台，技术怀旧双赢"
     },
     {
-      "title": "Performance per dollar is getting faster and cheaper",
-      "sourceUrl": "https://www.wafer.ai/blog/glm52-amd",
+      "title": "New serious vulnerabilities spiked around release of Claude Mythos Preview",
+      "sourceUrl": "https://epoch.ai/data-insights/cve-severity-spike",
       "source": "Hacker News",
-      "reason": "性能成本比提升，AI普及关键趋势"
+      "reason": "Claude新版本漏洞激增，安全警报升级"
     },
     {
-      "title": "60% Fable cost cut by converting code to images and having the model OCR it",
-      "sourceUrl": "https://github.com/teamchong/pxpipe",
+      "title": "“Beyond the limit”: Satellites and mirrors in space pose threat to the night sky",
+      "sourceUrl": "https://www.eso.org/public/news/eso2607/",
       "source": "Hacker News",
-      "reason": "创新方法大幅降本，启发效率思路"
+      "reason": "太空卫星威胁夜空，科技伦理议题引发关注"
     }
   ],
-  "trendSummary": "本周AI圈热点集中在模型迭代与政策监管，GPT-5.6预览版引发关注，同时美国拟加强对高端模型使用管控，多款新项目如Claude Sonnet 5等也亮相。"
+  "trendSummary": "本周AI圈聚焦多模态模型升级与政府监管介入，Claude和GPT新版本引发热议，同时开源项目在代码生成与智能体领域持续活跃。"
 }
