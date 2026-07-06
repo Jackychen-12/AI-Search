@@ -1,37 +1,37 @@
 {
-  "date": "2026-07-06",
-  "generatedAt": "2026-07-05T23:20:11.821Z",
+  "date": "2026-07-07",
+  "generatedAt": "2026-07-06T23:33:01.542Z",
   "picks": [
+    {
+      "title": "GPT-5.6 Sol Ultra will be in Codex",
+      "sourceUrl": "https://twitter.com/thsottiaux/status/2073933490513752151",
+      "source": "Hacker News",
+      "reason": "GPT-5.6 Sol Ultra进入Codex，重大AI模型更新"
+    },
     {
       "title": "GPT-5.5 Codex reasoning-token clustering may be leading to degraded performance",
       "sourceUrl": "https://github.com/openai/codex/issues/30364",
       "source": "Hacker News",
-      "reason": "GPT-5.5性能退化，揭示大模型前沿问题"
+      "reason": "GPT-5.5性能退化，技术风险需关注"
     },
     {
-      "title": "Jamesob's guide to running SOTA LLMs locally",
-      "sourceUrl": "https://github.com/jamesob/local-llm",
+      "title": "A global workspace in language models",
+      "sourceUrl": "https://www.anthropic.com/research/global-workspace",
       "source": "Hacker News",
-      "reason": "本地运行顶级LLM的实用指南，降低门槛"
+      "reason": "语言模型全局工作空间，前沿研究突破"
     },
     {
-      "title": "Command and Conquer Generals natively ported to macOS, iPhone, iPad using Fable",
-      "sourceUrl": "https://github.com/ammaarreshi/Generals-Mac-iOS-iPad/tree/main",
+      "title": "New AI tutor achieves 0.71-1.30 SD effect size in Dartmouth course [pdf]",
+      "sourceUrl": "https://intextbooks.science.uu.nl/workshop2026/files/itb26_s1s2.pdf",
       "source": "Hacker News",
-      "reason": "经典游戏原生移植苹果平台，技术怀旧双赢"
+      "reason": "AI家教效果显著，教育领域实证进展"
     },
     {
-      "title": "New serious vulnerabilities spiked around release of Claude Mythos Preview",
-      "sourceUrl": "https://epoch.ai/data-insights/cve-severity-spike",
+      "title": "When AI Costs More Than the Engineer",
+      "sourceUrl": "https://tomtunguz.com/ai-spend-breakeven-2029/",
       "source": "Hacker News",
-      "reason": "Claude新版本漏洞激增，安全警报升级"
-    },
-    {
-      "title": "“Beyond the limit”: Satellites and mirrors in space pose threat to the night sky",
-      "sourceUrl": "https://www.eso.org/public/news/eso2607/",
-      "source": "Hacker News",
-      "reason": "太空卫星威胁夜空，科技伦理议题引发关注"
+      "reason": "AI成本超工程师，行业经济性讨论"
     }
   ],
-  "trendSummary": "本周AI圈聚焦多模态模型升级与政府监管介入，Claude和GPT新版本引发热议，同时开源项目在代码生成与智能体领域持续活跃。"
+  "trendSummary": "本周AI圈热点聚焦于GPT-5.6的发布与监管，同时多个新项目如Omnigent和T3MP3ST涌现，显示出技术迭代与政策博弈并行的趋势。"
 }
