@@ -6325,7 +6325,7 @@
     "sourceUrl": "https://www.microsoft.com/en-us/research/blog/further-notes-on-our-recent-research-on-ai-delegation-and-long-horizon-reliability/",
     "category": "paper",
     "publishedAt": "2026-05-15T18:06:57.000Z",
-    "image": "https://www.microsoft.com/en-us/research/wp-content/uploads/2025/06/Episode7-PeterBillSebastien-AIRevolution_Hero_Feature_River_No_Text_1400x788.jpg",
+    "image": "https://www.microsoft.com/en-us/research/wp-content/uploads/2024/01/MSR-Chat-Promo.png",
     "aiSelected": true,
     "origin": "rss:msr",
     "heat": 0,
@@ -38259,7 +38259,7 @@
       "claude-code",
       "JavaScript"
     ],
-    "heat": 75911,
+    "heat": 76883,
     "aiSelected": true,
     "origin": "github",
     "firstSeen": "2026-06-12T23:53:26.987Z",
@@ -38782,7 +38782,7 @@
       "anthropic",
       "HTML"
     ],
-    "heat": 42,
+    "heat": 43,
     "aiSelected": true,
     "origin": "github",
     "firstSeen": "2026-06-12T23:53:26.987Z",
@@ -40390,7 +40390,7 @@
       "maven-smart-system",
       "TypeScript"
     ],
-    "heat": 933,
+    "heat": 939,
     "aiSelected": true,
     "origin": "github",
     "firstSeen": "2026-06-13T23:33:55.531Z",
@@ -40667,7 +40667,7 @@
       "codex",
       "JavaScript"
     ],
-    "heat": 616,
+    "heat": 618,
     "aiSelected": true,
     "origin": "github",
     "firstSeen": "2026-06-13T23:33:55.531Z",
@@ -46195,7 +46195,7 @@
       "agents",
       "Python"
     ],
-    "heat": 6431,
+    "heat": 6634,
     "aiSelected": true,
     "origin": "github",
     "firstSeen": "2026-06-16T23:49:37.157Z",
@@ -46215,7 +46215,7 @@
       "ai-architecture",
       "ai-engineering"
     ],
-    "heat": 36,
+    "heat": 37,
     "aiSelected": true,
     "origin": "github",
     "firstSeen": "2026-06-16T23:49:37.157Z",
@@ -46290,7 +46290,7 @@
       "claude-code",
       "Java"
     ],
-    "heat": 458,
+    "heat": 459,
     "aiSelected": true,
     "origin": "github",
     "firstSeen": "2026-06-16T23:49:37.157Z",
@@ -50883,7 +50883,7 @@
       "ai-video",
       "JavaScript"
     ],
-    "heat": 158,
+    "heat": 159,
     "aiSelected": true,
     "origin": "github",
     "firstSeen": "2026-06-19T00:01:19.464Z",
@@ -51155,7 +51155,7 @@
       "chinese-astrology",
       "TypeScript"
     ],
-    "heat": 580,
+    "heat": 591,
     "aiSelected": true,
     "origin": "github",
     "firstSeen": "2026-06-19T00:01:19.464Z",
@@ -51235,7 +51235,7 @@
   {
     "id": "gh-harryhsing-omniagent",
     "title": "HarryHsing/OmniAgent",
-    "summary": "OmniAgent (ICML 2026): the first native omni-modal agent for active video perception — a 7B agent that beats Qwen2.5-VL-72B with 73% fewer frames.",
+    "summary": "OmniAgent (ICML 2026): the first native omni-modal agent for active video perception — a 7B agent that beats Qwen2.5-VL-72B with 73% fewer frames on LVBench.",
     "source": "GitHub",
     "sourceUrl": "https://github.com/HarryHsing/OmniAgent",
     "category": "ai-products",
@@ -51247,7 +51247,7 @@
       "llm-agent",
       "Python"
     ],
-    "heat": 38,
+    "heat": 39,
     "aiSelected": true,
     "origin": "github",
     "firstSeen": "2026-06-19T00:01:19.464Z",
@@ -51322,7 +51322,7 @@
       "anthropic",
       "JavaScript"
     ],
-    "heat": 6191,
+    "heat": 6407,
     "aiSelected": true,
     "origin": "github",
     "firstSeen": "2026-06-19T00:01:19.464Z",
@@ -55733,7 +55733,7 @@
       "llm",
       "Python"
     ],
-    "heat": 28,
+    "heat": 29,
     "aiSelected": true,
     "origin": "github",
     "firstSeen": "2026-06-22T23:44:24.245Z",
@@ -58354,7 +58354,7 @@
       "copilot",
       "Python"
     ],
-    "heat": 1053,
+    "heat": 1060,
     "aiSelected": true,
     "origin": "github",
     "firstSeen": "2026-06-23T23:31:38.783Z",
@@ -60243,7 +60243,7 @@
       "langchain",
       "Python"
     ],
-    "heat": 142,
+    "heat": 145,
     "aiSelected": true,
     "origin": "github",
     "firstSeen": "2026-06-24T23:35:38.045Z",
@@ -60801,7 +60801,7 @@
       "notes",
       "Python"
     ],
-    "heat": 150,
+    "heat": 152,
     "aiSelected": true,
     "origin": "github",
     "firstSeen": "2026-06-27T23:18:10.906Z",
@@ -62395,7 +62395,7 @@
     "tags": [
       "Hacker News"
     ],
-    "heat": 812,
+    "heat": 813,
     "aiSelected": true,
     "origin": "hackernews",
     "firstSeen": "2026-06-25T23:46:58.236Z",
@@ -62416,7 +62416,7 @@
       "gpt",
       "JavaScript"
     ],
-    "heat": 156,
+    "heat": 157,
     "aiSelected": true,
     "origin": "github",
     "firstSeen": "2026-06-25T23:46:58.236Z",
@@ -65354,7 +65354,7 @@
       "local-first",
       "Svelte"
     ],
-    "heat": 170,
+    "heat": 174,
     "aiSelected": true,
     "origin": "github",
     "firstSeen": "2026-06-26T23:35:37.585Z",
@@ -65453,7 +65453,7 @@
       "backtesting",
       "TypeScript"
     ],
-    "heat": 1714,
+    "heat": 1862,
     "aiSelected": true,
     "origin": "github",
     "firstSeen": "2026-06-26T23:35:37.585Z",
@@ -65527,7 +65527,7 @@
       "deepseek",
       "TypeScript"
     ],
-    "heat": 1608,
+    "heat": 1610,
     "aiSelected": true,
     "origin": "github",
     "firstSeen": "2026-06-26T23:35:37.585Z",
@@ -66996,7 +66996,7 @@
       "deep-learning",
       "diffusion-models"
     ],
-    "heat": 16,
+    "heat": 18,
     "aiSelected": true,
     "origin": "github",
     "firstSeen": "2026-06-28T23:20:22.762Z",
@@ -71111,7 +71111,7 @@
       "ai-characters",
       "HTML"
     ],
-    "heat": 152,
+    "heat": 154,
     "aiSelected": true,
     "origin": "github",
     "firstSeen": "2026-06-30T23:38:12.001Z",
@@ -71132,7 +71132,7 @@
       "creative-ai",
       "HTML"
     ],
-    "heat": 152,
+    "heat": 153,
     "aiSelected": true,
     "origin": "github",
     "firstSeen": "2026-06-30T23:38:12.001Z",
@@ -71174,7 +71174,7 @@
       "crop-images",
       "HTML"
     ],
-    "heat": 152,
+    "heat": 153,
     "aiSelected": true,
     "origin": "github",
     "firstSeen": "2026-06-30T23:38:12.001Z",
@@ -71563,7 +71563,7 @@
       "anthropic",
       "HTML"
     ],
-    "heat": 151,
+    "heat": 153,
     "aiSelected": true,
     "origin": "github",
     "firstSeen": "2026-06-30T23:38:12.001Z",

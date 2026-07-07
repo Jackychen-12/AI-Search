@@ -1,37 +1,37 @@
 {
-  "date": "2026-07-07",
-  "generatedAt": "2026-07-06T23:33:01.542Z",
+  "date": "2026-07-08",
+  "generatedAt": "2026-07-07T23:15:34.057Z",
   "picks": [
     {
-      "title": "GPT-5.6 Sol Ultra will be in Codex",
-      "sourceUrl": "https://twitter.com/thsottiaux/status/2073933490513752151",
+      "title": "GLM 5.2 and the coming AI margin collapse",
+      "sourceUrl": "https://martinalderson.com/posts/the-upcoming-ai-margin-collapse-part-1-glm-5-2/",
       "source": "Hacker News",
-      "reason": "GPT-5.6 Sol Ultra进入Codex，重大AI模型更新"
+      "reason": "GLM 5.2发布，预示AI利润空间可能压缩"
     },
     {
-      "title": "GPT-5.5 Codex reasoning-token clustering may be leading to degraded performance",
-      "sourceUrl": "https://github.com/openai/codex/issues/30364",
+      "title": "YC CEO says he ships 37K LoC AI code per day. A developer looked under the hood",
+      "sourceUrl": "https://www.fastcompany.com/91520702/y-combinator-garry-tan-agentic-ai-social-media",
       "source": "Hacker News",
-      "reason": "GPT-5.5性能退化，技术风险需关注"
+      "reason": "YC CEO日写3.7万行AI代码，开发者揭秘"
     },
     {
-      "title": "A global workspace in language models",
-      "sourceUrl": "https://www.anthropic.com/research/global-workspace",
+      "title": "Anthropic's Method to Losing Goodwill in a Few Easy Steps",
+      "sourceUrl": "https://raheeljunaid.com/blog/anthropics-method-to-losing-goodwill-in-a-few-easy-steps/",
       "source": "Hacker News",
-      "reason": "语言模型全局工作空间，前沿研究突破"
+      "reason": "Anthropic因操作不当面临口碑危机"
     },
     {
-      "title": "New AI tutor achieves 0.71-1.30 SD effect size in Dartmouth course [pdf]",
-      "sourceUrl": "https://intextbooks.science.uu.nl/workshop2026/files/itb26_s1s2.pdf",
+      "title": "Small AI Models Gain Traction In places with unreliable networks",
+      "sourceUrl": "https://spectrum.ieee.org/small-language-models-ai-pharmaceuticals",
       "source": "Hacker News",
-      "reason": "AI家教效果显著，教育领域实证进展"
+      "reason": "小模型在弱网环境下获得实际应用"
     },
     {
-      "title": "When AI Costs More Than the Engineer",
-      "sourceUrl": "https://tomtunguz.com/ai-spend-breakeven-2029/",
+      "title": "Pruning RAG context down to what the answer actually needs",
+      "sourceUrl": "https://www.kapa.ai/blog/how-we-prune-rag-context",
       "source": "Hacker News",
-      "reason": "AI成本超工程师，行业经济性讨论"
+      "reason": "精简RAG上下文，提升AI回答效率"
     }
   ],
-  "trendSummary": "本周AI圈热点聚焦于GPT-5.6的发布与监管，同时多个新项目如Omnigent和T3MP3ST涌现，显示出技术迭代与政策博弈并行的趋势。"
+  "trendSummary": "本周AI圈热点聚焦于Claude Sonnet 5与GPT-5.6的迭代，同时美国政府介入模型使用权引发讨论，开源项目如Omnigent和T3MP3ST也备受关注。"
 }
