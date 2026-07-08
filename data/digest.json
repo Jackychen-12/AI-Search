@@ -1,37 +1,37 @@
 {
-  "date": "2026-07-08",
-  "generatedAt": "2026-07-07T23:15:34.057Z",
+  "date": "2026-07-09",
+  "generatedAt": "2026-07-08T23:31:02.837Z",
   "picks": [
     {
-      "title": "GLM 5.2 and the coming AI margin collapse",
-      "sourceUrl": "https://martinalderson.com/posts/the-upcoming-ai-margin-collapse-part-1-glm-5-2/",
-      "source": "Hacker News",
-      "reason": "GLM 5.2发布，预示AI利润空间可能压缩"
+      "title": "Nemotron-Labs-Diffusion: A Tri-Mode Language Model Unifying Autoregressive, Diffusion, and Self-Speculation Decoding",
+      "sourceUrl": "https://huggingface.co/papers/2607.05722",
+      "source": "HuggingFace Papers",
+      "reason": "三模态语言模型统一自回归与扩散，创新性强"
     },
     {
-      "title": "YC CEO says he ships 37K LoC AI code per day. A developer looked under the hood",
-      "sourceUrl": "https://www.fastcompany.com/91520702/y-combinator-garry-tan-agentic-ai-social-media",
-      "source": "Hacker News",
-      "reason": "YC CEO日写3.7万行AI代码，开发者揭秘"
+      "title": "RynnWorld-4D: 4D Embodied World Models for Robotic Manipulation",
+      "sourceUrl": "https://huggingface.co/papers/2607.06559",
+      "source": "HuggingFace Papers",
+      "reason": "4D世界模型推动机器人操作，前沿且实用"
     },
     {
-      "title": "Anthropic's Method to Losing Goodwill in a Few Easy Steps",
-      "sourceUrl": "https://raheeljunaid.com/blog/anthropics-method-to-losing-goodwill-in-a-few-easy-steps/",
-      "source": "Hacker News",
-      "reason": "Anthropic因操作不当面临口碑危机"
+      "title": "From Foundation to Application: Improving VLA Models in Practice",
+      "sourceUrl": "https://huggingface.co/papers/2607.06403",
+      "source": "HuggingFace Papers",
+      "reason": "VLA模型从理论到实践，解决落地痛点"
     },
     {
-      "title": "Small AI Models Gain Traction In places with unreliable networks",
-      "sourceUrl": "https://spectrum.ieee.org/small-language-models-ai-pharmaceuticals",
-      "source": "Hacker News",
-      "reason": "小模型在弱网环境下获得实际应用"
+      "title": "OpenAI部署公司据悉将收购应用AI企业Northslope",
+      "sourceUrl": "https://36kr.com/newsflashes/3887601424415237?f=rss",
+      "source": "36氪",
+      "reason": "OpenAI收购AI公司，产业巨头动态"
     },
     {
-      "title": "Pruning RAG context down to what the answer actually needs",
-      "sourceUrl": "https://www.kapa.ai/blog/how-we-prune-rag-context",
-      "source": "Hacker News",
-      "reason": "精简RAG上下文，提升AI回答效率"
+      "title": "IT早报 0709：曝苹果启动长鑫 DRAM 测试；手机厂 Pocket 相机或用上 3nm 骁龙 8 系芯片；小红书 IPO 举报风波当事人发声；小米汽车新品牌中文名“小米澎程”...",
+      "sourceUrl": "https://www.ithome.com/0/974/286.htm",
+      "source": "IT之家",
+      "reason": "苹果测试长鑫DRAM，科技巨头供应链动向"
     }
   ],
-  "trendSummary": "本周AI圈热点聚焦于Claude Sonnet 5与GPT-5.6的迭代，同时美国政府介入模型使用权引发讨论，开源项目如Omnigent和T3MP3ST也备受关注。"
+  "trendSummary": "本周AI圈热点集中在开源智能体、实时数据工具及多模态应用，项目涵盖自动化代理、股票面板、PPT生成及API整合，技术实用化趋势明显。"
 }
