@@ -1,37 +1,37 @@
 {
-  "date": "2026-07-09",
-  "generatedAt": "2026-07-08T23:31:02.837Z",
+  "date": "2026-07-10",
+  "generatedAt": "2026-07-09T23:38:18.140Z",
   "picks": [
     {
-      "title": "Nemotron-Labs-Diffusion: A Tri-Mode Language Model Unifying Autoregressive, Diffusion, and Self-Speculation Decoding",
-      "sourceUrl": "https://huggingface.co/papers/2607.05722",
-      "source": "HuggingFace Papers",
-      "reason": "三模态语言模型统一自回归与扩散，创新性强"
+      "title": "GPT-5.6",
+      "sourceUrl": "https://openai.com/index/gpt-5-6/",
+      "source": "Hacker News",
+      "reason": "GPT-5.6 发布，AI 领域重大突破"
     },
     {
-      "title": "RynnWorld-4D: 4D Embodied World Models for Robotic Manipulation",
-      "sourceUrl": "https://huggingface.co/papers/2607.06559",
-      "source": "HuggingFace Papers",
-      "reason": "4D世界模型推动机器人操作，前沿且实用"
+      "title": "GitLost: We Tricked GitHub's AI Agent into Leaking Private Repos",
+      "sourceUrl": "https://noma.security/blog/gitlost-how-we-tricked-githubs-ai-agent-into-leaking-private-repos/",
+      "source": "Hacker News",
+      "reason": "GitHub AI 安全漏洞，引发行业关注"
     },
     {
-      "title": "From Foundation to Application: Improving VLA Models in Practice",
-      "sourceUrl": "https://huggingface.co/papers/2607.06403",
-      "source": "HuggingFace Papers",
-      "reason": "VLA模型从理论到实践，解决落地痛点"
+      "title": "Postgres rewritten in Rust, now passing 100% of the Postgres regression tests",
+      "sourceUrl": "https://github.com/malisper/pgrust",
+      "source": "Hacker News",
+      "reason": "Postgres 用 Rust 重写，性能与安全提升"
     },
     {
-      "title": "OpenAI部署公司据悉将收购应用AI企业Northslope",
-      "sourceUrl": "https://36kr.com/newsflashes/3887601424415237?f=rss",
-      "source": "36氪",
-      "reason": "OpenAI收购AI公司，产业巨头动态"
+      "title": "John Deere owners will get the right to repair equipment under FTC settlement",
+      "sourceUrl": "https://apnews.com/article/john-deere-right-to-repair-agriculture-equipment-cb7514ffedb95c130a976af661f2bc02",
+      "source": "Hacker News",
+      "reason": "用户维修权胜诉，影响科技产品生态"
     },
     {
-      "title": "IT早报 0709：曝苹果启动长鑫 DRAM 测试；手机厂 Pocket 相机或用上 3nm 骁龙 8 系芯片；小红书 IPO 举报风波当事人发声；小米汽车新品牌中文名“小米澎程”...",
-      "sourceUrl": "https://www.ithome.com/0/974/286.htm",
-      "source": "IT之家",
-      "reason": "苹果测试长鑫DRAM，科技巨头供应链动向"
+      "title": "GPT-5.6 Sol, along with Terra and Luna, will launch publicly this Thursday",
+      "sourceUrl": "https://twitter.com/OpenAI/status/2074704958419792299",
+      "source": "Hacker News",
+      "reason": "GPT-5.6 系列公开上线，AI 竞争白热化"
     }
   ],
-  "trendSummary": "本周AI圈热点集中在开源智能体、实时数据工具及多模态应用，项目涵盖自动化代理、股票面板、PPT生成及API整合，技术实用化趋势明显。"
+  "trendSummary": "本周AI圈热点集中在开源模型爆发、智能体工具崛起及政策监管收紧，同时科技巨头新版本与用户权益议题引发广泛讨论。"
 }
