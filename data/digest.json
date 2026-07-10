@@ -1,37 +1,37 @@
 {
-  "date": "2026-07-10",
-  "generatedAt": "2026-07-09T23:38:18.140Z",
+  "date": "2026-07-11",
+  "generatedAt": "2026-07-10T23:14:16.536Z",
   "picks": [
     {
       "title": "GPT-5.6",
       "sourceUrl": "https://openai.com/index/gpt-5-6/",
       "source": "Hacker News",
-      "reason": "GPT-5.6 发布，AI 领域重大突破"
+      "reason": "GPT-5.6 官方技术报告发布，重磅模型细节首度公开"
     },
     {
-      "title": "GitLost: We Tricked GitHub's AI Agent into Leaking Private Repos",
-      "sourceUrl": "https://noma.security/blog/gitlost-how-we-tricked-githubs-ai-agent-into-leaking-private-repos/",
+      "title": "GPT-5.6 Sol Ultra produces proof of the Cycle Double Cover Conjecture [pdf]",
+      "sourceUrl": "https://cdn.openai.com/pdf/04d1d1e4-bc75-476a-97cf-49055cd98d31/cdc_proof.pdf",
       "source": "Hacker News",
-      "reason": "GitHub AI 安全漏洞，引发行业关注"
+      "reason": "GPT-5.6 Sol 证明图论猜想，AI 数学能力里程碑"
     },
     {
       "title": "Postgres rewritten in Rust, now passing 100% of the Postgres regression tests",
       "sourceUrl": "https://github.com/malisper/pgrust",
       "source": "Hacker News",
-      "reason": "Postgres 用 Rust 重写，性能与安全提升"
+      "reason": "Rust 重写 Postgres 通过全部测试，性能与兼容性突破"
     },
     {
-      "title": "John Deere owners will get the right to repair equipment under FTC settlement",
-      "sourceUrl": "https://apnews.com/article/john-deere-right-to-repair-agriculture-equipment-cb7514ffedb95c130a976af661f2bc02",
+      "title": "Why developers are ditching GitHub for Codeberg and self-hosting alternatives",
+      "sourceUrl": "https://www.howtogeek.com/why-developers-are-ditching-github-for-codeberg-and-self-hosting-alternatives/",
       "source": "Hacker News",
-      "reason": "用户维修权胜诉，影响科技产品生态"
+      "reason": "开发者逃离 GitHub 转向自托管，开源社区趋势风向标"
     },
     {
-      "title": "GPT-5.6 Sol, along with Terra and Luna, will launch publicly this Thursday",
-      "sourceUrl": "https://twitter.com/OpenAI/status/2074704958419792299",
+      "title": "Mistral's Robostral Navigate: a state of the art robotics navigation model",
+      "sourceUrl": "https://mistral.ai/news/robostral-navigate/",
       "source": "Hacker News",
-      "reason": "GPT-5.6 系列公开上线，AI 竞争白热化"
+      "reason": "Mistral 发布 SOTA 机器人导航模型，具身智能新进展"
     }
   ],
-  "trendSummary": "本周AI圈热点集中在开源模型爆发、智能体工具崛起及政策监管收紧，同时科技巨头新版本与用户权益议题引发广泛讨论。"
+  "trendSummary": "本周AI圈聚焦于多模态模型迭代与开源生态爆发，GPT-5.6与Claude Sonnet 5引发热议，同时多个创新项目如Omnigent和T3MP3ST展现AI在智能体与科学领域的突破。"
 }
