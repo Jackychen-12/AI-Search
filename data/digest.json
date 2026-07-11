@@ -1,37 +1,37 @@
 {
-  "date": "2026-07-11",
-  "generatedAt": "2026-07-10T23:14:16.536Z",
+  "date": "2026-07-12",
+  "generatedAt": "2026-07-11T23:11:59.469Z",
   "picks": [
     {
       "title": "GPT-5.6",
       "sourceUrl": "https://openai.com/index/gpt-5-6/",
       "source": "Hacker News",
-      "reason": "GPT-5.6 官方技术报告发布，重磅模型细节首度公开"
+      "reason": "GPT-5.6发布，AI前沿重大进展。"
     },
     {
       "title": "GPT-5.6 Sol Ultra produces proof of the Cycle Double Cover Conjecture [pdf]",
       "sourceUrl": "https://cdn.openai.com/pdf/04d1d1e4-bc75-476a-97cf-49055cd98d31/cdc_proof.pdf",
       "source": "Hacker News",
-      "reason": "GPT-5.6 Sol 证明图论猜想，AI 数学能力里程碑"
+      "reason": "GPT-5.6证明数学猜想，突破性成果。"
+    },
+    {
+      "title": "Apple sues OpenAI, accuses ex-employees of stealing trade secrets",
+      "sourceUrl": "https://9to5mac.com/2026/07/10/apple-sues-openai-trade-secret-theft/",
+      "source": "Hacker News",
+      "reason": "苹果起诉OpenAI，行业巨头法律战。"
     },
     {
       "title": "Postgres rewritten in Rust, now passing 100% of the Postgres regression tests",
       "sourceUrl": "https://github.com/malisper/pgrust",
       "source": "Hacker News",
-      "reason": "Rust 重写 Postgres 通过全部测试，性能与兼容性突破"
+      "reason": "Rust重写Postgres，里程碑式技术成就。"
     },
     {
-      "title": "Why developers are ditching GitHub for Codeberg and self-hosting alternatives",
-      "sourceUrl": "https://www.howtogeek.com/why-developers-are-ditching-github-for-codeberg-and-self-hosting-alternatives/",
+      "title": "How the terrorist group Boko Haram uses frontier AI",
+      "sourceUrl": "https://casp.ac/reports/ai-enabled-terrorism",
       "source": "Hacker News",
-      "reason": "开发者逃离 GitHub 转向自托管，开源社区趋势风向标"
-    },
-    {
-      "title": "Mistral's Robostral Navigate: a state of the art robotics navigation model",
-      "sourceUrl": "https://mistral.ai/news/robostral-navigate/",
-      "source": "Hacker News",
-      "reason": "Mistral 发布 SOTA 机器人导航模型，具身智能新进展"
+      "reason": "恐怖组织利用AI，安全警示引关注。"
     }
   ],
-  "trendSummary": "本周AI圈聚焦于多模态模型迭代与开源生态爆发，GPT-5.6与Claude Sonnet 5引发热议，同时多个创新项目如Omnigent和T3MP3ST展现AI在智能体与科学领域的突破。"
+  "trendSummary": "苹果起诉OpenAI泄露机密，GPT-5.6与Claude Sonnet 5引发期待，同时多个开源项目活跃，AI竞争与创新同步升温。"
 }
