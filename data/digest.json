@@ -1,37 +1,37 @@
 {
-  "date": "2026-07-12",
-  "generatedAt": "2026-07-11T23:11:59.469Z",
+  "date": "2026-07-13",
+  "generatedAt": "2026-07-12T23:10:14.765Z",
   "picks": [
     {
-      "title": "GPT-5.6",
-      "sourceUrl": "https://openai.com/index/gpt-5-6/",
+      "title": "Apple sues OpenAI, accuses ex-employees of stealing trade secrets",
+      "sourceUrl": "https://9to5mac.com/2026/07/10/apple-sues-openai-trade-secret-theft/",
       "source": "Hacker News",
-      "reason": "GPT-5.6发布，AI前沿重大进展。"
+      "reason": "苹果起诉OpenAI，科技巨头间重大法律纠纷。"
     },
     {
       "title": "GPT-5.6 Sol Ultra produces proof of the Cycle Double Cover Conjecture [pdf]",
       "sourceUrl": "https://cdn.openai.com/pdf/04d1d1e4-bc75-476a-97cf-49055cd98d31/cdc_proof.pdf",
       "source": "Hacker News",
-      "reason": "GPT-5.6证明数学猜想，突破性成果。"
+      "reason": "GPT-5.6证明数学猜想，AI科研能力里程碑。"
     },
     {
-      "title": "Apple sues OpenAI, accuses ex-employees of stealing trade secrets",
-      "sourceUrl": "https://9to5mac.com/2026/07/10/apple-sues-openai-trade-secret-theft/",
+      "title": "What xAI's Grok build CLI sends to xAI: A wire-level analysis",
+      "sourceUrl": "https://gist.github.com/cereblab/dc9a40bc26120f4540e4e09b75ffb547",
       "source": "Hacker News",
-      "reason": "苹果起诉OpenAI，行业巨头法律战。"
+      "reason": "深入分析xAI Grok的隐私与数据传输行为。"
     },
     {
-      "title": "Postgres rewritten in Rust, now passing 100% of the Postgres regression tests",
-      "sourceUrl": "https://github.com/malisper/pgrust",
+      "title": "Claude Code sends 33k tokens before reading the prompt; OpenCode sends 7k",
+      "sourceUrl": "https://systima.ai/blog/claude-code-vs-opencode-token-overhead",
       "source": "Hacker News",
-      "reason": "Rust重写Postgres，里程碑式技术成就。"
+      "reason": "比较Claude与OpenCode的token效率，实用洞察。"
     },
     {
-      "title": "How the terrorist group Boko Haram uses frontier AI",
-      "sourceUrl": "https://casp.ac/reports/ai-enabled-terrorism",
+      "title": "Nvidia, CoreWeave, and Nebius: Inside the Circular Financing of the GPU Boom",
+      "sourceUrl": "https://io-fund.com/ai-stocks/nvidia-coreweave-nebius-circular-financing-gpu-boom",
       "source": "Hacker News",
-      "reason": "恐怖组织利用AI，安全警示引关注。"
+      "reason": "揭露英伟达GPU热潮中的循环融资内幕。"
     }
   ],
-  "trendSummary": "苹果起诉OpenAI泄露机密，GPT-5.6与Claude Sonnet 5引发期待，同时多个开源项目活跃，AI竞争与创新同步升温。"
+  "trendSummary": "本周AI圈热度集中在开源项目爆发与巨头诉讼，同时GPT-5.6和Claude新模型引发期待，技术迭代与法律纠纷并行。"
 }
