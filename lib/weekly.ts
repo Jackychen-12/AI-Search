@@ -24,6 +24,7 @@ export interface WeeklyReport {
   dailyBreakdown: DailyBreakdown[];
   categoryBreakdown: { key: CategoryKey; label: string; count: number }[];
   topSummary: string;
+  weeklyInsight?: string;
 }
 
 function mondayOf(d: Date): Date {

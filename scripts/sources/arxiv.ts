@@ -21,6 +21,7 @@ function text(v: unknown): string {
 export const arxiv: SourceAdapter = {
   id: "arxiv",
   label: "arXiv (cs.AI/CL/LG)",
+  tier: 1,
   async fetch(): Promise<AIItem[]> {
     const query = CATS.map((c) => `cat:${c}`).join("+OR+");
     const url = `https://export.arxiv.org/api/query?search_query=${query}&sortBy=submittedDate&sortOrder=descending&max_results=${MAX}`;

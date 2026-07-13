@@ -23,6 +23,7 @@ const PER_QUERY = 20;
 export const hackernews: SourceAdapter = {
   id: "hackernews",
   label: "Hacker News (AI stories)",
+  tier: 2,
   async fetch(): Promise<AIItem[]> {
     const byId = new Map<string, AIItem>();
     for (const q of QUERIES) {

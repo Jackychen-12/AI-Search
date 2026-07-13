@@ -151,3 +151,64 @@ export async function buildDigest(items: AIItem[]): Promise<void> {
     console.log(`[digest] failed: ${e instanceof Error ? e.message : e}`);
   }
 }
+
+/** Generate a structured weekly insight report via DeepSeek (800-1200 chars). */
+export async function buildWeeklyInsight(items: AIItem[], startDate: string, endDate: string): Promise<string> {
+  if (!KEY) {
+    console.log("[weekly-insight] no DEEPSEEK_API_KEY — skipping.");
+    return "";
+  }
+  const weekItems = items.filter((i) => {
+    const d = (i.publishedAt ?? i.firstSeen ?? "").slice(0, 10);
+    return d >= startDate && d <= endDate;
+  });
+  if (weekItems.length < 10) {
+    console.log("[weekly-insight] not enough items for weekly insight.");
+    return "";
+  }
+  const byHeat = [...weekItems].sort((a, b) => (b.heat ?? 0) - (a.heat ?? 0));
+  const listing = byHeat.slice(0, 30).map((it, i) =>
+    `${i + 1}. 【${it.source}】${it.title}${it.aiNote ? ` — ${it.aiNote}` : ""}`
+  ).join("\n");
+
+  const ctrl = new AbortController();
+  const timer = setTimeout(() => ctrl.abort(), 60000);
+  try {
+    const res = await fetch(API, {
+      method: "POST",
+      headers: { Authorization: `Bearer ${KEY}`, "Content-Type": "application/json" },
+      signal: ctrl.signal,
+      body: JSON.stringify({
+        model: MODEL,
+        temperature: 0.6,
+        max_tokens: 1200,
+        messages: [
+          {
+            role: "system",
+            content:
+              "你是资深 AI 行业分析师。基于本周 AI 资讯，撰写一篇 800-1200 字的结构化周度洞察报告。" +
+              "严格按以下结构输出，使用 Markdown 格式：\n\n" +
+              "## 本周关键事件\n按影响力排序列出 3-5 件最重要的事件，每件用一句话说明为什么重要。\n\n" +
+              "## 趋势研判\n分析哪个方向在升温（如 Agent、多模态、开源），哪个在降温，给出判断依据。\n\n" +
+              "## 值得关注\n挑出一条被低估但有潜力的信息，说明为什么值得关注；再给出下周可能的看点预判。\n\n" +
+              "要求：有观点、有判断、不泛泛而谈。用数据和事实支撑论点。",
+          },
+          {
+            role: "user",
+            content: `本周（${startDate} ~ ${endDate}）共收录 ${weekItems.length} 条 AI 资讯，以下是按热度排序的 Top 30：\n\n${listing}`,
+          },
+        ],
+      }),
+    });
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const data = (await res.json()) as { choices?: { message?: { content?: string } }[] };
+    const text = (data.choices?.[0]?.message?.content ?? "").trim();
+    console.log(`[weekly-insight] generated ${text.length} chars for ${startDate} ~ ${endDate}.`);
+    return text;
+  } catch (e) {
+    console.log(`[weekly-insight] failed: ${e instanceof Error ? e.message : e}`);
+    return "";
+  } finally {
+    clearTimeout(timer);
+  }
+}

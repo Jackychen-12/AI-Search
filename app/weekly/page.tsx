@@ -1,7 +1,9 @@
 import type { Metadata } from "next";
+import fs from "node:fs";
 import Link from "next/link";
 import Header from "@/components/Header";
 import WeeklyView from "@/components/WeeklyView";
+import { WEEKLY_INSIGHT_PATH } from "@/lib/config";
 import { readArchive } from "@/lib/archive";
 import { readLocalItems } from "@/lib/localStore";
 import { buildWeeklyReport } from "@/lib/weekly";
@@ -20,6 +22,18 @@ export default function WeeklyPage() {
   for (let i = 0; i < 6; i++) {
     const r = buildWeeklyReport(items, i);
     if (r.totalItems > 0) reports.push(r);
+  }
+
+  // Attach LLM-generated weekly insight to the matching report
+  try {
+    const raw = fs.readFileSync(WEEKLY_INSIGHT_PATH, "utf8");
+    const data = JSON.parse(raw) as { weekLabel: string; insight: string };
+    if (data.insight) {
+      const match = reports.find((r) => r.weekLabel === data.weekLabel);
+      if (match) match.weeklyInsight = data.insight;
+    }
+  } catch {
+    // No insight file yet — that's fine
   }
 
   return (

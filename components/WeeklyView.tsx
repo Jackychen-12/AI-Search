@@ -4,6 +4,18 @@ import { useState } from "react";
 import type { WeeklyReport } from "@/lib/weekly";
 import { CATEGORY_COLORS } from "@/lib/trends";
 
+function insightToHtml(md: string): string {
+  return md
+    .replace(/^## (.+)$/gm, "<h2>$1</h2>")
+    .replace(/^### (.+)$/gm, "<h3>$1</h3>")
+    .replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>")
+    .replace(/^- (.+)$/gm, "<li>$1</li>")
+    .replace(/(<li>.*<\/li>\n?)+/g, (m) => `<ul>${m}</ul>`)
+    .replace(/\n{2,}/g, "</p><p>")
+    .replace(/^(?!<[hul])(.+)$/gm, "<p>$1</p>")
+    .replace(/<p><\/p>/g, "");
+}
+
 function MiniBar({ data, color = "#3b6cff", labels }: { data: number[]; color?: string; labels?: string[] }) {
   const max = Math.max(...data, 1);
   return (
@@ -197,6 +209,22 @@ export default function WeeklyView({
             本周重点
           </h2>
           <p className="text-sm text-brand-800 dark:text-brand-400 leading-relaxed">{report.topSummary}</p>
+        </div>
+      )}
+
+      {/* AI Weekly Insight Report */}
+      {report.weeklyInsight && (
+        <div className="card border-l-4 border-l-brand-500 px-5 py-4 mb-6">
+          <h2 className="text-sm font-semibold dark:text-gray-100 mb-3 flex items-center gap-2">
+            <span className="w-5 h-5 rounded-md bg-gradient-to-br from-brand-500 to-brand-700 text-white grid place-items-center text-[10px] font-bold">AI</span>
+            周度洞察报告
+          </h2>
+          <div
+            className="prose prose-sm dark:prose-invert max-w-none text-gray-700 dark:text-gray-300 leading-relaxed
+              prose-h2:text-base prose-h2:font-semibold prose-h2:mt-4 prose-h2:mb-2
+              prose-p:my-1.5 prose-ul:my-1.5 prose-li:my-0.5"
+            dangerouslySetInnerHTML={{ __html: insightToHtml(report.weeklyInsight) }}
+          />
         </div>
       )}
 

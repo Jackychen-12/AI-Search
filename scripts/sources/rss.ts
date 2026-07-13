@@ -12,44 +12,58 @@ interface FeedDef {
   category: CategoryKey;
   /** General-purpose feed: keep only AI-related items. */
   aiOnly?: boolean;
+  /** Source credibility tier: 1 = first-party, 2 = authoritative media, 3 = aggregator. */
+  tier: 1 | 2 | 3;
 }
 
 // Reputable, public RSS/Atom feeds spanning Chinese + English AI coverage:
 // model labs, research blogs, the tech press, and community. Each is fetched
 // independently — a single dead feed never sinks the crawl.
 const FEEDS: FeedDef[] = [
-  // —— 中文 ——
-  { id: "rss:qbitai", label: "量子位", url: "https://www.qbitai.com/feed", source: "量子位", category: "ai-products" },
-  { id: "rss:36kr", label: "36氪", url: "https://36kr.com/feed", source: "36氪", category: "industry", aiOnly: true },
-  { id: "rss:infoq", label: "InfoQ", url: "https://www.infoq.cn/feed", source: "InfoQ", category: "industry", aiOnly: true },
-  { id: "rss:sspai", label: "少数派", url: "https://sspai.com/feed", source: "少数派", category: "ai-products", aiOnly: true },
-  { id: "rss:ithome", label: "IT之家", url: "https://www.ithome.com/rss/", source: "IT之家", category: "industry", aiOnly: true },
+  // ══ Tier 1 — 一手官方 / 模型实验室 / 研究机构 ══
+  { id: "rss:openai", label: "OpenAI News", url: "https://openai.com/news/rss.xml", source: "OpenAI", category: "ai-models", tier: 1 },
+  { id: "rss:anthropic", label: "Anthropic Blog", url: "https://www.anthropic.com/rss.xml", source: "Anthropic", category: "ai-models", tier: 1 },
+  { id: "rss:google-ai", label: "Google AI Blog", url: "https://blog.google/technology/ai/rss/", source: "Google AI", category: "ai-models", tier: 1 },
+  { id: "rss:deepmind", label: "Google DeepMind", url: "https://deepmind.google/blog/rss.xml", source: "Google DeepMind", category: "ai-models", tier: 1 },
+  { id: "rss:meta-ai", label: "Meta AI Blog", url: "https://ai.meta.com/blog/rss/", source: "Meta AI", category: "ai-models", tier: 1 },
+  { id: "rss:nvidia", label: "NVIDIA Blog", url: "https://blogs.nvidia.com/feed/", source: "NVIDIA", category: "ai-models", aiOnly: true, tier: 1 },
+  { id: "rss:hf-blog", label: "HuggingFace Blog", url: "https://huggingface.co/blog/feed.xml", source: "HuggingFace Blog", category: "tip", tier: 1 },
+  { id: "rss:mistral", label: "Mistral AI Blog", url: "https://mistral.ai/feed.xml", source: "Mistral AI", category: "ai-models", tier: 1 },
+  { id: "rss:cohere", label: "Cohere Blog", url: "https://cohere.com/blog/rss.xml", source: "Cohere", category: "ai-models", tier: 1 },
+  { id: "rss:stability", label: "Stability AI Blog", url: "https://stability.ai/blog/rss.xml", source: "Stability AI", category: "ai-models", tier: 1 },
+  { id: "rss:bair", label: "BAIR Blog", url: "https://bair.berkeley.edu/blog/feed.xml", source: "Berkeley AI Research", category: "paper", tier: 1 },
+  { id: "rss:mit-news-ai", label: "MIT News AI", url: "https://news.mit.edu/topic/mitartificial-intelligence2-rss.xml", source: "MIT News", category: "industry", tier: 1 },
+  { id: "rss:msr", label: "Microsoft Research", url: "https://www.microsoft.com/en-us/research/feed/", source: "Microsoft Research", category: "paper", aiOnly: true, tier: 1 },
+  { id: "rss:aws-ml", label: "AWS ML Blog", url: "https://aws.amazon.com/blogs/machine-learning/feed/", source: "AWS ML", category: "tip", tier: 1 },
 
-  // —— 模型实验室 / 研究机构 ——
-  { id: "rss:nvidia", label: "NVIDIA Blog", url: "https://blogs.nvidia.com/feed/", source: "NVIDIA", category: "ai-models", aiOnly: true },
-  { id: "rss:openai", label: "OpenAI News", url: "https://openai.com/news/rss.xml", source: "OpenAI", category: "ai-models" },
-  { id: "rss:google-ai", label: "Google AI Blog", url: "https://blog.google/technology/ai/rss/", source: "Google AI", category: "ai-models" },
-  { id: "rss:deepmind", label: "Google DeepMind", url: "https://deepmind.google/blog/rss.xml", source: "Google DeepMind", category: "ai-models" },
-  { id: "rss:hf-blog", label: "HuggingFace Blog", url: "https://huggingface.co/blog/feed.xml", source: "HuggingFace Blog", category: "tip" },
-  { id: "rss:bair", label: "BAIR Blog", url: "https://bair.berkeley.edu/blog/feed.xml", source: "Berkeley AI Research", category: "paper" },
-  { id: "rss:mit-news-ai", label: "MIT News AI", url: "https://news.mit.edu/topic/mitartificial-intelligence2-rss.xml", source: "MIT News", category: "industry" },
+  // ══ Tier 2 — 权威科技媒体 ══
+  { id: "rss:theverge-ai", label: "The Verge AI", url: "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml", source: "The Verge", category: "industry", tier: 2 },
+  { id: "rss:techcrunch-ai", label: "TechCrunch AI", url: "https://techcrunch.com/category/artificial-intelligence/feed/", source: "TechCrunch", category: "industry", tier: 2 },
+  { id: "rss:venturebeat-ai", label: "VentureBeat AI", url: "https://venturebeat.com/category/ai/feed/", source: "VentureBeat", category: "industry", tier: 2 },
+  { id: "rss:arstechnica-ai", label: "Ars Technica AI", url: "https://arstechnica.com/ai/feed/", source: "Ars Technica", category: "industry", tier: 2 },
+  { id: "rss:techreview-ai", label: "MIT Tech Review AI", url: "https://www.technologyreview.com/topic/artificial-intelligence/feed", source: "MIT Tech Review", category: "industry", tier: 2 },
+  { id: "rss:wired-ai", label: "Wired AI", url: "https://www.wired.com/feed/tag/ai/latest/rss", source: "Wired", category: "industry", tier: 2 },
+  { id: "rss:theinformation", label: "The Information", url: "https://www.theinformation.com/feed", source: "The Information", category: "industry", aiOnly: true, tier: 2 },
+  { id: "rss:a16z-ai", label: "a16z AI Blog", url: "https://a16z.com/category/ai/feed/", source: "a16z", category: "tip", aiOnly: true, tier: 2 },
 
-  // —— 科技媒体 AI 频道 ——
-  { id: "rss:theverge-ai", label: "The Verge AI", url: "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml", source: "The Verge", category: "industry" },
-  { id: "rss:techcrunch-ai", label: "TechCrunch AI", url: "https://techcrunch.com/category/artificial-intelligence/feed/", source: "TechCrunch", category: "industry" },
-  { id: "rss:venturebeat-ai", label: "VentureBeat AI", url: "https://venturebeat.com/category/ai/feed/", source: "VentureBeat", category: "industry" },
-  { id: "rss:arstechnica-ai", label: "Ars Technica AI", url: "https://arstechnica.com/ai/feed/", source: "Ars Technica", category: "industry" },
-  { id: "rss:techreview-ai", label: "MIT Tech Review AI", url: "https://www.technologyreview.com/topic/artificial-intelligence/feed", source: "MIT Tech Review", category: "industry" },
+  // ══ Tier 2 — 社区 / 个人博主（高质量原创）══
+  { id: "rss:simonwillison", label: "Simon Willison", url: "https://simonwillison.net/atom/everything/", source: "Simon Willison", category: "tip", aiOnly: true, tier: 2 },
+  { id: "rss:lilianweng", label: "Lil'Log", url: "https://lilianweng.github.io/index.xml", source: "Lilian Weng", category: "tip", tier: 2 },
+  { id: "rss:raschka", label: "Ahead of AI", url: "https://magazine.sebastianraschka.com/feed", source: "Sebastian Raschka", category: "tip", tier: 2 },
+  { id: "rss:thegradient", label: "The Gradient", url: "https://thegradient.pub/rss/", source: "The Gradient", category: "tip", aiOnly: true, tier: 2 },
+  { id: "rss:importai", label: "Import AI", url: "https://importai.substack.com/feed", source: "Import AI", category: "tip", tier: 2 },
+  { id: "rss:thebatch", label: "The Batch", url: "https://www.deeplearning.ai/the-batch/feed/", source: "The Batch", category: "tip", tier: 2 },
+  { id: "rss:bensbites", label: "Ben's Bites", url: "https://bensbites.beehiiv.com/feed", source: "Ben's Bites", category: "tip", tier: 2 },
 
-  // —— 社区 / 个人 ——
-  { id: "rss:simonwillison", label: "Simon Willison", url: "https://simonwillison.net/atom/everything/", source: "Simon Willison", category: "tip", aiOnly: true },
-
-  // —— 研究 / 社区扩充 ——
-  { id: "rss:aws-ml", label: "AWS ML Blog", url: "https://aws.amazon.com/blogs/machine-learning/feed/", source: "AWS ML", category: "tip" },
-  { id: "rss:msr", label: "Microsoft Research", url: "https://www.microsoft.com/en-us/research/feed/", source: "Microsoft Research", category: "paper", aiOnly: true },
-  { id: "rss:lilianweng", label: "Lil'Log", url: "https://lilianweng.github.io/index.xml", source: "Lilian Weng", category: "tip" },
-  { id: "rss:raschka", label: "Ahead of AI", url: "https://magazine.sebastianraschka.com/feed", source: "Sebastian Raschka", category: "tip" },
-  { id: "rss:thegradient", label: "The Gradient", url: "https://thegradient.pub/rss/", source: "The Gradient", category: "tip", aiOnly: true },
+  // ══ Tier 3 — 中文聚合 / 转载媒体 ══
+  { id: "rss:qbitai", label: "量子位", url: "https://www.qbitai.com/feed", source: "量子位", category: "ai-products", tier: 3 },
+  { id: "rss:36kr", label: "36氪", url: "https://36kr.com/feed", source: "36氪", category: "industry", aiOnly: true, tier: 3 },
+  { id: "rss:infoq", label: "InfoQ", url: "https://www.infoq.cn/feed", source: "InfoQ", category: "industry", aiOnly: true, tier: 3 },
+  { id: "rss:sspai", label: "少数派", url: "https://sspai.com/feed", source: "少数派", category: "ai-products", aiOnly: true, tier: 3 },
+  { id: "rss:ithome", label: "IT之家", url: "https://www.ithome.com/rss/", source: "IT之家", category: "industry", aiOnly: true, tier: 3 },
+  { id: "rss:jiqizhixin", label: "机器之心", url: "https://www.jiqizhixin.com/rss", source: "机器之心", category: "ai-products", tier: 3 },
+  { id: "rss:xinzhiyuan", label: "新智元", url: "https://feed.ainews.nbai.cn/", source: "新智元", category: "industry", tier: 3 },
+  { id: "rss:paperweekly", label: "PaperWeekly", url: "https://www.paperweekly.site/rss", source: "PaperWeekly", category: "paper", tier: 3 },
 ];
 
 const AI_KEYWORDS = [
@@ -196,5 +210,6 @@ async function fetchFeed(feed: FeedDef): Promise<AIItem[]> {
 export const rssAdapters: SourceAdapter[] = FEEDS.map((feed) => ({
   id: feed.id,
   label: feed.label,
+  tier: feed.tier,
   fetch: () => fetchFeed(feed),
 }));

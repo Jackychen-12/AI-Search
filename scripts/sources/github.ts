@@ -42,6 +42,7 @@ function headers(): Record<string, string> {
 export const github: SourceAdapter = {
   id: "github",
   label: "GitHub Trending (new AI repos)",
+  tier: 1,
   async fetch(): Promise<AIItem[]> {
     const since = sinceDate();
     const out: AIItem[] = [];

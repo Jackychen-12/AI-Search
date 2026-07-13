@@ -20,6 +20,7 @@ const ENDPOINT = "https://huggingface.co/api/daily_papers";
 export const hfPapers: SourceAdapter = {
   id: "hf-papers",
   label: "HuggingFace Daily Papers",
+  tier: 1,
   async fetch(): Promise<AIItem[]> {
     const data = await getJson<HFPaper[]>(ENDPOINT);
     if (!Array.isArray(data)) return [];
