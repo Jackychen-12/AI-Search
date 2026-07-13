@@ -1,37 +1,37 @@
 {
-  "date": "2026-07-13",
-  "generatedAt": "2026-07-12T23:10:14.765Z",
+  "date": "2026-07-14",
+  "generatedAt": "2026-07-13T23:22:34.453Z",
   "picks": [
     {
-      "title": "Apple sues OpenAI, accuses ex-employees of stealing trade secrets",
-      "sourceUrl": "https://9to5mac.com/2026/07/10/apple-sues-openai-trade-secret-theft/",
+      "title": "Zig Creator Calls Spade a Spade, Anthropic Blows Smoke",
+      "sourceUrl": "https://raymyers.org/post/zed-creator-calls-spade-a-spade/",
       "source": "Hacker News",
-      "reason": "苹果起诉OpenAI，科技巨头间重大法律纠纷。"
-    },
-    {
-      "title": "GPT-5.6 Sol Ultra produces proof of the Cycle Double Cover Conjecture [pdf]",
-      "sourceUrl": "https://cdn.openai.com/pdf/04d1d1e4-bc75-476a-97cf-49055cd98d31/cdc_proof.pdf",
-      "source": "Hacker News",
-      "reason": "GPT-5.6证明数学猜想，AI科研能力里程碑。"
-    },
-    {
-      "title": "What xAI's Grok build CLI sends to xAI: A wire-level analysis",
-      "sourceUrl": "https://gist.github.com/cereblab/dc9a40bc26120f4540e4e09b75ffb547",
-      "source": "Hacker News",
-      "reason": "深入分析xAI Grok的隐私与数据传输行为。"
+      "reason": "Zig创始人直言不讳，批评Anthropic夸大其词，引发热议。"
     },
     {
       "title": "Claude Code sends 33k tokens before reading the prompt; OpenCode sends 7k",
       "sourceUrl": "https://systima.ai/blog/claude-code-vs-opencode-token-overhead",
       "source": "Hacker News",
-      "reason": "比较Claude与OpenCode的token效率，实用洞察。"
+      "reason": "Claude Code token消耗惊人，对比OpenCode差距显著。"
     },
     {
       "title": "Nvidia, CoreWeave, and Nebius: Inside the Circular Financing of the GPU Boom",
       "sourceUrl": "https://io-fund.com/ai-stocks/nvidia-coreweave-nebius-circular-financing-gpu-boom",
       "source": "Hacker News",
-      "reason": "揭露英伟达GPU热潮中的循环融资内幕。"
+      "reason": "揭露GPU繁荣背后的循环融资内幕，行业深度剖析。"
+    },
+    {
+      "title": "Samsung Health app threatens data deletion if users opt out AI training",
+      "sourceUrl": "https://neow.in/cWsyMTV3",
+      "source": "Hacker News",
+      "reason": "Samsung Health威胁删除数据，用户隐私与AI训练冲突。"
+    },
+    {
+      "title": "Ghost Font: A font that humans can read but AI cannot",
+      "sourceUrl": "https://www.mixfont.com/ghost-font",
+      "source": "Hacker News",
+      "reason": "人可读而AI不可读的字体，对抗AI识别的新奇创意。"
     }
   ],
-  "trendSummary": "本周AI圈热度集中在开源项目爆发与巨头诉讼，同时GPT-5.6和Claude新模型引发期待，技术迭代与法律纠纷并行。"
+  "trendSummary": "本周AI圈开源项目热度飙升，同时苹果起诉OpenAI窃密，GPT-5.6传闻引发关注，Zig创始人则直言批评Anthropic的炒作行为。"
 }
