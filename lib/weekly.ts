@@ -25,6 +25,7 @@ export interface WeeklyReport {
   categoryBreakdown: { key: CategoryKey; label: string; count: number }[];
   topSummary: string;
   weeklyInsight?: string;
+  prevTotalItems?: number;
 }
 
 function mondayOf(d: Date): Date {
@@ -62,7 +63,16 @@ export function buildWeeklyReport(items: AIItem[], weekOffset = 0): WeeklyReport
   });
 
   const byHeat = [...weekItems].sort((a, b) => (b.heat ?? 0) - (a.heat ?? 0));
-  const topItems = byHeat.slice(0, 10);
+  const MAX_PER_SOURCE = 4;
+  const topItems: AIItem[] = [];
+  const srcCount = new Map<string, number>();
+  for (const item of byHeat) {
+    if (topItems.length >= 10) break;
+    const n = srcCount.get(item.source) ?? 0;
+    if (n >= MAX_PER_SOURCE) continue;
+    srcCount.set(item.source, n + 1);
+    topItems.push(item);
+  }
 
   const sections: WeeklySection[] = CATEGORIES.map((c) => {
     const catItems = weekItems

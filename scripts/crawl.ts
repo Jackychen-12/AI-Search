@@ -12,7 +12,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import type { AIItem } from "../lib/types";
-import { WEEKLY_INSIGHT_PATH } from "../lib/config";
+import { WEEKLY_INSIGHT_PATH, WEEKLY_INSIGHTS_DIR } from "../lib/config";
 import { normalizeItems } from "../lib/classify";
 import { addAiNotes } from "./lib/aiNote";
 import { updateArchive } from "./lib/archive";
@@ -91,7 +91,13 @@ export async function runCrawl(only: string[] = []): Promise<CrawlResult> {
       JSON.stringify({ weekLabel: `${startDate} ~ ${endDate}`, insight, generatedAt: new Date().toISOString() }, null, 2) + "\n",
       "utf8",
     );
-    console.log(`[weekly-insight] saved to ${WEEKLY_INSIGHT_PATH}`);
+    fs.mkdirSync(WEEKLY_INSIGHTS_DIR, { recursive: true });
+    fs.writeFileSync(
+      path.join(WEEKLY_INSIGHTS_DIR, `${startDate}.json`),
+      JSON.stringify({ weekLabel: `${startDate} ~ ${endDate}`, insight, generatedAt: new Date().toISOString() }, null, 2) + "\n",
+      "utf8",
+    );
+    console.log(`[weekly-insight] saved to ${WEEKLY_INSIGHT_PATH} + ${WEEKLY_INSIGHTS_DIR}/${startDate}.json`);
   }
 
   return { total: all.length, written: count, sources, errors, path: outPath };

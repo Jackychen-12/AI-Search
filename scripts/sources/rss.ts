@@ -1,5 +1,6 @@
 import { XMLParser } from "fast-xml-parser";
 import type { AIItem, CategoryKey } from "../../lib/types";
+import { isAiRelated } from "../lib/aiFilter";
 import { getText, hashId, stripHtml, toIso, truncate } from "../lib/fetchUtil";
 import type { SourceAdapter } from "./types";
 
@@ -66,16 +67,6 @@ const FEEDS: FeedDef[] = [
   { id: "rss:paperweekly", label: "PaperWeekly", url: "https://www.paperweekly.site/rss", source: "PaperWeekly", category: "paper", tier: 3 },
 ];
 
-const AI_KEYWORDS = [
-  "ai", "a.i", "人工智能", "大模型", "模型", "llm", "gpt", "claude", "gemini", "llama",
-  "智能体", "agent", "生成式", "多模态", "神经网络", "机器学习", "深度学习", "openai",
-  "anthropic", "deepseek", "通义", "千问", "qwen", "文心", "豆包", "kimi", "moonshot",
-  "训练", "推理", "算力", "gpu", "芯片", "nvidia", "cuda",
-  "开源模型", "diffusion", "扩散", "rag", "微调", "embedding", "transformer", "agi",
-  "neural", "machine learning", "deep learning", "chatbot", "copilot", "stable diffusion",
-  "sora", "midjourney", "cursor", "devin", "manus", "智谱", "glm", "baichuan", "yi-",
-];
-
 const MAX_PER_FEED = Number(process.env.RSS_MAX_PER_FEED || 20);
 
 const parser = new XMLParser({ ignoreAttributes: false, attributeNamePrefix: "@_" });
@@ -99,11 +90,6 @@ function atomLink(v: unknown): string {
     return text(alt ?? v[0]);
   }
   return text(v);
-}
-
-function isAiRelated(title: string, summary: string): boolean {
-  const hay = `${title} ${summary}`.toLowerCase();
-  return AI_KEYWORDS.some((k) => hay.includes(k));
 }
 
 function cleanSummary(raw: string): string | null {

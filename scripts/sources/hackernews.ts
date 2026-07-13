@@ -1,4 +1,5 @@
 import type { AIItem } from "../../lib/types";
+import { isAiRelated } from "../lib/aiFilter";
 import { getJson, hashId, stripHtml, truncate } from "../lib/fetchUtil";
 import type { SourceAdapter } from "./types";
 
@@ -39,6 +40,7 @@ export const hackernews: SourceAdapter = {
       }
       for (const h of data.hits || []) {
         if (!h.title) continue;
+        if (!isAiRelated(h.title, h.story_text ?? "")) continue;
         const link = h.url || `https://news.ycombinator.com/item?id=${h.objectID}`;
         if (byId.has(h.objectID)) continue;
         byId.set(h.objectID, {

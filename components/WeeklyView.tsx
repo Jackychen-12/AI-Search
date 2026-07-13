@@ -1,8 +1,8 @@
 "use client";
 
 import { useState } from "react";
+import Link from "next/link";
 import type { WeeklyReport } from "@/lib/weekly";
-import { CATEGORY_COLORS } from "@/lib/trends";
 
 function parseBold(text: string): React.ReactNode[] {
   const parts = text.split(/\*\*(.+?)\*\*/g);
@@ -21,7 +21,7 @@ function InsightSection({ markdown }: { markdown: string }) {
         const title = lines[0]?.trim();
         const body = lines.slice(1);
         return (
-          <div key={bi} className="bg-white/60 dark:bg-gray-800/40 rounded-lg p-4">
+          <div key={bi} className="bg-white dark:bg-gray-800/60 rounded-lg p-4 shadow-sm">
             {title && (
               <h3 className="inline-block bg-brand-100 dark:bg-brand-500/20 text-brand-700 dark:text-brand-400 rounded-md px-3 py-1 text-sm font-semibold mb-3">
                 {title}
@@ -96,43 +96,30 @@ function MiniBar({ data, color = "#3b6cff", labels }: { data: number[]; color?: 
   );
 }
 
-function MiniDonut({ data }: { data: { label: string; value: number; color: string }[] }) {
-  const total = data.reduce((s, d) => s + d.value, 0) || 1;
-  let offset = 0;
-  return (
-    <svg viewBox="0 0 36 36" className="w-16 h-16">
-      {data.filter((d) => d.value > 0).map((d) => {
-        const pct = (d.value / total) * 100;
-        const dash = `${pct} ${100 - pct}`;
-        const el = (
-          <circle key={d.label} cx="18" cy="18" r="14" fill="none" stroke={d.color} strokeWidth="4" strokeDasharray={dash} strokeDashoffset={-offset} />
-        );
-        offset += pct;
-        return el;
-      })}
-      <text x="18" y="20" textAnchor="middle" className="fill-gray-600 dark:fill-gray-300" style={{ fontSize: 8, fontWeight: 600 }}>{total}</text>
-    </svg>
-  );
-}
-
 function StatCard({
   value,
   label,
+  badge,
   popover,
 }: {
   value: string | number;
   label: string;
+  badge?: React.ReactNode;
   popover?: React.ReactNode;
 }) {
   const [open, setOpen] = useState(false);
   return (
     <div
       className="relative"
-      onMouseEnter={() => setOpen(true)}
-      onMouseLeave={() => setOpen(false)}
+      onClick={() => popover && setOpen((o) => !o)}
+      onBlur={() => setOpen(false)}
+      tabIndex={popover ? 0 : undefined}
     >
-      <div className="card p-4 text-center cursor-default hover:border-brand-500 transition-colors">
-        <div className="text-2xl font-bold text-brand-600 dark:text-brand-500">{value}</div>
+      <div className={"card p-4 text-center transition-colors " + (popover ? "cursor-pointer hover:border-brand-500" : "cursor-default")}>
+        <div className="flex items-center justify-center gap-1.5">
+          <span className="text-2xl font-bold text-brand-600 dark:text-brand-500">{value}</span>
+          {badge}
+        </div>
         <div className="text-xs text-gray-500 dark:text-gray-400 mt-1">{label}</div>
       </div>
       {popover && (
@@ -150,6 +137,25 @@ function StatCard({
   );
 }
 
+function TrendBadge({ current, previous }: { current: number; previous?: number }) {
+  if (previous == null || previous === 0) return null;
+  const pct = Math.round(((current - previous) / previous) * 100);
+  if (pct === 0) return null;
+  const up = pct > 0;
+  return (
+    <span className={`text-xs font-medium px-1.5 py-0.5 rounded-full ${up ? "bg-green-100 text-green-700 dark:bg-green-500/20 dark:text-green-400" : "bg-red-100 text-red-700 dark:bg-red-500/20 dark:text-red-400"}`}>
+      {up ? "↑" : "↓"}{Math.abs(pct)}%
+    </span>
+  );
+}
+
+function formatWeekLabel(label: string, isCurrent: boolean): string {
+  const m = label.match(/(\d{4})-(\d{2})-(\d{2}) ~ \d{4}-(\d{2})-(\d{2})/);
+  if (!m) return label;
+  const short = `${m[2]}.${m[3]}-${m[4]}.${m[5]}`;
+  return isCurrent ? `本周 (${short})` : short;
+}
+
 export default function WeeklyView({
   reports,
 }: {
@@ -159,12 +165,9 @@ export default function WeeklyView({
   const report = reports[idx];
   if (!report) return <p className="text-gray-500">暂无周报数据</p>;
 
-  const activeCats = report.sections.filter((s) => s.items.length > 0).length;
-  const donutData = report.categoryBreakdown
-    .filter((c) => c.count > 0)
-    .map((c) => ({ label: c.label, value: c.count, color: CATEGORY_COLORS[c.key] }));
   const weekdays = ["一", "二", "三", "四", "五", "六", "日"];
   const dayLabels = report.dailyBreakdown.map((_, i) => weekdays[i] ?? "");
+  const topHeat = report.topItems[0]?.heat ?? 0;
 
   return (
     <div>
@@ -177,20 +180,23 @@ export default function WeeklyView({
               onClick={() => setIdx(i)}
               className={
                 "px-3 py-1.5 rounded-md text-xs font-medium transition " +
-                (i === idx ? "bg-brand-500 text-white" : "text-gray-600 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800")
+                (i === idx
+                  ? "bg-brand-500 text-white"
+                  : "bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-700")
               }
             >
-              {i === 0 ? "本周" : r.weekLabel}
+              {formatWeekLabel(r.weekLabel, i === 0)}
             </button>
           ))}
         </div>
       )}
 
-      {/* Stats with popover cards */}
-      <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 mb-6">
+      {/* Stats with click-toggle popovers */}
+      <div className="grid grid-cols-3 gap-3 mb-6">
         <StatCard
           value={report.totalItems}
           label="本周资讯总量"
+          badge={<TrendBadge current={report.totalItems} previous={report.prevTotalItems} />}
           popover={
             <div>
               <h4 className="text-xs font-semibold dark:text-gray-100 mb-3">每日资讯分布</h4>
@@ -229,33 +235,19 @@ export default function WeeklyView({
         />
 
         <StatCard
-          value={activeCats}
-          label="覆盖分类"
-          popover={
+          value={topHeat > 0 ? topHeat.toLocaleString() : "—"}
+          label="最高热度"
+          popover={report.topItems[0] ? (
             <div>
-              <h4 className="text-xs font-semibold dark:text-gray-100 mb-3">分类占比分布</h4>
-              <div className="flex items-center gap-4">
-                <MiniDonut data={donutData} />
-                <div className="space-y-1.5 flex-1">
-                  {donutData.map((d) => {
-                    const pct = report.totalItems > 0 ? Math.round((d.value / report.totalItems) * 100) : 0;
-                    return (
-                      <div key={d.label} className="flex items-center gap-2 text-xs">
-                        <span className="w-2.5 h-2.5 rounded-full shrink-0" style={{ background: d.color }} />
-                        <span className="text-gray-700 dark:text-gray-200 flex-1">{d.label}</span>
-                        <span className="text-gray-400 tabular-nums">{d.value}</span>
-                        <span className="text-gray-300 dark:text-gray-600 tabular-nums text-[10px] w-7 text-right">{pct}%</span>
-                      </div>
-                    );
-                  })}
-                </div>
-              </div>
+              <h4 className="text-xs font-semibold dark:text-gray-100 mb-2">本周最热</h4>
+              <p className="text-xs text-gray-700 dark:text-gray-200 leading-relaxed">{report.topItems[0].title}</p>
+              <p className="text-[11px] text-gray-400 mt-1">{report.topItems[0].source}</p>
             </div>
-          }
+          ) : undefined}
         />
       </div>
 
-      {/* AI Weekly Insight — unified section (insight preferred, fallback to topSummary) */}
+      {/* AI Weekly Insight — unified section */}
       {(report.weeklyInsight || report.topSummary) && (
         <div className="bg-brand-50 dark:bg-brand-500/10 border border-brand-100 dark:border-brand-500/20 rounded-xl px-5 py-4 mb-6">
           <h2 className="text-sm font-semibold text-brand-700 dark:text-brand-500 mb-3 flex items-center gap-2">
@@ -279,9 +271,9 @@ export default function WeeklyView({
         {report.topItems.length === 0 ? (
           <p className="text-sm text-gray-500">本周暂无数据</p>
         ) : (
-          <ol className="space-y-3">
+          <ol className="divide-y divide-gray-100 dark:divide-gray-800">
             {report.topItems.map((item, i) => (
-              <li key={item.id} className="flex gap-3">
+              <li key={item.id} className="flex gap-3 py-3 first:pt-0 last:pb-0">
                 <span
                   className={
                     "shrink-0 w-6 h-6 grid place-items-center rounded-md font-mono text-xs font-semibold " +
@@ -312,6 +304,12 @@ export default function WeeklyView({
         )}
       </section>
 
+      {/* Footer navigation */}
+      <nav className="flex items-center justify-center gap-6 text-sm text-gray-500 dark:text-gray-400 py-4">
+        <Link href="/" className="hover:text-brand-600 transition-colors">← 返回首页</Link>
+        <Link href="/daily" className="hover:text-brand-600 transition-colors">查看日报</Link>
+        <Link href="/feed.xml" className="hover:text-brand-600 transition-colors">RSS 订阅</Link>
+      </nav>
     </div>
   );
 }
