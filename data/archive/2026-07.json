@@ -2220,7 +2220,7 @@
       "edge-extension",
       "JavaScript"
     ],
-    "heat": 1343,
+    "heat": 1347,
     "aiSelected": true,
     "origin": "github",
     "firstSeen": "2026-07-01T23:45:11.271Z",
@@ -7283,7 +7283,7 @@
       "android-reverse-engineering",
       "Python"
     ],
-    "heat": 1047,
+    "heat": 1050,
     "aiSelected": true,
     "origin": "github",
     "firstSeen": "2026-07-08T23:30:49.458Z",
@@ -7799,7 +7799,7 @@
       "offensive-security",
       "TypeScript"
     ],
-    "heat": 6807,
+    "heat": 6812,
     "aiSelected": true,
     "origin": "github",
     "firstSeen": "2026-07-05T23:19:58.852Z",
@@ -9521,7 +9521,7 @@
       "bun",
       "TypeScript"
     ],
-    "heat": 3426,
+    "heat": 3429,
     "aiSelected": true,
     "origin": "github",
     "firstSeen": "2026-07-06T23:32:47.968Z",
@@ -12399,7 +12399,7 @@
       "codex",
       "HTML"
     ],
-    "heat": 2999,
+    "heat": 3002,
     "aiSelected": true,
     "origin": "github",
     "firstSeen": "2026-07-07T23:15:19.724Z",
@@ -14860,7 +14860,7 @@
       "multi-provider",
       "Go"
     ],
-    "heat": 249,
+    "heat": 251,
     "aiSelected": true,
     "origin": "github",
     "firstSeen": "2026-07-08T23:30:49.458Z",
@@ -17226,7 +17226,7 @@
     "tags": [
       "Hacker News"
     ],
-    "heat": 261,
+    "heat": 262,
     "aiSelected": true,
     "origin": "hackernews",
     "firstSeen": "2026-07-09T23:38:05.213Z",
@@ -18200,7 +18200,7 @@
     "origin": "rss:qbitai",
     "heat": 0,
     "firstSeen": "2026-07-10T23:14:00.674Z",
-    "aiNote": null
+    "aiNote": "AI从辅助工具跃升为核心调度者，标志着生物研发流程的范式级变革。"
   },
   {
     "id": "rss:ithome-7686b25a95",
@@ -18230,7 +18230,7 @@
     "origin": "rss:infoq",
     "heat": 0,
     "firstSeen": "2026-07-10T23:14:00.674Z",
-    "aiNote": null
+    "aiNote": "GPT-5.6与Claude正面交锋，ChatGPT Work转型超级应用，Altman澄清不取代C"
   },
   {
     "id": "rss:techcrunch-ai-33cb29d0b7",
@@ -18245,7 +18245,7 @@
     "origin": "rss:techcrunch-ai",
     "heat": 0,
     "firstSeen": "2026-07-10T23:14:00.674Z",
-    "aiNote": null
+    "aiNote": "开源AI生态爆发，Hugging Face成核心枢纽，重塑企业AI开发模式。"
   },
   {
     "id": "rss:theverge-ai-3fd5be624e",
@@ -18260,7 +18260,7 @@
     "origin": "rss:theverge-ai",
     "heat": 0,
     "firstSeen": "2026-07-10T23:14:00.674Z",
-    "aiNote": null
+    "aiNote": "Meta高管表态：用户可主动屏蔽AI内容，但平台不会强制过滤，折射出AI内容治理的争议。"
   },
   {
     "id": "hn-676b425bc8",
@@ -19624,7 +19624,7 @@
       "ai4s",
       "TypeScript"
     ],
-    "heat": 1010,
+    "heat": 1011,
     "aiSelected": true,
     "origin": "github",
     "firstSeen": "2026-07-10T23:14:00.674Z",
@@ -20232,7 +20232,7 @@
     "origin": "rss:theverge-ai",
     "heat": 0,
     "firstSeen": "2026-07-11T23:11:46.460Z",
-    "aiNote": null
+    "aiNote": "Meta因争议紧急关停AI深度伪造功能，暴露技术滥用风险，值得关注。"
   },
   {
     "id": "hn-337904a3b0",
@@ -20249,7 +20249,7 @@
     "aiSelected": true,
     "origin": "hackernews",
     "firstSeen": "2026-07-11T23:11:46.460Z",
-    "aiNote": null
+    "aiNote": "AI无法复现经典游戏，却揭示其机制理解的新维度，展现人机协作的独特价值。"
   },
   {
     "id": "hn-ee65cde73b",
@@ -20266,7 +20266,7 @@
     "aiSelected": true,
     "origin": "hackernews",
     "firstSeen": "2026-07-11T23:11:46.460Z",
-    "aiNote": null
+    "aiNote": "幽灵漏洞潜伏十五年，Linux全版本受威胁，暴露内核安全长期隐患。"
   },
   {
     "id": "hn-1c36b91d9c",
@@ -20372,7 +20372,7 @@
       "design-tools",
       "JavaScript"
     ],
-    "heat": 633,
+    "heat": 635,
     "aiSelected": true,
     "origin": "github",
     "firstSeen": "2026-07-11T23:11:46.460Z",
@@ -20539,7 +20539,7 @@
     "tags": [
       "Hacker News"
     ],
-    "heat": 57,
+    "heat": 59,
     "aiSelected": true,
     "origin": "hackernews",
     "firstSeen": "2026-07-12T23:10:01.991Z",
@@ -20571,7 +20571,7 @@
     "tags": [
       "Hacker News"
     ],
-    "heat": 165,
+    "heat": 170,
     "aiSelected": true,
     "origin": "hackernews",
     "firstSeen": "2026-07-12T23:10:01.991Z",
@@ -20588,7 +20588,7 @@
     "tags": [
       "Hacker News"
     ],
-    "heat": 350,
+    "heat": 356,
     "aiSelected": true,
     "origin": "hackernews",
     "firstSeen": "2026-07-12T23:10:01.991Z",
@@ -20605,7 +20605,7 @@
     "tags": [
       "Hacker News"
     ],
-    "heat": 488,
+    "heat": 493,
     "aiSelected": true,
     "origin": "hackernews",
     "firstSeen": "2026-07-12T23:10:01.991Z",
@@ -20622,7 +20622,7 @@
     "tags": [
       "Hacker News"
     ],
-    "heat": 86,
+    "heat": 87,
     "aiSelected": true,
     "origin": "hackernews",
     "firstSeen": "2026-07-12T23:10:01.991Z",
@@ -20656,7 +20656,7 @@
     "tags": [
       "Hacker News"
     ],
-    "heat": 88,
+    "heat": 90,
     "aiSelected": true,
     "origin": "hackernews",
     "firstSeen": "2026-07-12T23:10:01.991Z",
@@ -20673,7 +20673,7 @@
     "tags": [
       "Hacker News"
     ],
-    "heat": 152,
+    "heat": 153,
     "aiSelected": true,
     "origin": "hackernews",
     "firstSeen": "2026-07-12T23:10:01.991Z",
@@ -20970,7 +20970,7 @@
     "tags": [
       "Hacker News"
     ],
-    "heat": 409,
+    "heat": 411,
     "aiSelected": true,
     "origin": "hackernews",
     "firstSeen": "2026-07-12T23:10:01.991Z",
@@ -21004,7 +21004,7 @@
     "tags": [
       "Hacker News"
     ],
-    "heat": 42,
+    "heat": 43,
     "aiSelected": true,
     "origin": "hackernews",
     "firstSeen": "2026-07-12T23:10:01.991Z",
@@ -21384,7 +21384,7 @@
     "tags": [
       "Hacker News"
     ],
-    "heat": 46,
+    "heat": 47,
     "aiSelected": true,
     "origin": "hackernews",
     "firstSeen": "2026-07-13T03:26:10.807Z",
@@ -21463,7 +21463,7 @@
     "origin": "rss:wired-ai",
     "heat": 0,
     "firstSeen": "2026-07-13T03:26:10.807Z",
-    "aiNote": null
+    "aiNote": "苹果起诉OpenAI窃密，凸显大厂间人才与技术的激烈竞争。"
   },
   {
     "id": "arxiv-2607.09662v1",
@@ -21481,7 +21481,7 @@
     "origin": "arxiv",
     "heat": 0,
     "firstSeen": "2026-07-13T03:26:10.807Z",
-    "aiNote": null
+    "aiNote": "用拓扑数据分析梦境脑电，开创分类与信号合成新路径，突破传统频谱方法局限。"
   },
   {
     "id": "arxiv-2607.09654v1",
@@ -21499,7 +21499,7 @@
     "origin": "arxiv",
     "heat": 0,
     "firstSeen": "2026-07-13T03:26:10.807Z",
-    "aiNote": null
+    "aiNote": "十年视觉语言模型进化揭示：精度提升中，视觉认知错误揭示了人类与AI感知的深层差异。"
   },
   {
     "id": "arxiv-2607.09653v1",
@@ -21517,7 +21517,7 @@
     "origin": "arxiv",
     "heat": 0,
     "firstSeen": "2026-07-13T03:26:10.807Z",
-    "aiNote": null
+    "aiNote": "用AI代理自动挖掘物联网漏洞，突破传统测试瓶颈，提升安全检测效率。"
   },
   {
     "id": "arxiv-2607.09649v1",
@@ -21535,7 +21535,7 @@
     "origin": "arxiv",
     "heat": 0,
     "firstSeen": "2026-07-13T03:26:10.807Z",
-    "aiNote": null
+    "aiNote": "为概念解释AI可信度提供审计，填补可解释性安全验证空白。"
   },
   {
     "id": "arxiv-2607.09645v1",
@@ -21553,7 +21553,7 @@
     "origin": "arxiv",
     "heat": 0,
     "firstSeen": "2026-07-13T03:26:10.807Z",
-    "aiNote": null
+    "aiNote": "将深度高斯过程拓展至有向无环图，为复杂因果关系建模提供全新框架，兼具理论严谨性与实际应用潜力。"
   },
   {
     "id": "arxiv-2607.09641v1",
@@ -21571,7 +21571,7 @@
     "origin": "arxiv",
     "heat": 0,
     "firstSeen": "2026-07-13T03:26:10.807Z",
-    "aiNote": null
+    "aiNote": "多目标强化学习框架直击金融欺诈检测的类别失衡痛点，为平衡准确率与召回率提供新思路。"
   },
   {
     "id": "arxiv-2607.09632v1",
@@ -21589,7 +21589,7 @@
     "origin": "arxiv",
     "heat": 0,
     "firstSeen": "2026-07-13T03:26:10.807Z",
-    "aiNote": null
+    "aiNote": "用数学定理证明量子信息理论，确保算法和通信绝对可靠，这是通往实用量子计算的关键一步。"
   },
   {
     "id": "arxiv-2607.09629v1",
@@ -21607,7 +21607,7 @@
     "origin": "arxiv",
     "heat": 0,
     "firstSeen": "2026-07-13T03:26:10.807Z",
-    "aiNote": null
+    "aiNote": "结合4D雷达与相机实现联合3D检测和占用预测，大幅提升全场景感知的可靠性与经济性。"
   },
   {
     "id": "arxiv-2607.09623v1",
@@ -21625,7 +21625,7 @@
     "origin": "arxiv",
     "heat": 0,
     "firstSeen": "2026-07-13T03:26:10.807Z",
-    "aiNote": null
+    "aiNote": "置信度校准与增量推理结合，为多模态问答提供高效新思路，技术方案值得关注。"
   },
   {
     "id": "arxiv-2607.09616v1",
@@ -21643,7 +21643,7 @@
     "origin": "arxiv",
     "heat": 0,
     "firstSeen": "2026-07-13T03:26:10.807Z",
-    "aiNote": null
+    "aiNote": "LLM切入芯片前端设计，有望打破EDA工具瓶颈，值得关注其实际落地挑战。"
   },
   {
     "id": "arxiv-2607.09611v1",
@@ -21661,7 +21661,7 @@
     "origin": "arxiv",
     "heat": 0,
     "firstSeen": "2026-07-13T03:26:10.807Z",
-    "aiNote": null
+    "aiNote": "突破孤立手语识别，实现句子级实时翻译，让自然交流不再受限。"
   },
   {
     "id": "arxiv-2607.09600v1",
@@ -21679,7 +21679,7 @@
     "origin": "arxiv",
     "heat": 0,
     "firstSeen": "2026-07-13T03:26:10.807Z",
-    "aiNote": null
+    "aiNote": "用拍卖机制分配任务，提升大模型推理效率，为多智能体协作提供新思路。"
   },
   {
     "id": "arxiv-2607.09598v1",
@@ -21697,7 +21697,7 @@
     "origin": "arxiv",
     "heat": 0,
     "firstSeen": "2026-07-13T03:26:10.807Z",
-    "aiNote": null
+    "aiNote": "孟加拉语ASR边缘部署的轻量化方案，解决自回归崩溃问题，填补低资源语言语音识别空白。"
   },
   {
     "id": "arxiv-2607.09590v1",
@@ -21715,7 +21715,7 @@
     "origin": "arxiv",
     "heat": 0,
     "firstSeen": "2026-07-13T03:26:10.807Z",
-    "aiNote": null
+    "aiNote": "用强化学习微调动作块，提升机器人接触操作的鲁棒性和泛化能力。"
   },
   {
     "id": "arxiv-2607.09586v1",
@@ -21733,7 +21733,7 @@
     "origin": "arxiv",
     "heat": 0,
     "firstSeen": "2026-07-13T03:26:10.807Z",
-    "aiNote": null
+    "aiNote": "首个针对企业内部AI代理系统的分级风控框架，填补了通用框架在代理型AI治理上的空白。"
   },
   {
     "id": "arxiv-2607.09582v1",
@@ -21751,7 +21751,7 @@
     "origin": "arxiv",
     "heat": 0,
     "firstSeen": "2026-07-13T03:26:10.807Z",
-    "aiNote": null
+    "aiNote": "结合物理约束与残差数据增强，显著加速湍流燃烧模拟，突破传统计算瓶颈。"
   },
   {
     "id": "arxiv-2607.09578v1",
@@ -21769,7 +21769,7 @@
     "origin": "arxiv",
     "heat": 0,
     "firstSeen": "2026-07-13T03:26:10.807Z",
-    "aiNote": null
+    "aiNote": "知识图谱与可解释AI结合，让城市矿产审计更透明可信。"
   },
   {
     "id": "arxiv-2607.09576v1",
@@ -21787,7 +21787,7 @@
     "origin": "arxiv",
     "heat": 0,
     "firstSeen": "2026-07-13T03:26:10.807Z",
-    "aiNote": null
+    "aiNote": "用图网络建模多语言习语，突破文化壁垒，为机器理解比喻意义提供可解释路径。"
   },
   {
     "id": "arxiv-2607.09566v1",
@@ -21805,7 +21805,7 @@
     "origin": "arxiv",
     "heat": 0,
     "firstSeen": "2026-07-13T03:26:10.807Z",
-    "aiNote": null
+    "aiNote": "多目标进化算法突破基数约束，为海量投资组合优化提供全新高效路径。"
   },
   {
     "id": "rss:wired-ai-340e44d2c6",
@@ -21918,7 +21918,7 @@
       "论文",
       "arXiv"
     ],
-    "heat": 8,
+    "heat": 11,
     "aiSelected": true,
     "origin": "hf-papers",
     "firstSeen": "2026-07-13T03:26:10.807Z",
@@ -22113,6 +22113,89 @@
     "aiSelected": true,
     "origin": "github",
     "firstSeen": "2026-07-13T03:26:10.807Z",
+    "aiNote": null
+  },
+  {
+    "id": "rss:36kr-fc560dc2e7",
+    "title": "阶跃星辰成立启跃星辰智能科技公司，注册资本1000万",
+    "summary": "36氪获悉，天眼查App显示，近日，上海启跃星辰智能科技有限公司成立，法定代表人为倪佳红，注册资本1000万人民币，经营范围包括人工智能行业应用系统集成服务、人工智能应用软件开发、人工智能理论与算法软件开发等。股东信息显示，该公司由上海阶跃星辰智能科技股份有限公司全资持股。",
+    "source": "36氪",
+    "sourceUrl": "https://36kr.com/newsflashes/3893531254471170?f=rss",
+    "category": "industry",
+    "publishedAt": "2026-07-13T03:44:48.000Z",
+    "image": null,
+    "aiSelected": true,
+    "origin": "rss:36kr",
+    "heat": 0,
+    "firstSeen": "2026-07-13T03:45:55.313Z",
+    "aiNote": "大模型公司加速布局应用层，行业竞争从技术研发转向商业化落地。"
+  },
+  {
+    "id": "rss:36kr-26fffbef67",
+    "title": "A股三大指数午间休盘集体下跌，全市场超4500股飘绿",
+    "summary": "36氪获悉，A股三大指数午间休盘集体下跌，沪指跌1.54%，深成指跌2.61%，创业板跌2.38%；半导体、算力股领跌，大族激光、亨通光电跌停，兆易创新、京东方A跌超8%； 制药板块逆势走强，陇神戎发、立方制药涨停；个股呈普跌态势，全市场超4500股飘绿。",
+    "source": "36氪",
+    "sourceUrl": "https://36kr.com/newsflashes/3893521045666310?f=rss",
+    "category": "industry",
+    "publishedAt": "2026-07-13T03:34:25.000Z",
+    "image": null,
+    "aiSelected": true,
+    "origin": "rss:36kr",
+    "heat": 0,
+    "firstSeen": "2026-07-13T03:45:55.313Z",
+    "aiNote": "市场恐慌情绪蔓延，超4500股下跌显示资金避险，但制药板块逆势涨停或预示结构性机会。"
+  },
+  {
+    "id": "rss:ithome-3b94e45575",
+    "title": "谷歌抢苹果首发？曝 Tensor G6 芯片将率先用上台积电 2nm 工艺",
+    "summary": "IT之家 7 月 13 日消息，据中国台湾地区媒体《经济日报》今天报道，台积电 2nm 制程工艺已开始量产。出人意料的是，谷歌这次似乎抢到了沙发，其 8 月中旬推出的 Pixel 11 系列手机，预计将搭载台积电 2nm 打造的 Tensor G6 芯片，比苹果还早一个月。 IT之家从原报道获悉，台积电过往推出最新制程，苹果都是首个采用并导入自家移动设备的客…",
+    "source": "IT之家",
+    "sourceUrl": "https://www.ithome.com/0/975/909.htm",
+    "category": "industry",
+    "publishedAt": "2026-07-13T03:33:12.000Z",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/9618edbc-23f4-466e-b102-a2c89ba416b0.png?x-bce-process=image/format,f_auto",
+    "aiSelected": true,
+    "origin": "rss:ithome",
+    "heat": 0,
+    "firstSeen": "2026-07-13T03:45:55.313Z",
+    "aiNote": "谷歌抢先苹果用上台积电2nm，可能打破芯片首发格局，值得关注。"
+  },
+  {
+    "id": "hf-2607.08964",
+    "title": "Long-Horizon-Terminal-Bench: Testing the Limits of Agents on Long-Horizon Terminal Tasks with Dense Reward-Based Grading",
+    "summary": "AI agents have become capable of autonomously completing short, well-specified tasks. However, existing terminal benchmarks largely focus on simple problems that finish within minutes and are evaluate…",
+    "source": "HuggingFace Papers",
+    "sourceUrl": "https://huggingface.co/papers/2607.08964",
+    "category": "paper",
+    "publishedAt": "2026-07-08T20:00:00.000Z",
+    "tags": [
+      "论文",
+      "arXiv"
+    ],
+    "heat": 12,
+    "aiSelected": true,
+    "origin": "hf-papers",
+    "firstSeen": "2026-07-13T03:45:55.313Z",
+    "aiNote": null
+  },
+  {
+    "id": "gh-oceanflowlab-atomicdance",
+    "title": "oceanflowlab/AtomicDance",
+    "summary": "[ECCV 2026] Music-to-Dance Generation via Atomic Movements",
+    "source": "GitHub",
+    "sourceUrl": "https://github.com/oceanflowlab/AtomicDance",
+    "category": "ai-products",
+    "publishedAt": "2026-06-22T04:32:24Z",
+    "tags": [
+      "dance-generation",
+      "diffusion-models",
+      "human-motion-generation",
+      "Python"
+    ],
+    "heat": 2,
+    "aiSelected": true,
+    "origin": "github",
+    "firstSeen": "2026-07-13T03:45:55.313Z",
     "aiNote": null
   }
 ]
