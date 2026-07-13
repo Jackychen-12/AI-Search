@@ -12,17 +12,20 @@ function parseBold(text: string): React.ReactNode[] {
 }
 
 function InsightSection({ markdown }: { markdown: string }) {
-  const blocks = markdown.split(/^## /m).filter(Boolean);
+  const cleaned = markdown.replace(/^# .+\n?/gm, "");
+  const blocks = cleaned.split(/^## /m).filter((b) => b.trim());
   return (
-    <div className="space-y-4">
+    <div className="space-y-3">
       {blocks.map((block, bi) => {
         const lines = block.split("\n").filter((l) => l.trim());
         const title = lines[0]?.trim();
         const body = lines.slice(1);
         return (
-          <div key={bi}>
+          <div key={bi} className="bg-white/60 dark:bg-gray-800/40 rounded-lg p-4">
             {title && (
-              <h3 className="text-sm font-semibold text-brand-700 dark:text-brand-400 mb-2">{title}</h3>
+              <h3 className="inline-block bg-brand-100 dark:bg-brand-500/20 text-brand-700 dark:text-brand-400 rounded-md px-3 py-1 text-sm font-semibold mb-3">
+                {title}
+              </h3>
             )}
             <div className="space-y-1.5">
               {body.map((line, li) => {
