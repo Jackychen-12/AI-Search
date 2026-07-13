@@ -4,16 +4,67 @@ import { useState } from "react";
 import type { WeeklyReport } from "@/lib/weekly";
 import { CATEGORY_COLORS } from "@/lib/trends";
 
-function insightToHtml(md: string): string {
-  return md
-    .replace(/^## (.+)$/gm, "<h2>$1</h2>")
-    .replace(/^### (.+)$/gm, "<h3>$1</h3>")
-    .replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>")
-    .replace(/^- (.+)$/gm, "<li>$1</li>")
-    .replace(/(<li>.*<\/li>\n?)+/g, (m) => `<ul>${m}</ul>`)
-    .replace(/\n{2,}/g, "</p><p>")
-    .replace(/^(?!<[hul])(.+)$/gm, "<p>$1</p>")
-    .replace(/<p><\/p>/g, "");
+function parseBold(text: string): React.ReactNode[] {
+  const parts = text.split(/\*\*(.+?)\*\*/g);
+  return parts.map((p, i) =>
+    i % 2 === 1 ? <strong key={i} className="font-semibold text-brand-800 dark:text-brand-400">{p}</strong> : p
+  );
+}
+
+function InsightSection({ markdown }: { markdown: string }) {
+  const blocks = markdown.split(/^## /m).filter(Boolean);
+  return (
+    <div className="space-y-4">
+      {blocks.map((block, bi) => {
+        const lines = block.split("\n").filter((l) => l.trim());
+        const title = lines[0]?.trim();
+        const body = lines.slice(1);
+        return (
+          <div key={bi}>
+            {title && (
+              <h3 className="text-sm font-semibold text-brand-700 dark:text-brand-400 mb-2">{title}</h3>
+            )}
+            <div className="space-y-1.5">
+              {body.map((line, li) => {
+                const numbered = line.match(/^\d+\.\s+(.+)/);
+                const bulleted = line.match(/^[-*]\s+(.+)/);
+                if (numbered) {
+                  return (
+                    <div key={li} className="flex gap-2 text-sm text-gray-700 dark:text-gray-300 leading-relaxed">
+                      <span className="shrink-0 w-5 h-5 rounded-full bg-brand-100 dark:bg-brand-500/20 text-brand-600 dark:text-brand-400 grid place-items-center text-[10px] font-bold mt-0.5">
+                        {line.match(/^(\d+)/)?.[1]}
+                      </span>
+                      <span className="flex-1">{parseBold(numbered[1])}</span>
+                    </div>
+                  );
+                }
+                if (bulleted) {
+                  return (
+                    <div key={li} className="flex gap-2 text-sm text-gray-700 dark:text-gray-300 leading-relaxed">
+                      <span className="shrink-0 w-1.5 h-1.5 rounded-full bg-brand-400 dark:bg-brand-500 mt-2" />
+                      <span className="flex-1">{parseBold(bulleted[1])}</span>
+                    </div>
+                  );
+                }
+                if (line.match(/^###\s+/)) {
+                  return (
+                    <h4 key={li} className="text-sm font-medium text-gray-800 dark:text-gray-200 mt-2">
+                      {line.replace(/^###\s+/, "")}
+                    </h4>
+                  );
+                }
+                return (
+                  <p key={li} className="text-sm text-gray-700 dark:text-gray-300 leading-relaxed">
+                    {parseBold(line)}
+                  </p>
+                );
+              })}
+            </div>
+          </div>
+        );
+      })}
+    </div>
+  );
 }
 
 function MiniBar({ data, color = "#3b6cff", labels }: { data: number[]; color?: string; labels?: string[] }) {
@@ -201,30 +252,18 @@ export default function WeeklyView({
         />
       </div>
 
-      {/* AI Weekly Summary */}
-      {report.topSummary && (
+      {/* AI Weekly Insight — unified section (insight preferred, fallback to topSummary) */}
+      {(report.weeklyInsight || report.topSummary) && (
         <div className="bg-brand-50 dark:bg-brand-500/10 border border-brand-100 dark:border-brand-500/20 rounded-xl px-5 py-4 mb-6">
-          <h2 className="text-sm font-semibold text-brand-700 dark:text-brand-500 mb-2 flex items-center gap-2">
+          <h2 className="text-sm font-semibold text-brand-700 dark:text-brand-500 mb-3 flex items-center gap-2">
             <span className="w-5 h-5 rounded-md bg-brand-500 text-white grid place-items-center text-[10px] font-bold">AI</span>
-            本周重点
+            {report.weeklyInsight ? "AI 周度洞察" : "本周重点"}
           </h2>
-          <p className="text-sm text-brand-800 dark:text-brand-400 leading-relaxed">{report.topSummary}</p>
-        </div>
-      )}
-
-      {/* AI Weekly Insight Report */}
-      {report.weeklyInsight && (
-        <div className="card border-l-4 border-l-brand-500 px-5 py-4 mb-6">
-          <h2 className="text-sm font-semibold dark:text-gray-100 mb-3 flex items-center gap-2">
-            <span className="w-5 h-5 rounded-md bg-gradient-to-br from-brand-500 to-brand-700 text-white grid place-items-center text-[10px] font-bold">AI</span>
-            周度洞察报告
-          </h2>
-          <div
-            className="prose prose-sm dark:prose-invert max-w-none text-gray-700 dark:text-gray-300 leading-relaxed
-              prose-h2:text-base prose-h2:font-semibold prose-h2:mt-4 prose-h2:mb-2
-              prose-p:my-1.5 prose-ul:my-1.5 prose-li:my-0.5"
-            dangerouslySetInnerHTML={{ __html: insightToHtml(report.weeklyInsight) }}
-          />
+          {report.weeklyInsight ? (
+            <InsightSection markdown={report.weeklyInsight} />
+          ) : (
+            <p className="text-sm text-brand-800 dark:text-brand-400 leading-relaxed">{report.topSummary}</p>
+          )}
         </div>
       )}
 
@@ -270,49 +309,6 @@ export default function WeeklyView({
         )}
       </section>
 
-      {/* Category sections with AI summary */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
-        {report.sections
-          .filter((s) => s.items.length > 0)
-          .map((sec) => (
-            <section key={sec.key} className="card p-4">
-              <h3 className="text-sm font-semibold dark:text-gray-100 mb-2 flex items-center gap-2">
-                <span className="w-3 h-3 rounded-full" style={{ background: CATEGORY_COLORS[sec.key] }} />
-                {sec.label}
-                <span className="text-xs text-gray-400 font-normal">{sec.items.length} 条</span>
-              </h3>
-              <ul className="space-y-2">
-                {sec.items.map((item) => (
-                  <li key={item.id}>
-                    <a href={item.sourceUrl} target="_blank" rel="noreferrer" className="text-sm text-gray-700 dark:text-gray-300 hover:text-brand-600 line-clamp-2 leading-snug">
-                      {item.title}
-                    </a>
-                    {item.aiNote && (
-                      <p className="text-[11px] text-gray-400 dark:text-gray-500 mt-0.5 line-clamp-1">{item.aiNote}</p>
-                    )}
-                  </li>
-                ))}
-              </ul>
-            </section>
-          ))}
-      </div>
-
-      {/* Source breakdown */}
-      {report.topSources.length > 0 && (
-        <section className="card p-4">
-          <h3 className="text-sm font-semibold dark:text-gray-100 mb-3 flex items-center gap-2">
-            <span className="w-1 h-4 bg-brand-500 rounded-sm" />
-            本周活跃来源
-          </h3>
-          <div className="flex flex-wrap gap-2">
-            {report.topSources.map((s) => (
-              <span key={s.name} className="px-2.5 py-1 rounded-full text-xs border border-gray-200 dark:border-gray-600 text-gray-600 dark:text-gray-300">
-                {s.name} <span className="text-gray-400">{s.count}</span>
-              </span>
-            ))}
-          </div>
-        </section>
-      )}
     </div>
   );
 }
