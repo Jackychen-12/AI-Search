@@ -1,37 +1,37 @@
 {
-  "date": "2026-07-14",
-  "generatedAt": "2026-07-13T23:22:34.453Z",
+  "date": "2026-07-15",
+  "generatedAt": "2026-07-14T23:20:18.286Z",
   "picks": [
     {
       "title": "Zig Creator Calls Spade a Spade, Anthropic Blows Smoke",
       "sourceUrl": "https://raymyers.org/post/zed-creator-calls-spade-a-spade/",
       "source": "Hacker News",
-      "reason": "Zig创始人直言不讳，批评Anthropic夸大其词，引发热议。"
-    },
-    {
-      "title": "Claude Code sends 33k tokens before reading the prompt; OpenCode sends 7k",
-      "sourceUrl": "https://systima.ai/blog/claude-code-vs-opencode-token-overhead",
-      "source": "Hacker News",
-      "reason": "Claude Code token消耗惊人，对比OpenCode差距显著。"
-    },
-    {
-      "title": "Nvidia, CoreWeave, and Nebius: Inside the Circular Financing of the GPU Boom",
-      "sourceUrl": "https://io-fund.com/ai-stocks/nvidia-coreweave-nebius-circular-financing-gpu-boom",
-      "source": "Hacker News",
-      "reason": "揭露GPU繁荣背后的循环融资内幕，行业深度剖析。"
+      "reason": "Zig创始人直指Anthropic夸大宣传，行业大佬批评AI炒作。"
     },
     {
       "title": "Samsung Health app threatens data deletion if users opt out AI training",
       "sourceUrl": "https://neow.in/cWsyMTV3",
       "source": "Hacker News",
-      "reason": "Samsung Health威胁删除数据，用户隐私与AI训练冲突。"
+      "reason": "三星健康App威胁删除数据，用户隐私与AI训练冲突引热议。"
     },
     {
-      "title": "Ghost Font: A font that humans can read but AI cannot",
-      "sourceUrl": "https://www.mixfont.com/ghost-font",
+      "title": "Claude Code sends 33k tokens before reading the prompt; OpenCode sends 7k",
+      "sourceUrl": "https://systima.ai/blog/claude-code-vs-opencode-token-overhead",
       "source": "Hacker News",
-      "reason": "人可读而AI不可读的字体，对抗AI识别的新奇创意。"
+      "reason": "Claude Code与OpenCode token消耗对比，揭示AI工具效率差"
+    },
+    {
+      "title": "Cursor 0day: When Full Disclosure Becomes the Only Protection Left",
+      "sourceUrl": "https://mindgard.ai/blog/cursor-0day-when-full-disclosure-becomes-the-only-protection-left",
+      "source": "Hacker News",
+      "reason": "Cursor 0day漏洞曝光，全量披露成唯一保护，引发安全讨论。"
+    },
+    {
+      "title": "Are we offloading too much of our thinking to AI?",
+      "sourceUrl": "https://www.artfish.ai/p/offloading-thinking-to-ai",
+      "source": "Hacker News",
+      "reason": "反思过度依赖AI思考，触及AI时代人类认知边界核心问题。"
     }
   ],
-  "trendSummary": "本周AI圈开源项目热度飙升，同时苹果起诉OpenAI窃密，GPT-5.6传闻引发关注，Zig创始人则直言批评Anthropic的炒作行为。"
+  "trendSummary": "本周AI圈聚焦模型争议与开源工具，苹果起诉OpenAI泄露机密，GPT-5.6传闻再起，同时多个实用项目如T3MP3ST和Windows-Copilot-API引发关注。"
 }
