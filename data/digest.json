@@ -1,37 +1,37 @@
 {
-  "date": "2026-07-15",
-  "generatedAt": "2026-07-14T23:20:18.286Z",
+  "date": "2026-07-16",
+  "generatedAt": "2026-07-15T23:21:32.063Z",
   "picks": [
-    {
-      "title": "Zig Creator Calls Spade a Spade, Anthropic Blows Smoke",
-      "sourceUrl": "https://raymyers.org/post/zed-creator-calls-spade-a-spade/",
-      "source": "Hacker News",
-      "reason": "Zig创始人直指Anthropic夸大宣传，行业大佬批评AI炒作。"
-    },
-    {
-      "title": "Samsung Health app threatens data deletion if users opt out AI training",
-      "sourceUrl": "https://neow.in/cWsyMTV3",
-      "source": "Hacker News",
-      "reason": "三星健康App威胁删除数据，用户隐私与AI训练冲突引热议。"
-    },
-    {
-      "title": "Claude Code sends 33k tokens before reading the prompt; OpenCode sends 7k",
-      "sourceUrl": "https://systima.ai/blog/claude-code-vs-opencode-token-overhead",
-      "source": "Hacker News",
-      "reason": "Claude Code与OpenCode token消耗对比，揭示AI工具效率差"
-    },
     {
       "title": "Cursor 0day: When Full Disclosure Becomes the Only Protection Left",
       "sourceUrl": "https://mindgard.ai/blog/cursor-0day-when-full-disclosure-becomes-the-only-protection-left",
       "source": "Hacker News",
-      "reason": "Cursor 0day漏洞曝光，全量披露成唯一保护，引发安全讨论。"
+      "reason": "Cursor 0day漏洞曝光，全披露成唯一保护。"
     },
     {
       "title": "Are we offloading too much of our thinking to AI?",
       "sourceUrl": "https://www.artfish.ai/p/offloading-thinking-to-ai",
       "source": "Hacker News",
-      "reason": "反思过度依赖AI思考，触及AI时代人类认知边界核心问题。"
+      "reason": "反思AI过度依赖，引发深度讨论。"
+    },
+    {
+      "title": "The Three-Second Theft: Why AI Voice Fraud Outruns Every Defence",
+      "sourceUrl": "https://smarterarticles.co.uk/the-three-second-theft-why-ai-voice-fraud-outruns-every-defence",
+      "source": "Hacker News",
+      "reason": "AI语音欺诈三秒得手，防御全面失效。"
+    },
+    {
+      "title": "Running Gemma 4 26B at 5 tokens/sec on a 13-year-old Xeon with no GPU",
+      "sourceUrl": "https://www.neomindlabs.com/2026/06/08/running-gemma-4-26b-at-5-tokens-sec-on-a-13-year-old-xeon-with-no-gpu/",
+      "source": "Hacker News",
+      "reason": "13年老CPU跑Gemma 4，极致优化案例。"
+    },
+    {
+      "title": "DSLs Enable Reliable Use of LLMs",
+      "sourceUrl": "https://martinfowler.com/articles/llm-and-dsls.html",
+      "source": "Hacker News",
+      "reason": "DSL让LLM更可靠，实用方法论。"
     }
   ],
-  "trendSummary": "本周AI圈聚焦模型争议与开源工具，苹果起诉OpenAI泄露机密，GPT-5.6传闻再起，同时多个实用项目如T3MP3ST和Windows-Copilot-API引发关注。"
+  "trendSummary": "本周AI圈聚焦开源工具爆发与巨头法律纠纷，苹果起诉OpenAI窃密，GPT-5.6传闻引发热议，同时Zig创始人批评Anthropic炒作，技术争议不断。"
 }
