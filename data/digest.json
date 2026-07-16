@@ -1,37 +1,37 @@
 {
-  "date": "2026-07-16",
-  "generatedAt": "2026-07-15T23:21:32.063Z",
+  "date": "2026-07-17",
+  "generatedAt": "2026-07-16T23:19:57.393Z",
   "picks": [
     {
-      "title": "Cursor 0day: When Full Disclosure Becomes the Only Protection Left",
-      "sourceUrl": "https://mindgard.ai/blog/cursor-0day-when-full-disclosure-becomes-the-only-protection-left",
+      "title": "Kimi K3: Open Frontier Intelligence",
+      "sourceUrl": "https://www.kimi.com/blog/kimi-k3",
       "source": "Hacker News",
-      "reason": "Cursor 0day漏洞曝光，全披露成唯一保护。"
-    },
-    {
-      "title": "Are we offloading too much of our thinking to AI?",
-      "sourceUrl": "https://www.artfish.ai/p/offloading-thinking-to-ai",
-      "source": "Hacker News",
-      "reason": "反思AI过度依赖，引发深度讨论。"
-    },
-    {
-      "title": "The Three-Second Theft: Why AI Voice Fraud Outruns Every Defence",
-      "sourceUrl": "https://smarterarticles.co.uk/the-three-second-theft-why-ai-voice-fraud-outruns-every-defence",
-      "source": "Hacker News",
-      "reason": "AI语音欺诈三秒得手，防御全面失效。"
+      "reason": "Kimi K3性能与价格分析，前沿AI动态"
     },
     {
       "title": "Running Gemma 4 26B at 5 tokens/sec on a 13-year-old Xeon with no GPU",
       "sourceUrl": "https://www.neomindlabs.com/2026/06/08/running-gemma-4-26b-at-5-tokens-sec-on-a-13-year-old-xeon-with-no-gpu/",
       "source": "Hacker News",
-      "reason": "13年老CPU跑Gemma 4，极致优化案例。"
+      "reason": "无GPU运行大模型，实用技术突破"
     },
     {
-      "title": "DSLs Enable Reliable Use of LLMs",
-      "sourceUrl": "https://martinfowler.com/articles/llm-and-dsls.html",
+      "title": "Inkling – Open-Weights 975B Parameter LLM",
+      "sourceUrl": "https://thinkingmachines.ai/inkling/",
       "source": "Hacker News",
-      "reason": "DSL让LLM更可靠，实用方法论。"
+      "reason": "开源975B参数模型，规模惊人"
+    },
+    {
+      "title": "German AI consortium releases Soofi S, an open 30B model that tops benchmarks",
+      "sourceUrl": "https://the-decoder.com/german-ai-consortium-releases-soofi-s-an-open-30b-model-that-tops-benchmarks-in-both-english-and-german/",
+      "source": "Hacker News",
+      "reason": "德国开源30B模型登顶，开源新星"
+    },
+    {
+      "title": "The Three-Second Theft: Why AI Voice Fraud Outruns Every Defence",
+      "sourceUrl": "https://smarterarticles.co.uk/the-three-second-theft-why-ai-voice-fraud-outruns-every-defence",
+      "source": "Hacker News",
+      "reason": "AI语音诈骗威胁升级，安全警示"
     }
   ],
-  "trendSummary": "本周AI圈聚焦开源工具爆发与巨头法律纠纷，苹果起诉OpenAI窃密，GPT-5.6传闻引发热议，同时Zig创始人批评Anthropic炒作，技术争议不断。"
+  "trendSummary": "本周AI圈围绕模型迭代与安全争议展开，苹果起诉前员工窃密，GPT-5.6和Claude新版本接连亮相，同时开源模型Kimi系列在代码效率上取得突破。"
 }
