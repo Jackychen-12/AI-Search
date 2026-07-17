@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import { CATEGORY_MAP } from "@/lib/categories";
 import type { WeeklyReport } from "@/lib/weekly";
 
 function parseBold(text: string): React.ReactNode[] {
@@ -11,33 +12,50 @@ function parseBold(text: string): React.ReactNode[] {
   );
 }
 
+const CAT_COLORS: Record<string, { border: string; bg: string; text: string }> = {
+  "ai-models": { border: "border-l-blue-500", bg: "bg-blue-50 dark:bg-blue-500/10", text: "text-blue-700 dark:text-blue-400" },
+  "ai-products": { border: "border-l-violet-500", bg: "bg-violet-50 dark:bg-violet-500/10", text: "text-violet-700 dark:text-violet-400" },
+  "industry": { border: "border-l-amber-500", bg: "bg-amber-50 dark:bg-amber-500/10", text: "text-amber-700 dark:text-amber-400" },
+  "paper": { border: "border-l-emerald-500", bg: "bg-emerald-50 dark:bg-emerald-500/10", text: "text-emerald-700 dark:text-emerald-400" },
+  "tip": { border: "border-l-rose-500", bg: "bg-rose-50 dark:bg-rose-500/10", text: "text-rose-700 dark:text-rose-400" },
+};
+
 function InsightSection({ markdown }: { markdown: string }) {
   const cleaned = markdown.replace(/^# .+\n?/gm, "").replace(/[（(]?#\d+[,、]\s*#?\d*[)）]?/g, "").replace(/#\d+/g, "");
   const blocks = cleaned.split(/^## /m).filter((b) => b.trim());
   return (
-    <div className="space-y-3">
+    <div className="space-y-5">
       {blocks.map((block, bi) => {
         const lines = block.split("\n").filter((l) => l.trim());
         const title = lines[0]?.trim();
         const body = lines.slice(1);
         return (
-          <div key={bi} className="py-3">
+          <div key={bi}>
             {title && (
-              <h3 className="inline-block bg-brand-100 dark:bg-brand-500/20 text-brand-700 dark:text-brand-400 rounded-md px-3 py-1 text-sm font-semibold mb-3">
+              <h3 className="text-sm font-bold text-gray-900 dark:text-gray-100 mb-3 pl-3 border-l-2 border-brand-500">
                 {title}
               </h3>
             )}
-            <div className="space-y-1.5">
+            <div className="space-y-3">
               {body.map((line, li) => {
                 const numbered = line.match(/^\d+\.\s+(.+)/);
                 const bulleted = line.match(/^[-*]\s+(.+)/);
+                const subBulleted = line.match(/^\s+[-*]\s+(.+)/);
                 if (numbered) {
                   return (
-                    <div key={li} className="flex gap-2 text-sm text-gray-700 dark:text-gray-300 leading-relaxed">
+                    <div key={li} className="flex gap-2.5 text-sm text-gray-700 dark:text-gray-300 leading-relaxed">
                       <span className="shrink-0 w-5 h-5 rounded-full bg-brand-100 dark:bg-brand-500/20 text-brand-600 dark:text-brand-400 grid place-items-center text-[10px] font-bold mt-0.5">
                         {line.match(/^(\d+)/)?.[1]}
                       </span>
                       <span className="flex-1">{parseBold(numbered[1])}</span>
+                    </div>
+                  );
+                }
+                if (subBulleted) {
+                  return (
+                    <div key={li} className="flex gap-2 text-[13px] text-gray-600 dark:text-gray-400 leading-relaxed ml-7">
+                      <span className="shrink-0 w-1 h-1 rounded-full bg-gray-400 dark:bg-gray-500 mt-2" />
+                      <span className="flex-1">{parseBold(subBulleted[1])}</span>
                     </div>
                   );
                 }
@@ -51,7 +69,7 @@ function InsightSection({ markdown }: { markdown: string }) {
                 }
                 if (line.match(/^###\s+/)) {
                   return (
-                    <h4 key={li} className="text-sm font-medium text-gray-800 dark:text-gray-200 mt-2">
+                    <h4 key={li} className="text-sm font-medium text-gray-800 dark:text-gray-200 mt-3 mb-1">
                       {line.replace(/^###\s+/, "")}
                     </h4>
                   );
@@ -66,73 +84,6 @@ function InsightSection({ markdown }: { markdown: string }) {
           </div>
         );
       })}
-    </div>
-  );
-}
-
-function MiniBar({ data, color = "#3b6cff", labels }: { data: number[]; color?: string; labels?: string[] }) {
-  const max = Math.max(...data, 1);
-  return (
-    <div>
-      <div className="flex items-end gap-1 h-20">
-        {data.map((v, i) => (
-          <div key={i} className="flex-1 flex flex-col items-center gap-1">
-            <span className="text-[9px] text-gray-500 tabular-nums">{v || ""}</span>
-            <div
-              className="w-full rounded-sm min-h-[2px] transition-all"
-              style={{ height: `${(v / max) * 100}%`, background: color, opacity: 0.8 }}
-            />
-          </div>
-        ))}
-      </div>
-      {labels && (
-        <div className="flex justify-between mt-1.5">
-          {labels.map((l, i) => (
-            <span key={i} className="flex-1 text-center text-[9px] text-gray-400">{l}</span>
-          ))}
-        </div>
-      )}
-    </div>
-  );
-}
-
-function StatCard({
-  value,
-  label,
-  badge,
-  popover,
-}: {
-  value: string | number;
-  label: string;
-  badge?: React.ReactNode;
-  popover?: React.ReactNode;
-}) {
-  const [open, setOpen] = useState(false);
-  return (
-    <div
-      className="relative"
-      onClick={() => popover && setOpen((o) => !o)}
-      onBlur={() => setOpen(false)}
-      tabIndex={popover ? 0 : undefined}
-    >
-      <div className={"card p-4 text-center transition-colors " + (popover ? "cursor-pointer hover:border-brand-500" : "cursor-default")}>
-        <div className="flex items-center justify-center gap-1.5">
-          <span className="text-2xl font-bold text-brand-600 dark:text-brand-500">{value}</span>
-          {badge}
-        </div>
-        <div className="text-xs text-gray-500 dark:text-gray-400 mt-1">{label}</div>
-      </div>
-      {popover && (
-        <div
-          className={
-            "absolute left-1/2 -translate-x-1/2 top-full mt-2 z-50 w-72 bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-700 rounded-xl shadow-xl p-4 transition-all duration-200 " +
-            (open ? "opacity-100 translate-y-0" : "opacity-0 translate-y-2 pointer-events-none")
-          }
-        >
-          <div className="absolute -top-2 left-1/2 -translate-x-1/2 w-3 h-3 rotate-45 bg-white dark:bg-gray-900 border-l border-t border-gray-200 dark:border-gray-700" />
-          {popover}
-        </div>
-      )}
     </div>
   );
 }
@@ -162,18 +113,32 @@ export default function WeeklyView({
   reports: WeeklyReport[];
 }) {
   const [idx, setIdx] = useState(0);
+  const [expandedCats, setExpandedCats] = useState<Set<string>>(new Set(["ai-models", "ai-products"]));
   const report = reports[idx];
   if (!report) return <p className="text-gray-500">暂无周报数据</p>;
 
   const weekdays = ["一", "二", "三", "四", "五", "六", "日"];
   const dayLabels = report.dailyBreakdown.map((_, i) => weekdays[i] ?? "");
   const topHeat = report.topItems[0]?.heat ?? 0;
+  const dailyAvg = report.totalItems > 0 ? Math.round(report.totalItems / 7) : 0;
+  const maxDaily = Math.max(...report.dailyBreakdown.map((d) => d.count), 1);
+  const maxCat = Math.max(...report.categoryBreakdown.map((c) => c.count), 1);
+  const maxSource = report.topSources[0]?.count ?? 1;
+
+  function toggleCat(key: string) {
+    setExpandedCats((prev) => {
+      const next = new Set(prev);
+      if (next.has(key)) next.delete(key);
+      else next.add(key);
+      return next;
+    });
+  }
 
   return (
-    <div>
+    <div className="space-y-6">
       {/* Week selector */}
       {reports.length > 1 && (
-        <div className="flex items-center gap-2 mb-6 flex-wrap">
+        <div className="flex items-center gap-2 flex-wrap">
           {reports.map((r, i) => (
             <button
               key={i}
@@ -186,71 +151,100 @@ export default function WeeklyView({
               }
             >
               {formatWeekLabel(r.weekLabel, i === 0)}
+              <span className="ml-1 opacity-60">({r.totalItems})</span>
             </button>
           ))}
         </div>
       )}
 
-      {/* Stats with click-toggle popovers */}
-      <div className="grid grid-cols-3 gap-3 mb-6">
-        <StatCard
-          value={report.totalItems}
-          label="本周资讯总量"
-          badge={<TrendBadge current={report.totalItems} previous={report.prevTotalItems} />}
-          popover={
-            <div>
-              <h4 className="text-xs font-semibold dark:text-gray-100 mb-3">每日资讯分布</h4>
-              <MiniBar
-                data={report.dailyBreakdown.map((d) => d.count)}
-                labels={dayLabels}
-              />
-              <div className="mt-3 pt-2 border-t border-gray-100 dark:border-gray-700 text-[11px] text-gray-500 dark:text-gray-400 flex justify-between">
-                <span>日均 {report.totalItems > 0 ? Math.round(report.totalItems / report.dailyBreakdown.length) : 0} 条</span>
-                <span>峰值 {Math.max(...report.dailyBreakdown.map((d) => d.count))} 条</span>
-              </div>
-            </div>
-          }
-        />
+      {/* ═══ A. Data Dashboard ═══ */}
+      <section className="card p-5">
+        <h2 className="text-xs font-semibold text-gray-500 dark:text-gray-400 uppercase tracking-wider mb-4">关键数据速览</h2>
 
-        <StatCard
-          value={report.topSources.length}
-          label="活跃来源"
-          popover={
-            <div>
-              <h4 className="text-xs font-semibold dark:text-gray-100 mb-3">来源贡献排名</h4>
-              <div className="space-y-2">
-                {report.topSources.slice(0, 6).map((s, i) => (
-                  <div key={s.name} className="flex items-center gap-2">
-                    <span className="text-[10px] text-gray-400 w-3 text-right">{i + 1}</span>
-                    <span className="text-xs text-gray-700 dark:text-gray-200 truncate flex-1">{s.name}</span>
-                    <div className="w-20 h-2 bg-gray-100 dark:bg-gray-700 rounded-full overflow-hidden">
-                      <div className="h-full bg-brand-500 rounded-full" style={{ width: `${(s.count / (report.topSources[0]?.count || 1)) * 100}%` }} />
+        {/* KPI row */}
+        <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 mb-6">
+          <div className="text-center">
+            <div className="flex items-center justify-center gap-1.5">
+              <span className="text-3xl font-bold text-brand-600 dark:text-brand-500 tabular-nums">{report.totalItems}</span>
+              <TrendBadge current={report.totalItems} previous={report.prevTotalItems} />
+            </div>
+            <div className="text-xs text-gray-500 dark:text-gray-400 mt-1">资讯总量</div>
+          </div>
+          <div className="text-center">
+            <span className="text-3xl font-bold text-gray-800 dark:text-gray-200 tabular-nums">{dailyAvg}</span>
+            <div className="text-xs text-gray-500 dark:text-gray-400 mt-1">日均资讯</div>
+          </div>
+          <div className="text-center">
+            <span className="text-3xl font-bold text-gray-800 dark:text-gray-200 tabular-nums">{report.topSources.length}</span>
+            <div className="text-xs text-gray-500 dark:text-gray-400 mt-1">活跃来源</div>
+          </div>
+          <div className="text-center">
+            <span className="text-3xl font-bold text-amber-600 dark:text-amber-400 tabular-nums">{topHeat > 0 ? topHeat.toLocaleString() : "—"}</span>
+            <div className="text-xs text-gray-500 dark:text-gray-400 mt-1">最高热度</div>
+          </div>
+        </div>
+
+        {/* Charts row */}
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-5 pt-5 border-t border-gray-100 dark:border-gray-800">
+          {/* Daily trend */}
+          <div>
+            <h3 className="text-xs font-semibold text-gray-600 dark:text-gray-300 mb-3">每日趋势</h3>
+            <div className="flex items-end gap-1.5 h-24">
+              {report.dailyBreakdown.map((d, i) => (
+                <div key={i} className="flex-1 flex flex-col items-center gap-1">
+                  <span className="text-[10px] text-gray-500 tabular-nums">{d.count || ""}</span>
+                  <div
+                    className="w-full rounded-t-sm bg-brand-500/80 dark:bg-brand-400/60 min-h-[2px] transition-all"
+                    style={{ height: `${(d.count / maxDaily) * 100}%` }}
+                  />
+                  <span className="text-[10px] text-gray-400">{dayLabels[i]}</span>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          {/* Category breakdown */}
+          <div>
+            <h3 className="text-xs font-semibold text-gray-600 dark:text-gray-300 mb-3">分类占比</h3>
+            <div className="space-y-2">
+              {report.categoryBreakdown.filter((c) => c.count > 0).map((c) => {
+                const cat = CAT_COLORS[c.key];
+                return (
+                  <div key={c.key} className="flex items-center gap-2">
+                    <span className="text-[11px] text-gray-600 dark:text-gray-300 w-20 truncate">{c.label}</span>
+                    <div className="flex-1 h-2 bg-gray-100 dark:bg-gray-700 rounded-full overflow-hidden">
+                      <div className={`h-full rounded-full ${cat?.border.replace("border-l-", "bg-") ?? "bg-gray-400"}`} style={{ width: `${(c.count / maxCat) * 100}%` }} />
                     </div>
-                    <span className="text-[10px] text-gray-400 tabular-nums w-5 text-right">{s.count}</span>
+                    <span className="text-[10px] text-gray-400 tabular-nums w-5 text-right">{c.count}</span>
                   </div>
-                ))}
-              </div>
+                );
+              })}
             </div>
-          }
-        />
+          </div>
 
-        <StatCard
-          value={topHeat > 0 ? topHeat.toLocaleString() : "—"}
-          label="最高热度"
-          popover={report.topItems[0] ? (
-            <div>
-              <h4 className="text-xs font-semibold dark:text-gray-100 mb-2">本周最热</h4>
-              <p className="text-xs text-gray-700 dark:text-gray-200 leading-relaxed">{report.topItems[0].title}</p>
-              <p className="text-[11px] text-gray-400 mt-1">{report.topItems[0].source}</p>
+          {/* Source ranking */}
+          <div>
+            <h3 className="text-xs font-semibold text-gray-600 dark:text-gray-300 mb-3">来源贡献 Top 5</h3>
+            <div className="space-y-2">
+              {report.topSources.slice(0, 5).map((s, i) => (
+                <div key={s.name} className="flex items-center gap-2">
+                  <span className="text-[10px] text-gray-400 w-3 text-right">{i + 1}</span>
+                  <span className="text-[11px] text-gray-600 dark:text-gray-300 truncate flex-1">{s.name}</span>
+                  <div className="w-16 h-2 bg-gray-100 dark:bg-gray-700 rounded-full overflow-hidden">
+                    <div className="h-full bg-brand-500/70 rounded-full" style={{ width: `${(s.count / maxSource) * 100}%` }} />
+                  </div>
+                  <span className="text-[10px] text-gray-400 tabular-nums w-5 text-right">{s.count}</span>
+                </div>
+              ))}
             </div>
-          ) : undefined}
-        />
-      </div>
+          </div>
+        </div>
+      </section>
 
-      {/* AI Weekly Insight — unified section */}
+      {/* ═══ B. AI Weekly Insight ═══ */}
       {(report.weeklyInsight || report.topSummary) && (
-        <div className="bg-brand-50 dark:bg-brand-500/10 border border-brand-100 dark:border-brand-500/20 rounded-xl px-5 py-4 mb-6">
-          <h2 className="text-sm font-semibold text-brand-700 dark:text-brand-500 mb-3 flex items-center gap-2">
+        <section className="bg-brand-50 dark:bg-brand-500/10 border border-brand-100 dark:border-brand-500/20 rounded-xl px-5 py-5">
+          <h2 className="text-sm font-semibold text-brand-700 dark:text-brand-500 mb-4 flex items-center gap-2">
             <span className="w-5 h-5 rounded-md bg-brand-500 text-white grid place-items-center text-[10px] font-bold">AI</span>
             {report.weeklyInsight ? "AI 周度洞察" : "本周重点"}
           </h2>
@@ -259,11 +253,11 @@ export default function WeeklyView({
           ) : (
             <p className="text-sm text-brand-800 dark:text-brand-400 leading-relaxed">{report.topSummary}</p>
           )}
-        </div>
+        </section>
       )}
 
-      {/* Top 10 */}
-      <section className="card p-5 mb-6">
+      {/* ═══ C. Top 10 Events ═══ */}
+      <section>
         <h2 className="text-sm font-semibold dark:text-gray-100 mb-4 flex items-center gap-2">
           <span className="w-1 h-4 bg-brand-500 rounded-sm" />
           本周 Top 10
@@ -271,38 +265,94 @@ export default function WeeklyView({
         {report.topItems.length === 0 ? (
           <p className="text-sm text-gray-500">本周暂无数据</p>
         ) : (
-          <ol className="divide-y divide-gray-100 dark:divide-gray-800">
-            {report.topItems.map((item, i) => (
-              <li key={item.id} className="flex gap-3 py-3 first:pt-0 last:pb-0">
-                <span
-                  className={
-                    "shrink-0 w-6 h-6 grid place-items-center rounded-md font-mono text-xs font-semibold " +
-                    (i < 3 ? "bg-gradient-to-br from-brand-500 to-brand-700 text-white" : "bg-gray-100 dark:bg-gray-700 text-gray-400")
-                  }
-                >
-                  {i + 1}
-                </span>
-                <div className="min-w-0 flex-1">
-                  <a href={item.sourceUrl} target="_blank" rel="noreferrer" className="text-sm font-medium text-gray-800 dark:text-gray-200 hover:text-brand-600 line-clamp-2">
-                    {item.title}
-                  </a>
-                  <div className="text-[11px] text-gray-500 dark:text-gray-400 mt-0.5 flex items-center gap-2">
-                    <span>{item.source}</span>
-                    {typeof item.heat === "number" && item.heat > 0 && (
-                      <span className="text-amber-600 dark:text-amber-400 font-medium">
-                        {item.origin === "github" ? `★ ${item.heat.toLocaleString()}` : item.heat.toLocaleString()}
-                      </span>
-                    )}
+          <div className="space-y-3">
+            {report.topItems.map((item, i) => {
+              const cat = CAT_COLORS[item.category ?? "industry"] ?? CAT_COLORS["industry"];
+              const catLabel = CATEGORY_MAP[(item.category ?? "industry") as keyof typeof CATEGORY_MAP]?.label ?? item.category;
+              return (
+                <div key={item.id} className={`card p-4 border-l-[3px] ${cat.border}`}>
+                  <div className="flex items-start gap-3">
+                    <span
+                      className={
+                        "shrink-0 w-7 h-7 grid place-items-center rounded-lg font-mono text-xs font-bold " +
+                        (i < 3 ? "bg-gradient-to-br from-brand-500 to-brand-700 text-white" : "bg-gray-100 dark:bg-gray-700 text-gray-400")
+                      }
+                    >
+                      {i + 1}
+                    </span>
+                    <div className="min-w-0 flex-1">
+                      <a href={item.sourceUrl} target="_blank" rel="noreferrer" className="text-sm font-semibold text-gray-800 dark:text-gray-200 hover:text-brand-600 transition-colors leading-snug">
+                        {item.title}
+                      </a>
+                      <div className="flex items-center gap-2 mt-1.5 flex-wrap">
+                        <span className={`text-[10px] px-2 py-0.5 rounded-md font-medium ${cat.bg} ${cat.text}`}>
+                          {catLabel}
+                        </span>
+                        <span className="text-[11px] text-gray-500 dark:text-gray-400">{item.source}</span>
+                        {typeof item.heat === "number" && item.heat > 0 && (
+                          <span className="text-[11px] font-medium text-amber-600 dark:text-amber-400">
+                            {item.origin === "github" ? `★ ${item.heat.toLocaleString()}` : `热度 ${item.heat.toLocaleString()}`}
+                          </span>
+                        )}
+                      </div>
+                      {(item.aiNote || item.summary) && (
+                        <p className="text-[12px] text-gray-600 dark:text-gray-400 mt-2 leading-relaxed">
+                          {item.aiNote || item.summary}
+                        </p>
+                      )}
+                    </div>
                   </div>
-                  {(item.aiNote || item.summary) && (
-                    <p className="text-[11px] text-gray-400 dark:text-gray-500 mt-0.5 line-clamp-1">{item.aiNote || item.summary}</p>
-                  )}
                 </div>
-              </li>
-            ))}
-          </ol>
+              );
+            })}
+          </div>
         )}
       </section>
+
+      {/* ═══ D. Category Sections ═══ */}
+      {report.sections.some((s) => s.items.length > 0) && (
+        <section>
+          <h2 className="text-sm font-semibold dark:text-gray-100 mb-4 flex items-center gap-2">
+            <span className="w-1 h-4 bg-brand-500 rounded-sm" />
+            分类概览
+          </h2>
+          <div className="space-y-3">
+            {report.sections.filter((s) => s.items.length > 0).map((sec) => {
+              const cat = CAT_COLORS[sec.key] ?? CAT_COLORS["industry"];
+              const expanded = expandedCats.has(sec.key);
+              return (
+                <div key={sec.key} className="card overflow-hidden">
+                  <button
+                    onClick={() => toggleCat(sec.key)}
+                    className={`w-full flex items-center justify-between px-4 py-3 text-left border-l-[3px] ${cat.border} hover:bg-gray-50 dark:hover:bg-gray-800/50 transition`}
+                  >
+                    <div className="flex items-center gap-2">
+                      <span className={`text-xs font-semibold ${cat.text}`}>{sec.label}</span>
+                      <span className="text-[10px] text-gray-400 bg-gray-100 dark:bg-gray-700 px-1.5 py-0.5 rounded-full">{sec.items.length}</span>
+                    </div>
+                    <span className={`text-gray-400 text-xs transition-transform ${expanded ? "rotate-180" : ""}`}>▾</span>
+                  </button>
+                  {expanded && (
+                    <div className="px-4 pb-3 divide-y divide-gray-50 dark:divide-gray-800">
+                      {sec.items.map((item) => (
+                        <div key={item.id} className="py-2.5 first:pt-1">
+                          <a href={item.sourceUrl} target="_blank" rel="noreferrer" className="text-[13px] font-medium text-gray-800 dark:text-gray-200 hover:text-brand-600 transition-colors leading-snug">
+                            {item.title}
+                          </a>
+                          <div className="text-[11px] text-gray-500 dark:text-gray-400 mt-0.5">{item.source}</div>
+                          {(item.aiNote || item.summary) && (
+                            <p className="text-[11px] text-gray-500 dark:text-gray-400 mt-1 leading-relaxed line-clamp-2">{item.aiNote || item.summary}</p>
+                          )}
+                        </div>
+                      ))}
+                    </div>
+                  )}
+                </div>
+              );
+            })}
+          </div>
+        </section>
+      )}
 
       {/* Footer navigation */}
       <nav className="flex items-center justify-center gap-6 text-sm text-gray-500 dark:text-gray-400 py-4">
