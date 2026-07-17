@@ -12,12 +12,12 @@ function parseBold(text: string): React.ReactNode[] {
   );
 }
 
-const CAT_COLORS: Record<string, { border: string; bg: string; text: string }> = {
-  "ai-models": { border: "border-l-blue-500", bg: "bg-blue-50 dark:bg-blue-500/10", text: "text-blue-700 dark:text-blue-400" },
-  "ai-products": { border: "border-l-violet-500", bg: "bg-violet-50 dark:bg-violet-500/10", text: "text-violet-700 dark:text-violet-400" },
-  "industry": { border: "border-l-amber-500", bg: "bg-amber-50 dark:bg-amber-500/10", text: "text-amber-700 dark:text-amber-400" },
-  "paper": { border: "border-l-emerald-500", bg: "bg-emerald-50 dark:bg-emerald-500/10", text: "text-emerald-700 dark:text-emerald-400" },
-  "tip": { border: "border-l-rose-500", bg: "bg-rose-50 dark:bg-rose-500/10", text: "text-rose-700 dark:text-rose-400" },
+const CAT_COLORS: Record<string, { border: string; bg: string; text: string; bar: string }> = {
+  "ai-models": { border: "border-l-blue-500", bg: "bg-blue-50 dark:bg-blue-500/10", text: "text-blue-700 dark:text-blue-400", bar: "bg-blue-500" },
+  "ai-products": { border: "border-l-violet-500", bg: "bg-violet-50 dark:bg-violet-500/10", text: "text-violet-700 dark:text-violet-400", bar: "bg-violet-500" },
+  "industry": { border: "border-l-amber-500", bg: "bg-amber-50 dark:bg-amber-500/10", text: "text-amber-700 dark:text-amber-400", bar: "bg-amber-500" },
+  "paper": { border: "border-l-emerald-500", bg: "bg-emerald-50 dark:bg-emerald-500/10", text: "text-emerald-700 dark:text-emerald-400", bar: "bg-emerald-500" },
+  "tip": { border: "border-l-rose-500", bg: "bg-rose-50 dark:bg-rose-500/10", text: "text-rose-700 dark:text-rose-400", bar: "bg-rose-500" },
 };
 
 function InsightSection({ markdown }: { markdown: string }) {
@@ -191,17 +191,20 @@ export default function WeeklyView({
           {/* Daily trend */}
           <div>
             <h3 className="text-xs font-semibold text-gray-600 dark:text-gray-300 mb-3">每日趋势</h3>
-            <div className="flex items-end gap-1.5 h-24">
-              {report.dailyBreakdown.map((d, i) => (
-                <div key={i} className="flex-1 flex flex-col items-center gap-1">
-                  <span className="text-[10px] text-gray-500 tabular-nums">{d.count || ""}</span>
-                  <div
-                    className="w-full rounded-t-sm bg-brand-500/80 dark:bg-brand-400/60 min-h-[2px] transition-all"
-                    style={{ height: `${(d.count / maxDaily) * 100}%` }}
-                  />
-                  <span className="text-[10px] text-gray-400">{dayLabels[i]}</span>
-                </div>
-              ))}
+            <div className="flex items-end gap-1.5" style={{ height: 96 }}>
+              {report.dailyBreakdown.map((d, i) => {
+                const barH = maxDaily > 0 ? Math.max(2, Math.round((d.count / maxDaily) * 64)) : 2;
+                return (
+                  <div key={i} className="flex-1 flex flex-col items-center justify-end gap-1">
+                    <span className="text-[10px] text-gray-500 tabular-nums">{d.count || ""}</span>
+                    <div
+                      className="w-full rounded-t bg-brand-500/80 dark:bg-brand-400/60"
+                      style={{ height: barH }}
+                    />
+                    <span className="text-[10px] text-gray-400">{dayLabels[i]}</span>
+                  </div>
+                );
+              })}
             </div>
           </div>
 
@@ -215,7 +218,7 @@ export default function WeeklyView({
                   <div key={c.key} className="flex items-center gap-2">
                     <span className="text-[11px] text-gray-600 dark:text-gray-300 w-20 truncate">{c.label}</span>
                     <div className="flex-1 h-2 bg-gray-100 dark:bg-gray-700 rounded-full overflow-hidden">
-                      <div className={`h-full rounded-full ${cat?.border.replace("border-l-", "bg-") ?? "bg-gray-400"}`} style={{ width: `${(c.count / maxCat) * 100}%` }} />
+                      <div className={`h-full rounded-full ${cat?.bar ?? "bg-gray-400"}`} style={{ width: `${(c.count / maxCat) * 100}%` }} />
                     </div>
                     <span className="text-[10px] text-gray-400 tabular-nums w-5 text-right">{c.count}</span>
                   </div>
