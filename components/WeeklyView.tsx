@@ -22,7 +22,9 @@ const CAT_COLORS: Record<string, { border: string; bg: string; text: string }> =
 
 function InsightSection({ markdown }: { markdown: string }) {
   const cleaned = markdown.replace(/^# .+\n?/gm, "").replace(/[（(]?#\d+[,、]\s*#?\d*[)）]?/g, "").replace(/#\d+/g, "");
-  const blocks = cleaned.split(/^## /m).filter((b) => b.trim());
+  const firstH2 = cleaned.indexOf("## ");
+  const trimmed = firstH2 > 0 ? cleaned.slice(firstH2) : cleaned;
+  const blocks = trimmed.split(/^## /m).filter((b) => b.trim());
   return (
     <div className="space-y-5">
       {blocks.map((block, bi) => {
