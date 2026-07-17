@@ -7799,7 +7799,7 @@
       "offensive-security",
       "TypeScript"
     ],
-    "heat": 7284,
+    "heat": 7289,
     "aiSelected": true,
     "origin": "github",
     "firstSeen": "2026-07-17T08:31:07.382Z",
@@ -7841,7 +7841,7 @@
       "chrome-extension",
       "JavaScript"
     ],
-    "heat": 539,
+    "heat": 540,
     "aiSelected": true,
     "origin": "github",
     "firstSeen": "2026-07-17T08:31:07.382Z",
@@ -9521,7 +9521,7 @@
       "bun",
       "TypeScript"
     ],
-    "heat": 3795,
+    "heat": 3798,
     "aiSelected": true,
     "origin": "github",
     "firstSeen": "2026-07-17T08:31:07.382Z",
@@ -11935,7 +11935,7 @@
       "fastapi",
       "TypeScript"
     ],
-    "heat": 1310,
+    "heat": 1311,
     "aiSelected": true,
     "origin": "github",
     "firstSeen": "2026-07-17T08:31:07.382Z",
@@ -12399,7 +12399,7 @@
       "codex",
       "HTML"
     ],
-    "heat": 3404,
+    "heat": 3407,
     "aiSelected": true,
     "origin": "github",
     "firstSeen": "2026-07-17T08:31:07.382Z",
@@ -14660,7 +14660,7 @@
       "ios",
       "Swift"
     ],
-    "heat": 1260,
+    "heat": 1262,
     "aiSelected": true,
     "origin": "github",
     "firstSeen": "2026-07-17T08:31:07.382Z",
@@ -19624,7 +19624,7 @@
       "ai4s",
       "TypeScript"
     ],
-    "heat": 1199,
+    "heat": 1202,
     "aiSelected": true,
     "origin": "github",
     "firstSeen": "2026-07-17T08:31:07.382Z",
@@ -20372,7 +20372,7 @@
       "design-tools",
       "JavaScript"
     ],
-    "heat": 720,
+    "heat": 722,
     "aiSelected": true,
     "origin": "github",
     "firstSeen": "2026-07-17T08:31:07.382Z",
@@ -21127,7 +21127,7 @@
       "local-first",
       "Python"
     ],
-    "heat": 1170,
+    "heat": 1226,
     "aiSelected": true,
     "origin": "github",
     "firstSeen": "2026-07-17T08:31:07.382Z",
@@ -25605,7 +25605,7 @@
       "workbuddy",
       "Python"
     ],
-    "heat": 1544,
+    "heat": 1547,
     "aiSelected": true,
     "origin": "github",
     "firstSeen": "2026-07-17T08:31:07.382Z",
@@ -25701,7 +25701,7 @@
       "claude-code",
       "Python"
     ],
-    "heat": 2195,
+    "heat": 2217,
     "aiSelected": true,
     "origin": "github",
     "firstSeen": "2026-07-17T08:31:07.382Z",
@@ -25953,7 +25953,7 @@
     "tags": [
       "Hacker News"
     ],
-    "heat": 289,
+    "heat": 290,
     "aiSelected": true,
     "origin": "hackernews",
     "firstSeen": "2026-07-15T23:21:18.486Z",
@@ -27387,7 +27387,7 @@
       "grpo",
       "Python"
     ],
-    "heat": 26,
+    "heat": 27,
     "aiSelected": true,
     "origin": "github",
     "firstSeen": "2026-07-17T08:31:07.382Z",
@@ -28045,7 +28045,7 @@
     "tags": [
       "Hacker News"
     ],
-    "heat": 242,
+    "heat": 248,
     "aiSelected": true,
     "origin": "hackernews",
     "firstSeen": "2026-07-16T23:19:44.738Z",
@@ -28094,7 +28094,7 @@
     "tags": [
       "Hacker News"
     ],
-    "heat": 255,
+    "heat": 268,
     "aiSelected": true,
     "origin": "hackernews",
     "firstSeen": "2026-07-16T23:19:44.738Z",
@@ -28126,7 +28126,7 @@
     "tags": [
       "Hacker News"
     ],
-    "heat": 94,
+    "heat": 96,
     "aiSelected": true,
     "origin": "hackernews",
     "firstSeen": "2026-07-16T23:19:44.738Z",
@@ -28308,7 +28308,7 @@
     "tags": [
       "Hacker News"
     ],
-    "heat": 136,
+    "heat": 137,
     "aiSelected": true,
     "origin": "hackernews",
     "firstSeen": "2026-07-16T23:19:44.738Z",
@@ -28355,7 +28355,7 @@
     "tags": [
       "Hacker News"
     ],
-    "heat": 196,
+    "heat": 199,
     "aiSelected": true,
     "origin": "hackernews",
     "firstSeen": "2026-07-16T23:19:44.738Z",
@@ -28404,7 +28404,7 @@
     "tags": [
       "Hacker News"
     ],
-    "heat": 301,
+    "heat": 306,
     "aiSelected": true,
     "origin": "hackernews",
     "firstSeen": "2026-07-16T23:19:44.738Z",
@@ -28513,7 +28513,7 @@
     "origin": "rss:techcrunch-ai",
     "heat": 0,
     "firstSeen": "2026-07-16T23:19:44.738Z",
-    "aiNote": null
+    "aiNote": "谷歌AI模式突破问答，跨应用执行任务，标志AI助手向行动化转型关键一步。"
   },
   {
     "id": "rss:infoq-5b5855a1c7",
@@ -28528,7 +28528,7 @@
     "origin": "rss:infoq",
     "heat": 0,
     "firstSeen": "2026-07-16T23:19:44.738Z",
-    "aiNote": null
+    "aiNote": "聚焦Agent可靠性工程，为AI应用落地提供核心技术支撑。"
   },
   {
     "id": "rss:aws-ml-d91433220d",
@@ -28543,7 +28543,7 @@
     "origin": "rss:aws-ml",
     "heat": 0,
     "firstSeen": "2026-07-16T23:19:44.738Z",
-    "aiNote": null
+    "aiNote": "用亚马逊新模型和代理服务，快速搭建餐厅电话AI助手，降低开发门槛。"
   },
   {
     "id": "rss:ithome-9f5841ff25",
@@ -28573,7 +28573,7 @@
     "origin": "rss:arstechnica-ai",
     "heat": 0,
     "firstSeen": "2026-07-16T23:19:44.738Z",
-    "aiNote": null
+    "aiNote": "能源IPO激增揭示AI热潮下资本的新风口，投资机会与风险并存。"
   },
   {
     "id": "rss:techcrunch-ai-8e1ba79a18",
@@ -28588,7 +28588,7 @@
     "origin": "rss:techcrunch-ai",
     "heat": 0,
     "firstSeen": "2026-07-16T23:19:44.738Z",
-    "aiNote": null
+    "aiNote": "命令行点外卖，AI代理可直接下单，开启餐饮服务新交互方式。"
   },
   {
     "id": "rss:simonwillison-5864479211",
@@ -28603,7 +28603,7 @@
     "origin": "rss:simonwillison",
     "heat": 0,
     "firstSeen": "2026-07-16T23:19:44.738Z",
-    "aiNote": null
+    "aiNote": "Mira Murati新公司首个开源模型，975B参数MoE架构，技术路线与规模均具突破性。"
   },
   {
     "id": "rss:ithome-789c7250cc",
@@ -28633,7 +28633,7 @@
     "origin": "rss:techcrunch-ai",
     "heat": 0,
     "firstSeen": "2026-07-16T23:19:44.738Z",
-    "aiNote": null
+    "aiNote": "用篮球做硬件营销，OpenAI试水实体产品，趣味背后暗藏品牌扩展新思路。"
   },
   {
     "id": "hn-c316fe515c",
@@ -28646,11 +28646,11 @@
     "tags": [
       "Hacker News"
     ],
-    "heat": 100,
+    "heat": 101,
     "aiSelected": true,
     "origin": "hackernews",
     "firstSeen": "2026-07-16T23:19:44.738Z",
-    "aiNote": null
+    "aiNote": "突破ARC-AGI基准近99%准确率，证明AI推理能力逼近人类水平。"
   },
   {
     "id": "hn-3d13994f67",
@@ -28663,11 +28663,11 @@
     "tags": [
       "Hacker News"
     ],
-    "heat": 132,
+    "heat": 134,
     "aiSelected": true,
     "origin": "hackernews",
     "firstSeen": "2026-07-16T23:19:44.738Z",
-    "aiNote": null
+    "aiNote": "用6GB显存老电脑训练AI模型，降低硬件门槛，让更多人动手尝试生成式AI。"
   },
   {
     "id": "rss:qbitai-551549e20a",
@@ -28682,7 +28682,7 @@
     "origin": "rss:qbitai",
     "heat": 0,
     "firstSeen": "2026-07-16T23:19:44.738Z",
-    "aiNote": null
+    "aiNote": "理想L6换代不涨价，自研芯片与中控屏下放，性价比显著提升，值得关注。"
   },
   {
     "id": "rss:techcrunch-ai-7282708276",
@@ -28697,7 +28697,7 @@
     "origin": "rss:techcrunch-ai",
     "heat": 0,
     "firstSeen": "2026-07-16T23:19:44.738Z",
-    "aiNote": null
+    "aiNote": "顶尖AI人才创业获3亿美元估值，人才价值与技术积累成资本关注核心。"
   },
   {
     "id": "hn-09983246fa",
@@ -28710,11 +28710,11 @@
     "tags": [
       "Hacker News"
     ],
-    "heat": 1589,
+    "heat": 1616,
     "aiSelected": true,
     "origin": "hackernews",
     "firstSeen": "2026-07-16T23:19:44.738Z",
-    "aiNote": null
+    "aiNote": "Kimi K3 性能与定价数据公开，为前沿AI模型竞争提供新参照，值得技术选型关注。"
   },
   {
     "id": "rss:techcrunch-ai-68ca93a0fb",
@@ -28729,7 +28729,7 @@
     "origin": "rss:techcrunch-ai",
     "heat": 0,
     "firstSeen": "2026-07-16T23:19:44.738Z",
-    "aiNote": null
+    "aiNote": "避开AGI炒作，专注世界模型，LeBrun的选择揭示了AI务实派的战略思考。"
   },
   {
     "id": "rss:techcrunch-ai-a571a566f6",
@@ -28744,7 +28744,7 @@
     "origin": "rss:techcrunch-ai",
     "heat": 0,
     "firstSeen": "2026-07-16T23:19:44.738Z",
-    "aiNote": null
+    "aiNote": "国产大模型参数规模突破万亿级，Kimi 3有望缩小与全球顶尖模型的性能差距。"
   },
   {
     "id": "rss:simonwillison-cf5f6e5324",
@@ -28759,7 +28759,7 @@
     "origin": "rss:simonwillison",
     "heat": 0,
     "firstSeen": "2026-07-16T23:19:44.738Z",
-    "aiNote": null
+    "aiNote": "Linus表态力挺AI，Linux内核维护者立场明确，技术风向标意义显著。"
   },
   {
     "id": "rss:techcrunch-ai-3a9d056af9",
@@ -28774,7 +28774,7 @@
     "origin": "rss:techcrunch-ai",
     "heat": 0,
     "firstSeen": "2026-07-16T23:19:44.738Z",
-    "aiNote": null
+    "aiNote": "苹果联手阿里百度落地中国AI，关键市场布局突破，本土化合作成胜负手。"
   },
   {
     "id": "hn-8185bc2260",
@@ -28791,7 +28791,7 @@
     "aiSelected": true,
     "origin": "hackernews",
     "firstSeen": "2026-07-16T23:19:44.738Z",
-    "aiNote": null
+    "aiNote": "生成式AI工程化困境揭示行业泡沫，技术落地远比想象复杂。"
   },
   {
     "id": "rss:theverge-ai-e9a82b74f6",
@@ -28806,7 +28806,7 @@
     "origin": "rss:theverge-ai",
     "heat": 0,
     "firstSeen": "2026-07-16T23:19:44.738Z",
-    "aiNote": null
+    "aiNote": "AI助手调用密码管理器，实现免手动填表，打通安全与效率的实用新场景。"
   },
   {
     "id": "rss:theverge-ai-f2d4f0d12d",
@@ -28821,7 +28821,7 @@
     "origin": "rss:theverge-ai",
     "heat": 0,
     "firstSeen": "2026-07-16T23:19:44.738Z",
-    "aiNote": null
+    "aiNote": "欧盟强制开放安卓和搜索生态，打破谷歌垄断，或重塑全球AI竞争格局。"
   },
   {
     "id": "hn-cb54298db0",
@@ -28834,11 +28834,11 @@
     "tags": [
       "Hacker News"
     ],
-    "heat": 226,
+    "heat": 229,
     "aiSelected": true,
     "origin": "hackernews",
     "firstSeen": "2026-07-16T23:19:44.738Z",
-    "aiNote": null
+    "aiNote": "承认LLM的缺陷却仍坚持使用，揭示了实用主义与技术局限性的真实博弈。"
   },
   {
     "id": "rss:hf-blog-4babaf3e26",
@@ -28853,7 +28853,7 @@
     "origin": "rss:hf-blog",
     "heat": 0,
     "firstSeen": "2026-07-16T23:19:44.738Z",
-    "aiNote": null
+    "aiNote": "大模型持续迭代，新模型仍保持核心优势，值得关注技术演进方向。"
   },
   {
     "id": "rss:theverge-ai-3090d72b68",
@@ -28868,7 +28868,7 @@
     "origin": "rss:theverge-ai",
     "heat": 0,
     "firstSeen": "2026-07-16T23:19:44.738Z",
-    "aiNote": null
+    "aiNote": "人工智能在警务领域的应用正引发伦理与效率的激烈讨论，其实际影响值得持续观察。"
   },
   {
     "id": "rss:36kr-4d4b6bf5e5",
@@ -28898,7 +28898,7 @@
     "origin": "rss:qbitai",
     "heat": 0,
     "firstSeen": "2026-07-16T23:19:44.738Z",
-    "aiNote": null
+    "aiNote": "开创性突破，用人类视频直接训练机器人，大幅降低部署成本，推动具身智能实用化。"
   },
   {
     "id": "rss:36kr-a03d3df134",
@@ -29046,7 +29046,7 @@
     "tags": [
       "Hacker News"
     ],
-    "heat": 296,
+    "heat": 298,
     "aiSelected": true,
     "origin": "hackernews",
     "firstSeen": "2026-07-16T23:19:44.738Z",
@@ -29935,7 +29935,7 @@
       "论文",
       "arXiv"
     ],
-    "heat": 174,
+    "heat": 176,
     "aiSelected": true,
     "origin": "hf-papers",
     "firstSeen": "2026-07-16T23:19:44.738Z",
@@ -30841,7 +30841,7 @@
     "tags": [
       "Hacker News"
     ],
-    "heat": 47,
+    "heat": 49,
     "aiSelected": true,
     "origin": "hackernews",
     "firstSeen": "2026-07-17T08:31:07.382Z",
@@ -30895,7 +30895,7 @@
       "论文",
       "arXiv"
     ],
-    "heat": 65,
+    "heat": 81,
     "aiSelected": true,
     "origin": "hf-papers",
     "firstSeen": "2026-07-17T08:31:07.382Z",
@@ -30967,7 +30967,7 @@
       "论文",
       "arXiv"
     ],
-    "heat": 2,
+    "heat": 3,
     "aiSelected": true,
     "origin": "hf-papers",
     "firstSeen": "2026-07-17T08:31:07.382Z",
@@ -31453,7 +31453,7 @@
       "electrobun",
       "TypeScript"
     ],
-    "heat": 1440,
+    "heat": 1448,
     "aiSelected": true,
     "origin": "github",
     "firstSeen": "2026-07-17T08:31:07.382Z",
@@ -31765,7 +31765,7 @@
       "copilot",
       "Python"
     ],
-    "heat": 1700,
+    "heat": 1698,
     "aiSelected": true,
     "origin": "github",
     "firstSeen": "2026-07-17T08:31:07.382Z",
@@ -31830,8 +31830,8 @@
   },
   {
     "id": "rss:ithome-23fb8a9503",
-    "title": "阿里千问输入法 iOS 版上线：无广告无弹窗无需注册，支持 AI 自动润色",
-    "summary": "IT之家 7 月 17 日消息，继 macOS 版之后，阿里旗下“千问输入法”iOS 版已于 7 月 16 日正式在 App Store 上线，仅适配苹果 iPhone 端。 官方描述显示，千问输入法的核心定位是一款从“说话”出发的 AI 输入工具，号称“说完即成稿”。其语音输入功能基于阿里自研的 CosyVoice 语音大模型，官方宣称语音输入最快可达每分…",
+    "title": "阿里千问输入法移动版上线：无广告无弹窗无需注册，支持 AI 自动润色",
+    "summary": "IT之家 7 月 17 日消息，继 macOS 版之后，阿里旗下“千问输入法”iOS 版已于 7 月 16 日正式在 App Store 上线，仅适配苹果 iPhone 端；同时安卓版今日陆续上架 OPPO、vivo、小米等各大商店。 官方描述显示，千问输入法的核心定位是一款从“说话”出发的 AI 输入工具，号称“说完即成稿”。IT之家注意到，其语音输入功能…",
     "source": "IT之家",
     "sourceUrl": "https://www.ithome.com/0/978/194.htm",
     "category": "ai-products",
@@ -31917,5 +31917,110 @@
     "heat": 0,
     "firstSeen": "2026-07-17T09:06:19.914Z",
     "aiNote": "展示企业级AI全栈能力，聚焦安全治理与业务增长三大场景，为行业提供可落地的AI应用标杆。"
+  },
+  {
+    "id": "rss:ithome-b9992b72be",
+    "title": "支付宝与阶跃达成系统级合作，首期接入点外卖、出行、本地生活",
+    "summary": "IT之家 7 月 17 日消息，今日， 在 2026 世界人工智能大会（ WAIC ）现场，支付宝与阶跃达成系统级合作，AI 版支付宝“阿宝”与阶跃大模型及其原生 AI 终端，可实现跨端互联。 未来，无论是与阶跃大模型对话，或在其原生 AI 终端上，都不用打开 App， 一句话就能向其自有智能体派活 ，再转交阿宝办妥，完成跨应用、多任务执行。 据官方透露，合…",
+    "source": "IT之家",
+    "sourceUrl": "https://www.ithome.com/0/978/209.htm",
+    "category": "industry",
+    "publishedAt": "2026-07-17T09:39:13.000Z",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/bd2a636b-3568-4619-b678-19271f646238.jpg?x-bce-process=image/format,f_auto",
+    "aiSelected": true,
+    "origin": "rss:ithome",
+    "heat": 0,
+    "firstSeen": "2026-07-17T09:43:24.122Z",
+    "aiNote": "AI生态打通，跨应用多任务执行，开启无需打开App的智能生活新场景。"
+  },
+  {
+    "id": "rss:ithome-878a79db34",
+    "title": "2299 元起 Moonix AI 眼镜发售：砍掉翻译、导航只做记录，14.9 克主打轻量化佩戴",
+    "summary": "IT之家 7 月 17 日消息，AI 穿戴硬件品牌 Moonix（莫奈）宣布旗下首款产品 Moonix AI 眼镜今日起全球同步发售，官方定价 2299 元起。 该产品此前于 4 月在美国硅谷举办全球品牌暨产品发布会，历经两个多月准备后正式面向大众消费市场推出。据官方规划，搭载 2K 摄像头、重量约 19.9 克的 Pro 版本预计于 8 月底正式上市。 京…",
+    "source": "IT之家",
+    "sourceUrl": "https://www.ithome.com/0/978/206.htm",
+    "category": "ai-products",
+    "publishedAt": "2026-07-17T09:35:36.000Z",
+    "image": "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/484664/21/672/165855/6a58927cFd1a227e7/00835dc5dcd4641b.jpg",
+    "aiSelected": true,
+    "origin": "rss:ithome",
+    "heat": 0,
+    "firstSeen": "2026-07-17T09:43:24.122Z",
+    "aiNote": "聚焦轻量化与记录功能，避开翻译导航红海，14.9克极致佩戴体验或成差异化突破口。"
+  },
+  {
+    "id": "rss:36kr-5e8781974d",
+    "title": "九州一轨：拟取得通用半导体6.47%股权，深入半导体高端制造领域",
+    "summary": "36氪获悉，九州一轨公告，公司拟以自有/自筹资金6998.96万元认购江苏通用半导体有限公司新增注册资本983万元，增资完成后预计持有通用半导体约6.4709%的股权。标的公司以高端半导体产业装备与材料的研发和制造为主营业务，立足于激光隐切技术，是国产化替代进程的领军企业。本次投资旨在推进“声纹数字化监测系统技术升级”战略，优化工业人工智能领域产业布局，并深…",
+    "source": "36氪",
+    "sourceUrl": "https://36kr.com/newsflashes/3899528727168640?f=rss",
+    "category": "industry",
+    "publishedAt": "2026-07-17T09:25:45.000Z",
+    "image": null,
+    "aiSelected": true,
+    "origin": "rss:36kr",
+    "heat": 0,
+    "firstSeen": "2026-07-17T09:43:24.122Z",
+    "aiNote": "跨界布局半导体，以声学技术切入高端制造，展现产业链协同新思路。"
+  },
+  {
+    "id": "rss:36kr-af2ca639f1",
+    "title": "Meta拟聘请亚马逊顶尖云计算高管，筹备大举进军云市场",
+    "summary": "知情人士透露，亚马逊云科技（AWS）资深高管戴夫·布朗拥有近二十年行业经验，即将入职Meta。他将向Meta基础设施负责人汇报工作，核心负责公司数据中心扩建项目。扎克伯格称：“目前我们尚未正式推出云业务，是因为自有算力仍可满足自身需求。但如果未来算力建设出现富余，对外开放算力、开展云服务，将成为我们的可选方向。”（财联社）",
+    "source": "36氪",
+    "sourceUrl": "https://36kr.com/newsflashes/3899526806980484?f=rss",
+    "category": "industry",
+    "publishedAt": "2026-07-17T09:23:47.000Z",
+    "image": null,
+    "aiSelected": true,
+    "origin": "rss:36kr",
+    "heat": 0,
+    "firstSeen": "2026-07-17T09:43:24.122Z",
+    "aiNote": "云计算竞争白热化，Meta挖角AWS高管信号明确，算力富余或催生新巨头入局。"
+  },
+  {
+    "id": "rss:ithome-c6fd1da382",
+    "title": "影石旗舰系列产品入驻荣耀门店，首批 44 家门店上新",
+    "summary": "IT之家 7 月 17 日消息，荣耀手机今日官宣荣耀影像生态再添新伙伴，即日起，影石旗舰系列产品正式入驻荣耀门店， 首批 44 家门店将陆续上新影石产品 。 荣耀官方称，此次合作是荣耀智能影像赛道的又一重磅布局，也是 2026 年荣耀阿尔法战略落地的重要一步。我们将积极携手各行业头部企业共建 AI 智能终端生态，把更丰富的产品和创作工具带到消费者身边，让每一…",
+    "source": "IT之家",
+    "sourceUrl": "https://www.ithome.com/0/978/200.htm",
+    "category": "industry",
+    "publishedAt": "2026-07-17T09:14:16.000Z",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/567517c5-8c54-4b0e-90df-f98672091393.png",
+    "aiSelected": true,
+    "origin": "rss:ithome",
+    "heat": 0,
+    "firstSeen": "2026-07-17T09:43:24.122Z",
+    "aiNote": "影石入驻荣耀线下渠道，标志AI影像生态从线上走向实体体验的关键一步。"
+  },
+  {
+    "id": "rss:ithome-1b35c0b376",
+    "title": "打造开放可信普惠生态：AI 智能体互信互联互操作全球合作倡议发布",
+    "summary": "IT之家 7 月 17 日消息，2026 世界人工智能大会暨人工智能全球治理高级别会议主论坛今日在上海举行。会上，中国网信办会同有关方面正式提出《智能体互信互联互操作全球合作倡议》。 该倡议旨在释放智能体赋能可持续发展的潜力，防止形成智能鸿沟，凝聚各方共识，与全球伙伴共同打造开放、可信、安全、普惠的智能体生态。 智能体作为人工智能时代最具变革性的技术形态之一…",
+    "source": "IT之家",
+    "sourceUrl": "https://www.ithome.com/0/978/197.htm",
+    "category": "industry",
+    "publishedAt": "2026-07-17T09:13:00.000Z",
+    "image": null,
+    "aiSelected": true,
+    "origin": "rss:ithome",
+    "heat": 0,
+    "firstSeen": "2026-07-17T09:43:24.122Z",
+    "aiNote": "聚焦智能体生态的全球治理，推动开放互信，防范技术鸿沟，意义深远。"
+  },
+  {
+    "id": "rss:techreview-ai-29e789ead9",
+    "title": "The risk of weather data sabotage is rising",
+    "summary": "Every morning, airline dispatchers, grid operators, and farmers around the world make decisions based on the same thing: a weather forecast. While these forecasts are something tha…",
+    "source": "MIT Tech Review",
+    "sourceUrl": "https://www.technologyreview.com/2026/07/17/1140622/weather-data-sabotage/",
+    "category": "industry",
+    "publishedAt": "2026-07-17T08:57:32.000Z",
+    "image": null,
+    "aiSelected": true,
+    "origin": "rss:techreview-ai",
+    "heat": 0,
+    "firstSeen": "2026-07-17T09:43:24.122Z",
+    "aiNote": "极端天气频发下，气象数据安全漏洞可能引发连锁决策失误，威胁航空、能源与农业。"
   }
 ]
