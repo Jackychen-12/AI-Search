@@ -2220,7 +2220,7 @@
       "edge-extension",
       "JavaScript"
     ],
-    "heat": 1551,
+    "heat": 1553,
     "aiSelected": true,
     "origin": "github",
     "firstSeen": "2026-07-17T08:31:07.382Z",
@@ -9521,7 +9521,7 @@
       "bun",
       "TypeScript"
     ],
-    "heat": 3794,
+    "heat": 3795,
     "aiSelected": true,
     "origin": "github",
     "firstSeen": "2026-07-17T08:31:07.382Z",
@@ -11935,7 +11935,7 @@
       "fastapi",
       "TypeScript"
     ],
-    "heat": 1308,
+    "heat": 1310,
     "aiSelected": true,
     "origin": "github",
     "firstSeen": "2026-07-17T08:31:07.382Z",
@@ -12399,7 +12399,7 @@
       "codex",
       "HTML"
     ],
-    "heat": 3401,
+    "heat": 3404,
     "aiSelected": true,
     "origin": "github",
     "firstSeen": "2026-07-17T08:31:07.382Z",
@@ -19624,7 +19624,7 @@
       "ai4s",
       "TypeScript"
     ],
-    "heat": 1197,
+    "heat": 1199,
     "aiSelected": true,
     "origin": "github",
     "firstSeen": "2026-07-17T08:31:07.382Z",
@@ -22071,7 +22071,7 @@
       "ffmpeg",
       "JavaScript"
     ],
-    "heat": 696,
+    "heat": 698,
     "aiSelected": true,
     "origin": "github",
     "firstSeen": "2026-07-17T08:31:07.382Z",
@@ -23273,10 +23273,10 @@
       "image-to-image-translation",
       "Python"
     ],
-    "heat": 3,
+    "heat": 5,
     "aiSelected": true,
     "origin": "github",
-    "firstSeen": "2026-07-13T23:22:21.572Z",
+    "firstSeen": "2026-07-17T09:06:19.914Z",
     "aiNote": null
   },
   {
@@ -23384,7 +23384,7 @@
       "billing",
       "TypeScript"
     ],
-    "heat": 60,
+    "heat": 62,
     "aiSelected": true,
     "origin": "github",
     "firstSeen": "2026-07-17T08:31:07.382Z",
@@ -25605,7 +25605,7 @@
       "workbuddy",
       "Python"
     ],
-    "heat": 1542,
+    "heat": 1544,
     "aiSelected": true,
     "origin": "github",
     "firstSeen": "2026-07-17T08:31:07.382Z",
@@ -25701,7 +25701,7 @@
       "claude-code",
       "Python"
     ],
-    "heat": 2178,
+    "heat": 2195,
     "aiSelected": true,
     "origin": "github",
     "firstSeen": "2026-07-17T08:31:07.382Z",
@@ -27387,7 +27387,7 @@
       "grpo",
       "Python"
     ],
-    "heat": 20,
+    "heat": 26,
     "aiSelected": true,
     "origin": "github",
     "firstSeen": "2026-07-17T08:31:07.382Z",
@@ -28045,7 +28045,7 @@
     "tags": [
       "Hacker News"
     ],
-    "heat": 238,
+    "heat": 242,
     "aiSelected": true,
     "origin": "hackernews",
     "firstSeen": "2026-07-16T23:19:44.738Z",
@@ -28094,7 +28094,7 @@
     "tags": [
       "Hacker News"
     ],
-    "heat": 244,
+    "heat": 255,
     "aiSelected": true,
     "origin": "hackernews",
     "firstSeen": "2026-07-16T23:19:44.738Z",
@@ -28295,7 +28295,7 @@
     "origin": "rss:simonwillison",
     "heat": 0,
     "firstSeen": "2026-07-16T23:19:44.738Z",
-    "aiNote": null
+    "aiNote": "揭露GPT-5.6文件误删根源，全权限模式风险首次详析，AI安全边界再受拷问。"
   },
   {
     "id": "hn-36f4216483",
@@ -28308,11 +28308,11 @@
     "tags": [
       "Hacker News"
     ],
-    "heat": 134,
+    "heat": 136,
     "aiSelected": true,
     "origin": "hackernews",
     "firstSeen": "2026-07-16T23:19:44.738Z",
-    "aiNote": null
+    "aiNote": "开源30B模型Soofi S登顶多项基准，展现德国AI团队开源实力与性能突破。"
   },
   {
     "id": "rss:venturebeat-ai-e9ea1363a1",
@@ -28327,7 +28327,7 @@
     "origin": "rss:venturebeat-ai",
     "heat": 0,
     "firstSeen": "2026-07-16T23:19:44.738Z",
-    "aiNote": null
+    "aiNote": "企业AI信任缺失比检索问题更致命，多数公司却仍在错误方向投入资源修补。"
   },
   {
     "id": "rss:infoq-b06f772730",
@@ -28342,7 +28342,7 @@
     "origin": "rss:infoq",
     "heat": 0,
     "firstSeen": "2026-07-16T23:19:44.738Z",
-    "aiNote": null
+    "aiNote": "Linus罕见为AI发声，技术权威站台引发行业新思考。"
   },
   {
     "id": "hn-914e4bd734",
@@ -28355,11 +28355,11 @@
     "tags": [
       "Hacker News"
     ],
-    "heat": 194,
+    "heat": 196,
     "aiSelected": true,
     "origin": "hackernews",
     "firstSeen": "2026-07-16T23:19:44.738Z",
-    "aiNote": null
+    "aiNote": "用传统机器学习检测AI文本，低成本高精度，打破大模型垄断。"
   },
   {
     "id": "rss:venturebeat-ai-9a3bfba706",
@@ -28374,7 +28374,7 @@
     "origin": "rss:venturebeat-ai",
     "heat": 0,
     "firstSeen": "2026-07-16T23:19:44.738Z",
-    "aiNote": null
+    "aiNote": "企业盲目放权AI代理却缺乏可信评估，暴露出部署与安全之间的严重脱节。"
   },
   {
     "id": "hn-fae46a2228",
@@ -28391,7 +28391,7 @@
     "aiSelected": true,
     "origin": "hackernews",
     "firstSeen": "2026-07-16T23:19:44.738Z",
-    "aiNote": null
+    "aiNote": "多智能体协作编程，突破单Agent局限，是AI自主开发的关键一步。"
   },
   {
     "id": "hn-c0522592bd",
@@ -28404,11 +28404,11 @@
     "tags": [
       "Hacker News"
     ],
-    "heat": 299,
+    "heat": 301,
     "aiSelected": true,
     "origin": "hackernews",
     "firstSeen": "2026-07-16T23:19:44.738Z",
-    "aiNote": null
+    "aiNote": "更名整合体现谷歌AI战略，或影响用户生态与功能体验。"
   },
   {
     "id": "rss:ithome-00b6fb0676",
@@ -28438,7 +28438,7 @@
     "origin": "rss:hf-blog",
     "heat": 0,
     "firstSeen": "2026-07-16T23:19:44.738Z",
-    "aiNote": null
+    "aiNote": "英伟达新嵌入模型登顶基准，加速智能体检索技术落地，AI搜索能力再升级。"
   },
   {
     "id": "rss:openai-8fe39edff7",
@@ -28453,7 +28453,7 @@
     "origin": "rss:openai",
     "heat": 0,
     "firstSeen": "2026-07-16T23:19:44.738Z",
-    "aiNote": null
+    "aiNote": "聚焦青少年AI安全，OpenAI的防护措施和专家合作值得关注。"
   },
   {
     "id": "rss:google-ai-a564401bb8",
@@ -28468,7 +28468,7 @@
     "origin": "rss:google-ai",
     "heat": 0,
     "firstSeen": "2026-07-16T23:19:44.738Z",
-    "aiNote": null
+    "aiNote": "AI模式直接集成常用服务，简化操作流程，提升搜索效率。"
   },
   {
     "id": "rss:google-ai-0199c9587e",
@@ -28483,7 +28483,7 @@
     "origin": "rss:google-ai",
     "heat": 0,
     "firstSeen": "2026-07-16T23:19:44.738Z",
-    "aiNote": null
+    "aiNote": "谷歌Vids引入Gemini Omni与个人头像，视频创作门槛大幅降低，AI融合创意工具趋势明显。"
   },
   {
     "id": "rss:theverge-ai-79ed56faed",
@@ -28498,7 +28498,7 @@
     "origin": "rss:theverge-ai",
     "heat": 0,
     "firstSeen": "2026-07-16T23:19:44.738Z",
-    "aiNote": null
+    "aiNote": "改名整合品牌矩阵，强化AI笔记工具与Gemini生态联动，用户需关注功能升级与数据迁移。"
   },
   {
     "id": "rss:techcrunch-ai-a15138565f",
@@ -28646,7 +28646,7 @@
     "tags": [
       "Hacker News"
     ],
-    "heat": 99,
+    "heat": 100,
     "aiSelected": true,
     "origin": "hackernews",
     "firstSeen": "2026-07-16T23:19:44.738Z",
@@ -28663,7 +28663,7 @@
     "tags": [
       "Hacker News"
     ],
-    "heat": 128,
+    "heat": 132,
     "aiSelected": true,
     "origin": "hackernews",
     "firstSeen": "2026-07-16T23:19:44.738Z",
@@ -28710,7 +28710,7 @@
     "tags": [
       "Hacker News"
     ],
-    "heat": 1551,
+    "heat": 1589,
     "aiSelected": true,
     "origin": "hackernews",
     "firstSeen": "2026-07-16T23:19:44.738Z",
@@ -28787,7 +28787,7 @@
     "tags": [
       "Hacker News"
     ],
-    "heat": 104,
+    "heat": 105,
     "aiSelected": true,
     "origin": "hackernews",
     "firstSeen": "2026-07-16T23:19:44.738Z",
@@ -28834,7 +28834,7 @@
     "tags": [
       "Hacker News"
     ],
-    "heat": 223,
+    "heat": 226,
     "aiSelected": true,
     "origin": "hackernews",
     "firstSeen": "2026-07-16T23:19:44.738Z",
@@ -29755,7 +29755,7 @@
       "论文",
       "arXiv"
     ],
-    "heat": 32,
+    "heat": 33,
     "aiSelected": true,
     "origin": "hf-papers",
     "firstSeen": "2026-07-16T23:19:44.738Z",
@@ -29809,7 +29809,7 @@
       "论文",
       "arXiv"
     ],
-    "heat": 71,
+    "heat": 72,
     "aiSelected": true,
     "origin": "hf-papers",
     "firstSeen": "2026-07-16T23:19:44.738Z",
@@ -29935,7 +29935,7 @@
       "论文",
       "arXiv"
     ],
-    "heat": 173,
+    "heat": 174,
     "aiSelected": true,
     "origin": "hf-papers",
     "firstSeen": "2026-07-16T23:19:44.738Z",
@@ -30667,7 +30667,7 @@
     "origin": "arxiv",
     "heat": 0,
     "firstSeen": "2026-07-17T08:31:07.382Z",
-    "aiNote": null
+    "aiNote": "静态检索与多步智能搜索的因果效用脱节，挑战现有评估标准，值得关注。"
   },
   {
     "id": "arxiv-2607.15247v1",
@@ -30685,7 +30685,7 @@
     "origin": "arxiv",
     "heat": 0,
     "firstSeen": "2026-07-17T08:31:07.382Z",
-    "aiNote": null
+    "aiNote": "AI自动化元分析系统，极大提升科研效率，降低人工成本，推动循证决策发展。"
   },
   {
     "id": "arxiv-2607.15242v1",
@@ -30703,7 +30703,7 @@
     "origin": "arxiv",
     "heat": 0,
     "firstSeen": "2026-07-17T08:31:07.382Z",
-    "aiNote": null
+    "aiNote": "打破推荐系统僵局，实现无需重训的实时用户嵌入更新，显著降低计算成本与延迟。"
   },
   {
     "id": "arxiv-2607.15241v1",
@@ -30721,7 +30721,7 @@
     "origin": "arxiv",
     "heat": 0,
     "firstSeen": "2026-07-17T08:31:07.382Z",
-    "aiNote": null
+    "aiNote": "多模态医疗AI的可靠性设计突破，用胃肠镜案例揭示可解释性关键。"
   },
   {
     "id": "arxiv-2607.15240v1",
@@ -30739,7 +30739,7 @@
     "origin": "arxiv",
     "heat": 0,
     "firstSeen": "2026-07-17T08:31:07.382Z",
-    "aiNote": null
+    "aiNote": "多模态数据集填补短视频政治立场分析空白，推动社交媒体研究。"
   },
   {
     "id": "arxiv-2607.15238v1",
@@ -30757,7 +30757,7 @@
     "origin": "arxiv",
     "heat": 0,
     "firstSeen": "2026-07-17T08:31:07.382Z",
-    "aiNote": null
+    "aiNote": "线性对数比几何法实现语言识别，效率媲美神经网络但计算成本更低，突破传统方法局限。"
   },
   {
     "id": "arxiv-2607.15232v1",
@@ -30775,7 +30775,7 @@
     "origin": "arxiv",
     "heat": 0,
     "firstSeen": "2026-07-17T08:31:07.382Z",
-    "aiNote": null
+    "aiNote": "突破传统分词器固化局限，实现大模型词汇表动态扩展，提升多语言适应性与部署灵活性。"
   },
   {
     "id": "arxiv-2607.15229v1",
@@ -30793,7 +30793,7 @@
     "origin": "arxiv",
     "heat": 0,
     "firstSeen": "2026-07-17T08:31:07.382Z",
-    "aiNote": null
+    "aiNote": "用数据驱动替代固定周期换件，显著降低维护成本，革新传统设备管理策略。"
   },
   {
     "id": "arxiv-2607.15218v1",
@@ -30811,7 +30811,7 @@
     "origin": "arxiv",
     "heat": 0,
     "firstSeen": "2026-07-17T08:31:07.382Z",
-    "aiNote": null
+    "aiNote": "探索大模型安全新维度，揭示文本安全与物理行动的鸿沟，为具身智能风险防控开辟新思路。"
   },
   {
     "id": "hn-afa2a58b84",
@@ -30828,7 +30828,7 @@
     "aiSelected": true,
     "origin": "hackernews",
     "firstSeen": "2026-07-17T08:31:07.382Z",
-    "aiNote": null
+    "aiNote": "AI生成个人传记，引发隐私与版权新争议，技术伦理边界再受拷问。"
   },
   {
     "id": "hn-ef739604e3",
@@ -30841,7 +30841,7 @@
     "tags": [
       "Hacker News"
     ],
-    "heat": 46,
+    "heat": 47,
     "aiSelected": true,
     "origin": "hackernews",
     "firstSeen": "2026-07-17T08:31:07.382Z",
@@ -30895,7 +30895,7 @@
       "论文",
       "arXiv"
     ],
-    "heat": 63,
+    "heat": 65,
     "aiSelected": true,
     "origin": "hf-papers",
     "firstSeen": "2026-07-17T08:31:07.382Z",
@@ -30985,7 +30985,7 @@
       "论文",
       "arXiv"
     ],
-    "heat": 77,
+    "heat": 78,
     "aiSelected": true,
     "origin": "hf-papers",
     "firstSeen": "2026-07-17T08:31:07.382Z",
@@ -31453,7 +31453,7 @@
       "electrobun",
       "TypeScript"
     ],
-    "heat": 1437,
+    "heat": 1440,
     "aiSelected": true,
     "origin": "github",
     "firstSeen": "2026-07-17T08:31:07.382Z",
@@ -31786,7 +31786,7 @@
       "ai-agents",
       "JavaScript"
     ],
-    "heat": 695,
+    "heat": 699,
     "aiSelected": true,
     "origin": "github",
     "firstSeen": "2026-07-17T08:31:07.382Z",
@@ -31807,10 +31807,115 @@
       "backtesting",
       "Python"
     ],
-    "heat": 3344,
+    "heat": 3348,
     "aiSelected": true,
     "origin": "github",
     "firstSeen": "2026-07-17T08:31:07.382Z",
     "aiNote": null
+  },
+  {
+    "id": "rss:infoq-075cc92783",
+    "title": "亚马逊云科技推出 Claude 应用网关：面向 Claude Code 与 Claude Desktop 的自托管控制平面",
+    "summary": null,
+    "source": "InfoQ",
+    "sourceUrl": "https://www.infoq.cn/article/j59f7KU3djH4Ex4YhqxF?utm_source=rss&utm_medium=article",
+    "category": "ai-models",
+    "publishedAt": "2026-07-17T17:00:00.000Z",
+    "image": null,
+    "aiSelected": true,
+    "origin": "rss:infoq",
+    "heat": 0,
+    "firstSeen": "2026-07-17T09:06:19.914Z",
+    "aiNote": "自建网关掌控Claude，企业级AI部署更灵活，降低依赖风险。"
+  },
+  {
+    "id": "rss:ithome-23fb8a9503",
+    "title": "阿里千问输入法 iOS 版上线：无广告无弹窗无需注册，支持 AI 自动润色",
+    "summary": "IT之家 7 月 17 日消息，继 macOS 版之后，阿里旗下“千问输入法”iOS 版已于 7 月 16 日正式在 App Store 上线，仅适配苹果 iPhone 端。 官方描述显示，千问输入法的核心定位是一款从“说话”出发的 AI 输入工具，号称“说完即成稿”。其语音输入功能基于阿里自研的 CosyVoice 语音大模型，官方宣称语音输入最快可达每分…",
+    "source": "IT之家",
+    "sourceUrl": "https://www.ithome.com/0/978/194.htm",
+    "category": "ai-products",
+    "publishedAt": "2026-07-17T09:03:44.000Z",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/f1a64513-e9d1-488a-a8bf-1a130a16ee77.jpg?x-bce-process=image/format,f_auto",
+    "aiSelected": true,
+    "origin": "rss:ithome",
+    "heat": 0,
+    "firstSeen": "2026-07-17T09:06:19.914Z",
+    "aiNote": "无广告无注册的纯净体验，结合AI语音润色，有望颠覆传统输入法使用习惯。"
+  },
+  {
+    "id": "rss:wired-ai-8b78bfb6af",
+    "title": "A Humanoid Company Backed by Eric Trump Is Preparing Its Robots for War",
+    "summary": "The CEO of Foundation Future Industries, which counts the president’s son as its chief strategy adviser, tells WIRED it’s exploring some “kinetic things.”",
+    "source": "Wired",
+    "sourceUrl": "https://www.wired.com/story/humanoid-robot-soldier-eric-trump-foundation-future-industries/",
+    "category": "industry",
+    "publishedAt": "2026-07-17T09:00:00.000Z",
+    "image": "https://media.wired.com/photos/6a42d5f50a2d48b162fabdd7/master/pass/Eric-Trump-Wants-to-Create-Terminator-Business.jpg",
+    "aiSelected": true,
+    "origin": "rss:wired-ai",
+    "heat": 0,
+    "firstSeen": "2026-07-17T09:06:19.914Z",
+    "aiNote": "埃里克·特朗普背书的人形机器人公司涉足军事，政治与科技的交汇点值得警惕。"
+  },
+  {
+    "id": "rss:36kr-17499b3d2f",
+    "title": "2连板道明光学：目前不存在AI手机相关业务",
+    "summary": "36氪获悉，道明光学公告，公司股票连续2个交易日收盘价格涨幅偏离值累计超过20%，属于股票交易异常波动。公司未发现近期公共传媒报道了可能或已经对本公司股票交易价格产生较大影响的未公开重大信息；但公司关注到近期部分媒体、网络论坛及股吧等平台对涉及“AI手机”等相关市场热点概念关注度较高。公司就相关事项说明��公司目前不存在AI手机相关业务。",
+    "source": "36氪",
+    "sourceUrl": "https://36kr.com/newsflashes/3899502733199238?f=rss",
+    "category": "industry",
+    "publishedAt": "2026-07-17T08:59:18.000Z",
+    "image": null,
+    "aiSelected": true,
+    "origin": "rss:36kr",
+    "heat": 0,
+    "firstSeen": "2026-07-17T09:06:19.914Z",
+    "aiNote": "概念炒作需谨慎，公司已澄清无相关业务，投资者应回归基本面判断风险。"
+  },
+  {
+    "id": "rss:ithome-78ba8d7023",
+    "title": "铠侠被美国法院裁定侵犯美企计算机闪存技术专利，须赔偿 2.29 亿美元",
+    "summary": "IT之家 7 月 17 日消息，据路透社报道，美国得克萨斯州西区联邦地区法院于周四（7 月 16 日）作出裁决，日本芯片制造商铠侠（Kioxia）因侵犯了一项计算机闪存技术专利，须向卫星通信公司维亚萨特（Viasat） 赔偿 2.29 亿美元 （IT之家注：现汇率约合 15.53 亿元人民币）。 据悉，该项专利技术能够降低闪存设备的功耗，并提升其可靠性与使用…",
+    "source": "IT之家",
+    "sourceUrl": "https://www.ithome.com/0/978/187.htm",
+    "category": "industry",
+    "publishedAt": "2026-07-17T08:50:42.000Z",
+    "image": null,
+    "aiSelected": true,
+    "origin": "rss:ithome",
+    "heat": 0,
+    "firstSeen": "2026-07-17T09:06:19.914Z",
+    "aiNote": "专利侵权判罚金额巨大，凸显闪存技术专利战的激烈与合规风险。"
+  },
+  {
+    "id": "rss:ithome-4797881cc5",
+    "title": "波音上海培训中心新址开业，提供 737 MAX 和 787 梦想飞机全动模拟机",
+    "summary": "IT之家 7 月 17 日消息，波音今日宣布其上海培训中心的新址正式开业，这是该公司在亚太地区开展合作的一个重要里程碑，同时也是对航空培训能力的一项重大投资。 培训中心的主要特色和能力包括： 全动模拟机和训练设备： 园区拥有 737 MAX 和 787 梦想飞机的全动模拟机 ，以及针对这些机型的飞行训练器。 完善的培训设施：用于普通授课、维修培训和 787…",
+    "source": "IT之家",
+    "sourceUrl": "https://www.ithome.com/0/978/186.htm",
+    "category": "industry",
+    "publishedAt": "2026-07-17T08:49:14.000Z",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/f9a9a9e7-8971-4fb6-8f94-17b22c03efbb.jpg?x-bce-process=image/format,f_auto",
+    "aiSelected": true,
+    "origin": "rss:ithome",
+    "heat": 0,
+    "firstSeen": "2026-07-17T09:06:19.914Z",
+    "aiNote": "波音在华深化布局，737 MAX与787全动模拟机落地，助力本土飞行员培训与航空安全。"
+  },
+  {
+    "id": "rss:36kr-35b50d1e38",
+    "title": "网易智企携全新升级的一站式AI应用服务亮相WAIC 2026",
+    "summary": "36氪获悉，7月17日，在2026世界人工智能大会（WAIC 2026）上，网易智企携全新升级的一站式企业AI应用服务亮相，集中展示AI Agent编排、AI Coding、AI客服、AI私域助理、AI智能数据与AI Agent安全等企业级AI能力，围绕安全治理、组织协作与业务增长三大场景，呈现企业级AI应用实践。",
+    "source": "36氪",
+    "sourceUrl": "https://36kr.com/newsflashes/3899490626684544?f=rss",
+    "category": "ai-products",
+    "publishedAt": "2026-07-17T08:46:59.000Z",
+    "image": null,
+    "aiSelected": true,
+    "origin": "rss:36kr",
+    "heat": 0,
+    "firstSeen": "2026-07-17T09:06:19.914Z",
+    "aiNote": "展示企业级AI全栈能力，聚焦安全治理与业务增长三大场景，为行业提供可落地的AI应用标杆。"
   }
 ]
