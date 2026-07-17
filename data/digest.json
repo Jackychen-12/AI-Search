@@ -1,37 +1,37 @@
 {
-  "date": "2026-07-17",
-  "generatedAt": "2026-07-16T23:19:57.393Z",
+  "date": "2026-07-18",
+  "generatedAt": "2026-07-17T23:17:57.830Z",
   "picks": [
-    {
-      "title": "Kimi K3: Open Frontier Intelligence",
-      "sourceUrl": "https://www.kimi.com/blog/kimi-k3",
-      "source": "Hacker News",
-      "reason": "Kimi K3性能与价格分析，前沿AI动态"
-    },
-    {
-      "title": "Running Gemma 4 26B at 5 tokens/sec on a 13-year-old Xeon with no GPU",
-      "sourceUrl": "https://www.neomindlabs.com/2026/06/08/running-gemma-4-26b-at-5-tokens-sec-on-a-13-year-old-xeon-with-no-gpu/",
-      "source": "Hacker News",
-      "reason": "无GPU运行大模型，实用技术突破"
-    },
     {
       "title": "Inkling – Open-Weights 975B Parameter LLM",
       "sourceUrl": "https://thinkingmachines.ai/inkling/",
       "source": "Hacker News",
-      "reason": "开源975B参数模型，规模惊人"
+      "reason": "975B参数开源模型，规模与性能突破"
     },
     {
       "title": "German AI consortium releases Soofi S, an open 30B model that tops benchmarks",
       "sourceUrl": "https://the-decoder.com/german-ai-consortium-releases-soofi-s-an-open-30b-model-that-tops-benchmarks-in-both-english-and-german/",
       "source": "Hacker News",
-      "reason": "德国开源30B模型登顶，开源新星"
+      "reason": "德国30B开源模型登顶基准，性价比高"
     },
     {
-      "title": "The Three-Second Theft: Why AI Voice Fraud Outruns Every Defence",
-      "sourceUrl": "https://smarterarticles.co.uk/the-three-second-theft-why-ai-voice-fraud-outruns-every-defence",
+      "title": "Kimi K3: Open Frontier Intelligence",
+      "sourceUrl": "https://www.kimi.com/blog/kimi-k3",
       "source": "Hacker News",
-      "reason": "AI语音诈骗威胁升级，安全警示"
+      "reason": "Kimi新模型性能与价格分析，前沿动态"
+    },
+    {
+      "title": "Running Gemma 4 26B at 5 tokens/sec on a 13-year-old Xeon with no GPU",
+      "sourceUrl": "https://www.neomindlabs.com/2026/06/08/running-gemma-4-26b-at-5-tokens-sec-on-a-13-year-old-xeon-with-no-gpu/",
+      "source": "Hacker News",
+      "reason": "无GPU跑大模型，硬件优化技巧实用"
+    },
+    {
+      "title": "The LLM Critics Are Right. I Use LLMs Anyway",
+      "sourceUrl": "https://www.theocharis.dev/blog/llm-critics-are-right-i-use-llms-anyway/",
+      "source": "Hacker News",
+      "reason": "反思LLM批评，实用主义视角有启发"
     }
   ],
-  "trendSummary": "本周AI圈围绕模型迭代与安全争议展开，苹果起诉前员工窃密，GPT-5.6和Claude新版本接连亮相，同时开源模型Kimi系列在代码效率上取得突破。"
+  "trendSummary": "本周AI圈热点集中在开源项目爆发与法律纠纷，涵盖视频生成、智能体框架及企业起诉泄密事件。"
 }
