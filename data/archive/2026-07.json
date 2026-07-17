@@ -7799,7 +7799,7 @@
       "offensive-security",
       "TypeScript"
     ],
-    "heat": 7289,
+    "heat": 7292,
     "aiSelected": true,
     "origin": "github",
     "firstSeen": "2026-07-17T08:31:07.382Z",
@@ -12399,7 +12399,7 @@
       "codex",
       "HTML"
     ],
-    "heat": 3407,
+    "heat": 3408,
     "aiSelected": true,
     "origin": "github",
     "firstSeen": "2026-07-17T08:31:07.382Z",
@@ -21127,7 +21127,7 @@
       "local-first",
       "Python"
     ],
-    "heat": 1226,
+    "heat": 1250,
     "aiSelected": true,
     "origin": "github",
     "firstSeen": "2026-07-17T08:31:07.382Z",
@@ -22071,7 +22071,7 @@
       "ffmpeg",
       "JavaScript"
     ],
-    "heat": 698,
+    "heat": 699,
     "aiSelected": true,
     "origin": "github",
     "firstSeen": "2026-07-17T08:31:07.382Z",
@@ -25701,7 +25701,7 @@
       "claude-code",
       "Python"
     ],
-    "heat": 2217,
+    "heat": 2225,
     "aiSelected": true,
     "origin": "github",
     "firstSeen": "2026-07-17T08:31:07.382Z",
@@ -28045,7 +28045,7 @@
     "tags": [
       "Hacker News"
     ],
-    "heat": 248,
+    "heat": 251,
     "aiSelected": true,
     "origin": "hackernews",
     "firstSeen": "2026-07-16T23:19:44.738Z",
@@ -28094,7 +28094,7 @@
     "tags": [
       "Hacker News"
     ],
-    "heat": 268,
+    "heat": 272,
     "aiSelected": true,
     "origin": "hackernews",
     "firstSeen": "2026-07-16T23:19:44.738Z",
@@ -28355,7 +28355,7 @@
     "tags": [
       "Hacker News"
     ],
-    "heat": 199,
+    "heat": 200,
     "aiSelected": true,
     "origin": "hackernews",
     "firstSeen": "2026-07-16T23:19:44.738Z",
@@ -28404,7 +28404,7 @@
     "tags": [
       "Hacker News"
     ],
-    "heat": 306,
+    "heat": 307,
     "aiSelected": true,
     "origin": "hackernews",
     "firstSeen": "2026-07-16T23:19:44.738Z",
@@ -28646,7 +28646,7 @@
     "tags": [
       "Hacker News"
     ],
-    "heat": 101,
+    "heat": 102,
     "aiSelected": true,
     "origin": "hackernews",
     "firstSeen": "2026-07-16T23:19:44.738Z",
@@ -28663,7 +28663,7 @@
     "tags": [
       "Hacker News"
     ],
-    "heat": 134,
+    "heat": 137,
     "aiSelected": true,
     "origin": "hackernews",
     "firstSeen": "2026-07-16T23:19:44.738Z",
@@ -28710,7 +28710,7 @@
     "tags": [
       "Hacker News"
     ],
-    "heat": 1616,
+    "heat": 1635,
     "aiSelected": true,
     "origin": "hackernews",
     "firstSeen": "2026-07-16T23:19:44.738Z",
@@ -28834,7 +28834,7 @@
     "tags": [
       "Hacker News"
     ],
-    "heat": 229,
+    "heat": 230,
     "aiSelected": true,
     "origin": "hackernews",
     "firstSeen": "2026-07-16T23:19:44.738Z",
@@ -28928,7 +28928,7 @@
     "origin": "rss:wired-ai",
     "heat": 0,
     "firstSeen": "2026-07-16T23:19:44.738Z",
-    "aiNote": null
+    "aiNote": "用户苦于默认开启AI功能，呼吁转向主动选择机制，关乎数字时代用户自主权与隐私边界。"
   },
   {
     "id": "rss:infoq-97d02efbcb",
@@ -28943,7 +28943,7 @@
     "origin": "rss:infoq",
     "heat": 0,
     "firstSeen": "2026-07-16T23:19:44.738Z",
-    "aiNote": null
+    "aiNote": "AI原生开发全流程革新，企业人机协同研发范式从理论走向实践。"
   },
   {
     "id": "rss:deepmind-287800377f",
@@ -28958,7 +28958,7 @@
     "origin": "rss:deepmind",
     "heat": 0,
     "firstSeen": "2026-07-16T23:19:44.738Z",
-    "aiNote": null
+    "aiNote": "用AI预判生物威胁，谷歌跨界防御体系引发全球安全格局新思考。"
   },
   {
     "id": "rss:qbitai-8209173591",
@@ -28973,7 +28973,7 @@
     "origin": "rss:qbitai",
     "heat": 0,
     "firstSeen": "2026-07-16T23:19:44.738Z",
-    "aiNote": null
+    "aiNote": "工业AI与5G融合，定义智能制造新基建，看中国移动如何重塑工业母机未来。"
   },
   {
     "id": "rss:infoq-013001f83d",
@@ -28988,7 +28988,7 @@
     "origin": "rss:infoq",
     "heat": 0,
     "firstSeen": "2026-07-16T23:19:44.738Z",
-    "aiNote": null
+    "aiNote": "AI测试自动化新范式，智能体驱动显著提升UI测试稳定性。"
   },
   {
     "id": "rss:qbitai-961cc334dc",
@@ -29003,7 +29003,7 @@
     "origin": "rss:qbitai",
     "heat": 0,
     "firstSeen": "2026-07-16T23:19:44.738Z",
-    "aiNote": null
+    "aiNote": "具身智能领域迎来关键突破，从模型训练到真机部署实现全链路能力升级。"
   },
   {
     "id": "rss:qbitai-5adbe6fc0f",
@@ -29018,7 +29018,7 @@
     "origin": "rss:qbitai",
     "heat": 0,
     "firstSeen": "2026-07-16T23:19:44.738Z",
-    "aiNote": null
+    "aiNote": "具身智能赛道迎来首个基础设施供应商，复制英伟达与宁德时代的成长逻辑。"
   },
   {
     "id": "rss:qbitai-55a673d0c4",
@@ -29033,7 +29033,7 @@
     "origin": "rss:qbitai",
     "heat": 0,
     "firstSeen": "2026-07-16T23:19:44.738Z",
-    "aiNote": null
+    "aiNote": "人形机器人赛道再升温，多模型协同或成破局关键。"
   },
   {
     "id": "hn-30657efd3a",
@@ -29050,7 +29050,7 @@
     "aiSelected": true,
     "origin": "hackernews",
     "firstSeen": "2026-07-16T23:19:44.738Z",
-    "aiNote": null
+    "aiNote": "YC系创始人纷纷投身AI前沿，反映顶级创业人才正加速向OpenAI与Anthropic聚集。"
   },
   {
     "id": "rss:qbitai-b517dcac4b",
@@ -29065,7 +29065,7 @@
     "origin": "rss:qbitai",
     "heat": 0,
     "firstSeen": "2026-07-16T23:19:44.738Z",
-    "aiNote": null
+    "aiNote": "揭示人类记忆与AI记忆本质差异，挑战技术界对记忆机制的传统认知。"
   },
   {
     "id": "rss:qbitai-dbefe809ae",
@@ -29097,7 +29097,7 @@
     "aiSelected": true,
     "origin": "hackernews",
     "firstSeen": "2026-07-16T23:19:44.738Z",
-    "aiNote": null
+    "aiNote": "AI的自主决策能力正重塑人机关系，其影响远超工具论范畴。"
   },
   {
     "id": "rss:qbitai-ae7d797907",
@@ -29127,7 +29127,7 @@
     "origin": "rss:mit-news-ai",
     "heat": 0,
     "firstSeen": "2026-07-16T23:19:44.738Z",
-    "aiNote": null
+    "aiNote": "突破二维转三维建模效率瓶颈，AI自动生成CAD程序更精准，加速产品原型开发。"
   },
   {
     "id": "rss:techcrunch-ai-2d626a13a6",
@@ -29142,7 +29142,7 @@
     "origin": "rss:techcrunch-ai",
     "heat": 0,
     "firstSeen": "2026-07-16T23:19:44.738Z",
-    "aiNote": null
+    "aiNote": "石油化工行业首个全厂级AI基础模型，20M美元融资预示工业垂直大模型赛道加速。"
   },
   {
     "id": "rss:qbitai-facf9f6e82",
@@ -29189,7 +29189,7 @@
     "aiSelected": true,
     "origin": "hackernews",
     "firstSeen": "2026-07-16T23:19:44.738Z",
-    "aiNote": null
+    "aiNote": "研究揭示大模型理解计算机架构论文的深层技术能力，为AI在学术推理和工程应用中的突破提供关键评估视角。"
   },
   {
     "id": "rss:36kr-d90a7cb0b4",
@@ -29219,7 +29219,7 @@
     "origin": "rss:simonwillison",
     "heat": 0,
     "firstSeen": "2026-07-16T23:19:44.738Z",
-    "aiNote": null
+    "aiNote": "将Mermaid图表转为Unicode字符画，适合终端环境，实用且有趣。"
   },
   {
     "id": "rss:sspai-47d03a2347",
@@ -29234,7 +29234,7 @@
     "origin": "rss:sspai",
     "heat": 0,
     "firstSeen": "2026-07-16T23:19:44.738Z",
-    "aiNote": null
+    "aiNote": "苹果AI入华合规，阿里实时语音模型发布，硬件与AI双线突破值得关注。"
   },
   {
     "id": "rss:openai-6f16a999c8",
@@ -29249,7 +29249,7 @@
     "origin": "rss:openai",
     "heat": 0,
     "firstSeen": "2026-07-16T23:19:44.738Z",
-    "aiNote": null
+    "aiNote": "用AI每月处理百万分钟对话，挽回12%流失客户，汽车电商实现业务流程自动化升级。"
   },
   {
     "id": "rss:hf-blog-d8ed319939",
@@ -29264,7 +29264,7 @@
     "origin": "rss:hf-blog",
     "heat": 0,
     "firstSeen": "2026-07-16T23:19:44.738Z",
-    "aiNote": null
+    "aiNote": "安全事件披露透明化，体现企业责任与合规趋势，值得行业关注。"
   },
   {
     "id": "rss:techcrunch-ai-3f3b62ad2c",
@@ -29279,7 +29279,7 @@
     "origin": "rss:techcrunch-ai",
     "heat": 0,
     "firstSeen": "2026-07-16T23:19:44.738Z",
-    "aiNote": null
+    "aiNote": "微软内部培训销售贬低对手，凸显AI市场竞争白热化，商业策略转向更直接。"
   },
   {
     "id": "rss:36kr-5b24668aae",
@@ -29311,7 +29311,7 @@
     "aiSelected": true,
     "origin": "hackernews",
     "firstSeen": "2026-07-16T23:19:44.738Z",
-    "aiNote": null
+    "aiNote": "用C++26实现极简二进制，为AI编码工具链提供轻量高效替代方案。"
   },
   {
     "id": "hn-51c712cfd8",
@@ -29328,7 +29328,7 @@
     "aiSelected": true,
     "origin": "hackernews",
     "firstSeen": "2026-07-16T23:19:44.738Z",
-    "aiNote": null
+    "aiNote": "用MikroTik网络设备部署大模型，降低企业AI应用门槛。"
   },
   {
     "id": "arxiv-2607.14086v1",
@@ -29755,7 +29755,7 @@
       "论文",
       "arXiv"
     ],
-    "heat": 33,
+    "heat": 35,
     "aiSelected": true,
     "origin": "hf-papers",
     "firstSeen": "2026-07-16T23:19:44.738Z",
@@ -29827,7 +29827,7 @@
       "论文",
       "arXiv"
     ],
-    "heat": 66,
+    "heat": 68,
     "aiSelected": true,
     "origin": "hf-papers",
     "firstSeen": "2026-07-16T23:19:44.738Z",
@@ -30007,7 +30007,7 @@
       "论文",
       "arXiv"
     ],
-    "heat": 266,
+    "heat": 267,
     "aiSelected": true,
     "origin": "hf-papers",
     "firstSeen": "2026-07-16T23:19:44.738Z",
@@ -30845,7 +30845,7 @@
     "aiSelected": true,
     "origin": "hackernews",
     "firstSeen": "2026-07-17T08:31:07.382Z",
-    "aiNote": null
+    "aiNote": "开源之父谈AI辅助内核开发，技术权威视角揭示大模型在系统级编程的真实价值与局限。"
   },
   {
     "id": "hf-2607.14660",
@@ -30863,7 +30863,7 @@
     "aiSelected": true,
     "origin": "hf-papers",
     "firstSeen": "2026-07-17T08:31:07.382Z",
-    "aiNote": null
+    "aiNote": "首个专为盲人设计的视频评测集，推动AI辅助视觉障碍技术落地。"
   },
   {
     "id": "hf-2607.15277",
@@ -30881,7 +30881,7 @@
     "aiSelected": true,
     "origin": "hf-papers",
     "firstSeen": "2026-07-17T08:31:07.382Z",
-    "aiNote": null
+    "aiNote": "用统计自洽性理论解释语言模型上下文学习，为理解模型推理机制提供新视角。"
   },
   {
     "id": "hf-2607.14935",
@@ -30895,11 +30895,11 @@
       "论文",
       "arXiv"
     ],
-    "heat": 81,
+    "heat": 89,
     "aiSelected": true,
     "origin": "hf-papers",
     "firstSeen": "2026-07-17T08:31:07.382Z",
-    "aiNote": null
+    "aiNote": "开源视频理解模型新突破，效率与通用性兼得，为视频AI应用铺平道路。"
   },
   {
     "id": "hf-2607.14749",
@@ -30985,7 +30985,7 @@
       "论文",
       "arXiv"
     ],
-    "heat": 78,
+    "heat": 80,
     "aiSelected": true,
     "origin": "hf-papers",
     "firstSeen": "2026-07-17T08:31:07.382Z",
@@ -31453,7 +31453,7 @@
       "electrobun",
       "TypeScript"
     ],
-    "heat": 1448,
+    "heat": 1449,
     "aiSelected": true,
     "origin": "github",
     "firstSeen": "2026-07-17T08:31:07.382Z",
@@ -31786,7 +31786,7 @@
       "ai-agents",
       "JavaScript"
     ],
-    "heat": 699,
+    "heat": 701,
     "aiSelected": true,
     "origin": "github",
     "firstSeen": "2026-07-17T08:31:07.382Z",
@@ -32022,5 +32022,98 @@
     "heat": 0,
     "firstSeen": "2026-07-17T09:43:24.122Z",
     "aiNote": "极端天气频发下，气象数据安全漏洞可能引发连锁决策失误，威胁航空、能源与农业。"
+  },
+  {
+    "id": "rss:ithome-c3fb5b74c7",
+    "title": "阿里千问 AI 眼镜将升级为智能体眼镜，联合 Bose 打造首款 AI 智能体耳机同步亮相",
+    "summary": "IT之家 7 月 17 日消息，2026 世界人工智能大会首日，千问推出两大硬件：千问 AI 眼镜将升级为智能体眼镜，千问首款 AI 智能体耳机也同步亮相。 据介绍，升级后的眼镜可通过智能体强化服务与决策能力，并能按需调用第三方 Skill 和 Agent。为了增强智能体眼镜对物理世界的感知与交互能力，千问推出 全双工语音、眼动追踪、体征监测 等一系列全新技…",
+    "source": "IT之家",
+    "sourceUrl": "https://www.ithome.com/0/978/215.htm",
+    "category": "industry",
+    "publishedAt": "2026-07-17T09:53:31.000Z",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/2424c956-a382-4ad1-9199-b142e1e852e4.png",
+    "aiSelected": true,
+    "origin": "rss:ithome",
+    "heat": 0,
+    "firstSeen": "2026-07-17T09:58:00.356Z",
+    "aiNote": "阿里千问联手Bose，AI眼镜与耳机走向智能体时代，软硬协同创新值得关注。"
+  },
+  {
+    "id": "rss:36kr-5334b46db7",
+    "title": "阶跃与支付宝达成AI Agent系统级合作",
+    "summary": "36氪获悉，7月17日，在2026世界人工智能大会（WAIC）现场，支付宝与阶跃达成AI Agent系统级合作。双方围绕阶跃STEP-X原生AI终端展开深度协同，用户通过自然语言即可调用AI版支付宝“阿宝”连接真实服务，实现跨应用、多任务执行，推动智能体迈入“跨端互联办事”新阶段。",
+    "source": "36氪",
+    "sourceUrl": "https://36kr.com/newsflashes/3899555853862537?f=rss",
+    "category": "industry",
+    "publishedAt": "2026-07-17T09:53:20.000Z",
+    "image": null,
+    "aiSelected": true,
+    "origin": "rss:36kr",
+    "heat": 0,
+    "firstSeen": "2026-07-17T09:58:00.356Z",
+    "aiNote": "AI终端与支付场景深度融合，开启跨应用多任务执行新纪元，实用性和商业价值显著。"
+  },
+  {
+    "id": "rss:36kr-555de4c5e0",
+    "title": "科大讯飞发布GuideX",
+    "summary": "36氪获悉，7月17日，WAIC2026期间，科大讯飞发布智能交互服务Agent——GuideX。区别于传统数字人，GuideX融合“全模态感知、自治理Agent、SkillHub”等核心能力，打通“感知、理解、执行、记忆、共情”服务全链路。",
+    "source": "36氪",
+    "sourceUrl": "https://36kr.com/newsflashes/3899551446222465?f=rss",
+    "category": "tip",
+    "publishedAt": "2026-07-17T09:48:51.000Z",
+    "image": null,
+    "aiSelected": true,
+    "origin": "rss:36kr",
+    "heat": 0,
+    "firstSeen": "2026-07-17T09:58:00.356Z",
+    "aiNote": "科大讯飞推出全模态感知Agent，突破传统数字人局限，引领智能服务新范式。"
+  },
+  {
+    "id": "rss:36kr-7739e35c84",
+    "title": "网易灵动“人机混编”原创技术亮相2026 WAIC",
+    "summary": "36氪获悉，7月17日，2026世界人工智能大会（WAIC）召开。网易旗下专注工程机械领域的具身智能品牌网易灵动，将极具科技感的“智能座舱”搬入展区，座舱内工作人员跨越千里，可远程操控真实电厂、港口的生产一线设备。同时，网易灵动还集中展现了具身智能规模化落地高危场景的最新成果，以及“人机混编”“黑灯工地”“一人多机”等自主研发技术。",
+    "source": "36氪",
+    "sourceUrl": "https://36kr.com/newsflashes/3899549400057476?f=rss",
+    "category": "industry",
+    "publishedAt": "2026-07-17T09:46:46.000Z",
+    "image": null,
+    "aiSelected": true,
+    "origin": "rss:36kr",
+    "heat": 0,
+    "firstSeen": "2026-07-17T09:58:00.356Z",
+    "aiNote": "人机混编技术突破高危场景，远程操控颠覆传统作业模式，具身智能商业化落地加速。"
+  },
+  {
+    "id": "hf-2607.14952",
+    "title": "LongStraw: Long-Context RL Beyond 2M Tokens under a Fixed GPU Budget",
+    "summary": "A growing gap separates inference context lengths from RL post-training: inference systems are approaching million-token contexts, while post-training workloads often remain at 256K tokens or below an…",
+    "source": "HuggingFace Papers",
+    "sourceUrl": "https://huggingface.co/papers/2607.14952",
+    "category": "paper",
+    "publishedAt": "2026-07-15T20:00:00.000Z",
+    "tags": [
+      "论文",
+      "arXiv"
+    ],
+    "heat": 15,
+    "aiSelected": true,
+    "origin": "hf-papers",
+    "firstSeen": "2026-07-17T09:58:00.356Z",
+    "aiNote": "突破固定GPU预算下长上下文强化学习训练瓶颈，实现200万token以上规模，显著提升模型处理超长文"
+  },
+  {
+    "id": "rss:infoq-42299c7b3f",
+    "title": "Agent 沙箱体验计划｜点亮Cube Sandbox，在安全沙箱里释放你的Agent能力",
+    "summary": null,
+    "source": "InfoQ",
+    "sourceUrl": "https://xie.infoq.cn/article/615b3f8b86b0f9df5480f5d4f?utm_source=rss&utm_medium=article",
+    "category": "industry",
+    "publishedAt": "2026-07-15T18:32:58.000Z",
+    "image": null,
+    "aiSelected": true,
+    "origin": "rss:infoq",
+    "heat": 0,
+    "firstSeen": "2026-07-17T09:58:00.356Z",
+    "aiNote": null
   }
 ]
