@@ -1,37 +1,37 @@
 {
-  "date": "2026-07-18",
-  "generatedAt": "2026-07-17T23:17:57.830Z",
+  "date": "2026-07-19",
+  "generatedAt": "2026-07-18T23:20:19.013Z",
   "picks": [
     {
-      "title": "Inkling – Open-Weights 975B Parameter LLM",
-      "sourceUrl": "https://thinkingmachines.ai/inkling/",
+      "title": "GPT-5.6 used a prompt to close a 30-year gap in convex optimization",
+      "sourceUrl": "https://old.reddit.com/r/math/comments/1uxj3cy/after_openais_cdc_proof_announcement_gpt56_used_a/",
       "source": "Hacker News",
-      "reason": "975B参数开源模型，规模与性能突破"
+      "reason": "AI解决30年数学难题，突破性进展"
     },
     {
       "title": "German AI consortium releases Soofi S, an open 30B model that tops benchmarks",
       "sourceUrl": "https://the-decoder.com/german-ai-consortium-releases-soofi-s-an-open-30b-model-that-tops-benchmarks-in-both-english-and-german/",
       "source": "Hacker News",
-      "reason": "德国30B开源模型登顶基准，性价比高"
+      "reason": "德国开源模型登顶，开源AI新里程碑"
     },
     {
-      "title": "Kimi K3: Open Frontier Intelligence",
-      "sourceUrl": "https://www.kimi.com/blog/kimi-k3",
+      "title": "Kaiser nurses say AI, surveillance are making their jobs and patient care worse",
+      "sourceUrl": "https://localnewsmatters.org/2026/07/15/kaiser-nurses-say-ai-workplace-surveillance-are-making-their-jobs-and-patient-care-worse/",
       "source": "Hacker News",
-      "reason": "Kimi新模型性能与价格分析，前沿动态"
+      "reason": "AI监控恶化护士工作与患者护理"
     },
     {
-      "title": "Running Gemma 4 26B at 5 tokens/sec on a 13-year-old Xeon with no GPU",
-      "sourceUrl": "https://www.neomindlabs.com/2026/06/08/running-gemma-4-26b-at-5-tokens-sec-on-a-13-year-old-xeon-with-no-gpu/",
+      "title": "What AI did to stackoverflow in a graph",
+      "sourceUrl": "https://data.stackexchange.com/stackoverflow/query/1953768#graph",
       "source": "Hacker News",
-      "reason": "无GPU跑大模型，硬件优化技巧实用"
+      "reason": "图表揭示AI对Stack Overflow的冲击"
     },
     {
-      "title": "The LLM Critics Are Right. I Use LLMs Anyway",
-      "sourceUrl": "https://www.theocharis.dev/blog/llm-critics-are-right-i-use-llms-anyway/",
+      "title": "Apple targets dozens of OpenAI employees with legal letters",
+      "sourceUrl": "https://www.ft.com/content/1b8c9d52-88a9-426b-ba47-f1811f859166",
       "source": "Hacker News",
-      "reason": "反思LLM批评，实用主义视角有启发"
+      "reason": "苹果法律行动指向OpenAI员工，行业竞争激化"
     }
   ],
-  "trendSummary": "本周AI圈热点集中在开源项目爆发与法律纠纷，涵盖视频生成、智能体框架及企业起诉泄密事件。"
+  "trendSummary": "本周AI圈热点集中在开源工具与法律争议，多个项目聚焦视频生成、浏览器扩展及工作流优化，苹果起诉OpenAI引发对技术窃密的关注。"
 }
