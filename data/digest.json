@@ -1,37 +1,37 @@
 {
-  "date": "2026-07-19",
-  "generatedAt": "2026-07-18T23:20:19.013Z",
+  "date": "2026-07-20",
+  "generatedAt": "2026-07-19T23:20:51.935Z",
   "picks": [
+    {
+      "title": "AI advice made people 3x less accurate but 2x confident, researchers found",
+      "sourceUrl": "https://thenextweb.com/news/ai-advice-suppresses-critical-thinking-wrong-answers-study",
+      "source": "Hacker News",
+      "reason": "揭示AI降低准确性却提升自信，警示风险。"
+    },
     {
       "title": "GPT-5.6 used a prompt to close a 30-year gap in convex optimization",
       "sourceUrl": "https://old.reddit.com/r/math/comments/1uxj3cy/after_openais_cdc_proof_announcement_gpt56_used_a/",
       "source": "Hacker News",
-      "reason": "AI解决30年数学难题，突破性进展"
-    },
-    {
-      "title": "German AI consortium releases Soofi S, an open 30B model that tops benchmarks",
-      "sourceUrl": "https://the-decoder.com/german-ai-consortium-releases-soofi-s-an-open-30b-model-that-tops-benchmarks-in-both-english-and-german/",
-      "source": "Hacker News",
-      "reason": "德国开源模型登顶，开源AI新里程碑"
+      "reason": "AI突破数学优化30年难题，技术里程碑。"
     },
     {
       "title": "Kaiser nurses say AI, surveillance are making their jobs and patient care worse",
       "sourceUrl": "https://localnewsmatters.org/2026/07/15/kaiser-nurses-say-ai-workplace-surveillance-are-making-their-jobs-and-patient-care-worse/",
       "source": "Hacker News",
-      "reason": "AI监控恶化护士工作与患者护理"
+      "reason": "护士控诉AI监控恶化工作，引发伦理关注。"
     },
     {
-      "title": "What AI did to stackoverflow in a graph",
-      "sourceUrl": "https://data.stackexchange.com/stackoverflow/query/1953768#graph",
+      "title": "Everybody's Weirded Out by AI–Except the People Who Foist It on Us",
+      "sourceUrl": "https://newrepublic.com/article/213004/everybody-weirded-ai-except-people-foist-us",
       "source": "Hacker News",
-      "reason": "图表揭示AI对Stack Overflow的冲击"
+      "reason": "批判AI推广者与公众感受脱节，观点犀利。"
     },
     {
-      "title": "Apple targets dozens of OpenAI employees with legal letters",
-      "sourceUrl": "https://www.ft.com/content/1b8c9d52-88a9-426b-ba47-f1811f859166",
+      "title": "The state of open source AI",
+      "sourceUrl": "https://stateofopensource.ai/",
       "source": "Hacker News",
-      "reason": "苹果法律行动指向OpenAI员工，行业竞争激化"
+      "reason": "开源AI现状全景分析，行业风向标。"
     }
   ],
-  "trendSummary": "本周AI圈热点集中在开源工具与法律争议，多个项目聚焦视频生成、浏览器扩展及工作流优化，苹果起诉OpenAI引发对技术窃密的关注。"
+  "trendSummary": "本周AI圈聚焦开源工具爆发、苹果起诉OpenAI窃密，以及GPT-5.6传闻，技术竞争与法律纠纷交织，热度飙升。"
 }
