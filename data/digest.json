@@ -1,37 +1,37 @@
 {
-  "date": "2026-07-20",
-  "generatedAt": "2026-07-19T23:20:51.935Z",
+  "date": "2026-07-21",
+  "generatedAt": "2026-07-20T23:23:55.447Z",
   "picks": [
     {
-      "title": "AI advice made people 3x less accurate but 2x confident, researchers found",
-      "sourceUrl": "https://thenextweb.com/news/ai-advice-suppresses-critical-thinking-wrong-answers-study",
+      "title": "China’s open-weights AI strategy is winning",
+      "sourceUrl": "https://werd.io/american-ai-is-locked-down-and-proprietary-its-losing/",
       "source": "Hacker News",
-      "reason": "揭示AI降低准确性却提升自信，警示风险。"
+      "reason": "中国开源AI策略引发全球关注，影响深远。"
     },
     {
       "title": "GPT-5.6 used a prompt to close a 30-year gap in convex optimization",
       "sourceUrl": "https://old.reddit.com/r/math/comments/1uxj3cy/after_openais_cdc_proof_announcement_gpt56_used_a/",
       "source": "Hacker News",
-      "reason": "AI突破数学优化30年难题，技术里程碑。"
+      "reason": "GPT-5.6解决30年优化难题，突破性进展。"
     },
     {
-      "title": "Kaiser nurses say AI, surveillance are making their jobs and patient care worse",
-      "sourceUrl": "https://localnewsmatters.org/2026/07/15/kaiser-nurses-say-ai-workplace-surveillance-are-making-their-jobs-and-patient-care-worse/",
+      "title": "Exploit brokers pay $500k for WordPress RCEs. I found one with GPT5.6 and $25",
+      "sourceUrl": "https://slcyber.io/research-center/exploit-brokers-pay-500000-for-a-wordpress-rce-i-found-one-with-gpt5-6/",
       "source": "Hacker News",
-      "reason": "护士控诉AI监控恶化工作，引发伦理关注。"
+      "reason": "用GPT-5.6低成本发现漏洞，颠覆安全测试。"
     },
     {
-      "title": "Everybody's Weirded Out by AI–Except the People Who Foist It on Us",
-      "sourceUrl": "https://newrepublic.com/article/213004/everybody-weirded-ai-except-people-foist-us",
+      "title": "NYC may require landlords and realtors to disclose the use of AI in listings",
+      "sourceUrl": "https://petapixel.com/2026/07/16/mayor-mamdani-says-landlords-cant-secretly-use-ai-images-to-advertise-properties/",
       "source": "Hacker News",
-      "reason": "批判AI推广者与公众感受脱节，观点犀利。"
+      "reason": "纽约强制披露AI使用，监管新动向。"
     },
     {
-      "title": "The state of open source AI",
-      "sourceUrl": "https://stateofopensource.ai/",
+      "title": "AI advice made people less accurate but more confident – sudy",
+      "sourceUrl": "https://thenextweb.com/news/ai-advice-suppresses-critical-thinking-wrong-answers-study",
       "source": "Hacker News",
-      "reason": "开源AI现状全景分析，行业风向标。"
+      "reason": "AI建议降低准确度却增强自信，警示效应。"
     }
   ],
-  "trendSummary": "本周AI圈聚焦开源工具爆发、苹果起诉OpenAI窃密，以及GPT-5.6传闻，技术竞争与法律纠纷交织，热度飙升。"
+  "trendSummary": "本周AI圈聚焦开源工具创新与法律纠纷，苹果起诉OpenAI窃密，GPT-5.6传闻升温，同时多个实用项目如视频生成、浏览器扩展涌现。"
 }
