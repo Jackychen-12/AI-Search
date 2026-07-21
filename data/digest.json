@@ -1,37 +1,37 @@
 {
-  "date": "2026-07-21",
-  "generatedAt": "2026-07-20T23:23:55.447Z",
+  "date": "2026-07-22",
+  "generatedAt": "2026-07-21T23:21:36.842Z",
   "picks": [
     {
       "title": "China’s open-weights AI strategy is winning",
       "sourceUrl": "https://werd.io/american-ai-is-locked-down-and-proprietary-its-losing/",
       "source": "Hacker News",
-      "reason": "中国开源AI策略引发全球关注，影响深远。"
+      "reason": "中国开源AI策略取得全球性胜利，影响深远。"
     },
     {
-      "title": "GPT-5.6 used a prompt to close a 30-year gap in convex optimization",
-      "sourceUrl": "https://old.reddit.com/r/math/comments/1uxj3cy/after_openais_cdc_proof_announcement_gpt56_used_a/",
+      "title": "Five US tech giants' hidden debts soar to $1.65T on opaque AI funding",
+      "sourceUrl": "https://asia.nikkei.com/business/technology/five-us-tech-giants-hidden-debts-soar-to-1.65tn-on-opaque-ai-funding",
       "source": "Hacker News",
-      "reason": "GPT-5.6解决30年优化难题，突破性进展。"
+      "reason": "五大科技巨头AI融资暗债高达1.65万亿，揭露风险。"
     },
     {
-      "title": "Exploit brokers pay $500k for WordPress RCEs. I found one with GPT5.6 and $25",
+      "title": "Qwen-Image-3.0: Rich Content, Authentic Details, Deep Knowledge",
+      "sourceUrl": "https://qwen.ai/blog?id=qwen-image-3.0",
+      "source": "Hacker News",
+      "reason": "Qwen-3.0图像模型发布，内容丰富细节真实。"
+    },
+    {
+      "title": "I found a WordPress RCEs with GPT5.6 and $25",
       "sourceUrl": "https://slcyber.io/research-center/exploit-brokers-pay-500000-for-a-wordpress-rce-i-found-one-with-gpt5-6/",
       "source": "Hacker News",
-      "reason": "用GPT-5.6低成本发现漏洞，颠覆安全测试。"
+      "reason": "利用GPT-5.6发现WordPress RCE漏洞，成本仅25美元。"
     },
     {
-      "title": "NYC may require landlords and realtors to disclose the use of AI in listings",
-      "sourceUrl": "https://petapixel.com/2026/07/16/mayor-mamdani-says-landlords-cant-secretly-use-ai-images-to-advertise-properties/",
+      "title": "Jack Dorsey launches Buzz to combine team chat, AI agents and Git hosting",
+      "sourceUrl": "https://runtimewire.com/article/jack-dorsey-block-buzz-team-chat-ai-agents-git",
       "source": "Hacker News",
-      "reason": "纽约强制披露AI使用，监管新动向。"
-    },
-    {
-      "title": "AI advice made people less accurate but more confident – sudy",
-      "sourceUrl": "https://thenextweb.com/news/ai-advice-suppresses-critical-thinking-wrong-answers-study",
-      "source": "Hacker News",
-      "reason": "AI建议降低准确度却增强自信，警示效应。"
+      "reason": "Jack Dorsey推出Buzz，融合聊天、AI代理与Git托管。"
     }
   ],
-  "trendSummary": "本周AI圈聚焦开源工具创新与法律纠纷，苹果起诉OpenAI窃密，GPT-5.6传闻升温，同时多个实用项目如视频生成、浏览器扩展涌现。"
+  "trendSummary": "本周AI圈开源项目爆发，苹果起诉OpenAI引发争议，Zig创始人炮轰Anthropic炒作，技术热度与行业纠纷并存。"
 }
