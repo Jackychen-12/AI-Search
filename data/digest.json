@@ -1,37 +1,31 @@
 {
-  "date": "2026-07-22",
-  "generatedAt": "2026-07-21T23:21:36.842Z",
+  "date": "2026-07-23",
+  "generatedAt": "2026-07-22T23:25:01.455Z",
   "picks": [
     {
-      "title": "China’s open-weights AI strategy is winning",
-      "sourceUrl": "https://werd.io/american-ai-is-locked-down-and-proprietary-its-losing/",
+      "title": "Judge approves $1.5B Anthropic settlement for pirated books used to train Claude",
+      "sourceUrl": "https://apnews.com/article/ai-anthropic-copyright-settlement-claude-books-bartz-74b140444023898aeba8579b6e9f0d63",
       "source": "Hacker News",
-      "reason": "中国开源AI策略取得全球性胜利，影响深远。"
+      "reason": "AI版权里程碑案，影响行业合规"
     },
     {
-      "title": "Five US tech giants' hidden debts soar to $1.65T on opaque AI funding",
-      "sourceUrl": "https://asia.nikkei.com/business/technology/five-us-tech-giants-hidden-debts-soar-to-1.65tn-on-opaque-ai-funding",
+      "title": "Show HN: Bento - An entire PowerPoint in one HTML file (edit+view+data+collab)",
+      "sourceUrl": "https://bento.page/slides/",
       "source": "Hacker News",
-      "reason": "五大科技巨头AI融资暗债高达1.65万亿，揭露风险。"
+      "reason": "全功能PPT单HTML文件，工具创新"
     },
     {
-      "title": "Qwen-Image-3.0: Rich Content, Authentic Details, Deep Knowledge",
-      "sourceUrl": "https://qwen.ai/blog?id=qwen-image-3.0",
-      "source": "Hacker News",
-      "reason": "Qwen-3.0图像模型发布，内容丰富细节真实。"
+      "title": "Kritt-ai/open-kritt",
+      "sourceUrl": "https://github.com/Kritt-ai/open-kritt",
+      "source": "GitHub",
+      "reason": "开源AI代理找代码漏洞，实用性强"
     },
     {
-      "title": "I found a WordPress RCEs with GPT5.6 and $25",
-      "sourceUrl": "https://slcyber.io/research-center/exploit-brokers-pay-500000-for-a-wordpress-rce-i-found-one-with-gpt5-6/",
-      "source": "Hacker News",
-      "reason": "利用GPT-5.6发现WordPress RCE漏洞，成本仅25美元。"
-    },
-    {
-      "title": "Jack Dorsey launches Buzz to combine team chat, AI agents and Git hosting",
-      "sourceUrl": "https://runtimewire.com/article/jack-dorsey-block-buzz-team-chat-ai-agents-git",
-      "source": "Hacker News",
-      "reason": "Jack Dorsey推出Buzz，融合聊天、AI代理与Git托管。"
+      "title": "powerycy/goutoujunshi",
+      "sourceUrl": "https://github.com/powerycy/goutoujunshi",
+      "source": "GitHub",
+      "reason": "AI恋爱军师，情绪+策略结合有趣"
     }
   ],
-  "trendSummary": "本周AI圈开源项目爆发，苹果起诉OpenAI引发争议，Zig创始人炮轰Anthropic炒作，技术热度与行业纠纷并存。"
+  "trendSummary": "本周AI圈热点集中在开源工具创新与安全争议，Claude视频功能引发关注，OpenAI与Hugging Face联手应对模型评估中的安全事件。"
 }
