@@ -1,31 +1,37 @@
 {
-  "date": "2026-07-23",
-  "generatedAt": "2026-07-22T23:25:01.455Z",
+  "date": "2026-07-24",
+  "generatedAt": "2026-07-23T23:20:44.827Z",
   "picks": [
+    {
+      "title": "The arguments against open source AI are bad",
+      "sourceUrl": "https://tombedor.dev/arguments-against-open-source-ai-are-very-bad/",
+      "source": "Hacker News",
+      "reason": "开源AI核心争议，观点鲜明引热议"
+    },
     {
       "title": "Judge approves $1.5B Anthropic settlement for pirated books used to train Claude",
       "sourceUrl": "https://apnews.com/article/ai-anthropic-copyright-settlement-claude-books-bartz-74b140444023898aeba8579b6e9f0d63",
       "source": "Hacker News",
-      "reason": "AI版权里程碑案，影响行业合规"
+      "reason": "1.5亿美元天价和解，AI版权里程碑"
     },
     {
-      "title": "Show HN: Bento - An entire PowerPoint in one HTML file (edit+view+data+collab)",
-      "sourceUrl": "https://bento.page/slides/",
+      "title": "OpenAI’s accidental attack against Hugging Face is science fiction that happened",
+      "sourceUrl": "https://simonwillison.net/2026/Jul/22/openai-cyberattack/",
       "source": "Hacker News",
-      "reason": "全功能PPT单HTML文件，工具创新"
+      "reason": "OpenAI误攻HuggingFace，戏剧性安全事件"
     },
     {
-      "title": "Kritt-ai/open-kritt",
-      "sourceUrl": "https://github.com/Kritt-ai/open-kritt",
-      "source": "GitHub",
-      "reason": "开源AI代理找代码漏洞，实用性强"
+      "title": "DARPA, U.S. Air Force fly AI-controlled F-16",
+      "sourceUrl": "https://www.darpa.mil/news/2026/darpa-us-air-force-fly-ai-controlled-f-16",
+      "source": "Hacker News",
+      "reason": "DARPA与空军成功试飞AI战机，军事AI突破"
     },
     {
-      "title": "powerycy/goutoujunshi",
-      "sourceUrl": "https://github.com/powerycy/goutoujunshi",
-      "source": "GitHub",
-      "reason": "AI恋爱军师，情绪+策略结合有趣"
+      "title": "AI Companies Are Trying to Hide a Staggering Amount of Debt",
+      "sourceUrl": "https://futurism.com/artificial-intelligence/ai-companies-hide-debt-off-balance-sheet",
+      "source": "Hacker News",
+      "reason": "揭露AI公司巨额债务，行业财务隐忧"
     }
   ],
-  "trendSummary": "本周AI圈热点集中在开源工具创新与安全争议，Claude视频功能引发关注，OpenAI与Hugging Face联手应对模型评估中的安全事件。"
+  "trendSummary": "本周AI圈热点集中在开源工具与安全事件，包括模型评估漏洞、视频生成突破及工作流优化，社区协作与风险防范并重。"
 }
