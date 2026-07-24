@@ -3,6 +3,7 @@
 import { useMemo, useState } from "react";
 import type { Story, StoryStatus } from "@/lib/stories";
 import { ENTITY_MAP } from "@/lib/entities";
+import { cleanText } from "@/lib/text";
 import { formatRelative } from "@/lib/timeFormat";
 import { useLocale } from "./LocaleProvider";
 
@@ -61,7 +62,7 @@ function Timeline({ story, limit }: { story: Story; limit?: number }) {
               rel="noreferrer"
               className="min-w-0 text-sm text-gray-800 dark:text-gray-200 hover:text-brand-600 leading-snug"
             >
-              {it.title}
+              {cleanText(it.title)}
             </a>
           </div>
           <div className="pl-12 text-[11px] text-gray-400">
@@ -90,7 +91,7 @@ function FocusCard({ story }: { story: Story }) {
           {t("stories.updated")} {formatRelative(story.lastUpdate)}
         </span>
       </div>
-      <h3 className="text-base font-semibold leading-snug dark:text-gray-100 mb-1.5">{story.title}</h3>
+      <h3 className="text-base font-semibold leading-snug dark:text-gray-100 mb-1.5">{cleanText(story.title)}</h3>
       <div className="text-xs text-gray-400 mb-3 truncate">{story.sources.join(" · ")}</div>
       {story.aiNote && (
         <p className="text-xs text-brand-700 dark:text-brand-400 bg-brand-50 dark:bg-brand-500/10 rounded-md px-2 py-1.5 leading-relaxed mb-3">
@@ -117,7 +118,7 @@ function CompactRow({ story }: { story: Story }) {
       >
         <span className={`shrink-0 w-2 h-2 rounded-full ${DOT_STYLE[story.status]}`} title={t(`stories.status.${story.status}`)} />
         <span className={"min-w-0 flex-1 text-sm leading-snug dark:text-gray-200 " + (open ? "" : "truncate")}>
-          {story.title}
+          {cleanText(story.title)}
         </span>
         <span className="shrink-0 text-[11px] text-brand-600 dark:text-brand-400 font-medium">
           {story.sourceCount} {t("stories.sources")}
