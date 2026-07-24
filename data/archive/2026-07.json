@@ -7820,7 +7820,7 @@
       "offensive-security",
       "TypeScript"
     ],
-    "heat": 7707,
+    "heat": 7709,
     "aiSelected": true,
     "origin": "github",
     "firstSeen": "2026-07-17T08:31:07.382Z",
@@ -9559,7 +9559,7 @@
       "bun",
       "TypeScript"
     ],
-    "heat": 4073,
+    "heat": 4076,
     "aiSelected": true,
     "origin": "github",
     "firstSeen": "2026-07-17T08:31:07.382Z",
@@ -12459,7 +12459,7 @@
       "codex",
       "HTML"
     ],
-    "heat": 3701,
+    "heat": 3702,
     "aiSelected": true,
     "origin": "github",
     "firstSeen": "2026-07-17T08:31:07.382Z",
@@ -17158,7 +17158,7 @@
       "direction",
       "Python"
     ],
-    "heat": 33,
+    "heat": 35,
     "aiSelected": true,
     "origin": "github",
     "firstSeen": "2026-07-17T08:31:07.382Z",
@@ -19789,7 +19789,7 @@
       "coding-agents",
       "TypeScript"
     ],
-    "heat": 794,
+    "heat": 795,
     "aiSelected": true,
     "origin": "github",
     "firstSeen": "2026-07-17T08:31:07.382Z",
@@ -20466,7 +20466,7 @@
       "design-tools",
       "JavaScript"
     ],
-    "heat": 878,
+    "heat": 879,
     "aiSelected": true,
     "origin": "github",
     "firstSeen": "2026-07-17T08:31:07.382Z",
@@ -25700,7 +25700,7 @@
       "claude-skill",
       "Python"
     ],
-    "heat": 614,
+    "heat": 615,
     "aiSelected": true,
     "origin": "github",
     "firstSeen": "2026-07-17T08:31:07.382Z",
@@ -25741,7 +25741,7 @@
       "workbuddy",
       "Python"
     ],
-    "heat": 1880,
+    "heat": 1881,
     "aiSelected": true,
     "origin": "github",
     "firstSeen": "2026-07-17T08:31:07.382Z",
@@ -25841,7 +25841,7 @@
       "claude-code",
       "Python"
     ],
-    "heat": 2784,
+    "heat": 2786,
     "aiSelected": true,
     "origin": "github",
     "firstSeen": "2026-07-17T08:31:07.382Z",
@@ -31666,7 +31666,7 @@
       "electrobun",
       "TypeScript"
     ],
-    "heat": 1838,
+    "heat": 1839,
     "aiSelected": true,
     "origin": "github",
     "firstSeen": "2026-07-17T08:31:07.382Z",
@@ -36636,7 +36636,7 @@
       "ai-video-editor",
       "TypeScript"
     ],
-    "heat": 689,
+    "heat": 690,
     "aiSelected": true,
     "origin": "github",
     "firstSeen": "2026-07-20T23:23:44.099Z",
@@ -37273,7 +37273,7 @@
     "tags": [
       "Hacker News"
     ],
-    "heat": 559,
+    "heat": 560,
     "aiSelected": true,
     "origin": "hackernews",
     "firstSeen": "2026-07-21T23:21:25.434Z",
@@ -37444,7 +37444,7 @@
     "origin": "rss:openai",
     "heat": 0,
     "firstSeen": "2026-07-21T23:21:25.434Z",
-    "aiNote": null,
+    "aiNote": "针对小企业定制化AI方案，降低技术门槛，助力创业与效率提升。",
     "fetchedAt": null
   },
   {
@@ -37460,7 +37460,7 @@
     "origin": "rss:arstechnica-ai",
     "heat": 0,
     "firstSeen": "2026-07-21T23:21:25.434Z",
-    "aiNote": null,
+    "aiNote": "谷歌密集发布多款AI模型，竞赛节奏加速，下一代Gemini 4已进入训练阶段。",
     "fetchedAt": null
   },
   {
@@ -37491,7 +37491,7 @@
     "origin": "rss:aws-ml",
     "heat": 0,
     "firstSeen": "2026-07-21T23:21:25.434Z",
-    "aiNote": null,
+    "aiNote": "自蒸馏推理技术让SFT无需推理标注数据，低成本提升模型逻辑能力。",
     "fetchedAt": null
   },
   {
@@ -37522,7 +37522,7 @@
     "origin": "rss:wired-ai",
     "heat": 0,
     "firstSeen": "2026-07-21T23:21:25.434Z",
-    "aiNote": null,
+    "aiNote": "瞄准AI基础设施的隐形黑客工具，能窃取数据并触发“死亡开关”，暴露AI安全盲点。",
     "fetchedAt": null
   },
   {
@@ -37568,7 +37568,7 @@
     "origin": "rss:nvidia",
     "heat": 0,
     "firstSeen": "2026-07-21T23:21:25.434Z",
-    "aiNote": null,
+    "aiNote": "Vera Rubin NVL72量产，性能功耗比突破，为合作伙伴降低推理成本。",
     "fetchedAt": null
   },
   {
@@ -37661,7 +37661,7 @@
     "origin": "rss:deepmind",
     "heat": 0,
     "firstSeen": "2026-07-21T23:21:25.434Z",
-    "aiNote": null,
+    "aiNote": "模型矩阵快速扩张，低算力需求与安全特性成新战场。",
     "fetchedAt": null
   },
   {
@@ -37692,7 +37692,7 @@
     "origin": "rss:nvidia",
     "heat": 0,
     "firstSeen": "2026-07-21T23:21:25.434Z",
-    "aiNote": null,
+    "aiNote": "为天文观测打造的超大规模AI工厂，标志AI基础设施迈入超大规模计算新时代。",
     "fetchedAt": null
   },
   {
@@ -37723,7 +37723,7 @@
     "origin": "rss:wired-ai",
     "heat": 0,
     "firstSeen": "2026-07-21T23:21:25.434Z",
-    "aiNote": null,
+    "aiNote": "英伟达从GPU霸主向数据中心全栈芯片布局，或重塑AI基础设施竞争格局。",
     "fetchedAt": null
   },
   {
@@ -39325,7 +39325,7 @@
       "python",
       "MDX"
     ],
-    "heat": 1710,
+    "heat": 1713,
     "aiSelected": true,
     "origin": "github",
     "firstSeen": "2026-07-21T23:21:25.434Z",
@@ -39391,7 +39391,7 @@
       "automation",
       "TypeScript"
     ],
-    "heat": 461,
+    "heat": 462,
     "aiSelected": true,
     "origin": "github",
     "firstSeen": "2026-07-21T23:21:25.434Z",
@@ -40320,7 +40320,7 @@
     "aiSelected": true,
     "origin": "hackernews",
     "firstSeen": "2026-07-22T23:24:49.618Z",
-    "aiNote": null,
+    "aiNote": "禁令直指AI训练数据爬取，捍卫开源社区代码不被免费商用。",
     "image": null,
     "fetchedAt": null
   },
@@ -40427,7 +40427,7 @@
     "origin": "rss:openai",
     "heat": 0,
     "firstSeen": "2026-07-22T23:24:49.618Z",
-    "aiNote": null,
+    "aiNote": "为企业级AI代理部署提供成熟方案，填补了可信语音与聊天代理的市场空白。",
     "fetchedAt": null
   },
   {
@@ -41038,7 +41038,7 @@
       "论文",
       "arXiv"
     ],
-    "heat": 102,
+    "heat": 104,
     "aiSelected": true,
     "origin": "hf-papers",
     "firstSeen": "2026-07-22T23:24:49.618Z",
@@ -41368,7 +41368,7 @@
       "codex-skill",
       "Python"
     ],
-    "heat": 1109,
+    "heat": 1115,
     "aiSelected": true,
     "origin": "github",
     "firstSeen": "2026-07-22T23:24:49.618Z",
@@ -41559,7 +41559,7 @@
       "ai-slides",
       "TypeScript"
     ],
-    "heat": 638,
+    "heat": 642,
     "aiSelected": true,
     "origin": "github",
     "firstSeen": "2026-07-22T23:24:49.618Z",
@@ -41787,7 +41787,7 @@
     "tags": [
       "Hacker News"
     ],
-    "heat": 374,
+    "heat": 378,
     "aiSelected": true,
     "origin": "hackernews",
     "firstSeen": "2026-07-23T23:20:32.498Z",
@@ -42075,7 +42075,7 @@
     "tags": [
       "Hacker News"
     ],
-    "heat": 98,
+    "heat": 99,
     "aiSelected": true,
     "origin": "hackernews",
     "firstSeen": "2026-07-23T23:20:32.498Z",
@@ -42158,7 +42158,7 @@
     "tags": [
       "Hacker News"
     ],
-    "heat": 268,
+    "heat": 271,
     "aiSelected": true,
     "origin": "hackernews",
     "firstSeen": "2026-07-23T23:20:32.498Z",
@@ -42308,7 +42308,7 @@
     "tags": [
       "Hacker News"
     ],
-    "heat": 96,
+    "heat": 97,
     "aiSelected": true,
     "origin": "hackernews",
     "firstSeen": "2026-07-23T23:20:32.498Z",
@@ -42343,7 +42343,7 @@
     "tags": [
       "Hacker News"
     ],
-    "heat": 913,
+    "heat": 922,
     "aiSelected": true,
     "origin": "hackernews",
     "firstSeen": "2026-07-23T23:20:32.498Z",
@@ -42377,7 +42377,7 @@
     "tags": [
       "Hacker News"
     ],
-    "heat": 150,
+    "heat": 152,
     "aiSelected": true,
     "origin": "hackernews",
     "firstSeen": "2026-07-23T23:20:32.498Z",
@@ -42444,7 +42444,7 @@
     "tags": [
       "Hacker News"
     ],
-    "heat": 99,
+    "heat": 100,
     "aiSelected": true,
     "origin": "hackernews",
     "firstSeen": "2026-07-23T23:20:32.498Z",
@@ -42546,7 +42546,7 @@
     "tags": [
       "Hacker News"
     ],
-    "heat": 237,
+    "heat": 240,
     "aiSelected": true,
     "origin": "hackernews",
     "firstSeen": "2026-07-23T23:20:32.498Z",
@@ -42565,7 +42565,7 @@
     "tags": [
       "Hacker News"
     ],
-    "heat": 264,
+    "heat": 265,
     "aiSelected": true,
     "origin": "hackernews",
     "firstSeen": "2026-07-23T23:20:32.498Z",
@@ -42584,7 +42584,7 @@
     "tags": [
       "Hacker News"
     ],
-    "heat": 646,
+    "heat": 647,
     "aiSelected": true,
     "origin": "hackernews",
     "firstSeen": "2026-07-23T23:20:32.498Z",
@@ -43127,7 +43127,7 @@
     "tags": [
       "Hacker News"
     ],
-    "heat": 508,
+    "heat": 513,
     "aiSelected": true,
     "origin": "hackernews",
     "firstSeen": "2026-07-23T23:20:32.498Z",
@@ -43622,7 +43622,7 @@
     "origin": "rss:openai",
     "heat": 0,
     "firstSeen": "2026-07-23T23:20:32.498Z",
-    "aiNote": null,
+    "aiNote": "将AI用于IT运维，将故障分析从数小时压缩至半小时，效率提升显著。",
     "fetchedAt": null
   },
   {
@@ -43641,7 +43641,7 @@
     "aiSelected": true,
     "origin": "hf-papers",
     "firstSeen": "2026-07-23T23:20:32.498Z",
-    "aiNote": null,
+    "aiNote": "聚焦多模态模型对无关上下文的敏感性，揭示推理漏洞，推动AI安全评估方法创新。",
     "image": null,
     "fetchedAt": null
   },
@@ -43661,7 +43661,7 @@
     "aiSelected": true,
     "origin": "hf-papers",
     "firstSeen": "2026-07-23T23:20:32.498Z",
-    "aiNote": null,
+    "aiNote": "首个专测AI处理复杂文档能力的基准，填补了自主代理在文档操作领域的评估空白。",
     "image": null,
     "fetchedAt": null
   },
@@ -43681,7 +43681,7 @@
     "aiSelected": true,
     "origin": "hf-papers",
     "firstSeen": "2026-07-23T23:20:32.498Z",
-    "aiNote": null,
+    "aiNote": "用重建误差衡量解释质量，开创可验证激活解释新范式，提升模型透明度与可信度。",
     "image": null,
     "fetchedAt": null
   },
@@ -43701,7 +43701,7 @@
     "aiSelected": true,
     "origin": "hf-papers",
     "firstSeen": "2026-07-23T23:20:32.498Z",
-    "aiNote": null,
+    "aiNote": "用分类学引导多域视觉推理，突破强化学习的训练数据瓶颈，值得关注。",
     "image": null,
     "fetchedAt": null
   },
@@ -43721,7 +43721,7 @@
     "aiSelected": true,
     "origin": "hf-papers",
     "firstSeen": "2026-07-23T23:20:32.498Z",
-    "aiNote": null,
+    "aiNote": "自回归视频扩散新突破，用自身生成历史训练，大幅提升长视频外推能力。",
     "image": null,
     "fetchedAt": null
   },
@@ -43741,7 +43741,7 @@
     "aiSelected": true,
     "origin": "hf-papers",
     "firstSeen": "2026-07-23T23:20:32.498Z",
-    "aiNote": null,
+    "aiNote": "打破传统检索局限，以评分标准导向提升文档集质量，为AI生成奠定更优基础。",
     "image": null,
     "fetchedAt": null
   },
@@ -43761,7 +43761,7 @@
     "aiSelected": true,
     "origin": "hf-papers",
     "firstSeen": "2026-07-23T23:20:32.498Z",
-    "aiNote": null,
+    "aiNote": "国产算力集群完成万亿参数模型全参微调，突破分布式训练瓶颈，验证自主生态链成熟度。",
     "image": null,
     "fetchedAt": null
   },
@@ -43781,7 +43781,7 @@
     "aiSelected": true,
     "origin": "hf-papers",
     "firstSeen": "2026-07-23T23:20:32.498Z",
-    "aiNote": null,
+    "aiNote": "提出替代策略提升潜在推理效率，为降低AI推理成本提供新思路。",
     "image": null,
     "fetchedAt": null
   },
@@ -43801,7 +43801,7 @@
     "aiSelected": true,
     "origin": "hf-papers",
     "firstSeen": "2026-07-23T23:20:32.498Z",
-    "aiNote": null,
+    "aiNote": "用游戏引擎生成多视角RGB-T数据，低成本解决真实航拍数据稀缺难题，开源框架推动算法落地。",
     "image": null,
     "fetchedAt": null
   },
@@ -43821,7 +43821,7 @@
     "aiSelected": true,
     "origin": "hf-papers",
     "firstSeen": "2026-07-23T23:20:32.498Z",
-    "aiNote": null,
+    "aiNote": "用自然语言指令引导机器人抓取复杂场景中的物体，让多形态机器人理解语义和空间关系。",
     "image": null,
     "fetchedAt": null
   },
@@ -43841,7 +43841,7 @@
     "aiSelected": true,
     "origin": "hf-papers",
     "firstSeen": "2026-07-23T23:20:32.498Z",
-    "aiNote": null,
+    "aiNote": "自适应token扩张实现紧凑3D高斯，突破传统优化瓶颈，加速高质量新视角合成。",
     "image": null,
     "fetchedAt": null
   },
@@ -43861,7 +43861,7 @@
     "aiSelected": true,
     "origin": "hf-papers",
     "firstSeen": "2026-07-23T23:20:32.498Z",
-    "aiNote": null,
+    "aiNote": "用可解释性方法揭示大模型是否真正理解材料科学机制，而非仅输出正确结果。",
     "image": null,
     "fetchedAt": null
   },
@@ -44842,7 +44842,7 @@
       "论文",
       "arXiv"
     ],
-    "heat": 74,
+    "heat": 78,
     "aiSelected": true,
     "origin": "hf-papers",
     "firstSeen": "2026-07-24T03:33:42.492Z",
@@ -44966,7 +44966,7 @@
     "aiSelected": true,
     "origin": "hf-papers",
     "firstSeen": "2026-07-24T03:33:42.492Z",
-    "aiNote": null,
+    "aiNote": "打破传统AI代理开发碎片化，统一框架降低门槛，加速多模型应用落地。",
     "image": null,
     "fetchedAt": null
   },
@@ -45140,11 +45140,11 @@
       "论文",
       "arXiv"
     ],
-    "heat": 42,
+    "heat": 47,
     "aiSelected": true,
     "origin": "hf-papers",
     "firstSeen": "2026-07-24T03:48:48.374Z",
-    "aiNote": null,
+    "aiNote": "将自然语言描述与移动追踪结合，突破传统视觉追踪限制，提升具身智能的实用性与交互性。",
     "image": null,
     "fetchedAt": null
   },
@@ -45480,7 +45480,7 @@
       "论文",
       "arXiv"
     ],
-    "heat": 51,
+    "heat": 54,
     "aiSelected": true,
     "origin": "hf-papers",
     "aiNote": "用知识图谱对齐课程结构，填补了现有教育大模型评测忽视知识关联的空白。",
@@ -45520,7 +45520,7 @@
       "论文",
       "arXiv"
     ],
-    "heat": 21,
+    "heat": 23,
     "aiSelected": true,
     "origin": "hf-papers",
     "aiNote": "空间认知测试从文本转向生成像素，更贴近真实世界交互，推动AI具身智能评估升级。",
@@ -45560,7 +45560,7 @@
       "论文",
       "arXiv"
     ],
-    "heat": 48,
+    "heat": 50,
     "aiSelected": true,
     "origin": "hf-papers",
     "aiNote": "自监督蒸馏新范式，无需外部教师，突破信息不对称瓶颈。",
@@ -45602,7 +45602,7 @@
     "heat": 11,
     "aiSelected": true,
     "origin": "hf-papers",
-    "aiNote": null,
+    "aiNote": "动态意图理解仍是短板，模型需突破静态对话局限。",
     "image": null,
     "firstSeen": "2026-07-24T08:50:41.565Z",
     "fetchedAt": null
@@ -45619,10 +45619,10 @@
       "论文",
       "arXiv"
     ],
-    "heat": 5,
+    "heat": 6,
     "aiSelected": true,
     "origin": "hf-papers",
-    "aiNote": null,
+    "aiNote": "导航系统规模化部署的关键突破，在于降低传感器依赖并提升跨形态泛化能力。",
     "image": null,
     "firstSeen": "2026-07-24T08:50:41.565Z",
     "fetchedAt": null
@@ -45668,6 +45668,54 @@
     "aiNote": null,
     "image": null,
     "firstSeen": "2026-07-24T08:50:41.565Z",
+    "fetchedAt": null
+  },
+  {
+    "id": "rss:infoq-0b5397ac56",
+    "title": "从“卷模型”到“算总账”：AI 产业竞争开始拼什么 | 请回答 WAIC 2026",
+    "summary": null,
+    "source": "InfoQ",
+    "sourceUrl": "https://www.infoq.cn/article/SyHXRLS6AR3vI6VtVjDo?utm_source=rss&utm_medium=article",
+    "category": "industry",
+    "publishedAt": "2026-07-24T16:45:21.000Z",
+    "image": null,
+    "aiSelected": true,
+    "origin": "rss:infoq",
+    "heat": 0,
+    "aiNote": "AI产业竞争重心从技术比拼转向商业闭环，估值逻辑和落地能力成为新关键。",
+    "firstSeen": "2026-07-24T09:18:16.652Z",
+    "fetchedAt": null
+  },
+  {
+    "id": "rss:36kr-e12b5ba08b",
+    "title": "晶核能源发布全球首个电池仿生智能体系统",
+    "summary": "36氪获悉，在2026年汽车热系统学术年会上，晶核能源总裁、清华大学先进电池研究所所长李延涛发布全球首个电池仿生智能体系统。项目验证数据显示，应用后开发周期缩短超60%，研发成本降低超50%，电池温度一致性提升31%，电芯峰值温度降8℃。",
+    "source": "36氪",
+    "sourceUrl": "https://36kr.com/newsflashes/3909410491978880?f=rss",
+    "category": "ai-products",
+    "publishedAt": "2026-07-24T08:58:00.000Z",
+    "image": null,
+    "aiSelected": true,
+    "origin": "rss:36kr",
+    "heat": 0,
+    "aiNote": "仿生智能体颠覆电池研发，成本周期双降，温度一致性显著提升。",
+    "firstSeen": "2026-07-24T09:18:16.652Z",
+    "fetchedAt": null
+  },
+  {
+    "id": "rss:36kr-064323e29c",
+    "title": "软银拟收购瑞士AI机器人初创公司Gravis，估值或逾5亿美元",
+    "summary": "7月24日，据报道，日本软银集团正考虑收购瑞士AI机器人初创公司Gravis Robotics AG，旨在进一步加码支撑机器人技术的具身智能与人工智能领域。软银计划对这家初创公司建立大量股权头寸，并将其归入其正在筹建的新AI及机器人实体公司“Roze”旗下。交易可能分阶段推进，包括购买现有股份以及随着时间推移注入新资金，最终对Gravis的估值可能超过5亿美…",
+    "source": "36氪",
+    "sourceUrl": "https://36kr.com/newsflashes/3909405612905858?f=rss",
+    "category": "industry",
+    "publishedAt": "2026-07-24T08:53:02.000Z",
+    "image": null,
+    "aiSelected": true,
+    "origin": "rss:36kr",
+    "heat": 0,
+    "aiNote": "软银加码具身智能，高估值收购预示AI机器人赛道加速整合。",
+    "firstSeen": "2026-07-24T09:18:16.652Z",
     "fetchedAt": null
   }
 ]
