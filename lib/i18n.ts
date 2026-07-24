@@ -7,6 +7,7 @@ const dict: Record<string, Record<Locale, string>> = {
   "nav.weekly": { zh: "周报", en: "Weekly" },
   "nav.trends": { zh: "趋势", en: "Trends" },
   "nav.topics": { zh: "话题", en: "Topics" },
+  "nav.stories": { zh: "事件", en: "Stories" },
   "site.subtitle": { zh: "AI 行业资讯聚合", en: "AI News Aggregator" },
 
   // Search
@@ -140,6 +141,23 @@ const dict: Record<string, Record<Locale, string>> = {
 
   // Topics
   "topics.title": { zh: "话题总览", en: "All Topics" },
+
+  // Stories
+  "stories.title": { zh: "事件脉络", en: "Storylines" },
+  "stories.subtitle": { zh: "同一事件跨源聚合，追踪进展与信源印证", en: "Cross-source event clusters with development timelines" },
+  "stories.status.new": { zh: "新事件", en: "New" },
+  "stories.status.developing": { zh: "发酵中", en: "Developing" },
+  "stories.status.settled": { zh: "已平息", en: "Settled" },
+  "stories.sources": { zh: "源印证", en: "sources" },
+  "stories.firstParty": { zh: "含一手源", en: "first-party" },
+  "stories.days": { zh: "天", en: "days" },
+  "stories.updated": { zh: "更新", en: "updated" },
+  "stories.expand": { zh: "展开全部", en: "Show all" },
+  "stories.collapse": { zh: "收起", en: "Collapse" },
+  "stories.empty": { zh: "最近 14 天暂无跨源印证的事件。", en: "No cross-source stories in the last 14 days." },
+  "stories.note": { zh: "由标题相似度 + 实体 + 时间窗口自动聚类，仅展示 ≥ 2 个独立信源印证的事件", en: "Auto-clustered by title similarity + entities + time window; only events corroborated by ≥ 2 independent sources are shown" },
+  "stories.strip.title": { zh: "进行中的事件", en: "Ongoing Stories" },
+  "stories.strip.more": { zh: "全部事件", en: "All stories" },
 
   // Common
   "common.back": { zh: "← 返回首页", en: "← Back to Home" },

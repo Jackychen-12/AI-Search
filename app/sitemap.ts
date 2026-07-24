@@ -30,6 +30,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   return [
     { url: abs("/"), lastModified: now, changeFrequency: "daily", priority: 1 },
     { url: abs("/daily"), lastModified: now, changeFrequency: "daily", priority: 0.8 },
+    { url: abs("/stories"), lastModified: now, changeFrequency: "daily", priority: 0.8 },
     { url: abs("/about"), changeFrequency: "yearly", priority: 0.3 },
     { url: abs("/privacy"), changeFrequency: "yearly", priority: 0.3 },
     ...topics,

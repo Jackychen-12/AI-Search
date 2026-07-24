@@ -4,6 +4,9 @@
  */
 import fs from "node:fs";
 import path from "node:path";
+import { readArchive } from "../lib/archive";
+import { buildStories } from "../lib/stories";
+import type { AIItem } from "../lib/types";
 
 const DATA_DIR = path.resolve("data");
 const API_DIR = path.resolve("public/api/v1");
@@ -103,7 +106,13 @@ function main() {
     .map(([name, count]) => ({ name, count }));
   writeApi("sources.json", sources);
 
-  console.log(`[api] done — ${items.length} items, ${dates.length} dates, ${sources.length} sources`);
+  // 8. Storylines — cross-source event clusters (top 50, agent-friendly)
+  const stories = buildStories([...(items as unknown as AIItem[]), ...readArchive()]).slice(0, 50);
+  writeApi("stories.json", stories);
+
+  console.log(
+    `[api] done — ${items.length} items, ${dates.length} dates, ${sources.length} sources, ${stories.length} stories`,
+  );
 }
 
 main();
