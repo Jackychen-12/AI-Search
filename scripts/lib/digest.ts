@@ -181,7 +181,7 @@ export async function buildWeeklyInsight(items: AIItem[], startDate: string, end
       body: JSON.stringify({
         model: MODEL,
         temperature: 0.6,
-        max_tokens: 1200,
+        max_tokens: 2600, // 800-1200 Chinese chars ≈ 1600-2400 tokens; headroom so the tail never gets cut
         messages: [
           {
             role: "system",
@@ -191,7 +191,11 @@ export async function buildWeeklyInsight(items: AIItem[], startDate: string, end
               "## 本周关键事件\n按影响力排序列出 3-5 件最重要的事件，每件用一句话说明为什么重要。\n\n" +
               "## 趋势研判\n分析哪个方向在升温（如 Agent、多模态、开源），哪个在降温，给出判断依据。\n\n" +
               "## 值得关注\n挑出一条被低估但有潜力的信息，说明为什么值得关注；再给出下周可能的看点预判。\n\n" +
-              "要求：有观点、有判断、不泛泛而谈。用数据和事实支撑论点。不要输出任何开场白、自我介绍或过渡语，直接从第一个 ## 标题开始输出。",
+              "硬性要求：\n" +
+              "1. 绝对禁止使用 #编号 引用条目（如 (#3)、（#2、#5））——读者看不到编号列表，必须直接写出事件/公司名称；\n" +
+              "2. 每个论点自包含，不依赖外部上下文；\n" +
+              "3. 有观点、有判断、不泛泛而谈，用数据和事实支撑论点；\n" +
+              "4. 不要输出任何开场白、自我介绍或过渡语，直接从第一个 ## 标题开始，写完最后一句完整结束。",
           },
           {
             role: "user",

@@ -51,7 +51,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/items.json data/meta.json data/digest.json data/archive || true
+          git add data/items.json data/meta.json data/digest.json data/archive data/weekly-insight.json data/weekly-insights || true
           if git diff --staged --quiet; then
             echo "No snapshot changes."
           else

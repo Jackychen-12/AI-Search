@@ -2,7 +2,7 @@
 
 import { useMemo, useState } from "react";
 import type { Story, StoryStatus } from "@/lib/stories";
-import { storyPosterName } from "@/lib/stories";
+import { storyShareName } from "@/lib/stories";
 import { ENTITY_MAP } from "@/lib/entities";
 import { cleanText } from "@/lib/text";
 import { formatRelative } from "@/lib/timeFormat";
@@ -94,7 +94,7 @@ function FocusCard({ story }: { story: Story }) {
         <span className="text-gray-400 ml-auto shrink-0">
           {t("stories.updated")} {formatRelative(story.lastUpdate)}
         </span>
-        <SharePoster poster={storyPosterName(story.id)} />
+        <SharePoster poster={storyShareName(story.id)} />
       </div>
       <h3 className="text-base font-semibold leading-snug dark:text-gray-100 mb-1.5">{cleanText(story.title)}</h3>
       <div className="text-xs text-gray-400 mb-3 flex items-center gap-2 flex-wrap">

@@ -21,7 +21,18 @@ const CAT_COLORS: Record<string, { border: string; bg: string; text: string; bar
 };
 
 function InsightSection({ markdown }: { markdown: string }) {
-  const cleaned = markdown.replace(/^# .+\n?/gm, "").replace(/[（(]?#\d+[,、]\s*#?\d*[)）]?/g, "").replace(/#\d+/g, "");
+  const cleaned = markdown
+    .replace(/^# .+\n?/gm, "")
+    // bracket groups holding only item refs — any count: （#1、#2、#3） / (#4, 5)
+    .replace(/[（(]\s*#?\d+(?:\s*[,、，和]\s*#?\d+)*\s*[)）]/g, "")
+    // bare refs
+    .replace(/#\d+/g, "")
+    // debris left by refs stripped inside brackets: （、、） / （ ） / 、、、）
+    .replace(/[（(][\s,、，]*[)）]/g, "")
+    .replace(/[,、，]{2,}/g, "、")
+    .replace(/[,、，]+\s*([)）])/g, "$1")
+    .replace(/([（(])\s*[,、，]+/g, "$1")
+    .replace(/[（(]\s*[)）]/g, "");
   const firstH2 = cleaned.indexOf("## ");
   const trimmed = firstH2 > 0 ? cleaned.slice(firstH2) : cleaned;
   const blocks = trimmed.split(/^## /m).filter((b) => b.trim());
