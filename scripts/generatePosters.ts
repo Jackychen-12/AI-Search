@@ -84,14 +84,14 @@ const OG_FRAME = (body: string) => `
 <svg width="${OG_W}" height="${OG_H}" viewBox="0 0 ${OG_W} ${OG_H}" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#0f1219"/>
-      <stop offset="1" stop-color="#1b2340"/>
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#eef2fb"/>
     </linearGradient>
   </defs>
   <rect width="${OG_W}" height="${OG_H}" fill="url(#bg)"/>
   <rect x="0" y="0" width="${OG_W}" height="6" fill="#2453ee"/>
   ${body}
-  <text x="64" y="${OG_H - 46}" font-family="${FONTS}" font-size="22" fill="#5b6478">aisearches.cc · AI Search</text>
+  <text x="64" y="${OG_H - 46}" font-family="${FONTS}" font-size="22" fill="#9ca3af">aisearches.cc · AI Search</text>
 </svg>`;
 
 function storyOgSvg(story: Story, generatedAt: string): string {
@@ -110,25 +110,25 @@ function storyOgSvg(story: Story, generatedAt: string): string {
       const line = truncate(cleanText(it.title), 26, OG_W - 128 - 130 - 40);
       return `
   <circle cx="76" cy="${y - 8}" r="5" fill="#2453ee"/>
-  ${i < timeline.length - 1 ? `<line x1="76" y1="${y + 2}" x2="76" y2="${y + 44}" stroke="#2a3350" stroke-width="2"/>` : ""}
-  <text x="100" y="${y}" font-family="${FONTS}" font-size="24" fill="#8b93a7">${esc(it.time.slice(5, 10))}</text>
-  <text x="186" y="${y}" font-family="${FONTS}" font-size="26" fill="#dbe1ee">${esc(line)}</text>
-  <text x="${OG_W - 64}" y="${y}" font-family="${FONTS}" font-size="22" fill="#5b6478" text-anchor="end">${esc(it.source)}</text>`;
+  ${i < timeline.length - 1 ? `<line x1="76" y1="${y + 2}" x2="76" y2="${y + 44}" stroke="#dbe4f5" stroke-width="2"/>` : ""}
+  <text x="100" y="${y}" font-family="${FONTS}" font-size="24" fill="#6b7280">${esc(it.time.slice(5, 10))}</text>
+  <text x="186" y="${y}" font-family="${FONTS}" font-size="26" fill="#374151">${esc(line)}</text>
+  <text x="${OG_W - 64}" y="${y}" font-family="${FONTS}" font-size="22" fill="#9ca3af" text-anchor="end">${esc(it.source)}</text>`;
     })
     .join("");
 
   const titleText = titleLines
-    .map((l, i) => `<text x="64" y="${188 + i * 62}" font-family="${FONTS}" font-size="46" font-weight="700" fill="#f3f4f6">${esc(l)}</text>`)
+    .map((l, i) => `<text x="64" y="${188 + i * 62}" font-family="${FONTS}" font-size="46" font-weight="700" fill="#1c2434">${esc(l)}</text>`)
     .join("");
 
   return OG_FRAME(`
-  <text x="64" y="88" font-family="${FONTS}" font-size="26" fill="#8b93a7">事件脉络 · ${esc(generatedAt.slice(0, 10))}</text>
+  <text x="64" y="88" font-family="${FONTS}" font-size="26" fill="#6b7280">事件脉络 · ${esc(generatedAt.slice(0, 10))}</text>
   <rect x="64" y="112" rx="6" width="${textWidth(statusLabel, 24) + 28}" height="40" fill="${statusColor}"/>
   <text x="${64 + 14}" y="140" font-family="${FONTS}" font-size="24" fill="#ffffff">${esc(statusLabel)}</text>
   ${titleText}
-  <text x="64" y="${badgeY}" font-family="${FONTS}" font-size="28" fill="#5ba2ff" font-weight="600">${esc(badge)}</text>
+  <text x="64" y="${badgeY}" font-family="${FONTS}" font-size="28" fill="#2453ee" font-weight="600">${esc(badge)}</text>
   ${rows}
-  <text x="64" y="${OG_H - 90}" font-family="${FONTS}" font-size="22" fill="#5b6478">${esc(truncate(story.sources.join(" · "), 22, OG_W - 128))}</text>`);
+  <text x="64" y="${OG_H - 90}" font-family="${FONTS}" font-size="22" fill="#9ca3af">${esc(truncate(story.sources.join(" · "), 22, OG_W - 128))}</text>`);
 }
 
 /** Daily og card — headline picks (never raw GitHub repo slugs). */
@@ -141,14 +141,14 @@ function dailyOgSvg(date: string, count: number, picks: { title: string }[]): st
       return `
   <rect x="64" y="${y - 30}" rx="8" width="44" height="44" fill="#2453ee"/>
   <text x="${64 + 22}" y="${y + 2}" font-family="${FONTS}" font-size="26" font-weight="700" fill="#ffffff" text-anchor="middle">${i + 1}</text>
-  <text x="128" y="${y}" font-family="${FONTS}" font-size="28" fill="#dbe1ee">${esc(line)}</text>`;
+  <text x="128" y="${y}" font-family="${FONTS}" font-size="28" fill="#374151">${esc(line)}</text>`;
     })
     .join("");
 
   return OG_FRAME(`
-  <text x="64" y="96" font-family="${FONTS}" font-size="28" fill="#8b93a7">AI 资讯日报</text>
-  <text x="64" y="184" font-family="${FONTS}" font-size="64" font-weight="700" fill="#f3f4f6">${esc(date)}</text>
-  <text x="64" y="238" font-family="${FONTS}" font-size="30" fill="#5ba2ff" font-weight="600">今日新收录 ${count} 条 · AI 精选必读</text>
+  <text x="64" y="96" font-family="${FONTS}" font-size="28" fill="#6b7280">AI 资讯日报</text>
+  <text x="64" y="184" font-family="${FONTS}" font-size="64" font-weight="700" fill="#1c2434">${esc(date)}</text>
+  <text x="64" y="238" font-family="${FONTS}" font-size="30" fill="#2453ee" font-weight="600">今日新收录 ${count} 条 · AI 精选必读</text>
   ${rows}`);
 }
 
@@ -176,16 +176,16 @@ function renderLong(blocks: Block[], footerNote: string): string {
 <svg width="${SH_W}" height="${h}" viewBox="0 0 ${SH_W} ${h}" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#0f1219"/>
-      <stop offset="1" stop-color="#1b2340"/>
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#eef2fb"/>
     </linearGradient>
   </defs>
   <rect width="${SH_W}" height="${h}" fill="url(#bg)"/>
   <rect x="0" y="0" width="${SH_W}" height="8" fill="#2453ee"/>
   ${parts.join("\n")}
-  <line x1="${SH_PAD}" y1="${h - 84}" x2="${SH_W - SH_PAD}" y2="${h - 84}" stroke="#2a3350" stroke-width="2"/>
-  <text x="${SH_PAD}" y="${h - 40}" font-family="${FONTS}" font-size="24" fill="#5b6478">aisearches.cc · AI Search</text>
-  <text x="${SH_W - SH_PAD}" y="${h - 40}" font-family="${FONTS}" font-size="24" fill="#5b6478" text-anchor="end">${esc(footerNote)}</text>
+  <line x1="${SH_PAD}" y1="${h - 84}" x2="${SH_W - SH_PAD}" y2="${h - 84}" stroke="#dbe4f5" stroke-width="2"/>
+  <text x="${SH_PAD}" y="${h - 40}" font-family="${FONTS}" font-size="24" fill="#9ca3af">aisearches.cc · AI Search</text>
+  <text x="${SH_W - SH_PAD}" y="${h - 40}" font-family="${FONTS}" font-size="24" fill="#9ca3af" text-anchor="end">${esc(footerNote)}</text>
 </svg>`;
 }
 
@@ -212,7 +212,7 @@ function sectionHeader(label: string, color = "#2453ee"): Block {
     height: 64,
     svg: (y) => `
   <rect x="${SH_PAD}" y="${y - 26}" width="8" height="34" rx="3" fill="${color}"/>
-  <text x="${SH_PAD + 24}" y="${y}" font-family="${FONTS}" font-size="34" font-weight="700" fill="#f3f4f6">${esc(label)}</text>`,
+  <text x="${SH_PAD + 24}" y="${y}" font-family="${FONTS}" font-size="34" font-weight="700" fill="#1c2434">${esc(label)}</text>`,
   };
 }
 
@@ -222,7 +222,7 @@ function storyShareSvg(story: Story, generatedAt: string): string {
   const statusLabel = story.status === "developing" ? "🔥 发酵中" : story.status === "new" ? "新事件" : "已平息";
   const statusColor = story.status === "developing" ? "#ef4444" : story.status === "new" ? "#2453ee" : "#4b5563";
 
-  blocks.push(textBlock([`事件脉络 · ${generatedAt.slice(0, 10)}`], 26, "#8b93a7"));
+  blocks.push(textBlock([`事件脉络 · ${generatedAt.slice(0, 10)}`], 26, "#6b7280"));
   blocks.push({
     height: 66,
     svg: (y) => `
@@ -230,12 +230,12 @@ function storyShareSvg(story: Story, generatedAt: string): string {
   <text x="${SH_PAD + 16}" y="${y + 2}" font-family="${FONTS}" font-size="26" fill="#ffffff">${esc(statusLabel)}</text>`,
   });
   blocks.push(gap(14));
-  blocks.push(textBlock(wrap(cleanText(story.title), 44, SH_TEXT_W, 3), 44, "#f3f4f6", 700, 62));
+  blocks.push(textBlock(wrap(cleanText(story.title), 44, SH_TEXT_W, 3), 44, "#1c2434", 700, 62));
   blocks.push(
     textBlock(
       [`${story.sourceCount} 源印证${story.firstPartyCount > 0 ? ` · 含 ${story.firstPartyCount} 个一手源` : ""}${story.spanDays > 1 ? ` · 追踪 ${story.spanDays} 天` : ""}`],
       28,
-      "#5ba2ff",
+      "#2453ee",
       600,
     ),
   );
@@ -247,8 +247,8 @@ function storyShareSvg(story: Story, generatedAt: string): string {
     blocks.push({
       height: boxH + 16,
       svg: (y) => `
-  <rect x="${SH_PAD}" y="${y - 26}" rx="12" width="${SH_TEXT_W}" height="${boxH}" fill="#2453ee" opacity="0.14"/>
-  ${noteLines.map((l, i) => `<text x="${SH_PAD + 24}" y="${y + 12 + i * 40}" font-family="${FONTS}" font-size="26" fill="#7fb3ff">${esc(l)}</text>`).join("\n")}`,
+  <rect x="${SH_PAD}" y="${y - 26}" rx="12" width="${SH_TEXT_W}" height="${boxH}" fill="#2453ee" opacity="0.08"/>
+  ${noteLines.map((l, i) => `<text x="${SH_PAD + 24}" y="${y + 12 + i * 40}" font-family="${FONTS}" font-size="26" fill="#1e4fd6">${esc(l)}</text>`).join("\n")}`,
     });
   }
 
@@ -264,10 +264,10 @@ function storyShareSvg(story: Story, generatedAt: string): string {
       height: rowH,
       svg: (y) => `
   <circle cx="${SH_PAD + 10}" cy="${y - 8}" r="6" fill="#2453ee"/>
-  ${idx < items.length - 1 ? `<line x1="${SH_PAD + 10}" y1="${y + 4}" x2="${SH_PAD + 10}" y2="${y + rowH - 6}" stroke="#2a3350" stroke-width="2"/>` : ""}
-  <text x="${SH_PAD + 36}" y="${y}" font-family="${FONTS}" font-size="24" fill="#8b93a7">${esc(it.time.slice(5, 10))}</text>
-  ${titleLines.map((l, i) => `<text x="${SH_PAD + 130}" y="${y + i * 40}" font-family="${FONTS}" font-size="28" fill="#dbe1ee">${esc(l)}</text>`).join("\n")}
-  <text x="${SH_PAD + 130}" y="${y + titleLines.length * 40}" font-family="${FONTS}" font-size="22" fill="#5b6478">${esc(it.source)}${it.heat > 0 ? ` · ♨ ${it.heat.toLocaleString()}` : ""}</text>`,
+  ${idx < items.length - 1 ? `<line x1="${SH_PAD + 10}" y1="${y + 4}" x2="${SH_PAD + 10}" y2="${y + rowH - 6}" stroke="#dbe4f5" stroke-width="2"/>` : ""}
+  <text x="${SH_PAD + 36}" y="${y}" font-family="${FONTS}" font-size="24" fill="#6b7280">${esc(it.time.slice(5, 10))}</text>
+  ${titleLines.map((l, i) => `<text x="${SH_PAD + 130}" y="${y + i * 40}" font-family="${FONTS}" font-size="28" fill="#374151">${esc(l)}</text>`).join("\n")}
+  <text x="${SH_PAD + 130}" y="${y + titleLines.length * 40}" font-family="${FONTS}" font-size="22" fill="#9ca3af">${esc(it.source)}${it.heat > 0 ? ` · ♨ ${it.heat.toLocaleString()}` : ""}</text>`,
     });
     blocks.push(gap(14));
   });
@@ -284,10 +284,10 @@ function dailyShareSvg(
   trendSummary: string | null,
 ): string {
   const blocks: Block[] = [];
-  blocks.push(textBlock(["AI 资讯日报"], 28, "#8b93a7"));
+  blocks.push(textBlock(["AI 资讯日报"], 28, "#6b7280"));
   blocks.push(gap(8));
-  blocks.push(textBlock([date], 64, "#f3f4f6", 700, 78));
-  blocks.push(textBlock([`今日新收录 ${count} 条公开资讯 · 自动汇编 · 可溯源`], 28, "#5ba2ff", 600));
+  blocks.push(textBlock([date], 64, "#1c2434", 700, 78));
+  blocks.push(textBlock([`今日新收录 ${count} 条公开资讯 · 自动汇编 · 可溯源`], 28, "#2453ee", 600));
 
   if (trendSummary) {
     const lines = wrap(`趋势 · ${trendSummary}`, 26, SH_TEXT_W - 48, 3);
@@ -296,8 +296,8 @@ function dailyShareSvg(
     blocks.push({
       height: boxH + 16,
       svg: (y) => `
-  <rect x="${SH_PAD}" y="${y - 26}" rx="12" width="${SH_TEXT_W}" height="${boxH}" fill="#2453ee" opacity="0.14"/>
-  ${lines.map((l, i) => `<text x="${SH_PAD + 24}" y="${y + 12 + i * 40}" font-family="${FONTS}" font-size="26" fill="#7fb3ff">${esc(l)}</text>`).join("\n")}`,
+  <rect x="${SH_PAD}" y="${y - 26}" rx="12" width="${SH_TEXT_W}" height="${boxH}" fill="#2453ee" opacity="0.08"/>
+  ${lines.map((l, i) => `<text x="${SH_PAD + 24}" y="${y + 12 + i * 40}" font-family="${FONTS}" font-size="26" fill="#1e4fd6">${esc(l)}</text>`).join("\n")}`,
     });
   }
 
@@ -315,10 +315,10 @@ function dailyShareSvg(
       svg: (y) => `
   <rect x="${SH_PAD}" y="${y - 30}" rx="8" width="44" height="44" fill="#2453ee"/>
   <text x="${SH_PAD + 22}" y="${y + 2}" font-family="${FONTS}" font-size="26" font-weight="700" fill="#ffffff" text-anchor="middle">${i + 1}</text>
-  ${titleLines.map((l, li) => `<text x="${SH_PAD + 64}" y="${y + li * 44}" font-family="${FONTS}" font-size="30" font-weight="600" fill="#f3f4f6">${esc(l)}</text>`).join("\n")}
+  ${titleLines.map((l, li) => `<text x="${SH_PAD + 64}" y="${y + li * 44}" font-family="${FONTS}" font-size="30" font-weight="600" fill="#1c2434">${esc(l)}</text>`).join("\n")}
   <text x="${SH_PAD + 64}" y="${y + titleLines.length * 44 - 8}" font-family="${FONTS}" font-size="0" fill="none"> </text>
-  ${reason.map((l, li) => `<text x="${SH_PAD + 64}" y="${y + titleLines.length * 44 + li * 36}" font-family="${FONTS}" font-size="24" fill="#8b93a7">${esc(l)}</text>`).join("\n")}
-  <text x="${SH_W - SH_PAD}" y="${y}" font-family="${FONTS}" font-size="22" fill="#5b6478" text-anchor="end">${esc(p.source)}</text>`,
+  ${reason.map((l, li) => `<text x="${SH_PAD + 64}" y="${y + titleLines.length * 44 + li * 36}" font-family="${FONTS}" font-size="24" fill="#6b7280">${esc(l)}</text>`).join("\n")}
+  <text x="${SH_W - SH_PAD}" y="${y}" font-family="${FONTS}" font-size="22" fill="#9ca3af" text-anchor="end">${esc(p.source)}</text>`,
     });
     blocks.push(gap(16));
   });
@@ -335,8 +335,8 @@ function dailyShareSvg(
         height: lines.length * 40 + 36,
         svg: (y) => `
   <circle cx="${SH_PAD + 8}" cy="${y - 9}" r="5" fill="#7c3aed"/>
-  ${lines.map((l, i) => `<text x="${SH_PAD + 30}" y="${y + i * 40}" font-family="${FONTS}" font-size="27" fill="#dbe1ee">${esc(l)}</text>`).join("\n")}
-  <text x="${SH_PAD + 30}" y="${y + lines.length * 40 - 6}" font-family="${FONTS}" font-size="21" fill="#5b6478">${esc(it.source)}</text>`,
+  ${lines.map((l, i) => `<text x="${SH_PAD + 30}" y="${y + i * 40}" font-family="${FONTS}" font-size="27" fill="#374151">${esc(l)}</text>`).join("\n")}
+  <text x="${SH_PAD + 30}" y="${y + lines.length * 40 - 6}" font-family="${FONTS}" font-size="21" fill="#9ca3af">${esc(it.source)}</text>`,
       });
       blocks.push(gap(10));
     }
