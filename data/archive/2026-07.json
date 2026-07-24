@@ -9521,7 +9521,7 @@
       "bun",
       "TypeScript"
     ],
-    "heat": 4064,
+    "heat": 4065,
     "aiSelected": true,
     "origin": "github",
     "firstSeen": "2026-07-17T08:31:07.382Z",
@@ -33083,7 +33083,7 @@
       "ffmpeg",
       "Python"
     ],
-    "heat": 2760,
+    "heat": 2762,
     "aiSelected": true,
     "origin": "github",
     "firstSeen": "2026-07-17T23:17:47.076Z",
@@ -36878,7 +36878,7 @@
     "tags": [
       "Hacker News"
     ],
-    "heat": 1608,
+    "heat": 1609,
     "aiSelected": true,
     "origin": "hackernews",
     "firstSeen": "2026-07-21T23:21:25.434Z",
@@ -39008,7 +39008,7 @@
       "python",
       "MDX"
     ],
-    "heat": 1652,
+    "heat": 1655,
     "aiSelected": true,
     "origin": "github",
     "firstSeen": "2026-07-21T23:21:25.434Z",
@@ -40967,7 +40967,7 @@
       "one-step-generation",
       "Python"
     ],
-    "heat": 39,
+    "heat": 41,
     "aiSelected": true,
     "origin": "github",
     "firstSeen": "2026-07-22T23:24:49.618Z",
@@ -40988,7 +40988,7 @@
       "codex-skill",
       "Python"
     ],
-    "heat": 1020,
+    "heat": 1026,
     "aiSelected": true,
     "origin": "github",
     "firstSeen": "2026-07-22T23:24:49.618Z",
@@ -41171,7 +41171,7 @@
       "ai-slides",
       "TypeScript"
     ],
-    "heat": 569,
+    "heat": 567,
     "aiSelected": true,
     "origin": "github",
     "firstSeen": "2026-07-22T23:24:49.618Z",
@@ -41390,7 +41390,7 @@
     "tags": [
       "Hacker News"
     ],
-    "heat": 263,
+    "heat": 265,
     "aiSelected": true,
     "origin": "hackernews",
     "firstSeen": "2026-07-23T23:20:32.498Z",
@@ -41602,7 +41602,7 @@
     "tags": [
       "Hacker News"
     ],
-    "heat": 83,
+    "heat": 84,
     "aiSelected": true,
     "origin": "hackernews",
     "firstSeen": "2026-07-23T23:20:32.498Z",
@@ -41664,7 +41664,7 @@
     "tags": [
       "Hacker News"
     ],
-    "heat": 84,
+    "heat": 85,
     "aiSelected": true,
     "origin": "hackernews",
     "firstSeen": "2026-07-23T23:20:32.498Z",
@@ -41683,7 +41683,7 @@
     "origin": "rss:infoq",
     "heat": 0,
     "firstSeen": "2026-07-23T23:20:32.498Z",
-    "aiNote": null
+    "aiNote": "工业经验数字化，23秒复刻老师傅核心判断。"
   },
   {
     "id": "rss:aws-ml-9d50cda7e8",
@@ -41698,7 +41698,7 @@
     "origin": "rss:aws-ml",
     "heat": 0,
     "firstSeen": "2026-07-23T23:20:32.498Z",
-    "aiNote": null
+    "aiNote": "工业级AI Agent评估框架落地，错误率从八分之一降至五十分之一，检测时效从小时级缩至分钟级。"
   },
   {
     "id": "rss:theverge-ai-cb3c46e4e7",
@@ -41713,7 +41713,7 @@
     "origin": "rss:theverge-ai",
     "heat": 0,
     "firstSeen": "2026-07-23T23:20:32.498Z",
-    "aiNote": null
+    "aiNote": "医疗数据接入ChatGPT，个人健康管理迈入AI时代，但隐私安全仍是关键挑战。"
   },
   {
     "id": "rss:techcrunch-ai-fba0078191",
@@ -41728,7 +41728,7 @@
     "origin": "rss:techcrunch-ai",
     "heat": 0,
     "firstSeen": "2026-07-23T23:20:32.498Z",
-    "aiNote": null
+    "aiNote": "ChatGPT健康版全美开放，可整合苹果健康等数据，AI医疗应用再进一步。"
   },
   {
     "id": "hn-c599bc2e2f",
@@ -41741,11 +41741,11 @@
     "tags": [
       "Hacker News"
     ],
-    "heat": 219,
+    "heat": 223,
     "aiSelected": true,
     "origin": "hackernews",
     "firstSeen": "2026-07-23T23:20:32.498Z",
-    "aiNote": null
+    "aiNote": "开源AI的反对理由站不住脚，其开放本质才是创新关键。"
   },
   {
     "id": "rss:aws-ml-7824562743",
@@ -41760,7 +41760,7 @@
     "origin": "rss:aws-ml",
     "heat": 0,
     "firstSeen": "2026-07-23T23:20:32.498Z",
-    "aiNote": null
+    "aiNote": "杰富瑞用AI代理优化交易操作，展示金融业AI落地的实际案例。"
   },
   {
     "id": "rss:aws-ml-28a8eb2744",
@@ -41775,7 +41775,7 @@
     "origin": "rss:aws-ml",
     "heat": 0,
     "firstSeen": "2026-07-23T23:20:32.498Z",
-    "aiNote": null
+    "aiNote": "用Highcharts突破QuickSight原生图表限制，实现多区域可视化，实用性强。"
   },
   {
     "id": "rss:aws-ml-06077be3ff",
@@ -41790,7 +41790,7 @@
     "origin": "rss:aws-ml",
     "heat": 0,
     "firstSeen": "2026-07-23T23:20:32.498Z",
-    "aiNote": null
+    "aiNote": "检测生产环境中AI代理的隐蔽行为失败，避免健康检查通过却输出错误结果。"
   },
   {
     "id": "rss:aws-ml-013058f908",
@@ -41805,7 +41805,7 @@
     "origin": "rss:aws-ml",
     "heat": 0,
     "firstSeen": "2026-07-23T23:20:32.498Z",
-    "aiNote": null
+    "aiNote": "用推理拆解复杂问题，Agentic检索让多步骤问答更准确，是知识库应用的关键突破。"
   },
   {
     "id": "rss:techcrunch-ai-14cf993c0c",
@@ -41820,7 +41820,7 @@
     "origin": "rss:techcrunch-ai",
     "heat": 0,
     "firstSeen": "2026-07-23T23:20:32.498Z",
-    "aiNote": null
+    "aiNote": "广告配乐与末日主题的讽刺反差，暴露AI行业营销的荒诞与盲目乐观。"
   },
   {
     "id": "rss:infoq-a4a2bf3fa9",
@@ -41835,7 +41835,7 @@
     "origin": "rss:infoq",
     "heat": 0,
     "firstSeen": "2026-07-23T23:20:32.498Z",
-    "aiNote": null
+    "aiNote": "聚焦Agentic AI在医疗落地的核心挑战，为决策者提供关键思考框架。"
   },
   {
     "id": "rss:arstechnica-ai-d049e2dcfc",
@@ -41850,7 +41850,7 @@
     "origin": "rss:arstechnica-ai",
     "heat": 0,
     "firstSeen": "2026-07-23T23:20:32.498Z",
-    "aiNote": null
+    "aiNote": "巨额AI投资拖累现金流，首次负增长凸显科技巨头转型代价与长期战略博弈。"
   },
   {
     "id": "hn-4d6c7135b0",
@@ -41867,7 +41867,7 @@
     "aiSelected": true,
     "origin": "hackernews",
     "firstSeen": "2026-07-23T23:20:32.498Z",
-    "aiNote": null
+    "aiNote": "OpenAI开放数据导出，降低企业迁移成本，提升用户数据自主权。"
   },
   {
     "id": "hn-386614ef70",
@@ -41884,7 +41884,7 @@
     "aiSelected": true,
     "origin": "hackernews",
     "firstSeen": "2026-07-23T23:20:32.498Z",
-    "aiNote": null
+    "aiNote": "解决AI代理直接接触敏感凭证的安全痛点，开源方案填补了工具链关键空白。"
   },
   {
     "id": "rss:infoq-eee56b9951",
@@ -41899,7 +41899,7 @@
     "origin": "rss:infoq",
     "heat": 0,
     "firstSeen": "2026-07-23T23:20:32.498Z",
-    "aiNote": null
+    "aiNote": "数据质量决定法律AI成败，平台比模型更关键。"
   },
   {
     "id": "hn-b520874198",
@@ -41912,11 +41912,11 @@
     "tags": [
       "Hacker News"
     ],
-    "heat": 773,
+    "heat": 775,
     "aiSelected": true,
     "origin": "hackernews",
     "firstSeen": "2026-07-23T23:20:32.498Z",
-    "aiNote": null
+    "aiNote": "美国初创企业集体发声反对切断中国开源AI权重，凸显跨国技术依赖与地缘政治博弈。"
   },
   {
     "id": "rss:ithome-85ca857083",
@@ -41944,11 +41944,11 @@
     "tags": [
       "Hacker News"
     ],
-    "heat": 129,
+    "heat": 131,
     "aiSelected": true,
     "origin": "hackernews",
     "firstSeen": "2026-07-23T23:20:32.498Z",
-    "aiNote": null
+    "aiNote": "开源AI视频编辑器登陆macOS，集成AI生成功能，降低专业视频创作门槛。"
   },
   {
     "id": "rss:infoq-fd2545e924",
@@ -41963,7 +41963,7 @@
     "origin": "rss:infoq",
     "heat": 0,
     "firstSeen": "2026-07-23T23:20:32.498Z",
-    "aiNote": null
+    "aiNote": "用物理信息密度定律重写训练逻辑，全球首个端侧本体世界模型，突破AI物理交互瓶颈。"
   },
   {
     "id": "rss:techcrunch-ai-1d8fd6e659",
@@ -41978,7 +41978,7 @@
     "origin": "rss:techcrunch-ai",
     "heat": 0,
     "firstSeen": "2026-07-23T23:20:32.498Z",
-    "aiNote": null
+    "aiNote": "英伟达将GPU送上月球，展现其芯片在极端环境下的应用潜力。"
   },
   {
     "id": "rss:techcrunch-ai-8d1cdf633c",
@@ -41993,7 +41993,7 @@
     "origin": "rss:techcrunch-ai",
     "heat": 0,
     "firstSeen": "2026-07-23T23:20:32.498Z",
-    "aiNote": null
+    "aiNote": "天才辍学生团队造出颠覆性AI芯片，无需GPU，估值飙至103亿美元。"
   },
   {
     "id": "hn-97a98dcd02",
@@ -42010,7 +42010,7 @@
     "aiSelected": true,
     "origin": "hackernews",
     "firstSeen": "2026-07-23T23:20:32.498Z",
-    "aiNote": null
+    "aiNote": "WebGPU在C++中的教程出现，标志高性能图形计算门槛降低。"
   },
   {
     "id": "rss:techcrunch-ai-81587b96e5",
@@ -42100,7 +42100,7 @@
     "tags": [
       "Hacker News"
     ],
-    "heat": 195,
+    "heat": 196,
     "aiSelected": true,
     "origin": "hackernews",
     "firstSeen": "2026-07-23T23:20:32.498Z",
@@ -42117,7 +42117,7 @@
     "tags": [
       "Hacker News"
     ],
-    "heat": 257,
+    "heat": 258,
     "aiSelected": true,
     "origin": "hackernews",
     "firstSeen": "2026-07-23T23:20:32.498Z",
@@ -42230,7 +42230,7 @@
     "tags": [
       "Hacker News"
     ],
-    "heat": 75,
+    "heat": 76,
     "aiSelected": true,
     "origin": "hackernews",
     "firstSeen": "2026-07-23T23:20:32.498Z",
@@ -42654,7 +42654,7 @@
     "tags": [
       "Hacker News"
     ],
-    "heat": 411,
+    "heat": 416,
     "aiSelected": true,
     "origin": "hackernews",
     "firstSeen": "2026-07-23T23:20:32.498Z",
@@ -44159,7 +44159,7 @@
     "origin": "arxiv",
     "heat": 0,
     "firstSeen": "2026-07-24T03:33:42.492Z",
-    "aiNote": null
+    "aiNote": "用强化学习对齐策略，让音频大模型学会逻辑推理，突破听觉感知瓶颈。"
   },
   {
     "id": "arxiv-2607.21548v1",
@@ -44177,7 +44177,7 @@
     "origin": "arxiv",
     "heat": 0,
     "firstSeen": "2026-07-24T03:33:42.492Z",
-    "aiNote": null
+    "aiNote": "用神经网络求解强耦合方程，开创非微扰量子场论计算新范式。"
   },
   {
     "id": "arxiv-2607.21547v1",
@@ -44195,7 +44195,7 @@
     "origin": "arxiv",
     "heat": 0,
     "firstSeen": "2026-07-24T03:33:42.492Z",
-    "aiNote": null
+    "aiNote": "探讨AI自动化边界，揭示人类不可替代的角色，挑战技术万能论。"
   },
   {
     "id": "arxiv-2607.21542v1",
@@ -44213,7 +44213,7 @@
     "origin": "arxiv",
     "heat": 0,
     "firstSeen": "2026-07-24T03:33:42.492Z",
-    "aiNote": null
+    "aiNote": "零流量准则创新结合统计检验，为分布比较提供高效新工具。"
   },
   {
     "id": "arxiv-2607.21540v1",
@@ -44231,7 +44231,7 @@
     "origin": "arxiv",
     "heat": 0,
     "firstSeen": "2026-07-24T03:33:42.492Z",
-    "aiNote": null
+    "aiNote": "填补非洲语言语音识别空白，开源模型降低技术门槛，推动AI包容性发展。"
   },
   {
     "id": "arxiv-2607.21535v1",
@@ -44249,7 +44249,7 @@
     "origin": "arxiv",
     "heat": 0,
     "firstSeen": "2026-07-24T03:33:42.492Z",
-    "aiNote": null
+    "aiNote": "用窗口机制替代全上下文草稿KV，大幅降低百万级长文本的推理成本，是高效加速的关键突破。"
   },
   {
     "id": "hf-2607.21461",
@@ -44263,7 +44263,7 @@
       "论文",
       "arXiv"
     ],
-    "heat": 45,
+    "heat": 47,
     "aiSelected": true,
     "origin": "hf-papers",
     "firstSeen": "2026-07-24T03:33:42.492Z",
@@ -44477,6 +44477,69 @@
     "aiSelected": true,
     "origin": "github",
     "firstSeen": "2026-07-24T03:33:42.492Z",
+    "aiNote": null
+  },
+  {
+    "id": "rss:infoq-91d1298e6b",
+    "title": "Pinecone 推出 Nexus 引擎：为 AI 智能体整合业务上下文并生成结构化数据",
+    "summary": null,
+    "source": "InfoQ",
+    "sourceUrl": "https://www.infoq.cn/article/TdXHOr9FkuJ4a1mDh5uL?utm_source=rss&utm_medium=article",
+    "category": "industry",
+    "publishedAt": "2026-07-24T11:41:00.000Z",
+    "image": null,
+    "aiSelected": true,
+    "origin": "rss:infoq",
+    "heat": 0,
+    "firstSeen": "2026-07-24T03:48:48.374Z",
+    "aiNote": "打通AI智能体与业务数据壁垒，实现结构化输出，让企业级应用更精准高效。"
+  },
+  {
+    "id": "rss:ithome-a4725478cf",
+    "title": "为物理 AI 带来 \"Halo\" 级性能：AMD 正式推出锐龙 AI 嵌入式 X100 处理器",
+    "summary": "IT之家 7 月 24 日消息，AMD 在 Advancing AI 2026 大会上正式宣布推出锐龙 AI 嵌入式 X100 处理器。该系列产品为物理 AI 领域带来了 \"Halo\" 级 x86 SoC 所具备的强大性能。 锐龙 AI 嵌入式 X100 家族 拥有工业级可靠性 ， 可在恶劣环境中 7×24 全天候运行长达 10 年 ，预计将于 2026Q4…",
+    "source": "IT之家",
+    "sourceUrl": "https://www.ithome.com/0/981/069.htm",
+    "category": "ai-products",
+    "publishedAt": "2026-07-24T03:37:43.000Z",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/10a8e29d-bc29-4b59-b346-412e01521a49.jpg?x-bce-process=image/format,f_auto",
+    "aiSelected": true,
+    "origin": "rss:ithome",
+    "heat": 0,
+    "firstSeen": "2026-07-24T03:48:48.374Z",
+    "aiNote": "AMD进军物理AI领域，以工业级可靠性抢占边缘计算市场，看点在于性能与耐用性的结合。"
+  },
+  {
+    "id": "rss:36kr-630ba383ad",
+    "title": "A股三大指数午间休盘集体下跌，算力股走弱",
+    "summary": "36氪获悉，A股三大指数午间休盘集体下跌，沪指跌1.2%，深成指跌1.77%，创业板指跌1.78%；算力股走弱，证通电子、利通电子跌停，美利云、云赛智能跌超7%；银行、电信板块走强，中国电信、中信银行涨超1%；个股呈普跌态势，全市场近5000股飘绿。",
+    "source": "36氪",
+    "sourceUrl": "https://36kr.com/newsflashes/3909092046345606?f=rss",
+    "category": "industry",
+    "publishedAt": "2026-07-24T03:34:03.000Z",
+    "image": null,
+    "aiSelected": true,
+    "origin": "rss:36kr",
+    "heat": 0,
+    "firstSeen": "2026-07-24T03:48:48.374Z",
+    "aiNote": "算力板块领跌，市场避险情绪升温，银行电信逆势上涨显示资金转向防御。"
+  },
+  {
+    "id": "hf-2607.20061",
+    "title": "ReferTrack: Referring Then Tracking for Embodied Visual Tracking",
+    "summary": "Embodied visual tracking (EVT) requires a mobile agent to continuously follow a specific target described in natural language using only onboard vision. While recent vision-language-action (VLA) polic…",
+    "source": "HuggingFace Papers",
+    "sourceUrl": "https://huggingface.co/papers/2607.20061",
+    "category": "paper",
+    "publishedAt": "2026-07-21T20:00:00.000Z",
+    "tags": [
+      "论文",
+      "arXiv"
+    ],
+    "heat": 8,
+    "aiSelected": true,
+    "origin": "hf-papers",
+    "firstSeen": "2026-07-24T03:48:48.374Z",
     "aiNote": null
   }
 ]
