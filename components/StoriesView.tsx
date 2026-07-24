@@ -2,9 +2,12 @@
 
 import { useMemo, useState } from "react";
 import type { Story, StoryStatus } from "@/lib/stories";
+import { storyPosterName } from "@/lib/stories";
 import { ENTITY_MAP } from "@/lib/entities";
 import { cleanText } from "@/lib/text";
 import { formatRelative } from "@/lib/timeFormat";
+import SourceIcon from "./SourceIcon";
+import SharePoster from "./SharePoster";
 import { useLocale } from "./LocaleProvider";
 
 const STATUS_STYLE: Record<StoryStatus, string> = {
@@ -65,9 +68,10 @@ function Timeline({ story, limit }: { story: Story; limit?: number }) {
               {cleanText(it.title)}
             </a>
           </div>
-          <div className="pl-12 text-[11px] text-gray-400">
+          <div className="pl-12 text-[11px] text-gray-400 flex items-center gap-1">
+            <SourceIcon url={it.sourceUrl} source={it.source} size={12} />
             {it.source}
-            {it.heat > 0 && <span className="ml-2 text-amber-600 dark:text-amber-400">♨ {it.heat.toLocaleString()}</span>}
+            {it.heat > 0 && <span className="ml-1 text-amber-600 dark:text-amber-400">♨ {it.heat.toLocaleString()}</span>}
           </div>
         </li>
       ))}
@@ -90,9 +94,17 @@ function FocusCard({ story }: { story: Story }) {
         <span className="text-gray-400 ml-auto shrink-0">
           {t("stories.updated")} {formatRelative(story.lastUpdate)}
         </span>
+        <SharePoster poster={storyPosterName(story.id)} />
       </div>
       <h3 className="text-base font-semibold leading-snug dark:text-gray-100 mb-1.5">{cleanText(story.title)}</h3>
-      <div className="text-xs text-gray-400 mb-3 truncate">{story.sources.join(" · ")}</div>
+      <div className="text-xs text-gray-400 mb-3 flex items-center gap-2 flex-wrap">
+        {[...new Map(story.items.map((it) => [it.source, it])).values()].slice(0, 6).map((it) => (
+          <span key={it.source} className="flex items-center gap-1">
+            <SourceIcon url={it.sourceUrl} source={it.source} size={13} />
+            {it.source}
+          </span>
+        ))}
+      </div>
       {story.aiNote && (
         <p className="text-xs text-brand-700 dark:text-brand-400 bg-brand-50 dark:bg-brand-500/10 rounded-md px-2 py-1.5 leading-relaxed mb-3">
           <span className="font-medium">AI · </span>

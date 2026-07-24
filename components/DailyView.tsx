@@ -6,6 +6,7 @@ import { CATEGORIES, CATEGORY_MAP } from "@/lib/categories";
 import { formatBJDate, formatRelative } from "@/lib/timeFormat";
 import { useUserStore } from "@/lib/userStore";
 import { cleanText } from "@/lib/text";
+import SharePoster from "./SharePoster";
 import { useLocale } from "./LocaleProvider";
 
 function countItems(d: DailyReport): number {
@@ -62,7 +63,11 @@ export default function DailyView({
   return (
     <article className="space-y-6">
       <header className="card p-5">
-        <div className="text-xs text-gray-500 dark:text-gray-400 mb-2">{t("daily.title")} · {daily.date}</div>
+        <div className="flex items-center justify-between gap-2 mb-2">
+          <div className="text-xs text-gray-500 dark:text-gray-400">{t("daily.title")} · {daily.date}</div>
+          {/* Poster exists for the latest daily only (nextDate == null == newest). */}
+          {!nextDate && <SharePoster poster="daily-latest.png" />}
+        </div>
         <h1 className="text-xl font-semibold leading-snug mb-2">{daily.date} · {t("daily.title")}</h1>
         <p className="text-sm text-gray-600 dark:text-gray-300 leading-relaxed">{lead}</p>
       </header>

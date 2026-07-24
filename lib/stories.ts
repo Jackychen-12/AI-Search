@@ -131,6 +131,11 @@ class UnionFind {
   }
 }
 
+/** Poster filename for a story id (chars sanitized for filesystem/URL use). */
+export function storyPosterName(id: string): string {
+  return `story-${id.replace(/[^a-zA-Z0-9_-]/g, "_")}.png`;
+}
+
 /** Cluster recent items into cross-source stories. `now` defaults to the pool's newest time. */
 export function buildStories(pool: AIItem[], now?: number): Story[] {
   // Deduplicate by id (current snapshot + archive overlap) and keep recent items only.

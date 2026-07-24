@@ -12,6 +12,7 @@ export const metadata: Metadata = {
   title: "事件脉络",
   description: "同一 AI 事件的跨源聚合追踪：进展时间轴、信源印证强度、发酵状态，自动聚类生成。",
   alternates: { canonical: abs("/stories") },
+  openGraph: { images: ["/posters/stories-latest.png"] },
 };
 
 export default function StoriesPage() {

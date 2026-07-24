@@ -19,7 +19,6 @@ const dict: Record<string, Record<Locale, string>> = {
   "sidebar.trending.desc": { zh: "按 GitHub Star / Hacker News 讨论热度排序", en: "Ranked by GitHub Stars / HN points" },
   "sidebar.sources": { zh: "数据来源", en: "Data Sources" },
   "sidebar.topics": { zh: "热门话题", en: "Hot Topics" },
-  "sidebar.quicklinks": { zh: "快速入口", en: "Quick Links" },
   "sidebar.viewall": { zh: "查看全部", en: "View All" },
   "sidebar.sources.filter": { zh: "点击筛选", en: "Click to filter" },
   "sidebar.sources.clear": { zh: "← 清除来源筛选", en: "← Clear source filter" },
@@ -133,6 +132,8 @@ const dict: Record<string, Record<Locale, string>> = {
   // Common actions
   "common.bookmark": { zh: "收藏", en: "Bookmark" },
   "common.unbookmark": { zh: "取消收藏", en: "Remove bookmark" },
+  "share.poster": { zh: "复制分享图", en: "Copy share card" },
+  "share.copied": { zh: "已复制 ✓", en: "Copied ✓" },
 
   // Timeline
   "timeline.title": { zh: "时间线", en: "Timeline" },

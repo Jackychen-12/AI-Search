@@ -64,6 +64,9 @@ jobs:
         with:
           enablement: true # auto-enable Pages (source = GitHub Actions) on first run
 
+      - name: Install CJK fonts (share posters render Chinese text)
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq fonts-noto-cjk
+
       - name: Build static export
         env:
           NEXT_PUBLIC_ASK_AI_URL: ${{ vars.ASK_AI_URL }}

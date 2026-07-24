@@ -14,6 +14,7 @@ import path from "node:path";
 import type { AIItem } from "../lib/types";
 import { WEEKLY_INSIGHT_PATH, WEEKLY_INSIGHTS_DIR } from "../lib/config";
 import { normalizeItems } from "../lib/classify";
+import { sanitizeItems } from "../lib/validate";
 import { addAiNotes } from "./lib/aiNote";
 import { updateArchive } from "./lib/archive";
 import { buildDigest, buildWeeklyInsight } from "./lib/digest";
@@ -66,7 +67,11 @@ export async function runCrawl(only: string[] = []): Promise<CrawlResult> {
   });
 
   const prev = loadPrevious();
-  let merged = normalizeItems(dedupeAndSort(all));
+  // Schema guard first: drop/clamp anything malformed BEFORE it can reach the
+  // snapshot, the append-only archive or the open API.
+  const { items: safe, dropped } = sanitizeItems(all);
+  if (dropped > 0) errors["validator"] = `dropped ${dropped} malformed item(s)`;
+  let merged = normalizeItems(dedupeAndSort(safe));
   merged = applyHistory(merged, prev, new Date().toISOString());
   merged = await addAiNotes(merged); // new items only; no-op without DEEPSEEK_API_KEY
   const { count, path: outPath } = writeSnapshot(merged, sources, errors);

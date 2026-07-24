@@ -5,6 +5,7 @@ import { CATEGORY_MAP } from "@/lib/categories";
 import { formatItemTime } from "@/lib/timeFormat";
 import { highlight } from "@/lib/highlight";
 import { cleanText } from "@/lib/text";
+import SourceIcon from "./SourceIcon";
 import { useLocale } from "./LocaleProvider";
 
 const NEW_WINDOW_MS = 48 * 60 * 60 * 1000;
@@ -108,10 +109,11 @@ export default function ItemCard({
           target="_blank"
           rel="noreferrer"
           onClick={() => onOpen?.(item.id)}
-          className="truncate hover:text-brand-600"
+          className="flex items-center gap-1.5 truncate hover:text-brand-600"
           title={item.source}
         >
-          {t("card.source")}：{item.source}
+          <SourceIcon url={item.sourceUrl} source={item.source} size={14} />
+          <span className="truncate">{item.source}</span>
         </a>
       </div>
     </article>

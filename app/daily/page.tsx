@@ -11,6 +11,7 @@ export const metadata: Metadata = {
   title: "AI 资讯日报",
   description: "每天根据当天新收录的公开资讯自动汇编的 AI 日报：今日精选 + 分板块重点 + 快讯。",
   alternates: { canonical: abs("/daily") },
+  openGraph: { images: ["/posters/daily-latest.png"] },
 };
 
 export default async function DailyLatest() {

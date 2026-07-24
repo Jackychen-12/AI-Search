@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "prebuild": "tsx scripts/writeVersion.ts && tsx scripts/generateOg.ts && tsx scripts/generateApi.ts",
+    "prebuild": "tsx scripts/writeVersion.ts && tsx scripts/generateOg.ts && tsx scripts/generateFavicons.ts && tsx scripts/generatePosters.ts && tsx scripts/generateApi.ts",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",

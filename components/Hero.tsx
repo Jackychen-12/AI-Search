@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import type { AIItem } from "@/lib/types";
 import { CATEGORY_MAP } from "@/lib/categories";
 import { cleanText } from "@/lib/text";
+import SourceIcon from "./SourceIcon";
 import { useLocale } from "./LocaleProvider";
 
 /**
@@ -77,7 +78,10 @@ export default function Hero({ item }: { item: AIItem }) {
         {item.title}
       </h2>
       {intro && <p className="mt-2 text-sm text-gray-600 dark:text-gray-400 leading-relaxed line-clamp-2">{intro}</p>}
-      <div className="mt-3 text-xs text-gray-400">{t("card.source")}：{item.source}</div>
+      <div className="mt-3 text-xs text-gray-400 flex items-center gap-1.5">
+        <SourceIcon url={item.sourceUrl} source={item.source} size={14} />
+        {item.source}
+      </div>
     </div>
   );
 
