@@ -2,9 +2,16 @@ name = "ai-search-proxy"
 main = "index.js"
 compatibility_date = "2024-01-01"
 
-# KV namespace for rate limiting — create with:
+# Origin allowlist (exact match, comma-separated). Set to your real site origin(s).
+[vars]
+ALLOWED_ORIGINS = "https://aisearches.cc"
+
+# KV namespace for per-IP rate limiting — REQUIRED (the worker fails closed
+# without it). Create with:
 #   wrangler kv namespace create RATE_KV
 # Then paste the id below.
 # [[kv_namespaces]]
 # binding = "RATE_KV"
 # id = "<your-kv-namespace-id>"
+
+# Secret (never commit): set with `wrangler secret put DEEPSEEK_API_KEY`

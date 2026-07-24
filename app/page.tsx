@@ -2,7 +2,7 @@ import HomeClient from "@/components/HomeClient";
 import { readDigest, readLocalItems, readStoreMeta } from "@/lib/localStore";
 import { normalizeItems } from "@/lib/classify";
 import { MOCK_ITEMS } from "@/lib/mockData";
-import { SITE_DESC, SITE_NAME, SITE_URL } from "@/lib/seo";
+import { SITE_DESC, SITE_NAME, SITE_URL, jsonLdScript } from "@/lib/seo";
 
 // Static export: the snapshot is read at build time and baked into the page;
 // all filtering/search/pagination then happens client-side in the browser.
@@ -32,7 +32,7 @@ export default function Home() {
 
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdScript(jsonLd) }} />
       <HomeClient items={items} meta={meta} now={now} digest={readDigest()} />
     </>
   );

@@ -8,3 +8,13 @@ export const SITE_DESC =
 export function abs(path = ""): string {
   return `${SITE_URL}${path}`;
 }
+
+/**
+ * Serialize JSON-LD for embedding in a <script> tag. JSON.stringify does NOT
+ * escape "<", so crawled titles containing "</script>" would otherwise break
+ * out of the script block (XSS). Escaping "<" as \u003c keeps the JSON valid
+ * while making script-tag breakout impossible.
+ */
+export function jsonLdScript(obj: unknown): string {
+  return JSON.stringify(obj).replace(/</g, "\\u003c");
+}

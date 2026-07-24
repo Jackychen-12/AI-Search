@@ -170,6 +170,8 @@ Edit `scripts/sources/rss.ts` to replace FEEDS + `lib/categories.ts` for categor
 |----------|---------|
 | `DEEPSEEK_API_KEY` | AI commentary (optional — everything else works without it) |
 | `NEXT_PUBLIC_ASK_AI_URL` | AI Q&A proxy (see `worker/`) |
+| `NEXT_PUBLIC_GISCUS_REPO` / `_REPO_ID` / `_CATEGORY_ID` | giscus comments (optional; set all three to your own repo) |
+| `NEXT_PUBLIC_SITE_URL` | Canonical site URL for SEO/sitemap (set this on forks) |
 
 ## License
 

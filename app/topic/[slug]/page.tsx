@@ -7,7 +7,7 @@ import Comments from "@/components/Comments";
 import { readArchive } from "@/lib/archive";
 import { readLocalItems } from "@/lib/localStore";
 import { ENTITIES, ENTITY_MAP, entitiesOf, entityCounts } from "@/lib/entities";
-import { abs } from "@/lib/seo";
+import { abs, jsonLdScript } from "@/lib/seo";
 
 export const dynamic = "force-static";
 
@@ -59,7 +59,7 @@ export default function TopicPage({ params }: { params: { slug: string } }) {
 
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdScript(jsonLd) }} />
       <Header />
       <main className="max-w-5xl mx-auto px-4 py-6">
         <div className="mb-4">

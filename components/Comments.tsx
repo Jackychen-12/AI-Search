@@ -2,7 +2,8 @@
 
 import { useEffect, useRef } from "react";
 
-const REPO = "keyuchen-del/AI-Search";
+// All three come from env so forks never point comments at someone else's repo.
+const REPO = process.env.NEXT_PUBLIC_GISCUS_REPO || "";
 const REPO_ID = process.env.NEXT_PUBLIC_GISCUS_REPO_ID || "";
 const CATEGORY_ID = process.env.NEXT_PUBLIC_GISCUS_CATEGORY_ID || "";
 
@@ -10,7 +11,7 @@ export default function Comments() {
   const ref = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    if (!REPO_ID || !CATEGORY_ID || !ref.current) return;
+    if (!REPO || !REPO_ID || !CATEGORY_ID || !ref.current) return;
     if (ref.current.querySelector("iframe")) return;
 
     const script = document.createElement("script");
@@ -35,7 +36,7 @@ export default function Comments() {
     ref.current.appendChild(script);
   }, []);
 
-  if (!REPO_ID || !CATEGORY_ID) return null;
+  if (!REPO || !REPO_ID || !CATEGORY_ID) return null;
 
   return (
     <div className="mt-8 pt-6 border-t border-gray-200 dark:border-gray-700">

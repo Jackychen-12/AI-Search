@@ -35,7 +35,7 @@ jobs:
           node-version: 22
           cache: npm
 
-      - run: npm install
+      - run: npm ci # reproducible install strictly from package-lock.json
 
       - name: Run tests
         run: npm test

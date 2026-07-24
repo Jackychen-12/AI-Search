@@ -68,7 +68,8 @@ export async function fetchOgImage(url: string): Promise<string | null> {
       html.match(/<meta[^>]+content=["']([^"']+)["'][^>]+property=["']og:image["']/i);
     if (!m) return null;
     const img = m[1].trim();
-    if (!img.startsWith("http")) return null;
+    // https only — http images would be blocked as mixed content on the https site.
+    if (!img.startsWith("https://")) return null;
     return img;
   } catch {
     return null;
