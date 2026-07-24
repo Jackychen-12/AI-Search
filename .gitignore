@@ -8,8 +8,10 @@ dist
 .DS_Store
 *.log
 .vercel
+.vercel-tmp/
 data/cache/
 tsconfig.tsbuildinfo
 public/version.json
 public/og-image.png
 public/api/
+.env*
