@@ -132,46 +132,6 @@ export default memo(function Sidebar({
         </div>
       )}
 
-      {/* 快速入口 */}
-      <div className="card p-4">
-        <h3 className="text-sm font-semibold dark:text-gray-100 mb-3 flex items-center gap-2">
-          <span className="w-1 h-4 bg-brand-500 rounded-sm" />
-          {t("sidebar.quicklinks")}
-        </h3>
-        <ul className="space-y-1.5 text-sm">
-          <li>
-            <Link href="/daily" className="text-gray-700 dark:text-gray-300 hover:text-brand-600">
-              · 今日 AI 资讯日报
-            </Link>
-          </li>
-          <li>
-            <Link href="/?category=ai-models&since=7d" className="text-gray-700 dark:text-gray-300 hover:text-brand-600">
-              · 最近一周模型发布
-            </Link>
-          </li>
-          <li>
-            <Link href="/?category=paper&since=7d" className="text-gray-700 dark:text-gray-300 hover:text-brand-600">
-              · 最近一周 AI 论文
-            </Link>
-          </li>
-          <li>
-            <Link href="/topic/agent" className="text-gray-700 dark:text-gray-300 hover:text-brand-600">
-              · AI Agent 话题
-            </Link>
-          </li>
-          <li>
-            <Link href="/topic/opensource" className="text-gray-700 dark:text-gray-300 hover:text-brand-600">
-              · 开源模型话题
-            </Link>
-          </li>
-          <li>
-            <Link href="/?keyword=OpenAI" className="text-gray-700 dark:text-gray-300 hover:text-brand-600">
-              · OpenAI 相关
-            </Link>
-          </li>
-        </ul>
-      </div>
-
     </aside>
   );
 })
