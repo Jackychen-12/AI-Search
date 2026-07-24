@@ -128,6 +128,7 @@ function buildLocalDaily(
     generatedAt,
     windowStart,
     windowEnd,
+    newCount: dayItems.length,
     lead,
     featured,
     sections,
@@ -194,6 +195,7 @@ function mockDaily(date?: string): DailyReport {
     generatedAt: new Date().toISOString(),
     windowStart: start.toISOString(),
     windowEnd: end.toISOString(),
+    newCount: sections.reduce((sum, s) => sum + s.items.length, 0),
     lead: {
       title: "演示版 AI 日报",
       leadParagraph: "当前为本地演示数据。运行 npm run crawl 抓取真实数据后将展示由真实条目生成的日报。",

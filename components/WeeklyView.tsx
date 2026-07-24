@@ -2,8 +2,8 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import { CATEGORY_MAP } from "@/lib/categories";
 import type { WeeklyReport } from "@/lib/weekly";
+import { useLocale } from "./LocaleProvider";
 
 function parseBold(text: string): React.ReactNode[] {
   const parts = text.split(/\*\*(.+?)\*\*/g);
@@ -102,11 +102,11 @@ function TrendBadge({ current, previous }: { current: number; previous?: number 
   );
 }
 
-function formatWeekLabel(label: string, isCurrent: boolean): string {
+function formatWeekLabel(label: string, isCurrent: boolean, thisWeek: string): string {
   const m = label.match(/(\d{4})-(\d{2})-(\d{2}) ~ \d{4}-(\d{2})-(\d{2})/);
   if (!m) return label;
   const short = `${m[2]}.${m[3]}-${m[4]}.${m[5]}`;
-  return isCurrent ? `本周 (${short})` : short;
+  return isCurrent ? `${thisWeek} (${short})` : short;
 }
 
 export default function WeeklyView({
@@ -116,10 +116,11 @@ export default function WeeklyView({
 }) {
   const [idx, setIdx] = useState(0);
   const [expandedCats, setExpandedCats] = useState<Set<string>>(new Set(["ai-models", "ai-products"]));
+  const { t } = useLocale();
   const report = reports[idx];
-  if (!report) return <p className="text-gray-500">暂无周报数据</p>;
+  if (!report) return <p className="text-gray-500">{t("weekly.empty")}</p>;
 
-  const weekdays = ["一", "二", "三", "四", "五", "六", "日"];
+  const weekdays = t("weekly.weekdays").split(",");
   const dayLabels = report.dailyBreakdown.map((_, i) => weekdays[i] ?? "");
   const topHeat = report.topItems[0]?.heat ?? 0;
   const dailyAvg = report.totalItems > 0 ? Math.round(report.totalItems / 7) : 0;
@@ -152,7 +153,7 @@ export default function WeeklyView({
                   : "bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-700")
               }
             >
-              {formatWeekLabel(r.weekLabel, i === 0)}
+              {formatWeekLabel(r.weekLabel, i === 0, t("weekly.thisWeek"))}
               <span className="ml-1 opacity-60">({r.totalItems})</span>
             </button>
           ))}
@@ -161,7 +162,7 @@ export default function WeeklyView({
 
       {/* ═══ A. Data Dashboard ═══ */}
       <section className="card p-5">
-        <h2 className="text-xs font-semibold text-gray-500 dark:text-gray-400 uppercase tracking-wider mb-4">关键数据速览</h2>
+        <h2 className="text-xs font-semibold text-gray-500 dark:text-gray-400 uppercase tracking-wider mb-4">{t("weekly.kpi.title")}</h2>
 
         {/* KPI row */}
         <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 mb-6">
@@ -170,19 +171,19 @@ export default function WeeklyView({
               <span className="text-3xl font-bold text-brand-600 dark:text-brand-500 tabular-nums">{report.totalItems}</span>
               <TrendBadge current={report.totalItems} previous={report.prevTotalItems} />
             </div>
-            <div className="text-xs text-gray-500 dark:text-gray-400 mt-1">资讯总量</div>
+            <div className="text-xs text-gray-500 dark:text-gray-400 mt-1">{t("weekly.kpi.total")}</div>
           </div>
           <div className="text-center">
             <span className="text-3xl font-bold text-gray-800 dark:text-gray-200 tabular-nums">{dailyAvg}</span>
-            <div className="text-xs text-gray-500 dark:text-gray-400 mt-1">日均资讯</div>
+            <div className="text-xs text-gray-500 dark:text-gray-400 mt-1">{t("weekly.kpi.dailyAvg")}</div>
           </div>
           <div className="text-center">
             <span className="text-3xl font-bold text-gray-800 dark:text-gray-200 tabular-nums">{report.topSources.length}</span>
-            <div className="text-xs text-gray-500 dark:text-gray-400 mt-1">活跃来源</div>
+            <div className="text-xs text-gray-500 dark:text-gray-400 mt-1">{t("weekly.kpi.sources")}</div>
           </div>
           <div className="text-center">
             <span className="text-3xl font-bold text-amber-600 dark:text-amber-400 tabular-nums">{topHeat > 0 ? topHeat.toLocaleString() : "—"}</span>
-            <div className="text-xs text-gray-500 dark:text-gray-400 mt-1">最高热度</div>
+            <div className="text-xs text-gray-500 dark:text-gray-400 mt-1">{t("weekly.kpi.topHeat")}</div>
           </div>
         </div>
 
@@ -190,7 +191,7 @@ export default function WeeklyView({
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-5 pt-5 border-t border-gray-100 dark:border-gray-800">
           {/* Daily trend */}
           <div>
-            <h3 className="text-xs font-semibold text-gray-600 dark:text-gray-300 mb-3">每日趋势</h3>
+            <h3 className="text-xs font-semibold text-gray-600 dark:text-gray-300 mb-3">{t("weekly.chart.daily")}</h3>
             <div className="flex items-end gap-1.5" style={{ height: 96 }}>
               {report.dailyBreakdown.map((d, i) => {
                 const barH = maxDaily > 0 ? Math.max(2, Math.round((d.count / maxDaily) * 64)) : 2;
@@ -210,13 +211,13 @@ export default function WeeklyView({
 
           {/* Category breakdown */}
           <div>
-            <h3 className="text-xs font-semibold text-gray-600 dark:text-gray-300 mb-3">分类占比</h3>
+            <h3 className="text-xs font-semibold text-gray-600 dark:text-gray-300 mb-3">{t("weekly.chart.category")}</h3>
             <div className="space-y-2">
               {report.categoryBreakdown.filter((c) => c.count > 0).map((c) => {
                 const cat = CAT_COLORS[c.key];
                 return (
                   <div key={c.key} className="flex items-center gap-2">
-                    <span className="text-[11px] text-gray-600 dark:text-gray-300 w-20 truncate">{c.label}</span>
+                    <span className="text-[11px] text-gray-600 dark:text-gray-300 w-20 truncate">{t(`cat.${c.key}`)}</span>
                     <div className="flex-1 h-2 bg-gray-100 dark:bg-gray-700 rounded-full overflow-hidden">
                       <div className={`h-full rounded-full ${cat?.bar ?? "bg-gray-400"}`} style={{ width: `${(c.count / maxCat) * 100}%` }} />
                     </div>
@@ -229,7 +230,7 @@ export default function WeeklyView({
 
           {/* Source ranking */}
           <div>
-            <h3 className="text-xs font-semibold text-gray-600 dark:text-gray-300 mb-3">来源贡献 Top 5</h3>
+            <h3 className="text-xs font-semibold text-gray-600 dark:text-gray-300 mb-3">{t("weekly.chart.sources")}</h3>
             <div className="space-y-2">
               {report.topSources.slice(0, 5).map((s, i) => (
                 <div key={s.name} className="flex items-center gap-2">
@@ -251,7 +252,7 @@ export default function WeeklyView({
         <section className="bg-brand-50 dark:bg-brand-500/10 border border-brand-100 dark:border-brand-500/20 rounded-xl px-5 py-5">
           <h2 className="text-sm font-semibold text-brand-700 dark:text-brand-500 mb-4 flex items-center gap-2">
             <span className="w-5 h-5 rounded-md bg-brand-500 text-white grid place-items-center text-[10px] font-bold">AI</span>
-            {report.weeklyInsight ? "AI 周度洞察" : "本周重点"}
+            {report.weeklyInsight ? t("weekly.insight") : t("weekly.topSummary")}
           </h2>
           {report.weeklyInsight ? (
             <InsightSection markdown={report.weeklyInsight} />
@@ -265,15 +266,15 @@ export default function WeeklyView({
       <section>
         <h2 className="text-sm font-semibold dark:text-gray-100 mb-4 flex items-center gap-2">
           <span className="w-1 h-4 bg-brand-500 rounded-sm" />
-          本周 Top 10
+          {t("weekly.top10")}
         </h2>
         {report.topItems.length === 0 ? (
-          <p className="text-sm text-gray-500">本周暂无数据</p>
+          <p className="text-sm text-gray-500">{t("weekly.top10.empty")}</p>
         ) : (
           <div className="space-y-3">
             {report.topItems.map((item, i) => {
               const cat = CAT_COLORS[item.category ?? "industry"] ?? CAT_COLORS["industry"];
-              const catLabel = CATEGORY_MAP[(item.category ?? "industry") as keyof typeof CATEGORY_MAP]?.label ?? item.category;
+              const catLabel = t(`cat.${item.category ?? "industry"}`);
               return (
                 <div key={item.id} className={`card p-4 border-l-[3px] ${cat.border}`}>
                   <div className="flex items-start gap-3">
@@ -296,7 +297,7 @@ export default function WeeklyView({
                         <span className="text-[11px] text-gray-500 dark:text-gray-400">{item.source}</span>
                         {typeof item.heat === "number" && item.heat > 0 && (
                           <span className="text-[11px] font-medium text-amber-600 dark:text-amber-400">
-                            {item.origin === "github" ? `★ ${item.heat.toLocaleString()}` : `热度 ${item.heat.toLocaleString()}`}
+                            {item.origin === "github" ? `★ ${item.heat.toLocaleString()}` : `${t("weekly.heat")} ${item.heat.toLocaleString()}`}
                           </span>
                         )}
                       </div>
@@ -319,7 +320,7 @@ export default function WeeklyView({
         <section>
           <h2 className="text-sm font-semibold dark:text-gray-100 mb-4 flex items-center gap-2">
             <span className="w-1 h-4 bg-brand-500 rounded-sm" />
-            分类概览
+            {t("weekly.sections")}
           </h2>
           <div className="space-y-3">
             {report.sections.filter((s) => s.items.length > 0).map((sec) => {
@@ -332,7 +333,7 @@ export default function WeeklyView({
                     className={`w-full flex items-center justify-between px-4 py-3 text-left border-l-[3px] ${cat.border} hover:bg-gray-50 dark:hover:bg-gray-800/50 transition`}
                   >
                     <div className="flex items-center gap-2">
-                      <span className={`text-xs font-semibold ${cat.text}`}>{sec.label}</span>
+                      <span className={`text-xs font-semibold ${cat.text}`}>{t(`cat.${sec.key}`)}</span>
                       <span className="text-[10px] text-gray-400 bg-gray-100 dark:bg-gray-700 px-1.5 py-0.5 rounded-full">{sec.items.length}</span>
                     </div>
                     <span className={`text-gray-400 text-xs transition-transform ${expanded ? "rotate-180" : ""}`}>▾</span>
@@ -361,9 +362,9 @@ export default function WeeklyView({
 
       {/* Footer navigation */}
       <nav className="flex items-center justify-center gap-6 text-sm text-gray-500 dark:text-gray-400 py-4">
-        <Link href="/" className="hover:text-brand-600 transition-colors">← 返回首页</Link>
-        <Link href="/daily" className="hover:text-brand-600 transition-colors">查看日报</Link>
-        <Link href="/feed.xml" className="hover:text-brand-600 transition-colors">RSS 订阅</Link>
+        <Link href="/" className="hover:text-brand-600 transition-colors">{t("common.back")}</Link>
+        <Link href="/daily" className="hover:text-brand-600 transition-colors">{t("weekly.viewDaily")}</Link>
+        <Link href="/feed.xml" className="hover:text-brand-600 transition-colors">{t("weekly.rss")}</Link>
       </nav>
     </div>
   );

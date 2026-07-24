@@ -67,6 +67,8 @@ export interface DailyReport {
   generatedAt: string;
   windowStart: string;
   windowEnd: string;
+  /** 当日新收录总数（未截断）—— 供客户端按当前语言组装导语。 */
+  newCount?: number;
   lead: { title: string; leadParagraph: string } | null;
   /** 今日精选 —— 跨板块的当日重点条目。 */
   featured?: {

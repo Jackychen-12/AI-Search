@@ -4,6 +4,7 @@ import path from "node:path";
 import Link from "next/link";
 import Header from "@/components/Header";
 import WeeklyView from "@/components/WeeklyView";
+import T from "@/components/T";
 import { WEEKLY_INSIGHT_PATH, WEEKLY_INSIGHTS_DIR } from "@/lib/config";
 import { readArchive } from "@/lib/archive";
 import { readLocalItems } from "@/lib/localStore";
@@ -57,11 +58,11 @@ export default function WeeklyPage() {
       <Header />
       <main className="max-w-4xl mx-auto px-4 py-6">
         <div className="mb-4">
-          <Link href="/" className="text-sm text-gray-500 hover:text-brand-600">← 返回首页</Link>
+          <Link href="/" className="text-sm text-gray-500 hover:text-brand-600"><T k="common.back" /></Link>
         </div>
-        <h1 className="text-2xl font-bold dark:text-gray-100 mb-1">AI 周报</h1>
+        <h1 className="text-2xl font-bold dark:text-gray-100 mb-1"><T k="weekly.title" /></h1>
         <p className="text-sm text-gray-500 dark:text-gray-400 mb-6">
-          每周自动汇编，回顾本周 AI 行业重点
+          <T k="weekly.subtitle" />
         </p>
         <WeeklyView reports={reports} />
       </main>

@@ -1,6 +1,7 @@
 import Header from "@/components/Header";
 import DataSourceBanner from "@/components/DataSourceBanner";
 import DailyView from "@/components/DailyView";
+import T from "@/components/T";
 import { getDaily, getDailies, listDailyDates } from "@/lib/dailyData";
 import Link from "next/link";
 import type { Metadata } from "next";
@@ -28,14 +29,14 @@ export default async function DailyLatest() {
         <aside className="card p-4 h-fit">
           <h3 className="text-sm font-semibold mb-3 flex items-center gap-2">
             <span className="w-1 h-4 bg-brand-500 rounded-sm" />
-            日报存档
+            <T k="daily.archive" />
           </h3>
           <ul className="space-y-1.5 text-sm">
             {archive.map((d) => (
               <li key={d.date}>
                 <Link
                   href={`/daily/${d.date}`}
-                  className="flex items-baseline gap-2 text-gray-700 hover:text-brand-600"
+                  className="flex items-baseline gap-2 text-gray-700 dark:text-gray-300 hover:text-brand-600"
                 >
                   <span className="font-mono text-xs text-gray-400 shrink-0">{d.date}</span>
                   {d.leadTitle && <span className="truncate">{d.leadTitle}</span>}
