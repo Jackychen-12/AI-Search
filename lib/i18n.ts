@@ -21,8 +21,6 @@ const dict: Record<string, Record<Locale, string>> = {
   "sidebar.topics": { zh: "热门话题", en: "Hot Topics" },
   "sidebar.quicklinks": { zh: "快速入口", en: "Quick Links" },
   "sidebar.viewall": { zh: "查看全部", en: "View All" },
-  "sidebar.recommend": { zh: "推荐阅读", en: "Recommended" },
-  "sidebar.recommend.desc": { zh: "各方向精选，换个角度看 AI", en: "Curated picks across categories" },
   "sidebar.sources.filter": { zh: "点击筛选", en: "Click to filter" },
   "sidebar.sources.clear": { zh: "← 清除来源筛选", en: "← Clear source filter" },
   "sidebar.sources.notUpdated": { zh: "个未更新", en: "not updated" },
@@ -156,8 +154,6 @@ const dict: Record<string, Record<Locale, string>> = {
   "stories.collapse": { zh: "收起", en: "Collapse" },
   "stories.empty": { zh: "最近 14 天暂无跨源印证的事件。", en: "No cross-source stories in the last 14 days." },
   "stories.note": { zh: "由标题相似度 + 实体 + 时间窗口自动聚类，仅展示 ≥ 2 个独立信源印证的事件", en: "Auto-clustered by title similarity + entities + time window; only events corroborated by ≥ 2 independent sources are shown" },
-  "stories.strip.title": { zh: "进行中的事件", en: "Ongoing Stories" },
-  "stories.strip.more": { zh: "全部事件", en: "All stories" },
 
   // Common
   "common.back": { zh: "← 返回首页", en: "← Back to Home" },

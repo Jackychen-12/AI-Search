@@ -2,11 +2,10 @@
 
 import { memo } from "react";
 import Link from "next/link";
-import type { AIItem } from "@/lib/types";
+import type { AIItem, Digest } from "@/lib/types";
 import type { StoreMeta } from "@/lib/localStore";
 import type { ViewState } from "@/lib/viewState";
 import { buildHref } from "@/lib/href";
-import { CATEGORY_MAP } from "@/lib/categories";
 import { formatBJDate } from "@/lib/timeFormat";
 import TrendingList from "./TrendingList";
 import SourceFilter from "./SourceFilter";
@@ -19,7 +18,7 @@ export default memo(function Sidebar({
   sources,
   topics,
   trendSummary,
-  recommend,
+  digest,
 }: {
   trending: AIItem[];
   meta?: StoreMeta | null;
@@ -27,7 +26,7 @@ export default memo(function Sidebar({
   sources: [string, number][];
   topics?: { slug: string; name: string; count: number }[];
   trendSummary?: string | null;
-  recommend?: AIItem[];
+  digest?: Digest | null;
 }) {
   const { t } = useLocale();
   const top = trending.slice(0, 10);
@@ -75,31 +74,36 @@ export default memo(function Sidebar({
         </div>
       )}
 
-      {/* 推荐阅读 */}
-      {recommend && recommend.length > 0 && (
+      {/* AI 每日必读（原主栏大卡并入侧边栏，替代推荐阅读） */}
+      {digest && digest.picks.length > 0 && (
         <div className="card p-4">
           <h3 className="text-sm font-semibold dark:text-gray-100 mb-1 flex items-center gap-2">
             <span className="w-1 h-4 bg-brand-500 rounded-sm" />
-            {t("sidebar.recommend")}
+            {t("topreads.title")}
           </h3>
-          <p className="text-[11px] text-gray-500 dark:text-gray-400 mb-3">{t("sidebar.recommend.desc")}</p>
-          <ul className="space-y-2.5">
-            {recommend.map((it) => {
-              const cat = it.category ? CATEGORY_MAP[it.category] : null;
-              return (
-                <li key={it.id} className="text-sm leading-snug">
-                  <a href={it.sourceUrl} target="_blank" rel="noreferrer" className="group">
-                    {cat && (
-                      <span className="text-[10px] px-1.5 py-0.5 rounded bg-brand-50 text-brand-600 mr-1.5 align-middle">
-                        {cat.label}
-                      </span>
-                    )}
-                    <span className="text-gray-700 dark:text-gray-200 group-hover:text-brand-600">{it.title}</span>
+          <p className="text-[11px] text-gray-500 dark:text-gray-400 mb-3">{t("topreads.desc")}</p>
+          <ol className="space-y-2.5">
+            {digest.picks.map((p, i) => (
+              <li key={i} className="flex gap-2 text-sm leading-snug">
+                <span className="shrink-0 w-[18px] h-[18px] grid place-items-center rounded bg-brand-500 text-white text-[10px] font-mono mt-0.5">
+                  {i + 1}
+                </span>
+                <div className="min-w-0">
+                  <a
+                    href={p.sourceUrl}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="text-gray-700 dark:text-gray-200 hover:text-brand-600"
+                  >
+                    {p.title}
                   </a>
-                </li>
-              );
-            })}
-          </ul>
+                  {p.reason && (
+                    <p className="text-gray-500 dark:text-gray-400 text-[11px] mt-0.5 leading-relaxed line-clamp-2">{p.reason}</p>
+                  )}
+                </div>
+              </li>
+            ))}
+          </ol>
         </div>
       )}
 

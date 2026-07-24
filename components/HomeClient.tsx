@@ -7,17 +7,14 @@ import CategoryNav from "./CategoryNav";
 import Sidebar from "./Sidebar";
 import SortTabs from "./SortTabs";
 import FeedSection from "./FeedSection";
-import TopReads from "./TopReads";
 import Hero from "./Hero";
 import NewSince from "./NewSince";
-import StoryStrip, { type StoryBrief } from "./StoryStrip";
 import CommandPalette from "./CommandPalette";
 import AskAI from "./AskAI";
 import { useLocale } from "./LocaleProvider";
 import { filterItems } from "@/lib/filter";
 import { sourceCounts } from "@/lib/personalize";
 import { ENTITY_MAP, entityCounts } from "@/lib/entities";
-import { CATEGORIES } from "@/lib/categories";
 import { formatBJDate } from "@/lib/timeFormat";
 import { ViewStateProvider, useViewState } from "@/lib/viewState";
 import type { ViewState } from "@/lib/viewState";
@@ -29,14 +26,12 @@ function HomeLayout({
   meta,
   now,
   digest,
-  stories,
   state,
 }: {
   items: AIItem[];
   meta: StoreMeta | null;
   now: number;
   digest: Digest | null;
-  stories: StoryBrief[];
   state: ViewState;
 }) {
   const { t } = useLocale();
@@ -59,14 +54,6 @@ function HomeLayout({
         .sort((a, b) => b[1] - a[1])
         .slice(0, 12)
         .map(([slug, count]) => ({ slug, name: ENTITY_MAP[slug]?.name ?? slug, count })),
-    [items],
-  );
-
-  const recommend = useMemo(
-    () =>
-      CATEGORIES.map(
-        (c) => filterItems(items, { mode: "selected", category: c.key, since: "30d", sort: "latest" })[0],
-      ).filter((x): x is AIItem => !!x),
     [items],
   );
 
@@ -97,8 +84,6 @@ function HomeLayout({
         <section className="min-w-0">
           {showDigest && <NewSince items={items} />}
           {heroItem && <Hero item={heroItem} />}
-          {showDigest && <StoryStrip stories={stories} />}
-          {showDigest && <TopReads digest={digest} />}
           {keyword && (
             <div className="mb-4 text-sm text-gray-600 dark:text-gray-400">
               {t("search.keyword")}：<span className="text-brand-600 font-medium">{keyword}</span>
@@ -115,7 +100,7 @@ function HomeLayout({
           sources={sources}
           topics={topics}
           trendSummary={digest?.trendSummary ?? null}
-          recommend={recommend}
+          digest={digest}
         />
       </main>
 
@@ -158,19 +143,17 @@ function HomeContent({
   meta,
   now,
   digest,
-  stories,
 }: {
   items: AIItem[];
   meta: StoreMeta | null;
   now: number;
   digest: Digest | null;
-  stories: StoryBrief[];
 }) {
   const { state } = useViewState();
   const cmdkSources = useMemo(() => sourceCounts(items).map(([s]) => s), [items]);
   return (
     <>
-      <HomeLayout items={items} meta={meta} now={now} digest={digest} stories={stories} state={state} />
+      <HomeLayout items={items} meta={meta} now={now} digest={digest} state={state} />
       <CommandPalette items={items} sources={cmdkSources} />
       <AskAI items={items} />
     </>
@@ -182,17 +165,15 @@ export default function HomeClient({
   meta,
   now,
   digest,
-  stories = [],
 }: {
   items: AIItem[];
   meta: StoreMeta | null;
   now: number;
   digest: Digest | null;
-  stories?: StoryBrief[];
 }) {
   return (
     <ViewStateProvider>
-      <HomeContent items={items} meta={meta} now={now} digest={digest} stories={stories} />
+      <HomeContent items={items} meta={meta} now={now} digest={digest} />
     </ViewStateProvider>
   );
 }
