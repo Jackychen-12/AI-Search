@@ -152,6 +152,10 @@ const dict: Record<string, Record<Locale, string>> = {
   "stories.updated": { zh: "更新", en: "updated" },
   "stories.expand": { zh: "展开全部", en: "Show all" },
   "stories.collapse": { zh: "收起", en: "Collapse" },
+  "stories.focus": { zh: "焦点事件", en: "In Focus" },
+  "stories.list": { zh: "全部事件", en: "All Stories" },
+  "stories.filter.all": { zh: "全部", en: "All" },
+  "stories.filter.empty": { zh: "没有匹配的事件，换个筛选试试。", en: "No matching stories. Try another filter." },
   "stories.empty": { zh: "最近 14 天暂无跨源印证的事件。", en: "No cross-source stories in the last 14 days." },
   "stories.note": { zh: "由标题相似度 + 实体 + 时间窗口自动聚类，仅展示 ≥ 2 个独立信源印证的事件", en: "Auto-clustered by title similarity + entities + time window; only events corroborated by ≥ 2 independent sources are shown" },
 
