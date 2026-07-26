@@ -1,37 +1,37 @@
 {
-  "date": "2026-07-24",
-  "generatedAt": "2026-07-23T23:20:44.827Z",
+  "date": "2026-07-27",
+  "generatedAt": "2026-07-26T23:13:42.626Z",
   "picks": [
     {
-      "title": "The arguments against open source AI are bad",
-      "sourceUrl": "https://tombedor.dev/arguments-against-open-source-ai-are-very-bad/",
+      "title": "Claude Opus 5",
+      "sourceUrl": "https://www.anthropic.com/news/claude-opus-5",
       "source": "Hacker News",
-      "reason": "开源AI核心争议，观点鲜明引热议"
+      "reason": "Claude Opus 5发布，顶级模型新里程碑"
     },
     {
-      "title": "Judge approves $1.5B Anthropic settlement for pirated books used to train Claude",
-      "sourceUrl": "https://apnews.com/article/ai-anthropic-copyright-settlement-claude-books-bartz-74b140444023898aeba8579b6e9f0d63",
+      "title": "Be skeptical of OpenAI's rogue hacker agent story",
+      "sourceUrl": "https://www.theguardian.com/technology/2026/jul/24/openai-rogue-hacker",
       "source": "Hacker News",
-      "reason": "1.5亿美元天价和解，AI版权里程碑"
+      "reason": "质疑OpenAI安全叙事，引发行业反思"
     },
     {
-      "title": "OpenAI’s accidental attack against Hugging Face is science fiction that happened",
-      "sourceUrl": "https://simonwillison.net/2026/Jul/22/openai-cyberattack/",
+      "title": "Open-weight AI is having its Kubernetes moment",
+      "sourceUrl": "https://tobi.knaup.me/2026-07-25-open-weight-ai-is-having-its-kubernetes-moment/",
       "source": "Hacker News",
-      "reason": "OpenAI误攻HuggingFace，戏剧性安全事件"
+      "reason": "开源AI生态成熟，类比Kubernetes崛起"
     },
     {
-      "title": "DARPA, U.S. Air Force fly AI-controlled F-16",
-      "sourceUrl": "https://www.darpa.mil/news/2026/darpa-us-air-force-fly-ai-controlled-f-16",
+      "title": "What is happening to jobs? Separating AI hype from reality",
+      "sourceUrl": "https://siepr.stanford.edu/publications/policy-brief/what-really-happening-jobs-separating-ai-hype-reality",
       "source": "Hacker News",
-      "reason": "DARPA与空军成功试飞AI战机，军事AI突破"
+      "reason": "理性分析AI对就业的真实影响"
     },
     {
-      "title": "AI Companies Are Trying to Hide a Staggering Amount of Debt",
-      "sourceUrl": "https://futurism.com/artificial-intelligence/ai-companies-hide-debt-off-balance-sheet",
+      "title": "Terence Tao: Mathematics in the Age of AI [pdf]",
+      "sourceUrl": "https://teorth.github.io/tao-web/slides/age-of-ai-icm-2026.pdf",
       "source": "Hacker News",
-      "reason": "揭露AI公司巨额债务，行业财务隐忧"
+      "reason": "陶哲轩谈数学在AI时代的前景"
     }
   ],
-  "trendSummary": "本周AI圈热点集中在开源工具与安全事件，包括模型评估漏洞、视频生成突破及工作流优化，社区协作与风险防范并重。"
+  "trendSummary": "本周AI圈热点集中在安全事件、新模型发布与工具创新上，Claude Opus 5亮相，OpenAI与Hugging Face联合处理安全漏洞，同时多个开源项目聚焦视频生成、设计辅助与智能工作流。"
 }
