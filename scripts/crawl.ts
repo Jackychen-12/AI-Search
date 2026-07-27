@@ -19,13 +19,14 @@ import { addAiNotes } from "./lib/aiNote";
 import { updateArchive } from "./lib/archive";
 import { buildDigest, buildWeeklyInsight } from "./lib/digest";
 import { applyHistory, dedupeAndSort, loadPrevious, writeSnapshot } from "./lib/persist";
+import { bjWeekRange } from "./lib/time";
 import { arxiv } from "./sources/arxiv";
 import { github } from "./sources/github";
 import { hackernews } from "./sources/hackernews";
 import { hfPapers } from "./sources/hfPapers";
 import { rssAdapters } from "./sources/rss";
 import type { SourceAdapter } from "./sources/types";
-import { TIER_WEIGHT } from "./sources/types";
+import { computeHeat } from "./lib/heat";
 
 export interface CrawlResult {
   total: number;
@@ -57,9 +58,7 @@ export async function runCrawl(only: string[] = []): Promise<CrawlResult> {
     const a = adapters[i];
     if (r.status === "fulfilled") {
       sources[r.value.id] = r.value.items.length;
-      const w = TIER_WEIGHT[a.tier] ?? 1;
-      const weighted = r.value.items.map((it) => ({ ...it, heat: Math.round((it.heat ?? 0) * w) }));
-      all.push(...weighted);
+      all.push(...r.value.items);
     } else {
       sources[a.id] = 0;
       errors[a.id] = String(r.reason?.message ?? r.reason).slice(0, 200);
@@ -73,22 +72,18 @@ export async function runCrawl(only: string[] = []): Promise<CrawlResult> {
   if (dropped > 0) errors["validator"] = `dropped ${dropped} malformed item(s)`;
   let merged = normalizeItems(dedupeAndSort(safe));
   merged = applyHistory(merged, prev, new Date().toISOString());
+  // Unified 0-100 heat: tier base + in-source engagement percentile × freshness.
+  const tiers = Object.fromEntries(adapters.map((a) => [a.id, a.tier]));
+  merged = computeHeat(merged, tiers);
   merged = await addAiNotes(merged); // new items only; no-op without DEEPSEEK_API_KEY
   const { count, path: outPath } = writeSnapshot(merged, sources, errors);
   const arch = updateArchive(merged); // append-only history (monthly shards)
   console.log(`[archive] ${arch.total} items across ${Object.keys(arch.months).length} month(s)`);
   await buildDigest(merged); // "AI 每日必读" — once/day, no-op without DEEPSEEK_API_KEY
 
-  // Weekly insight — compute current week range and generate LLM analysis
-  const now = new Date();
-  const day = now.getDay();
-  const mon = new Date(now);
-  mon.setDate(mon.getDate() - day + (day === 0 ? -6 : 1));
-  mon.setHours(0, 0, 0, 0);
-  const sun = new Date(mon);
-  sun.setDate(sun.getDate() + 6);
-  const startDate = mon.toISOString().slice(0, 10);
-  const endDate = sun.toISOString().slice(0, 10);
+  // Weekly insight — current Beijing-time week (must match the digest's day
+  // boundary; UTC here would mislabel Sunday-night crawls as last week).
+  const { startDate, endDate } = bjWeekRange();
   const insight = await buildWeeklyInsight(merged, startDate, endDate);
   if (insight) {
     fs.writeFileSync(
@@ -128,6 +123,22 @@ async function main() {
   console.log(`[crawl] merged ${res.total} -> ${res.written} unique items`);
   console.log(`[crawl] wrote ${res.path}`);
   console.log(`[crawl] done in ${((Date.now() - t0) / 1000).toFixed(1)}s`);
+
+  // Dead-source alerting: annotate every failed source in the Actions UI and
+  // fail the step when too many are down, so feed rot can't go unnoticed.
+  const sourceErrors = Object.keys(res.errors).filter((k) => k !== "validator");
+  const maxDead = Number(process.env.CRAWL_MAX_DEAD_SOURCES || 5);
+  if (process.env.GITHUB_ACTIONS === "true") {
+    for (const id of sourceErrors) {
+      console.log(`::warning title=Dead source ${id}::${res.errors[id]}`);
+    }
+  }
+  if (sourceErrors.length > maxDead) {
+    console.error(
+      `[crawl] ${sourceErrors.length} source(s) failing (threshold ${maxDead}) — fix or remove dead feeds.`,
+    );
+    process.exitCode = 1;
+  }
   if (res.written === 0) process.exitCode = 1;
 }
 

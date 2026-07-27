@@ -17,7 +17,7 @@ interface HNResponse {
 }
 
 // Front-page-worthy AI stories from Hacker News via the public Algolia API.
-const QUERIES = ["AI", "LLM", "GPT", "OpenAI", "Anthropic", "open source model"];
+const QUERIES = ["AI", "LLM", "GPT", "OpenAI", "Anthropic", "Claude", "Gemini", "DeepSeek", "open source model"];
 const MIN_POINTS = Number(process.env.HN_MIN_POINTS || 40);
 const PER_QUERY = 20;
 
@@ -52,7 +52,7 @@ export const hackernews: SourceAdapter = {
           category: "industry",
           publishedAt: h.created_at,
           tags: ["Hacker News"],
-          heat: Number(h.points ?? 0),
+          engagement: Number(h.points ?? 0),
           aiSelected: true,
           origin: "hackernews",
         });

@@ -71,7 +71,7 @@ function Timeline({ story, limit }: { story: Story; limit?: number }) {
           <div className="pl-12 text-[11px] text-gray-400 flex items-center gap-1">
             <SourceIcon url={it.sourceUrl} source={it.source} size={12} />
             {it.source}
-            {it.heat > 0 && <span className="ml-1 text-amber-600 dark:text-amber-400">♨ {it.heat.toLocaleString()}</span>}
+            {(it.engagement ?? 0) > 0 && <span className="ml-1 text-amber-600 dark:text-amber-400">♨ {it.engagement!.toLocaleString()}</span>}
           </div>
         </li>
       ))}

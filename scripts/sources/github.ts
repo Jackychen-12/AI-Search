@@ -42,14 +42,24 @@ function headers(): Record<string, string> {
 export const github: SourceAdapter = {
   id: "github",
   label: "GitHub Trending (new AI repos)",
-  tier: 1,
+  // Star-ranked community signal, not an editorial source.
+  tier: 2,
   async fetch(): Promise<AIItem[]> {
     const since = sinceDate();
     const out: AIItem[] = [];
+    const failed: string[] = [];
     for (const topic of TOPICS) {
       const q = encodeURIComponent(`topic:${topic} created:>${since}`);
       const url = `https://api.github.com/search/repositories?q=${q}&sort=stars&order=desc&per_page=${PER_TOPIC}`;
-      const data = await getJson<GHSearch>(url, headers());
+      // Search API rate limits are tight without a token — one throttled topic
+      // must not sink the rest.
+      let data: GHSearch;
+      try {
+        data = await getJson<GHSearch>(url, headers());
+      } catch {
+        failed.push(topic);
+        continue;
+      }
       for (const r of data.items || []) {
         out.push({
           id: `gh-${r.full_name.replace(/[^a-zA-Z0-9]+/g, "-").toLowerCase()}`,
@@ -60,11 +70,16 @@ export const github: SourceAdapter = {
           category: "ai-products",
           publishedAt: r.created_at,
           tags: [...(r.topics || []).slice(0, 4), r.language].filter(Boolean) as string[],
-          heat: r.stargazers_count,
+          engagement: r.stargazers_count,
           aiSelected: true,
           origin: "github",
         });
       }
+    }
+    if (failed.length > 0) {
+      console.log(`[github] ${failed.length}/${TOPICS.length} topic(s) failed: ${failed.join(", ")}`);
+      // All topics down usually means auth/rate-limit trouble — surface it.
+      if (out.length === 0) throw new Error(`all ${TOPICS.length} topics failed (rate limit?)`);
     }
     return out;
   },

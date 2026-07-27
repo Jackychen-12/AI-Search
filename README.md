@@ -14,7 +14,7 @@
   <a href="https://github.com/Jackychen-12/AI-Search/actions"><img src="https://github.com/Jackychen-12/AI-Search/actions/workflows/deploy.yml/badge.svg" alt="Build & Deploy" /></a>
   <a href="https://github.com/Jackychen-12/AI-Search/stargazers"><img src="https://img.shields.io/github/stars/Jackychen-12/AI-Search?style=flat&logo=github&color=yellow" alt="Stars" /></a>
   <a href="https://github.com/Jackychen-12/AI-Search/blob/main/LICENSE"><img src="https://img.shields.io/github/license/Jackychen-12/AI-Search" alt="License" /></a>
-  <img src="https://img.shields.io/badge/sources-25+-blue" alt="25+ Sources" />
+  <img src="https://img.shields.io/badge/sources-40+-blue" alt="40+ Sources" />
   <img src="https://img.shields.io/badge/cost-$0-green" alt="Zero Cost" />
 </p>
 
@@ -25,13 +25,13 @@
 
 > "AI 圈一天发太多东西，等我反应过来已经过气了。"
 
-一个**零服务器、零数据库**的 AI 行业资讯聚合站。GitHub Actions 每天自动从 25+ 公开来源抓取最新资讯，AI 生成一句话点评，静态部署到 GitHub Pages——访客不需要登录、不需要 API Key、没有任何成本。
+一个**零服务器、零数据库**的 AI 行业资讯聚合站。GitHub Actions 每天自动从 40+ 公开来源抓取最新资讯，AI 生成一句话点评，静态部署到 GitHub Pages——访客不需要登录、不需要 API Key、没有任何成本。
 
 ### 能做什么
 
 |  | 能力 | 说明 |
 |:---:|------|------|
-| 📰 | **每日自动更新** | 25+ 源并行抓取，智能去重分类，每天自动重建部署 |
+| 📰 | **每日自动更新** | 40+ 源并行抓取，智能去重分类，每天自动重建部署 |
 | 🤖 | **AI 解读** | 每条资讯一句话 AI 点评 + 每日必读精选 + 周报 AI 总结 |
 | 📊 | **6 种视角** | 首页瀑布流 / 日报 / 周报 / 趋势图 / 话题聚合 / 时间线 |
 | 📈 | **交互式趋势** | 纯 SVG 折线图，hover 看数值，分类 / 话题筛选面板 |
@@ -81,15 +81,15 @@ curl .../api/v1/category/ai-models.json # 按分类
 
 编辑 `scripts/sources/rss.ts` 替换 FEEDS 数组 + `lib/categories.ts` 换分类 → `npm run crawl && npm run dev`。5 分钟变成金融 / 医疗 / 芯片资讯站。
 
-### 数据来源（25+）
+### 数据来源（40+）
 
 | 类别 | 来源 |
 |------|------|
-| 模型实验室 | OpenAI · Google AI · DeepMind · HuggingFace · NVIDIA |
-| 学术深度 | arXiv · Lil'Log · Ahead of AI · BAIR · Microsoft Research |
-| 科技媒体 | The Verge · TechCrunch · VentureBeat · MIT Tech Review |
-| 社区 | Hacker News · GitHub Trending · Simon Willison |
-| 中文 | 量子位 · 36氪 · IT之家 · 少数派 · InfoQ |
+| 模型实验室 | OpenAI · Anthropic · Google AI / DeepMind · Meta AI · Mistral · Qwen · NVIDIA · HuggingFace |
+| 学术深度 | arXiv · HF Papers · Google Research · Apple ML · Microsoft Research · BAIR · Lil'Log · Ahead of AI |
+| 科技媒体 | The Verge · TechCrunch · VentureBeat · Ars Technica · MIT Tech Review · Wired · The Decoder · SemiAnalysis |
+| Newsletter / 社区 | AI News（smol.ai，X/Reddit 热议回顾）· TLDR AI · Import AI · Interconnects · Latent Space · Ben's Bites · Hacker News · GitHub Trending · Simon Willison · Ethan Mollick |
+| 中文 | 机器之心 · 量子位 · 新智元 · 极客公园（公众号经 wechat2rss）· 36氪 · IT之家 · 少数派 · InfoQ |
 
 </details>
 
@@ -100,13 +100,13 @@ curl .../api/v1/category/ai-models.json # 按分类
 
 > "AI moves too fast. By the time I catch up, it's already old news."
 
-A **zero-server, zero-database** AI industry news aggregator. GitHub Actions automatically crawls 25+ public sources daily, generates AI commentary, and deploys to GitHub Pages — no login, no API key, zero cost for visitors.
+A **zero-server, zero-database** AI industry news aggregator. GitHub Actions automatically crawls 40+ public sources daily, generates AI commentary, and deploys to GitHub Pages — no login, no API key, zero cost for visitors.
 
 ### Features
 
 |  | Feature | Description |
 |:---:|---------|-------------|
-| 📰 | **Daily Auto-Update** | 25+ sources crawled in parallel, smart dedup & classification |
+| 📰 | **Daily Auto-Update** | 40+ sources crawled in parallel, smart dedup & classification |
 | 🤖 | **AI Commentary** | One-line AI review per article + daily picks + weekly AI summary |
 | 📊 | **6 Views** | Feed / Daily / Weekly / Trends / Topics / Timeline |
 | 📈 | **Interactive Trends** | Pure SVG charts, hover values, category & topic filtering |

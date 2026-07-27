@@ -49,7 +49,7 @@ export default function AboutPage() {
               本站仅聚合各来源的<strong>标题、简短摘要与原文链接</strong>，并清晰标注来源；
               所有内容版权归原作者 / 原媒体所有。点击任意条目可跳转至原文进行阅读与溯源。
               本站不存储、不转载原文全文。若您是版权方、希望调整或移除某来源的展示，
-              请通过 <a className="text-brand-600 hover:underline" href="https://github.com/keyuchen-del/AI-Search/issues" target="_blank" rel="noreferrer">GitHub Issues</a> 联系，我们会及时处理。
+              请通过 <a className="text-brand-600 hover:underline" href="https://github.com/Jackychen-12/AI-Search/issues" target="_blank" rel="noreferrer">GitHub Issues</a> 联系，我们会及时处理。
             </p>
           </div>
 
@@ -96,8 +96,8 @@ export default function AboutPage() {
             <h2 className="text-base font-semibold text-gray-900 dark:text-gray-100 mb-1.5">联系与开源</h2>
             <p>
               项目开源于{" "}
-              <a className="text-brand-600 hover:underline" href="https://github.com/keyuchen-del/AI-Search" target="_blank" rel="noreferrer">
-                github.com/keyuchen-del/AI-Search
+              <a className="text-brand-600 hover:underline" href="https://github.com/Jackychen-12/AI-Search" target="_blank" rel="noreferrer">
+                github.com/Jackychen-12/AI-Search
               </a>
               （MIT 许可）。问题反馈、来源增删、合作均可通过 Issues 提出。另见{" "}
               <Link href="/privacy" className="text-brand-600 hover:underline">隐私政策</Link>。

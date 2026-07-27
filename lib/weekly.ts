@@ -28,13 +28,16 @@ export interface WeeklyReport {
   prevTotalItems?: number;
 }
 
+// Editorial week = Beijing time, matching the crawler's digest/weekly-insight
+// boundaries. Local-midnight + toISOString would shift the label a day back
+// for any build machine east of UTC.
+const BJ_OFFSET_MS = 8 * 3600_000;
+
+/** UTC-midnight Date whose ISO date equals the Beijing-time Monday of `d`'s week. */
 function mondayOf(d: Date): Date {
-  const day = d.getDay();
-  const diff = d.getDate() - day + (day === 0 ? -6 : 1);
-  const mon = new Date(d);
-  mon.setDate(diff);
-  mon.setHours(0, 0, 0, 0);
-  return mon;
+  const bj = new Date(d.getTime() + BJ_OFFSET_MS); // UTC fields == BJ wall clock
+  const day = bj.getUTCDay();
+  return new Date(Date.UTC(bj.getUTCFullYear(), bj.getUTCMonth(), bj.getUTCDate() - day + (day === 0 ? -6 : 1)));
 }
 
 function generateSectionSummary(items: AIItem[], label: string): string {
@@ -49,10 +52,9 @@ export function buildWeeklyReport(items: AIItem[], weekOffset = 0): WeeklyReport
   const now = new Date();
   const thisMonday = mondayOf(now);
   const targetMonday = new Date(thisMonday);
-  targetMonday.setDate(targetMonday.getDate() - weekOffset * 7);
+  targetMonday.setUTCDate(targetMonday.getUTCDate() - weekOffset * 7);
   const targetSunday = new Date(targetMonday);
-  targetSunday.setDate(targetSunday.getDate() + 6);
-  targetSunday.setHours(23, 59, 59, 999);
+  targetSunday.setUTCDate(targetSunday.getUTCDate() + 6);
 
   const startStr = targetMonday.toISOString().slice(0, 10);
   const endStr = targetSunday.toISOString().slice(0, 10);
@@ -95,7 +97,7 @@ export function buildWeeklyReport(items: AIItem[], weekOffset = 0): WeeklyReport
 
   // Daily breakdown
   const dayMap = new Map<string, number>();
-  for (let d = new Date(targetMonday); d <= targetSunday; d.setDate(d.getDate() + 1)) {
+  for (let d = new Date(targetMonday); d <= targetSunday; d.setUTCDate(d.getUTCDate() + 1)) {
     dayMap.set(d.toISOString().slice(0, 10), 0);
   }
   for (const i of weekItems) {

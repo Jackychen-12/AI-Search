@@ -114,7 +114,7 @@ function HomeLayout({
             <Link href="/about" className="hover:text-brand-600">{t("footer.about")}</Link>
             <Link href="/privacy" className="hover:text-brand-600">{t("footer.privacy")}</Link>
             <a
-              href="https://github.com/keyuchen-del/AI-Search"
+              href="https://github.com/Jackychen-12/AI-Search"
               target="_blank"
               rel="noreferrer"
               className="hover:text-brand-600"
@@ -125,12 +125,12 @@ function HomeLayout({
         </div>
         <div className="max-w-7xl mx-auto px-4 pb-5 text-center text-[11px] text-gray-400 dark:text-gray-500">
           <a
-            href="https://github.com/keyuchen-del"
+            href="https://github.com/Jackychen-12"
             target="_blank"
             rel="noreferrer"
             className="hover:text-brand-600 transition"
           >
-            Follow me on GitHub @keyuchen-del for all project updates
+            Follow me on GitHub @Jackychen-12 for all project updates
           </a>
         </div>
       </footer>

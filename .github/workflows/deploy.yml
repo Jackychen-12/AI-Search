@@ -4,6 +4,10 @@ name: Build & Deploy to GitHub Pages
 # Runs on every push to main, daily on a schedule, and on manual dispatch — so the
 # public site at https://aisearches.cc/ always serves real data
 # with zero servers to run.
+#
+# Two jobs with least privilege each:
+#   crawl — touches third-party feed content; the ONLY job with contents:write.
+#   deploy — builds and publishes; read-only checkout + pages permissions.
 on:
   push:
     branches: [main]
@@ -11,22 +15,16 @@ on:
     - cron: "17 22 * * *" # daily ~22:17 UTC (off-peak minute)
   workflow_dispatch: {}
 
-permissions:
-  contents: write # commit the refreshed snapshot back to the repo
-  pages: write # publish to GitHub Pages
-  id-token: write # OIDC token required by deploy-pages
-
 # Never run two Pages deploys at once; let an in-flight one finish.
 concurrency:
   group: pages
   cancel-in-progress: false
 
 jobs:
-  build-deploy:
+  crawl:
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deploy.outputs.page_url }}
+    permissions:
+      contents: write # commit the refreshed snapshot back to the repo
     steps:
       - uses: actions/checkout@v6
 
@@ -58,6 +56,39 @@ jobs:
             git commit -m "chore(data): refresh crawled snapshot [skip ci]"
             git push || echo "snapshot push skipped"
           fi
+
+      - name: Upload snapshot for the deploy job
+        uses: actions/upload-artifact@v4
+        with:
+          name: data-snapshot
+          path: data/
+          retention-days: 1
+
+  deploy:
+    needs: crawl
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: write # publish to GitHub Pages
+      id-token: write # OIDC token required by deploy-pages
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v6
+
+      - uses: actions/setup-node@v6
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      - name: Use the freshly crawled snapshot
+        uses: actions/download-artifact@v4
+        with:
+          name: data-snapshot
+          path: data/
 
       - name: Configure Pages
         uses: actions/configure-pages@v6

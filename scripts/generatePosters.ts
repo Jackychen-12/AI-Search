@@ -267,7 +267,7 @@ function storyShareSvg(story: Story, generatedAt: string): string {
   ${idx < items.length - 1 ? `<line x1="${SH_PAD + 10}" y1="${y + 4}" x2="${SH_PAD + 10}" y2="${y + rowH - 6}" stroke="#dbe4f5" stroke-width="2"/>` : ""}
   <text x="${SH_PAD + 36}" y="${y}" font-family="${FONTS}" font-size="24" fill="#6b7280">${esc(it.time.slice(5, 10))}</text>
   ${titleLines.map((l, i) => `<text x="${SH_PAD + 130}" y="${y + i * 40}" font-family="${FONTS}" font-size="28" fill="#374151">${esc(l)}</text>`).join("\n")}
-  <text x="${SH_PAD + 130}" y="${y + titleLines.length * 40}" font-family="${FONTS}" font-size="22" fill="#9ca3af">${esc(it.source)}${it.heat > 0 ? ` · ♨ ${it.heat.toLocaleString()}` : ""}</text>`,
+  <text x="${SH_PAD + 130}" y="${y + titleLines.length * 40}" font-family="${FONTS}" font-size="22" fill="#9ca3af">${esc(it.source)}${(it.engagement ?? 0) > 0 ? ` · ♨ ${it.engagement!.toLocaleString()}` : ""}</text>`,
     });
     blocks.push(gap(14));
   });

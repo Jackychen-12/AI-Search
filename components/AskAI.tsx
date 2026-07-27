@@ -1,10 +1,51 @@
 "use client";
 
-import { useState, useRef } from "react";
+import { useRef, useState } from "react";
+import React from "react";
 import type { AIItem } from "@/lib/types";
 
 const PROXY_URL = process.env.NEXT_PUBLIC_ASK_AI_URL ?? "";
 const MODEL = "deepseek-chat";
+
+// ---- minimal markdown -> React (no deps, no raw HTML) ----------------------
+
+function inlineMd(text: string, keyPrefix: string): React.ReactNode[] {
+  // **bold**, `code`, [label](https://url)
+  const out: React.ReactNode[] = [];
+  const re = /(\*\*([^*]+)\*\*)|(`([^`]+)`)|(\[([^\]]+)\]\((https?:\/\/[^\s)]+)\))/g;
+  let last = 0;
+  let m: RegExpExecArray | null;
+  let i = 0;
+  while ((m = re.exec(text)) !== null) {
+    if (m.index > last) out.push(text.slice(last, m.index));
+    if (m[2]) out.push(<strong key={`${keyPrefix}-b${i}`}>{m[2]}</strong>);
+    else if (m[4]) out.push(<code key={`${keyPrefix}-c${i}`} className="px-1 py-0.5 rounded bg-gray-100 dark:bg-gray-800 text-[0.9em]">{m[4]}</code>);
+    else if (m[6]) out.push(<a key={`${keyPrefix}-a${i}`} href={m[7]} target="_blank" rel="noreferrer" className="text-brand-600 hover:underline">{m[6]}</a>);
+    last = m.index + m[0].length;
+    i++;
+  }
+  if (last < text.length) out.push(text.slice(last));
+  return out;
+}
+
+/** Render the streaming answer: headings, bullet/numbered lists, paragraphs. */
+function Markdown({ text }: { text: string }) {
+  const lines = text.split("\n");
+  return (
+    <>
+      {lines.map((line, i) => {
+        const h = line.match(/^(#{1,4})\s+(.*)/);
+        if (h) return <p key={i} className="font-semibold mt-2 mb-1">{inlineMd(h[2], `l${i}`)}</p>;
+        const li = line.match(/^\s*[-*•]\s+(.*)/);
+        if (li) return <p key={i} className="pl-4 relative before:content-['·'] before:absolute before:left-1 before:font-bold">{inlineMd(li[1], `l${i}`)}</p>;
+        const ol = line.match(/^\s*(\d+)[.、]\s+(.*)/);
+        if (ol) return <p key={i} className="pl-4">{ol[1]}. {inlineMd(ol[2], `l${i}`)}</p>;
+        if (!line.trim()) return <div key={i} className="h-2" />;
+        return <p key={i}>{inlineMd(line, `l${i}`)}</p>;
+      })}
+    </>
+  );
+}
 
 function searchItems(items: AIItem[], query: string, limit = 15): AIItem[] {
   const q = query.toLowerCase();
@@ -22,7 +63,7 @@ function searchItems(items: AIItem[], query: string, limit = 15): AIItem[] {
         if (note.includes(word)) score += 2;
         if (item.source.toLowerCase().includes(word)) score += 3;
       }
-      if (item.heat) score += Math.min(item.heat / 500, 3);
+      if (item.heat) score += Math.min(item.heat / 40, 3); // heat is 0-100
       return { item, score };
     })
     .filter((s) => s.score > 0)
@@ -51,13 +92,22 @@ export default function AskAI({ items }: { items: AIItem[] }) {
   const [answer, setAnswer] = useState("");
   const [loading, setLoading] = useState(false);
   const answerRef = useRef<HTMLDivElement>(null);
+  const abortRef = useRef<AbortController | null>(null);
 
   if (!PROXY_URL) return null;
+
+  function stop() {
+    abortRef.current?.abort();
+    abortRef.current = null;
+    setLoading(false);
+  }
 
   async function ask() {
     if (!question.trim() || loading) return;
     setLoading(true);
     setAnswer("");
+    const ctrl = new AbortController();
+    abortRef.current = ctrl;
 
     const relevant = searchItems(items, question);
     const context = buildContext(relevant);
@@ -76,6 +126,7 @@ ${context}`;
     try {
       const res = await fetch(`${PROXY_URL}/v1/chat/completions`, {
         method: "POST",
+        signal: ctrl.signal,
         headers: {
           "Content-Type": "application/json",
         },
@@ -119,8 +170,11 @@ ${context}`;
         }
       }
     } catch (e) {
-      setAnswer(`网络错误：${e instanceof Error ? e.message : String(e)}`);
+      if (!(e instanceof DOMException && e.name === "AbortError")) {
+        setAnswer(`网络错误：${e instanceof Error ? e.message : String(e)}`);
+      }
     }
+    abortRef.current = null;
     setLoading(false);
   }
 
@@ -174,8 +228,8 @@ ${context}`;
           </div>
         )}
         {(answer || loading) && (
-          <div className="text-sm text-gray-700 dark:text-gray-200 leading-relaxed whitespace-pre-wrap">
-            {answer}
+          <div className="text-sm text-gray-700 dark:text-gray-200 leading-relaxed space-y-0.5">
+            <Markdown text={answer} />
             {loading && <span className="inline-block w-1.5 h-4 bg-brand-500 animate-pulse ml-0.5 align-middle rounded-sm" />}
           </div>
         )}
@@ -194,15 +248,28 @@ ${context}`;
             disabled={loading}
             className="flex-1 min-w-0 px-3 py-2 text-sm rounded-xl border border-gray-200 dark:border-gray-600 bg-gray-50 dark:bg-gray-800 dark:text-gray-100 focus:outline-none focus:ring-2 focus:ring-brand-500/40 disabled:opacity-50"
           />
-          <button
-            type="submit"
-            disabled={loading || !question.trim()}
-            className="shrink-0 w-9 h-9 rounded-xl bg-brand-500 text-white grid place-items-center hover:bg-brand-600 transition disabled:opacity-40"
-          >
-            <svg className="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-              <path d="M5 12h14M12 5l7 7-7 7" />
-            </svg>
-          </button>
+          {loading ? (
+            <button
+              type="button"
+              onClick={stop}
+              title="停止生成"
+              className="shrink-0 w-9 h-9 rounded-xl bg-gray-200 dark:bg-gray-700 text-gray-600 dark:text-gray-200 grid place-items-center hover:bg-gray-300 dark:hover:bg-gray-600 transition"
+            >
+              <svg className="w-3.5 h-3.5" viewBox="0 0 24 24" fill="currentColor">
+                <rect x="6" y="6" width="12" height="12" rx="2" />
+              </svg>
+            </button>
+          ) : (
+            <button
+              type="submit"
+              disabled={!question.trim()}
+              className="shrink-0 w-9 h-9 rounded-xl bg-brand-500 text-white grid place-items-center hover:bg-brand-600 transition disabled:opacity-40"
+            >
+              <svg className="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                <path d="M5 12h14M12 5l7 7-7 7" />
+              </svg>
+            </button>
+          )}
         </form>
       </div>
     </div>

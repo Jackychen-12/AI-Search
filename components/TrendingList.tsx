@@ -56,16 +56,18 @@ export default function TrendingList({
                 </span>
                 <div className="text-[11px] text-gray-500 dark:text-gray-400 mt-0.5 flex items-center gap-1.5 truncate">
                   <span className="truncate">{item.source}</span>
-                  {typeof item.heat === "number" && item.heat > 0 && (
+                  {(item.engagement ?? 0) > 0 ? (
                     <span className="text-amber-600 dark:text-amber-400 font-medium shrink-0">
                       ·{" "}
                       {item.origin === "github"
-                        ? `★ ${item.heat.toLocaleString()}`
+                        ? `★ ${item.engagement!.toLocaleString()}`
                         : item.origin === "hackernews"
-                          ? `HN ${item.heat.toLocaleString()} 赞`
-                          : item.heat.toLocaleString()}
+                          ? `HN ${item.engagement!.toLocaleString()} 赞`
+                          : item.engagement!.toLocaleString()}
                     </span>
-                  )}
+                  ) : typeof item.heat === "number" && item.heat > 0 ? (
+                    <span className="text-amber-600 dark:text-amber-400 font-medium shrink-0">· 🔥 {item.heat}</span>
+                  ) : null}
                 </div>
                 {trendReason(item) && (
                   <p className="text-[11px] text-gray-400 dark:text-gray-500 mt-0.5 leading-snug line-clamp-2">

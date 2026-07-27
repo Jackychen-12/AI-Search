@@ -109,6 +109,8 @@ const dict: Record<string, Record<Locale, string>> = {
   "weekly.topSummary": { zh: "本周重点", en: "Highlights" },
   "weekly.top10.empty": { zh: "本周暂无数据", en: "No data this week" },
   "weekly.heat": { zh: "热度", en: "Heat" },
+  "update.available": { zh: "有新内容 · 点击刷新", en: "New content · Refresh" },
+  "card.official": { zh: "一手源", en: "Official" },
   "weekly.sections": { zh: "分类概览", en: "By Category" },
   "weekly.viewDaily": { zh: "查看日报", en: "View Daily" },
   "weekly.rss": { zh: "RSS 订阅", en: "RSS Feed" },

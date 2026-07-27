@@ -8,7 +8,7 @@ import { cleanText } from "@/lib/text";
 import SourceIcon from "./SourceIcon";
 import { useLocale } from "./LocaleProvider";
 
-const NEW_WINDOW_MS = 48 * 60 * 60 * 1000;
+const NEW_WINDOW_MS = 24 * 60 * 60 * 1000; // one crawl cycle — keeps NEW meaningful
 
 export default function ItemCard({
   item,
@@ -36,17 +36,20 @@ export default function ItemCard({
   return (
     <article className={"card p-4 flex flex-col gap-3" + (read ? " opacity-60" : "")}>
       {item.image && (
-        <img
-          src={item.image}
-          alt=""
-          loading="lazy"
-          decoding="async"
-          referrerPolicy="no-referrer"
-          onError={(e) => {
-            e.currentTarget.style.display = "none";
-          }}
-          className="w-full h-40 object-cover rounded-lg bg-gray-100 dark:bg-gray-700"
-        />
+        <div className="w-full h-40 rounded-lg overflow-hidden bg-gray-100 dark:bg-gray-700">
+          {/* Fixed-height wrapper: a broken image keeps the box, no layout jump. */}
+          <img
+            src={item.image}
+            alt=""
+            loading="lazy"
+            decoding="async"
+            referrerPolicy="no-referrer"
+            onError={(e) => {
+              e.currentTarget.style.visibility = "hidden";
+            }}
+            className="w-full h-full object-cover"
+          />
+        </div>
       )}
       <div className="flex items-center justify-between text-xs gap-2">
         <div className="flex items-center gap-1.5 min-w-0">
@@ -56,6 +59,11 @@ export default function ItemCard({
             </span>
           ) : (
             <span className="px-2 py-0.5 rounded-md bg-gray-100 dark:bg-gray-700 text-gray-500 dark:text-gray-400 shrink-0">{t("card.uncategorized")}</span>
+          )}
+          {item.tier === 1 && (
+            <span className="px-1.5 py-0.5 rounded bg-emerald-50 dark:bg-emerald-500/15 text-emerald-600 dark:text-emerald-400 font-medium shrink-0" title="官方/一手信源">
+              {t("card.official")}
+            </span>
           )}
           {isNew && (
             <span className="px-1.5 py-0.5 rounded bg-red-500 text-white font-medium shrink-0">NEW</span>

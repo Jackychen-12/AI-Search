@@ -69,7 +69,7 @@ function buildLocalDaily(
   windowStart: string,
   windowEnd: string,
 ): DailyReport {
-  // 重点优先：热度高的（GitHub stars / HN points）在前，其次按收录/发布新近度。
+  // 重点优先：统一热度分（tier + 互动百分位 + 时效）高的在前，其次按收录/发布新近度。
   const byImportance = (a: AIItem, b: AIItem) =>
     (b.heat ?? 0) - (a.heat ?? 0) ||
     (b.publishedAt ?? b.firstSeen ?? "").localeCompare(a.publishedAt ?? a.firstSeen ?? "");

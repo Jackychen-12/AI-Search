@@ -25,6 +25,8 @@ export interface StoryItem {
   sourceUrl: string;
   time: string; // publishedAt ?? firstSeen ?? fetchedAt
   heat: number;
+  /** Raw engagement count (stars / points / upvotes) for display. */
+  engagement?: number;
   aiNote?: string | null;
 }
 
@@ -237,6 +239,7 @@ export function buildStories(pool: AIItem[], now?: number): Story[] {
         sourceUrl: n.item.sourceUrl,
         time: n.iso,
         heat: n.item.heat ?? 0,
+        engagement: n.item.engagement,
         aiNote: n.item.aiNote ?? null,
       })),
     });

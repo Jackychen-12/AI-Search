@@ -1,6 +1,8 @@
 import fs from "node:fs";
 import { DIGEST_PATH } from "../../lib/config";
 import type { AIItem, Digest, DigestPick } from "../../lib/types";
+import { extractJsonArray, stripRefMarks } from "./llmClean";
+import { bjDate } from "./time";
 
 // "AI 每日必读": once per day, ask DeepSeek to pick a few must-reads from the
 // day's pool + a one-line reason. Cached by date (no repeat cost on same-day
@@ -12,15 +14,6 @@ const MODEL = process.env.LLM_MODEL || "deepseek-chat";
 const PICK = Number(process.env.DIGEST_PICKS || 5);
 const POOL = 18;
 const WINDOW_MS = 72 * 60 * 60 * 1000;
-
-function pad(n: number) {
-  return String(n).padStart(2, "0");
-}
-function bjDate(d = new Date()): string {
-  const utc = d.getTime() + d.getTimezoneOffset() * 60000;
-  const bj = new Date(utc + 8 * 3600000);
-  return `${bj.getFullYear()}-${pad(bj.getMonth() + 1)}-${pad(bj.getDate())}`;
-}
 
 function readPrev(): Digest | null {
   try {
@@ -76,12 +69,14 @@ async function pickWithLLM(pool: AIItem[]): Promise<DigestPick[]> {
     });
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const data = (await res.json()) as { choices?: { message?: { content?: string } }[] };
-    const raw = (data.choices?.[0]?.message?.content ?? "").replace(/```json|```/g, "").trim();
-    const arr = JSON.parse(raw) as { n: number; reason: string }[];
+    const raw = data.choices?.[0]?.message?.content ?? "";
+    // Models wrap JSON in fences/prose at will — extract defensively.
+    const arr = extractJsonArray<{ n: number; reason: string }>(raw) ?? [];
     const picks: DigestPick[] = [];
     for (const { n, reason } of arr) {
       const it = pool[n - 1];
-      if (it && reason) picks.push({ title: it.title, sourceUrl: it.sourceUrl, source: it.source, reason: String(reason).slice(0, 40) });
+      const cleaned = stripRefMarks(String(reason ?? ""));
+      if (it && cleaned) picks.push({ title: it.title, sourceUrl: it.sourceUrl, source: it.source, reason: cleaned.slice(0, 40) });
     }
     return picks.slice(0, PICK);
   } finally {
@@ -117,7 +112,7 @@ async function summarizeTrend(items: AIItem[]): Promise<string> {
     });
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const data = (await res.json()) as { choices?: { message?: { content?: string } }[] };
-    return (data.choices?.[0]?.message?.content ?? "").replace(/\s+/g, " ").trim().slice(0, 100);
+    return stripRefMarks((data.choices?.[0]?.message?.content ?? "").replace(/\s+/g, " ").trim()).slice(0, 100);
   } catch {
     return "";
   } finally {
@@ -206,7 +201,9 @@ export async function buildWeeklyInsight(items: AIItem[], startDate: string, end
     });
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const data = (await res.json()) as { choices?: { message?: { content?: string } }[] };
-    const text = (data.choices?.[0]?.message?.content ?? "").trim();
+    // Prompt bans #编号 references, but enforce it in code too — readers never
+    // see the numbered listing, so leftover (#3、#7) marks read as garbage.
+    const text = stripRefMarks((data.choices?.[0]?.message?.content ?? "").trim());
     console.log(`[weekly-insight] generated ${text.length} chars for ${startDate} ~ ${endDate}.`);
     return text;
   } catch (e) {

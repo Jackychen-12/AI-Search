@@ -306,11 +306,13 @@ export default function WeeklyView({
                           {catLabel}
                         </span>
                         <span className="text-[11px] text-gray-500 dark:text-gray-400">{item.source}</span>
-                        {typeof item.heat === "number" && item.heat > 0 && (
+                        {(item.engagement ?? 0) > 0 ? (
                           <span className="text-[11px] font-medium text-amber-600 dark:text-amber-400">
-                            {item.origin === "github" ? `★ ${item.heat.toLocaleString()}` : `${t("weekly.heat")} ${item.heat.toLocaleString()}`}
+                            {item.origin === "github" ? `★ ${item.engagement!.toLocaleString()}` : `${t("weekly.heat")} ${item.engagement!.toLocaleString()}`}
                           </span>
-                        )}
+                        ) : typeof item.heat === "number" && item.heat > 0 ? (
+                          <span className="text-[11px] font-medium text-amber-600 dark:text-amber-400">{t("weekly.heat")} {item.heat}</span>
+                        ) : null}
                       </div>
                       {(item.aiNote || item.summary) && (
                         <p className="text-[12px] text-gray-600 dark:text-gray-400 mt-2 leading-relaxed">

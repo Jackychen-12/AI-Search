@@ -2442,10 +2442,11 @@
     "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/IOQuiz2026_social.max-600x600.format-webp.webp",
     "aiSelected": true,
     "origin": "rss:google-ai",
-    "heat": 0,
+    "heat": 30,
     "firstSeen": "2026-06-01T04:55:40.586Z",
     "aiNote": "用AI工具制作AI大会的互动测验，展示AI辅助创作与趣味传播的融合可能。",
-    "fetchedAt": null
+    "fetchedAt": null,
+    "tier": 1
   },
   {
     "id": "rss:techcrunch-ai-b59d5931a7",
@@ -2569,10 +2570,11 @@
     "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gemini_Omni_and_Gemini_3.5_hero.max-600x600.format-webp.webp",
     "aiSelected": true,
     "origin": "rss:google-ai",
-    "heat": 0,
+    "heat": 30,
     "firstSeen": "2026-06-01T04:55:40.586Z",
     "aiNote": "九段视频直观展示谷歌新一代AI模型能力，技术演进路线清晰可见。",
-    "fetchedAt": null
+    "fetchedAt": null,
+    "tier": 1
   },
   {
     "id": "rss:techcrunch-ai-dd03918bf5",
@@ -2801,10 +2803,11 @@
     "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/FutureLabs_social.max-600x600.format-webp.webp",
     "aiSelected": true,
     "origin": "rss:google-ai",
-    "heat": 0,
+    "heat": 30,
     "firstSeen": "2026-06-01T04:55:40.586Z",
     "aiNote": "滑铁卢大学学生开发手语教学等AI原型，展现教育和工作变革的前沿实践。",
-    "fetchedAt": null
+    "fetchedAt": null,
+    "tier": 1
   },
   {
     "id": "rss:techcrunch-ai-b87402dcad",
@@ -3420,10 +3423,11 @@
     "image": "https://www.microsoft.com/en-us/research/wp-content/uploads/2026/05/DataFormulator-BlogHeroFeature-1400x788-1-scaled.jpg",
     "aiSelected": true,
     "origin": "rss:msr",
-    "heat": 0,
+    "heat": 30,
     "firstSeen": "2026-06-01T04:55:40.586Z",
     "aiNote": "用自然语言驱动企业数据分析，实现了数据工作流的智能化和高效化。",
-    "fetchedAt": null
+    "fetchedAt": null,
+    "tier": 1
   },
   {
     "id": "rss:infoq-41c7fdd1f3",
@@ -3468,10 +3472,11 @@
     "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/KW_KNH.max-600x600.format-webp.webp",
     "aiSelected": true,
     "origin": "rss:google-ai",
-    "heat": 0,
+    "heat": 30,
     "firstSeen": "2026-06-01T04:55:40.586Z",
     "aiNote": "盘点谷歌I/O 2026最重磅发布，Gemini Omni与3.5 Flash成焦点。",
-    "fetchedAt": null
+    "fetchedAt": null,
+    "tier": 1
   },
   {
     "id": "hn-a7c226300f",
@@ -4055,10 +4060,11 @@
     "image": "https://www.microsoft.com/en-us/research/wp-content/uploads/2026/05/ExtendingHIthroughAI-BlogHeroFeature-1400x788-1-scaled.jpg",
     "aiSelected": true,
     "origin": "rss:msr",
-    "heat": 0,
+    "heat": 30,
     "firstSeen": "2026-06-01T04:55:40.586Z",
     "aiNote": "AI不是替代而是延伸，这一视角为构建可信系统提供了务实方向。",
-    "fetchedAt": null
+    "fetchedAt": null,
+    "tier": 1
   },
   {
     "id": "hn-d331120ce1",
@@ -5135,10 +5141,11 @@
     "image": null,
     "aiSelected": true,
     "origin": "rss:deepmind",
-    "heat": 0,
+    "heat": 30,
     "firstSeen": "2026-06-01T04:55:40.586Z",
     "aiNote": "聚焦亚太环境挑战，用AI加速生态创新，展现科技巨头气候行动新布局。",
-    "fetchedAt": null
+    "fetchedAt": null,
+    "tier": 1
   },
   {
     "id": "rss:techreview-ai-c69e9ad058",
@@ -5755,10 +5762,11 @@
     "image": "https://images.ctfassets.net/jdtwqhzvc2n1/1TD0Sl7Zq6nnBSZMK9FXpl/41ce2cc6da055da7647670c71ba8aa6b/Nuneybits_Vector_art_of_an_oversized_white_search_bar_rimmed_in_695cac3f-1536-4438-acc1-51c16e2ff51f.webp?w=300&q=30",
     "aiSelected": true,
     "origin": "rss:venturebeat-ai",
-    "heat": 0,
+    "heat": 22,
     "firstSeen": "2026-06-01T04:55:40.586Z",
     "aiNote": "搜索框25年首次改版，预示谷歌AI搜索战略从界面到交互的根本变革。",
-    "fetchedAt": null
+    "fetchedAt": null,
+    "tier": 2
   },
   {
     "id": "hn-fbe0c03f3e",
@@ -5894,10 +5902,11 @@
     "image": "https://lh3.googleusercontent.com/Xyt_1kwd_q4W4dKV0YND9MzHJF0UOGAYyZjfKEVQK0LoE2HC7i29ZnIG32Sd8RR1qj5iXEzbexg20aePXF5vLjYUB5vO_zdoqAZhKrSV4VVyce5VT1s=w528-h297-n-nu-rw-lo",
     "aiSelected": true,
     "origin": "rss:deepmind",
-    "heat": 0,
+    "heat": 30,
     "firstSeen": "2026-06-01T04:55:40.586Z",
     "aiNote": "AI辅助发现逆转衰老新因子，展现跨学科加速科研突破的潜力。",
-    "fetchedAt": null
+    "fetchedAt": null,
+    "tier": 1
   },
   {
     "id": "hn-dc5c872ccb",
@@ -6012,10 +6021,11 @@
     "image": null,
     "aiSelected": true,
     "origin": "rss:deepmind",
-    "heat": 0,
+    "heat": 30,
     "firstSeen": "2026-06-01T04:55:40.586Z",
     "aiNote": "谷歌结合街景打造真实场景模拟，拓展AI订阅服务，让虚拟世界更贴近现实。",
-    "fetchedAt": null
+    "fetchedAt": null,
+    "tier": 1
   },
   {
     "id": "rss:deepmind-6ff85c3103",
@@ -6028,10 +6038,11 @@
     "image": null,
     "aiSelected": true,
     "origin": "rss:deepmind",
-    "heat": 0,
+    "heat": 30,
     "firstSeen": "2026-06-01T04:55:40.586Z",
     "aiNote": "谷歌发布全能AI模型，整合多模态能力，或重新定义人机交互。",
-    "fetchedAt": null
+    "fetchedAt": null,
+    "tier": 1
   },
   {
     "id": "rss:deepmind-c24549cf81",
@@ -6178,10 +6189,11 @@
     "image": "https://substack-post-media.s3.amazonaws.com/public/images/2b841d26-5b2d-4be9-9710-d89d4f023f0c_1600x900.png",
     "aiSelected": true,
     "origin": "rss:raschka",
-    "heat": 0,
+    "heat": 22,
     "firstSeen": "2026-06-01T04:55:40.586Z",
     "aiNote": "开源模型通过键值共享与压缩注意力等创新，大幅降低长文本推理成本，推动大模型实用化。",
-    "fetchedAt": null
+    "fetchedAt": null,
+    "tier": 2
   },
   {
     "id": "rss:deepmind-143dff8f75",
@@ -7300,10 +7312,11 @@
     "image": "https://bair.berkeley.edu/static/blog/adaptive-parallel-reasoning/cover.png",
     "aiSelected": true,
     "origin": "rss:bair",
-    "heat": 0,
+    "heat": 30,
     "firstSeen": "2026-06-01T04:55:40.586Z",
     "aiNote": "自适应并行推理突破效率瓶颈，让模型自主决策任务分解与并行度，是推理扩展的关键进展。",
-    "fetchedAt": null
+    "fetchedAt": null,
+    "tier": 1
   },
   {
     "id": "gh-haydenbleasel-files-sdk",
@@ -8271,10 +8284,11 @@
     "image": "https://bair.berkeley.edu/static/blog/grasp/ballnav_demo.gif",
     "aiSelected": true,
     "origin": "rss:bair",
-    "heat": 0,
+    "heat": 30,
     "firstSeen": "2026-06-01T04:55:40.586Z",
     "aiNote": "突破长时域规划瓶颈，让世界模型在复杂任务中实用化，是AI决策能力的关键跃升。",
-    "fetchedAt": null
+    "fetchedAt": null,
+    "tier": 1
   },
   {
     "id": "rss:raschka-08d82b53d7",
@@ -8287,10 +8301,11 @@
     "image": "https://substack-post-media.s3.amazonaws.com/public/images/43071df5-b297-42f2-b875-36915f5e33a2_1826x1020.png",
     "aiSelected": true,
     "origin": "rss:raschka",
-    "heat": 0,
+    "heat": 22,
     "firstSeen": "2026-06-01T04:55:40.586Z",
     "aiNote": "聚焦拆解开源模型架构，提供可复用的学习方法论，助你快速掌握最新技术。",
-    "fetchedAt": null
+    "fetchedAt": null,
+    "tier": 2
   },
   {
     "id": "rss:mit-news-ai-ed5068156a",
@@ -8333,10 +8348,11 @@
     "image": "https://substack-post-media.s3.amazonaws.com/public/images/49b97718-57f4-4977-99c8-8ad5c4d32af3_1548x862.png",
     "aiSelected": true,
     "origin": "rss:raschka",
-    "heat": 0,
+    "heat": 22,
     "firstSeen": "2026-06-01T04:55:40.586Z",
     "aiNote": "拆解编码代理三大核心模块，为LLM落地提供实用框架。",
-    "fetchedAt": null
+    "fetchedAt": null,
+    "tier": 2
   },
   {
     "id": "rss:raschka-1ea34ba049",
@@ -8349,10 +8365,11 @@
     "image": "https://substack-post-media.s3.amazonaws.com/public/images/51d52b9a-e820-45d6-8135-f94496ec1745_1600x900.png",
     "aiSelected": true,
     "origin": "rss:raschka",
-    "heat": 0,
+    "heat": 22,
     "firstSeen": "2026-06-01T04:55:40.586Z",
     "aiNote": "图解注意力机制变体，帮你直观理解现代大模型的核心技术演进。",
-    "fetchedAt": null
+    "fetchedAt": null,
+    "tier": 2
   },
   {
     "id": "rss:bair-b5a755e51d",
@@ -8365,10 +8382,11 @@
     "image": "https://bair.berkeley.edu/static/blog/spex/image1.png",
     "aiSelected": true,
     "origin": "rss:bair",
-    "heat": 0,
+    "heat": 30,
     "firstSeen": "2026-06-01T04:55:40.586Z",
     "aiNote": "大规模理解LLM行为机制，是提升AI安全与可控性的关键一步。",
-    "fetchedAt": null
+    "fetchedAt": null,
+    "tier": 1
   },
   {
     "id": "rss:raschka-088abfef82",
@@ -8381,10 +8399,11 @@
     "image": "https://substack-post-media.s3.amazonaws.com/public/images/380ad0cc-566e-4e54-8862-00e2de6f269b_2670x1398.png",
     "aiSelected": true,
     "origin": "rss:raschka",
-    "heat": 0,
+    "heat": 22,
     "firstSeen": "2026-06-01T04:55:40.586Z",
     "aiNote": "开源大模型百花齐放，十款新架构集中发布，预示行业进入创新爆发期。",
-    "fetchedAt": null
+    "fetchedAt": null,
+    "tier": 2
   },
   {
     "id": "rss:thegradient-ca45479e5c",
@@ -8397,10 +8416,11 @@
     "image": "https://thegradient.pub/content/images/2026/02/ramelli-featured.jpg",
     "aiSelected": true,
     "origin": "rss:thegradient",
-    "heat": 0,
+    "heat": 22,
     "firstSeen": "2026-06-01T04:55:40.586Z",
     "aiNote": "挑战AI对齐主流范式，从美德伦理视角反思理性与目标的关系，为设计更安全的人工智能提供全新哲学路径。",
-    "fetchedAt": null
+    "fetchedAt": null,
+    "tier": 2
   },
   {
     "id": "rss:raschka-4c3da264aa",
@@ -8413,10 +8433,11 @@
     "image": "https://substack-post-media.s3.amazonaws.com/public/images/1f97789d-b769-45fe-b884-ba0f7941da9e_1846x1230.png",
     "aiSelected": true,
     "origin": "rss:raschka",
-    "heat": 0,
+    "heat": 22,
     "firstSeen": "2026-06-01T04:55:40.586Z",
     "aiNote": "推理时扩展技术突破，让大模型在复杂逻辑任务中表现更优，是提升AI实用性的关键。",
-    "fetchedAt": null
+    "fetchedAt": null,
+    "tier": 2
   },
   {
     "id": "rss:venturebeat-ai-153f306640",
@@ -8429,10 +8450,11 @@
     "image": "https://images.ctfassets.net/jdtwqhzvc2n1/5RLyQIpBeVXxv0RpcXZxWQ/fd9680c6d82acd8208ac341fc575f5fb/nuneybits_Vector_art_of_a_sleek_bullet_train_bursting_from_a_cl_32a805aa-272c-4b34-ac16-cf20508b7ff4.webp?w=300&q=30",
     "aiSelected": true,
     "origin": "rss:venturebeat-ai",
-    "heat": 0,
+    "heat": 22,
     "firstSeen": "2026-06-01T04:55:40.586Z",
     "aiNote": "融资1亿美元，专注AI原生云，2万开发者零营销增长，挑战AWS格局。",
-    "fetchedAt": null
+    "fetchedAt": null,
+    "tier": 2
   },
   {
     "id": "rss:venturebeat-ai-7f96b809b5",
@@ -8505,10 +8527,11 @@
     "image": "https://bair.berkeley.edu/static/blog/information-driven-imaging/info_estimation_overview.png",
     "aiSelected": true,
     "origin": "rss:bair",
-    "heat": 0,
+    "heat": 30,
     "firstSeen": "2026-06-01T04:55:40.586Z",
     "aiNote": "用信息论优化成像系统设计，无需理想图像数据，直接处理含噪测量，颠覆传统光学设计思路。",
-    "fetchedAt": null
+    "fetchedAt": null,
+    "tier": 1
   },
   {
     "id": "rss:venturebeat-ai-fed46196ed",
@@ -8536,10 +8559,11 @@
     "image": "https://substack-post-media.s3.amazonaws.com/public/images/dfad3fc4-b195-4e7e-a6a7-7701b59ed57b_1394x918.png",
     "aiSelected": true,
     "origin": "rss:raschka",
-    "heat": 0,
+    "heat": 22,
     "firstSeen": "2026-06-01T04:55:40.586Z",
     "aiNote": "2025年LLM全景透视：从技术突破到行业瓶颈，为2026年发展指明方向。",
-    "fetchedAt": null
+    "fetchedAt": null,
+    "tier": 2
   },
   {
     "id": "rss:raschka-ab5df59450",
@@ -8552,10 +8576,11 @@
     "image": "https://substack-post-media.s3.amazonaws.com/public/images/a0fa9edc-7d0a-4480-9f84-0aa524542654_1688x1502.png",
     "aiSelected": true,
     "origin": "rss:raschka",
-    "heat": 0,
+    "heat": 22,
     "firstSeen": "2026-06-01T04:55:40.586Z",
     "aiNote": "2025下半年LLM研究趋势预览，精选论文助你把握前沿方向。",
-    "fetchedAt": null
+    "fetchedAt": null,
+    "tier": 2
   },
   {
     "id": "rss:raschka-f02a2aa74e",
@@ -8568,10 +8593,11 @@
     "image": "https://substack-post-media.s3.amazonaws.com/public/images/0c867bba-a952-4285-849e-e70a5555622c_1990x1576.png",
     "aiSelected": true,
     "origin": "rss:raschka",
-    "heat": 0,
+    "heat": 22,
     "firstSeen": "2026-06-01T04:55:40.586Z",
     "aiNote": "揭示DeepSeek开源模型从V3到V3.2的架构演进，稀疏注意力与强化学习更新是关键技术看点。",
-    "fetchedAt": null
+    "fetchedAt": null,
+    "tier": 2
   },
   {
     "id": "rss:raschka-ae6b9eee40",
@@ -8584,10 +8610,11 @@
     "image": "https://substack-post-media.s3.amazonaws.com/public/images/e1732960-2119-429d-96e7-bafee7f79283_5862x3699.jpeg",
     "aiSelected": true,
     "origin": "rss:raschka",
-    "heat": 0,
+    "heat": 22,
     "firstSeen": "2026-06-01T04:55:40.586Z",
     "aiNote": "线性注意力混合与递归结构突破，为高效模型设计提供新思路。",
-    "fetchedAt": null
+    "fetchedAt": null,
+    "tier": 2
   },
   {
     "id": "rss:bair-e2aca7c0bd",
@@ -8600,10 +8627,11 @@
     "image": "https://bair.berkeley.edu/static/blog/rl-without-td-learning/teaser_short.png",
     "aiSelected": true,
     "origin": "rss:bair",
-    "heat": 0,
+    "heat": 30,
     "firstSeen": "2026-06-01T04:55:40.586Z",
     "aiNote": "颠覆性突破，无时序差分学习开辟强化学习新范式，值得关注。",
-    "fetchedAt": null
+    "fetchedAt": null,
+    "tier": 1
   },
   {
     "id": "rss:raschka-f61e677d50",
@@ -8616,10 +8644,11 @@
     "image": "https://substack-post-media.s3.amazonaws.com/public/images/1748fa24-e946-47fb-bf1b-e488d08547fd_1764x1244.png",
     "aiSelected": true,
     "origin": "rss:raschka",
-    "heat": 0,
+    "heat": 22,
     "firstSeen": "2026-06-01T04:55:40.586Z",
     "aiNote": "四种评估方法各有侧重，代码示例让实操门槛大降，是LLM落地选型的实用指南。",
-    "fetchedAt": null
+    "fetchedAt": null,
+    "tier": 2
   },
   {
     "id": "rss:raschka-c52b4cee69",
@@ -8632,10 +8661,11 @@
     "image": "https://substack-post-media.s3.amazonaws.com/public/images/00515b82-fd01-4c5b-b1b9-2d4b38100be0_1236x775.png",
     "aiSelected": true,
     "origin": "rss:raschka",
-    "heat": 0,
+    "heat": 22,
     "firstSeen": "2026-06-01T04:55:40.586Z",
     "aiNote": "深入解析顶尖开源大模型Qwen3的完整实现，技术细节与实战价值兼备。",
-    "fetchedAt": null
+    "fetchedAt": null,
+    "tier": 2
   },
   {
     "id": "rss:bair-20744ca6d1",
@@ -8648,10 +8678,11 @@
     "image": "https://bair.berkeley.edu/static/blog/qwem-word2vec-theory/fig1.c8u1a3E7_Z23iPso.webp",
     "aiSelected": true,
     "origin": "rss:bair",
-    "heat": 0,
+    "heat": 30,
     "firstSeen": "2026-06-01T04:55:40.586Z",
     "aiNote": "剖析经典词向量模型的核心机制，为理解神经网络表示学习提供关键视角。",
-    "fetchedAt": null
+    "fetchedAt": null,
+    "tier": 1
   },
   {
     "id": "rss:raschka-6d3011a0c9",
@@ -8664,10 +8695,11 @@
     "image": "https://substack-post-media.s3.amazonaws.com/public/images/529c4cc7-161c-4d7c-b186-06e68c771776_1564x926.png",
     "aiSelected": true,
     "origin": "rss:raschka",
-    "heat": 0,
+    "heat": 22,
     "firstSeen": "2026-06-01T04:55:40.586Z",
     "aiNote": "剖析了GPT系列架构演进与国产模型Qwen3的性能对比，揭示了开源大模型技术迭代的关键路径。",
-    "fetchedAt": null
+    "fetchedAt": null,
+    "tier": 2
   },
   {
     "id": "rss:raschka-32267b4e23",
@@ -8680,10 +8712,11 @@
     "image": "https://substack-post-media.s3.amazonaws.com/public/images/45c50202-0e8b-4e64-8296-4e2ccf4cb287_1756x1227.png",
     "aiSelected": true,
     "origin": "rss:raschka",
-    "heat": 0,
+    "heat": 22,
     "firstSeen": "2026-06-01T04:55:40.586Z",
     "aiNote": "对比DeepSeek与Kimi架构差异，揭示大模型设计路线竞争焦点。",
-    "fetchedAt": null
+    "fetchedAt": null,
+    "tier": 2
   },
   {
     "id": "rss:raschka-5d67698738",
@@ -8696,10 +8729,11 @@
     "image": "https://substackcdn.com/image/fetch/$s_!cRyQ!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4e920533-c926-461b-95bb-c7446f3df382_1289x619.png",
     "aiSelected": true,
     "origin": "rss:raschka",
-    "heat": 0,
+    "heat": 22,
     "firstSeen": "2026-06-01T04:55:40.586Z",
     "aiNote": "半年200篇论文的精华盘点，高效追踪大模型前沿趋势，科研与从业者必读。",
-    "fetchedAt": null
+    "fetchedAt": null,
+    "tier": 2
   },
   {
     "id": "rss:bair-9589a222e2",
@@ -8712,10 +8746,11 @@
     "image": "https://bair.berkeley.edu/static/blog/peva/teaserv3_web.png",
     "aiSelected": true,
     "origin": "rss:bair",
-    "heat": 0,
+    "heat": 30,
     "firstSeen": "2026-06-01T04:55:40.586Z",
     "aiNote": "全身条件建模让第一人称视频预测更精准，为机器人自主导航和人机交互提供新思路。",
-    "fetchedAt": null
+    "fetchedAt": null,
+    "tier": 1
   },
   {
     "id": "rss:raschka-c9d8040bdb",
@@ -8728,10 +8763,11 @@
     "image": "https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F78382a83-f634-4cfa-92b9-bbea30c61a60_841x926.png",
     "aiSelected": true,
     "origin": "rss:raschka",
-    "heat": 0,
+    "heat": 22,
     "firstSeen": "2026-06-01T04:55:40.586Z",
     "aiNote": "从零实现KV缓存，揭示大模型高效推理的核心机制，是深入理解LLM性能优化的必学技术。",
-    "fetchedAt": null
+    "fetchedAt": null,
+    "tier": 2
   },
   {
     "id": "rss:thegradient-1dc008c321",
@@ -8744,10 +8780,11 @@
     "image": "https://thegradient.pub/content/images/2025/06/Gradient_Article_Art3-downscaled.png",
     "aiSelected": true,
     "origin": "rss:thegradient",
-    "heat": 0,
+    "heat": 22,
     "firstSeen": "2026-06-01T04:55:40.586Z",
     "aiNote": "挑战语言中心主义，揭示具身认知对通用智能的核心价值，重塑AI发展路径。",
-    "fetchedAt": null
+    "fetchedAt": null,
+    "tier": 2
   },
   {
     "id": "rss:raschka-4b3449d49d",
@@ -8760,10 +8797,11 @@
     "image": "https://substack-post-media.s3.amazonaws.com/public/images/752b6486-73db-4293-9465-854d4a005a5c_2406x1350.jpeg",
     "aiSelected": true,
     "origin": "rss:raschka",
-    "heat": 0,
+    "heat": 22,
     "firstSeen": "2026-06-01T04:55:40.586Z",
     "aiNote": "从零构建代码大模型，深度理解LLM原理，兼具学习效率与趣味性。",
-    "fetchedAt": null
+    "fetchedAt": null,
+    "tier": 2
   },
   {
     "id": "rss:lilianweng-87ed01723e",
@@ -8776,7 +8814,7 @@
     "image": null,
     "aiSelected": true,
     "origin": "rss:lilianweng",
-    "heat": 0,
+    "heat": 22,
     "firstSeen": "2026-06-02T11:44:38.426Z",
     "aiNote": "测试时计算新进展获OpenAI核心成员认可，预示AI推理能力将迎来关键突破。",
     "fetchedAt": null
@@ -8807,10 +8845,11 @@
     "image": "https://bair.berkeley.edu/static/blog/defending-injection/Picture2.png",
     "aiSelected": true,
     "origin": "rss:bair",
-    "heat": 0,
+    "heat": 30,
     "firstSeen": "2026-06-01T04:55:40.586Z",
     "aiNote": "结构化查询与偏好优化相结合，为抵御提示注入攻击提供了新思路，提升了大模型应用的安全性。",
-    "fetchedAt": null
+    "fetchedAt": null,
+    "tier": 1
   },
   {
     "id": "rss:bair-0907c00eb7",
@@ -8883,7 +8922,7 @@
     "image": null,
     "aiSelected": true,
     "origin": "rss:lilianweng",
-    "heat": 0,
+    "heat": 22,
     "firstSeen": "2026-06-02T11:44:38.426Z",
     "aiNote": "强化学习易钻空子，揭示AI安全核心挑战，关乎真实任务可靠性。",
     "fetchedAt": null
@@ -8899,10 +8938,11 @@
     "image": "https://thegradient.pub/content/images/2024/11/DALL-E-2024-11-15-15.40.52---Create-an-abstract-image-that-illustrates-how-ReLU-based-neural-networks-shatter-input-space-into-numerous-polygonal-regions--each-behaving-like-a-lin.webp",
     "aiSelected": true,
     "origin": "rss:thegradient",
-    "heat": 0,
+    "heat": 22,
     "firstSeen": "2026-06-01T04:55:40.586Z",
     "aiNote": "数学正从工具角色转变为AI创新的核心驱动力，揭示模型结构与对称性的深层规律。",
-    "fetchedAt": null
+    "fetchedAt": null,
+    "tier": 2
   },
   {
     "id": "rss:thegradient-c380d26cbf",
@@ -8915,10 +8955,11 @@
     "image": "https://thegradient.pub/content/images/2024/09/cropped.jpeg",
     "aiSelected": true,
     "origin": "rss:thegradient",
-    "heat": 0,
+    "heat": 22,
     "firstSeen": "2026-06-01T04:55:40.586Z",
     "aiNote": "大模型聊天缺乏目标感，用户互动体验的提升比单纯刷分更重要。",
-    "fetchedAt": null
+    "fetchedAt": null,
+    "tier": 2
   },
   {
     "id": "rss:thegradient-075b455d75",
@@ -8931,10 +8972,11 @@
     "image": "https://thegradient.pub/content/images/2024/07/wellbeing_ai_cover_image.webp",
     "aiSelected": true,
     "origin": "rss:thegradient",
-    "heat": 0,
+    "heat": 22,
     "firstSeen": "2026-06-01T04:55:40.586Z",
     "aiNote": "AI发展需以人类福祉为核心，而非单纯追求技术突破，引发价值反思。",
-    "fetchedAt": null
+    "fetchedAt": null,
+    "tier": 2
   },
   {
     "id": "rss:lilianweng-f341118d22",
@@ -8947,7 +8989,7 @@
     "image": null,
     "aiSelected": true,
     "origin": "rss:lilianweng",
-    "heat": 0,
+    "heat": 22,
     "firstSeen": "2026-06-02T11:44:38.426Z",
     "aiNote": "大型语言模型“幻觉”问题成焦点，揭示AI可信度关键挑战。",
     "fetchedAt": null
@@ -8963,10 +9005,11 @@
     "image": "https://thegradient.pub/content/images/2024/04/shutterstock_2448136839.jpg",
     "aiSelected": true,
     "origin": "rss:thegradient",
-    "heat": 0,
+    "heat": 22,
     "firstSeen": "2026-06-01T04:55:40.586Z",
     "aiNote": "大模型正重塑金融市场分析与交易，预示智能投顾新纪元。",
-    "fetchedAt": null
+    "fetchedAt": null,
+    "tier": 2
   },
   {
     "id": "rss:lilianweng-38eb95b0e9",
@@ -8979,7 +9022,7 @@
     "image": null,
     "aiSelected": true,
     "origin": "rss:lilianweng",
-    "heat": 0,
+    "heat": 22,
     "firstSeen": "2026-06-02T11:44:38.426Z",
     "aiNote": "视频生成新突破，扩散模型从图像迈向动态世界。",
     "fetchedAt": null
@@ -8995,10 +9038,11 @@
     "image": "https://thegradient.pub/content/images/2024/04/gender_gradient_header.jpeg",
     "aiSelected": true,
     "origin": "rss:thegradient",
-    "heat": 0,
+    "heat": 22,
     "firstSeen": "2026-06-01T04:55:40.586Z",
     "aiNote": "剖析AI性别偏见根源，揭示算法公平性挑战，关乎科技伦理与社会正义。",
-    "fetchedAt": null
+    "fetchedAt": null,
+    "tier": 2
   },
   {
     "id": "rss:thegradient-e03a8fbe8a",
@@ -9011,10 +9055,11 @@
     "image": "https://images.unsplash.com/photo-1598348341635-33a3f4205d32?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDh8fHRyYW5zZm9ybWVyfGVufDB8fHx8MTcxMTM0NTEwM3ww&ixlib=rb-4.0.3&q=80&w=2000",
     "aiSelected": true,
     "origin": "rss:thegradient",
-    "heat": 0,
+    "heat": 22,
     "firstSeen": "2026-06-01T04:55:40.586Z",
     "aiNote": "Mamba用状态空间模型挑战Transformer，效率与性能双突破，值得关注。",
-    "fetchedAt": null
+    "fetchedAt": null,
+    "tier": 2
   },
   {
     "id": "rss:thegradient-7a21767383",
@@ -9027,10 +9072,11 @@
     "image": "https://thegradient.pub/content/images/2024/03/car-gpt.jpg",
     "aiSelected": true,
     "origin": "rss:thegradient",
-    "heat": 0,
+    "heat": 22,
     "firstSeen": "2026-06-01T04:55:40.586Z",
     "aiNote": "大模型或成自动驾驶突破口，信任与挑战并存，值得关注技术演进。",
-    "fetchedAt": null
+    "fetchedAt": null,
+    "tier": 2
   },
   {
     "id": "rss:thegradient-0ee0b8f51e",
@@ -9043,10 +9089,11 @@
     "image": "https://thegradient.pub/content/images/2024/03/main-1.png",
     "aiSelected": true,
     "origin": "rss:thegradient",
-    "heat": 0,
+    "heat": 22,
     "firstSeen": "2026-06-01T04:55:40.586Z",
     "aiNote": "文本嵌入可被逆向还原，对数据安全构成新威胁，亟需重审防护措施。",
-    "fetchedAt": null
+    "fetchedAt": null,
+    "tier": 2
   },
   {
     "id": "rss:thegradient-9dc881aa25",
@@ -9074,7 +9121,7 @@
     "image": null,
     "aiSelected": true,
     "origin": "rss:lilianweng",
-    "heat": 0,
+    "heat": 22,
     "firstSeen": "2026-06-02T11:44:38.426Z",
     "aiNote": "高质量人类数据是AI模型性能的关键瓶颈，值得深入探讨其稀缺性与价值。",
     "fetchedAt": null
@@ -9090,10 +9137,11 @@
     "image": "https://thegradient.pub/content/images/2024/01/image4.jpg",
     "aiSelected": true,
     "origin": "rss:thegradient",
-    "heat": 0,
+    "heat": 22,
     "firstSeen": "2026-06-01T04:55:40.586Z",
     "aiNote": "深度学习让单细胞测序如虎添翼，揭示细胞异质性，开启精准医学新维度。",
-    "fetchedAt": null
+    "fetchedAt": null,
+    "tier": 2
   },
   {
     "id": "rss:lilianweng-ce68292451",
@@ -9106,7 +9154,7 @@
     "image": null,
     "aiSelected": true,
     "origin": "rss:lilianweng",
-    "heat": 0,
+    "heat": 22,
     "firstSeen": "2026-06-02T11:44:38.426Z",
     "aiNote": "对抗攻击暴露大模型安全短板，关乎AI应用可信度。",
     "fetchedAt": null
@@ -9122,7 +9170,7 @@
     "image": "https://thegradient.pub/content/images/2023/09/profile.png",
     "aiSelected": true,
     "origin": "rss:thegradient",
-    "heat": 0,
+    "heat": 22,
     "firstSeen": "2026-06-01T04:55:40.586Z",
     "aiNote": "突破传统模式，让神经网络学会执行经典算法，开启可解释与泛化AI新路径。",
     "fetchedAt": null
@@ -9138,10 +9186,11 @@
     "image": "https://thegradient.pub/content/images/2023/09/alignment.png",
     "aiSelected": true,
     "origin": "rss:thegradient",
-    "heat": 0,
+    "heat": 22,
     "firstSeen": "2026-06-01T04:55:40.586Z",
     "aiNote": "对齐危机论被过度炒作，揭示技术恐慌背后的利益与认知偏差。",
-    "fetchedAt": null
+    "fetchedAt": null,
+    "tier": 2
   },
   {
     "id": "rss:lilianweng-97b2c5f447",
@@ -9154,7 +9203,7 @@
     "image": null,
     "aiSelected": true,
     "origin": "rss:lilianweng",
-    "heat": 0,
+    "heat": 22,
     "firstSeen": "2026-06-02T11:44:38.426Z",
     "aiNote": "揭示大语言模型作为核心控制器，推动自主智能体从概念走向实用化，标志AI应用新里程碑。",
     "fetchedAt": null
@@ -9170,7 +9219,7 @@
     "image": null,
     "aiSelected": true,
     "origin": "rss:lilianweng",
-    "heat": 0,
+    "heat": 22,
     "firstSeen": "2026-06-02T11:44:38.426Z",
     "aiNote": "精准操控大模型行为的关键技术，决定AI输出质量与可控性。",
     "fetchedAt": null
@@ -9186,7 +9235,7 @@
     "image": null,
     "aiSelected": true,
     "origin": "rss:lilianweng",
-    "heat": 0,
+    "heat": 22,
     "firstSeen": "2026-06-02T11:44:38.426Z",
     "aiNote": "Transformer架构演进里程碑，一网打尽近年关键改进，是技术迭代的必备指南。",
     "fetchedAt": null
@@ -9202,7 +9251,7 @@
     "image": null,
     "aiSelected": true,
     "origin": "rss:lilianweng",
-    "heat": 0,
+    "heat": 22,
     "firstSeen": "2026-06-02T11:44:38.426Z",
     "aiNote": "大模型推理优化是降低部署成本的关键，技术更新直接推动AI应用落地。",
     "fetchedAt": null
@@ -9218,7 +9267,7 @@
     "image": null,
     "aiSelected": true,
     "origin": "rss:lilianweng",
-    "heat": 0,
+    "heat": 22,
     "firstSeen": "2026-06-02T11:44:38.426Z",
     "aiNote": "揭示神经网络训练本质的数学原理，是理解深度学习成功的关键突破。",
     "fetchedAt": null
@@ -9234,7 +9283,7 @@
     "image": null,
     "aiSelected": true,
     "origin": "rss:lilianweng",
-    "heat": 0,
+    "heat": 22,
     "firstSeen": "2026-06-02T11:44:38.426Z",
     "aiNote": "视觉语言模型通用化，突破传统检测局限，开启多模态AI新阶段。",
     "fetchedAt": null
@@ -9250,7 +9299,7 @@
     "image": null,
     "aiSelected": true,
     "origin": "rss:lilianweng",
-    "heat": 0,
+    "heat": 22,
     "firstSeen": "2026-06-02T11:44:38.426Z",
     "aiNote": "数据生成方法突破数据短缺瓶颈，为小样本学习开辟新路径。",
     "fetchedAt": null
@@ -9266,7 +9315,7 @@
     "image": null,
     "aiSelected": true,
     "origin": "rss:lilianweng",
-    "heat": 0,
+    "heat": 22,
     "firstSeen": "2026-06-02T11:44:38.426Z",
     "aiNote": "主动学习策略破解数据瓶颈，让少量标注发挥最大价值，是低成本提升模型性能的关键。",
     "fetchedAt": null
@@ -9282,7 +9331,7 @@
     "image": null,
     "aiSelected": true,
     "origin": "rss:lilianweng",
-    "heat": 0,
+    "heat": 22,
     "firstSeen": "2026-06-02T11:44:38.426Z",
     "aiNote": "用少量标签数据训练模型，半监督学习为AI应用降低成本提供了关键路径。",
     "fetchedAt": null
@@ -9298,7 +9347,7 @@
     "image": null,
     "aiSelected": true,
     "origin": "rss:lilianweng",
-    "heat": 0,
+    "heat": 22,
     "firstSeen": "2026-06-02T11:44:38.426Z",
     "aiNote": "解析大模型多卡训练核心技巧，含专家路由等前沿方法，是提升效率的实战指南。",
     "fetchedAt": null
@@ -9314,7 +9363,7 @@
     "image": null,
     "aiSelected": true,
     "origin": "rss:lilianweng",
-    "heat": 0,
+    "heat": 22,
     "firstSeen": "2026-06-02T11:44:38.426Z",
     "aiNote": "扩散模型详解，生成式AI核心基础，必读技术入门。",
     "fetchedAt": null
@@ -9330,7 +9379,7 @@
     "image": null,
     "aiSelected": true,
     "origin": "rss:lilianweng",
-    "heat": 0,
+    "heat": 22,
     "firstSeen": "2026-06-02T11:44:38.426Z",
     "aiNote": "对比学习通过拉近同类、推开异类，革新了无监督表征的泛化能力。",
     "fetchedAt": null
@@ -10643,10 +10692,11 @@
     "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AI_IO.max-600x600.format-webp.webp",
     "aiSelected": true,
     "origin": "rss:google-ai",
-    "heat": 0,
+    "heat": 30,
     "firstSeen": "2026-06-01T23:44:43.010Z",
     "aiNote": "谷歌内部用AI办大会，展示了自家技术从工具到流程的实战闭环。",
-    "fetchedAt": null
+    "fetchedAt": null,
+    "tier": 1
   },
   {
     "id": "rss:techcrunch-ai-fe21b03da8",
@@ -18368,10 +18418,11 @@
     "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Google_Thrifting_Header.max-600x600.format-webp.webp",
     "aiSelected": true,
     "origin": "rss:google-ai",
-    "heat": 0,
+    "heat": 30,
     "firstSeen": "2026-06-04T00:03:42.509Z",
     "aiNote": null,
-    "fetchedAt": null
+    "fetchedAt": null,
+    "tier": 1
   },
   {
     "id": "hn-1d92635cbd",
@@ -22072,10 +22123,11 @@
     "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/May_AI_Recap_still.max-600x600.format-webp.webp",
     "aiSelected": true,
     "origin": "rss:google-ai",
-    "heat": 0,
+    "heat": 30,
     "firstSeen": "2026-06-05T23:39:47.939Z",
     "aiNote": "谷歌五月AI动态密集发布，涵盖多项技术突破，预示行业新趋势。",
-    "fetchedAt": null
+    "fetchedAt": null,
+    "tier": 1
   },
   {
     "id": "rss:infoq-6712f34b55",
@@ -24397,10 +24449,11 @@
     "image": "https://substack-post-media.s3.amazonaws.com/public/images/8630eb02-eeac-4411-bef3-1865c1920b03_2912x1632.png",
     "aiSelected": true,
     "origin": "rss:raschka",
-    "heat": 0,
+    "heat": 22,
     "firstSeen": "2026-06-06T23:18:17.378Z",
     "aiNote": "半年LLM研究精粹合集，快速掌握前沿动态与关键进展。",
-    "fetchedAt": null
+    "fetchedAt": null,
+    "tier": 2
   },
   {
     "id": "hn-b6a172b6c4",
@@ -30888,10 +30941,11 @@
     "image": null,
     "aiSelected": true,
     "origin": "rss:deepmind",
-    "heat": 0,
+    "heat": 30,
     "firstSeen": "2026-06-09T23:43:56.673Z",
     "aiNote": null,
-    "fetchedAt": null
+    "fetchedAt": null,
+    "tier": 1
   },
   {
     "id": "hn-b2d3e9cb4c",
@@ -30966,10 +31020,11 @@
     "image": null,
     "aiSelected": true,
     "origin": "rss:deepmind",
-    "heat": 0,
+    "heat": 30,
     "firstSeen": "2026-06-09T23:43:56.673Z",
     "aiNote": null,
-    "fetchedAt": null
+    "fetchedAt": null,
+    "tier": 1
   },
   {
     "id": "hn-ad724bd4d1",
@@ -30999,10 +31054,11 @@
     "image": null,
     "aiSelected": true,
     "origin": "rss:deepmind",
-    "heat": 0,
+    "heat": 30,
     "firstSeen": "2026-06-09T23:43:56.673Z",
     "aiNote": null,
-    "fetchedAt": null
+    "fetchedAt": null,
+    "tier": 1
   },
   {
     "id": "rss:infoq-6aca2251f4",
@@ -31450,10 +31506,11 @@
     "image": "https://lh3.googleusercontent.com/5g2RQPPxqVGuOzfaYj1-8r_6B-Ytp79c9mpWXzBIrk2vUhtxZmA7bMywH41h-8b0EJAdW_K4l7kqHZlfS-QTFk8kFB5MA2bgxZ4hxbuAiOuDIn3ohA=w528-h297-n-nu-rw-lo",
     "aiSelected": true,
     "origin": "rss:deepmind",
-    "heat": 0,
+    "heat": 30,
     "firstSeen": "2026-06-09T23:43:56.673Z",
     "aiNote": null,
-    "fetchedAt": null
+    "fetchedAt": null,
+    "tier": 1
   },
   {
     "id": "hn-09df2d68e8",
@@ -35260,10 +35317,11 @@
     "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/VirginiaSocial.max-600x600.format-webp.webp",
     "aiSelected": true,
     "origin": "rss:google-ai",
-    "heat": 0,
+    "heat": 31,
     "firstSeen": "2026-06-11T23:55:05.813Z",
     "aiNote": "社区投资聚焦本地就业与能源普惠，展现企业社会责任与长期经济布局。",
-    "fetchedAt": null
+    "fetchedAt": null,
+    "tier": 1
   },
   {
     "id": "rss:techcrunch-ai-3d4b046ae2",
@@ -36597,10 +36655,11 @@
     "image": "https://lh3.googleusercontent.com/YgqOl-h3mEKPbpttnT89PtoHDKTc1-2fbhwRgDauUPtagZVWiw0lr1IGgRUDZDqb9Ib4nhaU93T0mJSE8FFbhkDRiaT53BGLnLVdpqliTP8v5kvmwu8=w528-h297-n-nu-rw-lo",
     "aiSelected": true,
     "origin": "rss:deepmind",
-    "heat": 0,
+    "heat": 30,
     "firstSeen": "2026-06-11T23:55:05.813Z",
     "aiNote": null,
-    "fetchedAt": null
+    "fetchedAt": null,
+    "tier": 1
   },
   {
     "id": "hf-2606.11854",
@@ -40709,10 +40768,11 @@
     "image": null,
     "aiSelected": true,
     "origin": "rss:deepmind",
-    "heat": 0,
+    "heat": 30,
     "firstSeen": "2026-06-13T23:33:55.531Z",
     "aiNote": null,
-    "fetchedAt": null
+    "fetchedAt": null,
+    "tier": 1
   },
   {
     "id": "hn-447e383a17",
@@ -42120,10 +42180,11 @@
     "image": null,
     "aiSelected": true,
     "origin": "rss:google-ai",
-    "heat": 0,
+    "heat": 31,
     "firstSeen": "2026-06-16T00:03:19.888Z",
     "aiNote": null,
-    "fetchedAt": null
+    "fetchedAt": null,
+    "tier": 1
   },
   {
     "id": "rss:simonwillison-a43ff3387d",
@@ -44281,10 +44342,11 @@
     "image": "https://lh3.googleusercontent.com/kc7RMwXGDfJAoCsgs6pUuONGMXePGbvF_q_i8i-bWBBakQ91O8VYPk8cyHfpOD1uF-lw8Mk6pd2JpXofi5n4qNoNziPol46lBMmZuxoG9NKl16CW=w528-h297-n-nu-rw-lo",
     "aiSelected": true,
     "origin": "rss:deepmind",
-    "heat": 0,
+    "heat": 31,
     "firstSeen": "2026-06-16T23:49:37.157Z",
     "aiNote": "AI加速英国规划审批，为住房建设注入新动力，政企合作创新模式值得关注。",
-    "fetchedAt": null
+    "fetchedAt": null,
+    "tier": 1
   },
   {
     "id": "rss:arstechnica-ai-e9c3ba9ad6",
@@ -47350,10 +47412,11 @@
     "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AMIE_Mx_Nature_Social_Visual_Va.max-600x600.format-webp.webp",
     "aiSelected": true,
     "origin": "rss:google-ai",
-    "heat": 0,
+    "heat": 31,
     "firstSeen": "2026-06-17T23:51:34.474Z",
     "aiNote": null,
-    "fetchedAt": null
+    "fetchedAt": null,
+    "tier": 1
   },
   {
     "id": "rss:techcrunch-ai-84378f271c",
@@ -50946,10 +51009,11 @@
     "image": "https://lh3.googleusercontent.com/X6w_t9eA7TLFiq3JMp1kXlon25qi9N6O0AxPyp7j0qOIu8oz-QDsaOP-oKz7FIuqlA3W1evDbeLYssDJM_fjkqeyscPO_fHJd0xeD0IoDlHkiUQW1w=w528-h297-n-nu-rw-lo",
     "aiSelected": true,
     "origin": "rss:deepmind",
-    "heat": 0,
+    "heat": 31,
     "firstSeen": "2026-06-19T00:01:19.464Z",
     "aiNote": null,
-    "fetchedAt": null
+    "fetchedAt": null,
+    "tier": 1
   },
   {
     "id": "gh-lichamnesia-awesome-ad-video-prompts",
@@ -59284,7 +59348,7 @@
     "image": null,
     "aiSelected": true,
     "origin": "rss:deepmind",
-    "heat": 0,
+    "heat": 31,
     "firstSeen": "2026-06-24T23:35:38.045Z",
     "aiNote": "AI助手能直接操作电脑界面，开启人机交互新范式。",
     "fetchedAt": null
@@ -61724,10 +61788,11 @@
     "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Google_Finance_blog_image_June_.max-600x600.format-webp.webp",
     "aiSelected": true,
     "origin": "rss:google-ai",
-    "heat": 0,
+    "heat": 31,
     "firstSeen": "2026-06-25T23:46:58.236Z",
     "aiNote": null,
-    "fetchedAt": null
+    "fetchedAt": null,
+    "tier": 1
   },
   {
     "id": "rss:mit-news-ai-47753549f3",
@@ -61755,10 +61820,11 @@
     "image": "https://www.microsoft.com/en-us/research/wp-content/uploads/2026/06/UnderstandingtheBrain-BlogHeroFeature-1400x788-1-scaled.jpg",
     "aiSelected": true,
     "origin": "rss:msr",
-    "heat": 0,
+    "heat": 31,
     "firstSeen": "2026-06-25T23:46:58.236Z",
     "aiNote": null,
-    "fetchedAt": null
+    "fetchedAt": null,
+    "tier": 1
   },
   {
     "id": "hn-2d97746c50",
@@ -62930,7 +62996,7 @@
     "image": null,
     "aiSelected": true,
     "origin": "rss:lilianweng",
-    "heat": 0,
+    "heat": 23,
     "firstSeen": "2026-06-25T23:46:58.236Z",
     "aiNote": null,
     "fetchedAt": null
@@ -64067,7 +64133,7 @@
     "image": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202606/mit-economics-david-autor.jpg?itok=3NT1SZ0s",
     "aiSelected": true,
     "origin": "rss:mit-news-ai",
-    "heat": 0,
+    "heat": 31,
     "firstSeen": "2026-06-26T23:35:37.585Z",
     "aiNote": null,
     "fetchedAt": null
@@ -66003,10 +66069,11 @@
     "image": "https://substack-post-media.s3.amazonaws.com/public/images/4e729449-80ff-40c7-bcee-4d9349b46afe_2893x1589.png",
     "aiSelected": true,
     "origin": "rss:raschka",
-    "heat": 0,
+    "heat": 23,
     "firstSeen": "2026-06-27T23:18:10.906Z",
     "aiNote": "本地化开源模型替代付费服务，降低AI编码成本与依赖。",
-    "fetchedAt": null
+    "fetchedAt": null,
+    "tier": 2
   },
   {
     "id": "rss:36kr-04265a1a1c",
@@ -67138,10 +67205,11 @@
     "image": "https://www.microsoft.com/en-us/research/wp-content/uploads/2026/06/Memora-BlogHeroFeature-1400x788-1-1024x576.jpg",
     "aiSelected": true,
     "origin": "rss:msr",
-    "heat": 0,
+    "heat": 32,
     "firstSeen": "2026-06-29T23:17:15.668Z",
     "aiNote": "平衡抽象与具体的记忆新架构，让AI能高效处理长对话。",
-    "fetchedAt": null
+    "fetchedAt": null,
+    "tier": 1
   },
   {
     "id": "rss:arstechnica-ai-9cf6193eed",
@@ -67216,7 +67284,7 @@
     "image": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202606/mit-music-tech-showcase.jpg?itok=viJf9zsW",
     "aiSelected": true,
     "origin": "rss:mit-news-ai",
-    "heat": 0,
+    "heat": 32,
     "firstSeen": "2026-06-29T23:17:15.668Z",
     "aiNote": "首个音乐科技研究生项目成果展，聚焦人机共鸣，展现AI与艺术融合新前沿。",
     "fetchedAt": null
@@ -67354,7 +67422,7 @@
     "image": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202606/MIT%20SA%2BP-Beyond-data-driven-aesthetics.jpg?itok=5dJ8xNtJ",
     "aiSelected": true,
     "origin": "rss:mit-news-ai",
-    "heat": 0,
+    "heat": 32,
     "firstSeen": "2026-06-29T23:17:15.668Z",
     "aiNote": "从哲学和设计史角度反思AI美学，挑战纯数据驱动审美观。",
     "fetchedAt": null
@@ -67599,10 +67667,11 @@
     "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Full_Stack.max-600x600.format-webp.webp",
     "aiSelected": true,
     "origin": "rss:google-ai",
-    "heat": 0,
+    "heat": 32,
     "firstSeen": "2026-06-29T23:17:15.668Z",
     "aiNote": null,
-    "fetchedAt": null
+    "fetchedAt": null,
+    "tier": 1
   },
   {
     "id": "rss:theverge-ai-97835e796b",
@@ -69571,10 +69640,11 @@
     "image": null,
     "aiSelected": true,
     "origin": "rss:hf-blog",
-    "heat": 0,
+    "heat": 32,
     "firstSeen": "2026-06-30T23:38:12.001Z",
     "aiNote": "首个针对企业Java框架迁移的AI智能体基准测试，填补了评估AI代码迁移能力的空白。",
-    "fetchedAt": null
+    "fetchedAt": null,
+    "tier": 1
   },
   {
     "id": "rss:infoq-af0b30a7f1",
@@ -69829,10 +69899,11 @@
     "image": "https://www.microsoft.com/en-us/research/wp-content/uploads/2026/06/SkillOpt-BlogHeroFeature-1400x788-1-scaled.jpg",
     "aiSelected": true,
     "origin": "rss:msr",
-    "heat": 0,
+    "heat": 32,
     "firstSeen": "2026-06-30T23:38:12.001Z",
     "aiNote": null,
-    "fetchedAt": null
+    "fetchedAt": null,
+    "tier": 1
   },
   {
     "id": "rss:aws-ml-90980139a8",
@@ -69990,10 +70061,11 @@
     "image": null,
     "aiSelected": true,
     "origin": "rss:deepmind",
-    "heat": 0,
+    "heat": 32,
     "firstSeen": "2026-06-30T23:38:12.001Z",
     "aiNote": null,
-    "fetchedAt": null
+    "fetchedAt": null,
+    "tier": 1
   },
   {
     "id": "hn-859f838faf",
@@ -70055,7 +70127,7 @@
     "image": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202606/MIT-3QAgenticAI-01.jpg?itok=CCI-vFri",
     "aiSelected": true,
     "origin": "rss:mit-news-ai",
-    "heat": 0,
+    "heat": 32,
     "firstSeen": "2026-06-30T23:38:12.001Z",
     "aiNote": null,
     "fetchedAt": null
@@ -70221,10 +70293,11 @@
     "image": null,
     "aiSelected": true,
     "origin": "rss:hf-blog",
-    "heat": 0,
+    "heat": 32,
     "firstSeen": "2026-06-30T23:38:12.001Z",
     "aiNote": null,
-    "fetchedAt": null
+    "fetchedAt": null,
+    "tier": 1
   },
   {
     "id": "hn-2dc3244f9d",
@@ -70605,10 +70678,11 @@
     "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gemini_Generated_Image_k2dxu1k2.max-600x600.format-webp.webp",
     "aiSelected": true,
     "origin": "rss:google-ai",
-    "heat": 0,
+    "heat": 32,
     "firstSeen": "2026-06-30T23:38:12.001Z",
     "aiNote": null,
-    "fetchedAt": null
+    "fetchedAt": null,
+    "tier": 1
   },
   {
     "id": "rss:qbitai-5d61080625",

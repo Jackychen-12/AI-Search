@@ -1,15 +1,22 @@
 "use client";
 
-import { useEffect, useRef } from "react";
+import { useEffect, useState } from "react";
+import { useLocale } from "./LocaleProvider";
 
 const CHECK_INTERVAL = 30 * 60 * 1000; // 30 minutes
 
+/**
+ * Polls version.json and, when a newer build is live, shows a small refresh
+ * toast instead of force-reloading — never interrupt someone mid-read.
+ */
 export default function AutoUpdate() {
-  const initialVersion = useRef<number | null>(null);
+  const { t } = useLocale();
+  const [hasUpdate, setHasUpdate] = useState(false);
 
   useEffect(() => {
     const base = process.env.NEXT_PUBLIC_BASE_PATH || "";
     const url = `${base}/version.json`;
+    let initial: number | null = null;
 
     async function check() {
       try {
@@ -17,18 +24,11 @@ export default function AutoUpdate() {
         if (!res.ok) return;
         const data = await res.json();
         const v = data.v as number;
-        if (initialVersion.current === null) {
-          initialVersion.current = v;
+        if (initial === null) {
+          initial = v;
           return;
         }
-        if (v > initialVersion.current) {
-          initialVersion.current = v;
-          if (document.hidden) {
-            document.addEventListener("visibilitychange", () => location.reload(), { once: true });
-          } else {
-            location.reload();
-          }
-        }
+        if (v > initial) setHasUpdate(true);
       } catch {}
     }
 
@@ -37,5 +37,18 @@ export default function AutoUpdate() {
     return () => clearInterval(timer);
   }, []);
 
-  return null;
+  if (!hasUpdate) return null;
+
+  return (
+    <button
+      type="button"
+      onClick={() => location.reload()}
+      className="fixed bottom-36 md:bottom-24 right-6 z-50 flex items-center gap-2 px-3.5 py-2 rounded-full bg-brand-600 text-white text-xs font-medium shadow-lg hover:bg-brand-700 transition"
+    >
+      <svg className="w-3.5 h-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+        <path d="M21 12a9 9 0 1 1-2.64-6.36M21 3v6h-6" />
+      </svg>
+      {t("update.available")}
+    </button>
+  );
 }

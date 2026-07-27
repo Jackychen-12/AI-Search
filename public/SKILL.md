@@ -133,10 +133,10 @@ Claude Code · Codex CLI · Cursor · Gemini CLI · OpenCode · Cline · Windsur
 
 AI Search 是通用资讯聚合模板。Fork 后修改 `scripts/sources/rss.ts` 的 FEEDS 数组，即可变成任意领域的资讯站（金融、医疗、Web3...），API 端点结构不变，SKILL.md 无需修改。
 
-详见 [README](https://github.com/keyuchen-del/AI-Search#-换源--变成任何领域的资讯站)。
+详见 [README](https://github.com/Jackychen-12/AI-Search#- 换源--变成任何领域的资讯站)。
 
 ## 链接
 
 - 在线站点：https://aisearches.cc/
-- GitHub：https://github.com/keyuchen-del/AI-Search
+- GitHub：https://github.com/Jackychen-12/AI-Search
 - API 基础 URL：https://aisearches.cc/api/v1/

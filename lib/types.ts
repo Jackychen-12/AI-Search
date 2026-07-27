@@ -27,7 +27,12 @@ export interface AIItem {
   category: CategoryKey | null;
   publishedAt: string | null;
   tags?: string[];
+  /** Unified 0-100 score: tier base + in-source engagement percentile × freshness decay. */
   heat?: number;
+  /** Raw engagement count from the source (GitHub stars / HN points / HF upvotes). */
+  engagement?: number;
+  /** Source credibility tier: 1 = first-party/official, 2 = media/community, 3 = aggregator. */
+  tier?: 1 | 2 | 3;
   aiSelected?: boolean;
   /** Adapter that produced this item, e.g. "hf-papers" / "github" / "rss:36kr". */
   origin?: string;

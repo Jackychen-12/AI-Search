@@ -51,6 +51,10 @@ export function sanitizeItem(raw: AIItem): AIItem | null {
   const heat = typeof raw.heat === "number" && Number.isFinite(raw.heat) && raw.heat >= 0
     ? Math.round(raw.heat)
     : 0;
+  const engagement =
+    typeof raw.engagement === "number" && Number.isFinite(raw.engagement) && raw.engagement > 0
+      ? Math.round(raw.engagement)
+      : undefined;
   const tags = Array.isArray(raw.tags)
     ? raw.tags
         .filter((t): t is string => typeof t === "string" && t.trim().length > 0)
@@ -68,6 +72,7 @@ export function sanitizeItem(raw: AIItem): AIItem | null {
     aiNote: clampText(raw.aiNote, MAX.aiNote),
     image: safeUrl(raw.image, true), // https only — no mixed content
     heat,
+    engagement,
     tags,
     publishedAt: isoOrNull(raw.publishedAt),
     firstSeen: isoOrNull(raw.firstSeen),

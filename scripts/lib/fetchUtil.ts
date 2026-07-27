@@ -4,8 +4,14 @@ export const UA =
   "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36";
 
 const DEFAULT_TIMEOUT = Number(process.env.CRAWL_TIMEOUT_MS || 15000);
+const RETRIES = Number(process.env.CRAWL_RETRIES || 1);
+const RETRY_DELAY_MS = 2000;
 
-async function request(url: string, headers: Record<string, string>): Promise<Response> {
+function sleep(ms: number): Promise<void> {
+  return new Promise((r) => setTimeout(r, ms));
+}
+
+async function attempt(url: string, headers: Record<string, string>): Promise<Response> {
   const ctrl = new AbortController();
   const timer = setTimeout(() => ctrl.abort(), DEFAULT_TIMEOUT);
   try {
@@ -19,6 +25,23 @@ async function request(url: string, headers: Record<string, string>): Promise<Re
   } finally {
     clearTimeout(timer);
   }
+}
+
+/** One transient blip (timeout / 5xx / reset) shouldn't cost a source its day. */
+async function request(url: string, headers: Record<string, string>): Promise<Response> {
+  let lastErr: unknown;
+  for (let i = 0; i <= RETRIES; i++) {
+    try {
+      return await attempt(url, headers);
+    } catch (e) {
+      lastErr = e;
+      // 4xx won't heal on retry — fail fast; retry timeouts / 5xx / network errors.
+      const msg = String(e instanceof Error ? e.message : e);
+      if (/HTTP 4\d\d/.test(msg)) break;
+      if (i < RETRIES) await sleep(RETRY_DELAY_MS * (i + 1));
+    }
+  }
+  throw lastErr;
 }
 
 export async function getText(url: string, headers: Record<string, string> = {}): Promise<string> {

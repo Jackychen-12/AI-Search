@@ -1,7 +1,8 @@
 // Minimal offline service worker for the static site. Derives the base path from
 // its own location so it works under both "/" (dev) and "/AI-Search/" (Pages).
-const CACHE = "ai-search-v4";
+const CACHE = "ai-search-v5";
 const BASE = self.location.pathname.replace(/sw\.js$/, "");
+const MAX_PAGE_ENTRIES = 60; // cap navigations so the cache can't grow forever
 
 self.addEventListener("install", (e) => {
   e.waitUntil(
@@ -21,6 +22,19 @@ self.addEventListener("activate", (e) => {
       .then(() => self.clients.claim()),
   );
 });
+
+// Drop the oldest page entries beyond the cap (static assets are exempt —
+// they're immutable and replaced wholesale on version bump).
+async function trimPages(cache) {
+  const keys = await cache.keys();
+  const pages = keys.filter((req) => {
+    const p = new URL(req.url).pathname;
+    return !p.includes("/_next/static/") && !/\.(svg|png|ico|woff2?)$/.test(p);
+  });
+  for (const req of pages.slice(0, Math.max(0, pages.length - MAX_PAGE_ENTRIES))) {
+    await cache.delete(req);
+  }
+}
 
 self.addEventListener("fetch", (e) => {
   const req = e.request;
@@ -51,7 +65,7 @@ self.addEventListener("fetch", (e) => {
       fetch(req)
         .then((res) => {
           const copy = res.clone();
-          caches.open(CACHE).then((c) => c.put(req, copy));
+          caches.open(CACHE).then((c) => c.put(req, copy).then(() => trimPages(c)));
           return res;
         })
         .catch(() => caches.match(req).then((r) => r || caches.match(BASE))),

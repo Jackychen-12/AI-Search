@@ -12,7 +12,7 @@
     "test": "vitest run"
   },
   "dependencies": {
-    "fast-xml-parser": "4.4.1",
+    "fast-xml-parser": "^5.10.1",
     "minisearch": "^7.1.0",
     "next": "^14.2.35",
     "react": "18.3.1",

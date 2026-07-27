@@ -10,6 +10,3 @@ export interface SourceAdapter {
   /** Fetch and normalize this source's items. Throwing fails only this source. */
   fetch(): Promise<AIItem[]>;
 }
-
-/** Heat multipliers by tier. */
-export const TIER_WEIGHT: Record<number, number> = { 1: 1.5, 2: 1.0, 3: 0.7 };

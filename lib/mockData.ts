@@ -81,7 +81,7 @@ function gen(n: number): AIItem[] {
       category: seed.category,
       tags,
       publishedAt: isoTimestampOffset(i * 3),
-      heat: 1000 - i * 7 + ((i * 13 + 7) % 50),
+      heat: Math.max(25, 95 - i + ((i * 13 + 7) % 10)), // 0-100 scale, like the crawler
       aiSelected: i % 3 !== 0,
     });
   }

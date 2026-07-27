@@ -20,7 +20,8 @@ const ENDPOINT = "https://huggingface.co/api/daily_papers";
 export const hfPapers: SourceAdapter = {
   id: "hf-papers",
   label: "HuggingFace Daily Papers",
-  tier: 1,
+  // Community-upvoted paper aggregation — credible but not first-party news.
+  tier: 2,
   async fetch(): Promise<AIItem[]> {
     const data = await getJson<HFPaper[]>(ENDPOINT);
     if (!Array.isArray(data)) return [];
@@ -39,7 +40,7 @@ export const hfPapers: SourceAdapter = {
         category: "paper",
         publishedAt: row.publishedAt ?? null,
         tags: ["论文", "arXiv"],
-        heat: Number(row.paper?.upvotes ?? row.numComments ?? 0),
+        engagement: Number(row.paper?.upvotes ?? row.numComments ?? 0),
         aiSelected: true,
         origin: "hf-papers",
       });
