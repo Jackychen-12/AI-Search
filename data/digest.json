@@ -1,37 +1,37 @@
 {
-  "date": "2026-07-27",
-  "generatedAt": "2026-07-26T23:13:42.626Z",
+  "date": "2026-07-28",
+  "generatedAt": "2026-07-27T23:28:09.450Z",
   "picks": [
     {
-      "title": "Claude Opus 5",
-      "sourceUrl": "https://www.anthropic.com/news/claude-opus-5",
-      "source": "Hacker News",
-      "reason": "Claude Opus 5发布，顶级模型新里程碑"
+      "title": "Our position on open-weights models",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1vVU84Xy1NRFVUV1l6QjNvVTl0QncwbVM0bnRpbmNvUFBNSHNaR3lmTlk0cWRHQ3hKVEZkNGNOVVNaMWFfXzVqTVgxeENSdGV0THY2SUF5VjdPS0h5SUZmTzhfdUgyOExsOG5V?oc=5",
+      "source": "Anthropic",
+      "reason": "Anthropic明确开放权重模型立场，影响AI开源生态"
     },
     {
-      "title": "Be skeptical of OpenAI's rogue hacker agent story",
-      "sourceUrl": "https://www.theguardian.com/technology/2026/jul/24/openai-rogue-hacker",
-      "source": "Hacker News",
-      "reason": "质疑OpenAI安全叙事，引发行业反思"
+      "title": "How AI is expanding what people do at work",
+      "sourceUrl": "https://openai.com/index/how-ai-is-expanding-what-people-do-at-work",
+      "source": "OpenAI",
+      "reason": "OpenAI研究揭示AI如何拓展工作边界"
     },
     {
-      "title": "Open-weight AI is having its Kubernetes moment",
-      "sourceUrl": "https://tobi.knaup.me/2026-07-25-open-weight-ai-is-having-its-kubernetes-moment/",
+      "title": "AI companies spend record sums on Washington lobbying",
+      "sourceUrl": "https://www.ft.com/content/d8a5f95e-3b6d-463a-a848-c9ef8e2394db",
       "source": "Hacker News",
-      "reason": "开源AI生态成熟，类比Kubernetes崛起"
+      "reason": "AI公司游说支出创新高，折射行业政策博弈"
     },
     {
       "title": "What is happening to jobs? Separating AI hype from reality",
       "sourceUrl": "https://siepr.stanford.edu/publications/policy-brief/what-really-happening-jobs-separating-ai-hype-reality",
       "source": "Hacker News",
-      "reason": "理性分析AI对就业的真实影响"
+      "reason": "理性分析AI对就业的真实影响，辨析炒作与现实"
     },
     {
-      "title": "Terence Tao: Mathematics in the Age of AI [pdf]",
-      "sourceUrl": "https://teorth.github.io/tao-web/slides/age-of-ai-icm-2026.pdf",
-      "source": "Hacker News",
-      "reason": "陶哲轩谈数学在AI时代的前景"
+      "title": "NVIDIA Cosmos-H-Dreams: Bringing Real-Time Generative Simulation to Surgical Robotics",
+      "sourceUrl": "https://huggingface.co/blog/nvidia/cosmos-h-dreams",
+      "source": "HuggingFace Blog",
+      "reason": "NVIDIA实时生成仿真推动手术机器人前沿"
     }
   ],
-  "trendSummary": "本周AI圈热点集中在安全事件、新模型发布与工具创新上，Claude Opus 5亮相，OpenAI与Hugging Face联合处理安全漏洞，同时多个开源项目聚焦视频生成、设计辅助与智能工作流。"
+  "trendSummary": "本周AI圈聚焦开源模型安全与行业落地，英伟达推动生成式仿真与芯片设计，同时AI正重塑工作方式并引发数据伦理争议。"
 }
