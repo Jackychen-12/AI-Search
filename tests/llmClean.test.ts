@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { extractJsonArray, stripRefMarks } from "../scripts/lib/llmClean";
+import { extractJsonArray, stripRefMarks } from "../lib/llmClean";
 
 describe("stripRefMarks", () => {
   it("removes full-width bracket #refs", () => {
@@ -12,6 +12,13 @@ describe("stripRefMarks", () => {
     expect(stripRefMarks("OpenAI released GPT-5 (#2) this week (#4, #6).")).toBe(
       "OpenAI released GPT-5 this week.",
     );
+  });
+
+  it("removes ref groups where later numbers drop the # or use 和", () => {
+    expect(stripRefMarks("Kubernetes 类比（#10、7、12）精准描述了趋势")).toBe(
+      "Kubernetes 类比精准描述了趋势",
+    );
+    expect(stripRefMarks("两个项目（#1 和 #4）均已开源")).toBe("两个项目均已开源");
   });
 
   it("removes bare #N mentions and husk brackets left by partial cleaning", () => {

@@ -5,21 +5,25 @@
  */
 
 /**
- * Remove #编号 references like （#3、#7、#12）/ (#5) / (#2, #8) — including
- * the "（、、）" husks left when numbers were partially removed upstream.
+ * Remove #编号 references like （#3、#7、#12）/ (#5) / (#2, 8) / （#1 和 #4）——
+ * including the "（、、）" husks left when numbers were partially removed
+ * upstream.
  */
 export function stripRefMarks(s: string): string {
   return (
     s
       // full bracket groups whose content is only #numbers + separators
-      .replace(/[（(]\s*(?:#\d+\s*[、,，\s]*)+[)）]/g, "")
+      // (later numbers may drop the #: （#3、7、12）)
+      .replace(/[（(]\s*#\d+(?:\s*[、,，和与]\s*#?\d+)*\s*[)）]/g, "")
       // bare #N mentions in running text
       .replace(/#\d+\b/g, "")
       // husks: brackets containing only separators/whitespace
-      .replace(/[（(]\s*[、,，\s]*[)）]/g, "")
+      .replace(/[（(]\s*[、,，和与\s]*[)）]/g, "")
       // separators doubled-up by the removals above
       .replace(/[ \t]{2,}/g, " ")
       .replace(/(、){2,}/g, "、")
+      .replace(/[、,，]+\s*([)）])/g, "$1")
+      .replace(/([（(])\s*[、,，]+/g, "$1")
       .replace(/、\s*([。；;.!？?])/g, "$1")
       .replace(/[ \t]+([。；；;.!？?，,）)])/g, "$1")
       .trim()

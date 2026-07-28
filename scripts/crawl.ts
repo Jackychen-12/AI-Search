@@ -14,6 +14,7 @@ import path from "node:path";
 import type { AIItem } from "../lib/types";
 import { WEEKLY_INSIGHT_PATH, WEEKLY_INSIGHTS_DIR } from "../lib/config";
 import { normalizeItems } from "../lib/classify";
+import { stripRefMarks } from "../lib/llmClean";
 import { sanitizeItems } from "../lib/validate";
 import { addAiNotes } from "./lib/aiNote";
 import { updateArchive } from "./lib/archive";
@@ -43,6 +44,37 @@ function selectAdapters(only: string[]): SourceAdapter[] {
   }
   // arXiv is opt-in (rate-limited); excluded from the default run.
   return universe.filter((a) => a.id !== "arxiv" || process.env.CRAWL_ARXIV === "1");
+}
+
+/**
+ * Re-clean insight files already on disk. Insights written before the
+ * stripRefMarks guard carry (#N) reference junk forever otherwise — the
+ * build ships them verbatim every day. Idempotent: clean text is untouched.
+ */
+function resanitizeStoredInsights(): void {
+  const targets: string[] = [WEEKLY_INSIGHT_PATH];
+  try {
+    for (const f of fs.readdirSync(WEEKLY_INSIGHTS_DIR)) {
+      if (f.endsWith(".json")) targets.push(path.join(WEEKLY_INSIGHTS_DIR, f));
+    }
+  } catch {
+    /* directory may not exist yet */
+  }
+  let fixed = 0;
+  for (const file of targets) {
+    try {
+      const data = JSON.parse(fs.readFileSync(file, "utf8")) as { insight?: string };
+      if (!data.insight) continue;
+      const cleaned = stripRefMarks(data.insight);
+      if (cleaned !== data.insight) {
+        fs.writeFileSync(file, JSON.stringify({ ...data, insight: cleaned }, null, 2) + "\n", "utf8");
+        fixed++;
+      }
+    } catch {
+      /* unreadable file — leave as is */
+    }
+  }
+  if (fixed > 0) console.log(`[weekly-insight] re-sanitized ${fixed} stored insight file(s)`);
 }
 
 export async function runCrawl(only: string[] = []): Promise<CrawlResult> {
@@ -83,6 +115,7 @@ export async function runCrawl(only: string[] = []): Promise<CrawlResult> {
 
   // Weekly insight — current Beijing-time week (must match the digest's day
   // boundary; UTC here would mislabel Sunday-night crawls as last week).
+  resanitizeStoredInsights(); // legacy files predate stripRefMarks — clean in place
   const { startDate, endDate } = bjWeekRange();
   const insight = await buildWeeklyInsight(merged, startDate, endDate);
   if (insight) {

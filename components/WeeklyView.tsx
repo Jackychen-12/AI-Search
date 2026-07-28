@@ -3,6 +3,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import type { WeeklyReport } from "@/lib/weekly";
+import { stripRefMarks } from "@/lib/llmClean";
 import { useLocale } from "./LocaleProvider";
 
 function parseBold(text: string): React.ReactNode[] {
@@ -21,21 +22,16 @@ const CAT_COLORS: Record<string, { border: string; bg: string; text: string; bar
 };
 
 function InsightSection({ markdown }: { markdown: string }) {
-  const cleaned = markdown
-    .replace(/^# .+\n?/gm, "")
-    // bracket groups holding only item refs — any count: （#1、#2、#3） / (#4, 5)
-    .replace(/[（(]\s*#?\d+(?:\s*[,、，和]\s*#?\d+)*\s*[)）]/g, "")
-    // bare refs
-    .replace(/#\d+/g, "")
-    // debris left by refs stripped inside brackets: （、、） / （ ） / 、、、）
-    .replace(/[（(][\s,、，]*[)）]/g, "")
-    .replace(/[,、，]{2,}/g, "、")
-    .replace(/[,、，]+\s*([)）])/g, "$1")
-    .replace(/([（(])\s*[,、，]+/g, "$1")
-    .replace(/[（(]\s*[)）]/g, "");
-  const firstH2 = cleaned.indexOf("## ");
+  // Single shared cleaner (same one the crawler uses) — the old inline regex
+  // set here kept drifting from the build-side rules, so junk that one side
+  // caught still leaked through the other.
+  const cleaned = stripRefMarks(markdown.replace(/^# .+\n?/gm, ""));
+  const firstH2 = cleaned.search(/^##(?!#)/m);
   const trimmed = firstH2 > 0 ? cleaned.slice(firstH2) : cleaned;
-  const blocks = trimmed.split(/^## /m).filter((b) => b.trim());
+  // Tolerate "##标题" (no space) — models drift on heading format, and a missed
+  // split collapses the whole report into an unstructured wall of text.
+  // (?!#) keeps "### 子标题" lines intact for the per-line renderer below.
+  const blocks = trimmed.split(/^##(?!#)\s*/m).filter((b) => b.trim());
   return (
     <div className="space-y-5">
       {blocks.map((block, bi) => {

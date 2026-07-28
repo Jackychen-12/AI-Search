@@ -26,25 +26,28 @@ export default function WeeklyPage() {
     if (r.totalItems > 0) reports.push(r);
   }
 
-  // Attach LLM-generated weekly insight to matching reports
+  // Attach LLM-generated weekly insight to matching reports. Keyed by week
+  // START date (label prefix) — legacy files carry UTC-based labels whose end
+  // date can drift a day from the current Beijing-time labels, so exact
+  // whole-label matching silently dropped insights.
   const insightMap = new Map<string, string>();
   try {
     const files = fs.readdirSync(WEEKLY_INSIGHTS_DIR).filter((f) => f.endsWith(".json"));
     for (const f of files) {
       const raw = fs.readFileSync(path.join(WEEKLY_INSIGHTS_DIR, f), "utf8");
       const data = JSON.parse(raw) as { weekLabel: string; insight: string };
-      if (data.insight) insightMap.set(data.weekLabel, data.insight);
+      if (data.insight) insightMap.set(data.weekLabel.slice(0, 10), data.insight);
     }
   } catch {
     // Directory doesn't exist yet — try legacy single file
     try {
       const raw = fs.readFileSync(WEEKLY_INSIGHT_PATH, "utf8");
       const data = JSON.parse(raw) as { weekLabel: string; insight: string };
-      if (data.insight) insightMap.set(data.weekLabel, data.insight);
+      if (data.insight) insightMap.set(data.weekLabel.slice(0, 10), data.insight);
     } catch { /* no insights available */ }
   }
   for (const r of reports) {
-    const insight = insightMap.get(r.weekLabel);
+    const insight = insightMap.get(r.startDate);
     if (insight) r.weeklyInsight = insight;
   }
 

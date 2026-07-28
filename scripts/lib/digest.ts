@@ -1,7 +1,7 @@
 import fs from "node:fs";
 import { DIGEST_PATH } from "../../lib/config";
 import type { AIItem, Digest, DigestPick } from "../../lib/types";
-import { extractJsonArray, stripRefMarks } from "./llmClean";
+import { extractJsonArray, stripRefMarks } from "../../lib/llmClean";
 import { bjDate } from "./time";
 
 // "AI 每日必读": once per day, ask DeepSeek to pick a few must-reads from the
