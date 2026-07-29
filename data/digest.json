@@ -1,37 +1,37 @@
 {
-  "date": "2026-07-29",
-  "generatedAt": "2026-07-28T23:17:03.582Z",
+  "date": "2026-07-30",
+  "generatedAt": "2026-07-29T23:15:06.545Z",
   "picks": [
     {
-      "title": "Discovering cryptographic weaknesses with Claude",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMie0FVX3lxTE13elp4eC1EQlJMdmtBdDZYaGQ0UXJoVE9sOGNtSDZIRFRYV3pkU1E4TnlNX3BTai1QVjduNVJUampVZGVySmlKRmVtcUFXcDBlNFVTQVdHN2ZiUUdjSlNtLUhXb3JialVEWGprd0tjdUVZQ2dhSFExaUtoTQ?oc=5",
-      "source": "Anthropic",
-      "reason": "AI发现密码学漏洞，安全影响深远"
-    },
-    {
-      "title": "Scientific computing in the age of agentic AI",
-      "sourceUrl": "https://openai.com/index/scientific-computing-agentic-ai",
+      "title": "How enabling two settings tripled our scores on the ARC-AGI-3 benchmark",
+      "sourceUrl": "https://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores",
       "source": "OpenAI",
-      "reason": "AI智能体重塑科学计算范式"
+      "reason": "OpenAI ARC-AGI-3基准测试分数翻三倍，突破性进展"
     },
     {
-      "title": "The OlmoEarth Platform: Geospatial inference at planetary scale",
-      "sourceUrl": "https://huggingface.co/blog/allenai/olmoearth-infrastructure",
-      "source": "HuggingFace Blog",
-      "reason": "行星尺度地理空间推理平台发布"
+      "title": "How GPT-5.6 fuses frontier intelligence with frontier efficiency",
+      "sourceUrl": "https://openai.com/index/gpt-5-6-frontier-intelligence-efficiency",
+      "source": "OpenAI",
+      "reason": "GPT-5.6融合前沿智能与效率，核心模型升级"
     },
     {
-      "title": "Gemini API Managed Agents: 3.6 Flash, hooks, and more",
-      "sourceUrl": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api-3-6-flash-hooks/",
-      "source": "Google AI",
-      "reason": "Gemini API管理智能体能力升级"
+      "title": "Accelerating scientific discovery with ChatGPT for Academic Researchers",
+      "sourceUrl": "https://openai.com/index/chatgpt-for-academic-researchers",
+      "source": "OpenAI",
+      "reason": "免费提供ChatGPT给10万学者，加速科研"
     },
     {
-      "title": "Our position on open-weights models",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1vVU84Xy1NRFVUV1l6QjNvVTl0QncwbVM0bnRpbmNvUFBNSHNaR3lmTlk0cWRHQ3hKVEZkNGNOVVNaMWFfXzVqTVgxeENSdGV0THY2SUF5VjdPS0h5SUZmTzhfdUgyOExsOG5V?oc=5",
-      "source": "Anthropic",
-      "reason": "Anthropic明确开源模型立场引关注"
+      "title": "How a medical database developed at MIT evolved into a global standard of data-sharing",
+      "sourceUrl": "https://news.mit.edu/2026/how-an-mit-database-evolved-into-global-standard-data-sharing-0729",
+      "source": "MIT News",
+      "reason": "MIT PhysioNet平台25年，医疗数据共享里程碑"
+    },
+    {
+      "title": "We’re launching Lyria 3.5 in Google Flow Music, with advances across musicality, lyrics, vocals, and creative control",
+      "sourceUrl": "https://deepmind.google/blog/were-launching-lyria-35-in-google-flow-music-with-advances-across-musicality-lyrics-vocals-and-creative-control/",
+      "source": "Google DeepMind",
+      "reason": "Google Lyria 3.5音乐AI，多维度创作突破"
     }
   ],
-  "trendSummary": "本周AI圈聚焦密码学漏洞发现、科学计算智能化、地理空间推理与长文本推理加速，同时边缘计算、搜索AI模式及音频合成创新也备受关注。"
+  "trendSummary": "本周AI圈聚焦于模型效率与专业落地的双线突破，从音乐生成、科学加速到医疗诊断，前沿技术正快速渗透垂直领域，同时通过算法优化实现算力与性能的平衡。"
 }
