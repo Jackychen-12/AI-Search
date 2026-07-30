@@ -1,37 +1,37 @@
 {
-  "date": "2026-07-30",
-  "generatedAt": "2026-07-29T23:15:06.545Z",
+  "date": "2026-07-31",
+  "generatedAt": "2026-07-30T23:19:08.142Z",
   "picks": [
     {
-      "title": "How enabling two settings tripled our scores on the ARC-AGI-3 benchmark",
-      "sourceUrl": "https://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores",
+      "title": "Advancing the price-performance frontier with GPT-5.6",
+      "sourceUrl": "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6",
       "source": "OpenAI",
-      "reason": "OpenAI ARC-AGI-3基准测试分数翻三倍，突破性进展"
+      "reason": "GPT-5.6价格优化，影响AI应用成本"
     },
     {
-      "title": "How GPT-5.6 fuses frontier intelligence with frontier efficiency",
-      "sourceUrl": "https://openai.com/index/gpt-5-6-frontier-intelligence-efficiency",
-      "source": "OpenAI",
-      "reason": "GPT-5.6融合前沿智能与效率，核心模型升级"
-    },
-    {
-      "title": "Accelerating scientific discovery with ChatGPT for Academic Researchers",
-      "sourceUrl": "https://openai.com/index/chatgpt-for-academic-researchers",
-      "source": "OpenAI",
-      "reason": "免费提供ChatGPT给10万学者，加速科研"
-    },
-    {
-      "title": "How a medical database developed at MIT evolved into a global standard of data-sharing",
-      "sourceUrl": "https://news.mit.edu/2026/how-an-mit-database-evolved-into-global-standard-data-sharing-0729",
-      "source": "MIT News",
-      "reason": "MIT PhysioNet平台25年，医疗数据共享里程碑"
-    },
-    {
-      "title": "We’re launching Lyria 3.5 in Google Flow Music, with advances across musicality, lyrics, vocals, and creative control",
-      "sourceUrl": "https://deepmind.google/blog/were-launching-lyria-35-in-google-flow-music-with-advances-across-musicality-lyrics-vocals-and-creative-control/",
+      "title": "Gemini Robotics ER 2: powering robotics with video understanding, task orchestration, and multi-robot collaboration",
+      "sourceUrl": "https://deepmind.google/blog/gemini-robotics-er-2-powering-robotics-with-video-understanding-task-orchestration-and-multi-robot-collaboration/",
       "source": "Google DeepMind",
-      "reason": "Google Lyria 3.5音乐AI，多维度创作突破"
+      "reason": "视频理解驱动多机器人协作，前沿突破"
+    },
+    {
+      "title": "Investigating three real-world incidents in our cybersecurity evaluations",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE4zdnpHN3VXRHJaYjZ1T01TOUZqaXJHa1VoZC1TTUZaRkk4dnhfdkhHT2xpTUpwVXZfYTFSZHE4Vk5icGh2RmF5aHhKcDlicWJ5Sy1SalVLOGhXVlhVcFJGbFBqSG4xSG5KaWh5dnlWQTQ1NUR4THQxM05nanBUVTg?oc=5",
+      "source": "Anthropic",
+      "reason": "真实世界网络安全案例，实用价值高"
+    },
+    {
+      "title": "Echoverse: Deep, evolving environments for computer-use agents",
+      "sourceUrl": "https://www.microsoft.com/en-us/research/blog/echoverse-deep-evolving-environments-for-computer-use-agents/",
+      "source": "Microsoft Research",
+      "reason": "复杂工作流AI代理环境，研究新方向"
+    },
+    {
+      "title": "GPU Management: Why Idle GPUs Are the New Grounded Aircraft",
+      "sourceUrl": "https://huggingface.co/blog/Dharma-AI/gpu-management",
+      "source": "HuggingFace Blog",
+      "reason": "GPU闲置问题，资源管理关键洞察"
     }
   ],
-  "trendSummary": "本周AI圈聚焦于模型效率与专业落地的双线突破，从音乐生成、科学加速到医疗诊断，前沿技术正快速渗透垂直领域，同时通过算法优化实现算力与性能的平衡。"
+  "trendSummary": "本周AI圈聚焦于安全评估、机器人协作与模型效率提升，多篇研究强调从现实事故到政策落地的全链条优化，同时GPU闲置问题与降维技术引发行业反思。"
 }
