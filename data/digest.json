@@ -1,37 +1,37 @@
 {
-  "date": "2026-07-31",
-  "generatedAt": "2026-07-30T23:19:08.142Z",
+  "date": "2026-08-01",
+  "generatedAt": "2026-07-31T23:16:30.854Z",
   "picks": [
     {
-      "title": "Advancing the price-performance frontier with GPT-5.6",
-      "sourceUrl": "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6",
+      "title": "Building abundant intelligence",
+      "sourceUrl": "https://openai.com/index/building-abundant-intelligence",
       "source": "OpenAI",
-      "reason": "GPT-5.6价格优化，影响AI应用成本"
+      "reason": "OpenAI全栈策略降低AI成本，影响行业格局，值得关注。"
     },
     {
-      "title": "Gemini Robotics ER 2: powering robotics with video understanding, task orchestration, and multi-robot collaboration",
-      "sourceUrl": "https://deepmind.google/blog/gemini-robotics-er-2-powering-robotics-with-video-understanding-task-orchestration-and-multi-robot-collaboration/",
-      "source": "Google DeepMind",
-      "reason": "视频理解驱动多机器人协作，前沿突破"
+      "title": "Disrupting a Criminal Scam Operation",
+      "sourceUrl": "https://openai.com/index/disrupting-malicious-uses-of-ai-criminal-scam-operation",
+      "source": "OpenAI",
+      "reason": "AI打击犯罪实际案例，展示技术社会价值，新闻性强。"
     },
     {
       "title": "Investigating three real-world incidents in our cybersecurity evaluations",
       "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE4zdnpHN3VXRHJaYjZ1T01TOUZqaXJHa1VoZC1TTUZaRkk4dnhfdkhHT2xpTUpwVXZfYTFSZHE4Vk5icGh2RmF5aHhKcDlicWJ5Sy1SalVLOGhXVlhVcFJGbFBqSG4xSG5KaWh5dnlWQTQ1NUR4THQxM05nanBUVTg?oc=5",
       "source": "Anthropic",
-      "reason": "真实世界网络安全案例，实用价值高"
+      "reason": "Anthropic网络安全评估实战，对安全研究有重要参考。"
     },
     {
-      "title": "Echoverse: Deep, evolving environments for computer-use agents",
-      "sourceUrl": "https://www.microsoft.com/en-us/research/blog/echoverse-deep-evolving-environments-for-computer-use-agents/",
-      "source": "Microsoft Research",
-      "reason": "复杂工作流AI代理环境，研究新方向"
+      "title": "Inducing language models to assert their own consciousness restores human beliefs and values",
+      "sourceUrl": "http://arxiv.org/abs/2607.28607v1",
+      "source": "arXiv",
+      "reason": "探讨AI意识与人类价值观，伦理前沿话题，引发深思。"
     },
     {
-      "title": "GPU Management: Why Idle GPUs Are the New Grounded Aircraft",
-      "sourceUrl": "https://huggingface.co/blog/Dharma-AI/gpu-management",
-      "source": "HuggingFace Blog",
-      "reason": "GPU闲置问题，资源管理关键洞察"
+      "title": "OSReward: Instituting Standardized Evaluation for Cross-Platform Computer-Use Reward Models",
+      "sourceUrl": "http://arxiv.org/abs/2607.28609v1",
+      "source": "arXiv",
+      "reason": "跨平台计算机使用智能体评估标准化，推动Agent发展。"
     }
   ],
-  "trendSummary": "本周AI圈聚焦于安全评估、机器人协作与模型效率提升，多篇研究强调从现实事故到政策落地的全链条优化，同时GPU闲置问题与降维技术引发行业反思。"
+  "trendSummary": "本周AI圈聚焦欧洲责任AI推进、智能普及与劳动力转型，同时强化网络安全实战应对，产学研政联动加速，从理论到应用全面升温。"
 }
