@@ -1,37 +1,37 @@
 {
-  "date": "2026-08-01",
-  "generatedAt": "2026-07-31T23:16:30.854Z",
+  "date": "2026-08-02",
+  "generatedAt": "2026-08-01T23:13:03.184Z",
   "picks": [
     {
-      "title": "Building abundant intelligence",
-      "sourceUrl": "https://openai.com/index/building-abundant-intelligence",
+      "title": "Ten advances in mathematics and theoretical computer science",
+      "sourceUrl": "https://openai.com/index/ten-advances-in-mathematics",
       "source": "OpenAI",
-      "reason": "OpenAI全栈策略降低AI成本，影响行业格局，值得关注。"
-    },
-    {
-      "title": "Disrupting a Criminal Scam Operation",
-      "sourceUrl": "https://openai.com/index/disrupting-malicious-uses-of-ai-criminal-scam-operation",
-      "source": "OpenAI",
-      "reason": "AI打击犯罪实际案例，展示技术社会价值，新闻性强。"
+      "reason": "OpenAI在数学和理论计算机科学取得突破，学术价值高。"
     },
     {
       "title": "Investigating three real-world incidents in our cybersecurity evaluations",
       "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE4zdnpHN3VXRHJaYjZ1T01TOUZqaXJHa1VoZC1TTUZaRkk4dnhfdkhHT2xpTUpwVXZfYTFSZHE4Vk5icGh2RmF5aHhKcDlicWJ5Sy1SalVLOGhXVlhVcFJGbFBqSG4xSG5KaWh5dnlWQTQ1NUR4THQxM05nanBUVTg?oc=5",
       "source": "Anthropic",
-      "reason": "Anthropic网络安全评估实战，对安全研究有重要参考。"
+      "reason": "Anthropic网络安全评估实战案例，具行业参考意义。"
     },
     {
-      "title": "Inducing language models to assert their own consciousness restores human beliefs and values",
-      "sourceUrl": "http://arxiv.org/abs/2607.28607v1",
-      "source": "arXiv",
-      "reason": "探讨AI意识与人类价值观，伦理前沿话题，引发深思。"
+      "title": "Disrupting a Criminal Scam Operation",
+      "sourceUrl": "https://openai.com/index/disrupting-malicious-uses-of-ai-criminal-scam-operation",
+      "source": "OpenAI",
+      "reason": "AI打击犯罪实操，展示技术社会正面影响。"
     },
     {
       "title": "OSReward: Instituting Standardized Evaluation for Cross-Platform Computer-Use Reward Models",
       "sourceUrl": "http://arxiv.org/abs/2607.28609v1",
       "source": "arXiv",
-      "reason": "跨平台计算机使用智能体评估标准化，推动Agent发展。"
+      "reason": "跨平台计算机使用模型评估标准化，推动智能体发展。"
+    },
+    {
+      "title": "Building abundant intelligence",
+      "sourceUrl": "https://openai.com/index/building-abundant-intelligence",
+      "source": "OpenAI",
+      "reason": "AI全栈发展策略，涵盖能力与成本，前瞻性强。"
     }
   ],
-  "trendSummary": "本周AI圈聚焦欧洲责任AI推进、智能普及与劳动力转型，同时强化网络安全实战应对，产学研政联动加速，从理论到应用全面升温。"
+  "trendSummary": "本周AI圈聚焦于安全治理与前沿突破并行，欧洲推进责任AI落地，企业加速人才与基础设施布局，同时模型迭代、网络安全实战和数学理论创新持续牵引行业热度。"
 }
