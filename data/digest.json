@@ -1,37 +1,37 @@
 {
-  "date": "2026-08-04",
-  "generatedAt": "2026-08-03T23:27:57.648Z",
+  "date": "2026-08-05",
+  "generatedAt": "2026-08-04T23:19:12.794Z",
   "picks": [
     {
-      "title": "How we built a realtime system for responsive voice AI in six months",
-      "sourceUrl": "https://openai.com/index/continuous-voice-interaction-with-gpt-live",
+      "title": "Apple is getting this wrong",
+      "sourceUrl": "https://openai.com/index/apple-is-getting-this-wrong",
       "source": "OpenAI",
-      "reason": "实时语音AI系统构建细节，技术含量高且实用性强。"
+      "reason": "OpenAI回应苹果诉讼，涉及巨头博弈，关注度高"
     },
     {
-      "title": "Orchard: An open framework for scalable agentic AI",
-      "sourceUrl": "https://www.microsoft.com/en-us/research/blog/orchard-an-open-framework-for-scalable-agentic-ai/",
-      "source": "Microsoft Research",
-      "reason": "开源智能体框架，推动研究社区规模化发展。"
+      "title": "Solving the solvent problem",
+      "sourceUrl": "https://news.mit.edu/2026/solving-solvent-problem-sodium-metal-batteries-0804",
+      "source": "MIT News",
+      "reason": "钠金属电池突破，或改变能源存储格局"
     },
     {
-      "title": "Ten advances in mathematics and theoretical computer science",
-      "sourceUrl": "https://openai.com/index/ten-advances-in-mathematics",
+      "title": "AI Leaders Propose SAFE Guidelines for Cybersecurity Transparency",
+      "sourceUrl": "https://blogs.nvidia.com/blog/open-secure-ai-alliance-contributions/",
+      "source": "NVIDIA",
+      "reason": "AI安全透明度指南，行业标准新动向"
+    },
+    {
+      "title": "Third-party cyber evaluations involving OpenAI models",
+      "sourceUrl": "https://openai.com/index/third-party-cyber-evaluations-involving-openai-models",
       "source": "OpenAI",
-      "reason": "数学理论突破，展示AI前沿基础研究进展。"
+      "reason": "第三方网络安全评估，AI安全关键议题"
     },
     {
-      "title": "Understanding Alignment in Multimodal LLMs: A Comprehensive Study",
-      "sourceUrl": "https://machinelearning.apple.com/research/alignment-multimodal-llms",
-      "source": "Apple ML Research",
-      "reason": "多模态对齐系统研究，对模型优化具指导意义。"
-    },
-    {
-      "title": "OpenAI's super PAC is funding AI-generated news site attacking industry critics",
-      "sourceUrl": "https://www.modelrepublic.org/articles/the-reporters-at-this-news-site-are-ai-bots.-openai%E2%80%99s-super-pac-appears-to-be-using-it-to-advance-its-political-agenda",
-      "source": "Hacker News",
-      "reason": "AI政治影响争议，涉及行业伦理与公众信任。"
+      "title": "As AI Increases Demands on Memory, Storage Steps Up",
+      "sourceUrl": "https://blogs.nvidia.com/blog/ai-storage-fms/",
+      "source": "NVIDIA",
+      "reason": "AI算力需求催生存储革新，硬件趋势前瞻"
     }
   ],
-  "trendSummary": "本周AI圈聚焦于智能体架构与实时语音系统的落地实践，多模态对齐研究同步深入，同时开源框架与模型迭代持续加速，安全与效率议题也引发热议。"
+  "trendSummary": "本周AI圈聚焦安全与落地，从模型评估到政策参与，行业正加速构建透明框架，同时探索边缘部署与存储升级，医疗辅助的差异化价值也引发关注。"
 }
