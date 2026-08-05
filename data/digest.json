@@ -1,37 +1,37 @@
 {
-  "date": "2026-08-05",
-  "generatedAt": "2026-08-04T23:19:12.794Z",
+  "date": "2026-08-06",
+  "generatedAt": "2026-08-05T23:18:20.188Z",
   "picks": [
     {
-      "title": "Apple is getting this wrong",
-      "sourceUrl": "https://openai.com/index/apple-is-getting-this-wrong",
+      "title": "Third-party cyber evaluations involving OpenAI models",
+      "sourceUrl": "https://openai.com/index/third-party-cyber-evaluations-involving-openai-models",
       "source": "OpenAI",
-      "reason": "OpenAI回应苹果诉讼，涉及巨头博弈，关注度高"
+      "reason": "OpenAI官方披露第三方网络安全评估，关乎模型安全与信任，必读。"
+    },
+    {
+      "title": "Test-Time Scaling in Reasoning LLMs: Inference Regimes, Evaluation, and Reproducibility",
+      "sourceUrl": "http://arxiv.org/abs/2608.04001v1",
+      "source": "arXiv",
+      "reason": "测试时扩展是推理LLM核心热点，系统评估与复现指南极具实用价值。"
+    },
+    {
+      "title": "ParVL: Parallel Scaling and Expandable Compute Allocation for Multimodal LLMs",
+      "sourceUrl": "http://arxiv.org/abs/2608.04010v1",
+      "source": "arXiv",
+      "reason": "多模态LLM并行扩展新方法，直击计算分配效率痛点，前沿且实用。"
+    },
+    {
+      "title": "WorldCup Arena: Prospective, Leakage-Free Evaluation of Frontier LLMs on a Live Tournament",
+      "sourceUrl": "http://arxiv.org/abs/2608.04008v1",
+      "source": "arXiv",
+      "reason": "基于实时赛事的前瞻性评测，规避数据泄漏，评测方法论创新。"
     },
     {
       "title": "Solving the solvent problem",
       "sourceUrl": "https://news.mit.edu/2026/solving-solvent-problem-sodium-metal-batteries-0804",
       "source": "MIT News",
-      "reason": "钠金属电池突破，或改变能源存储格局"
-    },
-    {
-      "title": "AI Leaders Propose SAFE Guidelines for Cybersecurity Transparency",
-      "sourceUrl": "https://blogs.nvidia.com/blog/open-secure-ai-alliance-contributions/",
-      "source": "NVIDIA",
-      "reason": "AI安全透明度指南，行业标准新动向"
-    },
-    {
-      "title": "Third-party cyber evaluations involving OpenAI models",
-      "sourceUrl": "https://openai.com/index/third-party-cyber-evaluations-involving-openai-models",
-      "source": "OpenAI",
-      "reason": "第三方网络安全评估，AI安全关键议题"
-    },
-    {
-      "title": "As AI Increases Demands on Memory, Storage Steps Up",
-      "sourceUrl": "https://blogs.nvidia.com/blog/ai-storage-fms/",
-      "source": "NVIDIA",
-      "reason": "AI算力需求催生存储革新，硬件趋势前瞻"
+      "reason": "MIT突破钠金属电池电解质难题，推动可持续储能，跨界重要进展。"
     }
   ],
-  "trendSummary": "本周AI圈聚焦安全与落地，从模型评估到政策参与，行业正加速构建透明框架，同时探索边缘部署与存储升级，医疗辅助的差异化价值也引发关注。"
+  "trendSummary": "本周AI圈从扩散模型优化到多模态扩展，再到推理时缩放与音乐生成，研究焦点明显转向效率提升与前沿模型评估，同时兼顾医疗图像等垂直应用，整体呈现务实与前瞻并重的态势。"
 }
