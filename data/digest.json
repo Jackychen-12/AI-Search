@@ -1,37 +1,37 @@
 {
-  "date": "2026-08-06",
-  "generatedAt": "2026-08-05T23:18:20.188Z",
+  "date": "2026-08-07",
+  "generatedAt": "2026-08-07T01:34:10.913Z",
   "picks": [
     {
-      "title": "Third-party cyber evaluations involving OpenAI models",
-      "sourceUrl": "https://openai.com/index/third-party-cyber-evaluations-involving-openai-models",
+      "title": "WeatherNext: AI model achieves breakthrough in forecasting cyclones",
+      "sourceUrl": "https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones/",
+      "source": "Google DeepMind",
+      "reason": "天气预报突破，AI落地气象科学，实用价值高。"
+    },
+    {
+      "title": "Improving GPT‑5.6 Sol in ChatGPT—and expanding access to GPT-5.6 Luna for free users",
+      "sourceUrl": "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt",
       "source": "OpenAI",
-      "reason": "OpenAI官方披露第三方网络安全评估，关乎模型安全与信任，必读。"
+      "reason": "GPT-5.6重大更新，免费用户扩权，关注度高。"
     },
     {
-      "title": "Test-Time Scaling in Reasoning LLMs: Inference Regimes, Evaluation, and Reproducibility",
-      "sourceUrl": "http://arxiv.org/abs/2608.04001v1",
-      "source": "arXiv",
-      "reason": "测试时扩展是推理LLM核心热点，系统评估与复现指南极具实用价值。"
+      "title": "From asking to doing: How the world is putting ChatGPT to work",
+      "sourceUrl": "https://openai.com/index/how-the-world-is-putting-chatgpt-to-work",
+      "source": "OpenAI",
+      "reason": "全球ChatGPT应用数据，揭示AI实际使用趋势。"
     },
     {
-      "title": "ParVL: Parallel Scaling and Expandable Compute Allocation for Multimodal LLMs",
-      "sourceUrl": "http://arxiv.org/abs/2608.04010v1",
-      "source": "arXiv",
-      "reason": "多模态LLM并行扩展新方法，直击计算分配效率痛点，前沿且实用。"
+      "title": "Into the Omniverse: How Open World Models Push the Frontier of Physical AI",
+      "sourceUrl": "https://blogs.nvidia.com/blog/open-world-models-physical-ai/",
+      "source": "NVIDIA",
+      "reason": "NVIDIA物理AI开放世界模型，前沿技术方向。"
     },
     {
-      "title": "WorldCup Arena: Prospective, Leakage-Free Evaluation of Frontier LLMs on a Live Tournament",
-      "sourceUrl": "http://arxiv.org/abs/2608.04008v1",
-      "source": "arXiv",
-      "reason": "基于实时赛事的前瞻性评测，规避数据泄漏，评测方法论创新。"
-    },
-    {
-      "title": "Solving the solvent problem",
-      "sourceUrl": "https://news.mit.edu/2026/solving-solvent-problem-sodium-metal-batteries-0804",
-      "source": "MIT News",
-      "reason": "MIT突破钠金属电池电解质难题，推动可持续储能，跨界重要进展。"
+      "title": "Locking Pretrained Weights via Deep Low-Rank Residual Distillation",
+      "sourceUrl": "https://machinelearning.apple.com/research/locking-pretrained-weights",
+      "source": "Apple ML Research",
+      "reason": "权重锁定新方法，提升开源模型安全性，值得关注。"
     }
   ],
-  "trendSummary": "本周AI圈从扩散模型优化到多模态扩展，再到推理时缩放与音乐生成，研究焦点明显转向效率提升与前沿模型评估，同时兼顾医疗图像等垂直应用，整体呈现务实与前瞻并重的态势。"
+  "trendSummary": "本周AI圈聚焦于模型能力向实用场景的纵深拓展，从气象预测到物理世界模拟均有突破，同时关注开源推理生态与心理健康应用，整体趋势是让AI从问答走向解决复杂现实问题。"
 }
