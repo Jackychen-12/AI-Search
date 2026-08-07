@@ -1,37 +1,37 @@
 {
-  "date": "2026-08-07",
-  "generatedAt": "2026-08-07T01:34:10.913Z",
+  "date": "2026-08-08",
+  "generatedAt": "2026-08-07T22:56:13.609Z",
   "picks": [
     {
-      "title": "WeatherNext: AI model achieves breakthrough in forecasting cyclones",
-      "sourceUrl": "https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones/",
-      "source": "Google DeepMind",
-      "reason": "天气预报突破，AI落地气象科学，实用价值高。"
-    },
-    {
-      "title": "Improving GPT‑5.6 Sol in ChatGPT—and expanding access to GPT-5.6 Luna for free users",
-      "sourceUrl": "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt",
+      "title": "Responding to the next frontier of critical cyber capabilities",
+      "sourceUrl": "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities",
       "source": "OpenAI",
-      "reason": "GPT-5.6重大更新，免费用户扩权，关注度高。"
+      "reason": "OpenAI公布Astra网络安全评估，关乎AI安全前沿，重要性高。"
     },
     {
-      "title": "From asking to doing: How the world is putting ChatGPT to work",
-      "sourceUrl": "https://openai.com/index/how-the-world-is-putting-chatgpt-to-work",
-      "source": "OpenAI",
-      "reason": "全球ChatGPT应用数据，揭示AI实际使用趋势。"
-    },
-    {
-      "title": "Into the Omniverse: How Open World Models Push the Frontier of Physical AI",
-      "sourceUrl": "https://blogs.nvidia.com/blog/open-world-models-physical-ai/",
-      "source": "NVIDIA",
-      "reason": "NVIDIA物理AI开放世界模型，前沿技术方向。"
-    },
-    {
-      "title": "Locking Pretrained Weights via Deep Low-Rank Residual Distillation",
-      "sourceUrl": "https://machinelearning.apple.com/research/locking-pretrained-weights",
+      "title": "Beyond Next-Token Prediction: A Performance Characterization of Diffusion versus Autoregressive Language Models",
+      "sourceUrl": "https://machinelearning.apple.com/research/diffusion-autoregressive-performance",
       "source": "Apple ML Research",
-      "reason": "权重锁定新方法，提升开源模型安全性，值得关注。"
+      "reason": "苹果对比扩散与自回归语言模型，挑战主流范式，具前瞻性。"
+    },
+    {
+      "title": "TutorMoments: Do AI tutors know when to help and when to hold back?",
+      "sourceUrl": "https://huggingface.co/blog/allenai/tutormoments",
+      "source": "HuggingFace Blog",
+      "reason": "探讨AI导师干预时机，对教育应用设计有直接指导价值。"
+    },
+    {
+      "title": "AMD acquires Taalas to boost inference performance by etching models in silicon",
+      "sourceUrl": "https://www.theregister.com/systems/2026/08/06/amd-acquires-ai-chip-startup-taalas-to-boost-inference-performance-by-etching-models-into-silicon/5284344",
+      "source": "Hacker News",
+      "reason": "AMD收购Taalas提升推理性能，硬件创新影响AI落地效率。"
+    },
+    {
+      "title": "The Low Frequency Trap: Video Language Models Fail at Simple Event Bookkeeping",
+      "sourceUrl": "http://arxiv.org/abs/2608.06361v1",
+      "source": "arXiv",
+      "reason": "揭示视频语言模型在事件记录上的盲点，推动评测方法改进。"
     }
   ],
-  "trendSummary": "本周AI圈聚焦于模型能力向实用场景的纵深拓展，从气象预测到物理世界模拟均有突破，同时关注开源推理生态与心理健康应用，整体趋势是让AI从问答走向解决复杂现实问题。"
+  "trendSummary": "本周AI圈聚焦于AI教育、网络安全及硬件创新，同时探讨模型推理效率与信任机制，AMD收购彰显硅刻模型趋势，行业正从单纯预测转向更智能的决策与适配。"
 }
