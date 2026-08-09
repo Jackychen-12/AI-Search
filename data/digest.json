@@ -1,37 +1,37 @@
 {
-  "date": "2026-08-09",
-  "generatedAt": "2026-08-08T22:48:40.580Z",
+  "date": "2026-08-10",
+  "generatedAt": "2026-08-09T22:51:36.793Z",
   "picks": [
     {
       "title": "Responding to the next frontier of critical cyber capabilities",
       "sourceUrl": "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities",
       "source": "OpenAI",
-      "reason": "OpenAI发布网络安全评估，关乎AI安全前沿，影响重大。"
-    },
-    {
-      "title": "DeepSeek V4 Flash 0731",
-      "sourceUrl": "https://arcprize.org/results/deepseek-v4-flash-0731",
-      "source": "Hacker News",
-      "reason": "DeepSeek新版本引发社区热议，模型迭代值得关注。"
+      "reason": "OpenAI公布前沿网络安全评估，关乎AI安全关键议题"
     },
     {
       "title": "TutorMoments: Do AI tutors know when to help and when to hold back?",
       "sourceUrl": "https://huggingface.co/blog/allenai/tutormoments",
       "source": "HuggingFace Blog",
-      "reason": "探讨AI导师干预时机，教育应用关键问题。"
+      "reason": "探讨AI教师干预时机，直击教育应用核心挑战"
     },
     {
       "title": "Arbitrage: Efficient Reasoning via Advantage-Aware Speculation",
       "sourceUrl": "https://machinelearning.apple.com/research/arbitrage-efficient-reasoning",
       "source": "Apple ML Research",
-      "reason": "苹果新方法提升推理效率，具实用价值。"
+      "reason": "苹果新研究提升推理效率，推动大模型实用化"
     },
     {
-      "title": "Denmark Requires Oral Defenses for Students' Written Work to Counter AI Cheating",
-      "sourceUrl": "https://mezha.net/eng/bukvy/ca117584_denmark_requires_oral/",
+      "title": "Oracle bans AI-generated code from OpenJDK",
+      "sourceUrl": "https://app.dealroom.co/news/feed/oracle-bans-ai-generated-code-from-openjdk-despite-ellison-s-claim-oracle-isn-t-writing-its-own-code",
       "source": "Hacker News",
-      "reason": "丹麦用口头答辩防AI作弊，教育政策创新。"
+      "reason": "Oracle禁用AI生成代码，引发开源社区重大争议"
+    },
+    {
+      "title": "Improving Fable 5's biology safeguards",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMieEFVX3lxTE95RXUtcVFIR1hIbmVDRk5sRDZEVWZSRTlXNXRMU1RXQk1JdE1kRzBMR3RuOGhzOVRZdEs2bGRIX3JIa1ZZbjlCbGx5RzlZRGdQZ3RwLXVidjZyZUpXeU1sM0hYeTQ2QW0zOXlCWnJQenFhZ0dEUFNFUA?oc=5",
+      "source": "Anthropic",
+      "reason": "Anthropic强化生物安全防护，体现前沿责任意识"
     }
   ],
-  "trendSummary": "本周AI圈聚焦于AI落地与治理的双重变奏，从区域算力基建到教育防作弊，再到模型推理效率革新，行业正加速探索实用化与安全边界。"
+  "trendSummary": "本周AI圈聚焦于基础设施扩张与模型能力深化，从区域智算中心落地到AI教学边界探讨，再到开源模型迭代与推理效率优化，行业正加速从通用生成转向精准落地与安全治理。"
 }
