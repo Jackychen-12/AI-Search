@@ -1,37 +1,37 @@
 {
-  "date": "2026-08-10",
-  "generatedAt": "2026-08-09T22:51:36.793Z",
+  "date": "2026-08-11",
+  "generatedAt": "2026-08-10T22:57:14.192Z",
   "picks": [
     {
-      "title": "Responding to the next frontier of critical cyber capabilities",
-      "sourceUrl": "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities",
-      "source": "OpenAI",
-      "reason": "OpenAI公布前沿网络安全评估，关乎AI安全关键议题"
-    },
-    {
-      "title": "TutorMoments: Do AI tutors know when to help and when to hold back?",
-      "sourceUrl": "https://huggingface.co/blog/allenai/tutormoments",
-      "source": "HuggingFace Blog",
-      "reason": "探讨AI教师干预时机，直击教育应用核心挑战"
-    },
-    {
-      "title": "Arbitrage: Efficient Reasoning via Advantage-Aware Speculation",
-      "sourceUrl": "https://machinelearning.apple.com/research/arbitrage-efficient-reasoning",
-      "source": "Apple ML Research",
-      "reason": "苹果新研究提升推理效率，推动大模型实用化"
-    },
-    {
-      "title": "Oracle bans AI-generated code from OpenJDK",
-      "sourceUrl": "https://app.dealroom.co/news/feed/oracle-bans-ai-generated-code-from-openjdk-despite-ellison-s-claim-oracle-isn-t-writing-its-own-code",
-      "source": "Hacker News",
-      "reason": "Oracle禁用AI生成代码，引发开源社区重大争议"
-    },
-    {
-      "title": "Improving Fable 5's biology safeguards",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMieEFVX3lxTE95RXUtcVFIR1hIbmVDRk5sRDZEVWZSRTlXNXRMU1RXQk1JdE1kRzBMR3RuOGhzOVRZdEs2bGRIX3JIa1ZZbjlCbGx5RzlZRGdQZ3RwLXVidjZyZUpXeU1sM0hYeTQ2QW0zOXlCWnJQenFhZ0dEUFNFUA?oc=5",
+      "title": "67% of the zeroes are on the line.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE50bkN0aTVmLWRNb3J0aUlwXzRtRkZ4Mkp0R0gzQ1V3SVNzZHY1cXdMRmpXOFl6WjAzVTVqWnNGZW9RcUJENmplRFZSdV96cndsUFJQc2lQeVk3cGR1LUMzY3R3NnU3MkJWb3kzVWE2UUVlU1pLbVhzanp0VlZiMlU?oc=5",
       "source": "Anthropic",
-      "reason": "Anthropic强化生物安全防护，体现前沿责任意识"
+      "reason": "黎曼猜想重大突破，67%零点在临界线上，数学界里程碑"
+    },
+    {
+      "title": "Learning more about Claude's mathematical capabilities",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5hN2tYeFF6SEtkVVhzVURqcHVqZ0VPVExEUnlFX21BcmNLaFhqT1BEU25IVS15akdoYVZ3djRLc3B5OXIyRnNxZkcxQUd4TEhXaUlpZzNwZlhuUVk?oc=5",
+      "source": "Anthropic",
+      "reason": "深入解析Claude数学能力，展示推理与解题新进展"
+    },
+    {
+      "title": "What building an AI-native finance function taught me",
+      "sourceUrl": "https://openai.com/index/building-an-ai-native-finance-function",
+      "source": "OpenAI",
+      "reason": "OpenAI CFO亲述AI原生财务转型经验，企业落地参考价值高"
+    },
+    {
+      "title": "With a feel for physics, AI models simulate a wider range of real-world scenarios",
+      "sourceUrl": "https://news.mit.edu/2026/ai-models-simulate-wider-range-of-real-world-scenarios-0810",
+      "source": "MIT News",
+      "reason": "GeoPT让AI模拟真实物理场景，拓宽模型应用边界"
+    },
+    {
+      "title": "Making Knowledge Distillation Cheap Enough to Run at Scale",
+      "sourceUrl": "https://huggingface.co/blog/MultiverseComputingCAI/efficient-knowledge-distillation",
+      "source": "HuggingFace Blog",
+      "reason": "知识蒸馏成本降低，推动大模型高效规模化部署"
     }
   ],
-  "trendSummary": "本周AI圈聚焦于基础设施扩张与模型能力深化，从区域智算中心落地到AI教学边界探讨，再到开源模型迭代与推理效率优化，行业正加速从通用生成转向精准落地与安全治理。"
+  "trendSummary": "本周AI圈聚焦物理感知模拟、数学推理突破与多语种语音落地，同时金融与营销场景的AI应用加速，开源模型和基础设施布局也持续升温。"
 }
