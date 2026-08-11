@@ -23,16 +23,16 @@ export default function SortTabs() {
   return (
     <div className="flex items-center mb-3 flex-wrap gap-3">
       <div className="flex items-center gap-3 flex-wrap">
-        <div className="flex items-center gap-1 text-sm">
+        <div className="flex items-center gap-1 p-1 bg-gray-100 dark:bg-gray-800 rounded-full text-sm">
           {modeOpts.map((o) => (
             <button
               key={o.key}
               onClick={() => update({ mode: o.key })}
               className={
-                "px-3 h-8 inline-flex items-center rounded-md transition-colors duration-150 " +
+                "px-3 h-7 inline-flex items-center rounded-full transition-all duration-200 text-[13px] font-medium " +
                 (state.mode === o.key
-                  ? "bg-brand-500 text-white"
-                  : "text-gray-600 dark:text-gray-300 hover:text-brand-600 hover:bg-brand-50 dark:hover:bg-gray-800")
+                  ? "bg-brand-500 text-white shadow-sm"
+                  : "text-gray-600 dark:text-gray-300 hover:text-brand-600")
               }
             >
               {o.label}
@@ -40,16 +40,16 @@ export default function SortTabs() {
           ))}
         </div>
 
-        <div className="flex items-center gap-1 text-sm">
+        <div className="flex items-center gap-1 p-1 bg-gray-100 dark:bg-gray-800 rounded-full text-sm">
           {sinceOpts.map((o) => (
             <button
               key={o.key}
               onClick={() => update({ since: o.key })}
               className={
-                "px-3 h-8 inline-flex items-center rounded-md transition-colors duration-150 " +
+                "px-3 h-7 inline-flex items-center rounded-full transition-all duration-200 text-[13px] font-medium " +
                 (state.since === o.key
-                  ? "bg-brand-500 text-white"
-                  : "text-gray-600 dark:text-gray-300 hover:text-brand-600 hover:bg-brand-50 dark:hover:bg-gray-800")
+                  ? "bg-brand-500 text-white shadow-sm"
+                  : "text-gray-600 dark:text-gray-300 hover:text-brand-600")
               }
             >
               {o.label}

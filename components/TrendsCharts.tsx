@@ -1,11 +1,25 @@
 "use client";
 
-import { useState, useMemo } from "react";
+import { useState, useMemo, useEffect } from "react";
+import { animate } from "framer-motion";
 import LineChart from "./LineChart";
 import type { DailyCount, TopicTrend } from "@/lib/trends";
 import { CATEGORY_COLORS } from "@/lib/trends";
 import { CATEGORIES } from "@/lib/categories";
 import type { CategoryKey } from "@/lib/types";
+
+function AnimatedNum({ value }: { value: number }) {
+  const [display, setDisplay] = useState(0);
+  useEffect(() => {
+    const controls = animate(0, value, {
+      duration: 1.2,
+      ease: [0.16, 1, 0.3, 1],
+      onUpdate: (v) => setDisplay(Math.round(v)),
+    });
+    return () => controls.stop();
+  }, [value]);
+  return <>{display.toLocaleString()}</>;
+}
 
 const TOPIC_COLORS = ["#3b6cff", "#10b981", "#f59e0b", "#8b5cf6", "#ec4899", "#06b6d4", "#ef4444", "#84cc16"];
 
@@ -86,14 +100,14 @@ export default function TrendsCharts({
   }
 
   const tab = (active: boolean) =>
-    "px-3 py-1.5 rounded-md text-xs font-medium transition " +
-    (active ? "bg-brand-500 text-white shadow-sm" : "text-gray-600 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800");
+    "px-3 py-1.5 rounded-full text-xs font-medium transition-all duration-200 " +
+    (active ? "bg-brand-500 text-white shadow-sm" : "text-gray-600 dark:text-gray-300 hover:text-brand-600");
 
   return (
     <div className="space-y-6">
       {/* Controls bar */}
       <div className="flex items-center justify-between flex-wrap gap-3">
-        <div className="flex items-center gap-1.5 bg-gray-100 dark:bg-gray-800 rounded-lg p-1">
+        <div className="flex items-center gap-1.5 bg-gray-100 dark:bg-gray-800 rounded-full p-1">
           {(["7d", "14d", "30d", "all"] as const).map((r) => (
             <button key={r} onClick={() => setRange(r)} className={tab(range === r)}>
               {r === "all" ? "全部" : r === "7d" ? "7 天" : r === "14d" ? "14 天" : "30 天"}
@@ -206,19 +220,27 @@ export default function TrendsCharts({
       )}
 
       {/* Stats row */}
-      <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
-        {[
-          { label: "区间总量", value: totalItems.toLocaleString(), sub: "条资讯" },
-          { label: "日均更新", value: avgDaily.toString(), sub: "条/天" },
-          { label: "峰值日", value: peakDay ? peakDay.date.slice(5) : "-", sub: peakDay ? `${peakDay.total} 条` : "" },
-          { label: "最热分类", value: topCat.label || "-", sub: topCat.sum > 0 ? `${topCat.sum} 条` : "" },
-        ].map((stat) => (
-          <div key={stat.label} className="card p-3.5 text-center">
-            <div className="text-lg font-bold text-brand-600 dark:text-brand-500">{stat.value}</div>
-            <div className="text-[11px] text-gray-500 dark:text-gray-400 mt-0.5">{stat.label}</div>
-            {stat.sub && <div className="text-[10px] text-gray-400 dark:text-gray-500">{stat.sub}</div>}
-          </div>
-        ))}
+      <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 stagger-grid">
+        <div className="card p-3.5 text-center">
+          <div className="text-lg font-bold text-brand-600 dark:text-brand-500 tabular-nums"><AnimatedNum value={totalItems} /></div>
+          <div className="text-[11px] text-gray-500 dark:text-gray-400 mt-0.5">区间总量</div>
+          <div className="text-[10px] text-gray-400 dark:text-gray-500">条资讯</div>
+        </div>
+        <div className="card p-3.5 text-center">
+          <div className="text-lg font-bold text-brand-600 dark:text-brand-500 tabular-nums"><AnimatedNum value={avgDaily} /></div>
+          <div className="text-[11px] text-gray-500 dark:text-gray-400 mt-0.5">日均更新</div>
+          <div className="text-[10px] text-gray-400 dark:text-gray-500">条/天</div>
+        </div>
+        <div className="card p-3.5 text-center">
+          <div className="text-lg font-bold text-brand-600 dark:text-brand-500 tabular-nums">{peakDay ? peakDay.date.slice(5) : "-"}</div>
+          <div className="text-[11px] text-gray-500 dark:text-gray-400 mt-0.5">峰值日</div>
+          {peakDay && <div className="text-[10px] text-gray-400 dark:text-gray-500">{peakDay.total} 条</div>}
+        </div>
+        <div className="card p-3.5 text-center">
+          <div className="text-lg font-bold text-brand-600 dark:text-brand-500 tabular-nums">{topCat.label || "-"}</div>
+          <div className="text-[11px] text-gray-500 dark:text-gray-400 mt-0.5">最热分类</div>
+          {topCat.sum > 0 && <div className="text-[10px] text-gray-400 dark:text-gray-500">{topCat.sum} 条</div>}
+        </div>
       </div>
 
       {/* Chart 1: Daily total */}

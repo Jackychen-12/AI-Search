@@ -29,7 +29,7 @@ export default function ItemList({
     return <div className="card p-10 text-center text-gray-500 dark:text-gray-400">{emptyHint}</div>;
   }
   return (
-    <div className="columns-1 sm:columns-2 xl:columns-3 gap-4">
+    <div className="columns-1 sm:columns-2 xl:columns-3 gap-4 stagger-grid">
       {items.map((it, i) => (
         <div
           key={it.id}
