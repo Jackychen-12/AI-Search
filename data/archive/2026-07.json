@@ -1872,7 +1872,7 @@
     "tags": [
       "Hacker News"
     ],
-    "heat": 17,
+    "heat": 18,
     "aiSelected": true,
     "origin": "hackernews",
     "firstSeen": "2026-07-27T03:14:21.883Z",
@@ -18047,7 +18047,7 @@
     "tags": [
       "Hacker News"
     ],
-    "heat": 25,
+    "heat": 24,
     "aiSelected": true,
     "origin": "hackernews",
     "firstSeen": "2026-07-27T03:14:21.883Z",
@@ -33494,7 +33494,7 @@
     "aiNote": null,
     "image": null,
     "fetchedAt": null,
-    "engagement": 278,
+    "engagement": 279,
     "tier": 2
   },
   {
@@ -36924,7 +36924,7 @@
     "aiNote": null,
     "image": null,
     "fetchedAt": null,
-    "engagement": 928,
+    "engagement": 932,
     "tier": 2
   },
   {
@@ -37400,7 +37400,7 @@
     "tags": [
       "Hacker News"
     ],
-    "heat": 29,
+    "heat": 30,
     "aiSelected": true,
     "origin": "hackernews",
     "firstSeen": "2026-07-27T03:14:21.883Z",
@@ -41722,7 +41722,7 @@
     "aiNote": null,
     "image": null,
     "fetchedAt": null,
-    "engagement": 57,
+    "engagement": 58,
     "tier": 2
   },
   {
@@ -41747,7 +41747,7 @@
     "aiNote": null,
     "image": null,
     "fetchedAt": null,
-    "engagement": 1893,
+    "engagement": 1920,
     "tier": 2
   },
   {
@@ -45866,7 +45866,7 @@
     "image": "https://blogs.nvidia.com/wp-content/uploads/2026/07/nvidia-korea-ai-1920x1080-1.png",
     "aiSelected": true,
     "origin": "rss:nvidia",
-    "heat": 35,
+    "heat": 34,
     "aiNote": "韩国总统亲自带队与英伟达合作，预示国家AI战略加速落地。",
     "firstSeen": "2026-07-24T08:50:41.565Z",
     "fetchedAt": null,
@@ -45931,7 +45931,7 @@
     "image": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202605/MIT-NSE-Lauren-Fortier.jpg?itok=WCLAGTfL",
     "aiSelected": true,
     "origin": "rss:mit-news-ai",
-    "heat": 35,
+    "heat": 34,
     "aiNote": null,
     "firstSeen": "2026-07-27T03:58:34.384Z",
     "fetchedAt": null,
@@ -46090,7 +46090,7 @@
     "tags": [
       "Hacker News"
     ],
-    "heat": 17,
+    "heat": 18,
     "aiSelected": true,
     "origin": "hackernews",
     "aiNote": "颠覆传统事件存储，直接存答案，大幅降低数据成本和查询延迟。",
@@ -46166,7 +46166,7 @@
     "image": null,
     "firstSeen": "2026-07-27T02:52:11.295Z",
     "fetchedAt": null,
-    "engagement": 353,
+    "engagement": 354,
     "tier": 2
   },
   {
@@ -48747,7 +48747,7 @@
     "origin": "hackernews",
     "aiNote": "开源工具将前沿模型成本减半，专为智能体优化，持续提升性能。",
     "image": null,
-    "heat": 23,
+    "heat": 24,
     "firstSeen": "2026-07-27T02:48:24.929Z",
     "fetchedAt": null,
     "tier": 2
@@ -49155,7 +49155,7 @@
     "aiSelected": true,
     "origin": "rss:anthropic",
     "aiNote": null,
-    "heat": 35,
+    "heat": 34,
     "firstSeen": "2026-07-27T02:48:24.929Z",
     "fetchedAt": null,
     "tier": 1
@@ -49593,7 +49593,7 @@
     "aiSelected": true,
     "origin": "rss:latentspace",
     "aiNote": null,
-    "heat": 25,
+    "heat": 24,
     "firstSeen": "2026-07-27T02:48:24.929Z",
     "fetchedAt": null,
     "tier": 2
@@ -49938,7 +49938,7 @@
     "aiSelected": true,
     "origin": "rss:tldr-ai",
     "aiNote": null,
-    "heat": 24,
+    "heat": 23,
     "firstSeen": "2026-07-27T02:48:24.929Z",
     "fetchedAt": null,
     "tier": 2
@@ -50520,7 +50520,7 @@
   {
     "id": "rss:meta-ai-92a8bb99c9",
     "title": "Your personal AI assistant & chatbot | Ask, chat & more",
-    "summary": "Your personal AI assistant & chatbot | Ask, chat & more ai.meta.com",
+    "summary": "Your personal AI assistant & chatbot | Ask, chat & more AI at Meta",
     "source": "Meta AI",
     "sourceUrl": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE4xN1RIbER2TUxocmZ4a0QyNUlNMFRxbFhNeVZNYm80c1lRbUI5ZDN3Qlg0cHZyMVAzRDh3Y1B2T2twVndKd1pFRkc4QTkxOHM?oc=5",
     "category": "ai-models",
@@ -50554,7 +50554,7 @@
   {
     "id": "rss:meta-ai-64c2af5add",
     "title": "Introducing Muse Image and Muse Video",
-    "summary": "Introducing Muse Image and Muse Video ai.meta.com",
+    "summary": "Introducing Muse Image and Muse Video AI at Meta",
     "source": "Meta AI",
     "sourceUrl": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBLOV9WdnUwRW1WTVZjVm9UaC1xeTV6eEFVV1hYOTRRMVZNV2lScWctc2NOR3B5ZWNEcmNaMmpNSkFTWHkwYlV1V1ZJejYyRFRqUjJmcW45VGItRXJ1bi1EVlc5R1Z3anFRNzBWM1ZzT2w?oc=5",
     "category": "ai-models",
@@ -52593,7 +52593,7 @@
   {
     "id": "rss:meta-ai-52bce32c44",
     "title": "Meta Movie Gen",
-    "summary": "Meta Movie Gen ai.meta.com",
+    "summary": "Meta Movie Gen AI at Meta",
     "source": "Meta AI",
     "sourceUrl": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5XTmp6Tm00a2V2Yk9tenBnVVBkbGJRQnhvV1JWZjhGTlhzb19sdDN6bTY2bU9GdjhTUUZLOUFVeFNUSnBXMWsyX3VOQ295TTY4?oc=5",
     "category": "ai-models",
@@ -52610,7 +52610,7 @@
   {
     "id": "rss:meta-ai-54c941bdeb",
     "title": "Connect 2024: The responsible approach we’re taking to generative AI",
-    "summary": "Connect 2024: The responsible approach we’re taking to generative AI ai.meta.com",
+    "summary": "Connect 2024: The responsible approach we’re taking to generative AI AI at Meta",
     "source": "Meta AI",
     "sourceUrl": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9WMWJlaVlyR2NnalduX3pNLUZrMXRiWEdEV2dzZThPdmFyczRIUy1VbjBkUWlkd3FwenhWSjNRZl9Zc1dnODZ1S2o0dGVfU1d2R1RVaGhEX3VUM3pJMnBFVUNmRQ?oc=5",
     "category": "ai-models",
@@ -52661,7 +52661,7 @@
   {
     "id": "rss:meta-ai-b50d23ed74",
     "title": "System Cards",
-    "summary": "System Cards ai.meta.com",
+    "summary": "System Cards AI at Meta",
     "source": "Meta AI",
     "sourceUrl": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9DN0pMamtjb1Vvd0tnSVJWQmZkUy1nWDRJOTk3eWtGRFc4cDZIX1ZIOEhEMVVDa2J1N1VMV3hCNGtrOTNuQ19JdFFLZm02Tkc5?oc=5",
     "category": "ai-models",
@@ -52678,7 +52678,7 @@
   {
     "id": "rss:meta-ai-21d2f59bb6",
     "title": "Resources and tools for advancing AI, together",
-    "summary": "Resources and tools for advancing AI, together ai.meta.com",
+    "summary": "Resources and tools for advancing AI, together AI at Meta",
     "source": "Meta AI",
     "sourceUrl": "https://news.google.com/rss/articles/CBMiREFVX3lxTE9WRTlFZUVrT2Mwb2xLckdEOXRubmhlRkF0R1FZUXhDSkNzSEhvcHM5WVFvZEZrX1oyWDVNXzJkbWctX1Ut?oc=5",
     "category": "ai-models",
@@ -52712,7 +52712,7 @@
   {
     "id": "rss:meta-ai-fb6454a3b7",
     "title": "Meta’s progress and learnings in AI fairness and transparency",
-    "summary": "Meta’s progress and learnings in AI fairness and transparency ai.meta.com",
+    "summary": "Meta’s progress and learnings in AI fairness and transparency AI at Meta",
     "source": "Meta AI",
     "sourceUrl": "https://news.google.com/rss/articles/CBMia0FVX3lxTE56SHJJX2ZJOWFDM3B6TVJLaVlWcFF4MkJEWlBBMGN3YXNNei10bFhlTDBfTmlPbjlSUkFxUUxKdWgzLXhJaVBZdDg1MlBJdkQ1dE44QlJXdm1VNmZnYmx0dmRGOWxlVHBuN3FR?oc=5",
     "category": "ai-models",
@@ -52851,7 +52851,7 @@
       "android",
       "TypeScript"
     ],
-    "engagement": 1968,
+    "engagement": 1976,
     "aiSelected": true,
     "origin": "github",
     "aiNote": null,
@@ -52978,7 +52978,7 @@
     "origin": "hackernews",
     "aiNote": null,
     "image": null,
-    "heat": 18,
+    "heat": 19,
     "firstSeen": "2026-07-27T03:14:21.883Z",
     "fetchedAt": null,
     "tier": 2
@@ -53138,7 +53138,7 @@
     "origin": "hackernews",
     "aiNote": null,
     "image": null,
-    "heat": 26,
+    "heat": 27,
     "firstSeen": "2026-07-27T03:14:21.883Z",
     "fetchedAt": null,
     "tier": 2
@@ -53201,7 +53201,7 @@
     "origin": "hackernews",
     "aiNote": null,
     "image": null,
-    "heat": 15,
+    "heat": 16,
     "firstSeen": "2026-07-27T03:14:21.883Z",
     "fetchedAt": null,
     "tier": 2
@@ -53589,7 +53589,7 @@
     "aiSelected": true,
     "origin": "rss:bair",
     "aiNote": "解决LLM长时交互中记忆瓶颈，用信念更新替代全量历史，大幅提升效率与准确性。",
-    "heat": 36,
+    "heat": 35,
     "firstSeen": "2026-07-27T03:58:34.384Z",
     "fetchedAt": null,
     "tier": 1
@@ -54220,7 +54220,7 @@
   },
   {
     "id": "rss:qwen-537d4b3038",
-    "title": "Qwen VLo: From &#34;Understanding&#34; the World to &#34;Depicting&#34; It",
+    "title": "Qwen VLo: From \"Understanding\" the World to \"Depicting\" It",
     "summary": "QWEN CHAT DISCORD Introduction The evolution of multimodal large models is continually pushing the boundaries of what we believe technology can achieve. From the initial QwenVL to…",
     "source": "通义千问 Qwen",
     "sourceUrl": "https://qwenlm.github.io/blog/qwen-vlo/",
@@ -56217,7 +56217,7 @@
       "llm",
       "TypeScript"
     ],
-    "engagement": 766,
+    "engagement": 768,
     "aiSelected": true,
     "origin": "github",
     "aiNote": null,
@@ -58959,7 +58959,7 @@
     "aiSelected": true,
     "origin": "rss:tldr-ai",
     "aiNote": null,
-    "heat": 27,
+    "heat": 26,
     "firstSeen": "2026-07-28T23:16:51.721Z",
     "fetchedAt": null,
     "tier": 2
@@ -59278,7 +59278,7 @@
       "awesome",
       "Python"
     ],
-    "engagement": 138,
+    "engagement": 139,
     "aiSelected": true,
     "origin": "github",
     "aiNote": null,
@@ -60027,7 +60027,7 @@
     "aiSelected": true,
     "origin": "rss:deepmind",
     "aiNote": null,
-    "heat": 38,
+    "heat": 37,
     "firstSeen": "2026-07-29T23:14:55.024Z",
     "fetchedAt": null,
     "tier": 1
@@ -60065,7 +60065,7 @@
     "origin": "hackernews",
     "aiNote": null,
     "image": null,
-    "heat": 24,
+    "heat": 25,
     "firstSeen": "2026-07-29T23:14:55.024Z",
     "fetchedAt": null,
     "tier": 2
@@ -60319,7 +60319,7 @@
     "aiSelected": true,
     "origin": "rss:mit-news-ai",
     "aiNote": null,
-    "heat": 38,
+    "heat": 37,
     "firstSeen": "2026-07-29T23:14:55.024Z",
     "fetchedAt": null,
     "tier": 1
@@ -61337,7 +61337,7 @@
     "origin": "hackernews",
     "aiNote": null,
     "image": null,
-    "heat": 21,
+    "heat": 22,
     "firstSeen": "2026-07-29T23:14:55.024Z",
     "fetchedAt": null,
     "tier": 2
@@ -62340,7 +62340,7 @@
       "claude-code",
       "Python"
     ],
-    "engagement": 577,
+    "engagement": 578,
     "aiSelected": true,
     "origin": "github",
     "aiNote": null,
@@ -62455,7 +62455,7 @@
       "gemma4-26b-a4b",
       "Swift"
     ],
-    "engagement": 5629,
+    "engagement": 5653,
     "aiSelected": true,
     "origin": "github",
     "aiNote": null,
@@ -62753,7 +62753,7 @@
     "aiSelected": true,
     "origin": "rss:mit-news-ai",
     "aiNote": "机器人AI领军人物获巴伐利亚最高科技奖，凸显国际对AI前沿研究的高度认可。",
-    "heat": 39,
+    "heat": 38,
     "firstSeen": "2026-07-30T23:18:56.537Z",
     "fetchedAt": null,
     "tier": 1
@@ -63487,7 +63487,7 @@
     "origin": "hackernews",
     "aiNote": null,
     "image": null,
-    "heat": 21,
+    "heat": 22,
     "firstSeen": "2026-07-30T23:18:56.537Z",
     "fetchedAt": null,
     "tier": 2
@@ -64386,7 +64386,7 @@
     "aiSelected": true,
     "origin": "rss:tldr-ai",
     "aiNote": null,
-    "heat": 28,
+    "heat": 27,
     "firstSeen": "2026-07-30T23:18:56.537Z",
     "fetchedAt": null,
     "tier": 2
@@ -66747,7 +66747,7 @@
     "origin": "hackernews",
     "aiNote": null,
     "image": null,
-    "heat": 31,
+    "heat": 30,
     "firstSeen": "2026-07-31T23:16:18.546Z",
     "fetchedAt": null,
     "tier": 2
@@ -68081,12 +68081,12 @@
       "knowledge-base",
       "Python"
     ],
-    "engagement": 87,
+    "engagement": 88,
     "aiSelected": true,
     "origin": "github",
     "aiNote": null,
     "image": null,
-    "heat": 26,
+    "heat": 25,
     "firstSeen": "2026-07-31T23:16:18.546Z",
     "fetchedAt": null,
     "tier": 2
