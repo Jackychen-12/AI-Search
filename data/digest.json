@@ -1,37 +1,37 @@
 {
-  "date": "2026-08-12",
-  "generatedAt": "2026-08-11T23:04:50.387Z",
+  "date": "2026-08-13",
+  "generatedAt": "2026-08-12T23:02:52.643Z",
   "picks": [
     {
-      "title": "As AI eats the web, the internet’s collective memory is disappearing",
-      "sourceUrl": "https://thewalrus.ca/google-search-is-dying/",
-      "source": "Hacker News",
-      "reason": "深度反思AI对互联网记忆的侵蚀，引发广泛共鸣。"
+      "title": "Putting sign language AI into users’ hands",
+      "sourceUrl": "https://deepmind.google/blog/putting-sign-language-ai-into-users-hands/",
+      "source": "Google DeepMind",
+      "reason": "手语AI落地，突破性模型赋能无障碍沟通，社会价值高。"
     },
     {
-      "title": "Testing ads in ChatGPT",
-      "sourceUrl": "https://openai.com/index/testing-ads-in-chatgpt",
-      "source": "OpenAI",
-      "reason": "ChatGPT测试广告，商业化关键动向，影响广泛。"
-    },
-    {
-      "title": "NVIDIA Nemotron 3.5 Lightning and NeMo Switchyard Deliver Faster, Smarter, More Efficient Agentic AI",
-      "sourceUrl": "https://blogs.nvidia.com/blog/nemotron-lightning-switchyard-rtx-dgx/",
-      "source": "NVIDIA",
-      "reason": "NVIDIA新模型提升智能体效率，技术前沿突破。"
-    },
-    {
-      "title": "Introducing CARE-X: Towards Clinically Useful Radiology VLMs with Auxiliary Supervision, Reward-Aligned Learning, and Tool-Augmented Measurement",
-      "sourceUrl": "https://www.microsoft.com/en-us/research/blog/introducing-care-x-towards-clinically-useful-radiology-vlms-with-auxiliary-supervision-reward-aligned-learning-and-tool-augmented-measurement/",
+      "title": "MindTopo reveals VLMs&#8217; spatial reasoning abilities",
+      "sourceUrl": "https://www.microsoft.com/en-us/research/blog/mindtopo-reveals-vlms-spatial-reasoning-abilities/",
       "source": "Microsoft Research",
-      "reason": "放射学AI新框架，临床实用价值显著。"
+      "reason": "新基准测试揭示VLM空间推理短板，推动多模态发展。"
     },
     {
-      "title": "AMIE, our research medical AI system, demonstrates real-time clinical video consultation capabilities in a first-of-its-kind study.",
-      "sourceUrl": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-video-consultations/",
-      "source": "Google AI",
-      "reason": "医疗AI视频问诊首秀，开创临床应用新场景。"
+      "title": "From assistance to execution: How enterprises put AI to work",
+      "sourceUrl": "https://openai.com/index/how-enterprises-put-ai-to-work",
+      "source": "OpenAI",
+      "reason": "企业级智能体应用实证，展示AI从辅助到执行的转型趋势。"
+    },
+    {
+      "title": "DeepSeek V4 Pro 0813",
+      "sourceUrl": "https://openrouter.ai/deepseek/deepseek-v4-pro-0813",
+      "source": "Hacker News",
+      "reason": "DeepSeek新版本引发热议，开源模型性能再引关注。"
+    },
+    {
+      "title": "Empty shelves or lost keys? Recall is the bottleneck for parametric factuality",
+      "sourceUrl": "https://research.google/blog/empty-shelves-or-lost-keys-recall-is-the-bottleneck-for-parametric-factuality/",
+      "source": "Google Research",
+      "reason": "揭示参数化事实性瓶颈，对AI可靠性研究具启发意义。"
     }
   ],
-  "trendSummary": "本周AI圈热点集中在医疗AI的临床落地、模型效率优化与算力架构革新，同时开源生态和区域化部署加速，商业化探索如广告植入也悄然推进，整体呈现务实与扩张并行的态势。"
+  "trendSummary": "本周AI圈聚焦落地应用与边缘部署，从企业级AI原生工作流到NVIDIA算力资产化，同时多模态模型的空间推理与召回瓶颈成为研究热点，手语AI等实用创新也引发关注。"
 }
