@@ -1,37 +1,37 @@
 {
-  "date": "2026-08-13",
-  "generatedAt": "2026-08-12T23:02:52.643Z",
+  "date": "2026-08-14",
+  "generatedAt": "2026-08-13T23:04:23.138Z",
   "picks": [
     {
-      "title": "Putting sign language AI into users’ hands",
-      "sourceUrl": "https://deepmind.google/blog/putting-sign-language-ai-into-users-hands/",
+      "title": "Introducing Gemini 3.7 Flash",
+      "sourceUrl": "https://deepmind.google/blog/introducing-gemini-3-7-flash/",
       "source": "Google DeepMind",
-      "reason": "手语AI落地，突破性模型赋能无障碍沟通，社会价值高。"
+      "reason": "谷歌发布Gemini 3.7 Flash，新一代模型重磅亮相，行业关注度极高。"
     },
     {
-      "title": "MindTopo reveals VLMs&#8217; spatial reasoning abilities",
-      "sourceUrl": "https://www.microsoft.com/en-us/research/blog/mindtopo-reveals-vlms-spatial-reasoning-abilities/",
-      "source": "Microsoft Research",
-      "reason": "新基准测试揭示VLM空间推理短板，推动多模态发展。"
-    },
-    {
-      "title": "From assistance to execution: How enterprises put AI to work",
-      "sourceUrl": "https://openai.com/index/how-enterprises-put-ai-to-work",
+      "title": "The builder’s guide to GPT‑5.6",
+      "sourceUrl": "https://openai.com/index/builders-guide-to-gpt-5-6",
       "source": "OpenAI",
-      "reason": "企业级智能体应用实证，展示AI从辅助到执行的转型趋势。"
+      "reason": "OpenAI官方指南解读GPT-5.6，对开发者构建智能体极具实用价值。"
     },
     {
-      "title": "DeepSeek V4 Pro 0813",
-      "sourceUrl": "https://openrouter.ai/deepseek/deepseek-v4-pro-0813",
-      "source": "Hacker News",
-      "reason": "DeepSeek新版本引发热议，开源模型性能再引关注。"
+      "title": "Previewing Ultrafast mode: GPT-5.6 Sol at up to 14X the speed",
+      "sourceUrl": "https://openai.com/index/previewing-ultrafast",
+      "source": "OpenAI",
+      "reason": "GPT-5.6 Sol提速14倍，性能突破性进展，值得开发者重点关注。"
     },
     {
-      "title": "Empty shelves or lost keys? Recall is the bottleneck for parametric factuality",
-      "sourceUrl": "https://research.google/blog/empty-shelves-or-lost-keys-recall-is-the-bottleneck-for-parametric-factuality/",
-      "source": "Google Research",
-      "reason": "揭示参数化事实性瓶颈，对AI可靠性研究具启发意义。"
+      "title": "Patterns and problems in emerging multiagent systems",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBoVFQ4NnRrVGF2dXBQMmhjNzhmQUVZQVF6ckVvWlpkMVdHMnpFOVpodWhoUEw4bWdacG1JRE9kUUZpUWN2WnJiZ3NHaFY0LWJHMF9zOGFGR0tlZmhta180N2Nkaw?oc=5",
+      "source": "Anthropic",
+      "reason": "Anthropic深度剖析多智能体系统模式与问题，前沿研究价值高。"
+    },
+    {
+      "title": "What We Learned by Reproducing 2,200 papers from ICML",
+      "sourceUrl": "https://huggingface.co/blog/icml-2026-open-reproductions",
+      "source": "HuggingFace Blog",
+      "reason": "复现2200篇ICML论文的经验总结，对学术与工程实践有重要参考。"
     }
   ],
-  "trendSummary": "本周AI圈聚焦落地应用与边缘部署，从企业级AI原生工作流到NVIDIA算力资产化，同时多模态模型的空间推理与召回瓶颈成为研究热点，手语AI等实用创新也引发关注。"
+  "trendSummary": "本周AI圈聚焦于模型迭代与效率提升，多款新版本及加速模式亮相，同时企业高管变动引发关注，开源生态与多智能体系统研究也持续升温。"
 }
