@@ -1,37 +1,37 @@
 {
-  "date": "2026-08-14",
-  "generatedAt": "2026-08-13T23:04:23.138Z",
+  "date": "2026-08-15",
+  "generatedAt": "2026-08-14T22:42:11.285Z",
   "picks": [
     {
-      "title": "Introducing Gemini 3.7 Flash",
-      "sourceUrl": "https://deepmind.google/blog/introducing-gemini-3-7-flash/",
-      "source": "Google DeepMind",
-      "reason": "谷歌发布Gemini 3.7 Flash，新一代模型重磅亮相，行业关注度极高。"
-    },
-    {
-      "title": "The builder’s guide to GPT‑5.6",
-      "sourceUrl": "https://openai.com/index/builders-guide-to-gpt-5-6",
-      "source": "OpenAI",
-      "reason": "OpenAI官方指南解读GPT-5.6，对开发者构建智能体极具实用价值。"
-    },
-    {
-      "title": "Previewing Ultrafast mode: GPT-5.6 Sol at up to 14X the speed",
-      "sourceUrl": "https://openai.com/index/previewing-ultrafast",
-      "source": "OpenAI",
-      "reason": "GPT-5.6 Sol提速14倍，性能突破性进展，值得开发者重点关注。"
-    },
-    {
-      "title": "Patterns and problems in emerging multiagent systems",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBoVFQ4NnRrVGF2dXBQMmhjNzhmQUVZQVF6ckVvWlpkMVdHMnpFOVpodWhoUEw4bWdacG1JRE9kUUZpUWN2WnJiZ3NHaFY0LWJHMF9zOGFGR0tlZmhta180N2Nkaw?oc=5",
+      "title": "How Claude's text watermarking works",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE8xMjZ5Ynd3TkptcUFtRGZxalN0VUxKTWRxSktRTkhsa1llV0w0OUphLXRYWDkyaGJvendtY0drMTRCTWV1QjJxeVc5MzFxb2NXQVpXRWhRZDY3eC1Zak5QZWV3?oc=5",
       "source": "Anthropic",
-      "reason": "Anthropic深度剖析多智能体系统模式与问题，前沿研究价值高。"
+      "reason": "Anthropic官方解读文本水印，关乎AI安全与溯源，权威且实用。"
     },
     {
-      "title": "What We Learned by Reproducing 2,200 papers from ICML",
-      "sourceUrl": "https://huggingface.co/blog/icml-2026-open-reproductions",
+      "title": "GLM-5.3: Frontier coding with emergent cyber capabilities",
+      "sourceUrl": "https://z.ai/blog/glm-5.3",
+      "source": "Hacker News",
+      "reason": "GLM-5.3具前沿编码能力，引发社区热议，技术突破性强。"
+    },
+    {
+      "title": "State of Open Models: Summer 2026 Observations",
+      "sourceUrl": "https://huggingface.co/blog/state-of-open-models-summer-2026",
       "source": "HuggingFace Blog",
-      "reason": "复现2200篇ICML论文的经验总结，对学术与工程实践有重要参考。"
+      "reason": "开源模型生态半年观察，纵览趋势，适合快速把握行业脉搏。"
+    },
+    {
+      "title": "DFM Mimir v1: An Open HRM Delivering Frontier Performance at 1B Parameters Using Only Permissible Post-Training Data",
+      "sourceUrl": "http://arxiv.org/abs/2608.13517v1",
+      "source": "arXiv",
+      "reason": "仅用合规数据实现1B参数前沿性能，对开源与版权意义重大。"
+    },
+    {
+      "title": "Vero: Can AI Agents Build Formally Verified Software Repositories?",
+      "sourceUrl": "http://arxiv.org/abs/2608.13522v1",
+      "source": "arXiv",
+      "reason": "探讨AI代理构建形式化验证软件，直击可靠性痛点，前瞻性强。"
     }
   ],
-  "trendSummary": "本周AI圈聚焦于模型迭代与效率提升，多款新版本及加速模式亮相，同时企业高管变动引发关注，开源生态与多智能体系统研究也持续升温。"
+  "trendSummary": "本周AI圈热点集中在模型安全与开源生态的平衡上，从文本水印到前沿编码能力，再到高校与产业共建AI中心，技术落地与伦理治理并行推进，同时多篇研究关注模型评测与可解释性，整体呈现务实深耕态势。"
 }
