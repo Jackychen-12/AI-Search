@@ -1,37 +1,37 @@
 {
-  "date": "2026-08-16",
-  "generatedAt": "2026-08-15T22:38:59.475Z",
+  "date": "2026-08-17",
+  "generatedAt": "2026-08-16T22:38:34.523Z",
   "picks": [
+    {
+      "title": "OpenAI reportedly disbanded its preparedness team",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/980817/openai-disbands-preparedness-team",
+      "source": "The Verge",
+      "reason": "OpenAI解散安全团队，关乎AI治理核心，影响深远。"
+    },
     {
       "title": "How Claude's text watermarking works",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE8xMjZ5Ynd3TkptcUFtRGZxalN0VUxKTWRxSktRTkhsa1llV0w0OUphLXRYWDkyaGJvendtY0drMTRCTWV1QjJxeVc5MzFxb2NXQVpXRWhRZDY3eC1Zak5QZWV3?oc=5",
       "source": "Anthropic",
-      "reason": "Anthropic官方详解文本水印技术，关乎AI安全与溯源，行业标杆动态必读。"
+      "reason": "Anthropic官方详解文本水印技术，隐私与溯源关键进展。"
     },
     {
-      "title": "GLM-5.3: Frontier coding with emergent cyber capabilities",
-      "sourceUrl": "https://z.ai/blog/glm-5.3",
+      "title": "Stripe will reportedly acquire AI gateway startup OpenRouter for $7B+",
+      "sourceUrl": "https://techcrunch.com/2026/08/16/stripe-will-reportedly-acquire-ai-gateway-startup-openrouter-for-7b/",
+      "source": "TechCrunch",
+      "reason": "Stripe天价收购OpenRouter，AI基础设施格局剧变。"
+    },
+    {
+      "title": "AI in drug discovery – what it is, where we stand and the path forward",
+      "sourceUrl": "https://www.science.org/content/blog-post/so-how-ai-drug-discovery-doing-really",
       "source": "Hacker News",
-      "reason": "GLM-5.3登HN头条，前沿编码能力与新兴网络能力引发热议，值得关注。"
+      "reason": "Nature综述AI制药现状与前景，权威且具行业指导性。"
     },
     {
       "title": "State of Open Models: Summer 2026 Observations",
       "sourceUrl": "https://huggingface.co/blog/state-of-open-models-summer-2026",
       "source": "HuggingFace Blog",
-      "reason": "HuggingFace夏季开源模型观察，盘点生态格局与趋势，信息密度高。"
-    },
-    {
-      "title": "DFM Mimir v1: An Open HRM Delivering Frontier Performance at 1B Parameters Using Only Permissible Post-Training Data",
-      "sourceUrl": "http://arxiv.org/abs/2608.13517v1",
-      "source": "arXiv",
-      "reason": "1B参数开源模型用合规数据达前沿性能，对开源社区意义重大。"
-    },
-    {
-      "title": "Vero: Can AI Agents Build Formally Verified Software Repositories?",
-      "sourceUrl": "http://arxiv.org/abs/2608.13522v1",
-      "source": "arXiv",
-      "reason": "探讨AI智能体构建形式化验证软件，直击可靠性与安全痛点。"
+      "reason": "开源模型夏季观察，汇总生态趋势，开发者必读。"
     }
   ],
-  "trendSummary": "本周AI圈聚焦于模型安全与能力边界，开源生态持续扩张，产学研合作加速落地，同时多篇研究深入探讨了评测基准与算法优化，整体趋势更务实、更注重实际应用与风险管控。"
+  "trendSummary": "本周AI圈聚焦于模型透明度与安全边界，从文本水印到系统提示的公开，再到开源模型的进展，同时产学研合作加速，AI在数学与商业应用中的角色也引发新思考。"
 }
