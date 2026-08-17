@@ -1,37 +1,37 @@
 {
-  "date": "2026-08-17",
-  "generatedAt": "2026-08-16T22:38:34.523Z",
+  "date": "2026-08-18",
+  "generatedAt": "2026-08-17T22:43:02.036Z",
   "picks": [
     {
-      "title": "OpenAI reportedly disbanded its preparedness team",
-      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/980817/openai-disbands-preparedness-team",
-      "source": "The Verge",
-      "reason": "OpenAI解散安全团队，关乎AI治理核心，影响深远。"
+      "title": "Securing the Infrastructure of Intelligence",
+      "sourceUrl": "https://blogs.nvidia.com/blog/securing-the-infrastructure-of-intelligence/",
+      "source": "NVIDIA",
+      "reason": "AI工厂定义智能时代基础设施，NVIDIA权威视角必读"
     },
     {
-      "title": "How Claude's text watermarking works",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE8xMjZ5Ynd3TkptcUFtRGZxalN0VUxKTWRxSktRTkhsa1llV0w0OUphLXRYWDkyaGJvendtY0drMTRCTWV1QjJxeVc5MzFxb2NXQVpXRWhRZDY3eC1Zak5QZWV3?oc=5",
-      "source": "Anthropic",
-      "reason": "Anthropic官方详解文本水印技术，隐私与溯源关键进展。"
+      "title": "The Defender’s Window",
+      "sourceUrl": "https://openai.com/index/the-defenders-window",
+      "source": "OpenAI",
+      "reason": "OpenAI解析AI重塑网络安全攻防，关键趋势洞察"
     },
     {
-      "title": "Stripe will reportedly acquire AI gateway startup OpenRouter for $7B+",
-      "sourceUrl": "https://techcrunch.com/2026/08/16/stripe-will-reportedly-acquire-ai-gateway-startup-openrouter-for-7b/",
-      "source": "TechCrunch",
-      "reason": "Stripe天价收购OpenRouter，AI基础设施格局剧变。"
-    },
-    {
-      "title": "AI in drug discovery – what it is, where we stand and the path forward",
-      "sourceUrl": "https://www.science.org/content/blog-post/so-how-ai-drug-discovery-doing-really",
-      "source": "Hacker News",
-      "reason": "Nature综述AI制药现状与前景，权威且具行业指导性。"
-    },
-    {
-      "title": "State of Open Models: Summer 2026 Observations",
-      "sourceUrl": "https://huggingface.co/blog/state-of-open-models-summer-2026",
+      "title": "Same Cluster, 33 Points More Utilization: What Changed Was the Order",
+      "sourceUrl": "https://huggingface.co/blog/Dharma-AI/gpu-management-pt2",
       "source": "HuggingFace Blog",
-      "reason": "开源模型夏季观察，汇总生态趋势，开发者必读。"
+      "reason": "同集群利用率提升33%，排序优化实践极具启发性"
+    },
+    {
+      "title": "AI-Generated GitHub Copilot “Autofix” Allowed Compromise of Snowflake's Jira",
+      "sourceUrl": "https://www.wiz.io/blog/red-agent-snowflake-copilot-cicd-bug",
+      "source": "Hacker News",
+      "reason": "AI自动修复致安全漏洞，警示AI工具风险"
+    },
+    {
+      "title": "New policy ideas for the Intelligence Age",
+      "sourceUrl": "https://openai.com/index/new-policy-ideas-for-the-intelligence-age",
+      "source": "OpenAI",
+      "reason": "OpenAI资助14项AI政策研究，前瞻治理方向"
     }
   ],
-  "trendSummary": "本周AI圈聚焦于模型透明度与安全边界，从文本水印到系统提示的公开，再到开源模型的进展，同时产学研合作加速，AI在数学与商业应用中的角色也引发新思考。"
+  "trendSummary": "本周AI圈热议焦点从技术突破转向创新机制与安全治理，既关注算力调度优化和智能基础设施防护，也反思模型水印对创作的影响，同时政策建议与系统提示词透明度成为新议题，整体氛围务实而审慎。"
 }
