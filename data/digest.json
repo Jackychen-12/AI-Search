@@ -1,37 +1,37 @@
 {
-  "date": "2026-08-18",
-  "generatedAt": "2026-08-17T22:43:02.036Z",
+  "date": "2026-08-19",
+  "generatedAt": "2026-08-18T22:43:10.746Z",
   "picks": [
     {
-      "title": "Securing the Infrastructure of Intelligence",
-      "sourceUrl": "https://blogs.nvidia.com/blog/securing-the-infrastructure-of-intelligence/",
-      "source": "NVIDIA",
-      "reason": "AI工厂定义智能时代基础设施，NVIDIA权威视角必读"
-    },
-    {
-      "title": "The Defender’s Window",
-      "sourceUrl": "https://openai.com/index/the-defenders-window",
+      "title": "Strengthening democratic oversight in national security",
+      "sourceUrl": "https://openai.com/index/strengthening-democratic-oversight-in-national-security",
       "source": "OpenAI",
-      "reason": "OpenAI解析AI重塑网络安全攻防，关键趋势洞察"
+      "reason": "AI国家安全民主监督，关乎全球治理新范式。"
     },
     {
-      "title": "Same Cluster, 33 Points More Utilization: What Changed Was the Order",
-      "sourceUrl": "https://huggingface.co/blog/Dharma-AI/gpu-management-pt2",
-      "source": "HuggingFace Blog",
-      "reason": "同集群利用率提升33%，排序优化实践极具启发性"
-    },
-    {
-      "title": "AI-Generated GitHub Copilot “Autofix” Allowed Compromise of Snowflake's Jira",
-      "sourceUrl": "https://www.wiz.io/blog/red-agent-snowflake-copilot-cicd-bug",
-      "source": "Hacker News",
-      "reason": "AI自动修复致安全漏洞，警示AI工具风险"
-    },
-    {
-      "title": "New policy ideas for the Intelligence Age",
-      "sourceUrl": "https://openai.com/index/new-policy-ideas-for-the-intelligence-age",
+      "title": "Pacing model development in an era of cyber-critical capabilities",
+      "sourceUrl": "https://openai.com/index/pacing-model-development-cyber-capabilities",
       "source": "OpenAI",
-      "reason": "OpenAI资助14项AI政策研究，前瞻治理方向"
+      "reason": "前沿模型安全节奏把控，应对网络关键能力时代。"
+    },
+    {
+      "title": "When AI art has no author: Study finds generated images often can’t be traced to training data",
+      "sourceUrl": "https://news.mit.edu/2026/when-ai-art-has-no-author-generated-images-often-cant-be-traced-to-training-data-0818",
+      "source": "MIT News",
+      "reason": "AI生成图像溯源难题，触及版权与伦理核心。"
+    },
+    {
+      "title": "Asana cleared 5 years of engineering work in 2 weeks with Codex",
+      "sourceUrl": "https://openai.com/index/asana",
+      "source": "OpenAI",
+      "reason": "Codex两周完成五年工程，AI提效典型案例。"
+    },
+    {
+      "title": "Introducing ChatGPT for Teens: Built for learning, backed by protections",
+      "sourceUrl": "https://openai.com/index/chatgpt-for-teens",
+      "source": "OpenAI",
+      "reason": "ChatGPT青少年版上线，教育场景AI应用新突破。"
     }
   ],
-  "trendSummary": "本周AI圈热议焦点从技术突破转向创新机制与安全治理，既关注算力调度优化和智能基础设施防护，也反思模型水印对创作的影响，同时政策建议与系统提示词透明度成为新议题，整体氛围务实而审慎。"
+  "trendSummary": "本周AI圈聚焦于模型落地与安全边界，从青少年应用、工程提效到多语言训练均有突破，同时强调民主监督与版权溯源，展现技术狂奔中的理性校准。"
 }
