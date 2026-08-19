@@ -1872,7 +1872,7 @@
     "tags": [
       "Hacker News"
     ],
-    "heat": 16,
+    "heat": 15,
     "aiSelected": true,
     "origin": "hackernews",
     "firstSeen": "2026-07-27T03:14:21.883Z",
@@ -5203,7 +5203,7 @@
     "image": null,
     "aiSelected": true,
     "origin": "rss:deepmind",
-    "heat": 31,
+    "heat": 30,
     "firstSeen": "2026-07-03T23:19:36.286Z",
     "aiNote": "谷歌DeepMind与A24跨界合作，探索AI在创意领域的应用潜力。",
     "fetchedAt": null,
@@ -18047,7 +18047,7 @@
     "tags": [
       "Hacker News"
     ],
-    "heat": 22,
+    "heat": 23,
     "aiSelected": true,
     "origin": "hackernews",
     "firstSeen": "2026-07-27T03:14:21.883Z",
@@ -42779,7 +42779,7 @@
     "tags": [
       "Hacker News"
     ],
-    "heat": 25,
+    "heat": 26,
     "aiSelected": true,
     "origin": "hackernews",
     "firstSeen": "2026-07-23T23:20:32.498Z",
@@ -46090,7 +46090,7 @@
     "tags": [
       "Hacker News"
     ],
-    "heat": 16,
+    "heat": 15,
     "aiSelected": true,
     "origin": "hackernews",
     "aiNote": "颠覆传统事件存储，直接存答案，大幅降低数据成本和查询延迟。",
@@ -50125,7 +50125,7 @@
     "aiSelected": true,
     "origin": "rss:bensbites",
     "aiNote": null,
-    "heat": 23,
+    "heat": 22,
     "firstSeen": "2026-07-27T02:48:24.929Z",
     "fetchedAt": null,
     "tier": 2
@@ -52851,7 +52851,7 @@
       "android",
       "TypeScript"
     ],
-    "engagement": 2158,
+    "engagement": 2208,
     "aiSelected": true,
     "origin": "github",
     "aiNote": null,
@@ -52898,7 +52898,7 @@
     "origin": "hackernews",
     "aiNote": null,
     "image": null,
-    "heat": 20,
+    "heat": 19,
     "firstSeen": "2026-07-27T03:14:21.883Z",
     "fetchedAt": null,
     "tier": 2
@@ -53096,7 +53096,7 @@
     "origin": "hackernews",
     "aiNote": null,
     "image": null,
-    "heat": 23,
+    "heat": 24,
     "firstSeen": "2026-07-27T03:14:21.883Z",
     "fetchedAt": null,
     "tier": 2
@@ -53589,7 +53589,7 @@
     "aiSelected": true,
     "origin": "rss:bair",
     "aiNote": "解决LLM长时交互中记忆瓶颈，用信念更新替代全量历史，大幅提升效率与准确性。",
-    "heat": 33,
+    "heat": 32,
     "firstSeen": "2026-07-27T03:58:34.384Z",
     "fetchedAt": null,
     "tier": 1
@@ -56217,12 +56217,12 @@
       "llm",
       "TypeScript"
     ],
-    "engagement": 1066,
+    "engagement": 1073,
     "aiSelected": true,
     "origin": "github",
     "aiNote": null,
     "image": null,
-    "heat": 30,
+    "heat": 29,
     "firstSeen": "2026-07-31T23:16:18.546Z",
     "fetchedAt": null,
     "tier": 2
@@ -60027,7 +60027,7 @@
     "aiSelected": true,
     "origin": "rss:deepmind",
     "aiNote": null,
-    "heat": 34,
+    "heat": 33,
     "firstSeen": "2026-07-29T23:14:55.024Z",
     "fetchedAt": null,
     "tier": 1
@@ -60065,7 +60065,7 @@
     "origin": "hackernews",
     "aiNote": null,
     "image": null,
-    "heat": 21,
+    "heat": 20,
     "firstSeen": "2026-07-29T23:14:55.024Z",
     "fetchedAt": null,
     "tier": 2
@@ -60319,7 +60319,7 @@
     "aiSelected": true,
     "origin": "rss:mit-news-ai",
     "aiNote": null,
-    "heat": 34,
+    "heat": 33,
     "firstSeen": "2026-07-29T23:14:55.024Z",
     "fetchedAt": null,
     "tier": 1
@@ -62340,7 +62340,7 @@
       "claude-code",
       "Python"
     ],
-    "engagement": 608,
+    "engagement": 614,
     "aiSelected": true,
     "origin": "github",
     "aiNote": null,
@@ -63381,7 +63381,7 @@
     "origin": "hackernews",
     "aiNote": null,
     "image": null,
-    "heat": 32,
+    "heat": 31,
     "firstSeen": "2026-07-30T23:18:56.537Z",
     "fetchedAt": null,
     "tier": 2
@@ -63644,7 +63644,7 @@
     "aiSelected": true,
     "origin": "rss:bensbites",
     "aiNote": null,
-    "heat": 25,
+    "heat": 24,
     "firstSeen": "2026-07-30T23:18:56.537Z",
     "fetchedAt": null,
     "tier": 2
@@ -63796,7 +63796,7 @@
     "aiSelected": true,
     "origin": "rss:latentspace",
     "aiNote": null,
-    "heat": 25,
+    "heat": 24,
     "firstSeen": "2026-07-30T23:18:56.537Z",
     "fetchedAt": null,
     "tier": 2
@@ -66938,7 +66938,7 @@
     "aiSelected": true,
     "origin": "rss:tldr-ai",
     "aiNote": null,
-    "heat": 25,
+    "heat": 24,
     "firstSeen": "2026-07-31T23:16:18.546Z",
     "fetchedAt": null,
     "tier": 2
@@ -68086,7 +68086,7 @@
     "origin": "github",
     "aiNote": null,
     "image": null,
-    "heat": 24,
+    "heat": 23,
     "firstSeen": "2026-07-31T23:16:18.546Z",
     "fetchedAt": null,
     "tier": 2
