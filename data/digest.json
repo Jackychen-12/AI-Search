@@ -1,37 +1,37 @@
 {
-  "date": "2026-08-20",
-  "generatedAt": "2026-08-19T22:43:37.146Z",
+  "date": "2026-08-21",
+  "generatedAt": "2026-08-20T22:46:52.033Z",
   "picks": [
     {
-      "title": "Autonomous de novo protein binder design with Claude",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBaMW9CZHNKUG5GQXRVaXN5NFVwbXBVbXluUDAzcjJjZnNSVlJraXY4UVdhUlYxS2V2Slp4cExzcFl4WmFLTjdmVXFleWhtc1pqT1BkOG9kTXZRUm9oVk5zTFBMV2U2d3kzSHlSWldSd3JhZWQ4elZVb3ViV2F6aE0?oc=5",
-      "source": "Anthropic",
-      "reason": "AI自主设计蛋白质，突破生物工程边界，极具前瞻性。"
+      "title": "Introducing AI Futures",
+      "sourceUrl": "https://openai.com/index/introducing-ai-futures",
+      "source": "OpenAI",
+      "reason": "OpenAI新博客探讨变革性AI未来，具前瞻性视野。"
+    },
+    {
+      "title": "Up to 3.2x Faster Inference with LFM2.5-DSpark",
+      "sourceUrl": "https://huggingface.co/blog/LiquidAI/lfm25-dspark",
+      "source": "HuggingFace Blog",
+      "reason": "推理速度提升3.2倍，直接提升模型实用效率。"
+    },
+    {
+      "title": "Agentic Search. More accurate and efficient results from your AI systems.",
+      "sourceUrl": "https://mistral.ai/news/agentic-search/",
+      "source": "Mistral AI",
+      "reason": "智能检索层提升AI系统准确性与效率，实用性强。"
+    },
+    {
+      "title": "Don't paste the AI, please",
+      "sourceUrl": "https://dontpastetheai.com/",
+      "source": "Hacker News",
+      "reason": "反思AI滥用现象，引发行业重要讨论。"
     },
     {
       "title": "Offering Zero Data Retention for frontier models",
       "sourceUrl": "https://openai.com/index/offering-zero-data-retention-for-frontier-models",
       "source": "OpenAI",
-      "reason": "OpenAI强化数据隐私承诺，对API用户影响重大。"
-    },
-    {
-      "title": "On the Fragility of Self-Improving Agents: Variance, Task Order, and Underspecification",
-      "sourceUrl": "http://arxiv.org/abs/2608.18066v1",
-      "source": "arXiv",
-      "reason": "揭示自我改进AI的脆弱性，对智能体安全研究关键。"
-    },
-    {
-      "title": "Replit expands access to software creation with GPT-5.6 Luna",
-      "sourceUrl": "https://openai.com/index/replit",
-      "source": "OpenAI",
-      "reason": "GPT-5.6 Luna赋能免费编程，降低开发门槛。"
-    },
-    {
-      "title": "Examining Human-Like Behaviors in LLMs: A Multi-Dimensional Analysis of Model Behaviors, User Factors, and System Prompts",
-      "sourceUrl": "https://machinelearning.apple.com/research/human-like-behaviors-llms",
-      "source": "Apple ML Research",
-      "reason": "多维度剖析LLM类人行为，深化AI交互理解。"
+      "reason": "强化数据隐私承诺，关乎企业合规与信任。"
     }
   ],
-  "trendSummary": "本周AI圈热点集中在模型安全与数据隐私、教育搜索功能升级、量化蒸馏技术、软件创作平台扩展，以及AI在蛋白质设计等科研领域的深化应用，同时商业化广告扩张与民主监督议题也备受关注。"
+  "trendSummary": "本周AI圈聚焦于效率与实用性的双重突破，从推理加速到绿色生产，从智能搜索到数据安全，行业正加速将前沿技术落地为具体场景，同时强调隐私保护与人类协作的价值。"
 }

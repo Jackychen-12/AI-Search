@@ -1,17 +1,17 @@
 {
-  "fetchedAt": "2026-08-19T22:43:33.955Z",
-  "count": 792,
+  "fetchedAt": "2026-08-20T22:46:48.490Z",
+  "count": 774,
   "sources": {
     "hf-papers": 50,
     "github": 80,
-    "hackernews": 109,
+    "hackernews": 107,
     "rss:openai": 20,
     "rss:anthropic": 20,
     "rss:meta-ai": 20,
     "rss:google-ai": 20,
     "rss:deepmind": 20,
     "rss:google-research": 10,
-    "rss:nvidia": 12,
+    "rss:nvidia": 11,
     "rss:hf-blog": 20,
     "rss:mistral": 20,
     "rss:cohere": 0,
@@ -19,7 +19,7 @@
     "rss:apple-ml": 10,
     "rss:bair": 10,
     "rss:mit-news-ai": 20,
-    "rss:msr": 8,
+    "rss:msr": 7,
     "rss:aws-ml": 20,
     "rss:theverge-ai": 10,
     "rss:techcrunch-ai": 20,
@@ -41,15 +41,17 @@
     "rss:latentspace": 20,
     "rss:oneusefulthing": 20,
     "rss:bensbites": 20,
-    "rss:qbitai": 10,
+    "rss:qbitai": 0,
     "rss:jiqizhixin": 20,
     "rss:xinzhiyuan": 20,
     "rss:geekpark": 15,
     "rss:36kr": 0,
     "rss:infoq": 10,
-    "rss:sspai": 3,
-    "rss:ithome": 6,
+    "rss:sspai": 2,
+    "rss:ithome": 1,
     "arxiv": 20
   },
-  "errors": {}
+  "errors": {
+    "rss:qbitai": "fetch failed"
+  }
 }
