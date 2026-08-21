@@ -2091,7 +2091,7 @@
     "tags": [
       "Hacker News"
     ],
-    "heat": 21,
+    "heat": 20,
     "aiSelected": true,
     "origin": "hackernews",
     "firstSeen": "2026-07-27T03:14:21.883Z",
@@ -40098,7 +40098,7 @@
     "image": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202607/mit-lids-Bertsekas-obit.jpg?itok=a4V9w4Hq",
     "aiSelected": true,
     "origin": "rss:mit-news-ai",
-    "heat": 32,
+    "heat": 31,
     "firstSeen": "2026-07-27T03:58:34.384Z",
     "aiNote": null,
     "fetchedAt": null,
@@ -40397,7 +40397,7 @@
     "image": null,
     "aiSelected": true,
     "origin": "rss:deepmind",
-    "heat": 32,
+    "heat": 31,
     "firstSeen": "2026-07-22T23:24:49.618Z",
     "aiNote": "谷歌投入四千万美元AI资源，加速前沿科学探索，彰显科技巨头推动基础研究的新模式。",
     "fetchedAt": null,
@@ -40497,7 +40497,7 @@
     "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Unpacked_hero.max-600x600.format-webp.webp",
     "aiSelected": true,
     "origin": "rss:google-ai",
-    "heat": 32,
+    "heat": 31,
     "firstSeen": "2026-07-22T23:24:49.618Z",
     "aiNote": "三星新设备集成谷歌AI，提升生产力的同时强调时间效率，展示硬件与生态协同新趋势。",
     "fetchedAt": null,
@@ -40991,7 +40991,7 @@
     "tags": [
       "Hacker News"
     ],
-    "heat": 23,
+    "heat": 22,
     "aiSelected": true,
     "origin": "hackernews",
     "firstSeen": "2026-07-27T03:14:21.883Z",
@@ -49972,7 +49972,7 @@
     "aiSelected": true,
     "origin": "rss:bensbites",
     "aiNote": null,
-    "heat": 23,
+    "heat": 22,
     "firstSeen": "2026-07-27T02:48:24.929Z",
     "fetchedAt": null,
     "tier": 2
@@ -53096,7 +53096,7 @@
     "origin": "hackernews",
     "aiNote": null,
     "image": null,
-    "heat": 24,
+    "heat": 23,
     "firstSeen": "2026-07-27T03:14:21.883Z",
     "fetchedAt": null,
     "tier": 2
@@ -55626,7 +55626,7 @@
     "aiSelected": true,
     "origin": "rss:importai",
     "aiNote": null,
-    "heat": 24,
+    "heat": 23,
     "firstSeen": "2026-07-27T23:27:56.392Z",
     "fetchedAt": null,
     "tier": 2
@@ -56131,7 +56131,7 @@
     "aiSelected": true,
     "origin": "rss:tldr-ai",
     "aiNote": null,
-    "heat": 24,
+    "heat": 23,
     "firstSeen": "2026-07-27T23:27:56.392Z",
     "fetchedAt": null,
     "tier": 2
@@ -58136,7 +58136,7 @@
     "aiSelected": true,
     "origin": "rss:google-ai",
     "aiNote": "新功能让开发者更易构建可靠的生产级智能体，实用性强。",
-    "heat": 33,
+    "heat": 32,
     "firstSeen": "2026-07-28T23:16:51.721Z",
     "fetchedAt": null,
     "tier": 1
@@ -58416,7 +58416,7 @@
     "aiSelected": true,
     "origin": "rss:google-ai",
     "aiNote": null,
-    "heat": 33,
+    "heat": 32,
     "firstSeen": "2026-07-28T23:16:51.721Z",
     "fetchedAt": null,
     "tier": 1
@@ -58433,7 +58433,7 @@
     "aiSelected": true,
     "origin": "rss:google-ai",
     "aiNote": null,
-    "heat": 33,
+    "heat": 32,
     "firstSeen": "2026-07-28T23:16:51.721Z",
     "fetchedAt": null,
     "tier": 1
@@ -62340,7 +62340,7 @@
       "claude-code",
       "Python"
     ],
-    "engagement": 616,
+    "engagement": 618,
     "aiSelected": true,
     "origin": "github",
     "aiNote": null,
@@ -65339,7 +65339,7 @@
       "claude",
       "Python"
     ],
-    "engagement": 140,
+    "engagement": 142,
     "aiSelected": true,
     "origin": "github",
     "aiNote": null,
@@ -68081,7 +68081,7 @@
       "knowledge-base",
       "Python"
     ],
-    "engagement": 106,
+    "engagement": 107,
     "aiSelected": true,
     "origin": "github",
     "aiNote": null,
