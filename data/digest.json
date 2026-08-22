@@ -1,37 +1,37 @@
 {
-  "date": "2026-08-22",
-  "generatedAt": "2026-08-21T22:43:24.924Z",
+  "date": "2026-08-23",
+  "generatedAt": "2026-08-22T22:40:35.806Z",
   "picks": [
     {
       "title": "From Atari to EVE Online: Building on 15 Years of AI Research in Games",
       "sourceUrl": "https://deepmind.google/blog/from-atari-to-eve-online-building-on-15-years-of-ai-research-in-games/",
       "source": "Google DeepMind",
-      "reason": "DeepMind游戏AI研究15年里程碑，兼具技术深度与产业合作价值。"
+      "reason": "DeepMind游戏AI研究里程碑，兼具技术深度与行业合作亮点"
     },
     {
       "title": "ConceptGuard: Benchmarking Context-Sensitive Unlearning in Large Language Models",
       "sourceUrl": "http://arxiv.org/abs/2608.20338v1",
       "source": "arXiv",
-      "reason": "聚焦大模型上下文敏感遗忘，安全治理关键议题，基准评测实用。"
+      "reason": "大模型上下文敏感遗忘基准，安全对齐前沿议题"
     },
     {
-      "title": "Paving the way for greener ammonia production",
-      "sourceUrl": "https://news.mit.edu/2026/paving-way-for-greener-ammonia-production-0820",
-      "source": "MIT News",
-      "reason": "绿色氨生产突破，助力脱碳工业，材料科学前沿进展。"
+      "title": "AI4AI-Bench: Benchmarking LLM Agents in Algorithmic Design for Recursive Self-Improvement",
+      "sourceUrl": "http://arxiv.org/abs/2608.20318v1",
+      "source": "arXiv",
+      "reason": "递归自我改进基准，直击AI自主进化核心挑战"
+    },
+    {
+      "title": "G-CARL: Grounded Checklist-Aligned Reward Learning for Patient-Oriented Medical Report Interpretation",
+      "sourceUrl": "http://arxiv.org/abs/2608.20331v1",
+      "source": "arXiv",
+      "reason": "面向患者的医疗报告解读，AI落地临床实用价值高"
     },
     {
       "title": "Phantom Gains: Auditing Self-Improvement Against a Measured Null",
       "sourceUrl": "http://arxiv.org/abs/2608.20290v1",
       "source": "arXiv",
-      "reason": "审计AI自我提升真实性，方法严谨，防止性能虚高误导。"
-    },
-    {
-      "title": "An AI tool for prioritizing candidate biomarkers from wearable sensor data",
-      "sourceUrl": "https://research.google/blog/an-ai-tool-for-prioritizing-candidate-biomarkers-from-wearable-sensor-data/",
-      "source": "Google Research",
-      "reason": "可穿戴数据生物标志物筛选，生成式AI落地健康监测，应用潜力大。"
+      "reason": "审计自我改进的真实性，方法严谨且具批判性"
     }
   ],
-  "trendSummary": "本周AI圈多点开花，从穿戴设备生物标志物筛选到游戏AI研究，再到医疗报告解读与语音识别优化，应用落地与理论探索并进，大模型遗忘机制与可靠置信度估计也成关注焦点，整体凸显跨领域融合与实用化趋势。"
+  "trendSummary": "本周AI圈热点集中在可穿戴医疗数据挖掘、游戏AI研究深化、语音识别基准优化及绿色氨生产等交叉领域，同时大模型遗忘机制、医学报告解读和智能交通预测也备受关注，整体呈现多学科融合与实用化并进的趋势。"
 }

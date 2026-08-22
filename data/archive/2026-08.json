@@ -950,7 +950,7 @@
       "agent-skills",
       "Python"
     ],
-    "engagement": 204,
+    "engagement": 205,
     "aiSelected": true,
     "origin": "github",
     "aiNote": null,
@@ -973,7 +973,7 @@
     "origin": "rss:meta-ai",
     "aiNote": null,
     "heat": 32,
-    "firstSeen": "2026-08-18T22:43:00.111Z",
+    "firstSeen": "2026-08-22T22:40:23.840Z",
     "fetchedAt": null,
     "tier": 1
   },
@@ -1137,14 +1137,14 @@
     "origin": "rss:anthropic",
     "aiNote": null,
     "heat": 30,
-    "firstSeen": "2026-08-01T23:12:50.082Z",
+    "firstSeen": "2026-08-22T22:40:23.840Z",
     "fetchedAt": null,
     "tier": 1
   },
   {
     "id": "rss:meta-ai-b1fc55df95",
-    "title": "AI for Good",
-    "summary": "AI for Good AI at Meta",
+    "title": "AI FOR GOOD",
+    "summary": "AI FOR GOOD AI at Meta",
     "source": "Meta AI",
     "sourceUrl": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFA2T1lsVTZfMUZiUS1GV19SZjQ5MzRjcWtRdVAyblFZQlBPb2trcVhvRU53YXI2MmJfMWJqenRMR1NJNUVnYkYw?oc=5",
     "category": "ai-models",
@@ -1373,7 +1373,7 @@
     "aiSelected": true,
     "origin": "rss:interconnects",
     "aiNote": "开放模型正逼近帕累托前沿，证明高性能AI不再专属巨头。",
-    "heat": 25,
+    "heat": 24,
     "firstSeen": "2026-08-02T23:13:28.239Z",
     "fetchedAt": null,
     "tier": 2
@@ -1769,7 +1769,7 @@
       "dag",
       "Go"
     ],
-    "engagement": 100,
+    "engagement": 101,
     "aiSelected": true,
     "origin": "github",
     "aiNote": null,
@@ -3445,7 +3445,7 @@
     "aiSelected": true,
     "origin": "rss:tldr-ai",
     "aiNote": null,
-    "heat": 25,
+    "heat": 24,
     "firstSeen": "2026-08-03T23:27:45.000Z",
     "fetchedAt": null,
     "tier": 2
@@ -3503,7 +3503,7 @@
       "markdown",
       "Go"
     ],
-    "engagement": 1165,
+    "engagement": 1168,
     "aiSelected": true,
     "origin": "github",
     "aiNote": null,
@@ -3528,7 +3528,7 @@
       "deep-learning",
       "C"
     ],
-    "engagement": 6225,
+    "engagement": 6282,
     "aiSelected": true,
     "origin": "github",
     "aiNote": null,
@@ -5033,7 +5033,7 @@
     "aiSelected": true,
     "origin": "rss:mit-news-ai",
     "aiNote": "钠金属电池突破电解质瓶颈，MIT方案让储能更安全实用。",
-    "heat": 35,
+    "heat": 34,
     "firstSeen": "2026-08-04T23:18:58.747Z",
     "fetchedAt": null,
     "tier": 1
@@ -5249,7 +5249,7 @@
     "aiSelected": true,
     "origin": "rss:nvidia",
     "aiNote": null,
-    "heat": 35,
+    "heat": 34,
     "firstSeen": "2026-08-04T23:18:58.747Z",
     "fetchedAt": null,
     "tier": 1
@@ -5389,7 +5389,7 @@
     "aiSelected": true,
     "origin": "rss:nvidia",
     "aiNote": null,
-    "heat": 35,
+    "heat": 34,
     "firstSeen": "2026-08-04T23:18:58.747Z",
     "fetchedAt": null,
     "tier": 1
@@ -5533,7 +5533,7 @@
     "aiSelected": true,
     "origin": "rss:nvidia",
     "aiNote": null,
-    "heat": 35,
+    "heat": 34,
     "firstSeen": "2026-08-04T23:18:58.747Z",
     "fetchedAt": null,
     "tier": 1
@@ -5550,7 +5550,7 @@
     "aiSelected": true,
     "origin": "rss:google-ai",
     "aiNote": null,
-    "heat": 35,
+    "heat": 34,
     "firstSeen": "2026-08-04T23:18:58.747Z",
     "fetchedAt": null,
     "tier": 1
@@ -5618,7 +5618,7 @@
     "aiSelected": true,
     "origin": "rss:mistral",
     "aiNote": null,
-    "heat": 35,
+    "heat": 34,
     "firstSeen": "2026-08-04T23:18:58.747Z",
     "fetchedAt": null,
     "tier": 1
@@ -5783,7 +5783,7 @@
     "origin": "hackernews",
     "aiNote": null,
     "image": null,
-    "heat": 31,
+    "heat": 30,
     "firstSeen": "2026-08-04T23:18:58.747Z",
     "fetchedAt": null,
     "tier": 2
@@ -5940,7 +5940,7 @@
     "aiSelected": true,
     "origin": "rss:mit-news-ai",
     "aiNote": null,
-    "heat": 35,
+    "heat": 34,
     "firstSeen": "2026-08-04T23:18:58.747Z",
     "fetchedAt": null,
     "tier": 1
@@ -6690,7 +6690,7 @@
       "comfyui-custom-nodes",
       "Python"
     ],
-    "engagement": 100,
+    "engagement": 104,
     "aiSelected": true,
     "origin": "github",
     "aiNote": null,
@@ -7693,7 +7693,7 @@
       "codex",
       "Python"
     ],
-    "engagement": 1812,
+    "engagement": 1813,
     "aiSelected": true,
     "origin": "github",
     "aiNote": null,
@@ -10571,12 +10571,12 @@
       "codex",
       "Python"
     ],
-    "engagement": 1094,
+    "engagement": 1095,
     "aiSelected": true,
     "origin": "github",
     "aiNote": null,
     "image": null,
-    "heat": 32,
+    "heat": 31,
     "firstSeen": "2026-08-05T23:18:07.671Z",
     "fetchedAt": null,
     "tier": 2
@@ -10707,7 +10707,7 @@
       "image-to-video",
       "JavaScript"
     ],
-    "engagement": 116,
+    "engagement": 117,
     "aiSelected": true,
     "origin": "github",
     "aiNote": null,
@@ -11810,7 +11810,7 @@
     "aiSelected": true,
     "origin": "rss:deepmind",
     "aiNote": null,
-    "heat": 36,
+    "heat": 35,
     "firstSeen": "2026-08-07T01:33:58.898Z",
     "fetchedAt": null,
     "tier": 1
@@ -11984,7 +11984,7 @@
     "aiSelected": true,
     "origin": "rss:nvidia",
     "aiNote": null,
-    "heat": 36,
+    "heat": 35,
     "firstSeen": "2026-08-07T01:33:58.898Z",
     "fetchedAt": null,
     "tier": 1
@@ -12345,7 +12345,7 @@
     "aiSelected": true,
     "origin": "rss:latentspace",
     "aiNote": null,
-    "heat": 26,
+    "heat": 25,
     "firstSeen": "2026-08-07T01:33:58.898Z",
     "fetchedAt": null,
     "tier": 2
@@ -12553,7 +12553,7 @@
     "aiSelected": true,
     "origin": "rss:tldr-ai",
     "aiNote": null,
-    "heat": 26,
+    "heat": 25,
     "firstSeen": "2026-08-07T01:33:58.898Z",
     "fetchedAt": null,
     "tier": 2
@@ -12680,7 +12680,7 @@
     "origin": "hackernews",
     "aiNote": null,
     "image": null,
-    "heat": 19,
+    "heat": 18,
     "firstSeen": "2026-08-07T01:33:58.898Z",
     "fetchedAt": null,
     "tier": 2
@@ -14006,7 +14006,7 @@
       "asynchronous",
       "Python"
     ],
-    "engagement": 165,
+    "engagement": 171,
     "aiSelected": true,
     "origin": "github",
     "aiNote": null,
@@ -14031,12 +14031,12 @@
       "llm",
       "Rust"
     ],
-    "engagement": 1084,
+    "engagement": 1138,
     "aiSelected": true,
     "origin": "github",
     "aiNote": null,
     "image": null,
-    "heat": 29,
+    "heat": 30,
     "firstSeen": "2026-08-07T01:33:58.898Z",
     "fetchedAt": null,
     "tier": 2
@@ -14262,7 +14262,7 @@
     "origin": "rss:anthropic",
     "aiNote": null,
     "heat": 30,
-    "firstSeen": "2026-08-07T01:33:58.898Z",
+    "firstSeen": "2026-08-22T22:40:23.840Z",
     "fetchedAt": null,
     "tier": 1
   },
@@ -15356,7 +15356,7 @@
     "origin": "hackernews",
     "aiNote": null,
     "image": null,
-    "heat": 20,
+    "heat": 19,
     "firstSeen": "2026-08-07T22:56:01.343Z",
     "fetchedAt": null,
     "tier": 2
@@ -15564,7 +15564,7 @@
     "aiSelected": true,
     "origin": "rss:apple-ml",
     "aiNote": null,
-    "heat": 36,
+    "heat": 35,
     "firstSeen": "2026-08-07T22:56:01.343Z",
     "fetchedAt": null,
     "tier": 1
@@ -17413,7 +17413,7 @@
     "aiSelected": true,
     "origin": "rss:nvidia",
     "aiNote": "地缘AI算力布局新节点，中亚最大AI工厂落地亚美尼亚，凸显资本对新兴市场的争夺。",
-    "heat": 37,
+    "heat": 36,
     "firstSeen": "2026-08-08T22:48:28.949Z",
     "fetchedAt": null,
     "tier": 1
@@ -17672,7 +17672,7 @@
     "aiSelected": true,
     "origin": "rss:latentspace",
     "aiNote": null,
-    "heat": 27,
+    "heat": 26,
     "firstSeen": "2026-08-08T22:48:28.949Z",
     "fetchedAt": null,
     "tier": 2
@@ -18656,7 +18656,7 @@
       "atguigu",
       "Jupyter Notebook"
     ],
-    "engagement": 212,
+    "engagement": 215,
     "aiSelected": true,
     "origin": "github",
     "aiNote": null,
@@ -18681,12 +18681,12 @@
       "aider",
       "Python"
     ],
-    "engagement": 855,
+    "engagement": 870,
     "aiSelected": true,
     "origin": "github",
     "aiNote": null,
     "image": null,
-    "heat": 30,
+    "heat": 29,
     "firstSeen": "2026-08-09T22:51:24.251Z",
     "fetchedAt": null,
     "tier": 2
@@ -18706,7 +18706,7 @@
       "ai-agents",
       "TypeScript"
     ],
-    "engagement": 482,
+    "engagement": 484,
     "aiSelected": true,
     "origin": "github",
     "aiNote": null,
@@ -18963,7 +18963,7 @@
     "aiSelected": true,
     "origin": "rss:arstechnica-ai",
     "aiNote": "开源模型能否扭转Meta的AI颓势，关键看生态与执行力。",
-    "heat": 28,
+    "heat": 27,
     "firstSeen": "2026-08-10T22:57:01.923Z",
     "fetchedAt": null,
     "tier": 2
@@ -19018,7 +19018,7 @@
     "aiSelected": true,
     "origin": "rss:arstechnica-ai",
     "aiNote": "科技巨头为抢AI红利押注化石能源，环保承诺与商业利益的矛盾凸显。",
-    "heat": 28,
+    "heat": 27,
     "firstSeen": "2026-08-10T22:57:01.923Z",
     "fetchedAt": null,
     "tier": 2
@@ -19052,7 +19052,7 @@
     "aiSelected": true,
     "origin": "rss:techreview-ai",
     "aiNote": "学术与AI的碰撞，正重塑研究伦理与创新边界。",
-    "heat": 28,
+    "heat": 27,
     "firstSeen": "2026-08-10T22:57:01.923Z",
     "fetchedAt": null,
     "tier": 2
@@ -19137,7 +19137,7 @@
     "aiSelected": true,
     "origin": "rss:anthropic",
     "aiNote": "数学推理成AI竞争新高地，Claude能力细节值得深挖。",
-    "heat": 38,
+    "heat": 37,
     "firstSeen": "2026-08-10T22:57:01.923Z",
     "fetchedAt": null,
     "tier": 1
@@ -19170,12 +19170,12 @@
     "tags": [
       "Hacker News"
     ],
-    "engagement": 535,
+    "engagement": 536,
     "aiSelected": true,
     "origin": "hackernews",
     "aiNote": "14MB级端侧智能体，开启手机手表家居机器人的本地AI新纪元。",
     "image": null,
-    "heat": 35,
+    "heat": 34,
     "firstSeen": "2026-08-10T22:57:01.923Z",
     "fetchedAt": null,
     "tier": 2
@@ -19620,7 +19620,7 @@
     "aiSelected": true,
     "origin": "rss:interconnects",
     "aiNote": null,
-    "heat": 28,
+    "heat": 27,
     "firstSeen": "2026-08-10T22:57:01.923Z",
     "fetchedAt": null,
     "tier": 2
@@ -19637,7 +19637,7 @@
     "aiSelected": true,
     "origin": "rss:importai",
     "aiNote": null,
-    "heat": 28,
+    "heat": 27,
     "firstSeen": "2026-08-10T22:57:01.923Z",
     "fetchedAt": null,
     "tier": 2
@@ -19658,7 +19658,7 @@
     "origin": "hackernews",
     "aiNote": null,
     "image": null,
-    "heat": 22,
+    "heat": 21,
     "firstSeen": "2026-08-10T22:57:01.923Z",
     "fetchedAt": null,
     "tier": 2
@@ -19815,7 +19815,7 @@
     "aiSelected": true,
     "origin": "rss:hf-blog",
     "aiNote": null,
-    "heat": 38,
+    "heat": 37,
     "firstSeen": "2026-08-10T22:57:01.923Z",
     "fetchedAt": null,
     "tier": 1
@@ -20239,7 +20239,7 @@
     "aiSelected": true,
     "origin": "rss:hf-blog",
     "aiNote": null,
-    "heat": 38,
+    "heat": 37,
     "firstSeen": "2026-08-10T22:57:01.923Z",
     "fetchedAt": null,
     "tier": 1
@@ -20256,7 +20256,7 @@
     "aiSelected": true,
     "origin": "rss:tldr-ai",
     "aiNote": null,
-    "heat": 28,
+    "heat": 27,
     "firstSeen": "2026-08-10T22:57:01.923Z",
     "fetchedAt": null,
     "tier": 2
@@ -20352,12 +20352,12 @@
       "opencode",
       "PowerShell"
     ],
-    "engagement": 82,
+    "engagement": 83,
     "aiSelected": true,
     "origin": "github",
     "aiNote": null,
     "image": null,
-    "heat": 23,
+    "heat": 22,
     "firstSeen": "2026-08-10T22:57:01.923Z",
     "fetchedAt": null,
     "tier": 2
@@ -21468,7 +21468,7 @@
       "llm-agents",
       "Python"
     ],
-    "engagement": 77,
+    "engagement": 78,
     "aiSelected": true,
     "origin": "github",
     "aiNote": null,
@@ -22574,12 +22574,12 @@
       "ai-agent-security",
       "JavaScript"
     ],
-    "engagement": 36,
+    "engagement": 60,
     "aiSelected": true,
     "origin": "github",
     "aiNote": null,
     "image": null,
-    "heat": 20,
+    "heat": 21,
     "firstSeen": "2026-08-11T03:11:36.222Z",
     "fetchedAt": null,
     "tier": 2
@@ -22697,7 +22697,7 @@
     "origin": "rss:meta-ai",
     "aiNote": null,
     "heat": 30,
-    "firstSeen": "2026-08-18T22:43:00.111Z",
+    "firstSeen": "2026-08-22T22:40:23.840Z",
     "fetchedAt": null,
     "tier": 1
   },
@@ -22764,7 +22764,7 @@
     "aiSelected": true,
     "origin": "rss:latentspace",
     "aiNote": "制药业突然为生物AI买单，Chai今夏连签四单，揭示技术变现拐点已至。",
-    "heat": 29,
+    "heat": 28,
     "firstSeen": "2026-08-11T23:04:36.948Z",
     "fetchedAt": null,
     "tier": 2
@@ -22798,7 +22798,7 @@
     "aiSelected": true,
     "origin": "rss:arstechnica-ai",
     "aiNote": "用户破十亿创增速纪录，但模型迭代放缓或成隐忧。",
-    "heat": 29,
+    "heat": 28,
     "firstSeen": "2026-08-11T23:04:36.948Z",
     "fetchedAt": null,
     "tier": 2
@@ -23027,7 +23027,7 @@
     "aiSelected": true,
     "origin": "rss:google-ai",
     "aiNote": "首个AI实时视频问诊研究，突破传统文本交互，临床实用价值值得期待。",
-    "heat": 39,
+    "heat": 38,
     "firstSeen": "2026-08-11T23:04:36.948Z",
     "fetchedAt": null,
     "tier": 1
@@ -23184,7 +23184,7 @@
     "aiSelected": true,
     "origin": "rss:msr",
     "aiNote": "医学影像AI从报告生成走向临床可用，三大技术融合直击落地痛点。",
-    "heat": 39,
+    "heat": 38,
     "firstSeen": "2026-08-11T23:04:36.948Z",
     "fetchedAt": null,
     "tier": 1
@@ -23252,7 +23252,7 @@
     "aiSelected": true,
     "origin": "rss:nvidia",
     "aiNote": null,
-    "heat": 39,
+    "heat": 38,
     "firstSeen": "2026-08-11T23:04:36.948Z",
     "fetchedAt": null,
     "tier": 1
@@ -23345,7 +23345,7 @@
     "aiSelected": true,
     "origin": "rss:hf-blog",
     "aiNote": null,
-    "heat": 39,
+    "heat": 38,
     "firstSeen": "2026-08-20T22:46:39.903Z",
     "fetchedAt": null,
     "tier": 1
@@ -23396,7 +23396,7 @@
     "aiSelected": true,
     "origin": "rss:nvidia",
     "aiNote": null,
-    "heat": 39,
+    "heat": 38,
     "firstSeen": "2026-08-11T23:04:36.948Z",
     "fetchedAt": null,
     "tier": 1
@@ -23413,7 +23413,7 @@
     "aiSelected": true,
     "origin": "rss:nvidia",
     "aiNote": null,
-    "heat": 39,
+    "heat": 38,
     "firstSeen": "2026-08-11T23:04:36.948Z",
     "fetchedAt": null,
     "tier": 1
@@ -23519,7 +23519,7 @@
     "origin": "hackernews",
     "aiNote": null,
     "image": null,
-    "heat": 36,
+    "heat": 35,
     "firstSeen": "2026-08-11T23:04:36.948Z",
     "fetchedAt": null,
     "tier": 2
@@ -23570,7 +23570,7 @@
     "aiSelected": true,
     "origin": "rss:mistral",
     "aiNote": null,
-    "heat": 39,
+    "heat": 38,
     "firstSeen": "2026-08-11T23:04:36.948Z",
     "fetchedAt": null,
     "tier": 1
@@ -23693,7 +23693,7 @@
     "aiSelected": true,
     "origin": "rss:openai",
     "aiNote": null,
-    "heat": 39,
+    "heat": 38,
     "firstSeen": "2026-08-11T23:04:36.948Z",
     "fetchedAt": null,
     "tier": 1
@@ -24712,12 +24712,12 @@
       "llm",
       "TypeScript"
     ],
-    "engagement": 1097,
+    "engagement": 1103,
     "aiSelected": true,
     "origin": "github",
     "aiNote": null,
     "image": null,
-    "heat": 36,
+    "heat": 34,
     "firstSeen": "2026-08-11T23:04:36.948Z",
     "fetchedAt": null,
     "tier": 2
@@ -25693,7 +25693,7 @@
     "aiSelected": true,
     "origin": "rss:hf-blog",
     "aiNote": "开放定制嵌入导出，打通地理空间数据与下游分析链路。",
-    "heat": 40,
+    "heat": 39,
     "firstSeen": "2026-08-12T23:02:39.648Z",
     "fetchedAt": null,
     "tier": 1
@@ -25748,7 +25748,7 @@
     "origin": "hackernews",
     "aiNote": "模型迭代速度惊人，性能或再破纪录，值得开发者紧盯。",
     "image": null,
-    "heat": 40,
+    "heat": 39,
     "firstSeen": "2026-08-12T23:02:39.648Z",
     "fetchedAt": null,
     "tier": 2
@@ -25782,7 +25782,7 @@
     "aiSelected": true,
     "origin": "rss:msr",
     "aiNote": null,
-    "heat": 40,
+    "heat": 39,
     "firstSeen": "2026-08-12T23:02:39.648Z",
     "fetchedAt": null,
     "tier": 1
@@ -25909,7 +25909,7 @@
     "origin": "hackernews",
     "aiNote": null,
     "image": null,
-    "heat": 23,
+    "heat": 22,
     "firstSeen": "2026-08-12T23:02:39.648Z",
     "fetchedAt": null,
     "tier": 2
@@ -25926,7 +25926,7 @@
     "aiSelected": true,
     "origin": "rss:arstechnica-ai",
     "aiNote": null,
-    "heat": 29,
+    "heat": 28,
     "firstSeen": "2026-08-12T23:02:39.648Z",
     "fetchedAt": null,
     "tier": 2
@@ -26087,7 +26087,7 @@
     "aiSelected": true,
     "origin": "rss:deepmind",
     "aiNote": null,
-    "heat": 40,
+    "heat": 39,
     "firstSeen": "2026-08-12T23:02:39.648Z",
     "fetchedAt": null,
     "tier": 1
@@ -26295,7 +26295,7 @@
     "aiSelected": true,
     "origin": "rss:interconnects",
     "aiNote": null,
-    "heat": 29,
+    "heat": 28,
     "firstSeen": "2026-08-12T23:02:39.648Z",
     "fetchedAt": null,
     "tier": 2
@@ -26499,7 +26499,7 @@
     "aiSelected": true,
     "origin": "rss:google-research",
     "aiNote": null,
-    "heat": 40,
+    "heat": 39,
     "firstSeen": "2026-08-12T23:02:39.648Z",
     "fetchedAt": null,
     "tier": 1
@@ -26571,7 +26571,7 @@
     "aiSelected": true,
     "origin": "rss:latentspace",
     "aiNote": null,
-    "heat": 29,
+    "heat": 28,
     "firstSeen": "2026-08-12T23:02:39.648Z",
     "fetchedAt": null,
     "tier": 2
@@ -26622,7 +26622,7 @@
     "aiSelected": true,
     "origin": "rss:openai",
     "aiNote": null,
-    "heat": 40,
+    "heat": 39,
     "firstSeen": "2026-08-12T23:02:39.648Z",
     "fetchedAt": null,
     "tier": 1
@@ -26783,7 +26783,7 @@
     "aiSelected": true,
     "origin": "rss:nvidia",
     "aiNote": null,
-    "heat": 40,
+    "heat": 39,
     "firstSeen": "2026-08-12T23:02:39.648Z",
     "fetchedAt": null,
     "tier": 1
@@ -26817,7 +26817,7 @@
     "aiSelected": true,
     "origin": "rss:tldr-ai",
     "aiNote": null,
-    "heat": 29,
+    "heat": 28,
     "firstSeen": "2026-08-12T23:02:39.648Z",
     "fetchedAt": null,
     "tier": 2
@@ -27342,7 +27342,7 @@
     "origin": "github",
     "aiNote": null,
     "image": null,
-    "heat": 26,
+    "heat": 25,
     "firstSeen": "2026-08-12T23:02:39.648Z",
     "fetchedAt": null,
     "tier": 2
@@ -27814,7 +27814,7 @@
     "origin": "github",
     "aiNote": null,
     "image": null,
-    "heat": 19,
+    "heat": 18,
     "firstSeen": "2026-08-15T22:38:48.662Z",
     "fetchedAt": null,
     "tier": 2
@@ -28072,7 +28072,7 @@
       "ai-coding",
       "HTML"
     ],
-    "engagement": 1562,
+    "engagement": 1597,
     "aiSelected": true,
     "origin": "github",
     "aiNote": null,
@@ -28456,7 +28456,7 @@
     "origin": "hackernews",
     "aiNote": "超高速迭代或预示模型架构新突破，值得追踪性能跃升与算力需求。",
     "image": null,
-    "heat": 39,
+    "heat": 38,
     "firstSeen": "2026-08-13T23:04:07.240Z",
     "fetchedAt": null,
     "tier": 2
@@ -28490,7 +28490,7 @@
     "aiSelected": true,
     "origin": "rss:arstechnica-ai",
     "aiNote": "新版Logo意外撞脸AI生成图，暴露科技巨头设计审美的崩塌。",
-    "heat": 30,
+    "heat": 29,
     "firstSeen": "2026-08-13T23:04:07.240Z",
     "fetchedAt": null,
     "tier": 2
@@ -28511,7 +28511,7 @@
     "origin": "hackernews",
     "aiNote": "轻量模型迭代加速，性能与成本平衡或成开发者新宠。",
     "image": null,
-    "heat": 41,
+    "heat": 40,
     "firstSeen": "2026-08-13T23:04:07.240Z",
     "fetchedAt": null,
     "tier": 2
@@ -28528,7 +28528,7 @@
     "aiSelected": true,
     "origin": "rss:hf-blog",
     "aiNote": "一站式打通机器人开发全链路，降低门槛，值得开发者关注。",
-    "heat": 41,
+    "heat": 40,
     "firstSeen": "2026-08-13T23:04:07.240Z",
     "fetchedAt": null,
     "tier": 1
@@ -28583,7 +28583,7 @@
     "aiSelected": true,
     "origin": "rss:deepmind",
     "aiNote": "轻量级模型性能再突破，开发者生态迎来新选择。",
-    "heat": 41,
+    "heat": 40,
     "firstSeen": "2026-08-13T23:04:07.240Z",
     "fetchedAt": null,
     "tier": 1
@@ -28600,7 +28600,7 @@
     "aiSelected": true,
     "origin": "rss:arstechnica-ai",
     "aiNote": "迭代速度罕见，性能跃升或重塑AI竞争节奏。",
-    "heat": 30,
+    "heat": 29,
     "firstSeen": "2026-08-13T23:04:07.240Z",
     "fetchedAt": null,
     "tier": 2
@@ -28617,7 +28617,7 @@
     "aiSelected": true,
     "origin": "rss:google-ai",
     "aiNote": "一句话生成交互式看板，让表格数据秒变可视化工具，AI降低数据分析门槛。",
-    "heat": 41,
+    "heat": 40,
     "firstSeen": "2026-08-13T23:04:07.240Z",
     "fetchedAt": null,
     "tier": 1
@@ -28931,7 +28931,7 @@
     "aiSelected": true,
     "origin": "rss:arstechnica-ai",
     "aiNote": null,
-    "heat": 30,
+    "heat": 29,
     "firstSeen": "2026-08-13T23:04:07.240Z",
     "fetchedAt": null,
     "tier": 2
@@ -28948,7 +28948,7 @@
     "aiSelected": true,
     "origin": "rss:techreview-ai",
     "aiNote": null,
-    "heat": 30,
+    "heat": 29,
     "firstSeen": "2026-08-13T23:04:07.240Z",
     "fetchedAt": null,
     "tier": 2
@@ -29006,12 +29006,12 @@
       "agent-skills",
       "Python"
     ],
-    "engagement": 1224,
+    "engagement": 1229,
     "aiSelected": true,
     "origin": "github",
     "aiNote": null,
     "image": null,
-    "heat": 40,
+    "heat": 39,
     "firstSeen": "2026-08-13T23:04:07.240Z",
     "fetchedAt": null,
     "tier": 2
@@ -29049,7 +29049,7 @@
     "aiSelected": true,
     "origin": "rss:bensbites",
     "aiNote": null,
-    "heat": 30,
+    "heat": 29,
     "firstSeen": "2026-08-13T23:04:07.240Z",
     "fetchedAt": null,
     "tier": 2
@@ -29070,7 +29070,7 @@
     "origin": "hackernews",
     "aiNote": null,
     "image": null,
-    "heat": 39,
+    "heat": 38,
     "firstSeen": "2026-08-13T23:04:07.240Z",
     "fetchedAt": null,
     "tier": 2
@@ -29176,7 +29176,7 @@
     "aiSelected": true,
     "origin": "rss:arstechnica-ai",
     "aiNote": null,
-    "heat": 30,
+    "heat": 29,
     "firstSeen": "2026-08-13T23:04:07.240Z",
     "fetchedAt": null,
     "tier": 2
@@ -29210,7 +29210,7 @@
     "aiSelected": true,
     "origin": "rss:openai",
     "aiNote": null,
-    "heat": 41,
+    "heat": 40,
     "firstSeen": "2026-08-13T23:04:07.240Z",
     "fetchedAt": null,
     "tier": 1
@@ -29312,7 +29312,7 @@
     "aiSelected": true,
     "origin": "rss:openai",
     "aiNote": null,
-    "heat": 41,
+    "heat": 40,
     "firstSeen": "2026-08-13T23:04:07.240Z",
     "fetchedAt": null,
     "tier": 1
@@ -29367,7 +29367,7 @@
     "aiSelected": true,
     "origin": "rss:openai",
     "aiNote": null,
-    "heat": 41,
+    "heat": 40,
     "firstSeen": "2026-08-13T23:04:07.240Z",
     "fetchedAt": null,
     "tier": 1
@@ -29384,7 +29384,7 @@
     "aiSelected": true,
     "origin": "rss:techreview-ai",
     "aiNote": null,
-    "heat": 30,
+    "heat": 29,
     "firstSeen": "2026-08-13T23:04:07.240Z",
     "fetchedAt": null,
     "tier": 2
@@ -29494,7 +29494,7 @@
     "origin": "hackernews",
     "aiNote": null,
     "image": null,
-    "heat": 37,
+    "heat": 35,
     "firstSeen": "2026-08-13T23:04:07.240Z",
     "fetchedAt": null,
     "tier": 2
@@ -29528,7 +29528,7 @@
     "aiSelected": true,
     "origin": "rss:anthropic",
     "aiNote": null,
-    "heat": 41,
+    "heat": 40,
     "firstSeen": "2026-08-13T23:04:07.240Z",
     "fetchedAt": null,
     "tier": 1
@@ -29562,7 +29562,7 @@
     "aiSelected": true,
     "origin": "rss:hf-blog",
     "aiNote": null,
-    "heat": 40,
+    "heat": 39,
     "firstSeen": "2026-08-13T23:04:07.240Z",
     "fetchedAt": null,
     "tier": 1
@@ -29579,7 +29579,7 @@
     "aiSelected": true,
     "origin": "rss:apple-ml",
     "aiNote": null,
-    "heat": 40,
+    "heat": 39,
     "firstSeen": "2026-08-13T23:04:07.240Z",
     "fetchedAt": null,
     "tier": 1
@@ -29638,7 +29638,7 @@
     "origin": "github",
     "aiNote": null,
     "image": null,
-    "heat": 21,
+    "heat": 20,
     "firstSeen": "2026-08-13T23:04:07.240Z",
     "fetchedAt": null,
     "tier": 2
@@ -30074,7 +30074,7 @@
       "comfyui-custom-nodes",
       "Python"
     ],
-    "engagement": 276,
+    "engagement": 279,
     "aiSelected": true,
     "origin": "github",
     "aiNote": null,
@@ -30117,7 +30117,7 @@
     "origin": "hackernews",
     "aiNote": null,
     "image": null,
-    "heat": 21,
+    "heat": 20,
     "firstSeen": "2026-08-13T23:04:07.240Z",
     "fetchedAt": null,
     "tier": 2
@@ -30707,7 +30707,7 @@
       "local-ai",
       "Kotlin"
     ],
-    "engagement": 115,
+    "engagement": 118,
     "aiSelected": true,
     "origin": "github",
     "aiNote": null,
@@ -30897,7 +30897,7 @@
     "aiSelected": true,
     "origin": "rss:interconnects",
     "aiNote": "中国大模型独立创新路径清晰，破除“蒸馏依赖”偏见，展现前沿追赶的真实技术实力。",
-    "heat": 31,
+    "heat": 30,
     "firstSeen": "2026-08-14T22:41:58.336Z",
     "fetchedAt": null,
     "tier": 2
@@ -30914,7 +30914,7 @@
     "aiSelected": true,
     "origin": "rss:wired-ai",
     "aiNote": "四足机器人G1凭亲民价格走红网络，但能否胜任实际工作成关键看点。",
-    "heat": 31,
+    "heat": 30,
     "firstSeen": "2026-08-14T22:41:58.336Z",
     "fetchedAt": null,
     "tier": 2
@@ -30935,7 +30935,7 @@
     "origin": "hackernews",
     "aiNote": "AI安全报告罕见曝光，提前研判前沿模型风险，值得行业警惕。",
     "image": null,
-    "heat": 22,
+    "heat": 21,
     "firstSeen": "2026-08-14T22:41:58.336Z",
     "fetchedAt": null,
     "tier": 2
@@ -30947,12 +30947,12 @@
     "source": "Anthropic",
     "sourceUrl": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE8xMjZ5Ynd3TkptcUFtRGZxalN0VUxKTWRxSktRTkhsa1llV0w0OUphLXRYWDkyaGJvendtY0drMTRCTWV1QjJxeVc5MzFxb2NXQVpXRWhRZDY3eC1Zak5QZWV3?oc=5",
     "category": "ai-models",
-    "publishedAt": "2026-08-14T19:22:20.000Z",
+    "publishedAt": "2026-08-14T07:00:00.000Z",
     "image": null,
     "aiSelected": true,
     "origin": "rss:anthropic",
     "aiNote": "AI文本水印技术落地，为内容溯源与版权保护提供新思路，行业应用前景值得关注。",
-    "heat": 42,
+    "heat": 41,
     "firstSeen": "2026-08-14T22:41:58.336Z",
     "fetchedAt": null,
     "tier": 1
@@ -30969,7 +30969,7 @@
     "aiSelected": true,
     "origin": "rss:arstechnica-ai",
     "aiNote": "用提示词对抗AI裁判，折射出技术滥用与司法边界的新博弈。",
-    "heat": 31,
+    "heat": 30,
     "firstSeen": "2026-08-14T22:41:58.336Z",
     "fetchedAt": null,
     "tier": 2
@@ -30986,7 +30986,7 @@
     "aiSelected": true,
     "origin": "rss:nvidia",
     "aiNote": "校企联手建国家级AI中心，东南亚人才竞争升级，中国需警惕生态外溢。",
-    "heat": 42,
+    "heat": 41,
     "firstSeen": "2026-08-14T22:41:58.336Z",
     "fetchedAt": null,
     "tier": 1
@@ -31529,7 +31529,7 @@
     "aiSelected": true,
     "origin": "rss:arstechnica-ai",
     "aiNote": null,
-    "heat": 31,
+    "heat": 30,
     "firstSeen": "2026-08-14T22:41:58.336Z",
     "fetchedAt": null,
     "tier": 2
@@ -31652,7 +31652,7 @@
     "aiSelected": true,
     "origin": "rss:bensbites",
     "aiNote": null,
-    "heat": 31,
+    "heat": 30,
     "firstSeen": "2026-08-14T22:41:58.336Z",
     "fetchedAt": null,
     "tier": 2
@@ -32076,7 +32076,7 @@
     "aiSelected": true,
     "origin": "rss:hf-blog",
     "aiNote": null,
-    "heat": 42,
+    "heat": 40,
     "firstSeen": "2026-08-14T22:41:58.336Z",
     "fetchedAt": null,
     "tier": 1
@@ -32093,7 +32093,7 @@
     "aiSelected": true,
     "origin": "rss:tldr-ai",
     "aiNote": null,
-    "heat": 30,
+    "heat": 29,
     "firstSeen": "2026-08-14T22:41:58.336Z",
     "fetchedAt": null,
     "tier": 2
@@ -32151,12 +32151,12 @@
       "multimodal",
       "JavaScript"
     ],
-    "engagement": 931,
+    "engagement": 937,
     "aiSelected": true,
     "origin": "github",
     "aiNote": null,
     "image": null,
-    "heat": 37,
+    "heat": 36,
     "firstSeen": "2026-08-14T22:41:58.336Z",
     "fetchedAt": null,
     "tier": 2
@@ -32901,7 +32901,7 @@
       "论文",
       "arXiv"
     ],
-    "engagement": 87,
+    "engagement": 88,
     "aiSelected": true,
     "origin": "hf-papers",
     "aiNote": null,
@@ -33278,7 +33278,7 @@
     "origin": "github",
     "aiNote": null,
     "image": null,
-    "heat": 25,
+    "heat": 24,
     "firstSeen": "2026-08-14T22:41:58.336Z",
     "fetchedAt": null,
     "tier": 2
@@ -33584,7 +33584,7 @@
     "aiSelected": true,
     "origin": "rss:latentspace",
     "aiNote": "用React心智模型重构智能体开发，让工具链复用前端思维，值得关注。",
-    "heat": 32,
+    "heat": 31,
     "firstSeen": "2026-08-15T22:38:48.662Z",
     "fetchedAt": null,
     "tier": 2
@@ -33821,7 +33821,7 @@
     "aiSelected": true,
     "origin": "rss:raschka",
     "aiNote": "从零构建AI文本检测器，覆盖数据到部署全流程，实操价值高。",
-    "heat": 32,
+    "heat": 31,
     "firstSeen": "2026-08-15T22:38:48.662Z",
     "fetchedAt": null,
     "tier": 2
@@ -34222,12 +34222,12 @@
       "multimodal",
       "TypeScript"
     ],
-    "engagement": 83,
+    "engagement": 84,
     "aiSelected": true,
     "origin": "github",
     "aiNote": null,
     "image": null,
-    "heat": 26,
+    "heat": 25,
     "firstSeen": "2026-08-15T22:38:48.662Z",
     "fetchedAt": null,
     "tier": 2
@@ -34310,7 +34310,7 @@
       "cloudflare",
       "TypeScript"
     ],
-    "engagement": 221,
+    "engagement": 223,
     "aiSelected": true,
     "origin": "github",
     "aiNote": null,
@@ -34430,7 +34430,7 @@
     "aiSelected": true,
     "origin": "rss:simonwillison",
     "aiNote": "小参数旗舰模型兼顾性能与效率，但过度思考问题暴露推理成本隐忧。",
-    "heat": 33,
+    "heat": 32,
     "firstSeen": "2026-08-16T22:38:22.061Z",
     "fetchedAt": null,
     "tier": 2
@@ -34570,7 +34570,7 @@
     "aiSelected": true,
     "origin": "rss:simonwillison",
     "aiNote": "公众对AI的负面看法主因不在警示，而在实际影响，值得深思。",
-    "heat": 33,
+    "heat": 32,
     "firstSeen": "2026-08-16T22:38:22.061Z",
     "fetchedAt": null,
     "tier": 2
@@ -34696,12 +34696,12 @@
     "tags": [
       "Hacker News"
     ],
-    "engagement": 759,
+    "engagement": 760,
     "aiSelected": true,
     "origin": "hackernews",
     "aiNote": "提示工程新范式，系统提示词成AI行为核心控制手段。",
     "image": null,
-    "heat": 43,
+    "heat": 42,
     "firstSeen": "2026-08-16T22:38:22.061Z",
     "fetchedAt": null,
     "tier": 2
@@ -34768,7 +34768,7 @@
     "tags": [
       "Hacker News"
     ],
-    "engagement": 113,
+    "engagement": 114,
     "aiSelected": true,
     "origin": "hackernews",
     "aiNote": null,
@@ -34883,7 +34883,7 @@
     "origin": "hackernews",
     "aiNote": "大模型低龄语料训练揭示认知天花板，教育AI边界探索新视角。",
     "image": null,
-    "heat": 36,
+    "heat": 35,
     "firstSeen": "2026-08-16T22:38:22.061Z",
     "fetchedAt": null,
     "tier": 2
@@ -35023,7 +35023,7 @@
     "aiSelected": true,
     "origin": "rss:simonwillison",
     "aiNote": null,
-    "heat": 32,
+    "heat": 31,
     "firstSeen": "2026-08-16T22:38:22.061Z",
     "fetchedAt": null,
     "tier": 2
@@ -35069,24 +35069,24 @@
   {
     "id": "gh-zouyuxuan122-deepseek-harness-eac",
     "title": "zouyuxuan122/Deepseek-Harness-EAC",
-    "summary": "DeepSeek Harness (dsh) Windows / Linux desktop client - bundled Node.js + dsh CLI, one-click launch, 10 built-in UI skins. EAC: Embracing All Creation 揽尽万象",
+    "summary": "DeepSeek Harness Desktop (dsh-desktop). EAC: Embracing All Creation (揽尽万象). Bundled Node.js runtime with full dsh-CLI kernel, one-click startup, 10 built-in UI…",
     "source": "GitHub",
     "sourceUrl": "https://github.com/zouyuxuan122/Deepseek-Harness-EAC",
-    "category": "ai-models",
+    "category": "ai-products",
     "publishedAt": "2026-08-14T16:29:54Z",
     "tags": [
       "ai-agent",
       "deepseek",
-      "desktop-app",
-      "dsh",
+      "deepseek-harness",
+      "desktop",
       "JavaScript"
     ],
-    "engagement": 1093,
+    "engagement": 1147,
     "aiSelected": true,
     "origin": "github",
     "aiNote": null,
     "image": null,
-    "heat": 40,
+    "heat": 39,
     "firstSeen": "2026-08-16T22:38:22.061Z",
     "fetchedAt": null,
     "tier": 2
@@ -35107,7 +35107,7 @@
     "origin": "hackernews",
     "aiNote": null,
     "image": null,
-    "heat": 23,
+    "heat": 22,
     "firstSeen": "2026-08-16T22:38:22.061Z",
     "fetchedAt": null,
     "tier": 2
@@ -35127,7 +35127,7 @@
       "ai-agents",
       "Python"
     ],
-    "engagement": 121,
+    "engagement": 132,
     "aiSelected": true,
     "origin": "github",
     "aiNote": null,
@@ -35198,7 +35198,7 @@
       "mlops",
       "HTML"
     ],
-    "engagement": 753,
+    "engagement": 755,
     "aiSelected": true,
     "origin": "github",
     "aiNote": null,
@@ -35288,7 +35288,7 @@
       "llm",
       "mcp"
     ],
-    "engagement": 58,
+    "engagement": 60,
     "aiSelected": true,
     "origin": "github",
     "aiNote": null,
@@ -35412,7 +35412,7 @@
     "aiSelected": true,
     "origin": "rss:arstechnica-ai",
     "aiNote": "机器人工厂切入钢铁制造，前SpaceX工程师带来降本增效新思路。",
-    "heat": 34,
+    "heat": 33,
     "firstSeen": "2026-08-17T22:42:50.620Z",
     "fetchedAt": null,
     "tier": 2
@@ -35467,7 +35467,7 @@
     "aiSelected": true,
     "origin": "rss:hf-blog",
     "aiNote": "调度顺序优化竟提升33%利用率，揭示集群性能瓶颈不在硬件而在算法。",
-    "heat": 47,
+    "heat": 45,
     "firstSeen": "2026-08-17T22:42:50.620Z",
     "fetchedAt": null,
     "tier": 1
@@ -35484,7 +35484,7 @@
     "aiSelected": true,
     "origin": "rss:techreview-ai",
     "aiNote": "警用AI巨头争议升级，算法伦理与公共安全的平衡点成焦点。",
-    "heat": 34,
+    "heat": 33,
     "firstSeen": "2026-08-17T22:42:50.620Z",
     "fetchedAt": null,
     "tier": 2
@@ -35535,7 +35535,7 @@
     "aiSelected": true,
     "origin": "rss:arstechnica-ai",
     "aiNote": "用恐龙吞书做标志，亚马逊销毁珍本训练AI，暴露科技巨头对文化资产的漠视。",
-    "heat": 34,
+    "heat": 33,
     "firstSeen": "2026-08-17T22:42:50.620Z",
     "fetchedAt": null,
     "tier": 2
@@ -35738,7 +35738,7 @@
     "origin": "hackernews",
     "aiNote": "开源与闭源之争再升级，Anthropic立场转变或重塑AI生态格局。",
     "image": null,
-    "heat": 34,
+    "heat": 33,
     "firstSeen": "2026-08-17T22:42:50.620Z",
     "fetchedAt": null,
     "tier": 2
@@ -35755,7 +35755,7 @@
     "aiSelected": true,
     "origin": "rss:simonwillison",
     "aiNote": "出版业数据成AI训练新矿藏，追踪链条揭出亚马逊隐秘采购，版权与伦理争议再升温。",
-    "heat": 34,
+    "heat": 33,
     "firstSeen": "2026-08-17T22:42:50.620Z",
     "fetchedAt": null,
     "tier": 2
@@ -35806,7 +35806,7 @@
     "aiSelected": true,
     "origin": "rss:interconnects",
     "aiNote": "英伟达推动自建模型，挑战闭源巨头，生态之争再升级。",
-    "heat": 34,
+    "heat": 33,
     "firstSeen": "2026-08-17T22:42:50.620Z",
     "fetchedAt": null,
     "tier": 2
@@ -36026,7 +36026,7 @@
     "aiSelected": true,
     "origin": "rss:importai",
     "aiNote": null,
-    "heat": 34,
+    "heat": 33,
     "firstSeen": "2026-08-17T22:42:50.620Z",
     "fetchedAt": null,
     "tier": 2
@@ -36043,7 +36043,7 @@
     "aiSelected": true,
     "origin": "rss:nvidia",
     "aiNote": null,
-    "heat": 46,
+    "heat": 45,
     "firstSeen": "2026-08-17T22:42:50.620Z",
     "fetchedAt": null,
     "tier": 1
@@ -36076,12 +36076,12 @@
     "tags": [
       "Hacker News"
     ],
-    "engagement": 365,
+    "engagement": 366,
     "aiSelected": true,
     "origin": "hackernews",
     "aiNote": null,
     "image": null,
-    "heat": 41,
+    "heat": 39,
     "firstSeen": "2026-08-17T22:42:50.620Z",
     "fetchedAt": null,
     "tier": 2
@@ -36285,7 +36285,7 @@
     "aiSelected": true,
     "origin": "rss:techreview-ai",
     "aiNote": null,
-    "heat": 33,
+    "heat": 32,
     "firstSeen": "2026-08-17T22:42:50.620Z",
     "fetchedAt": null,
     "tier": 2
@@ -36336,7 +36336,7 @@
     "aiSelected": true,
     "origin": "rss:google-ai",
     "aiNote": null,
-    "heat": 46,
+    "heat": 44,
     "firstSeen": "2026-08-17T22:42:50.620Z",
     "fetchedAt": null,
     "tier": 1
@@ -36425,7 +36425,7 @@
     "aiSelected": true,
     "origin": "rss:openai",
     "aiNote": null,
-    "heat": 46,
+    "heat": 44,
     "firstSeen": "2026-08-17T22:42:50.620Z",
     "fetchedAt": null,
     "tier": 1
@@ -36442,7 +36442,7 @@
     "aiSelected": true,
     "origin": "rss:openai",
     "aiNote": null,
-    "heat": 46,
+    "heat": 44,
     "firstSeen": "2026-08-17T22:42:50.620Z",
     "fetchedAt": null,
     "tier": 1
@@ -36459,7 +36459,7 @@
     "aiSelected": true,
     "origin": "rss:openai",
     "aiNote": null,
-    "heat": 46,
+    "heat": 44,
     "firstSeen": "2026-08-17T22:42:50.620Z",
     "fetchedAt": null,
     "tier": 1
@@ -36497,7 +36497,7 @@
     "aiSelected": true,
     "origin": "rss:tldr-ai",
     "aiNote": null,
-    "heat": 33,
+    "heat": 32,
     "firstSeen": "2026-08-17T22:42:50.620Z",
     "fetchedAt": null,
     "tier": 2
@@ -36535,7 +36535,7 @@
     "origin": "hackernews",
     "aiNote": null,
     "image": null,
-    "heat": 44,
+    "heat": 43,
     "firstSeen": "2026-08-17T22:42:50.620Z",
     "fetchedAt": null,
     "tier": 2
@@ -36556,7 +36556,7 @@
     "origin": "hackernews",
     "aiNote": null,
     "image": null,
-    "heat": 34,
+    "heat": 33,
     "firstSeen": "2026-08-17T22:42:50.620Z",
     "fetchedAt": null,
     "tier": 2
@@ -36577,7 +36577,7 @@
     "origin": "hackernews",
     "aiNote": null,
     "image": null,
-    "heat": 37,
+    "heat": 36,
     "firstSeen": "2026-08-17T22:42:50.620Z",
     "fetchedAt": null,
     "tier": 2
@@ -36598,7 +36598,7 @@
     "origin": "hackernews",
     "aiNote": null,
     "image": null,
-    "heat": 21,
+    "heat": 20,
     "firstSeen": "2026-08-17T22:42:50.620Z",
     "fetchedAt": null,
     "tier": 2
@@ -37375,7 +37375,7 @@
       "electron",
       "TypeScript"
     ],
-    "engagement": 1069,
+    "engagement": 1125,
     "aiSelected": true,
     "origin": "github",
     "aiNote": null,
@@ -37624,7 +37624,7 @@
     "origin": "github",
     "aiNote": null,
     "image": null,
-    "heat": 25,
+    "heat": 24,
     "firstSeen": "2026-08-17T22:42:50.620Z",
     "fetchedAt": null,
     "tier": 2
@@ -38074,7 +38074,7 @@
     "aiSelected": true,
     "origin": "rss:latentspace",
     "aiNote": "模型路由成降本关键，人机反馈闭环提升效率，企业AI支出优化新思路。",
-    "heat": 35,
+    "heat": 34,
     "firstSeen": "2026-08-18T22:43:00.111Z",
     "fetchedAt": null,
     "tier": 2
@@ -38095,7 +38095,7 @@
     "origin": "hackernews",
     "aiNote": "让老旧惠普打印机兼容Mac，开发者用代码解锁原生打印，实用又极客。",
     "image": null,
-    "heat": 34,
+    "heat": 33,
     "firstSeen": "2026-08-18T22:43:00.111Z",
     "fetchedAt": null,
     "tier": 2
@@ -38133,7 +38133,7 @@
     "origin": "hackernews",
     "aiNote": "欧洲主权AI博弈升级，挪威购OpenAI或重塑全球科技地缘格局。",
     "image": null,
-    "heat": 41,
+    "heat": 39,
     "firstSeen": "2026-08-18T22:43:00.111Z",
     "fetchedAt": null,
     "tier": 2
@@ -38167,7 +38167,7 @@
     "aiSelected": true,
     "origin": "rss:openai",
     "aiNote": "AI安全治理新范式，政府与科技界协同监管的样板。",
-    "heat": 48,
+    "heat": 47,
     "firstSeen": "2026-08-18T22:43:00.111Z",
     "fetchedAt": null,
     "tier": 1
@@ -38184,7 +38184,7 @@
     "aiSelected": true,
     "origin": "rss:aws-ml",
     "aiNote": "AI代理自主交易迈入商业化，安全支付护栏成规模化落地关键。",
-    "heat": 35,
+    "heat": 34,
     "firstSeen": "2026-08-18T22:43:00.111Z",
     "fetchedAt": null,
     "tier": 2
@@ -38218,7 +38218,7 @@
     "aiSelected": true,
     "origin": "rss:wired-ai",
     "aiNote": "前沿模型能力跃升引发安全机制紧急升级，暴露AI自主性风险管控的行业新挑战。",
-    "heat": 35,
+    "heat": 34,
     "firstSeen": "2026-08-18T22:43:00.111Z",
     "fetchedAt": null,
     "tier": 2
@@ -38252,7 +38252,7 @@
     "aiSelected": true,
     "origin": "rss:hf-blog",
     "aiNote": "记忆管理决定智能体成败，内存需求是架构设计关键。",
-    "heat": 48,
+    "heat": 47,
     "firstSeen": "2026-08-18T22:43:00.111Z",
     "fetchedAt": null,
     "tier": 1
@@ -38303,7 +38303,7 @@
     "aiSelected": true,
     "origin": "rss:aws-ml",
     "aiNote": "嵌入式聊天定制化让AI无缝融入应用，SDK灵活度成关键亮点。",
-    "heat": 35,
+    "heat": 34,
     "firstSeen": "2026-08-18T22:43:00.111Z",
     "fetchedAt": null,
     "tier": 2
@@ -38375,7 +38375,7 @@
     "origin": "hackernews",
     "aiNote": "开发者福利，限时周限额提升，关注AI编程工具竞争新动向。",
     "image": null,
-    "heat": 41,
+    "heat": 39,
     "firstSeen": "2026-08-18T22:43:00.111Z",
     "fetchedAt": null,
     "tier": 2
@@ -38392,7 +38392,7 @@
     "aiSelected": true,
     "origin": "rss:mit-news-ai",
     "aiNote": "数据集越大，AI创作与训练数据的关联越弱，版权追责将成难题。",
-    "heat": 48,
+    "heat": 46,
     "firstSeen": "2026-08-18T22:43:00.111Z",
     "fetchedAt": null,
     "tier": 1
@@ -38442,12 +38442,12 @@
     "tags": [
       "Hacker News"
     ],
-    "engagement": 81,
+    "engagement": 82,
     "aiSelected": true,
     "origin": "hackernews",
     "aiNote": "从命令行一键拉起持久化CPU/GPU虚拟机，为长时运行AI代理提供基础设施，直击开发者痛点。",
     "image": null,
-    "heat": 29,
+    "heat": 28,
     "firstSeen": "2026-08-18T22:43:00.111Z",
     "fetchedAt": null,
     "tier": 2
@@ -38672,7 +38672,7 @@
     "aiSelected": true,
     "origin": "rss:bensbites",
     "aiNote": null,
-    "heat": 35,
+    "heat": 34,
     "firstSeen": "2026-08-18T22:43:00.111Z",
     "fetchedAt": null,
     "tier": 2
@@ -38689,7 +38689,7 @@
     "aiSelected": true,
     "origin": "rss:arstechnica-ai",
     "aiNote": null,
-    "heat": 35,
+    "heat": 34,
     "firstSeen": "2026-08-18T22:43:00.111Z",
     "fetchedAt": null,
     "tier": 2
@@ -38739,12 +38739,12 @@
     "tags": [
       "Hacker News"
     ],
-    "engagement": 342,
+    "engagement": 346,
     "aiSelected": true,
     "origin": "hackernews",
     "aiNote": null,
     "image": null,
-    "heat": 41,
+    "heat": 40,
     "firstSeen": "2026-08-18T22:43:00.111Z",
     "fetchedAt": null,
     "tier": 2
@@ -38863,7 +38863,7 @@
     "aiSelected": true,
     "origin": "rss:openai",
     "aiNote": null,
-    "heat": 48,
+    "heat": 46,
     "firstSeen": "2026-08-18T22:43:00.111Z",
     "fetchedAt": null,
     "tier": 1
@@ -38880,7 +38880,7 @@
     "aiSelected": true,
     "origin": "rss:openai",
     "aiNote": null,
-    "heat": 48,
+    "heat": 46,
     "firstSeen": "2026-08-18T22:43:00.111Z",
     "fetchedAt": null,
     "tier": 1
@@ -38897,7 +38897,7 @@
     "aiSelected": true,
     "origin": "rss:openai",
     "aiNote": null,
-    "heat": 48,
+    "heat": 46,
     "firstSeen": "2026-08-18T22:43:00.111Z",
     "fetchedAt": null,
     "tier": 1
@@ -38999,7 +38999,7 @@
     "aiSelected": true,
     "origin": "rss:techreview-ai",
     "aiNote": null,
-    "heat": 35,
+    "heat": 34,
     "firstSeen": "2026-08-18T22:43:00.111Z",
     "fetchedAt": null,
     "tier": 2
@@ -39135,7 +39135,7 @@
     "aiSelected": true,
     "origin": "rss:techreview-ai",
     "aiNote": null,
-    "heat": 35,
+    "heat": 33,
     "firstSeen": "2026-08-18T22:43:00.111Z",
     "fetchedAt": null,
     "tier": 2
@@ -39152,7 +39152,7 @@
     "aiSelected": true,
     "origin": "rss:wired-ai",
     "aiNote": null,
-    "heat": 35,
+    "heat": 33,
     "firstSeen": "2026-08-18T22:43:00.111Z",
     "fetchedAt": null,
     "tier": 2
@@ -39237,7 +39237,7 @@
     "aiSelected": true,
     "origin": "rss:openai",
     "aiNote": null,
-    "heat": 47,
+    "heat": 46,
     "firstSeen": "2026-08-18T22:43:00.111Z",
     "fetchedAt": null,
     "tier": 1
@@ -39360,7 +39360,7 @@
     "aiSelected": true,
     "origin": "rss:hf-blog",
     "aiNote": null,
-    "heat": 47,
+    "heat": 45,
     "firstSeen": "2026-08-18T22:43:00.111Z",
     "fetchedAt": null,
     "tier": 1
@@ -39377,7 +39377,7 @@
     "aiSelected": true,
     "origin": "rss:apple-ml",
     "aiNote": null,
-    "heat": 47,
+    "heat": 45,
     "firstSeen": "2026-08-18T22:43:00.111Z",
     "fetchedAt": null,
     "tier": 1
@@ -39394,7 +39394,7 @@
     "aiSelected": true,
     "origin": "rss:apple-ml",
     "aiNote": null,
-    "heat": 47,
+    "heat": 45,
     "firstSeen": "2026-08-18T22:43:00.111Z",
     "fetchedAt": null,
     "tier": 1
@@ -39411,7 +39411,7 @@
     "aiSelected": true,
     "origin": "rss:tldr-ai",
     "aiNote": null,
-    "heat": 34,
+    "heat": 33,
     "firstSeen": "2026-08-18T22:43:00.111Z",
     "fetchedAt": null,
     "tier": 2
@@ -39428,7 +39428,7 @@
     "aiSelected": true,
     "origin": "rss:simonwillison",
     "aiNote": null,
-    "heat": 34,
+    "heat": 33,
     "firstSeen": "2026-08-18T22:43:00.111Z",
     "fetchedAt": null,
     "tier": 2
@@ -39462,7 +39462,7 @@
     "aiSelected": true,
     "origin": "rss:latentspace",
     "aiNote": null,
-    "heat": 34,
+    "heat": 33,
     "firstSeen": "2026-08-18T22:43:00.111Z",
     "fetchedAt": null,
     "tier": 2
@@ -39499,12 +39499,12 @@
     "tags": [
       "Hacker News"
     ],
-    "engagement": 633,
+    "engagement": 634,
     "aiSelected": true,
     "origin": "hackernews",
     "aiNote": null,
     "image": null,
-    "heat": 44,
+    "heat": 42,
     "firstSeen": "2026-08-18T22:43:00.111Z",
     "fetchedAt": null,
     "tier": 2
@@ -39563,7 +39563,7 @@
     "aiSelected": true,
     "origin": "rss:mit-news-ai",
     "aiNote": null,
-    "heat": 47,
+    "heat": 45,
     "firstSeen": "2026-08-18T22:43:00.111Z",
     "fetchedAt": null,
     "tier": 1
@@ -40427,7 +40427,7 @@
       "coding-agent",
       "JavaScript"
     ],
-    "engagement": 93,
+    "engagement": 100,
     "aiSelected": true,
     "origin": "github",
     "aiNote": null,
@@ -40451,12 +40451,12 @@
       "benchmark",
       "deepseek"
     ],
-    "engagement": 1036,
+    "engagement": 1039,
     "aiSelected": true,
     "origin": "github",
     "aiNote": null,
     "image": null,
-    "heat": 41,
+    "heat": 40,
     "firstSeen": "2026-08-18T22:43:00.111Z",
     "fetchedAt": null,
     "tier": 2
@@ -40476,7 +40476,7 @@
       "deep-learning",
       "Swift"
     ],
-    "engagement": 59,
+    "engagement": 65,
     "aiSelected": true,
     "origin": "github",
     "aiNote": null,
@@ -40739,7 +40739,7 @@
     "aiSelected": true,
     "origin": "rss:anthropic",
     "aiNote": null,
-    "heat": 42,
+    "heat": 41,
     "firstSeen": "2026-08-18T22:43:00.111Z",
     "fetchedAt": null,
     "tier": 1
@@ -41071,7 +41071,7 @@
       "copilot",
       "Python"
     ],
-    "engagement": 84,
+    "engagement": 85,
     "aiSelected": true,
     "origin": "github",
     "aiNote": null,
@@ -41115,8 +41115,8 @@
     "aiSelected": true,
     "origin": "rss:anthropic",
     "aiNote": null,
-    "heat": 33,
-    "firstSeen": "2026-08-18T22:43:00.111Z",
+    "heat": 32,
+    "firstSeen": "2026-08-22T22:40:23.840Z",
     "fetchedAt": null,
     "tier": 1
   },
@@ -41200,7 +41200,7 @@
     "aiSelected": true,
     "origin": "rss:meta-ai",
     "aiNote": null,
-    "heat": 31,
+    "heat": 30,
     "firstSeen": "2026-08-18T22:43:00.111Z",
     "fetchedAt": null,
     "tier": 1
@@ -41240,7 +41240,7 @@
     "origin": "rss:anthropic",
     "aiNote": null,
     "heat": 30,
-    "firstSeen": "2026-08-18T22:43:00.111Z",
+    "firstSeen": "2026-08-22T22:40:23.840Z",
     "fetchedAt": null,
     "tier": 1
   },
@@ -41256,7 +41256,7 @@
     "aiSelected": true,
     "origin": "rss:aws-ml",
     "aiNote": "精准搜索权限下放，开发者可按需限定来源与时效，提升Agent响应质量。",
-    "heat": 37,
+    "heat": 35,
     "firstSeen": "2026-08-19T22:43:25.636Z",
     "fetchedAt": null,
     "tier": 2
@@ -41290,7 +41290,7 @@
     "aiSelected": true,
     "origin": "rss:aws-ml",
     "aiNote": "智能文档处理组合方案直击金融业高量文档痛点，降本增效示范性强。",
-    "heat": 37,
+    "heat": 35,
     "firstSeen": "2026-08-19T22:43:25.636Z",
     "fetchedAt": null,
     "tier": 2
@@ -41307,7 +41307,7 @@
     "aiSelected": true,
     "origin": "rss:aws-ml",
     "aiNote": "异步编排Agent的三种无服务器方案，直击企业级AI工作流痛点。",
-    "heat": 37,
+    "heat": 35,
     "firstSeen": "2026-08-19T22:43:25.636Z",
     "fetchedAt": null,
     "tier": 2
@@ -41341,7 +41341,7 @@
     "aiSelected": true,
     "origin": "rss:aws-ml",
     "aiNote": "多智能体架构应对复杂行业规则，展示AI客服在垂直场景的落地标杆。",
-    "heat": 37,
+    "heat": 35,
     "firstSeen": "2026-08-19T22:43:25.636Z",
     "fetchedAt": null,
     "tier": 2
@@ -41358,7 +41358,7 @@
     "aiSelected": true,
     "origin": "rss:aws-ml",
     "aiNote": "从ITSM工单残矿中提炼知识资产，自动化治理知识库，直击企业运维痛点。",
-    "heat": 37,
+    "heat": 35,
     "firstSeen": "2026-08-19T22:43:25.636Z",
     "fetchedAt": null,
     "tier": 2
@@ -41426,7 +41426,7 @@
     "aiSelected": true,
     "origin": "rss:arstechnica-ai",
     "aiNote": "航空业破产清算中员工数据流向科技巨头，隐私与商业伦理的碰撞值得警惕。",
-    "heat": 37,
+    "heat": 35,
     "firstSeen": "2026-08-19T22:43:25.636Z",
     "fetchedAt": null,
     "tier": 2
@@ -41460,7 +41460,7 @@
     "aiSelected": true,
     "origin": "rss:wired-ai",
     "aiNote": "实时学习能力是AI从工具到伙伴的关键跨越，现场即兴创新更显真章。",
-    "heat": 37,
+    "heat": 35,
     "firstSeen": "2026-08-19T22:43:25.636Z",
     "fetchedAt": null,
     "tier": 2
@@ -41494,7 +41494,7 @@
     "aiSelected": true,
     "origin": "rss:openai",
     "aiNote": "零数据留存承诺升级，隐私保护与前沿安全并行，为企业AI部署扫清关键障碍。",
-    "heat": 50,
+    "heat": 48,
     "firstSeen": "2026-08-19T22:43:25.636Z",
     "fetchedAt": null,
     "tier": 1
@@ -41511,7 +41511,7 @@
     "aiSelected": true,
     "origin": "rss:google-ai",
     "aiNote": "谷歌搜索工具解锁学习新姿势，备考提分更高效。",
-    "heat": 50,
+    "heat": 48,
     "firstSeen": "2026-08-19T22:43:25.636Z",
     "fetchedAt": null,
     "tier": 1
@@ -41528,7 +41528,7 @@
     "aiSelected": true,
     "origin": "rss:theverge-ai",
     "aiNote": "学生党福音，一站式研究整理功能直击学习痛点，或成AI教育应用新标杆。",
-    "heat": 37,
+    "heat": 35,
     "firstSeen": "2026-08-19T22:43:25.636Z",
     "fetchedAt": null,
     "tier": 2
@@ -41630,7 +41630,7 @@
     "aiSelected": true,
     "origin": "rss:theverge-ai",
     "aiNote": "上市压力与开源夹击下，OpenAI急刹车反而凸显战略定力，看它如何在竞速与稳健间找平衡。",
-    "heat": 36,
+    "heat": 35,
     "firstSeen": "2026-08-19T22:43:25.636Z",
     "fetchedAt": null,
     "tier": 2
@@ -41647,7 +41647,7 @@
     "aiSelected": true,
     "origin": "rss:theverge-ai",
     "aiNote": "Meta AI 推出Mac原生应用，桌面端AI助手竞争再添变数。",
-    "heat": 36,
+    "heat": 35,
     "firstSeen": "2026-08-19T22:43:25.636Z",
     "fetchedAt": null,
     "tier": 2
@@ -41664,7 +41664,7 @@
     "aiSelected": true,
     "origin": "rss:wired-ai",
     "aiNote": "水印防伪刚上线就被破解，AI监管与攻防的猫鼠游戏正式开场。",
-    "heat": 36,
+    "heat": 35,
     "firstSeen": "2026-08-19T22:43:25.636Z",
     "fetchedAt": null,
     "tier": 2
@@ -41715,7 +41715,7 @@
     "aiSelected": true,
     "origin": "rss:arstechnica-ai",
     "aiNote": "深度伪造滥用触及政界，Meta审核漏洞暴露平台责任与监管紧迫性。",
-    "heat": 36,
+    "heat": 35,
     "firstSeen": "2026-08-19T22:43:25.636Z",
     "fetchedAt": null,
     "tier": 2
@@ -41906,7 +41906,7 @@
     "aiSelected": true,
     "origin": "rss:venturebeat-ai",
     "aiNote": null,
-    "heat": 36,
+    "heat": 35,
     "firstSeen": "2026-08-19T22:43:25.636Z",
     "fetchedAt": null,
     "tier": 2
@@ -42042,7 +42042,7 @@
     "aiSelected": true,
     "origin": "rss:theverge-ai",
     "aiNote": null,
-    "heat": 36,
+    "heat": 35,
     "firstSeen": "2026-08-19T22:43:25.636Z",
     "fetchedAt": null,
     "tier": 2
@@ -42144,7 +42144,7 @@
     "aiSelected": true,
     "origin": "rss:wired-ai",
     "aiNote": null,
-    "heat": 36,
+    "heat": 35,
     "firstSeen": "2026-08-19T22:43:25.636Z",
     "fetchedAt": null,
     "tier": 2
@@ -42161,7 +42161,7 @@
     "aiSelected": true,
     "origin": "rss:latentspace",
     "aiNote": null,
-    "heat": 36,
+    "heat": 35,
     "firstSeen": "2026-08-19T22:43:25.636Z",
     "fetchedAt": null,
     "tier": 2
@@ -42263,7 +42263,7 @@
     "aiSelected": true,
     "origin": "rss:openai",
     "aiNote": null,
-    "heat": 49,
+    "heat": 47,
     "firstSeen": "2026-08-19T22:43:25.636Z",
     "fetchedAt": null,
     "tier": 1
@@ -42335,7 +42335,7 @@
     "origin": "hackernews",
     "aiNote": null,
     "image": null,
-    "heat": 37,
+    "heat": 36,
     "firstSeen": "2026-08-19T22:43:25.636Z",
     "fetchedAt": null,
     "tier": 2
@@ -42386,7 +42386,7 @@
     "aiSelected": true,
     "origin": "rss:apple-ml",
     "aiNote": null,
-    "heat": 49,
+    "heat": 47,
     "firstSeen": "2026-08-19T22:43:25.636Z",
     "fetchedAt": null,
     "tier": 1
@@ -42403,7 +42403,7 @@
     "aiSelected": true,
     "origin": "rss:apple-ml",
     "aiNote": null,
-    "heat": 49,
+    "heat": 47,
     "firstSeen": "2026-08-19T22:43:25.636Z",
     "fetchedAt": null,
     "tier": 1
@@ -42420,7 +42420,7 @@
     "aiSelected": true,
     "origin": "rss:tldr-ai",
     "aiNote": null,
-    "heat": 35,
+    "heat": 34,
     "firstSeen": "2026-08-19T22:43:25.636Z",
     "fetchedAt": null,
     "tier": 2
@@ -42437,7 +42437,7 @@
     "aiSelected": true,
     "origin": "rss:anthropic",
     "aiNote": null,
-    "heat": 49,
+    "heat": 47,
     "firstSeen": "2026-08-19T22:43:25.636Z",
     "fetchedAt": null,
     "tier": 1
@@ -42454,7 +42454,7 @@
     "aiSelected": true,
     "origin": "rss:anthropic",
     "aiNote": null,
-    "heat": 49,
+    "heat": 47,
     "firstSeen": "2026-08-19T22:43:25.636Z",
     "fetchedAt": null,
     "tier": 1
@@ -42491,7 +42491,7 @@
     "tags": [
       "Hacker News"
     ],
-    "engagement": 150,
+    "engagement": 152,
     "aiSelected": true,
     "origin": "hackernews",
     "aiNote": null,
@@ -42513,7 +42513,7 @@
     "aiSelected": true,
     "origin": "rss:openai",
     "aiNote": null,
-    "heat": 49,
+    "heat": 47,
     "firstSeen": "2026-08-19T22:43:25.636Z",
     "fetchedAt": null,
     "tier": 1
@@ -42967,7 +42967,7 @@
     "aiSelected": true,
     "origin": "rss:openai",
     "aiNote": null,
-    "heat": 47,
+    "heat": 45,
     "firstSeen": "2026-08-19T22:43:25.636Z",
     "fetchedAt": null,
     "tier": 1
@@ -42984,7 +42984,7 @@
     "aiSelected": true,
     "origin": "rss:apple-ml",
     "aiNote": null,
-    "heat": 47,
+    "heat": 45,
     "firstSeen": "2026-08-19T22:43:25.636Z",
     "fetchedAt": null,
     "tier": 1
@@ -43353,12 +43353,12 @@
       "论文",
       "arXiv"
     ],
-    "engagement": 3,
+    "engagement": 4,
     "aiSelected": true,
     "origin": "hf-papers",
     "aiNote": null,
     "image": null,
-    "heat": 29,
+    "heat": 23,
     "firstSeen": "2026-08-19T22:43:25.636Z",
     "fetchedAt": null,
     "tier": 2
@@ -43511,7 +43511,7 @@
     "origin": "hackernews",
     "aiNote": null,
     "image": null,
-    "heat": 20,
+    "heat": 19,
     "firstSeen": "2026-08-19T22:43:25.636Z",
     "fetchedAt": null,
     "tier": 2
@@ -43641,12 +43641,12 @@
       "data-analysis",
       "JavaScript"
     ],
-    "engagement": 615,
+    "engagement": 616,
     "aiSelected": true,
     "origin": "github",
     "aiNote": null,
     "image": null,
-    "heat": 35,
+    "heat": 34,
     "firstSeen": "2026-08-19T22:43:25.636Z",
     "fetchedAt": null,
     "tier": 2
@@ -43710,12 +43710,12 @@
       "ai-tools",
       "Python"
     ],
-    "engagement": 794,
+    "engagement": 832,
     "aiSelected": true,
     "origin": "github",
     "aiNote": null,
     "image": null,
-    "heat": 35,
+    "heat": 34,
     "firstSeen": "2026-08-19T22:43:25.636Z",
     "fetchedAt": null,
     "tier": 2
@@ -43888,7 +43888,7 @@
     "origin": "rss:meta-ai",
     "aiNote": null,
     "heat": 30,
-    "firstSeen": "2026-08-19T22:43:25.636Z",
+    "firstSeen": "2026-08-22T22:40:23.840Z",
     "fetchedAt": null,
     "tier": 1
   },
@@ -43904,7 +43904,7 @@
     "aiSelected": true,
     "origin": "rss:techcrunch-ai",
     "aiNote": "企业AI市场忠诚度低，双雄竞争加剧，投资风险凸显。",
-    "heat": 38,
+    "heat": 37,
     "firstSeen": "2026-08-20T22:46:39.903Z",
     "fetchedAt": null,
     "tier": 2
@@ -43921,7 +43921,7 @@
     "aiSelected": true,
     "origin": "rss:techcrunch-ai",
     "aiNote": "AI接管短信撰写，苹果生态与ChatGPT深度整合，预示AI代理将重塑日常通讯方式。",
-    "heat": 38,
+    "heat": 37,
     "firstSeen": "2026-08-20T22:46:39.903Z",
     "fetchedAt": null,
     "tier": 2
@@ -43938,7 +43938,7 @@
     "aiSelected": true,
     "origin": "rss:theverge-ai",
     "aiNote": "AI定制信息流或重塑内容分发，个性化体验再升级。",
-    "heat": 38,
+    "heat": 37,
     "firstSeen": "2026-08-20T22:46:39.903Z",
     "fetchedAt": null,
     "tier": 2
@@ -43955,7 +43955,7 @@
     "aiSelected": true,
     "origin": "rss:aws-ml",
     "aiNote": "跨区域推理打破地域限制，全球可用性大幅提升，企业部署AI模型更灵活高效。",
-    "heat": 38,
+    "heat": 37,
     "firstSeen": "2026-08-20T22:46:39.903Z",
     "fetchedAt": null,
     "tier": 2
@@ -43972,7 +43972,7 @@
     "aiSelected": true,
     "origin": "rss:aws-ml",
     "aiNote": "无代码ML门槛再降，云数据仓库与AI平台打通，医疗零售业预测分析将更高效。",
-    "heat": 38,
+    "heat": 37,
     "firstSeen": "2026-08-20T22:46:39.903Z",
     "fetchedAt": null,
     "tier": 2
@@ -43989,7 +43989,7 @@
     "aiSelected": true,
     "origin": "rss:aws-ml",
     "aiNote": "无代码ML再进一步，打通Snowflake与SageMaker，让数据准备和建模更亲民。",
-    "heat": 38,
+    "heat": 37,
     "firstSeen": "2026-08-20T22:46:39.903Z",
     "fetchedAt": null,
     "tier": 2
@@ -44006,7 +44006,7 @@
     "aiSelected": true,
     "origin": "rss:aws-ml",
     "aiNote": "低代码ML全链路落地，从预测到可视化无缝衔接，企业分析效率倍增。",
-    "heat": 38,
+    "heat": 37,
     "firstSeen": "2026-08-20T22:46:39.903Z",
     "fetchedAt": null,
     "tier": 2
@@ -44023,7 +44023,7 @@
     "aiSelected": true,
     "origin": "rss:latentspace",
     "aiNote": "用AI技能破除规划迷雾，为不确定性项目提供清晰路径，实战价值高。",
-    "heat": 38,
+    "heat": 37,
     "firstSeen": "2026-08-20T22:46:39.903Z",
     "fetchedAt": null,
     "tier": 2
@@ -44040,7 +44040,7 @@
     "aiSelected": true,
     "origin": "rss:techcrunch-ai",
     "aiNote": "数据中心用水争议引发热议，尿液冷却虽夸张却点破水资源短缺痛点，值得行业深思。",
-    "heat": 38,
+    "heat": 37,
     "firstSeen": "2026-08-20T22:46:39.903Z",
     "fetchedAt": null,
     "tier": 2
@@ -44074,7 +44074,7 @@
     "aiSelected": true,
     "origin": "rss:techcrunch-ai",
     "aiNote": "掌控流量入口，出版商终于有了对抗AI搜索的直接武器。",
-    "heat": 38,
+    "heat": 37,
     "firstSeen": "2026-08-20T22:46:39.903Z",
     "fetchedAt": null,
     "tier": 2
@@ -44091,7 +44091,7 @@
     "aiSelected": true,
     "origin": "rss:techcrunch-ai",
     "aiNote": "诉讼虽撤，但AI招聘赛道暗战升级，产品竞争比法律战更值得关注。",
-    "heat": 38,
+    "heat": 37,
     "firstSeen": "2026-08-20T22:46:39.903Z",
     "fetchedAt": null,
     "tier": 2
@@ -44107,12 +44107,12 @@
     "tags": [
       "Hacker News"
     ],
-    "engagement": 358,
+    "engagement": 376,
     "aiSelected": true,
     "origin": "hackernews",
     "aiNote": "AI编程工具新范式，直击代码代理协作痛点，值得开发者实测。",
     "image": null,
-    "heat": 46,
+    "heat": 44,
     "firstSeen": "2026-08-20T22:46:39.903Z",
     "fetchedAt": null,
     "tier": 2
@@ -44129,7 +44129,7 @@
     "aiSelected": true,
     "origin": "rss:infoq",
     "aiNote": "云原生与AI融合成焦点，杭州站议题前瞻，开发者不容错过。",
-    "heat": 24,
+    "heat": 23,
     "firstSeen": "2026-08-20T22:46:39.903Z",
     "fetchedAt": null,
     "tier": 3
@@ -44146,7 +44146,7 @@
     "aiSelected": true,
     "origin": "rss:wired-ai",
     "aiNote": "科技领袖与大众认知脱节，揭示AI行业傲慢与舆论鸿沟。",
-    "heat": 38,
+    "heat": 37,
     "firstSeen": "2026-08-20T22:46:39.903Z",
     "fetchedAt": null,
     "tier": 2
@@ -44163,7 +44163,7 @@
     "aiSelected": true,
     "origin": "rss:mit-news-ai",
     "aiNote": "绿色氨生产突破，或终结化肥碳排，MIT材料创新为工业脱碳开辟新路。",
-    "heat": 52,
+    "heat": 50,
     "firstSeen": "2026-08-20T22:46:39.903Z",
     "fetchedAt": null,
     "tier": 1
@@ -44180,7 +44180,7 @@
     "aiSelected": true,
     "origin": "rss:techcrunch-ai",
     "aiNote": "免费AI食谱与全功能开放，让智能日历从日程工具升级为家庭管家，直击付费痛点。",
-    "heat": 38,
+    "heat": 37,
     "firstSeen": "2026-08-20T22:46:39.903Z",
     "fetchedAt": null,
     "tier": 2
@@ -44197,7 +44197,7 @@
     "aiSelected": true,
     "origin": "rss:infoq",
     "aiNote": "算力成金融标的，AI基建资本化浪潮开启，市场规则重塑。",
-    "heat": 24,
+    "heat": 23,
     "firstSeen": "2026-08-20T22:46:39.903Z",
     "fetchedAt": null,
     "tier": 3
@@ -44231,7 +44231,7 @@
     "aiSelected": true,
     "origin": "rss:techcrunch-ai",
     "aiNote": "免费模型闹乌龙，暴露AI服务稳定性短板，值得行业反思。",
-    "heat": 38,
+    "heat": 36,
     "firstSeen": "2026-08-20T22:46:39.903Z",
     "fetchedAt": null,
     "tier": 2
@@ -44248,7 +44248,7 @@
     "aiSelected": true,
     "origin": "rss:techcrunch-ai",
     "aiNote": "AI渗透网络内容创作成常态，揭示生成式AI对信息生态的深层影响。",
-    "heat": 38,
+    "heat": 36,
     "firstSeen": "2026-08-20T22:46:39.903Z",
     "fetchedAt": null,
     "tier": 2
@@ -44265,7 +44265,7 @@
     "aiSelected": true,
     "origin": "rss:hf-blog",
     "aiNote": "推理速度提升3.2倍，直击大模型部署成本痛点，性能与效率兼得。",
-    "heat": 52,
+    "heat": 50,
     "firstSeen": "2026-08-20T22:46:39.903Z",
     "fetchedAt": null,
     "tier": 1
@@ -44282,7 +44282,7 @@
     "aiSelected": true,
     "origin": "rss:techcrunch-ai",
     "aiNote": "模型路由成新战场，Ramp自研方案降低切换成本，或重塑企业AI应用生态。",
-    "heat": 38,
+    "heat": 36,
     "firstSeen": "2026-08-20T22:46:39.903Z",
     "fetchedAt": null,
     "tier": 2
@@ -44299,7 +44299,7 @@
     "aiSelected": true,
     "origin": "rss:aws-ml",
     "aiNote": "自然语言生成策略，简化AI代理治理，安全管控更灵活高效。",
-    "heat": 38,
+    "heat": 36,
     "firstSeen": "2026-08-20T22:46:39.903Z",
     "fetchedAt": null,
     "tier": 2
@@ -44316,7 +44316,7 @@
     "aiSelected": true,
     "origin": "rss:aws-ml",
     "aiNote": "企业级AI落地需防锁定，模式灵活性是关键看点。",
-    "heat": 38,
+    "heat": 36,
     "firstSeen": "2026-08-20T22:46:39.903Z",
     "fetchedAt": null,
     "tier": 2
@@ -44333,7 +44333,7 @@
     "aiSelected": true,
     "origin": "rss:aws-ml",
     "aiNote": "云迁移自动化迎来智能体协同新范式，AWS实战案例揭示企业级落地方向。",
-    "heat": 38,
+    "heat": 36,
     "firstSeen": "2026-08-20T22:46:39.903Z",
     "fetchedAt": null,
     "tier": 2
@@ -44350,7 +44350,7 @@
     "aiSelected": true,
     "origin": "rss:techcrunch-ai",
     "aiNote": "Meta押注AI游戏创作赛道，UGC模式或改写互动娱乐生态，值得关注其用户增长与变现潜力。",
-    "heat": 38,
+    "heat": 36,
     "firstSeen": "2026-08-20T22:46:39.903Z",
     "fetchedAt": null,
     "tier": 2
@@ -44367,7 +44367,7 @@
     "aiSelected": true,
     "origin": "rss:aws-ml",
     "aiNote": "数据在哪，AI就在哪，省去迁移成本，直击企业落地痛点。",
-    "heat": 38,
+    "heat": 36,
     "firstSeen": "2026-08-20T22:46:39.903Z",
     "fetchedAt": null,
     "tier": 2
@@ -44401,7 +44401,7 @@
     "aiSelected": true,
     "origin": "rss:theverge-ai",
     "aiNote": "权力交接信号明确，OpenAI未来走向引关注。",
-    "heat": 38,
+    "heat": 36,
     "firstSeen": "2026-08-20T22:46:39.903Z",
     "fetchedAt": null,
     "tier": 2
@@ -44418,7 +44418,7 @@
     "aiSelected": true,
     "origin": "rss:techreview-ai",
     "aiNote": null,
-    "heat": 38,
+    "heat": 36,
     "firstSeen": "2026-08-20T22:46:39.903Z",
     "fetchedAt": null,
     "tier": 2
@@ -44434,12 +44434,12 @@
     "tags": [
       "Hacker News"
     ],
-    "engagement": 294,
+    "engagement": 302,
     "aiSelected": true,
     "origin": "hackernews",
     "aiNote": null,
     "image": null,
-    "heat": 44,
+    "heat": 42,
     "firstSeen": "2026-08-20T22:46:39.903Z",
     "fetchedAt": null,
     "tier": 2
@@ -44456,7 +44456,7 @@
     "aiSelected": true,
     "origin": "rss:aws-ml",
     "aiNote": null,
-    "heat": 38,
+    "heat": 36,
     "firstSeen": "2026-08-20T22:46:39.903Z",
     "fetchedAt": null,
     "tier": 2
@@ -44472,12 +44472,12 @@
     "tags": [
       "Hacker News"
     ],
-    "engagement": 203,
+    "engagement": 210,
     "aiSelected": true,
     "origin": "hackernews",
     "aiNote": null,
     "image": null,
-    "heat": 41,
+    "heat": 40,
     "firstSeen": "2026-08-20T22:46:39.903Z",
     "fetchedAt": null,
     "tier": 2
@@ -44532,7 +44532,7 @@
     "origin": "hackernews",
     "aiNote": null,
     "image": null,
-    "heat": 34,
+    "heat": 33,
     "firstSeen": "2026-08-20T22:46:39.903Z",
     "fetchedAt": null,
     "tier": 2
@@ -44549,7 +44549,7 @@
     "aiSelected": true,
     "origin": "rss:theverge-ai",
     "aiNote": null,
-    "heat": 38,
+    "heat": 36,
     "firstSeen": "2026-08-20T22:46:39.903Z",
     "fetchedAt": null,
     "tier": 2
@@ -44566,7 +44566,7 @@
     "aiSelected": true,
     "origin": "rss:bensbites",
     "aiNote": null,
-    "heat": 38,
+    "heat": 36,
     "firstSeen": "2026-08-20T22:46:39.903Z",
     "fetchedAt": null,
     "tier": 2
@@ -44583,7 +44583,7 @@
     "aiSelected": true,
     "origin": "rss:arstechnica-ai",
     "aiNote": null,
-    "heat": 38,
+    "heat": 36,
     "firstSeen": "2026-08-20T22:46:39.903Z",
     "fetchedAt": null,
     "tier": 2
@@ -44689,7 +44689,7 @@
     "aiSelected": true,
     "origin": "rss:mistral",
     "aiNote": null,
-    "heat": 52,
+    "heat": 50,
     "firstSeen": "2026-08-20T22:46:39.903Z",
     "fetchedAt": null,
     "tier": 1
@@ -44706,7 +44706,7 @@
     "aiSelected": true,
     "origin": "rss:theverge-ai",
     "aiNote": null,
-    "heat": 38,
+    "heat": 36,
     "firstSeen": "2026-08-20T22:46:39.903Z",
     "fetchedAt": null,
     "tier": 2
@@ -44727,7 +44727,7 @@
     "origin": "hackernews",
     "aiNote": null,
     "image": null,
-    "heat": 33,
+    "heat": 32,
     "firstSeen": "2026-08-20T22:46:39.903Z",
     "fetchedAt": null,
     "tier": 2
@@ -44778,7 +44778,7 @@
     "aiSelected": true,
     "origin": "rss:techreview-ai",
     "aiNote": null,
-    "heat": 37,
+    "heat": 36,
     "firstSeen": "2026-08-20T22:46:39.903Z",
     "fetchedAt": null,
     "tier": 2
@@ -44879,12 +44879,12 @@
     "tags": [
       "Hacker News"
     ],
-    "engagement": 1027,
+    "engagement": 1041,
     "aiSelected": true,
     "origin": "hackernews",
     "aiNote": null,
     "image": null,
-    "heat": 51,
+    "heat": 49,
     "firstSeen": "2026-08-20T22:46:39.903Z",
     "fetchedAt": null,
     "tier": 2
@@ -44918,7 +44918,7 @@
     "aiSelected": true,
     "origin": "rss:openai",
     "aiNote": null,
-    "heat": 51,
+    "heat": 49,
     "firstSeen": "2026-08-20T22:46:39.903Z",
     "fetchedAt": null,
     "tier": 1
@@ -44935,7 +44935,7 @@
     "aiSelected": true,
     "origin": "rss:latentspace",
     "aiNote": null,
-    "heat": 37,
+    "heat": 36,
     "firstSeen": "2026-08-20T22:46:39.903Z",
     "fetchedAt": null,
     "tier": 2
@@ -44952,7 +44952,7 @@
     "aiSelected": true,
     "origin": "rss:sspai",
     "aiNote": null,
-    "heat": 23,
+    "heat": 22,
     "firstSeen": "2026-08-20T22:46:39.903Z",
     "fetchedAt": null,
     "tier": 3
@@ -44969,7 +44969,7 @@
     "aiSelected": true,
     "origin": "rss:openai",
     "aiNote": null,
-    "heat": 51,
+    "heat": 49,
     "firstSeen": "2026-08-20T22:46:39.903Z",
     "fetchedAt": null,
     "tier": 1
@@ -44986,7 +44986,7 @@
     "aiSelected": true,
     "origin": "rss:apple-ml",
     "aiNote": null,
-    "heat": 51,
+    "heat": 49,
     "firstSeen": "2026-08-20T22:46:39.903Z",
     "fetchedAt": null,
     "tier": 1
@@ -45003,7 +45003,7 @@
     "aiSelected": true,
     "origin": "rss:apple-ml",
     "aiNote": null,
-    "heat": 51,
+    "heat": 49,
     "firstSeen": "2026-08-20T22:46:39.903Z",
     "fetchedAt": null,
     "tier": 1
@@ -45020,7 +45020,7 @@
     "aiSelected": true,
     "origin": "rss:tldr-ai",
     "aiNote": null,
-    "heat": 37,
+    "heat": 35,
     "firstSeen": "2026-08-20T22:46:39.903Z",
     "fetchedAt": null,
     "tier": 2
@@ -45054,7 +45054,7 @@
     "aiSelected": true,
     "origin": "rss:simonwillison",
     "aiNote": null,
-    "heat": 37,
+    "heat": 35,
     "firstSeen": "2026-08-20T22:46:39.903Z",
     "fetchedAt": null,
     "tier": 2
@@ -45071,7 +45071,7 @@
     "aiSelected": true,
     "origin": "rss:simonwillison",
     "aiNote": null,
-    "heat": 37,
+    "heat": 35,
     "firstSeen": "2026-08-20T22:46:39.903Z",
     "fetchedAt": null,
     "tier": 2
@@ -45508,11 +45508,11 @@
     "origin": "hf-papers",
     "aiNote": null,
     "image": null,
-    "heat": 23,
+    "heat": 22,
     "firstSeen": "2026-08-20T22:46:39.903Z",
     "fetchedAt": null,
     "tier": 2,
-    "engagement": 1
+    "engagement": 2
   },
   {
     "id": "hf-2608.18852",
@@ -45526,12 +45526,12 @@
       "论文",
       "arXiv"
     ],
-    "engagement": 3,
+    "engagement": 6,
     "aiSelected": true,
     "origin": "hf-papers",
     "aiNote": null,
     "image": null,
-    "heat": 31,
+    "heat": 27,
     "firstSeen": "2026-08-20T22:46:39.903Z",
     "fetchedAt": null,
     "tier": 2
@@ -45548,12 +45548,12 @@
       "论文",
       "arXiv"
     ],
-    "engagement": 90,
+    "engagement": 91,
     "aiSelected": true,
     "origin": "hf-papers",
     "aiNote": null,
     "image": null,
-    "heat": 46,
+    "heat": 44,
     "firstSeen": "2026-08-20T22:46:39.903Z",
     "fetchedAt": null,
     "tier": 2
@@ -45575,7 +45575,7 @@
     "origin": "hf-papers",
     "aiNote": null,
     "image": null,
-    "heat": 38,
+    "heat": 36,
     "firstSeen": "2026-08-20T22:46:39.903Z",
     "fetchedAt": null,
     "tier": 2
@@ -45597,7 +45597,7 @@
     "origin": "hf-papers",
     "aiNote": null,
     "image": null,
-    "heat": 37,
+    "heat": 34,
     "firstSeen": "2026-08-20T22:46:39.903Z",
     "fetchedAt": null,
     "tier": 2
@@ -45614,12 +45614,12 @@
       "论文",
       "arXiv"
     ],
-    "engagement": 29,
+    "engagement": 32,
     "aiSelected": true,
     "origin": "hf-papers",
     "aiNote": null,
     "image": null,
-    "heat": 42,
+    "heat": 41,
     "firstSeen": "2026-08-20T22:46:39.903Z",
     "fetchedAt": null,
     "tier": 2
@@ -45636,12 +45636,12 @@
       "论文",
       "arXiv"
     ],
-    "engagement": 114,
+    "engagement": 115,
     "aiSelected": true,
     "origin": "hf-papers",
     "aiNote": null,
     "image": null,
-    "heat": 47,
+    "heat": 45,
     "firstSeen": "2026-08-20T22:46:39.903Z",
     "fetchedAt": null,
     "tier": 2
@@ -45658,12 +45658,12 @@
       "论文",
       "arXiv"
     ],
-    "engagement": 44,
+    "engagement": 47,
     "aiSelected": true,
     "origin": "hf-papers",
     "aiNote": null,
     "image": null,
-    "heat": 43,
+    "heat": 42,
     "firstSeen": "2026-08-20T22:46:39.903Z",
     "fetchedAt": null,
     "tier": 2
@@ -45680,12 +45680,12 @@
       "论文",
       "arXiv"
     ],
-    "engagement": 15,
+    "engagement": 16,
     "aiSelected": true,
     "origin": "hf-papers",
     "aiNote": null,
     "image": null,
-    "heat": 38,
+    "heat": 37,
     "firstSeen": "2026-08-20T22:46:39.903Z",
     "fetchedAt": null,
     "tier": 2
@@ -45702,12 +45702,12 @@
       "论文",
       "arXiv"
     ],
-    "engagement": 10,
+    "engagement": 11,
     "aiSelected": true,
     "origin": "hf-papers",
     "aiNote": null,
     "image": null,
-    "heat": 36,
+    "heat": 33,
     "firstSeen": "2026-08-20T22:46:39.903Z",
     "fetchedAt": null,
     "tier": 2
@@ -45724,7 +45724,7 @@
     "aiSelected": true,
     "origin": "rss:anthropic",
     "aiNote": null,
-    "heat": 47,
+    "heat": 46,
     "firstSeen": "2026-08-20T22:46:39.903Z",
     "fetchedAt": null,
     "tier": 1
@@ -45741,12 +45741,12 @@
       "论文",
       "arXiv"
     ],
-    "engagement": 2,
+    "engagement": 3,
     "aiSelected": true,
     "origin": "hf-papers",
     "aiNote": null,
     "image": null,
-    "heat": 26,
+    "heat": 23,
     "firstSeen": "2026-08-20T22:46:39.903Z",
     "fetchedAt": null,
     "tier": 2
@@ -45768,7 +45768,7 @@
     "origin": "hf-papers",
     "aiNote": null,
     "image": null,
-    "heat": 46,
+    "heat": 44,
     "firstSeen": "2026-08-20T22:46:39.903Z",
     "fetchedAt": null,
     "tier": 2
@@ -45793,7 +45793,7 @@
     "origin": "github",
     "aiNote": null,
     "image": null,
-    "heat": 30,
+    "heat": 29,
     "firstSeen": "2026-08-20T22:46:39.903Z",
     "fetchedAt": null,
     "tier": 2
@@ -45813,7 +45813,7 @@
       "codex",
       "Python"
     ],
-    "engagement": 81,
+    "engagement": 90,
     "aiSelected": true,
     "origin": "github",
     "aiNote": null,
@@ -45835,12 +45835,12 @@
       "论文",
       "arXiv"
     ],
-    "engagement": 2,
+    "engagement": 3,
     "aiSelected": true,
     "origin": "hf-papers",
     "aiNote": null,
     "image": null,
-    "heat": 25,
+    "heat": 22,
     "firstSeen": "2026-08-20T22:46:39.903Z",
     "fetchedAt": null,
     "tier": 2
@@ -45857,12 +45857,12 @@
       "论文",
       "arXiv"
     ],
-    "engagement": 140,
+    "engagement": 141,
     "aiSelected": true,
     "origin": "hf-papers",
     "aiNote": null,
     "image": null,
-    "heat": 44,
+    "heat": 43,
     "firstSeen": "2026-08-20T22:46:39.903Z",
     "fetchedAt": null,
     "tier": 2
@@ -45879,12 +45879,12 @@
       "论文",
       "arXiv"
     ],
-    "engagement": 15,
+    "engagement": 16,
     "aiSelected": true,
     "origin": "hf-papers",
     "aiNote": null,
     "image": null,
-    "heat": 36,
+    "heat": 35,
     "firstSeen": "2026-08-20T22:46:39.903Z",
     "fetchedAt": null,
     "tier": 2
@@ -45906,7 +45906,7 @@
     "origin": "hf-papers",
     "aiNote": null,
     "image": null,
-    "heat": 29,
+    "heat": 23,
     "firstSeen": "2026-08-20T22:46:39.903Z",
     "fetchedAt": null,
     "tier": 2
@@ -45923,12 +45923,12 @@
       "论文",
       "arXiv"
     ],
-    "engagement": 2,
+    "engagement": 3,
     "aiSelected": true,
     "origin": "hf-papers",
     "aiNote": null,
     "image": null,
-    "heat": 25,
+    "heat": 21,
     "firstSeen": "2026-08-20T22:46:39.903Z",
     "fetchedAt": null,
     "tier": 2
@@ -45945,12 +45945,12 @@
       "论文",
       "arXiv"
     ],
-    "engagement": 16,
+    "engagement": 17,
     "aiSelected": true,
     "origin": "hf-papers",
     "aiNote": null,
     "image": null,
-    "heat": 34,
+    "heat": 33,
     "firstSeen": "2026-08-20T22:46:39.903Z",
     "fetchedAt": null,
     "tier": 2
@@ -45967,12 +45967,12 @@
       "论文",
       "arXiv"
     ],
-    "engagement": 13,
+    "engagement": 14,
     "aiSelected": true,
     "origin": "hf-papers",
     "aiNote": null,
     "image": null,
-    "heat": 32,
+    "heat": 31,
     "firstSeen": "2026-08-20T22:46:39.903Z",
     "fetchedAt": null,
     "tier": 2
@@ -45989,12 +45989,12 @@
       "论文",
       "arXiv"
     ],
-    "engagement": 16,
+    "engagement": 17,
     "aiSelected": true,
     "origin": "hf-papers",
     "aiNote": null,
     "image": null,
-    "heat": 34,
+    "heat": 33,
     "firstSeen": "2026-08-20T22:46:39.903Z",
     "fetchedAt": null,
     "tier": 2
@@ -46014,12 +46014,12 @@
       "dsh",
       "JavaScript"
     ],
-    "engagement": 526,
+    "engagement": 545,
     "aiSelected": true,
     "origin": "github",
     "aiNote": null,
     "image": null,
-    "heat": 35,
+    "heat": 34,
     "firstSeen": "2026-08-20T22:46:39.903Z",
     "fetchedAt": null,
     "tier": 2
@@ -46060,7 +46060,7 @@
       "agentic-coding",
       "TypeScript"
     ],
-    "engagement": 121,
+    "engagement": 123,
     "aiSelected": true,
     "origin": "github",
     "aiNote": null,
@@ -46085,7 +46085,7 @@
       "claude-code",
       "Python"
     ],
-    "engagement": 658,
+    "engagement": 664,
     "aiSelected": true,
     "origin": "github",
     "aiNote": null,
@@ -46107,12 +46107,12 @@
       "论文",
       "arXiv"
     ],
-    "engagement": 2,
+    "engagement": 3,
     "aiSelected": true,
     "origin": "hf-papers",
     "aiNote": null,
     "image": null,
-    "heat": 17,
+    "heat": 15,
     "firstSeen": "2026-08-20T22:46:39.903Z",
     "fetchedAt": null,
     "tier": 2
@@ -46146,7 +46146,7 @@
     "aiSelected": true,
     "origin": "rss:techcrunch-ai",
     "aiNote": "英伟达重金押注数据中心，AI基建红利循环加速，产业链风向标意义显著。",
-    "heat": 40,
+    "heat": 38,
     "firstSeen": "2026-08-21T22:43:12.096Z",
     "fetchedAt": null,
     "tier": 2
@@ -46162,12 +46162,12 @@
     "tags": [
       "Hacker News"
     ],
-    "engagement": 64,
+    "engagement": 97,
     "aiSelected": true,
     "origin": "hackernews",
     "aiNote": "AI编程工具竞争白热化，亲测对比揭示开发者真实效率差异。",
     "image": null,
-    "heat": 30,
+    "heat": 34,
     "firstSeen": "2026-08-21T22:43:12.096Z",
     "fetchedAt": null,
     "tier": 2
@@ -46184,7 +46184,7 @@
     "aiSelected": true,
     "origin": "rss:techcrunch-ai",
     "aiNote": "模型平庸也能靠微调出彩，AI应用重心正从算法转向工程控制。",
-    "heat": 40,
+    "heat": 38,
     "firstSeen": "2026-08-21T22:43:12.096Z",
     "fetchedAt": null,
     "tier": 2
@@ -46201,7 +46201,7 @@
     "aiSelected": true,
     "origin": "rss:infoq",
     "aiNote": "匿名模型引全网竞猜，性能悬念直指国产大模型新突破。",
-    "heat": 25,
+    "heat": 24,
     "firstSeen": "2026-08-21T22:43:12.096Z",
     "fetchedAt": null,
     "tier": 3
@@ -46218,7 +46218,7 @@
     "aiSelected": true,
     "origin": "rss:thedecoder",
     "aiNote": "顶级模型转向网络安全，标志AI攻防进入新阶段，威胁检测能力或迎质变。",
-    "heat": 40,
+    "heat": 38,
     "firstSeen": "2026-08-21T22:43:12.096Z",
     "fetchedAt": null,
     "tier": 2
@@ -46235,7 +46235,7 @@
     "aiSelected": true,
     "origin": "rss:infoq",
     "aiNote": "多模态补齐视觉短板，AI应用场景迎来新变量。",
-    "heat": 25,
+    "heat": 24,
     "firstSeen": "2026-08-21T22:43:12.096Z",
     "fetchedAt": null,
     "tier": 3
@@ -46252,7 +46252,7 @@
     "aiSelected": true,
     "origin": "rss:infoq",
     "aiNote": "资本加码验证AI材料研发闭环，产业化提速成关键看点。",
-    "heat": 25,
+    "heat": 24,
     "firstSeen": "2026-08-21T22:43:12.096Z",
     "fetchedAt": null,
     "tier": 3
@@ -46269,7 +46269,7 @@
     "aiSelected": true,
     "origin": "rss:thedecoder",
     "aiNote": "视觉增强直逼顶级闭源模型，开源生态再添利器，值得关注。",
-    "heat": 40,
+    "heat": 38,
     "firstSeen": "2026-08-21T22:43:12.096Z",
     "fetchedAt": null,
     "tier": 2
@@ -46285,7 +46285,7 @@
     "tags": [
       "Hacker News"
     ],
-    "engagement": 40,
+    "engagement": 49,
     "aiSelected": true,
     "origin": "hackernews",
     "aiNote": "AI巨头开放前沿模型安全能力，或将重塑防御生态，值得安全从业者紧盯。",
@@ -46307,7 +46307,7 @@
     "aiSelected": true,
     "origin": "rss:thedecoder",
     "aiNote": "民意逆转揭示AI扩张面临最大瓶颈：数据中心正从技术议题变成社会矛盾焦点。",
-    "heat": 40,
+    "heat": 38,
     "firstSeen": "2026-08-21T22:43:12.096Z",
     "fetchedAt": null,
     "tier": 2
@@ -46324,7 +46324,7 @@
     "aiSelected": true,
     "origin": "rss:simonwillison",
     "aiNote": "版本迭代揭示依赖生态脆弱性，开源工具链维护值得关注。",
-    "heat": 40,
+    "heat": 38,
     "firstSeen": "2026-08-21T22:43:12.096Z",
     "fetchedAt": null,
     "tier": 2
@@ -46341,7 +46341,7 @@
     "aiSelected": true,
     "origin": "rss:aws-ml",
     "aiNote": "AI代理自动化数据管道，将数天工程压缩至数小时，重新定义数据工程效率边界。",
-    "heat": 40,
+    "heat": 38,
     "firstSeen": "2026-08-21T22:43:12.096Z",
     "fetchedAt": null,
     "tier": 2
@@ -46358,7 +46358,7 @@
     "aiSelected": true,
     "origin": "rss:aws-ml",
     "aiNote": "企业AI代理权限治理方案，四阶段成熟度模型实操指南，直击安全与效率平衡痛点。",
-    "heat": 40,
+    "heat": 38,
     "firstSeen": "2026-08-21T22:43:12.096Z",
     "fetchedAt": null,
     "tier": 2
@@ -46375,7 +46375,7 @@
     "aiSelected": true,
     "origin": "rss:google-research",
     "aiNote": "生成式AI入局可穿戴数据挖掘，为生物标志物筛选提速，医疗诊断智能化再进一步。",
-    "heat": 54,
+    "heat": 52,
     "firstSeen": "2026-08-21T22:43:12.096Z",
     "fetchedAt": null,
     "tier": 1
@@ -46392,7 +46392,7 @@
     "aiSelected": true,
     "origin": "rss:infoq",
     "aiNote": "本地运行兼顾视觉与工具调用，Meta开源或重塑智能体开发门槛。",
-    "heat": 25,
+    "heat": 24,
     "firstSeen": "2026-08-21T22:43:12.096Z",
     "fetchedAt": null,
     "tier": 3
@@ -46409,7 +46409,7 @@
     "aiSelected": true,
     "origin": "rss:aws-ml",
     "aiNote": "成本痛点直击，查询感知压缩为RAG规模化落地提供实用降本方案。",
-    "heat": 40,
+    "heat": 38,
     "firstSeen": "2026-08-21T22:43:12.096Z",
     "fetchedAt": null,
     "tier": 2
@@ -46417,7 +46417,7 @@
   {
     "id": "rss:simonwillison-be465d304e",
     "title": "llm-openrouter 0.7",
-    "summary": "Release: llm-openrouter 0.7 Now that this plugin is compatible with LLM 0.32 it works much better with reasoning LLMs available through OpenRouter. Updated for compatibility with L…",
+    "summary": "Release: llm-openrouter 0.7 Now that this plugin is compatible with LLM 0.32 it can display the reasoning traces for LLMs available through OpenRouter. Updated for compatibility wi…",
     "source": "Simon Willison",
     "sourceUrl": "https://simonwillison.net/2026/Aug/21/llm-openrouter/",
     "category": "tip",
@@ -46426,7 +46426,7 @@
     "aiSelected": true,
     "origin": "rss:simonwillison",
     "aiNote": "插件适配新版LLM，推理模型体验提升，值得开发者关注。",
-    "heat": 40,
+    "heat": 38,
     "firstSeen": "2026-08-21T22:43:12.096Z",
     "fetchedAt": null,
     "tier": 2
@@ -46443,7 +46443,7 @@
     "aiSelected": true,
     "origin": "rss:aws-ml",
     "aiNote": "机载系统故障排查迎来智能体时代，云端协同诊断效率飞跃，为航空数字化运维树立新标杆。",
-    "heat": 40,
+    "heat": 38,
     "firstSeen": "2026-08-21T22:43:12.096Z",
     "fetchedAt": null,
     "tier": 2
@@ -46460,7 +46460,7 @@
     "aiSelected": true,
     "origin": "rss:infoq",
     "aiNote": "视频生成跨界设计工具，直击Adobe与Canva的护城河，行业格局或将生变。",
-    "heat": 25,
+    "heat": 24,
     "firstSeen": "2026-08-21T22:43:12.096Z",
     "fetchedAt": null,
     "tier": 3
@@ -46477,7 +46477,7 @@
     "aiSelected": true,
     "origin": "rss:infoq",
     "aiNote": "差异化定位成破局关键，深挖场景落地比单纯堆模型更有竞争力。",
-    "heat": 25,
+    "heat": 24,
     "firstSeen": "2026-08-21T22:43:12.096Z",
     "fetchedAt": null,
     "tier": 3
@@ -46532,7 +46532,7 @@
     "origin": "hackernews",
     "aiNote": "作业高分与考试失利并存，揭示AI辅助学习的虚假繁荣陷阱。",
     "image": null,
-    "heat": 42,
+    "heat": 40,
     "firstSeen": "2026-08-21T22:43:12.096Z",
     "fetchedAt": null,
     "tier": 2
@@ -46549,7 +46549,7 @@
     "aiSelected": true,
     "origin": "rss:thedecoder",
     "aiNote": "胁迫选边站队暴露技术霸权思维，AI竞赛正从技术博弈升级为地缘政治工具。",
-    "heat": 39,
+    "heat": 38,
     "firstSeen": "2026-08-21T22:43:12.096Z",
     "fetchedAt": null,
     "tier": 2
@@ -46566,7 +46566,7 @@
     "aiSelected": true,
     "origin": "rss:simonwillison",
     "aiNote": "用AI当导师而非码农，这种学习方式比直接要代码更有价值。",
-    "heat": 39,
+    "heat": 38,
     "firstSeen": "2026-08-21T22:43:12.096Z",
     "fetchedAt": null,
     "tier": 2
@@ -46582,12 +46582,12 @@
     "tags": [
       "Hacker News"
     ],
-    "engagement": 159,
+    "engagement": 346,
     "aiSelected": true,
     "origin": "hackernews",
     "aiNote": "让AI摆脱模板化表达，回归自然对话，直击大模型文风同质化痛点。",
     "image": null,
-    "heat": 41,
+    "heat": 44,
     "firstSeen": "2026-08-21T22:43:12.096Z",
     "fetchedAt": null,
     "tier": 2
@@ -46604,7 +46604,7 @@
     "aiSelected": true,
     "origin": "rss:infoq",
     "aiNote": "新语言挑战AI开发惯性，开发者生态与实用性成关键看点。",
-    "heat": 25,
+    "heat": 24,
     "firstSeen": "2026-08-21T22:43:12.096Z",
     "fetchedAt": null,
     "tier": 3
@@ -46621,7 +46621,7 @@
     "aiSelected": true,
     "origin": "rss:bensbites",
     "aiNote": "创业实战细节比宏大叙事更有价值，第三期干货值得收藏。",
-    "heat": 39,
+    "heat": 38,
     "firstSeen": "2026-08-21T22:43:12.096Z",
     "fetchedAt": null,
     "tier": 2
@@ -46638,7 +46638,7 @@
     "aiSelected": true,
     "origin": "rss:techcrunch-ai",
     "aiNote": "太空算力成新赛道，融资2.5亿凸显发射资源争夺战白热化。",
-    "heat": 39,
+    "heat": 38,
     "firstSeen": "2026-08-21T22:43:12.096Z",
     "fetchedAt": null,
     "tier": 2
@@ -46655,7 +46655,7 @@
     "aiSelected": true,
     "origin": "rss:techcrunch-ai",
     "aiNote": "DOJ对a16z的调查直击风投独角兽董事会席位冲突，或重塑科技投资监管边界。",
-    "heat": 39,
+    "heat": 38,
     "firstSeen": "2026-08-21T22:43:12.096Z",
     "fetchedAt": null,
     "tier": 2
@@ -46672,7 +46672,7 @@
     "aiSelected": true,
     "origin": "rss:theverge-ai",
     "aiNote": null,
-    "heat": 39,
+    "heat": 38,
     "firstSeen": "2026-08-21T22:43:12.096Z",
     "fetchedAt": null,
     "tier": 2
@@ -46689,7 +46689,7 @@
     "aiSelected": true,
     "origin": "rss:deepmind",
     "aiNote": null,
-    "heat": 54,
+    "heat": 52,
     "firstSeen": "2026-08-21T22:43:12.096Z",
     "fetchedAt": null,
     "tier": 1
@@ -46705,12 +46705,12 @@
     "tags": [
       "Hacker News"
     ],
-    "engagement": 209,
+    "engagement": 472,
     "aiSelected": true,
     "origin": "hackernews",
     "aiNote": null,
     "image": null,
-    "heat": 43,
+    "heat": 46,
     "firstSeen": "2026-08-21T22:43:12.096Z",
     "fetchedAt": null,
     "tier": 2
@@ -46727,7 +46727,7 @@
     "aiSelected": true,
     "origin": "rss:qbitai",
     "aiNote": null,
-    "heat": 25,
+    "heat": 23,
     "firstSeen": "2026-08-21T22:43:12.096Z",
     "fetchedAt": null,
     "tier": 3
@@ -46744,7 +46744,7 @@
     "aiSelected": true,
     "origin": "rss:infoq",
     "aiNote": null,
-    "heat": 24,
+    "heat": 23,
     "firstSeen": "2026-08-21T22:43:12.096Z",
     "fetchedAt": null,
     "tier": 3
@@ -46761,7 +46761,7 @@
     "aiSelected": true,
     "origin": "rss:thedecoder",
     "aiNote": null,
-    "heat": 39,
+    "heat": 38,
     "firstSeen": "2026-08-21T22:43:12.096Z",
     "fetchedAt": null,
     "tier": 2
@@ -46778,7 +46778,7 @@
     "aiSelected": true,
     "origin": "rss:infoq",
     "aiNote": null,
-    "heat": 24,
+    "heat": 23,
     "firstSeen": "2026-08-21T22:43:12.096Z",
     "fetchedAt": null,
     "tier": 3
@@ -46795,7 +46795,7 @@
     "aiSelected": true,
     "origin": "rss:arstechnica-ai",
     "aiNote": null,
-    "heat": 39,
+    "heat": 38,
     "firstSeen": "2026-08-21T22:43:12.096Z",
     "fetchedAt": null,
     "tier": 2
@@ -46828,12 +46828,12 @@
     "tags": [
       "Hacker News"
     ],
-    "engagement": 436,
+    "engagement": 494,
     "aiSelected": true,
     "origin": "hackernews",
     "aiNote": null,
     "image": null,
-    "heat": 48,
+    "heat": 47,
     "firstSeen": "2026-08-21T22:43:12.096Z",
     "fetchedAt": null,
     "tier": 2
@@ -46850,7 +46850,7 @@
     "aiSelected": true,
     "origin": "rss:infoq",
     "aiNote": null,
-    "heat": 24,
+    "heat": 23,
     "firstSeen": "2026-08-21T22:43:12.096Z",
     "fetchedAt": null,
     "tier": 3
@@ -46905,7 +46905,7 @@
     "aiSelected": true,
     "origin": "rss:qbitai",
     "aiNote": null,
-    "heat": 24,
+    "heat": 23,
     "firstSeen": "2026-08-21T22:43:12.096Z",
     "fetchedAt": null,
     "tier": 3
@@ -47024,7 +47024,7 @@
     "aiSelected": true,
     "origin": "rss:wired-ai",
     "aiNote": null,
-    "heat": 39,
+    "heat": 37,
     "firstSeen": "2026-08-21T22:43:12.096Z",
     "fetchedAt": null,
     "tier": 2
@@ -47041,7 +47041,7 @@
     "aiSelected": true,
     "origin": "rss:latentspace",
     "aiNote": null,
-    "heat": 39,
+    "heat": 37,
     "firstSeen": "2026-08-21T22:43:12.096Z",
     "fetchedAt": null,
     "tier": 2
@@ -47159,12 +47159,12 @@
     "tags": [
       "Hacker News"
     ],
-    "engagement": 186,
+    "engagement": 189,
     "aiSelected": true,
     "origin": "hackernews",
     "aiNote": null,
     "image": null,
-    "heat": 41,
+    "heat": 40,
     "firstSeen": "2026-08-21T22:43:12.096Z",
     "fetchedAt": null,
     "tier": 2
@@ -47181,7 +47181,7 @@
     "aiSelected": true,
     "origin": "rss:techcrunch-ai",
     "aiNote": null,
-    "heat": 38,
+    "heat": 37,
     "firstSeen": "2026-08-21T22:43:12.096Z",
     "fetchedAt": null,
     "tier": 2
@@ -47198,7 +47198,7 @@
     "aiSelected": true,
     "origin": "rss:hf-blog",
     "aiNote": null,
-    "heat": 53,
+    "heat": 51,
     "firstSeen": "2026-08-21T22:43:12.096Z",
     "fetchedAt": null,
     "tier": 1
@@ -47215,7 +47215,7 @@
     "aiSelected": true,
     "origin": "rss:tldr-ai",
     "aiNote": null,
-    "heat": 38,
+    "heat": 37,
     "firstSeen": "2026-08-21T22:43:12.096Z",
     "fetchedAt": null,
     "tier": 2
@@ -47232,7 +47232,7 @@
     "aiSelected": true,
     "origin": "rss:simonwillison",
     "aiNote": null,
-    "heat": 38,
+    "heat": 37,
     "firstSeen": "2026-08-21T22:43:12.096Z",
     "fetchedAt": null,
     "tier": 2
@@ -47253,7 +47253,7 @@
     "origin": "arxiv",
     "aiNote": null,
     "image": null,
-    "heat": 52,
+    "heat": 50,
     "firstSeen": "2026-08-21T22:43:12.096Z",
     "fetchedAt": null,
     "tier": 1
@@ -47274,7 +47274,7 @@
     "origin": "arxiv",
     "aiNote": null,
     "image": null,
-    "heat": 52,
+    "heat": 50,
     "firstSeen": "2026-08-21T22:43:12.096Z",
     "fetchedAt": null,
     "tier": 1
@@ -47295,7 +47295,7 @@
     "origin": "arxiv",
     "aiNote": null,
     "image": null,
-    "heat": 52,
+    "heat": 50,
     "firstSeen": "2026-08-21T22:43:12.096Z",
     "fetchedAt": null,
     "tier": 1
@@ -47316,7 +47316,7 @@
     "origin": "arxiv",
     "aiNote": null,
     "image": null,
-    "heat": 52,
+    "heat": 50,
     "firstSeen": "2026-08-21T22:43:12.096Z",
     "fetchedAt": null,
     "tier": 1
@@ -47337,7 +47337,7 @@
     "origin": "arxiv",
     "aiNote": null,
     "image": null,
-    "heat": 52,
+    "heat": 50,
     "firstSeen": "2026-08-21T22:43:12.096Z",
     "fetchedAt": null,
     "tier": 1
@@ -47358,7 +47358,7 @@
     "origin": "arxiv",
     "aiNote": null,
     "image": null,
-    "heat": 52,
+    "heat": 50,
     "firstSeen": "2026-08-21T22:43:12.096Z",
     "fetchedAt": null,
     "tier": 1
@@ -47379,7 +47379,7 @@
     "origin": "arxiv",
     "aiNote": null,
     "image": null,
-    "heat": 52,
+    "heat": 50,
     "firstSeen": "2026-08-21T22:43:12.096Z",
     "fetchedAt": null,
     "tier": 1
@@ -47400,7 +47400,7 @@
     "origin": "arxiv",
     "aiNote": null,
     "image": null,
-    "heat": 52,
+    "heat": 50,
     "firstSeen": "2026-08-21T22:43:12.096Z",
     "fetchedAt": null,
     "tier": 1
@@ -47421,7 +47421,7 @@
     "origin": "arxiv",
     "aiNote": null,
     "image": null,
-    "heat": 52,
+    "heat": 50,
     "firstSeen": "2026-08-21T22:43:12.096Z",
     "fetchedAt": null,
     "tier": 1
@@ -47442,7 +47442,7 @@
     "origin": "arxiv",
     "aiNote": null,
     "image": null,
-    "heat": 52,
+    "heat": 50,
     "firstSeen": "2026-08-21T22:43:12.096Z",
     "fetchedAt": null,
     "tier": 1
@@ -47463,7 +47463,7 @@
     "origin": "arxiv",
     "aiNote": null,
     "image": null,
-    "heat": 52,
+    "heat": 50,
     "firstSeen": "2026-08-21T22:43:12.096Z",
     "fetchedAt": null,
     "tier": 1
@@ -47484,7 +47484,7 @@
     "origin": "arxiv",
     "aiNote": null,
     "image": null,
-    "heat": 52,
+    "heat": 50,
     "firstSeen": "2026-08-21T22:43:12.096Z",
     "fetchedAt": null,
     "tier": 1
@@ -47505,7 +47505,7 @@
     "origin": "arxiv",
     "aiNote": null,
     "image": null,
-    "heat": 52,
+    "heat": 50,
     "firstSeen": "2026-08-21T22:43:12.096Z",
     "fetchedAt": null,
     "tier": 1
@@ -47526,7 +47526,7 @@
     "origin": "arxiv",
     "aiNote": null,
     "image": null,
-    "heat": 52,
+    "heat": 50,
     "firstSeen": "2026-08-21T22:43:12.096Z",
     "fetchedAt": null,
     "tier": 1
@@ -47547,7 +47547,7 @@
     "origin": "arxiv",
     "aiNote": null,
     "image": null,
-    "heat": 52,
+    "heat": 50,
     "firstSeen": "2026-08-21T22:43:12.096Z",
     "fetchedAt": null,
     "tier": 1
@@ -47568,7 +47568,7 @@
     "origin": "arxiv",
     "aiNote": null,
     "image": null,
-    "heat": 52,
+    "heat": 50,
     "firstSeen": "2026-08-21T22:43:12.096Z",
     "fetchedAt": null,
     "tier": 1
@@ -47589,7 +47589,7 @@
     "origin": "arxiv",
     "aiNote": null,
     "image": null,
-    "heat": 52,
+    "heat": 50,
     "firstSeen": "2026-08-21T22:43:12.096Z",
     "fetchedAt": null,
     "tier": 1
@@ -47610,7 +47610,7 @@
     "origin": "arxiv",
     "aiNote": null,
     "image": null,
-    "heat": 52,
+    "heat": 50,
     "firstSeen": "2026-08-21T22:43:12.096Z",
     "fetchedAt": null,
     "tier": 1
@@ -47631,7 +47631,7 @@
     "origin": "arxiv",
     "aiNote": null,
     "image": null,
-    "heat": 52,
+    "heat": 50,
     "firstSeen": "2026-08-21T22:43:12.096Z",
     "fetchedAt": null,
     "tier": 1
@@ -47647,7 +47647,7 @@
     "tags": [
       "Hacker News"
     ],
-    "engagement": 57,
+    "engagement": 61,
     "aiSelected": true,
     "origin": "hackernews",
     "aiNote": null,
@@ -47686,7 +47686,7 @@
       "论文",
       "arXiv"
     ],
-    "engagement": 9,
+    "engagement": 14,
     "aiSelected": true,
     "origin": "hf-papers",
     "aiNote": null,
@@ -47708,7 +47708,7 @@
     "aiSelected": true,
     "origin": "rss:apple-ml",
     "aiNote": null,
-    "heat": 51,
+    "heat": 49,
     "firstSeen": "2026-08-21T22:43:12.096Z",
     "fetchedAt": null,
     "tier": 1
@@ -47725,12 +47725,12 @@
       "论文",
       "arXiv"
     ],
-    "engagement": 1,
+    "engagement": 6,
     "aiSelected": true,
     "origin": "hf-papers",
     "aiNote": null,
     "image": null,
-    "heat": 24,
+    "heat": 28,
     "firstSeen": "2026-08-21T22:43:12.096Z",
     "fetchedAt": null,
     "tier": 2
@@ -47747,12 +47747,12 @@
       "论文",
       "arXiv"
     ],
-    "engagement": 1,
+    "engagement": 6,
     "aiSelected": true,
     "origin": "hf-papers",
     "aiNote": null,
     "image": null,
-    "heat": 24,
+    "heat": 28,
     "firstSeen": "2026-08-21T22:43:12.096Z",
     "fetchedAt": null,
     "tier": 2
@@ -47769,12 +47769,12 @@
       "论文",
       "arXiv"
     ],
-    "engagement": 1,
+    "engagement": 5,
     "aiSelected": true,
     "origin": "hf-papers",
     "aiNote": null,
     "image": null,
-    "heat": 24,
+    "heat": 27,
     "firstSeen": "2026-08-21T22:43:12.096Z",
     "fetchedAt": null,
     "tier": 2
@@ -47791,12 +47791,12 @@
       "论文",
       "arXiv"
     ],
-    "engagement": 4,
+    "engagement": 8,
     "aiSelected": true,
     "origin": "hf-papers",
     "aiNote": null,
     "image": null,
-    "heat": 34,
+    "heat": 31,
     "firstSeen": "2026-08-21T22:43:12.096Z",
     "fetchedAt": null,
     "tier": 2
@@ -47813,12 +47813,12 @@
       "论文",
       "arXiv"
     ],
-    "engagement": 51,
+    "engagement": 58,
     "aiSelected": true,
     "origin": "hf-papers",
     "aiNote": null,
     "image": null,
-    "heat": 46,
+    "heat": 44,
     "firstSeen": "2026-08-21T22:43:12.096Z",
     "fetchedAt": null,
     "tier": 2
@@ -47835,12 +47835,12 @@
       "论文",
       "arXiv"
     ],
-    "engagement": 10,
+    "engagement": 17,
     "aiSelected": true,
     "origin": "hf-papers",
     "aiNote": null,
     "image": null,
-    "heat": 37,
+    "heat": 40,
     "firstSeen": "2026-08-21T22:43:12.096Z",
     "fetchedAt": null,
     "tier": 2
@@ -47857,12 +47857,12 @@
       "论文",
       "arXiv"
     ],
-    "engagement": 4,
+    "engagement": 10,
     "aiSelected": true,
     "origin": "hf-papers",
     "aiNote": null,
     "image": null,
-    "heat": 34,
+    "heat": 33,
     "firstSeen": "2026-08-21T22:43:12.096Z",
     "fetchedAt": null,
     "tier": 2
@@ -47879,12 +47879,12 @@
       "论文",
       "arXiv"
     ],
-    "engagement": 52,
+    "engagement": 66,
     "aiSelected": true,
     "origin": "hf-papers",
     "aiNote": null,
     "image": null,
-    "heat": 46,
+    "heat": 44,
     "firstSeen": "2026-08-21T22:43:12.096Z",
     "fetchedAt": null,
     "tier": 2
@@ -47901,12 +47901,12 @@
       "论文",
       "arXiv"
     ],
-    "engagement": 24,
+    "engagement": 31,
     "aiSelected": true,
     "origin": "hf-papers",
     "aiNote": null,
     "image": null,
-    "heat": 43,
+    "heat": 42,
     "firstSeen": "2026-08-21T22:43:12.096Z",
     "fetchedAt": null,
     "tier": 2
@@ -47923,12 +47923,12 @@
       "论文",
       "arXiv"
     ],
-    "engagement": 34,
+    "engagement": 39,
     "aiSelected": true,
     "origin": "hf-papers",
     "aiNote": null,
     "image": null,
-    "heat": 45,
+    "heat": 43,
     "firstSeen": "2026-08-21T22:43:12.096Z",
     "fetchedAt": null,
     "tier": 2
@@ -47945,12 +47945,12 @@
       "论文",
       "arXiv"
     ],
-    "engagement": 230,
+    "engagement": 246,
     "aiSelected": true,
     "origin": "hf-papers",
     "aiNote": null,
     "image": null,
-    "heat": 50,
+    "heat": 48,
     "firstSeen": "2026-08-21T22:43:12.096Z",
     "fetchedAt": null,
     "tier": 2
@@ -47967,12 +47967,12 @@
       "论文",
       "arXiv"
     ],
-    "engagement": 5,
+    "engagement": 10,
     "aiSelected": true,
     "origin": "hf-papers",
     "aiNote": null,
     "image": null,
-    "heat": 35,
+    "heat": 33,
     "firstSeen": "2026-08-21T22:43:12.096Z",
     "fetchedAt": null,
     "tier": 2
@@ -47989,12 +47989,12 @@
       "论文",
       "arXiv"
     ],
-    "engagement": 2,
+    "engagement": 7,
     "aiSelected": true,
     "origin": "hf-papers",
     "aiNote": null,
     "image": null,
-    "heat": 28,
+    "heat": 29,
     "firstSeen": "2026-08-21T22:43:12.096Z",
     "fetchedAt": null,
     "tier": 2
@@ -48014,12 +48014,12 @@
       "comfyui-extension",
       "Python"
     ],
-    "engagement": 4,
+    "engagement": 7,
     "aiSelected": true,
     "origin": "github",
     "aiNote": null,
     "image": null,
-    "heat": 25,
+    "heat": 24,
     "firstSeen": "2026-08-21T22:43:12.096Z",
     "fetchedAt": null,
     "tier": 2
@@ -48036,12 +48036,12 @@
       "论文",
       "arXiv"
     ],
-    "engagement": 102,
+    "engagement": 112,
     "aiSelected": true,
     "origin": "hf-papers",
     "aiNote": null,
     "image": null,
-    "heat": 46,
+    "heat": 44,
     "firstSeen": "2026-08-21T22:43:12.096Z",
     "fetchedAt": null,
     "tier": 2
@@ -48058,12 +48058,12 @@
       "论文",
       "arXiv"
     ],
-    "engagement": 9,
+    "engagement": 11,
     "aiSelected": true,
     "origin": "hf-papers",
     "aiNote": null,
     "image": null,
-    "heat": 35,
+    "heat": 33,
     "firstSeen": "2026-08-21T22:43:12.096Z",
     "fetchedAt": null,
     "tier": 2
@@ -48080,12 +48080,12 @@
       "论文",
       "arXiv"
     ],
-    "engagement": 7,
+    "engagement": 13,
     "aiSelected": true,
     "origin": "hf-papers",
     "aiNote": null,
     "image": null,
-    "heat": 33,
+    "heat": 34,
     "firstSeen": "2026-08-21T22:43:12.096Z",
     "fetchedAt": null,
     "tier": 2
@@ -48110,7 +48110,7 @@
     "origin": "github",
     "aiNote": null,
     "image": null,
-    "heat": 23,
+    "heat": 22,
     "firstSeen": "2026-08-21T22:43:12.096Z",
     "fetchedAt": null,
     "tier": 2
@@ -48127,12 +48127,12 @@
       "论文",
       "arXiv"
     ],
-    "engagement": 3,
+    "engagement": 7,
     "aiSelected": true,
     "origin": "hf-papers",
     "aiNote": null,
     "image": null,
-    "heat": 30,
+    "heat": 27,
     "firstSeen": "2026-08-21T22:43:12.096Z",
     "fetchedAt": null,
     "tier": 2
@@ -48149,12 +48149,12 @@
       "论文",
       "arXiv"
     ],
-    "engagement": 2,
+    "engagement": 9,
     "aiSelected": true,
     "origin": "hf-papers",
     "aiNote": null,
     "image": null,
-    "heat": 25,
+    "heat": 29,
     "firstSeen": "2026-08-21T22:43:12.096Z",
     "fetchedAt": null,
     "tier": 2
@@ -48171,12 +48171,12 @@
       "论文",
       "arXiv"
     ],
-    "engagement": 2,
+    "engagement": 8,
     "aiSelected": true,
     "origin": "hf-papers",
     "aiNote": null,
     "image": null,
-    "heat": 25,
+    "heat": 27,
     "firstSeen": "2026-08-21T22:43:12.096Z",
     "fetchedAt": null,
     "tier": 2
@@ -48196,12 +48196,12 @@
       "deepseek-harness-studio",
       "TypeScript"
     ],
-    "engagement": 433,
+    "engagement": 456,
     "aiSelected": true,
     "origin": "github",
     "aiNote": null,
     "image": null,
-    "heat": 36,
+    "heat": 35,
     "firstSeen": "2026-08-21T22:43:12.096Z",
     "fetchedAt": null,
     "tier": 2
@@ -48218,12 +48218,12 @@
       "论文",
       "arXiv"
     ],
-    "engagement": 15,
+    "engagement": 22,
     "aiSelected": true,
     "origin": "hf-papers",
     "aiNote": null,
     "image": null,
-    "heat": 33,
+    "heat": 34,
     "firstSeen": "2026-08-21T22:43:12.096Z",
     "fetchedAt": null,
     "tier": 2
@@ -48240,12 +48240,12 @@
       "论文",
       "arXiv"
     ],
-    "engagement": 1,
+    "engagement": 7,
     "aiSelected": true,
     "origin": "hf-papers",
     "aiNote": null,
     "image": null,
-    "heat": 19,
+    "heat": 24,
     "firstSeen": "2026-08-21T22:43:12.096Z",
     "fetchedAt": null,
     "tier": 2
@@ -48262,12 +48262,12 @@
       "论文",
       "arXiv"
     ],
-    "engagement": 2,
+    "engagement": 7,
     "aiSelected": true,
     "origin": "hf-papers",
     "aiNote": null,
     "image": null,
-    "heat": 23,
+    "heat": 24,
     "firstSeen": "2026-08-21T22:43:12.096Z",
     "fetchedAt": null,
     "tier": 2
@@ -48284,12 +48284,12 @@
       "论文",
       "arXiv"
     ],
-    "engagement": 2,
+    "engagement": 8,
     "aiSelected": true,
     "origin": "hf-papers",
     "aiNote": null,
     "image": null,
-    "heat": 23,
+    "heat": 25,
     "firstSeen": "2026-08-21T22:43:12.096Z",
     "fetchedAt": null,
     "tier": 2
@@ -48306,7 +48306,7 @@
       "论文",
       "arXiv"
     ],
-    "engagement": 22,
+    "engagement": 29,
     "aiSelected": true,
     "origin": "hf-papers",
     "aiNote": null,
@@ -48319,7 +48319,7 @@
   {
     "id": "gh-ant-research-4danyone",
     "title": "ant-research/4DAnyone",
-    "summary": "4DAnyone: Create Anyone in 4D from a Casual Monocular Video",
+    "summary": "[SIGGRAPH Asia 2026] 4DAnyone: Create Anyone in 4D from a Casual Monocular Video",
     "source": "GitHub",
     "sourceUrl": "https://github.com/ant-research/4DAnyone",
     "category": "ai-products",
@@ -48331,12 +48331,12 @@
       "video-generation",
       "Python"
     ],
-    "engagement": 210,
+    "engagement": 315,
     "aiSelected": true,
     "origin": "github",
     "aiNote": null,
     "image": null,
-    "heat": 30,
+    "heat": 31,
     "firstSeen": "2026-08-21T22:43:12.096Z",
     "fetchedAt": null,
     "tier": 2
@@ -48356,12 +48356,12 @@
       "llm",
       "JavaScript"
     ],
-    "engagement": 649,
+    "engagement": 974,
     "aiSelected": true,
     "origin": "github",
     "aiNote": null,
     "image": null,
-    "heat": 33,
+    "heat": 34,
     "firstSeen": "2026-08-21T22:43:12.096Z",
     "fetchedAt": null,
     "tier": 2
@@ -48378,12 +48378,12 @@
       "论文",
       "arXiv"
     ],
-    "engagement": 2,
+    "engagement": 10,
     "aiSelected": true,
     "origin": "hf-papers",
     "aiNote": null,
     "image": null,
-    "heat": 21,
+    "heat": 25,
     "firstSeen": "2026-08-21T22:43:12.096Z",
     "fetchedAt": null,
     "tier": 2
@@ -48453,6 +48453,1107 @@
     "aiNote": null,
     "heat": 30,
     "firstSeen": "2026-08-21T22:43:12.096Z",
+    "fetchedAt": null,
+    "tier": 1
+  },
+  {
+    "id": "rss:techcrunch-ai-6024a826f3",
+    "title": "Harvard’s $699 startup bootcamp offers AI avatars of its instructors",
+    "summary": "In the HBS Foundry program, AI avatars provide feedback during practice pitches and board meetings.",
+    "source": "TechCrunch",
+    "sourceUrl": "https://techcrunch.com/2026/08/22/harvards-699-startup-bootcamp-offers-ai-avatars-of-its-instructors/",
+    "category": "industry",
+    "publishedAt": "2026-08-22T21:46:56.000Z",
+    "image": null,
+    "aiSelected": true,
+    "origin": "rss:techcrunch-ai",
+    "aiNote": "哈佛商学院用AI分身陪练路演，开创高管教育新模式，值得关注。",
+    "heat": 40,
+    "firstSeen": "2026-08-22T22:40:23.840Z",
+    "fetchedAt": null,
+    "tier": 2
+  },
+  {
+    "id": "rss:simonwillison-d17933d435",
+    "title": "Quoting Linus Torvalds",
+    "summary": "And this was a debug session from hell, enormously helped by an AI doing much of the grunt-work. I'd like to call it my tireless helper, but the AI several times stated flat out th…",
+    "source": "Simon Willison",
+    "sourceUrl": "https://simonwillison.net/2026/Aug/22/linus-torvalds/",
+    "category": "tip",
+    "publishedAt": "2026-08-22T21:04:26.000Z",
+    "image": null,
+    "aiSelected": true,
+    "origin": "rss:simonwillison",
+    "aiNote": "AI辅助调试获Linus盛赞，标志大模型已深入底层开发，效率革命值得关注。",
+    "heat": 40,
+    "firstSeen": "2026-08-22T22:40:23.840Z",
+    "fetchedAt": null,
+    "tier": 2
+  },
+  {
+    "id": "rss:techcrunch-ai-00b5c41772",
+    "title": "Inherent, founded by DeepMind alumni, says its AI &#8216;teammate&#8217; just outperformed Anthropic and OpenAI at replicating research",
+    "summary": "Built by DeepMind alumni, British AI lab Inherent released Faraday, an AI agent whose ability to replicate scientific papers could be a stepping stone for innovation.",
+    "source": "TechCrunch",
+    "sourceUrl": "https://techcrunch.com/2026/08/22/inherent-founded-by-deepmind-alumni-says-its-ai-teammate-just-outperformed-anthropic-and-openai-at-replicating-research/",
+    "category": "paper",
+    "publishedAt": "2026-08-22T19:00:00.000Z",
+    "image": null,
+    "aiSelected": true,
+    "origin": "rss:techcrunch-ai",
+    "aiNote": "DeepMind系创业团队让AI复现科研论文，或重塑研发范式，值得追踪。",
+    "heat": 40,
+    "firstSeen": "2026-08-22T22:40:23.840Z",
+    "fetchedAt": null,
+    "tier": 2
+  },
+  {
+    "id": "hn-ec98721bcd",
+    "title": "Why your local LLM feels dumber than it is",
+    "summary": null,
+    "source": "Hacker News",
+    "sourceUrl": "https://forum.level1techs.com/t/why-your-local-llm-feels-dumber-than-it-is/253917",
+    "category": "industry",
+    "publishedAt": "2026-08-22T18:14:16Z",
+    "tags": [
+      "Hacker News"
+    ],
+    "engagement": 107,
+    "aiSelected": true,
+    "origin": "hackernews",
+    "aiNote": "本地大模型性能被低估，关键在提示词与调参，而非模型本身。",
+    "image": null,
+    "heat": 37,
+    "firstSeen": "2026-08-22T22:40:23.840Z",
+    "fetchedAt": null,
+    "tier": 2
+  },
+  {
+    "id": "rss:simonwillison-d2a4852ea4",
+    "title": "llm 0.33",
+    "summary": "Release: llm 0.33 My highlights from this release: Upgraded to the OpenAI Python library 3.x and switched the HTTP client dependency from httpx to httpx2 . #1608 , #1631 I shipped…",
+    "source": "Simon Willison",
+    "sourceUrl": "https://simonwillison.net/2026/Aug/22/llm/",
+    "category": "tip",
+    "publishedAt": "2026-08-22T17:01:16.000Z",
+    "image": null,
+    "aiSelected": true,
+    "origin": "rss:simonwillison",
+    "aiNote": "升级OpenAI库与HTTP客户端，技术栈迭代提速，开发者可关注兼容性与性能变化。",
+    "heat": 40,
+    "firstSeen": "2026-08-22T22:40:23.840Z",
+    "fetchedAt": null,
+    "tier": 2
+  },
+  {
+    "id": "hn-8a8d3c0c95",
+    "title": "Anthropic appears to be A/B testing reduced effort levels in Claude Code",
+    "summary": null,
+    "source": "Hacker News",
+    "sourceUrl": "https://twitter.com/argofowl/status/2091150597374537729",
+    "category": "industry",
+    "publishedAt": "2026-08-22T16:58:49Z",
+    "tags": [
+      "Hacker News"
+    ],
+    "engagement": 146,
+    "aiSelected": true,
+    "origin": "hackernews",
+    "aiNote": "看点：Anthropic正测试降低Claude Code的投入度，或影响AI编程效率与成本平衡。",
+    "image": null,
+    "heat": 40,
+    "firstSeen": "2026-08-22T22:40:23.840Z",
+    "fetchedAt": null,
+    "tier": 2
+  },
+  {
+    "id": "rss:techcrunch-ai-ceb77d2acd",
+    "title": "OpenAI says California should strengthen its AI safety bill",
+    "summary": "OpenAI is calling for California to strengthen SB 53, an AI safety bill that the company previously opposed.",
+    "source": "TechCrunch",
+    "sourceUrl": "https://techcrunch.com/2026/08/22/openai-says-california-should-strengthen-its-ai-safety-bill/",
+    "category": "industry",
+    "publishedAt": "2026-08-22T16:30:34.000Z",
+    "image": null,
+    "aiSelected": true,
+    "origin": "rss:techcrunch-ai",
+    "aiNote": "OpenAI态度逆转，凸显AI安全监管博弈升级，行业风向标意义显著。",
+    "heat": 40,
+    "firstSeen": "2026-08-22T22:40:23.840Z",
+    "fetchedAt": null,
+    "tier": 2
+  },
+  {
+    "id": "rss:techcrunch-ai-32aab1e028",
+    "title": "Frontier AI labs still won&#8217;t say how they&#8217;d contain a rogue model",
+    "summary": "A new study finds leading AI labs have few publicly documented plans for containing rogue models, raising questions about preparedness as AI systems increasingly demonstrate unexpe…",
+    "source": "TechCrunch",
+    "sourceUrl": "https://techcrunch.com/2026/08/22/frontier-ai-labs-still-wont-say-how-theyd-contain-a-rogue-model/",
+    "category": "industry",
+    "publishedAt": "2026-08-22T16:00:00.000Z",
+    "image": null,
+    "aiSelected": true,
+    "origin": "rss:techcrunch-ai",
+    "aiNote": "前沿实验室对失控AI的应对预案秘而不宣，安全承诺存疑，拷问行业真实准备度。",
+    "heat": 40,
+    "firstSeen": "2026-08-22T22:40:23.840Z",
+    "fetchedAt": null,
+    "tier": 2
+  },
+  {
+    "id": "rss:qbitai-c97e40f817",
+    "title": "不是Demo！优必选把客户产线1:1搬进WRC，解锁具身智能真落地路径",
+    "summary": "端侧部署解决了具身大脑能否装进身体的问题。那么，同一个「大脑」，如何快速适配工业、商用和家庭三类机器人呢？",
+    "source": "量子位",
+    "sourceUrl": "https://www.qbitai.com/2026/08/477253.html",
+    "category": "industry",
+    "publishedAt": "2026-08-22T14:46:43.000Z",
+    "image": null,
+    "aiSelected": true,
+    "origin": "rss:qbitai",
+    "aiNote": "从仿真到真机，优必选展示具身智能落地全链路，行业价值关键在量产验证。",
+    "heat": 25,
+    "firstSeen": "2026-08-22T22:40:23.840Z",
+    "fetchedAt": null,
+    "tier": 3
+  },
+  {
+    "id": "rss:ithome-9dbd8f7a83",
+    "title": "利用 AI 合成虚假影像骚扰他人，四川一男子被行拘",
+    "summary": "IT之家 8 月 22 日消息，AI 合成技术在当下已广泛应用，不法分子也盯着这项技术行坏事。据央视新闻今天报道，四川警方近日查获一起利用 AI 合成虚假影像骚扰他人的案件，嫌疑人徐某某被公安机关依法行政拘留。 IT之家从原报道获悉，四川眉山仁寿县市民小张上个月来派出所报案，称自己遭到网友徐某某利用合成照片恶意胁迫和持续骚扰，正常生活受到严重影响。 据了解，…",
+    "source": "IT之家",
+    "sourceUrl": "https://www.ithome.com/0/993/110.htm",
+    "category": "industry",
+    "publishedAt": "2026-08-22T14:44:19.000Z",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/8/d6783c71-4045-4052-884d-bbe56b48aafa.png?x-bce-process=image/format,f_auto",
+    "aiSelected": true,
+    "origin": "rss:ithome",
+    "aiNote": "AI犯罪首例行拘，警示技术滥用法律红线。",
+    "heat": 25,
+    "firstSeen": "2026-08-22T22:40:23.840Z",
+    "fetchedAt": null,
+    "tier": 3
+  },
+  {
+    "id": "rss:ithome-8aeaf8858f",
+    "title": "中诚华隆 HL200 推理芯片发布：能效比 5.12 TFLOPS/W、集群最高可扩展至万卡",
+    "summary": "IT之家 8 月 22 日消息，据界面新闻今天报道，中诚华隆现已推出全新 HL200 推理芯片和超节点智算集群方案。 据报道，该芯片的单卡 FP4 算力为 4P、FP8 算力 2P，FP16/BF16 算力 0.5P， 能效比达 5.12 TFLOPS/W ，并原生支持 FP4、FP8 低精度推理。 而 HL200 超节点智算集群方案单机柜支持 64 张 G…",
+    "source": "IT之家",
+    "sourceUrl": "https://www.ithome.com/0/993/108.htm",
+    "category": "industry",
+    "publishedAt": "2026-08-22T14:32:32.000Z",
+    "image": null,
+    "aiSelected": true,
+    "origin": "rss:ithome",
+    "aiNote": "能效比突出，万卡集群扩展力强，国产推理芯片赛道再添有力竞争者。",
+    "heat": 25,
+    "firstSeen": "2026-08-22T22:40:23.840Z",
+    "fetchedAt": null,
+    "tier": 3
+  },
+  {
+    "id": "rss:ithome-94ddede8dc",
+    "title": "全球首款全自主打网球机器人亮相，与运动员开展人机混双对打",
+    "summary": "IT之家 8 月 22 日消息，据央视新闻今天报道，全球首款自主打网球的机器人今晚在第二届世界人形机器人运动会亮相。 据介绍，这款机器人来自银河通用，名为“银河星仔”。IT之家了解到， 这款机器人身高约 1.75 米 ，搭载 LATENT 智能规控算法，不依赖预编程，通过深度强化学习自主掌握网球技能。 同时， 其双目视觉系统可在 0.1 秒内锁定时速超 50…",
+    "source": "IT之家",
+    "sourceUrl": "https://www.ithome.com/0/993/107.htm",
+    "category": "tip",
+    "publishedAt": "2026-08-22T14:23:10.000Z",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/8/5a933f1c-cf58-4ee4-a3a8-e135a2fcc639.jpg",
+    "aiSelected": true,
+    "origin": "rss:ithome",
+    "aiNote": "人机混双对打突破预编程局限，展示具身智能实时决策与运动控制新高度。",
+    "heat": 25,
+    "firstSeen": "2026-08-22T22:40:23.840Z",
+    "fetchedAt": null,
+    "tier": 3
+  },
+  {
+    "id": "rss:qbitai-e3ea55ebd2",
+    "title": "伽利略机器人首发“陆行具身系统”，打通轮车足底层技术壁垒",
+    "summary": "直击WRC",
+    "source": "量子位",
+    "sourceUrl": "https://www.qbitai.com/2026/08/477246.html",
+    "category": "ai-products",
+    "publishedAt": "2026-08-22T14:19:39.000Z",
+    "image": null,
+    "aiSelected": true,
+    "origin": "rss:qbitai",
+    "aiNote": "陆行具身系统突破轮、足、车多形态融合，或成机器人移动技术新标杆。",
+    "heat": 25,
+    "firstSeen": "2026-08-22T22:40:23.840Z",
+    "fetchedAt": null,
+    "tier": 3
+  },
+  {
+    "id": "rss:ithome-cce47fff34",
+    "title": "第二届世界人形机器人运动会开幕：2056 台机器人齐聚“冰丝带”，666 支队伍竞技 51 赛项",
+    "summary": "IT之家 8 月 22 日消息，今日晚间，第二届世界人形机器人运动会在国家速滑馆“冰丝带”开幕。 本届赛事由北京市人民政府、中央广播电视总台、世界机器人合作组织、亚太机器人世界杯国际理事会联合主办。来自六大洲 16 个国家的 666 支队伍、2056 台机器人参赛，队伍数量较首届增长 138%，机器人数量翻了两番。 开幕式上，田径 100 米大型组预赛率先开…",
+    "source": "IT之家",
+    "sourceUrl": "https://www.ithome.com/0/993/105.htm",
+    "category": "industry",
+    "publishedAt": "2026-08-22T14:13:48.000Z",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/8/906b102e-044d-452a-aea9-718d9551abd4.jpg",
+    "aiSelected": true,
+    "origin": "rss:ithome",
+    "aiNote": "规模翻倍彰显技术爆发，人形机器人竞技成产业风向标。",
+    "heat": 25,
+    "firstSeen": "2026-08-22T22:40:23.840Z",
+    "fetchedAt": null,
+    "tier": 3
+  },
+  {
+    "id": "hn-fd62b6cd9d",
+    "title": "Digging the grave of my skills: Hollywood creatives training AI to do their jobs",
+    "summary": null,
+    "source": "Hacker News",
+    "sourceUrl": "https://www.theguardian.com/technology/2026/aug/22/the-hollywood-creatives-training-ai-to-do-their-jobs",
+    "category": "industry",
+    "publishedAt": "2026-08-22T14:13:05Z",
+    "tags": [
+      "Hacker News"
+    ],
+    "engagement": 51,
+    "aiSelected": true,
+    "origin": "hackernews",
+    "aiNote": "好莱坞创意人主动训练AI取代自己，折射行业生存焦虑与技术伦理的深层博弈。",
+    "image": null,
+    "heat": 26,
+    "firstSeen": "2026-08-22T22:40:23.840Z",
+    "fetchedAt": null,
+    "tier": 2
+  },
+  {
+    "id": "rss:qbitai-b021226630",
+    "title": "魔法原子亮相WRC 2026，三大场景解决方案实景展示物理AI真·上岗",
+    "summary": "一脑驱动多形落地",
+    "source": "量子位",
+    "sourceUrl": "https://www.qbitai.com/2026/08/477155.html",
+    "category": "industry",
+    "publishedAt": "2026-08-22T14:11:20.000Z",
+    "image": null,
+    "aiSelected": true,
+    "origin": "rss:qbitai",
+    "aiNote": "三场景实景落地，展示AI从实验室走向真实生产力。",
+    "heat": 25,
+    "firstSeen": "2026-08-22T22:40:23.840Z",
+    "fetchedAt": null,
+    "tier": 3
+  },
+  {
+    "id": "rss:qbitai-85dbe235d4",
+    "title": "00后清华博士生创业“神经接口”：把人类肌肉反应炼成Token",
+    "summary": "采集，从一条腕带开始",
+    "source": "量子位",
+    "sourceUrl": "https://www.qbitai.com/2026/08/477094.html",
+    "category": "ai-products",
+    "publishedAt": "2026-08-22T13:56:00.000Z",
+    "image": null,
+    "aiSelected": true,
+    "origin": "rss:qbitai",
+    "aiNote": "神经接口新路径，肌肉信号变Token，或开启人机交互轻量革命。",
+    "heat": 25,
+    "firstSeen": "2026-08-22T22:40:23.840Z",
+    "fetchedAt": null,
+    "tier": 3
+  },
+  {
+    "id": "rss:marktechpost-d4e8417c99",
+    "title": "Decoding AI&#8217;s Open-Source Course Maps Three Ways to Run an Agent Loop and the Provider Economics Behind Each",
+    "summary": "Most teams treat ‘which model’ as the important decision. The harness engineering literature keeps pointing somewhere else. In LangChain’s Terminal-Bench experiment, changing only…",
+    "source": "MarkTechPost",
+    "sourceUrl": "https://www.marktechpost.com/2026/08/22/decoding-ais-open-source-course-maps-three-ways-to-run-an-agent-loop-and-the-provider-economics-behind-each/",
+    "category": "paper",
+    "publishedAt": "2026-08-22T13:43:13.000Z",
+    "image": null,
+    "aiSelected": true,
+    "origin": "rss:marktechpost",
+    "aiNote": "开源智能体循环三大路径，揭示模型选择之外的隐藏经济学。",
+    "heat": 39,
+    "firstSeen": "2026-08-22T22:40:23.840Z",
+    "fetchedAt": null,
+    "tier": 2
+  },
+  {
+    "id": "rss:ithome-e7f430a960",
+    "title": "当贝推出 RX10 投影仪：0.33\" DMD 显示芯片、1200CVIA 流明，5499 元",
+    "summary": "IT之家 8 月 22 日消息，当贝现已在京东上架 RX10 投影仪，该产品主打灵动云台设计，采用 0.33\" DMD 显示芯片，提供 1200CVIA 流明， 定价为 5499 元 。 外观方面，该机采用一体式灵动云台，支持上下 225° 的俯仰角度调节，无需额外垫高即可自由改变投射位置。同时支持 AI 实时校正与全向无感自动梯形校正功能，用户在大幅度转动…",
+    "source": "IT之家",
+    "sourceUrl": "https://www.ithome.com/0/993/101.htm",
+    "category": "ai-products",
+    "publishedAt": "2026-08-22T13:22:47.000Z",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/8/ae338e25-be8f-4fc4-bfd4-c4d8c2b6f7b0.jpg?x-bce-process=image/format,f_auto",
+    "aiSelected": true,
+    "origin": "rss:ithome",
+    "aiNote": "云台调节与AI校正结合，或成中端家用投影新标杆。",
+    "heat": 25,
+    "firstSeen": "2026-08-22T22:40:23.840Z",
+    "fetchedAt": null,
+    "tier": 3
+  },
+  {
+    "id": "rss:qbitai-c66f7f212e",
+    "title": "Eon用LIF“上传”果蝇脑，中国团队直接上精细神经元和跨身体平台",
+    "summary": "将真实场景重建为持续更新、可计算的4D数字世界。",
+    "source": "量子位",
+    "sourceUrl": "https://www.qbitai.com/2026/08/477090.html",
+    "category": "ai-products",
+    "publishedAt": "2026-08-22T12:21:07.000Z",
+    "image": null,
+    "aiSelected": true,
+    "origin": "rss:qbitai",
+    "aiNote": "脑科学数字化提速，中国团队精细建模跨平台，AI仿真未来可期。",
+    "heat": 25,
+    "firstSeen": "2026-08-22T22:40:23.840Z",
+    "fetchedAt": null,
+    "tier": 3
+  },
+  {
+    "id": "rss:thedecoder-3e4a1812e6",
+    "title": "Study explains why AI agents benefit from \"skills\" and when they fail",
+    "summary": "A study from researchers at Princeton University and UC San Diego finds that so-called skills make AI agents better mainly through structured workflows, not through added knowledge…",
+    "source": "The Decoder",
+    "sourceUrl": "https://the-decoder.com/study-explains-why-ai-agents-benefit-from-skills-and-when-they-fail/",
+    "category": "industry",
+    "publishedAt": "2026-08-22T12:15:10.000Z",
+    "image": "https://the-decoder.com/wp-content/uploads/2026/08/Agent-Skill-Pick.png",
+    "aiSelected": true,
+    "origin": "rss:thedecoder",
+    "aiNote": "技能提升AI智能体靠流程而非知识，颠覆认知，值得深究。",
+    "heat": 39,
+    "firstSeen": "2026-08-22T22:40:23.840Z",
+    "fetchedAt": null,
+    "tier": 2
+  },
+  {
+    "id": "rss:raschka-df5399c7f9",
+    "title": "How Claude Watermarks AI-Generated Text",
+    "summary": "A 48-minute video walkthrough of token sampling, watermark detection, and removal",
+    "source": "Sebastian Raschka",
+    "sourceUrl": "https://magazine.sebastianraschka.com/p/claude-watermarking",
+    "category": "tip",
+    "publishedAt": "2026-08-22T11:11:39.000Z",
+    "image": "https://substack-post-media.s3.amazonaws.com/public/images/fb73bfb5-0291-4e5e-b425-6c3be054276e_1914x1076.png",
+    "aiSelected": true,
+    "origin": "rss:raschka",
+    "aiNote": "水印技术深度拆解，演示检测与移除全流程，关乎AI内容真伪辨识。",
+    "heat": 39,
+    "firstSeen": "2026-08-22T22:40:23.840Z",
+    "fetchedAt": null,
+    "tier": 2
+  },
+  {
+    "id": "rss:infoq-ab4627192e",
+    "title": "JetBrains详细阐述了控制AI支出快速增长的首批举措",
+    "summary": null,
+    "source": "InfoQ",
+    "sourceUrl": "https://www.infoq.cn/article/CQhb4TOREpEZshtqWZMy?utm_source=rss&utm_medium=article",
+    "category": "industry",
+    "publishedAt": "2026-08-22T09:05:00.000Z",
+    "image": null,
+    "aiSelected": true,
+    "origin": "rss:infoq",
+    "aiNote": "开发者工具巨头亲述控本策略，直击AI落地成本痛点。",
+    "heat": 24,
+    "firstSeen": "2026-08-22T22:40:23.840Z",
+    "fetchedAt": null,
+    "tier": 3
+  },
+  {
+    "id": "rss:thedecoder-1a7492a2b3",
+    "title": "World models that ignore human beliefs predict the wrong actions, new research shows",
+    "summary": "Current world models like Sora or Genie only simulate physics and ignore what people think, want, or feel. The new \"Mental World Modeling\" framework adds mental variables like beli…",
+    "source": "The Decoder",
+    "sourceUrl": "https://the-decoder.com/world-models-that-ignore-human-beliefs-predict-the-wrong-actions-new-research-shows/",
+    "category": "industry",
+    "publishedAt": "2026-08-22T09:00:20.000Z",
+    "image": "https://the-decoder.com/wp-content/uploads/2026/08/mental-world-model-nano-banana-pro.jpg",
+    "aiSelected": true,
+    "origin": "rss:thedecoder",
+    "aiNote": "忽视人类信念的世界模型，预测行为必失准，新框架补足心智维度。",
+    "heat": 39,
+    "firstSeen": "2026-08-22T22:40:23.840Z",
+    "fetchedAt": null,
+    "tier": 2
+  },
+  {
+    "id": "rss:qbitai-667aad4b8b",
+    "title": "当机器人大脑飞上天！替人奔赴危险作业现场，对话硅羽科技",
+    "summary": null,
+    "source": "量子位",
+    "sourceUrl": "https://www.qbitai.com/2026/08/476965.html",
+    "category": "tip",
+    "publishedAt": "2026-08-22T08:53:13.000Z",
+    "image": null,
+    "aiSelected": true,
+    "origin": "rss:qbitai",
+    "aiNote": "低空机器人突破场景限制，安全作业潜力巨大，科技伦理新议题值得深究。",
+    "heat": 24,
+    "firstSeen": "2026-08-22T22:40:23.840Z",
+    "fetchedAt": null,
+    "tier": 3
+  },
+  {
+    "id": "rss:qbitai-47352fd086",
+    "title": "从模型到生产力：星海图与产业朋友圈共探具身智能的下一站",
+    "summary": "让具身智能技术真正落地千行万业。",
+    "source": "量子位",
+    "sourceUrl": "https://www.qbitai.com/2026/08/476930.html",
+    "category": "industry",
+    "publishedAt": "2026-08-22T08:41:41.000Z",
+    "image": null,
+    "aiSelected": true,
+    "origin": "rss:qbitai",
+    "aiNote": "具身智能落地路径首次被系统拆解，产业协同模式或成行业新标杆。",
+    "heat": 24,
+    "firstSeen": "2026-08-22T22:40:23.840Z",
+    "fetchedAt": null,
+    "tier": 3
+  },
+  {
+    "id": "rss:thedecoder-464bacf572",
+    "title": "RayNeo&#039;s new AI glasses skip the camera, focus on text overlays",
+    "summary": "RayNeo is launching a new headset without a camera or speakers. The article RayNeo's new AI glasses skip the camera, focus on text overlays appeared first on The Decoder .",
+    "source": "The Decoder",
+    "sourceUrl": "https://the-decoder.com/rayneos-new-ai-glasses-skip-the-camera-focus-on-text-overlays/",
+    "category": "industry",
+    "publishedAt": "2026-08-22T08:00:14.000Z",
+    "image": "https://the-decoder.com/wp-content/uploads/2026/08/RayNeo-iO-glasses.png",
+    "aiSelected": true,
+    "origin": "rss:thedecoder",
+    "aiNote": "放弃摄像头专注文字叠加，为轻量级AI眼镜开辟新路径，交互设计值得关注。",
+    "heat": 39,
+    "firstSeen": "2026-08-22T22:40:23.840Z",
+    "fetchedAt": null,
+    "tier": 2
+  },
+  {
+    "id": "rss:latentspace-9e98c378bd",
+    "title": "[AINews] 10% worse, 100x cheaper, 10000x faster: Why Simulation is taking over",
+    "summary": "Did you think RSI stopped at model training?",
+    "source": "Latent Space",
+    "sourceUrl": "https://www.latent.space/p/ainews-10-worse-100x-cheaper-10000x",
+    "category": "tip",
+    "publishedAt": "2026-08-22T07:36:00.000Z",
+    "image": "https://substackcdn.com/image/fetch/$s_!Vw9p!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc661e612-544b-4eaa-9603-78e5f28276b7_1956x1228.png",
+    "aiSelected": true,
+    "origin": "rss:latentspace",
+    "aiNote": "模拟成本骤降万倍，性能仅损一成，或将颠覆AI研发范式。",
+    "heat": 39,
+    "firstSeen": "2026-08-22T22:40:23.840Z",
+    "fetchedAt": null,
+    "tier": 2
+  },
+  {
+    "id": "rss:latentspace-80c0bfdc85",
+    "title": "The Evolution of the Agent Harness",
+    "summary": "Models keep absorbing the harness into their weights — soon, it will be a harness for human attention rather than for the model.",
+    "source": "Latent Space",
+    "sourceUrl": "https://www.latent.space/p/attention-interface",
+    "category": "tip",
+    "publishedAt": "2026-08-22T07:30:52.000Z",
+    "image": "https://substackcdn.com/image/fetch/$s_!bUv7!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F758de9a0-631f-43a0-a331-fd871432a60b_1280x720.png",
+    "aiSelected": true,
+    "origin": "rss:latentspace",
+    "aiNote": "智能体架构正从模型外部转向内化，未来焦点将是人机交互的新范式。",
+    "heat": 39,
+    "firstSeen": "2026-08-22T22:40:23.840Z",
+    "fetchedAt": null,
+    "tier": 2
+  },
+  {
+    "id": "rss:thedecoder-061a969679",
+    "title": "Netflix tests language model as alternative to hand-built recommendation logic",
+    "summary": "Netflix pitted its years-old recommendation engine against an in-house language model called GenRec and says it got better results. Instead of relying on thousands of hand-crafted…",
+    "source": "The Decoder",
+    "sourceUrl": "https://the-decoder.com/netflix-tests-language-model-as-alternative-to-hand-built-recommendation-logic/",
+    "category": "industry",
+    "publishedAt": "2026-08-22T07:30:16.000Z",
+    "image": "https://the-decoder.com/wp-content/uploads/2026/07/netflix_logo.png",
+    "aiSelected": true,
+    "origin": "rss:thedecoder",
+    "aiNote": "大模型取代人工规则，推荐系统迎来范式转变，Netflix实战验证更具潜力。",
+    "heat": 39,
+    "firstSeen": "2026-08-22T22:40:23.840Z",
+    "fetchedAt": null,
+    "tier": 2
+  },
+  {
+    "id": "rss:thedecoder-c04746ceb3",
+    "title": "Psychological methods reveal major weaknesses in AI security testing",
+    "summary": "Researchers at the UK AI Security Institute used psychometric methods to show that popular safety benchmarks for language models don't measure one consistent trait. Blanket blockin…",
+    "source": "The Decoder",
+    "sourceUrl": "https://the-decoder.com/psychological-methods-reveal-major-weaknesses-in-ai-security-testing/",
+    "category": "industry",
+    "publishedAt": "2026-08-22T07:00:05.000Z",
+    "image": "https://the-decoder.com/wp-content/uploads/2026/08/ai-security-evaluation-nano-banana-pro.jpg",
+    "aiSelected": true,
+    "origin": "rss:thedecoder",
+    "aiNote": null,
+    "heat": 39,
+    "firstSeen": "2026-08-22T22:40:23.840Z",
+    "fetchedAt": null,
+    "tier": 2
+  },
+  {
+    "id": "rss:jiqizhixin-2db06aac3d",
+    "title": "对话维他动力秦海龙：具身智能真正难题不是让机器人「学会」，而是跨本体「继承」",
+    "summary": "机器人换了身体，智能还能留下多少？",
+    "source": "机器之心",
+    "sourceUrl": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651051744&idx=1&sn=22c2857fcc9f3c5976d2bca19c597075",
+    "category": "tip",
+    "publishedAt": "2026-08-22T06:00:00.000Z",
+    "image": "https://wechat2rss.xlab.app/img-proxy/?k=bf6eb0fe&amp;u=https%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_jpg%2F5L8bhP5dIqHJudG8c647icGdUvBNiaYTPRq8kRfNpnb2RhicpgqdCiaUoDOrq5JQyfcJYcZ5icgx7384WIPQMgggIkGUZDpXuOo6mI0wwOiask3FU%2F0%3Fwx_fmt%3Djpeg",
+    "aiSelected": true,
+    "origin": "rss:jiqizhixin",
+    "aiNote": null,
+    "heat": 24,
+    "firstSeen": "2026-08-22T22:40:23.840Z",
+    "fetchedAt": null,
+    "tier": 3
+  },
+  {
+    "id": "hn-21c71613be",
+    "title": "GPT 5.6 Sol 20% price reduction",
+    "summary": null,
+    "source": "Hacker News",
+    "sourceUrl": "https://developers.openai.com/api/docs/models/gpt-5.6-sol",
+    "category": "industry",
+    "publishedAt": "2026-08-22T04:33:06Z",
+    "tags": [
+      "Hacker News"
+    ],
+    "engagement": 86,
+    "aiSelected": true,
+    "origin": "hackernews",
+    "aiNote": null,
+    "image": null,
+    "heat": 33,
+    "firstSeen": "2026-08-22T22:40:23.840Z",
+    "fetchedAt": null,
+    "tier": 2
+  },
+  {
+    "id": "rss:latentspace-7fc8fd49db",
+    "title": "Simulation: the new Scaling Law — Joon Sung Park, Simile AI",
+    "summary": "Simile’s CEO about his journey from the viral Generative Agents to creating 8 Billion Digital Twins of every living human... and why it’s gone from fun exploration to very serious…",
+    "source": "Latent Space",
+    "sourceUrl": "https://www.latent.space/p/simile",
+    "category": "industry",
+    "publishedAt": "2026-08-21T23:37:38.000Z",
+    "image": null,
+    "aiSelected": true,
+    "origin": "rss:latentspace",
+    "aiNote": null,
+    "heat": 38,
+    "firstSeen": "2026-08-22T22:40:23.840Z",
+    "fetchedAt": null,
+    "tier": 2
+  },
+  {
+    "id": "rss:wired-ai-ec802893b1",
+    "title": "The Unlikely Place at the Center of China’s AI Boom",
+    "summary": "Cheap energy, abundant land, and proximity to Beijing have turned a city in Inner Mongolia into a crucial hub for data centers.",
+    "source": "Wired",
+    "sourceUrl": "https://www.wired.com/story/the-unlikely-place-at-the-center-of-chinas-ai-boom/",
+    "category": "industry",
+    "publishedAt": "2026-08-21T23:25:32.000Z",
+    "image": "https://media.wired.com/photos/6a86349028fa0a4f102bcd1b/master/pass/Made-in-China-Unlikely-Place-at-Center-of-China-AI-Boom-Business.jpg",
+    "aiSelected": true,
+    "origin": "rss:wired-ai",
+    "aiNote": null,
+    "heat": 38,
+    "firstSeen": "2026-08-22T22:40:23.840Z",
+    "fetchedAt": null,
+    "tier": 2
+  },
+  {
+    "id": "rss:marktechpost-4daacda187",
+    "title": "Best GPU Neoclouds 2026: CoreWeave, Nebius, Lambda, Crusoe, and Groq Ranked by Published Pricing and Contracted Power",
+    "summary": "The five largest GPU neoclouds now run on very different models. CoreWeave and Nebius report to the SEC; Lambda and Crusoe are private and heading toward IPOs; Groq rebuilt itself…",
+    "source": "MarkTechPost",
+    "sourceUrl": "https://www.marktechpost.com/2026/08/21/best-gpu-neoclouds-2026/",
+    "category": "industry",
+    "publishedAt": "2026-08-21T23:20:12.000Z",
+    "image": null,
+    "aiSelected": true,
+    "origin": "rss:marktechpost",
+    "aiNote": null,
+    "heat": 38,
+    "firstSeen": "2026-08-22T22:40:23.840Z",
+    "fetchedAt": null,
+    "tier": 2
+  },
+  {
+    "id": "hn-2988a262aa",
+    "title": "Show HN: OzBrain, a shared brain for knowledge between agents and your team",
+    "summary": "I think agent-first chat interfaces will be a primary software modality and busy dashboard/UI will go away. I’m not sure who exactly wins it, but I want my knowledge to grow/go wit…",
+    "source": "Hacker News",
+    "sourceUrl": "https://ozbrain.com",
+    "category": "industry",
+    "publishedAt": "2026-08-21T23:09:06Z",
+    "tags": [
+      "Hacker News"
+    ],
+    "engagement": 75,
+    "aiSelected": true,
+    "origin": "hackernews",
+    "aiNote": null,
+    "image": null,
+    "heat": 31,
+    "firstSeen": "2026-08-22T22:40:23.840Z",
+    "fetchedAt": null,
+    "tier": 2
+  },
+  {
+    "id": "rss:techcrunch-ai-5a859cda51",
+    "title": "Anthropic’s Opus 4.6 is a smut-machine",
+    "summary": "Anthropic forbids its Claude models from generating sexually explicit content. But a series of tests conducted by TechCrunch found that it didn't take much to get past the restrict…",
+    "source": "TechCrunch",
+    "sourceUrl": "https://techcrunch.com/2026/08/21/anthropics-opus-4-6-is-a-smut-machine/",
+    "category": "industry",
+    "publishedAt": "2026-08-21T23:07:25.000Z",
+    "image": null,
+    "aiSelected": true,
+    "origin": "rss:techcrunch-ai",
+    "aiNote": null,
+    "heat": 38,
+    "firstSeen": "2026-08-22T22:40:23.840Z",
+    "fetchedAt": null,
+    "tier": 2
+  },
+  {
+    "id": "rss:marktechpost-6f9cb3ef9f",
+    "title": "Building Agentic Document Intelligence Pipelines: Creating Scientific Figures with AutoFigure",
+    "summary": "This tutorial explores AutoFigure, a practical toolkit for generating professional scientific figures directly from text descriptions and research papers. We walk through setting u…",
+    "source": "MarkTechPost",
+    "sourceUrl": "https://www.marktechpost.com/2026/08/21/building-agentic-document-intelligence-pipelines-creating-scientific-figures-with-autofigure/",
+    "category": "tip",
+    "publishedAt": "2026-08-21T22:00:25.000Z",
+    "image": null,
+    "aiSelected": true,
+    "origin": "rss:marktechpost",
+    "aiNote": null,
+    "heat": 38,
+    "firstSeen": "2026-08-22T22:40:23.840Z",
+    "fetchedAt": null,
+    "tier": 2
+  },
+  {
+    "id": "rss:theverge-ai-016ca72fa4",
+    "title": "Over 1 million people have clicked LinkedIn’s AI slop button",
+    "summary": "LinkedIn actually announced a \"Seems like AI slop\" button on July 30th, and the company says that a lot of people have already used it. According to a Thursday post from chief prod…",
+    "source": "The Verge",
+    "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/983502/linkedin-ai-slop-button-one-million-people-message",
+    "category": "industry",
+    "publishedAt": "2026-08-21T21:25:50.000Z",
+    "image": null,
+    "aiSelected": true,
+    "origin": "rss:theverge-ai",
+    "aiNote": null,
+    "heat": 38,
+    "firstSeen": "2026-08-22T22:40:23.840Z",
+    "fetchedAt": null,
+    "tier": 2
+  },
+  {
+    "id": "rss:marktechpost-dc6992b9d8",
+    "title": "Anthropic Brings Claude Mythos 5 to Claude Security: Enterprise Teams Get Frontier Vulnerability Scanning Without Direct Model Access",
+    "summary": "Anthropic has moved its most cyber-capable model into a product security teams can switch on themselves. Claude Security scans now run on Claude Mythos 5, in public beta for Claude…",
+    "source": "MarkTechPost",
+    "sourceUrl": "https://www.marktechpost.com/2026/08/21/anthropic-brings-claude-mythos-5-to-claude-security/",
+    "category": "paper",
+    "publishedAt": "2026-08-21T21:15:53.000Z",
+    "image": null,
+    "aiSelected": true,
+    "origin": "rss:marktechpost",
+    "aiNote": null,
+    "heat": 38,
+    "firstSeen": "2026-08-22T22:40:23.840Z",
+    "fetchedAt": null,
+    "tier": 2
+  },
+  {
+    "id": "hn-afe6696f66",
+    "title": "Show HN: Proliferate- open-source, self-hostable Codex for any coding agent",
+    "summary": "Hi HN- I'm Pablo, the founder of Proliferate (YC S25)! Proliferate ( https://github.com/proliferate-ai/proliferate ) is an open-source, self-hostable AI IDE that lets you work and…",
+    "source": "Hacker News",
+    "sourceUrl": "https://github.com/proliferate-ai/proliferate",
+    "category": "industry",
+    "publishedAt": "2026-08-21T16:47:15Z",
+    "tags": [
+      "Hacker News"
+    ],
+    "engagement": 43,
+    "aiSelected": true,
+    "origin": "hackernews",
+    "aiNote": null,
+    "image": null,
+    "heat": 24,
+    "firstSeen": "2026-08-22T22:40:23.840Z",
+    "fetchedAt": null,
+    "tier": 2
+  },
+  {
+    "id": "hn-38225252c2",
+    "title": "How a Texas student blew the whistle on a rogue AI hacking attempt",
+    "summary": null,
+    "source": "Hacker News",
+    "sourceUrl": "https://www.reuters.com/world/how-texas-student-blew-whistle-rogue-ai-hacking-attempt-2026-08-20/",
+    "category": "industry",
+    "publishedAt": "2026-08-21T13:43:33Z",
+    "tags": [
+      "Hacker News"
+    ],
+    "engagement": 83,
+    "aiSelected": true,
+    "origin": "hackernews",
+    "aiNote": null,
+    "image": null,
+    "heat": 32,
+    "firstSeen": "2026-08-22T22:40:23.840Z",
+    "fetchedAt": null,
+    "tier": 2
+  },
+  {
+    "id": "rss:smol-ainews-27762536ec",
+    "title": "not much happened today",
+    "summary": "**Ox Alpha** emerged as a mystery model with strong coding and agentic performance, likely a **Zhipu/GLM-family** model such as **GLM-5.3 Vision**. Analysts suggest its gains come…",
+    "source": "AI News",
+    "sourceUrl": "https://news.smol.ai/issues/26-08-21-not-much/",
+    "category": "tip",
+    "publishedAt": "2026-08-21T05:44:39.000Z",
+    "image": null,
+    "aiSelected": true,
+    "origin": "rss:smol-ainews",
+    "aiNote": null,
+    "heat": 37,
+    "firstSeen": "2026-08-22T22:40:23.840Z",
+    "fetchedAt": null,
+    "tier": 2
+  },
+  {
+    "id": "hn-af71c41994",
+    "title": "AI companies destroy physical books – let's scan rare books before it's too late",
+    "summary": null,
+    "source": "Hacker News",
+    "sourceUrl": "https://annas-archive.gl/blog/physical-destruction.html",
+    "category": "industry",
+    "publishedAt": "2026-08-21T02:37:47Z",
+    "tags": [
+      "Hacker News"
+    ],
+    "engagement": 602,
+    "aiSelected": true,
+    "origin": "hackernews",
+    "aiNote": null,
+    "image": null,
+    "heat": 47,
+    "firstSeen": "2026-08-22T22:40:23.840Z",
+    "fetchedAt": null,
+    "tier": 2
+  },
+  {
+    "id": "rss:marktechpost-dd349d68a8",
+    "title": "Meet S1-mini: Superwhisper&#8217;s 462 MB Open-Weights Text Normalizer That Turns Raw ASR Transcripts Into Clean Written Text",
+    "summary": "S1-mini is a 462 MB open-weights normalizer that sits after ASR, removing fillers and resolving self-corrections locally. The post Meet S1-mini: Superwhisper’s 462 MB Open-Weights…",
+    "source": "MarkTechPost",
+    "sourceUrl": "https://www.marktechpost.com/2026/08/20/meet-s1-mini-superwhispers-462-mb-open-weights-text-normalizer-that-turns-raw-asr-transcripts-into-clean-written-text/",
+    "category": "paper",
+    "publishedAt": "2026-08-20T22:23:17.000Z",
+    "image": null,
+    "aiSelected": true,
+    "origin": "rss:marktechpost",
+    "aiNote": null,
+    "heat": 37,
+    "firstSeen": "2026-08-22T22:40:23.840Z",
+    "fetchedAt": null,
+    "tier": 2
+  },
+  {
+    "id": "rss:marktechpost-4da79fe1b0",
+    "title": "Meet UPDF: A Lightweight Adobe Alternative Built for the Agentic Era",
+    "summary": "PDFs are easy to read and hard to change. AI can now summarize a 90-page contract in seconds, but it still won't rewrite the source file cleanly. UPDF is built for that second half…",
+    "source": "MarkTechPost",
+    "sourceUrl": "https://www.marktechpost.com/2026/08/20/meet-updf-a-lightweight-adobe-alternative-built-for-the-agentic-era/",
+    "category": "paper",
+    "publishedAt": "2026-08-20T19:34:10.000Z",
+    "image": "https://www.marktechpost.com/wp-content/uploads/2026/08/Thumnail-2-1024x512.png",
+    "aiSelected": true,
+    "origin": "rss:marktechpost",
+    "aiNote": null,
+    "heat": 37,
+    "firstSeen": "2026-08-22T22:40:23.840Z",
+    "fetchedAt": null,
+    "tier": 2
+  },
+  {
+    "id": "rss:marktechpost-94e627bf29",
+    "title": "Liquid AI Releases LFM2.5-DSpark Draft Models That Deliver Up to 3.18x Faster Decoding Without Changing Model Outputs",
+    "summary": "Three ~300M drafters bring speculative decoding to LFM2.5, delivering up to 3.18x faster decoding with identical greedy output. The post Liquid AI Releases LFM2.5-DSpark Draft Mode…",
+    "source": "MarkTechPost",
+    "sourceUrl": "https://www.marktechpost.com/2026/08/20/liquid-ai-releases-lfm2-5-dspark-draft-models-that-deliver-up-to-3-18x-faster-decoding/",
+    "category": "paper",
+    "publishedAt": "2026-08-20T18:53:09.000Z",
+    "image": null,
+    "aiSelected": true,
+    "origin": "rss:marktechpost",
+    "aiNote": null,
+    "heat": 37,
+    "firstSeen": "2026-08-22T22:40:23.840Z",
+    "fetchedAt": null,
+    "tier": 2
+  },
+  {
+    "id": "hn-c6ece07354",
+    "title": "Guess which of these LLM outputs is watermarked",
+    "summary": "https://www.seangoedecke.com/readers-cant-identify-watermark...",
+    "source": "Hacker News",
+    "sourceUrl": "https://sgoedecke.github.io/watermark-quiz/",
+    "category": "industry",
+    "publishedAt": "2026-08-20T14:03:58Z",
+    "tags": [
+      "Hacker News"
+    ],
+    "engagement": 55,
+    "aiSelected": true,
+    "origin": "hackernews",
+    "aiNote": null,
+    "image": null,
+    "heat": 25,
+    "firstSeen": "2026-08-22T22:40:23.840Z",
+    "fetchedAt": null,
+    "tier": 2
+  },
+  {
+    "id": "rss:marktechpost-daa489c1c1",
+    "title": "Auditing Preference Biases and Fine-Tuning Language Models with Direct Preference Optimization on Anthropic HH-RLHF Using TRL and LoRA",
+    "summary": "This tutorial provides an end-to-end workflow for fine-tuning language models using Direct Preference Optimization (DPO). We demonstrate how to audit the Anthropic HH-RLHF dataset…",
+    "source": "MarkTechPost",
+    "sourceUrl": "https://www.marktechpost.com/2026/08/20/auditing-preference-biases-and-fine-tuning-language-models-with-direct-preference-optimization-on-anthropic-hh-rlhf-using-trl-and-lora/",
+    "category": "tip",
+    "publishedAt": "2026-08-20T08:51:38.000Z",
+    "image": null,
+    "aiSelected": true,
+    "origin": "rss:marktechpost",
+    "aiNote": null,
+    "heat": 36,
+    "firstSeen": "2026-08-22T22:40:23.840Z",
+    "fetchedAt": null,
+    "tier": 2
+  },
+  {
+    "id": "hf-2607.21596",
+    "title": "FlowEvo: Self-Evolving Agents through the Co-Evolution of Workflows and Executable Skills",
+    "summary": "Large language model agents can adapt to complex tasks by constructing workflows at inference time, but procedures discovered in one episode are usually discarded after execution. Existing skill libra…",
+    "source": "HuggingFace Papers",
+    "sourceUrl": "https://huggingface.co/papers/2607.21596",
+    "category": "paper",
+    "publishedAt": "2026-08-19T20:00:00.000Z",
+    "tags": [
+      "论文",
+      "arXiv"
+    ],
+    "engagement": 2,
+    "aiSelected": true,
+    "origin": "hf-papers",
+    "aiNote": null,
+    "image": null,
+    "heat": 23,
+    "firstSeen": "2026-08-22T22:40:23.840Z",
+    "fetchedAt": null,
+    "tier": 2
+  },
+  {
+    "id": "rss:marktechpost-b0fac4e9dd",
+    "title": "NVIDIA Releases TensorRT Model Connect in Public Preview: Hugging Face Checkpoint to Native C++ Inference in Two Commands",
+    "summary": "NVIDIA has released TensorRT Model Connect (TRTMC) in public preview, an Apache-2.0 project that takes a supported Hugging Face or local checkpoint to end-to-end TensorRT inference…",
+    "source": "MarkTechPost",
+    "sourceUrl": "https://www.marktechpost.com/2026/08/18/nvidia-releases-tensorrt-model-connect-in-public-preview-hugging-face-checkpoint-to-native-c-inference-in-two-commands/",
+    "category": "paper",
+    "publishedAt": "2026-08-18T21:49:04.000Z",
+    "image": null,
+    "aiSelected": true,
+    "origin": "rss:marktechpost",
+    "aiNote": null,
+    "heat": 34,
+    "firstSeen": "2026-08-22T22:40:23.840Z",
+    "fetchedAt": null,
+    "tier": 2
+  },
+  {
+    "id": "rss:marktechpost-f239581db6",
+    "title": "Meet SAM (Sovereign Agent Mesh): A Zero-Config, Zero-Trust P2P Network for AI Agents",
+    "summary": "Google has open-sourced SAM (Sovereign Agent Mesh) under Apache-2.0 — and it has nothing to do with Segment Anything. SAM is a zero-config, zero-trust P2P overlay that lets autonom…",
+    "source": "MarkTechPost",
+    "sourceUrl": "https://www.marktechpost.com/2026/08/18/meet-sam-sovereign-agent-mesh-a-zero-config-zero-trust-p2p-network-for-ai-agents/",
+    "category": "paper",
+    "publishedAt": "2026-08-18T13:29:10.000Z",
+    "image": null,
+    "aiSelected": true,
+    "origin": "rss:marktechpost",
+    "aiNote": null,
+    "heat": 34,
+    "firstSeen": "2026-08-22T22:40:23.840Z",
+    "fetchedAt": null,
+    "tier": 2
+  },
+  {
+    "id": "gh-liamchalcroft-medlatents",
+    "title": "liamchalcroft/medlatents",
+    "summary": "Generative modelling of tokenized medical images: autoregressive, MaskGIT, diffusion, flow matching, and Bayesian flow.",
+    "source": "GitHub",
+    "sourceUrl": "https://github.com/liamchalcroft/medlatents",
+    "category": "ai-products",
+    "publishedAt": "2026-08-07T19:12:16Z",
+    "tags": [
+      "autoregressive-models",
+      "bayesian-flow-networks",
+      "deep-learning",
+      "diffusion-models",
+      "Python"
+    ],
+    "engagement": 2,
+    "aiSelected": true,
+    "origin": "github",
+    "aiNote": null,
+    "image": null,
+    "heat": 16,
+    "firstSeen": "2026-08-22T22:40:23.840Z",
+    "fetchedAt": null,
+    "tier": 2
+  },
+  {
+    "id": "gh-jiabaobei-skills-constitution",
+    "title": "jiabaobei/skills-constitution",
+    "summary": "Skills Constitution — meta-rule governing all skill invocations across agent platforms",
+    "source": "GitHub",
+    "sourceUrl": "https://github.com/jiabaobei/skills-constitution",
+    "category": "ai-products",
+    "publishedAt": "2026-08-07T05:27:51Z",
+    "tags": [
+      "agent-framework",
+      "agent-memory",
+      "agent-orchestration",
+      "agent-skill",
+      "Python"
+    ],
+    "engagement": 121,
+    "aiSelected": true,
+    "origin": "github",
+    "aiNote": null,
+    "image": null,
+    "heat": 25,
+    "firstSeen": "2026-08-22T22:40:23.840Z",
+    "fetchedAt": null,
+    "tier": 2
+  },
+  {
+    "id": "gh-aixlehq-flow",
+    "title": "AixleHQ/flow",
+    "summary": "Aixle Flow — orchestrate coding agents through durable, inspectable workflows.",
+    "source": "GitHub",
+    "sourceUrl": "https://github.com/AixleHQ/flow",
+    "category": "ai-products",
+    "publishedAt": "2026-08-05T19:08:00Z",
+    "tags": [
+      "agent-orchestration",
+      "agentic-ai",
+      "agentic-workflows",
+      "ai-agents",
+      "Ruby"
+    ],
+    "engagement": 12,
+    "aiSelected": true,
+    "origin": "github",
+    "aiNote": null,
+    "image": null,
+    "heat": 18,
+    "firstSeen": "2026-08-22T22:40:23.840Z",
+    "fetchedAt": null,
+    "tier": 2
+  },
+  {
+    "id": "gh-scenepilotllm-scenepilot",
+    "title": "scenepilotLLM/scenepilot",
+    "summary": "World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI c…",
+    "source": "GitHub",
+    "sourceUrl": "https://github.com/scenepilotLLM/scenepilot",
+    "category": "ai-products",
+    "publishedAt": "2026-08-05T00:23:26Z",
+    "tags": [
+      "ai",
+      "api",
+      "content-extraction",
+      "data-extraction",
+      "Python"
+    ],
+    "engagement": 48,
+    "aiSelected": true,
+    "origin": "github",
+    "aiNote": null,
+    "image": null,
+    "heat": 19,
+    "firstSeen": "2026-08-22T22:40:23.840Z",
+    "fetchedAt": null,
+    "tier": 2
+  },
+  {
+    "id": "gh-fyfsxkh-tokbrain",
+    "title": "fyfsxkh/TokBrain",
+    "summary": "Preserve knowledge, sustain wisdom forever.",
+    "source": "GitHub",
+    "sourceUrl": "https://github.com/fyfsxkh/TokBrain",
+    "category": "ai-products",
+    "publishedAt": "2026-07-28T07:40:50Z",
+    "tags": [
+      "douyin",
+      "fastapi",
+      "knowledge-base",
+      "local-first",
+      "Python"
+    ],
+    "engagement": 46,
+    "aiSelected": true,
+    "origin": "github",
+    "aiNote": null,
+    "image": null,
+    "heat": 18,
+    "firstSeen": "2026-08-22T22:40:23.840Z",
+    "fetchedAt": null,
+    "tier": 2
+  },
+  {
+    "id": "rss:meta-ai-2aec5657f7",
+    "title": "Hu Xu - AI at Meta",
+    "summary": "Hu Xu AI at Meta",
+    "source": "Meta AI",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE85MlFuMkRoX0NTOGhWWlA4clpjbk5SUkpTc3FqN1FScFJ0OHV4TjdSLUpBZ3JLZHpyYnFndklyTWNZT2dwOWR2Y29WakRmakZCOXFNRzdIZWRmWGpYYlE?oc=5",
+    "category": "ai-models",
+    "publishedAt": "2024-12-13T11:01:13.000Z",
+    "image": null,
+    "aiSelected": true,
+    "origin": "rss:meta-ai",
+    "aiNote": null,
+    "heat": 30,
+    "firstSeen": "2026-08-22T22:40:23.840Z",
+    "fetchedAt": null,
+    "tier": 1
+  },
+  {
+    "id": "rss:anthropic-71a1f3ab01",
+    "title": "Core views on AI safety: When, why, what, and how",
+    "summary": "Core views on AI safety: When, why, what, and how Anthropic",
+    "source": "Anthropic",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9RSXEwQkhIekYzdnV4a3lqTW1TdEpMeTFNWDZmc0dzcGp6SjRicnJXZFFxSjNuT3VaSjB1Y2dWcXhHdnNncUNCdmhVck1iVUVYVF96dGpzWUN0dVVaLUlTTmdMWXI?oc=5",
+    "category": "ai-models",
+    "publishedAt": "2023-03-08T08:00:00.000Z",
+    "image": null,
+    "aiSelected": true,
+    "origin": "rss:anthropic",
+    "aiNote": null,
+    "heat": 30,
+    "firstSeen": "2026-08-22T22:40:23.840Z",
     "fetchedAt": null,
     "tier": 1
   }
