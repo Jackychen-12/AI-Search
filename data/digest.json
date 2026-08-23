@@ -1,37 +1,37 @@
 {
-  "date": "2026-08-23",
-  "generatedAt": "2026-08-22T22:40:35.806Z",
+  "date": "2026-08-24",
+  "generatedAt": "2026-08-23T22:39:56.912Z",
   "picks": [
+    {
+      "title": "AI is becoming AI&#039;s biggest customer as agentic token usage jumps 14x on OpenRouter",
+      "sourceUrl": "https://the-decoder.com/ai-is-becoming-ais-biggest-customer-as-agentic-token-usage-jumps-14x-on-openrouter/",
+      "source": "The Decoder",
+      "reason": "AI代理消耗token超人类，标志AI经济新拐点，极具前瞻性。"
+    },
+    {
+      "title": "Is it legal to train AI models on copyrighted books? It’s complicated",
+      "sourceUrl": "https://techcrunch.com/2026/08/23/is-it-legal-to-train-ai-models-on-copyrighted-books-its-complicated/",
+      "source": "TechCrunch",
+      "reason": "版权争议核心问题，关乎AI训练合法性，影响深远。"
+    },
+    {
+      "title": "Why your local LLM feels dumber than it is",
+      "sourceUrl": "https://forum.level1techs.com/t/why-your-local-llm-feels-dumber-than-it-is/253917",
+      "source": "Hacker News",
+      "reason": "解释本地LLM性能错觉，实用性强，开发者必读。"
+    },
     {
       "title": "From Atari to EVE Online: Building on 15 Years of AI Research in Games",
       "sourceUrl": "https://deepmind.google/blog/from-atari-to-eve-online-building-on-15-years-of-ai-research-in-games/",
       "source": "Google DeepMind",
-      "reason": "DeepMind游戏AI研究里程碑，兼具技术深度与行业合作亮点"
+      "reason": "DeepMind游戏AI十五年里程碑，展示技术演进与突破。"
     },
     {
-      "title": "ConceptGuard: Benchmarking Context-Sensitive Unlearning in Large Language Models",
-      "sourceUrl": "http://arxiv.org/abs/2608.20338v1",
-      "source": "arXiv",
-      "reason": "大模型上下文敏感遗忘基准，安全对齐前沿议题"
-    },
-    {
-      "title": "AI4AI-Bench: Benchmarking LLM Agents in Algorithmic Design for Recursive Self-Improvement",
-      "sourceUrl": "http://arxiv.org/abs/2608.20318v1",
-      "source": "arXiv",
-      "reason": "递归自我改进基准，直击AI自主进化核心挑战"
-    },
-    {
-      "title": "G-CARL: Grounded Checklist-Aligned Reward Learning for Patient-Oriented Medical Report Interpretation",
-      "sourceUrl": "http://arxiv.org/abs/2608.20331v1",
-      "source": "arXiv",
-      "reason": "面向患者的医疗报告解读，AI落地临床实用价值高"
-    },
-    {
-      "title": "Phantom Gains: Auditing Self-Improvement Against a Measured Null",
-      "sourceUrl": "http://arxiv.org/abs/2608.20290v1",
-      "source": "arXiv",
-      "reason": "审计自我改进的真实性，方法严谨且具批判性"
+      "title": "An AI boss fired its first employee but only after humans reminded it of its own rules",
+      "sourceUrl": "https://the-decoder.com/an-ai-boss-fired-its-first-employee-but-only-after-humans-reminded-it-of-its-own-rules/",
+      "source": "The Decoder",
+      "reason": "AI解雇人类员工事件，凸显AI治理规则漏洞，引人深思。"
     }
   ],
-  "trendSummary": "本周AI圈热点集中在可穿戴医疗数据挖掘、游戏AI研究深化、语音识别基准优化及绿色氨生产等交叉领域，同时大模型遗忘机制、医学报告解读和智能交通预测也备受关注，整体呈现多学科融合与实用化并进的趋势。"
+  "trendSummary": "本周AI圈热点聚焦于AI在医疗健康、游戏研究及多模态数据处理上的深度应用，同时大模型安全与可靠性问题也持续受到关注，整体趋势向更精准、更落地的场景化发展。"
 }
