@@ -1,37 +1,37 @@
 {
-  "date": "2026-08-24",
-  "generatedAt": "2026-08-23T22:39:56.912Z",
+  "date": "2026-08-25",
+  "generatedAt": "2026-08-24T22:46:22.376Z",
   "picks": [
     {
-      "title": "AI is becoming AI&#039;s biggest customer as agentic token usage jumps 14x on OpenRouter",
-      "sourceUrl": "https://the-decoder.com/ai-is-becoming-ais-biggest-customer-as-agentic-token-usage-jumps-14x-on-openrouter/",
-      "source": "The Decoder",
-      "reason": "AI代理消耗token超人类，标志AI经济新拐点，极具前瞻性。"
+      "title": "Advancing price-performance for developers with GPT‑5.6 in Kiro",
+      "sourceUrl": "https://openai.com/index/gpt-5-6-in-kiro",
+      "source": "OpenAI",
+      "reason": "GPT-5.6发布，开发者成本与性能优化关键进展"
     },
     {
-      "title": "Is it legal to train AI models on copyrighted books? It’s complicated",
-      "sourceUrl": "https://techcrunch.com/2026/08/23/is-it-legal-to-train-ai-models-on-copyrighted-books-its-complicated/",
-      "source": "TechCrunch",
-      "reason": "版权争议核心问题，关乎AI训练合法性，影响深远。"
-    },
-    {
-      "title": "Why your local LLM feels dumber than it is",
-      "sourceUrl": "https://forum.level1techs.com/t/why-your-local-llm-feels-dumber-than-it-is/253917",
+      "title": "GLM-5.3 (open-weight) beat Anthropic/OpenAI models – for 1/5 the cost",
+      "sourceUrl": "https://reinvently.co.uk/tools/ed-o-meter/",
       "source": "Hacker News",
-      "reason": "解释本地LLM性能错觉，实用性强，开发者必读。"
+      "reason": "开源模型性价比突破，挑战闭源巨头"
     },
     {
-      "title": "From Atari to EVE Online: Building on 15 Years of AI Research in Games",
-      "sourceUrl": "https://deepmind.google/blog/from-atari-to-eve-online-building-on-15-years-of-ai-research-in-games/",
-      "source": "Google DeepMind",
-      "reason": "DeepMind游戏AI十五年里程碑，展示技术演进与突破。"
+      "title": "Up to 30x More Work Per Watt: NVIDIA Vera Rubin NVL72 Sets a New Efficiency Standard for AI Agents",
+      "sourceUrl": "https://blogs.nvidia.com/blog/vera-rubin-nvl72-efficiency-ai-agents/",
+      "source": "NVIDIA",
+      "reason": "AI代理效率新标准，能耗大幅降低"
     },
     {
-      "title": "An AI boss fired its first employee but only after humans reminded it of its own rules",
-      "sourceUrl": "https://the-decoder.com/an-ai-boss-fired-its-first-employee-but-only-after-humans-reminded-it-of-its-own-rules/",
-      "source": "The Decoder",
-      "reason": "AI解雇人类员工事件，凸显AI治理规则漏洞，引人深思。"
+      "title": "AI is hitting entry-level jobs hardest, Stanford study finds",
+      "sourceUrl": "https://arstechnica.com/ai/2026/08/ai-is-hitting-entry-level-jobs-hardest-stanford-study-finds/",
+      "source": "Ars Technica",
+      "reason": "斯坦福研究揭示AI对初级岗位冲击，社会影响深远"
+    },
+    {
+      "title": "Beyond Visual CoT: Internalized Visual Thinking for Proactive Video Reasoning",
+      "sourceUrl": "https://machinelearning.apple.com/research/internalized-visual-thinking",
+      "source": "Apple ML Research",
+      "reason": "视频推理新方法，推动多模态AI前沿"
     }
   ],
-  "trendSummary": "本周AI圈热点聚焦于AI在医疗健康、游戏研究及多模态数据处理上的深度应用，同时大模型安全与可靠性问题也持续受到关注，整体趋势向更精准、更落地的场景化发展。"
+  "trendSummary": "本周AI圈聚焦推理效率与智能体落地，硬件厂商争抢能效高地，模型则加速转向视频推理与自主任务，同时开发者开始反思过度依赖AI编码带来的技能退化风险。"
 }

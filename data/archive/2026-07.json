@@ -13211,7 +13211,7 @@
     "image": "https://www.microsoft.com/en-us/research/wp-content/uploads/2026/07/Flint-BlogHeroFeature-1400x788-1.jpg",
     "aiSelected": true,
     "origin": "rss:msr",
-    "heat": 31,
+    "heat": 30,
     "firstSeen": "2026-07-08T23:30:49.458Z",
     "aiNote": null,
     "fetchedAt": null,
@@ -42779,7 +42779,7 @@
     "tags": [
       "Hacker News"
     ],
-    "heat": 25,
+    "heat": 24,
     "aiSelected": true,
     "origin": "hackernews",
     "firstSeen": "2026-07-23T23:20:32.498Z",
@@ -43677,7 +43677,7 @@
     "tags": [
       "Hacker News"
     ],
-    "heat": 25,
+    "heat": 24,
     "aiSelected": true,
     "origin": "hackernews",
     "firstSeen": "2026-07-23T23:20:32.498Z",
@@ -48747,7 +48747,7 @@
     "origin": "hackernews",
     "aiNote": "开源工具将前沿模型成本减半，专为智能体优化，持续提升性能。",
     "image": null,
-    "heat": 19,
+    "heat": 18,
     "firstSeen": "2026-07-27T02:48:24.929Z",
     "fetchedAt": null,
     "tier": 2
@@ -50300,7 +50300,7 @@
     "aiSelected": true,
     "origin": "rss:mistral",
     "aiNote": null,
-    "heat": 31,
+    "heat": 30,
     "firstSeen": "2026-07-27T02:48:24.929Z",
     "fetchedAt": null,
     "tier": 1
@@ -50317,7 +50317,7 @@
     "aiSelected": true,
     "origin": "rss:google-research",
     "aiNote": null,
-    "heat": 31,
+    "heat": 30,
     "firstSeen": "2026-07-27T02:48:24.929Z",
     "fetchedAt": null,
     "tier": 1
@@ -50519,8 +50519,8 @@
   },
   {
     "id": "rss:meta-ai-92a8bb99c9",
-    "title": "Your personal AI assistant & chatbot | Ask, chat & more",
-    "summary": "Your personal AI assistant & chatbot | Ask, chat & more AI at Meta",
+    "title": "Meta AI: Your personal AI assistant & chatbot | Ask, chat & more",
+    "summary": "Meta AI: Your personal AI assistant & chatbot | Ask, chat & more AI at Meta",
     "source": "Meta AI",
     "sourceUrl": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE4xN1RIbER2TUxocmZ4a0QyNUlNMFRxbFhNeVZNYm80c1lRbUI5ZDN3Qlg0cHZyMVAzRDh3Y1B2T2twVndKd1pFRkc4QTkxOHM?oc=5",
     "category": "ai-models",
@@ -52660,8 +52660,8 @@
   },
   {
     "id": "rss:meta-ai-b50d23ed74",
-    "title": "System Cards",
-    "summary": "System Cards AI at Meta",
+    "title": "System cards",
+    "summary": "System cards AI at Meta",
     "source": "Meta AI",
     "sourceUrl": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9DN0pMamtjb1Vvd0tnSVJWQmZkUy1nWDRJOTk3eWtGRFc4cDZIX1ZIOEhEMVVDa2J1N1VMV3hCNGtrOTNuQ19JdFFLZm02Tkc5?oc=5",
     "category": "ai-models",
@@ -52898,7 +52898,7 @@
     "origin": "hackernews",
     "aiNote": null,
     "image": null,
-    "heat": 19,
+    "heat": 18,
     "firstSeen": "2026-07-27T03:14:21.883Z",
     "fetchedAt": null,
     "tier": 2
@@ -60065,7 +60065,7 @@
     "origin": "hackernews",
     "aiNote": null,
     "image": null,
-    "heat": 19,
+    "heat": 18,
     "firstSeen": "2026-07-29T23:14:55.024Z",
     "fetchedAt": null,
     "tier": 2
@@ -62753,7 +62753,7 @@
     "aiSelected": true,
     "origin": "rss:mit-news-ai",
     "aiNote": "机器人AI领军人物获巴伐利亚最高科技奖，凸显国际对AI前沿研究的高度认可。",
-    "heat": 33,
+    "heat": 32,
     "firstSeen": "2026-07-30T23:18:56.537Z",
     "fetchedAt": null,
     "tier": 1
@@ -62787,7 +62787,7 @@
     "aiSelected": true,
     "origin": "rss:mit-news-ai",
     "aiNote": "学生与政策制定者直接对话，推动科研经费议题，展现青年影响决策的实践路径。",
-    "heat": 33,
+    "heat": 32,
     "firstSeen": "2026-07-30T23:18:56.537Z",
     "fetchedAt": null,
     "tier": 1
@@ -63644,7 +63644,7 @@
     "aiSelected": true,
     "origin": "rss:bensbites",
     "aiNote": null,
-    "heat": 24,
+    "heat": 23,
     "firstSeen": "2026-07-30T23:18:56.537Z",
     "fetchedAt": null,
     "tier": 2
@@ -64386,7 +64386,7 @@
     "aiSelected": true,
     "origin": "rss:tldr-ai",
     "aiNote": null,
-    "heat": 24,
+    "heat": 23,
     "firstSeen": "2026-07-30T23:18:56.537Z",
     "fetchedAt": null,
     "tier": 2
@@ -68086,7 +68086,7 @@
     "origin": "github",
     "aiNote": null,
     "image": null,
-    "heat": 22,
+    "heat": 21,
     "firstSeen": "2026-07-31T23:16:18.546Z",
     "fetchedAt": null,
     "tier": 2
