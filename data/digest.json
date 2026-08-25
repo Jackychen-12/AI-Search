@@ -1,37 +1,37 @@
 {
-  "date": "2026-08-25",
-  "generatedAt": "2026-08-24T22:46:22.376Z",
+  "date": "2026-08-26",
+  "generatedAt": "2026-08-25T22:47:15.035Z",
   "picks": [
     {
-      "title": "Advancing price-performance for developers with GPT‑5.6 in Kiro",
-      "sourceUrl": "https://openai.com/index/gpt-5-6-in-kiro",
+      "title": "The full stack behind abundant intelligence",
+      "sourceUrl": "https://openai.com/index/the-full-stack-behind-abundant-intelligence",
       "source": "OpenAI",
-      "reason": "GPT-5.6发布，开发者成本与性能优化关键进展"
+      "reason": "OpenAI CFO亲述全栈AI战略，行业风向标必读"
     },
     {
-      "title": "GLM-5.3 (open-weight) beat Anthropic/OpenAI models – for 1/5 the cost",
-      "sourceUrl": "https://reinvently.co.uk/tools/ed-o-meter/",
-      "source": "Hacker News",
-      "reason": "开源模型性价比突破，挑战闭源巨头"
+      "title": "Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
+      "sourceUrl": "https://openai.com/index/jalapeno-first-results",
+      "source": "OpenAI",
+      "reason": "自研推理芯片首秀，性能效率双突破"
     },
     {
-      "title": "Up to 30x More Work Per Watt: NVIDIA Vera Rubin NVL72 Sets a New Efficiency Standard for AI Agents",
-      "sourceUrl": "https://blogs.nvidia.com/blog/vera-rubin-nvl72-efficiency-ai-agents/",
-      "source": "NVIDIA",
-      "reason": "AI代理效率新标准，能耗大幅降低"
+      "title": "Quantization-Aware Healing: a compressed, 4-bit model that outperforms its full-precision original",
+      "sourceUrl": "https://huggingface.co/blog/MultiverseComputingCAI/quantization-aware-healing",
+      "source": "HuggingFace Blog",
+      "reason": "4-bit量化模型反超原版，压缩技术新里程碑"
     },
     {
-      "title": "AI is hitting entry-level jobs hardest, Stanford study finds",
-      "sourceUrl": "https://arstechnica.com/ai/2026/08/ai-is-hitting-entry-level-jobs-hardest-stanford-study-finds/",
-      "source": "Ars Technica",
-      "reason": "斯坦福研究揭示AI对初级岗位冲击，社会影响深远"
+      "title": "Granite 4.2 LLMs: How They're Built",
+      "sourceUrl": "https://huggingface.co/blog/ibm-granite/granite-4-2",
+      "source": "HuggingFace Blog",
+      "reason": "IBM Granite 4.2架构揭秘，开源LLM新进展"
     },
     {
-      "title": "Beyond Visual CoT: Internalized Visual Thinking for Proactive Video Reasoning",
-      "sourceUrl": "https://machinelearning.apple.com/research/internalized-visual-thinking",
-      "source": "Apple ML Research",
-      "reason": "视频推理新方法，推动多模态AI前沿"
+      "title": "Disrupting a new covert influence campaign from Russia",
+      "sourceUrl": "https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia",
+      "source": "OpenAI",
+      "reason": "揭露俄AI虚假信息战，安全治理重要案例"
     }
   ],
-  "trendSummary": "本周AI圈聚焦推理效率与智能体落地，硬件厂商争抢能效高地，模型则加速转向视频推理与自主任务，同时开发者开始反思过度依赖AI编码带来的技能退化风险。"
+  "trendSummary": "本周AI圈聚焦模型效率与安全并进，从压缩技术到推理加速均有突破，同时关注AI福祉评估与反虚假信息，应用层面则侧重工具升级与多模态生成，整体呈现务实与前瞻并重的态势。"
 }
