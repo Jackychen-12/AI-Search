@@ -1,37 +1,37 @@
 {
-  "date": "2026-08-26",
-  "generatedAt": "2026-08-25T22:47:15.035Z",
+  "date": "2026-08-27",
+  "generatedAt": "2026-08-27T03:20:59.177Z",
   "picks": [
     {
-      "title": "The full stack behind abundant intelligence",
-      "sourceUrl": "https://openai.com/index/the-full-stack-behind-abundant-intelligence",
-      "source": "OpenAI",
-      "reason": "OpenAI CFO亲述全栈AI战略，行业风向标必读"
+      "title": "NVIDIA NVLink Fusion Expands With NVHBM Custom High-Bandwidth Memory",
+      "sourceUrl": "https://blogs.nvidia.com/blog/nvlink-fusion-nvhbm-custom-high-bandwidth-memory/",
+      "source": "NVIDIA",
+      "reason": "NVIDIA NVLink Fusion扩展，AI基础设施关键突破，影响深远。"
     },
     {
-      "title": "Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
-      "sourceUrl": "https://openai.com/index/jalapeno-first-results",
-      "source": "OpenAI",
-      "reason": "自研推理芯片首秀，性能效率双突破"
+      "title": "A Visual Dependence-Aware Framework for Multimodal Unsupervised Continual Post-Training",
+      "sourceUrl": "http://arxiv.org/abs/2608.26095v1",
+      "source": "arXiv",
+      "reason": "多模态持续学习新框架，解决视觉依赖核心难题。"
     },
     {
-      "title": "Quantization-Aware Healing: a compressed, 4-bit model that outperforms its full-precision original",
-      "sourceUrl": "https://huggingface.co/blog/MultiverseComputingCAI/quantization-aware-healing",
-      "source": "HuggingFace Blog",
-      "reason": "4-bit量化模型反超原版，压缩技术新里程碑"
+      "title": "$R^3$: Training Robots to Reason in Natural Language via Reinforcement Learning",
+      "sourceUrl": "http://arxiv.org/abs/2608.26053v1",
+      "source": "arXiv",
+      "reason": "强化学习训练机器人自然语言推理，具身智能前沿。"
     },
     {
-      "title": "Granite 4.2 LLMs: How They're Built",
-      "sourceUrl": "https://huggingface.co/blog/ibm-granite/granite-4-2",
-      "source": "HuggingFace Blog",
-      "reason": "IBM Granite 4.2架构揭秘，开源LLM新进展"
+      "title": "Gating Before Commitment: Anticipating Intent Divergence to Prevent Post-Interaction Decision Failures in Autonomous Driving",
+      "sourceUrl": "http://arxiv.org/abs/2608.26074v1",
+      "source": "arXiv",
+      "reason": "自动驾驶意图预判新方法，提升交互安全关键。"
     },
     {
-      "title": "Disrupting a new covert influence campaign from Russia",
-      "sourceUrl": "https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia",
-      "source": "OpenAI",
-      "reason": "揭露俄AI虚假信息战，安全治理重要案例"
+      "title": "Prefix Sliding for efficient test-time scaling",
+      "sourceUrl": "http://arxiv.org/abs/2608.26070v1",
+      "source": "arXiv",
+      "reason": "测试时缩放高效新策略，优化推理成本与性能。"
     }
   ],
-  "trendSummary": "本周AI圈聚焦模型效率与安全并进，从压缩技术到推理加速均有突破，同时关注AI福祉评估与反虚假信息，应用层面则侧重工具升级与多模态生成，整体呈现务实与前瞻并重的态势。"
+  "trendSummary": "本周AI圈热点集中在硬件创新与垂直领域模型落地，从高带宽内存到医疗、工程及地理预测，基础模型正加速渗透各行业，同时可解释性与人机协作成为研究焦点。"
 }
