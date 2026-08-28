@@ -1,37 +1,37 @@
 {
-  "date": "2026-08-27",
-  "generatedAt": "2026-08-27T03:20:59.177Z",
+  "date": "2026-08-28",
+  "generatedAt": "2026-08-28T06:09:25.476Z",
   "picks": [
     {
-      "title": "NVIDIA NVLink Fusion Expands With NVHBM Custom High-Bandwidth Memory",
-      "sourceUrl": "https://blogs.nvidia.com/blog/nvlink-fusion-nvhbm-custom-high-bandwidth-memory/",
-      "source": "NVIDIA",
-      "reason": "NVIDIA NVLink Fusion扩展，AI基础设施关键突破，影响深远。"
+      "title": "Expanding our support for scientists",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1Tc2JIOXRYSDB1Z05hSi1UdjkxN1UyZWFyMHBxQzdPMTlRbXJIVkp0Q04tVFFVX29fT3RUN2tMTEhTdlBQWmFyZlVMTTBVNVhhVFZiNXNsTnpncnFWZzE4R1I0d3ZjUTF5UmlhWG1FOEY?oc=5",
+      "source": "Anthropic",
+      "reason": "Anthropic官方扩展科研支持，具行业风向标意义。"
     },
     {
-      "title": "A Visual Dependence-Aware Framework for Multimodal Unsupervised Continual Post-Training",
-      "sourceUrl": "http://arxiv.org/abs/2608.26095v1",
+      "title": "CritICL: Inference-Time Weak-to-Strong Generalization from Small Language Model Failure Modes",
+      "sourceUrl": "http://arxiv.org/abs/2608.27455v1",
       "source": "arXiv",
-      "reason": "多模态持续学习新框架，解决视觉依赖核心难题。"
+      "reason": "推理时缩放新方法，提升弱到强泛化能力。"
     },
     {
-      "title": "$R^3$: Training Robots to Reason in Natural Language via Reinforcement Learning",
-      "sourceUrl": "http://arxiv.org/abs/2608.26053v1",
+      "title": "SWE-Prime: Fewer Trajectories, Better Performance",
+      "sourceUrl": "http://arxiv.org/abs/2608.27449v1",
       "source": "arXiv",
-      "reason": "强化学习训练机器人自然语言推理，具身智能前沿。"
+      "reason": "更少轨迹实现更优性能，软件任务效率突破。"
     },
     {
-      "title": "Gating Before Commitment: Anticipating Intent Divergence to Prevent Post-Interaction Decision Failures in Autonomous Driving",
-      "sourceUrl": "http://arxiv.org/abs/2608.26074v1",
-      "source": "arXiv",
-      "reason": "自动驾驶意图预判新方法，提升交互安全关键。"
+      "title": "Planetary prediction engine: Automating global models via Earth AI",
+      "sourceUrl": "https://research.google/blog/planetary-prediction-engine-automating-global-models-via-earth-ai/",
+      "source": "Google Research",
+      "reason": "谷歌地球AI自动化全球模型，应用前景广阔。"
     },
     {
-      "title": "Prefix Sliding for efficient test-time scaling",
-      "sourceUrl": "http://arxiv.org/abs/2608.26070v1",
+      "title": "CLAP: Cross-Embodiment Video World Models are Zero-Shot Physical Simulators",
+      "sourceUrl": "http://arxiv.org/abs/2608.27406v1",
       "source": "arXiv",
-      "reason": "测试时缩放高效新策略，优化推理成本与性能。"
+      "reason": "跨具身视频世界模型，零样本物理模拟创新。"
     }
   ],
-  "trendSummary": "本周AI圈热点集中在硬件创新与垂直领域模型落地，从高带宽内存到医疗、工程及地理预测，基础模型正加速渗透各行业，同时可解释性与人机协作成为研究焦点。"
+  "trendSummary": "本周AI圈热点集中在科研支持扩展、模型硬件标准预览及代码智能优化，同时涌现多篇关于语言模型泛化、智能体架构演进与化学反应预测的前沿研究，展现从静态基准到动态真实场景的全面深化。"
 }
