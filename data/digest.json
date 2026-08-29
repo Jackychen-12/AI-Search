@@ -1,37 +1,37 @@
 {
-  "date": "2026-08-28",
-  "generatedAt": "2026-08-28T06:09:25.476Z",
+  "date": "2026-08-29",
+  "generatedAt": "2026-08-29T03:44:07.323Z",
   "picks": [
     {
-      "title": "Expanding our support for scientists",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1Tc2JIOXRYSDB1Z05hSi1UdjkxN1UyZWFyMHBxQzdPMTlRbXJIVkp0Q04tVFFVX29fT3RUN2tMTEhTdlBQWmFyZlVMTTBVNVhhVFZiNXNsTnpncnFWZzE4R1I0d3ZjUTF5UmlhWG1FOEY?oc=5",
+      "title": "Automated researchers can reliably mitigate alignment failures",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQMm12QTFLek9sVlhENXNNaFlpUHlnbEl5dDRNZTBCbG1iSUtndjBhaUQ3UGl6N2VOWFppR19kbGhHWjlGaWRnby1BcHNlM0lNLUFaZXVrWV9MTFFOcjg0dmpFcWc0cHkyUTd1d2Z3bjNjaU9FeUQzUnpKbFloc1lRVDRPNjBHQ2JRVDh6cg?oc=5",
       "source": "Anthropic",
-      "reason": "Anthropic官方扩展科研支持，具行业风向标意义。"
+      "reason": "Anthropic前沿对齐研究，直击AI安全核心痛点。"
     },
     {
-      "title": "CritICL: Inference-Time Weak-to-Strong Generalization from Small Language Model Failure Modes",
-      "sourceUrl": "http://arxiv.org/abs/2608.27455v1",
-      "source": "arXiv",
-      "reason": "推理时缩放新方法，提升弱到强泛化能力。"
+      "title": "Our decision on Cursor following its acquisition by SpaceX",
+      "sourceUrl": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex",
+      "source": "OpenAI",
+      "reason": "OpenAI与Cursor合作变动，影响开发者生态格局。"
     },
     {
-      "title": "SWE-Prime: Fewer Trajectories, Better Performance",
-      "sourceUrl": "http://arxiv.org/abs/2608.27449v1",
-      "source": "arXiv",
-      "reason": "更少轨迹实现更优性能，软件任务效率突破。"
+      "title": "LLMs Are Not (Consistently) Bayesian: Quantifying Internal (In)consistencies of LLMs’ Probabilistic Beliefs",
+      "sourceUrl": "https://machinelearning.apple.com/research/llms-not-consistently-bayesian",
+      "source": "Apple ML Research",
+      "reason": "苹果揭示LLM概率信念不一致，对可靠部署意义重大。"
     },
     {
-      "title": "Planetary prediction engine: Automating global models via Earth AI",
-      "sourceUrl": "https://research.google/blog/planetary-prediction-engine-automating-global-models-via-earth-ai/",
-      "source": "Google Research",
-      "reason": "谷歌地球AI自动化全球模型，应用前景广阔。"
+      "title": "Supporting Thailand’s next generation of AI startups",
+      "sourceUrl": "https://openai.com/index/supporting-next-generation-ai-startups-thailand",
+      "source": "OpenAI",
+      "reason": "OpenAI布局东南亚AI创业，拓展全球创新版图。"
     },
     {
-      "title": "CLAP: Cross-Embodiment Video World Models are Zero-Shot Physical Simulators",
-      "sourceUrl": "http://arxiv.org/abs/2608.27406v1",
-      "source": "arXiv",
-      "reason": "跨具身视频世界模型，零样本物理模拟创新。"
+      "title": "Previewing the Model Hardware Standard",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9mMzRTNjJiRFhsYnZYMlBtQlNxTWZrRE5VVzF4TnZoel9UdXJSalpXUkE4M1NXN3pNTXdIWW84U0dONmN3bUFKcGwzZGh4SEdCZTFQaEk0TDJZNjF2ZVRFTUhTYTB5MzV5dV9xX1lvWXNMejFUYUlMZGxISQ?oc=5",
+      "source": "Anthropic",
+      "reason": "Anthropic推动模型硬件标准，或重塑AI基础设施。"
     }
   ],
-  "trendSummary": "本周AI圈热点集中在科研支持扩展、模型硬件标准预览及代码智能优化，同时涌现多篇关于语言模型泛化、智能体架构演进与化学反应预测的前沿研究，展现从静态基准到动态真实场景的全面深化。"
+  "trendSummary": "本周AI圈聚焦于提升模型可靠性与对齐能力，同时开源社区加速全球化布局，硬件标准初现雏形，研究则深入探讨大模型的概率一致性及其在科学和工程中的实际应用。"
 }
