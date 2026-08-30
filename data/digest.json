@@ -1,37 +1,37 @@
 {
-  "date": "2026-08-29",
-  "generatedAt": "2026-08-29T03:44:07.323Z",
+  "date": "2026-08-30",
+  "generatedAt": "2026-08-30T00:22:39.423Z",
   "picks": [
+    {
+      "title": "GLM-5.3 is now open-weight",
+      "sourceUrl": "https://huggingface.co/zai-org/GLM-5.3",
+      "source": "Hacker News",
+      "reason": "开源重量级模型GLM-5.3发布，社区关注度极高"
+    },
     {
       "title": "Automated researchers can reliably mitigate alignment failures",
       "sourceUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQMm12QTFLek9sVlhENXNNaFlpUHlnbEl5dDRNZTBCbG1iSUtndjBhaUQ3UGl6N2VOWFppR19kbGhHWjlGaWRnby1BcHNlM0lNLUFaZXVrWV9MTFFOcjg0dmpFcWc0cHkyUTd1d2Z3bjNjaU9FeUQzUnpKbFloc1lRVDRPNjBHQ2JRVDh6cg?oc=5",
       "source": "Anthropic",
-      "reason": "Anthropic前沿对齐研究，直击AI安全核心痛点。"
+      "reason": "Anthropic展示自动化对齐修复研究，安全前沿突破"
     },
     {
       "title": "Our decision on Cursor following its acquisition by SpaceX",
       "sourceUrl": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex",
       "source": "OpenAI",
-      "reason": "OpenAI与Cursor合作变动，影响开发者生态格局。"
+      "reason": "OpenAI终止与Cursor合作，行业格局重大变动"
     },
     {
       "title": "LLMs Are Not (Consistently) Bayesian: Quantifying Internal (In)consistencies of LLMs’ Probabilistic Beliefs",
       "sourceUrl": "https://machinelearning.apple.com/research/llms-not-consistently-bayesian",
       "source": "Apple ML Research",
-      "reason": "苹果揭示LLM概率信念不一致，对可靠部署意义重大。"
-    },
-    {
-      "title": "Supporting Thailand’s next generation of AI startups",
-      "sourceUrl": "https://openai.com/index/supporting-next-generation-ai-startups-thailand",
-      "source": "OpenAI",
-      "reason": "OpenAI布局东南亚AI创业，拓展全球创新版图。"
+      "reason": "苹果研究揭示LLM概率信念不一致，具理论价值"
     },
     {
       "title": "Previewing the Model Hardware Standard",
       "sourceUrl": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9mMzRTNjJiRFhsYnZYMlBtQlNxTWZrRE5VVzF4TnZoel9UdXJSalpXUkE4M1NXN3pNTXdIWW84U0dONmN3bUFKcGwzZGh4SEdCZTFQaEk0TDJZNjF2ZVRFTUhTYTB5MzV5dV9xX1lvWXNMejFUYUlMZGxISQ?oc=5",
       "source": "Anthropic",
-      "reason": "Anthropic推动模型硬件标准，或重塑AI基础设施。"
+      "reason": "Anthropic提出模型硬件标准，或影响产业生态"
     }
   ],
-  "trendSummary": "本周AI圈聚焦于提升模型可靠性与对齐能力，同时开源社区加速全球化布局，硬件标准初现雏形，研究则深入探讨大模型的概率一致性及其在科学和工程中的实际应用。"
+  "trendSummary": "本周AI圈聚焦AI安全与可靠性，从自动化缓解对齐失败到安全研究评审，同时开源模型持续发力，并拓展至全球南方语言与科学应用，整体趋势务实且多元。"
 }
