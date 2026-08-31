@@ -1,37 +1,37 @@
 {
-  "date": "2026-08-30",
-  "generatedAt": "2026-08-30T00:22:39.423Z",
+  "date": "2026-08-31",
+  "generatedAt": "2026-08-31T00:38:45.969Z",
   "picks": [
     {
-      "title": "GLM-5.3 is now open-weight",
-      "sourceUrl": "https://huggingface.co/zai-org/GLM-5.3",
+      "title": "Judge rules Trump administration’s blacklisting of Anthropic was illegal",
+      "sourceUrl": "https://www.nytimes.com/2026/08/27/technology/anthropic-government-blacklisting-ruling.html",
       "source": "Hacker News",
-      "reason": "开源重量级模型GLM-5.3发布，社区关注度极高"
-    },
-    {
-      "title": "Automated researchers can reliably mitigate alignment failures",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQMm12QTFLek9sVlhENXNNaFlpUHlnbEl5dDRNZTBCbG1iSUtndjBhaUQ3UGl6N2VOWFppR19kbGhHWjlGaWRnby1BcHNlM0lNLUFaZXVrWV9MTFFOcjg0dmpFcWc0cHkyUTd1d2Z3bjNjaU9FeUQzUnpKbFloc1lRVDRPNjBHQ2JRVDh6cg?oc=5",
-      "source": "Anthropic",
-      "reason": "Anthropic展示自动化对齐修复研究，安全前沿突破"
+      "reason": "法院裁定政府黑名单违法，AI监管风向标事件"
     },
     {
       "title": "Our decision on Cursor following its acquisition by SpaceX",
       "sourceUrl": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex",
       "source": "OpenAI",
-      "reason": "OpenAI终止与Cursor合作，行业格局重大变动"
+      "reason": "OpenAI终止与Cursor合作，商业策略重大调整"
     },
     {
-      "title": "LLMs Are Not (Consistently) Bayesian: Quantifying Internal (In)consistencies of LLMs’ Probabilistic Beliefs",
-      "sourceUrl": "https://machinelearning.apple.com/research/llms-not-consistently-bayesian",
-      "source": "Apple ML Research",
-      "reason": "苹果研究揭示LLM概率信念不一致，具理论价值"
+      "title": "GLM-5.3 is now open-weight",
+      "sourceUrl": "https://huggingface.co/zai-org/GLM-5.3",
+      "source": "Hacker News",
+      "reason": "GLM-5.3开源权重，国产模型新突破引关注"
     },
     {
-      "title": "Previewing the Model Hardware Standard",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9mMzRTNjJiRFhsYnZYMlBtQlNxTWZrRE5VVzF4TnZoel9UdXJSalpXUkE4M1NXN3pNTXdIWW84U0dONmN3bUFKcGwzZGh4SEdCZTFQaEk0TDJZNjF2ZVRFTUhTYTB5MzV5dV9xX1lvWXNMejFUYUlMZGxISQ?oc=5",
+      "title": "Automated researchers can reliably mitigate alignment failures",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQMm12QTFLek9sVlhENXNNaFlpUHlnbEl5dDRNZTBCbG1iSUtndjBhaUQ3UGl6N2VOWFppR19kbGhHWjlGaWRnby1BcHNlM0lNLUFaZXVrWV9MTFFOcjg0dmpFcWc0cHkyUTd1d2Z3bjNjaU9FeUQzUnpKbFloc1lRVDRPNjBHQ2JRVDh6cg?oc=5",
       "source": "Anthropic",
-      "reason": "Anthropic提出模型硬件标准，或影响产业生态"
+      "reason": "自动化研究可缓解对齐失败，安全研究新进展"
+    },
+    {
+      "title": "Agency and Agents",
+      "sourceUrl": "https://www.oneusefulthing.org/p/agency-and-agents",
+      "source": "Ethan Mollick",
+      "reason": "从Hugging Face事件谈AI代理，深度行业洞察"
     }
   ],
-  "trendSummary": "本周AI圈聚焦AI安全与可靠性，从自动化缓解对齐失败到安全研究评审，同时开源模型持续发力，并拓展至全球南方语言与科学应用，整体趋势务实且多元。"
+  "trendSummary": "本周AI圈聚焦安全与落地双线并行，从对齐研究、模型评估到开源权重发布，同时关注全球南方语言支持与初创生态，科研工具与产业应用同步升温。"
 }

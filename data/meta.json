@@ -1,6 +1,6 @@
 {
-  "fetchedAt": "2026-08-30T00:22:36.150Z",
-  "count": 776,
+  "fetchedAt": "2026-08-31T00:38:42.873Z",
+  "count": 779,
   "sources": {
     "hf-papers": 50,
     "github": 80,
@@ -28,7 +28,7 @@
     "rss:techreview-ai": 10,
     "rss:wired-ai": 10,
     "rss:thedecoder": 10,
-    "rss:marktechpost": 0,
+    "rss:marktechpost": 10,
     "rss:semianalysis": 10,
     "rss:smol-ainews": 20,
     "rss:tldr-ai": 20,
@@ -48,7 +48,7 @@
     "rss:36kr": 0,
     "rss:infoq": 9,
     "rss:sspai": 3,
-    "rss:ithome": 8,
+    "rss:ithome": 2,
     "arxiv": 20
   },
   "errors": {
