@@ -1,37 +1,37 @@
 {
-  "date": "2026-08-31",
-  "generatedAt": "2026-08-31T00:38:45.969Z",
+  "date": "2026-09-01",
+  "generatedAt": "2026-09-01T01:19:19.045Z",
   "picks": [
     {
-      "title": "Judge rules Trump administration’s blacklisting of Anthropic was illegal",
-      "sourceUrl": "https://www.nytimes.com/2026/08/27/technology/anthropic-government-blacklisting-ruling.html",
-      "source": "Hacker News",
-      "reason": "法院裁定政府黑名单违法，AI监管风向标事件"
-    },
-    {
-      "title": "Our decision on Cursor following its acquisition by SpaceX",
-      "sourceUrl": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex",
-      "source": "OpenAI",
-      "reason": "OpenAI终止与Cursor合作，商业策略重大调整"
-    },
-    {
-      "title": "GLM-5.3 is now open-weight",
-      "sourceUrl": "https://huggingface.co/zai-org/GLM-5.3",
-      "source": "Hacker News",
-      "reason": "GLM-5.3开源权重，国产模型新突破引关注"
-    },
-    {
-      "title": "Automated researchers can reliably mitigate alignment failures",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQMm12QTFLek9sVlhENXNNaFlpUHlnbEl5dDRNZTBCbG1iSUtndjBhaUQ3UGl6N2VOWFppR19kbGhHWjlGaWRnby1BcHNlM0lNLUFaZXVrWV9MTFFOcjg0dmpFcWc0cHkyUTd1d2Z3bjNjaU9FeUQzUnpKbFloc1lRVDRPNjBHQ2JRVDh6cg?oc=5",
+      "title": "Improving our alignment and security practices",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMidkFVX3lxTE00LWY0NEplRlIyRFlGZENXb0VQc0ZNb3BuSjlZeTB3OWdqWEh5eEFxbzJMa0hFTkhrYy03NjZ5MGdsMnNKbHJsXzVpVENSb014eXdXaEkzOXFHWUVRa1U3TXhpVWZCb0FJaHFqWTJhLW9JbGtYWGc?oc=5",
       "source": "Anthropic",
-      "reason": "自动化研究可缓解对齐失败，安全研究新进展"
+      "reason": "Anthropic发布安全实践更新，关乎AI对齐核心议题，极具行业参考价值。"
     },
     {
-      "title": "Agency and Agents",
-      "sourceUrl": "https://www.oneusefulthing.org/p/agency-and-agents",
-      "source": "Ethan Mollick",
-      "reason": "从Hugging Face事件谈AI代理，深度行业洞察"
+      "title": "TimesFM-3: A zero-shot foundation model for multivariate forecasting",
+      "sourceUrl": "https://research.google/blog/timesfm-3-a-zero-shot-foundation-model-for-multivariate-forecasting/",
+      "source": "Google Research",
+      "reason": "谷歌TimesFM-3模型突破多变量预测，零样本能力引领时序AI新方向。"
+    },
+    {
+      "title": "Polimill builds Japan's next-generation public AI infrastructure",
+      "sourceUrl": "https://openai.com/index/polimill",
+      "source": "OpenAI",
+      "reason": "OpenAI助力日本公共AI基建，展示大模型在政务场景的落地潜力。"
+    },
+    {
+      "title": "How an MIT research project became a global programming language",
+      "sourceUrl": "https://news.mit.edu/2026/how-mit-research-project-became-global-programming-language-0831",
+      "source": "MIT News",
+      "reason": "MIT的Julia语言从研究到全球普及，体现学术成果转化的典范路径。"
+    },
+    {
+      "title": "Apple shares &#8216;shocking evidence&#8217; against former employee accused of stealing company data for OpenAI",
+      "sourceUrl": "https://techcrunch.com/2026/08/31/apple-shares-shocking-evidence-against-former-employee-accused-of-stealing-company-data-for-openai/",
+      "source": "TechCrunch",
+      "reason": "苹果指控前员工泄密给OpenAI，科技巨头数据安全纠纷引发关注。"
     }
   ],
-  "trendSummary": "本周AI圈聚焦安全与落地双线并行，从对齐研究、模型评估到开源权重发布，同时关注全球南方语言支持与初创生态，科研工具与产业应用同步升温。"
+  "trendSummary": "本周AI圈聚焦安全对齐与开源生态，同时前沿模型加速落地医疗、预测和机器人领域，产学研协同推动技术普惠与基础研究突破。"
 }
