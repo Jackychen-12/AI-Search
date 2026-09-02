@@ -1,37 +1,37 @@
 {
-  "date": "2026-09-01",
-  "generatedAt": "2026-09-01T01:19:19.045Z",
+  "date": "2026-09-02",
+  "generatedAt": "2026-09-02T00:17:22.659Z",
   "picks": [
     {
-      "title": "Improving our alignment and security practices",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMidkFVX3lxTE00LWY0NEplRlIyRFlGZENXb0VQc0ZNb3BuSjlZeTB3OWdqWEh5eEFxbzJMa0hFTkhrYy03NjZ5MGdsMnNKbHJsXzVpVENSb014eXdXaEkzOXFHWUVRa1U3TXhpVWZCb0FJaHFqWTJhLW9JbGtYWGc?oc=5",
+      "title": "Claude Fable 5.1 & Claude Mythos 5.1 System Card",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNVThfM0tLb2w5WWUySzFvSzllMnNIeTFZSU01bXVHejVHeEc4dGZuV0pDZEtpNENSRHh2X1FXU3gzWEEwU0hHNjZtTG5TNmJqaGtpcnRTcVFLSWE1S1d0d1gzYmdrN1J0ekRlWGd1OVFyMjBIRWVMWWR1S0JMc3d6a2EtQjkyNGtXaGs1bER5NE04ZzRiUy1fSUdvME1EMnR0OVpwRFRWU0xEeFF0ZURHU1ZDZlM4SmdQRUtnamZfbWVtNV9GNUF1UFJSWjBXaXVXLVBOYmlR?oc=5",
       "source": "Anthropic",
-      "reason": "Anthropic发布安全实践更新，关乎AI对齐核心议题，极具行业参考价值。"
+      "reason": "Anthropic发布新模型系统卡，前沿AI安全关键信息"
     },
     {
-      "title": "TimesFM-3: A zero-shot foundation model for multivariate forecasting",
-      "sourceUrl": "https://research.google/blog/timesfm-3-a-zero-shot-foundation-model-for-multivariate-forecasting/",
-      "source": "Google Research",
-      "reason": "谷歌TimesFM-3模型突破多变量预测，零样本能力引领时序AI新方向。"
-    },
-    {
-      "title": "Polimill builds Japan's next-generation public AI infrastructure",
-      "sourceUrl": "https://openai.com/index/polimill",
+      "title": "Path to Astra: critical capabilities and frontier safeguards",
+      "sourceUrl": "https://openai.com/index/path-to-astra",
       "source": "OpenAI",
-      "reason": "OpenAI助力日本公共AI基建，展示大模型在政务场景的落地潜力。"
+      "reason": "OpenAI Astra模型达到关键网络安全能力阈值，重要进展"
     },
     {
-      "title": "How an MIT research project became a global programming language",
-      "sourceUrl": "https://news.mit.edu/2026/how-mit-research-project-became-global-programming-language-0831",
-      "source": "MIT News",
-      "reason": "MIT的Julia语言从研究到全球普及，体现学术成果转化的典范路径。"
+      "title": "Introducing agentic video understanding with Gemini",
+      "sourceUrl": "https://deepmind.google/blog/introducing-agentic-video-in-gemini/",
+      "source": "Google DeepMind",
+      "reason": "Gemini智能体视频理解突破，多模态AI新方向"
     },
     {
-      "title": "Apple shares &#8216;shocking evidence&#8217; against former employee accused of stealing company data for OpenAI",
-      "sourceUrl": "https://techcrunch.com/2026/08/31/apple-shares-shocking-evidence-against-former-employee-accused-of-stealing-company-data-for-openai/",
-      "source": "TechCrunch",
-      "reason": "苹果指控前员工泄密给OpenAI，科技巨头数据安全纠纷引发关注。"
+      "title": "BenchMIRT: What are LLM benchmarks actually measuring?",
+      "sourceUrl": "https://huggingface.co/blog/allenai/benchmirt",
+      "source": "HuggingFace Blog",
+      "reason": "深入剖析LLM基准测试实际衡量内容，引发行业反思"
+    },
+    {
+      "title": "Introducing @huggingface/kernels: 200+ WebGPU Kernels for Local AI",
+      "sourceUrl": "https://huggingface.co/blog/webgpu-kernels",
+      "source": "HuggingFace Blog",
+      "reason": "HuggingFace推出200+WebGPU内核，推动本地AI部署"
     }
   ],
-  "trendSummary": "本周AI圈聚焦安全对齐与开源生态，同时前沿模型加速落地医疗、预测和机器人领域，产学研协同推动技术普惠与基础研究突破。"
+  "trendSummary": "本周AI圈聚焦模型评测的深层意义、企业级安全防护与多模态能力拓展，同时AI落地应用加速，从影像编辑到企业流程再造，前沿技术正快速渗透各行业场景。"
 }
