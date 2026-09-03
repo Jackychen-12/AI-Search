@@ -1,37 +1,37 @@
 {
-  "date": "2026-09-02",
-  "generatedAt": "2026-09-02T00:17:22.659Z",
+  "date": "2026-09-03",
+  "generatedAt": "2026-09-03T00:18:50.201Z",
   "picks": [
     {
-      "title": "Claude Fable 5.1 & Claude Mythos 5.1 System Card",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNVThfM0tLb2w5WWUySzFvSzllMnNIeTFZSU01bXVHejVHeEc4dGZuV0pDZEtpNENSRHh2X1FXU3gzWEEwU0hHNjZtTG5TNmJqaGtpcnRTcVFLSWE1S1d0d1gzYmdrN1J0ekRlWGd1OVFyMjBIRWVMWWR1S0JMc3d6a2EtQjkyNGtXaGs1bER5NE04ZzRiUy1fSUdvME1EMnR0OVpwRFRWU0xEeFF0ZURHU1ZDZlM4SmdQRUtnamZfbWVtNV9GNUF1UFJSWjBXaXVXLVBOYmlR?oc=5",
-      "source": "Anthropic",
-      "reason": "Anthropic发布新模型系统卡，前沿AI安全关键信息"
+      "title": "From MIT to IBM, expediting AI and quantum deployment",
+      "sourceUrl": "https://news.mit.edu/2026/from-mit-to-ibm-expediting-ai-and-quantum-deployment-0902",
+      "source": "MIT News",
+      "reason": "MIT与IBM合作加速AI与量子部署，产学研前沿动态。"
     },
     {
-      "title": "Path to Astra: critical capabilities and frontier safeguards",
-      "sourceUrl": "https://openai.com/index/path-to-astra",
-      "source": "OpenAI",
-      "reason": "OpenAI Astra模型达到关键网络安全能力阈值，重要进展"
+      "title": "System helps humans predict when self-driving cars will make mistakes",
+      "sourceUrl": "https://news.mit.edu/2026/system-helps-humans-predict-when-self-driving-cars-will-make-mistakes-0902",
+      "source": "MIT News",
+      "reason": "提升自动驾驶安全性，预测错误机制具实际价值。"
     },
     {
-      "title": "Introducing agentic video understanding with Gemini",
-      "sourceUrl": "https://deepmind.google/blog/introducing-agentic-video-in-gemini/",
-      "source": "Google DeepMind",
-      "reason": "Gemini智能体视频理解突破，多模态AI新方向"
+      "title": "Beyond Scores: Understanding LLM-as-a-Judge Mechanisms in Summarization Evaluation",
+      "sourceUrl": "http://arxiv.org/abs/2609.01604v1",
+      "source": "arXiv",
+      "reason": "揭示LLM评估机制盲点，对评测可信度有启示。"
     },
     {
-      "title": "BenchMIRT: What are LLM benchmarks actually measuring?",
-      "sourceUrl": "https://huggingface.co/blog/allenai/benchmirt",
-      "source": "HuggingFace Blog",
-      "reason": "深入剖析LLM基准测试实际衡量内容，引发行业反思"
+      "title": "The Rise of Verbal Reinforcement Learning",
+      "sourceUrl": "http://arxiv.org/abs/2609.01597v1",
+      "source": "arXiv",
+      "reason": "语言反馈强化学习新范式，或重塑AI训练方向。"
     },
     {
-      "title": "Introducing @huggingface/kernels: 200+ WebGPU Kernels for Local AI",
-      "sourceUrl": "https://huggingface.co/blog/webgpu-kernels",
-      "source": "HuggingFace Blog",
-      "reason": "HuggingFace推出200+WebGPU内核，推动本地AI部署"
+      "title": "The latest AI news we announced in August 2026",
+      "sourceUrl": "https://blog.google/innovation-and-ai/technology/google-ai-updates-august-2026/",
+      "source": "Google AI",
+      "reason": "谷歌AI月度汇总，快速掌握巨头最新进展。"
     }
   ],
-  "trendSummary": "本周AI圈聚焦模型评测的深层意义、企业级安全防护与多模态能力拓展，同时AI落地应用加速，从影像编辑到企业流程再造，前沿技术正快速渗透各行业场景。"
+  "trendSummary": "本周AI热点聚焦于技术落地与安全防御，从自动驾驶预测到量子部署，再到企业实时智能与内容创作提效，同时学界也在反思评测基准的真实意义，整体趋势更强调AI的实用性与可靠性。"
 }
