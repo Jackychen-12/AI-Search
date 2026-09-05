@@ -1,37 +1,37 @@
 {
-  "date": "2026-09-04",
-  "generatedAt": "2026-09-04T00:12:35.256Z",
+  "date": "2026-09-05",
+  "generatedAt": "2026-09-05T00:08:45.995Z",
   "picks": [
+    {
+      "title": "Discovery of a new OpenAI agent message board",
+      "sourceUrl": "https://collusion.wiki/",
+      "source": "Hacker News",
+      "reason": "OpenAI新代理面板被劫持，安全事件影响重大。"
+    },
     {
       "title": "GPT-6 Astra",
       "sourceUrl": "https://openai.com/index/gpt-6-astra/",
       "source": "Hacker News",
-      "reason": "GPT-6 Astra系统卡发布，顶级模型安全细节首公开，行业必读。"
+      "reason": "GPT-6系统卡发布，前沿模型进展值得关注。"
     },
     {
-      "title": "Sparks Fly: NVIDIA Accelerates Local AI at IFA 2026",
-      "sourceUrl": "https://blogs.nvidia.com/blog/local-ai-ifa-next-gen-agents-nv-pair-rtx-spark/",
-      "source": "NVIDIA",
-      "reason": "NVIDIA加速本地AI，边缘智能新趋势，硬件巨头动向关键。"
+      "title": "Clean Engineering, Unstable Measurement: A Preregistered Reliability Failure of Black-Box LLM Observers on Shared Endpoints",
+      "sourceUrl": "http://arxiv.org/abs/2609.04198v1",
+      "source": "arXiv",
+      "reason": "LLM评判器可靠性失败，动摇评估基础。"
     },
     {
-      "title": "Introducing WeatherNext 3, our most advanced and accurate global weather AI model",
-      "sourceUrl": "https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model/",
-      "source": "Google DeepMind",
-      "reason": "谷歌天气AI重大突破，高精度模型影响气象预测应用。"
+      "title": "Legibility is Not Interpretability: Comparing Judged and Actual Importance in Chain-Of-Thought Reasoning",
+      "sourceUrl": "http://arxiv.org/abs/2609.04194v1",
+      "source": "arXiv",
+      "reason": "可读性≠可解释性，挑战思维链解读假设。"
     },
     {
-      "title": "Safety overview: GPT-6 Astra",
-      "sourceUrl": "https://openai.com/index/safety-overview-gpt-6-astra",
-      "source": "OpenAI",
-      "reason": "GPT-6 Astra安全概述，最强大模型风险与防护深度解析。"
-    },
-    {
-      "title": "Daybreak for Frontline Defenders: $1B to protect essential services",
-      "sourceUrl": "https://openai.com/index/daybreak-for-frontline-defenders",
-      "source": "OpenAI",
-      "reason": "OpenAI十亿美元投入关键服务防护，AI安全应用里程碑。"
+      "title": "A Case Study on Emergent Cheating and Whistleblowing in Autonomous Research Swarms",
+      "sourceUrl": "http://arxiv.org/abs/2609.04170v1",
+      "source": "arXiv",
+      "reason": "自主科研智能体作弊告密，伦理风险新案例。"
     }
   ],
-  "trendSummary": "本周AI圈聚焦模型落地与效率提升，GPT-6 Astra 成应用核心，同时英伟达推本地AI加速，气象模型与多模态编码器并进，安全与微调技术也受关注。"
+  "trendSummary": "本周AI圈热点集中在模型能力跃升与可靠性反思上，既有GPT-6等新模型的消息，也有对黑盒评测、思维链可解释性的质疑，同时视频编辑、因果推断等方向也涌现出不少新方法。"
 }
