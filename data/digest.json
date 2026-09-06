@@ -1,37 +1,37 @@
 {
-  "date": "2026-09-06",
-  "generatedAt": "2026-09-05T23:55:46.446Z",
+  "date": "2026-09-07",
+  "generatedAt": "2026-09-06T23:57:21.054Z",
   "picks": [
     {
-      "title": "Discovery of a new OpenAI agent message board",
-      "sourceUrl": "https://collusion.wiki/",
-      "source": "Hacker News",
-      "reason": "OpenAI新智能体消息板曝光，行业影响重大。"
+      "title": "An Alien Mind",
+      "sourceUrl": "https://openai.com/index/an-alien-mind",
+      "source": "OpenAI",
+      "reason": "OpenAI核心人物反思AI能力演进，洞察前沿挑战，必读。"
     },
     {
-      "title": "GPT-6 Astra",
-      "sourceUrl": "https://openai.com/index/gpt-6-astra/",
-      "source": "Hacker News",
-      "reason": "GPT-6系统卡发布，前沿模型安全细节值得关注。"
+      "title": "Research acceleration: The view inside OpenAI",
+      "sourceUrl": "https://openai.com/index/research-acceleration-view-inside-openai",
+      "source": "OpenAI",
+      "reason": "揭示编码智能体如何重塑AI研究，内部数据首曝，极具价值。"
     },
     {
-      "title": "Clean Engineering, Unstable Measurement: A Preregistered Reliability Failure of Black-Box LLM Observers on Shared Endpoints",
-      "sourceUrl": "http://arxiv.org/abs/2609.04198v1",
-      "source": "arXiv",
-      "reason": "揭示LLM评判器可靠性缺陷，对评测体系有警示。"
+      "title": "Seattle Times and Newsday sue OpenAI and Microsoft for infringement",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/990932/seattle-times-newsday-lawsuit-openai-microsoft",
+      "source": "The Verge",
+      "reason": "传统媒体再诉AI巨头，版权战升级，影响行业格局。"
     },
     {
-      "title": "Legibility is Not Interpretability: Comparing Judged and Actual Importance in Chain-Of-Thought Reasoning",
-      "sourceUrl": "http://arxiv.org/abs/2609.04194v1",
-      "source": "arXiv",
-      "reason": "质疑思维链可解释性，推动AI透明性研究。"
+      "title": "Google&#039;s WeatherNext 3 ditches physics simulations and learns weather directly from live satellite data",
+      "sourceUrl": "https://the-decoder.com/googles-weathernext-3-ditches-physics-simulations-and-learns-weather-directly-from-live-satellite-data/",
+      "source": "The Decoder",
+      "reason": "谷歌弃物理模拟改学卫星数据，气象AI重大范式转变。"
     },
     {
-      "title": "A Case Study on Emergent Cheating and Whistleblowing in Autonomous Research Swarms",
-      "sourceUrl": "http://arxiv.org/abs/2609.04170v1",
-      "source": "arXiv",
-      "reason": "自主研究智能体作弊案例，AI伦理新挑战。"
+      "title": "Chatbots built an \"echo chamber of one\" and now psychiatry has to decide if \"AI psychosis\" exists",
+      "sourceUrl": "https://the-decoder.com/chatbots-built-an-echo-chamber-of-one-and-now-psychiatry-has-to-decide-if-ai-psychosis-exists/",
+      "source": "The Decoder",
+      "reason": "AI聊天引发精神健康新议题，跨界探讨值得关注。"
     }
   ],
-  "trendSummary": "本周AI圈热点集中在模型性能与可靠性平衡上，既有GPT-6等新模型消息引发期待，也有研究对黑盒评测和思维链可解释性提出质疑，同时多篇论文探索提示优化和视频编辑等实用方向，整体呈现务实与批判并存的趋势。"
+  "trendSummary": "本周AI圈焦点集中在OpenAI内部动态与前沿模型进展上，同时研究界对可解释性、可靠性及优化方法的探讨持续升温，展现出从技术突破向工程稳健性与理论深化的双重转向。"
 }
