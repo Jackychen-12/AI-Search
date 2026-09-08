@@ -1,37 +1,37 @@
 {
-  "date": "2026-09-07",
-  "generatedAt": "2026-09-06T23:57:21.054Z",
+  "date": "2026-09-08",
+  "generatedAt": "2026-09-08T00:26:53.364Z",
   "picks": [
     {
-      "title": "An Alien Mind",
-      "sourceUrl": "https://openai.com/index/an-alien-mind",
+      "title": "Supporting independent journalism in Ukraine",
+      "sourceUrl": "https://openai.com/index/supporting-independent-journalism-in-ukraine",
       "source": "OpenAI",
-      "reason": "OpenAI核心人物反思AI能力演进，洞察前沿挑战，必读。"
+      "reason": "AI助力乌克兰新闻业，兼具社会价值与行业意义。"
     },
     {
       "title": "Research acceleration: The view inside OpenAI",
       "sourceUrl": "https://openai.com/index/research-acceleration-view-inside-openai",
       "source": "OpenAI",
-      "reason": "揭示编码智能体如何重塑AI研究，内部数据首曝，极具价值。"
+      "reason": "OpenAI内部揭秘，编码智能体正重塑研究范式。"
     },
     {
-      "title": "Seattle Times and Newsday sue OpenAI and Microsoft for infringement",
-      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/990932/seattle-times-newsday-lawsuit-openai-microsoft",
-      "source": "The Verge",
-      "reason": "传统媒体再诉AI巨头，版权战升级，影响行业格局。"
-    },
-    {
-      "title": "Google&#039;s WeatherNext 3 ditches physics simulations and learns weather directly from live satellite data",
-      "sourceUrl": "https://the-decoder.com/googles-weathernext-3-ditches-physics-simulations-and-learns-weather-directly-from-live-satellite-data/",
+      "title": "GPT-6 Astra beat Portal start to finish without human help in under 24 hours",
+      "sourceUrl": "https://the-decoder.com/gpt-6-astra-beat-portal-start-to-finish-without-human-help-in-under-24-hours/",
       "source": "The Decoder",
-      "reason": "谷歌弃物理模拟改学卫星数据，气象AI重大范式转变。"
+      "reason": "GPT-6无人工通关Portal，展现自主推理新高度。"
     },
     {
-      "title": "Chatbots built an \"echo chamber of one\" and now psychiatry has to decide if \"AI psychosis\" exists",
-      "sourceUrl": "https://the-decoder.com/chatbots-built-an-echo-chamber-of-one-and-now-psychiatry-has-to-decide-if-ai-psychosis-exists/",
+      "title": "How AI wiped out an entire industry in Nairobi",
+      "sourceUrl": "https://the-decoder.com/how-ai-wiped-out-an-entire-industry-in-nairobi/",
       "source": "The Decoder",
-      "reason": "AI聊天引发精神健康新议题，跨界探讨值得关注。"
+      "reason": "AI冲击肯尼亚代写业，揭示技术颠覆就业的残酷现实。"
+    },
+    {
+      "title": "Opaque recurrence, and other AI terms that you should probably know",
+      "sourceUrl": "https://techcrunch.com/2026/09/07/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/",
+      "source": "TechCrunch",
+      "reason": "AI术语科普实用，助你跟上技术讨论不掉队。"
     }
   ],
-  "trendSummary": "本周AI圈焦点集中在OpenAI内部动态与前沿模型进展上，同时研究界对可解释性、可靠性及优化方法的探讨持续升温，展现出从技术突破向工程稳健性与理论深化的双重转向。"
+  "trendSummary": "本周AI圈热点聚焦于大模型推理优化与多模态能力拓展，同时开源基准测试与具身交互研究升温，行业正加速探索从技术验证到实际应用的落地路径。"
 }
