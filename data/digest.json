@@ -1,37 +1,37 @@
 {
-  "date": "2026-09-08",
-  "generatedAt": "2026-09-08T00:26:53.364Z",
+  "date": "2026-09-09",
+  "generatedAt": "2026-09-09T00:17:40.770Z",
   "picks": [
     {
-      "title": "Supporting independent journalism in Ukraine",
-      "sourceUrl": "https://openai.com/index/supporting-independent-journalism-in-ukraine",
+      "title": "On the Navier–Stokes Millennium Prize Problem",
+      "sourceUrl": "https://openai.com/index/navier-stokes-solution",
       "source": "OpenAI",
-      "reason": "AI助力乌克兰新闻业，兼具社会价值与行业意义。"
+      "reason": "AI生成千禧年难题解法，震撼学界与业界"
+    },
+    {
+      "title": "AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome",
+      "sourceUrl": "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/",
+      "source": "Google DeepMind",
+      "reason": "人类基因组全图谱，生物医学里程碑"
+    },
+    {
+      "title": "Mistral raises €3B to make sovereign, open-weight AI the technology frontier",
+      "sourceUrl": "https://mistral.ai/news/mistral-makes-sovereign-open-weight-ai-to-frontier/",
+      "source": "Mistral AI",
+      "reason": "Mistral获30亿欧元融资，开源AI格局生变"
+    },
+    {
+      "title": "How GPT-5.6 Sol helps run quantum computing experiments",
+      "sourceUrl": "https://openai.com/index/codex-quantum-computing-experiments",
+      "source": "OpenAI",
+      "reason": "GPT-5.6自主操控量子实验，科研自动化新高度"
     },
     {
       "title": "Research acceleration: The view inside OpenAI",
       "sourceUrl": "https://openai.com/index/research-acceleration-view-inside-openai",
       "source": "OpenAI",
-      "reason": "OpenAI内部揭秘，编码智能体正重塑研究范式。"
-    },
-    {
-      "title": "GPT-6 Astra beat Portal start to finish without human help in under 24 hours",
-      "sourceUrl": "https://the-decoder.com/gpt-6-astra-beat-portal-start-to-finish-without-human-help-in-under-24-hours/",
-      "source": "The Decoder",
-      "reason": "GPT-6无人工通关Portal，展现自主推理新高度。"
-    },
-    {
-      "title": "How AI wiped out an entire industry in Nairobi",
-      "sourceUrl": "https://the-decoder.com/how-ai-wiped-out-an-entire-industry-in-nairobi/",
-      "source": "The Decoder",
-      "reason": "AI冲击肯尼亚代写业，揭示技术颠覆就业的残酷现实。"
-    },
-    {
-      "title": "Opaque recurrence, and other AI terms that you should probably know",
-      "sourceUrl": "https://techcrunch.com/2026/09/07/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/",
-      "source": "TechCrunch",
-      "reason": "AI术语科普实用，助你跟上技术讨论不掉队。"
+      "reason": "内部数据揭示编码智能体如何重塑AI研究"
     }
   ],
-  "trendSummary": "本周AI圈热点聚焦于大模型推理优化与多模态能力拓展，同时开源基准测试与具身交互研究升温，行业正加速探索从技术验证到实际应用的落地路径。"
+  "trendSummary": "本周AI圈热点集中在模型能力跃升与前沿应用拓展，从个人代理到量子计算、基因图谱均有突破，同时融资与伦理讨论并行，展现技术加速渗透各领域的态势。"
 }
