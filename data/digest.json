@@ -1,37 +1,37 @@
 {
-  "date": "2026-09-09",
-  "generatedAt": "2026-09-09T00:17:40.770Z",
+  "date": "2026-09-10",
+  "generatedAt": "2026-09-10T00:17:20.373Z",
   "picks": [
     {
-      "title": "On the Navier–Stokes Millennium Prize Problem",
-      "sourceUrl": "https://openai.com/index/navier-stokes-solution",
+      "title": "Paul Christiano joins OpenAI Foundation Board",
+      "sourceUrl": "https://openai.com/index/paul-christiano-joins-openai-foundation-board",
       "source": "OpenAI",
-      "reason": "AI生成千禧年难题解法，震撼学界与业界"
+      "reason": "Paul Christiano加入OpenAI安全委员会，AI安全治理关键动向"
     },
     {
-      "title": "AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome",
-      "sourceUrl": "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/",
-      "source": "Google DeepMind",
-      "reason": "人类基因组全图谱，生物医学里程碑"
-    },
-    {
-      "title": "Mistral raises €3B to make sovereign, open-weight AI the technology frontier",
-      "sourceUrl": "https://mistral.ai/news/mistral-makes-sovereign-open-weight-ai-to-frontier/",
-      "source": "Mistral AI",
-      "reason": "Mistral获30亿欧元融资，开源AI格局生变"
-    },
-    {
-      "title": "How GPT-5.6 Sol helps run quantum computing experiments",
-      "sourceUrl": "https://openai.com/index/codex-quantum-computing-experiments",
+      "title": "The AI policy window is open. We need to act.",
+      "sourceUrl": "https://openai.com/index/ai-policy-window",
       "source": "OpenAI",
-      "reason": "GPT-5.6自主操控量子实验，科研自动化新高度"
+      "reason": "OpenAI高层呼吁政策行动，AI监管窗口期重要观点"
     },
     {
-      "title": "Research acceleration: The view inside OpenAI",
-      "sourceUrl": "https://openai.com/index/research-acceleration-view-inside-openai",
+      "title": "An alignment assessment of recent cybersecurity incidents",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQOFZuQXh2LWp1d0NoNDQ2cHdrTktoZ0dIdDUyeEVrSGVyWDBzT3dsV3lhelR6RXhtYy03MTNSYVlya2hSZm1MMHVkZVFMeEt4RDFJM0Z2TW9SRlFDYTM5eGhxU2YzTWNJOU8yWWktWjU5Y0FUeDdLV0lfdnJ2SW9uZE0zOFFXZw?oc=5",
+      "source": "Anthropic",
+      "reason": "Anthropic评估网络攻击对齐风险，安全研究前沿"
+    },
+    {
+      "title": "Economic Scenarios for Transformative AI",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxNTnkxbFNBbk5aakJtVGhqVnZZZWxMcFdvazItYm9tYlBuVU5EMUdFTkRxREZaVnFHSVBRNzF0eWJRQkNFQ2RTQjFvSy03MnM1VkN5ekhjcVZrOGx2R0poMFpFUkptcWMtNWhZOERtWjR6OHlla1lELW1lTXJHbFRPRmdsRE1pb24tSzJDYl9Bd0d0RlRRd1pWMUNxYkIwZw?oc=5",
+      "source": "Anthropic",
+      "reason": "Anthropic发布变革性AI经济情景，前瞻性分析"
+    },
+    {
+      "title": "GPT-6 Astra: The next generation in intelligence for work",
+      "sourceUrl": "https://openai.com/index/gpt-6-astra-next-generation-work",
       "source": "OpenAI",
-      "reason": "内部数据揭示编码智能体如何重塑AI研究"
+      "reason": "GPT-6 Astra发布，新一代商业AI模型重大进展"
     }
   ],
-  "trendSummary": "本周AI圈热点集中在模型能力跃升与前沿应用拓展，从个人代理到量子计算、基因图谱均有突破，同时融资与伦理讨论并行，展现技术加速渗透各领域的态势。"
+  "trendSummary": "本周AI圈聚焦教育跨界普及、安全对齐评估、行业领袖加盟、实时应用落地及经济影响预测，多方合力推动技术从实验室走向社会深层。"
 }
