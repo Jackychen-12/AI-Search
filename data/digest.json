@@ -1,37 +1,37 @@
 {
-  "date": "2026-09-10",
-  "generatedAt": "2026-09-10T00:17:20.373Z",
+  "date": "2026-09-11",
+  "generatedAt": "2026-09-11T00:13:08.471Z",
   "picks": [
     {
-      "title": "Paul Christiano joins OpenAI Foundation Board",
-      "sourceUrl": "https://openai.com/index/paul-christiano-joins-openai-foundation-board",
-      "source": "OpenAI",
-      "reason": "Paul Christiano加入OpenAI安全委员会，AI安全治理关键动向"
+      "title": "DeepSeek v4.1 Flash",
+      "sourceUrl": "https://twitter.com/deepseek_ai/status/2097930608790167907",
+      "source": "Hacker News",
+      "reason": "DeepSeek新模型Flash发布，国产大模型重要进展"
     },
     {
-      "title": "The AI policy window is open. We need to act.",
-      "sourceUrl": "https://openai.com/index/ai-policy-window",
+      "title": "Introducing the Agents API",
+      "sourceUrl": "https://openai.com/index/introducing-the-agents-api",
       "source": "OpenAI",
-      "reason": "OpenAI高层呼吁政策行动，AI监管窗口期重要观点"
+      "reason": "OpenAI推出Agents API，智能体开发基础设施落地"
+    },
+    {
+      "title": "Introducing ChatGPT for Financial Services",
+      "sourceUrl": "https://openai.com/index/introducing-chatgpt-financial-services",
+      "source": "OpenAI",
+      "reason": "ChatGPT进军金融服务，垂直行业商业化新突破"
+    },
+    {
+      "title": "Skild AI Taps NVIDIA Physical AI to Teach Robots New Tasks From a Single Video",
+      "sourceUrl": "https://blogs.nvidia.com/blog/skild-ai-s1-physical-ai/",
+      "source": "NVIDIA",
+      "reason": "Skild AI借英伟达物理AI，单视频教机器人新任务"
     },
     {
       "title": "An alignment assessment of recent cybersecurity incidents",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQOFZuQXh2LWp1d0NoNDQ2cHdrTktoZ0dIdDUyeEVrSGVyWDBzT3dsV3lhelR6RXhtYy03MTNSYVlya2hSZm1MMHVkZVFMeEt4RDFJM0Z2TW9SRlFDYTM5eGhxU2YzTWNJOU8yWWktWjU5Y0FUeDdLV0lfdnJ2SW9uZE0zOFFXZw?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNcVVuc004cms0OWlHYm9ZanBnaXJVWDgtWHNRWGhROEtCSVg3aDVxcFBoVU94UnpJVTV4cmhYVjRhUzFkMTFwNjljMVRiT0ZYR1Q2SW5VN2RET1hTbzJkdDB5aFJkV3kxVG1YYkZ3cVV4Z1VWak1lakQtMXJQOFhYXw?oc=5",
       "source": "Anthropic",
-      "reason": "Anthropic评估网络攻击对齐风险，安全研究前沿"
-    },
-    {
-      "title": "Economic Scenarios for Transformative AI",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxNTnkxbFNBbk5aakJtVGhqVnZZZWxMcFdvazItYm9tYlBuVU5EMUdFTkRxREZaVnFHSVBRNzF0eWJRQkNFQ2RTQjFvSy03MnM1VkN5ekhjcVZrOGx2R0poMFpFUkptcWMtNWhZOERtWjR6OHlla1lELW1lTXJHbFRPRmdsRE1pb24tSzJDYl9Bd0d0RlRRd1pWMUNxYkIwZw?oc=5",
-      "source": "Anthropic",
-      "reason": "Anthropic发布变革性AI经济情景，前瞻性分析"
-    },
-    {
-      "title": "GPT-6 Astra: The next generation in intelligence for work",
-      "sourceUrl": "https://openai.com/index/gpt-6-astra-next-generation-work",
-      "source": "OpenAI",
-      "reason": "GPT-6 Astra发布，新一代商业AI模型重大进展"
+      "reason": "Anthropic评估近期网络安全事件的对齐问题"
     }
   ],
-  "trendSummary": "本周AI圈聚焦教育跨界普及、安全对齐评估、行业领袖加盟、实时应用落地及经济影响预测，多方合力推动技术从实验室走向社会深层。"
+  "trendSummary": "本周AI加速落地物理世界与行业场景，机器人、金融、防务和科研成焦点。"
 }
