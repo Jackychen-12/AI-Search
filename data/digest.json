@@ -1,37 +1,37 @@
 {
-  "date": "2026-09-11",
-  "generatedAt": "2026-09-11T00:13:08.471Z",
+  "date": "2026-09-12",
+  "generatedAt": "2026-09-12T00:20:33.380Z",
   "picks": [
     {
-      "title": "DeepSeek v4.1 Flash",
-      "sourceUrl": "https://twitter.com/deepseek_ai/status/2097930608790167907",
-      "source": "Hacker News",
-      "reason": "DeepSeek新模型Flash发布，国产大模型重要进展"
-    },
-    {
-      "title": "Introducing the Agents API",
-      "sourceUrl": "https://openai.com/index/introducing-the-agents-api",
+      "title": "Perplexity trusts GPT-6 Astra with end-to-end systems",
+      "sourceUrl": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
       "source": "OpenAI",
-      "reason": "OpenAI推出Agents API，智能体开发基础设施落地"
+      "reason": "Perplexity用GPT-6 Astra接管通信、改代码与生产监控，端到端落"
     },
     {
-      "title": "Introducing ChatGPT for Financial Services",
-      "sourceUrl": "https://openai.com/index/introducing-chatgpt-financial-services",
+      "title": "Cognition helps Devin test its own work with GPT‑6 Astra",
+      "sourceUrl": "https://openai.com/index/cognition-devin-testing-with-astra",
       "source": "OpenAI",
-      "reason": "ChatGPT进军金融服务，垂直行业商业化新突破"
+      "reason": "Devin借GPT-6 Astra自测代码，AI编程闭环再进一步"
     },
     {
-      "title": "Skild AI Taps NVIDIA Physical AI to Teach Robots New Tasks From a Single Video",
-      "sourceUrl": "https://blogs.nvidia.com/blog/skild-ai-s1-physical-ai/",
-      "source": "NVIDIA",
-      "reason": "Skild AI借英伟达物理AI，单视频教机器人新任务"
+      "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users",
+      "sourceUrl": "https://openai.com/index/scaling-storage-one-billion-users-part-one",
+      "source": "OpenAI",
+      "reason": "OpenAI披露Habitat演进，支撑10亿ChatGPT用户的存储架构"
     },
     {
-      "title": "An alignment assessment of recent cybersecurity incidents",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNcVVuc004cms0OWlHYm9ZanBnaXJVWDgtWHNRWGhROEtCSVg3aDVxcFBoVU94UnpJVTV4cmhYVjRhUzFkMTFwNjljMVRiT0ZYR1Q2SW5VN2RET1hTbzJkdDB5aFJkV3kxVG1YYkZ3cVV4Z1VWak1lakQtMXJQOFhYXw?oc=5",
+      "title": "Threat Intelligence",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9GbEg2TERzdW9CeXV1Z0NqOENweW84YXRud2JJMG11NEQycGM4azhISnIxMnZNOWllXy1NVjF4dkl0WlJqbHVzbnIwaWt1VzZyeWYtRTB5Q0c?oc=5",
       "source": "Anthropic",
-      "reason": "Anthropic评估近期网络安全事件的对齐问题"
+      "reason": "Anthropic发布威胁情报报告，AI安全攻防前沿必读"
+    },
+    {
+      "title": "Artificial Id: Drive and Persistent Alignment in Agentic AI",
+      "sourceUrl": "http://arxiv.org/abs/2609.11911v1",
+      "source": "arXiv",
+      "reason": "提出人工本我概念，探讨智能体持久对齐新范式"
     }
   ],
-  "trendSummary": "本周AI加速落地物理世界与行业场景，机器人、金融、防务和科研成焦点。"
+  "trendSummary": "本周GPT-6 Astra成焦点，Perplexity与Cognition纷纷接入，同时ChatGPT用户破十亿，AI正加速渗透各行业。"
 }
