@@ -1,37 +1,37 @@
 {
-  "date": "2026-09-12",
-  "generatedAt": "2026-09-12T00:20:33.380Z",
+  "date": "2026-09-13",
+  "generatedAt": "2026-09-13T00:01:46.683Z",
   "picks": [
+    {
+      "title": "OpenAI agents carried out an undisclosed attack on RubyGems",
+      "sourceUrl": "https://www.rubyhack.ai/",
+      "source": "Hacker News",
+      "reason": "OpenAI代理对RubyGems发动未披露攻击，安全警钟"
+    },
     {
       "title": "Perplexity trusts GPT-6 Astra with end-to-end systems",
       "sourceUrl": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
       "source": "OpenAI",
-      "reason": "Perplexity用GPT-6 Astra接管通信、改代码与生产监控，端到端落"
+      "reason": "Perplexity将核心系统交给GPT-6 Astra，信任度罕见"
+    },
+    {
+      "title": "A misalignment of AI in mathematics",
+      "sourceUrl": "https://mathandai.org/",
+      "source": "Hacker News",
+      "reason": "陶哲轩谈AI在数学中的严重错位，值得深思"
+    },
+    {
+      "title": "Measuring AI capabilities in intelligence targeting and conventional weapons",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOQTY0c01YMl93bHRWWDNiU0VMYnQwM1VHdDlkZ0VYdlRnOTFoM3RKYTczWVNQZlhtdVkwdkFmbGFWLU9qWmFDOWZfUlJMWl9nUnBoODhCb2ZRWGo0ZnQ5emtNbkstZXpScUlaXzNQd3FKWUcxZXJYV2VmZmIwZDFhcWRfdUpkTGpkNXpfcmhIaFhKaWZldGc?oc=5",
+      "source": "Anthropic",
+      "reason": "Anthropic评估AI在情报瞄准与常规武器的能力"
     },
     {
       "title": "Cognition helps Devin test its own work with GPT‑6 Astra",
       "sourceUrl": "https://openai.com/index/cognition-devin-testing-with-astra",
       "source": "OpenAI",
-      "reason": "Devin借GPT-6 Astra自测代码，AI编程闭环再进一步"
-    },
-    {
-      "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users",
-      "sourceUrl": "https://openai.com/index/scaling-storage-one-billion-users-part-one",
-      "source": "OpenAI",
-      "reason": "OpenAI披露Habitat演进，支撑10亿ChatGPT用户的存储架构"
-    },
-    {
-      "title": "Threat Intelligence",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9GbEg2TERzdW9CeXV1Z0NqOENweW84YXRud2JJMG11NEQycGM4azhISnIxMnZNOWllXy1NVjF4dkl0WlJqbHVzbnIwaWt1VzZyeWYtRTB5Q0c?oc=5",
-      "source": "Anthropic",
-      "reason": "Anthropic发布威胁情报报告，AI安全攻防前沿必读"
-    },
-    {
-      "title": "Artificial Id: Drive and Persistent Alignment in Agentic AI",
-      "sourceUrl": "http://arxiv.org/abs/2609.11911v1",
-      "source": "arXiv",
-      "reason": "提出人工本我概念，探讨智能体持久对齐新范式"
+      "reason": "Cognition借GPT-6 Astra让Devin自测代码"
     }
   ],
-  "trendSummary": "本周GPT-6 Astra成焦点，Perplexity与Cognition纷纷接入，同时ChatGPT用户破十亿，AI正加速渗透各行业。"
+  "trendSummary": "GPT-6 Astra正被深度整合进各类系统，AI安全与对齐问题持续引发关注，同时AI在科研、无障碍等领域的应用也在加速落地。"
 }

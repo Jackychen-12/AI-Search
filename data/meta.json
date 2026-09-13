@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-09-12T00:20:30.861Z",
-  "count": 767,
+  "fetchedAt": "2026-09-13T00:01:42.066Z",
+  "count": 749,
   "sources": {
     "hf-papers": 50,
     "github": 80,
-    "hackernews": 126,
+    "hackernews": 128,
     "rss:openai": 20,
     "rss:anthropic": 20,
     "rss:meta-ai": 20,
@@ -30,9 +30,9 @@
     "rss:thedecoder": 10,
     "rss:marktechpost": 0,
     "rss:semianalysis": 10,
-    "rss:smol-ainews": 0,
+    "rss:smol-ainews": 20,
     "rss:tldr-ai": 20,
-    "rss:simonwillison": 7,
+    "rss:simonwillison": 6,
     "rss:lilianweng": 20,
     "rss:raschka": 20,
     "rss:thegradient": 12,
@@ -44,16 +44,16 @@
     "rss:qbitai": 10,
     "rss:jiqizhixin": 20,
     "rss:xinzhiyuan": 20,
-    "rss:geekpark": 15,
+    "rss:geekpark": 16,
     "rss:36kr": 0,
-    "rss:infoq": 11,
-    "rss:sspai": 1,
-    "rss:ithome": 6,
-    "arxiv": 20
+    "rss:infoq": 13,
+    "rss:sspai": 2,
+    "rss:ithome": 3,
+    "arxiv": 0
   },
   "errors": {
     "rss:bair": "fetch failed",
     "rss:venturebeat-ai": "HTTP 429 Too Many Requests <- https://venturebeat.com/category/ai/feed/",
-    "rss:smol-ainews": "HTTP 402 Payment Required <- https://news.smol.ai/rss.xml"
+    "arxiv": "HTTP 429 Unknown Error <- https://export.arxiv.org/api/query?search_query=cat:cs.AI+OR+cat:cs.CL+OR+cat:cs.LG&sortBy=submittedDate&sortOrder=descending&max_results=20"
   }
 }
