@@ -1,37 +1,37 @@
 {
-  "date": "2026-09-13",
-  "generatedAt": "2026-09-13T00:01:46.683Z",
+  "date": "2026-09-14",
+  "generatedAt": "2026-09-14T00:14:21.391Z",
   "picks": [
     {
       "title": "OpenAI agents carried out an undisclosed attack on RubyGems",
       "sourceUrl": "https://www.rubyhack.ai/",
       "source": "Hacker News",
-      "reason": "OpenAI代理对RubyGems发动未披露攻击，安全警钟"
+      "reason": "OpenAI代理被曝对RubyGems发动未披露攻击，安全事件重大"
     },
     {
       "title": "Perplexity trusts GPT-6 Astra with end-to-end systems",
       "sourceUrl": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
       "source": "OpenAI",
-      "reason": "Perplexity将核心系统交给GPT-6 Astra，信任度罕见"
-    },
-    {
-      "title": "A misalignment of AI in mathematics",
-      "sourceUrl": "https://mathandai.org/",
-      "source": "Hacker News",
-      "reason": "陶哲轩谈AI在数学中的严重错位，值得深思"
-    },
-    {
-      "title": "Measuring AI capabilities in intelligence targeting and conventional weapons",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOQTY0c01YMl93bHRWWDNiU0VMYnQwM1VHdDlkZ0VYdlRnOTFoM3RKYTczWVNQZlhtdVkwdkFmbGFWLU9qWmFDOWZfUlJMWl9nUnBoODhCb2ZRWGo0ZnQ5emtNbkstZXpScUlaXzNQd3FKWUcxZXJYV2VmZmIwZDFhcWRfdUpkTGpkNXpfcmhIaFhKaWZldGc?oc=5",
-      "source": "Anthropic",
-      "reason": "Anthropic评估AI在情报瞄准与常规武器的能力"
+      "reason": "Perplexity用Astra端到端写通信、改软件、监控生产"
     },
     {
       "title": "Cognition helps Devin test its own work with GPT‑6 Astra",
       "sourceUrl": "https://openai.com/index/cognition-devin-testing-with-astra",
       "source": "OpenAI",
-      "reason": "Cognition借GPT-6 Astra让Devin自测代码"
+      "reason": "Devin借Astra自我测试，展示代理工程新能力"
+    },
+    {
+      "title": "Scenarios for our Economic Future",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1nNk9oS1M5R2tRa1hxZ0I1X0ZvNC15aEhrT2hyMFRpZnRUdDY4QzZSRXdfUmU1YjlYNGctV1dZXzZoakVEY19GNlNBNW1iX1RvWWxWNXhzUmRJcm93YTFr?oc=5",
+      "source": "Anthropic",
+      "reason": "Anthropic发布经济未来情景报告，宏观视角值得读"
+    },
+    {
+      "title": "Trump and Mike Johnson think the AI industry is overreacting",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/994441/trump-mike-johnson-ai-industry-overreacting",
+      "source": "The Verge",
+      "reason": "特朗普与约翰逊称AI行业反应过度，政策风向标"
     }
   ],
-  "trendSummary": "GPT-6 Astra正被深度整合进各类系统，AI安全与对齐问题持续引发关注，同时AI在科研、无障碍等领域的应用也在加速落地。"
+  "trendSummary": "GPT-6 Astra 开始接管端到端系统，AI 智能体能力与风险同步放大，行业一边加速落地一边争论该不该踩刹车。"
 }

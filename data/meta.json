@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-09-13T00:01:42.066Z",
-  "count": 749,
+  "fetchedAt": "2026-09-14T00:14:18.962Z",
+  "count": 760,
   "sources": {
     "hf-papers": 50,
     "github": 80,
-    "hackernews": 128,
+    "hackernews": 123,
     "rss:openai": 20,
     "rss:anthropic": 20,
     "rss:meta-ai": 20,
@@ -28,7 +28,7 @@
     "rss:techreview-ai": 10,
     "rss:wired-ai": 10,
     "rss:thedecoder": 10,
-    "rss:marktechpost": 0,
+    "rss:marktechpost": 10,
     "rss:semianalysis": 10,
     "rss:smol-ainews": 20,
     "rss:tldr-ai": 20,
@@ -44,16 +44,16 @@
     "rss:qbitai": 10,
     "rss:jiqizhixin": 20,
     "rss:xinzhiyuan": 20,
-    "rss:geekpark": 16,
+    "rss:geekpark": 15,
     "rss:36kr": 0,
     "rss:infoq": 13,
-    "rss:sspai": 2,
-    "rss:ithome": 3,
+    "rss:sspai": 3,
+    "rss:ithome": 2,
     "arxiv": 0
   },
   "errors": {
     "rss:bair": "fetch failed",
     "rss:venturebeat-ai": "HTTP 429 Too Many Requests <- https://venturebeat.com/category/ai/feed/",
-    "arxiv": "HTTP 429 Unknown Error <- https://export.arxiv.org/api/query?search_query=cat:cs.AI+OR+cat:cs.CL+OR+cat:cs.LG&sortBy=submittedDate&sortOrder=descending&max_results=20"
+    "arxiv": "This operation was aborted"
   }
 }
