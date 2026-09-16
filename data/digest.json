@@ -1,37 +1,37 @@
 {
-  "date": "2026-09-15",
-  "generatedAt": "2026-09-15T00:40:35.364Z",
+  "date": "2026-09-16",
+  "generatedAt": "2026-09-16T00:24:01.953Z",
   "picks": [
     {
-      "title": "Perplexity trusts GPT-6 Astra with end-to-end systems",
-      "sourceUrl": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
-      "source": "OpenAI",
-      "reason": "Perplexity采用GPT-6 Astra实现端到端系统自动化，标志AI代理"
-    },
-    {
-      "title": "Perplexity Portable Computer Is Now Available on Windows, Powered by NVIDIA RTX",
-      "sourceUrl": "https://blogs.nvidia.com/blog/local-ai-perplexity-windows-pcs/",
+      "title": "AI Infra Summit: NVIDIA Vera Rubin and DSX Platform Advancements Showcase Energy Efficiencies of Optimizing Tokens Per Watt for AI Factories",
+      "sourceUrl": "https://blogs.nvidia.com/blog/ai-infra-summit-vera-rubin-dsx-energy-efficiencies-tokens-per-watt-ai-factories/",
       "source": "NVIDIA",
-      "reason": "Perplexity便携计算机登陆Windows，RTX驱动本地AI代理能力升级"
+      "reason": "NVIDIA发布Vera Rubin与DSX平台，AI工厂能效优化关键进展"
     },
     {
-      "title": "New method enables AI for safety-critical situations",
-      "sourceUrl": "https://news.mit.edu/2026/new-method-enables-ai-safety-critical-situations-0914",
-      "source": "MIT News",
-      "reason": "MIT提出HardFlow算法，提升生成式AI在安全关键场景的可靠性"
+      "title": "Scenarios for our Economic Future",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1nNk9oS1M5R2tRa1hxZ0I1X0ZvNC15aEhrT2hyMFRpZnRUdDY4QzZSRXdfUmU1YjlYNGctV1dZXzZoakVEY19GNlNBNW1iX1RvWWxWNXhzUmRJcm93YTFr?oc=5",
+      "source": "Anthropic",
+      "reason": "Anthropic展望经济未来情景，AI对经济影响的前瞻分析"
     },
     {
-      "title": "Apple's Siri AI Can Be Swapped Out for Claude, ChatGPT, Code Shows",
-      "sourceUrl": "https://www.macrumors.com/2026/09/14/siri-can-be-swapped-out-for-chatgpt-claude/",
-      "source": "Hacker News",
-      "reason": "代码显示苹果Siri可替换为Claude或ChatGPT，AI助手生态或迎开放"
+      "title": "Corrupt Plans, Clean Traces: Evading Chain-of-Thought Monitoring with Plan Injection",
+      "sourceUrl": "http://arxiv.org/abs/2609.15989v1",
+      "source": "arXiv",
+      "reason": "揭示思维链监控可被规避，AI安全领域重要警示研究"
     },
     {
-      "title": "Why are AI agents lying, cheating and coordinating?",
-      "sourceUrl": "https://yoshuabengio.org/en/publication/why-are-ai-agents-lying-cheating-and-coordinating",
-      "source": "Hacker News",
-      "reason": "探讨AI代理撒谎、作弊与协同行为，触及AI安全与对齐核心议题"
+      "title": "New insights from Google’s AI & Economy ATLAS",
+      "sourceUrl": "https://blog.google/innovation-and-ai/technology/ai/ai-economy-atlas-september-2026/",
+      "source": "Google AI",
+      "reason": "Google发布AI与经济ATLAS新洞察，数据驱动政策参考"
+    },
+    {
+      "title": "Your Agent Aced the Task. Will It Do It Again?",
+      "sourceUrl": "https://huggingface.co/blog/ibm-research/altk-evolve-consistency",
+      "source": "HuggingFace Blog",
+      "reason": "探讨AI智能体任务复现可靠性，实用性强值得关注"
     }
   ],
-  "trendSummary": "本周AI圈从经济未来到太空探索全面渗透，金融顾问、安全关键场景和硬件端齐头并进，AI正加速融入真实世界。"
+  "trendSummary": "本周AI热点聚焦基础设施能效与算力优化，同时加速向科学、医疗和普惠多语言场景落地。"
 }
