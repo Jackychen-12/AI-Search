@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-09-16T00:23:59.180Z",
-  "count": 772,
+  "fetchedAt": "2026-09-17T00:34:49.353Z",
+  "count": 764,
   "sources": {
     "hf-papers": 50,
     "github": 80,
-    "hackernews": 120,
+    "hackernews": 113,
     "rss:openai": 20,
     "rss:anthropic": 20,
     "rss:meta-ai": 20,
@@ -32,7 +32,7 @@
     "rss:semianalysis": 10,
     "rss:smol-ainews": 20,
     "rss:tldr-ai": 20,
-    "rss:simonwillison": 7,
+    "rss:simonwillison": 8,
     "rss:lilianweng": 20,
     "rss:raschka": 20,
     "rss:thegradient": 12,
@@ -46,13 +46,14 @@
     "rss:xinzhiyuan": 20,
     "rss:geekpark": 16,
     "rss:36kr": 0,
-    "rss:infoq": 9,
-    "rss:sspai": 2,
-    "rss:ithome": 7,
+    "rss:infoq": 8,
+    "rss:sspai": 1,
+    "rss:ithome": 9,
     "arxiv": 20
   },
   "errors": {
     "rss:bair": "fetch failed",
-    "rss:venturebeat-ai": "HTTP 429 Too Many Requests <- https://venturebeat.com/category/ai/feed/"
+    "rss:venturebeat-ai": "HTTP 429 Too Many Requests <- https://venturebeat.com/category/ai/feed/",
+    "rss:marktechpost": "HTTP 403 Forbidden <- https://www.marktechpost.com/feed/"
   }
 }

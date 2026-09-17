@@ -1,37 +1,37 @@
 {
-  "date": "2026-09-16",
-  "generatedAt": "2026-09-16T00:24:01.953Z",
+  "date": "2026-09-17",
+  "generatedAt": "2026-09-17T00:34:52.842Z",
   "picks": [
     {
-      "title": "AI Infra Summit: NVIDIA Vera Rubin and DSX Platform Advancements Showcase Energy Efficiencies of Optimizing Tokens Per Watt for AI Factories",
-      "sourceUrl": "https://blogs.nvidia.com/blog/ai-infra-summit-vera-rubin-dsx-energy-efficiencies-tokens-per-watt-ai-factories/",
+      "title": "Our framework for reporting model misalignment",
+      "sourceUrl": "https://openai.com/index/model-misalignment-reporting-framework",
+      "source": "OpenAI",
+      "reason": "OpenAI发布模型失准报告框架，关乎AI安全治理核心议题"
+    },
+    {
+      "title": "NVIDIA Vera Rubin NVL72 Delivers Leading Performance in MLPerf Inference v6.1 Debut",
+      "sourceUrl": "https://blogs.nvidia.com/blog/vera-rubin-nvl72-mlperf-inference/",
       "source": "NVIDIA",
-      "reason": "NVIDIA发布Vera Rubin与DSX平台，AI工厂能效优化关键进展"
+      "reason": "英伟达Vera Rubin首秀MLPerf推理，性能领先引行业关注"
     },
     {
-      "title": "Scenarios for our Economic Future",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1nNk9oS1M5R2tRa1hxZ0I1X0ZvNC15aEhrT2hyMFRpZnRUdDY4QzZSRXdfUmU1YjlYNGctV1dZXzZoakVEY19GNlNBNW1iX1RvWWxWNXhzUmRJcm93YTFr?oc=5",
-      "source": "Anthropic",
-      "reason": "Anthropic展望经济未来情景，AI对经济影响的前瞻分析"
+      "title": "Mistral and Mozilla are bringing open, private and multilingual AI to your web browser",
+      "sourceUrl": "https://mistral.ai/news/mistral-x-mozilla/",
+      "source": "Mistral AI",
+      "reason": "Mistral与Mozilla合作，将开放私密AI带入浏览器"
     },
     {
-      "title": "Corrupt Plans, Clean Traces: Evading Chain-of-Thought Monitoring with Plan Injection",
-      "sourceUrl": "http://arxiv.org/abs/2609.15989v1",
-      "source": "arXiv",
-      "reason": "揭示思维链监控可被规避，AI安全领域重要警示研究"
+      "title": "Emerald AI, Google and NVIDIA Launch Alliance to Advance Flexible AI Data Centers",
+      "sourceUrl": "https://blogs.nvidia.com/blog/ai-energy-management-alliance/",
+      "source": "NVIDIA",
+      "reason": "英伟达谷歌共建灵活AI数据中心联盟，基建意义重大"
     },
     {
-      "title": "New insights from Google’s AI & Economy ATLAS",
-      "sourceUrl": "https://blog.google/innovation-and-ai/technology/ai/ai-economy-atlas-september-2026/",
-      "source": "Google AI",
-      "reason": "Google发布AI与经济ATLAS新洞察，数据驱动政策参考"
-    },
-    {
-      "title": "Your Agent Aced the Task. Will It Do It Again?",
-      "sourceUrl": "https://huggingface.co/blog/ibm-research/altk-evolve-consistency",
-      "source": "HuggingFace Blog",
-      "reason": "探讨AI智能体任务复现可靠性，实用性强值得关注"
+      "title": "New AI technique could make minimally invasive surgeries safer and more precise",
+      "sourceUrl": "https://news.mit.edu/2026/new-ai-technique-could-make-minimally-invasive-surgeries-safer-more-precise-0916",
+      "source": "MIT News",
+      "reason": "MIT新AI技术提升微创手术安全性与精准度"
     }
   ],
-  "trendSummary": "本周AI热点聚焦基础设施能效与算力优化，同时加速向科学、医疗和普惠多语言场景落地。"
+  "trendSummary": "本周AI圈从模型对齐、算力基建到医疗、金融、广告等场景加速落地，同时更关注老年群体使用与商业价值衡量。"
 }
