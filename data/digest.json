@@ -1,37 +1,37 @@
 {
-  "date": "2026-09-17",
-  "generatedAt": "2026-09-17T00:34:52.842Z",
+  "date": "2026-09-18",
+  "generatedAt": "2026-09-18T00:22:13.104Z",
   "picks": [
     {
-      "title": "Our framework for reporting model misalignment",
-      "sourceUrl": "https://openai.com/index/model-misalignment-reporting-framework",
+      "title": "How Cooley is accelerating IPO work with ChatGPT",
+      "sourceUrl": "https://openai.com/index/cooley-gopublic",
       "source": "OpenAI",
-      "reason": "OpenAI发布模型失准报告框架，关乎AI安全治理核心议题"
+      "reason": "ChatGPT落地IPO法律金融场景，商业价值标杆"
     },
     {
-      "title": "NVIDIA Vera Rubin NVL72 Delivers Leading Performance in MLPerf Inference v6.1 Debut",
-      "sourceUrl": "https://blogs.nvidia.com/blog/vera-rubin-nvl72-mlperf-inference/",
-      "source": "NVIDIA",
-      "reason": "英伟达Vera Rubin首秀MLPerf推理，性能领先引行业关注"
+      "title": "Introducing Astra for Law",
+      "sourceUrl": "https://openai.com/index/astra-for-law",
+      "source": "OpenAI",
+      "reason": "OpenAI推出法律专用产品，垂直行业布局"
     },
     {
-      "title": "Mistral and Mozilla are bringing open, private and multilingual AI to your web browser",
-      "sourceUrl": "https://mistral.ai/news/mistral-x-mozilla/",
-      "source": "Mistral AI",
-      "reason": "Mistral与Mozilla合作，将开放私密AI带入浏览器"
+      "title": "Measurements for understanding the pace of AI development inside frontier labs",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1hSlNaZU5CMXdjOERiMTltcEVxMXduUXVrT1UtSExlUGlUUHFCc2huOVM0NEY0cmhCMVF6X0o2QjMwUUZOQkhuSGlHVjFlaWdKelR3ZTEzUV9SRzRIdkxhV3RfQ0N2OUI5U214a0RqZjh3c2MxUktr?oc=5",
+      "source": "Anthropic",
+      "reason": "Anthropic公开前沿实验室AI发展节奏度量方法"
     },
     {
-      "title": "Emerald AI, Google and NVIDIA Launch Alliance to Advance Flexible AI Data Centers",
-      "sourceUrl": "https://blogs.nvidia.com/blog/ai-energy-management-alliance/",
-      "source": "NVIDIA",
-      "reason": "英伟达谷歌共建灵活AI数据中心联盟，基建意义重大"
+      "title": "How Claude is uplifting biomolecular modeling",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5PbzNJUlpWVXZ6VzVsNU13YVBoQUNmTDNEUG83cTFoZk1oU0ZQMFJCWFhqNTFZSGVZWkg3RjBRNktiaXZjd1ZoNTRLM3NpS2V4a3lVUXRJVXFDbXVwRmhfdDlPSy04ZVBzUHB3aHFEUjRtcHVzd0dvN0NYMA?oc=5",
+      "source": "Anthropic",
+      "reason": "Claude助力生物分子建模，科研应用突破"
     },
     {
-      "title": "New AI technique could make minimally invasive surgeries safer and more precise",
-      "sourceUrl": "https://news.mit.edu/2026/new-ai-technique-could-make-minimally-invasive-surgeries-safer-more-precise-0916",
-      "source": "MIT News",
-      "reason": "MIT新AI技术提升微创手术安全性与精准度"
+      "title": "Making global data easier to explore",
+      "sourceUrl": "https://blog.google/innovation-and-ai/technology/ai/google-un-data-commons-platform/",
+      "source": "Google AI",
+      "reason": "谷歌与联合国共建开放数据平台，影响广泛"
     }
   ],
-  "trendSummary": "本周AI圈从模型对齐、算力基建到医疗、金融、广告等场景加速落地，同时更关注老年群体使用与商业价值衡量。"
+  "trendSummary": "本周AI加速渗透金融、法律、教育、生物医药等专业场景，前沿实验室发展节奏也成关注焦点。"
 }
