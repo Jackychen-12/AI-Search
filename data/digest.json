@@ -1,37 +1,37 @@
 {
-  "date": "2026-09-18",
-  "generatedAt": "2026-09-18T00:22:13.104Z",
+  "date": "2026-09-19",
+  "generatedAt": "2026-09-19T00:22:53.273Z",
   "picks": [
-    {
-      "title": "How Cooley is accelerating IPO work with ChatGPT",
-      "sourceUrl": "https://openai.com/index/cooley-gopublic",
-      "source": "OpenAI",
-      "reason": "ChatGPT落地IPO法律金融场景，商业价值标杆"
-    },
-    {
-      "title": "Introducing Astra for Law",
-      "sourceUrl": "https://openai.com/index/astra-for-law",
-      "source": "OpenAI",
-      "reason": "OpenAI推出法律专用产品，垂直行业布局"
-    },
     {
       "title": "Measurements for understanding the pace of AI development inside frontier labs",
       "sourceUrl": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1hSlNaZU5CMXdjOERiMTltcEVxMXduUXVrT1UtSExlUGlUUHFCc2huOVM0NEY0cmhCMVF6X0o2QjMwUUZOQkhuSGlHVjFlaWdKelR3ZTEzUV9SRzRIdkxhV3RfQ0N2OUI5U214a0RqZjh3c2MxUktr?oc=5",
       "source": "Anthropic",
-      "reason": "Anthropic公开前沿实验室AI发展节奏度量方法"
+      "reason": "前沿实验室内部AI发展速度测量，关乎行业节奏判断"
     },
     {
       "title": "How Claude is uplifting biomolecular modeling",
       "sourceUrl": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5PbzNJUlpWVXZ6VzVsNU13YVBoQUNmTDNEUG83cTFoZk1oU0ZQMFJCWFhqNTFZSGVZWkg3RjBRNktiaXZjd1ZoNTRLM3NpS2V4a3lVUXRJVXFDbXVwRmhfdDlPSy04ZVBzUHB3aHFEUjRtcHVzd0dvN0NYMA?oc=5",
       "source": "Anthropic",
-      "reason": "Claude助力生物分子建模，科研应用突破"
+      "reason": "Claude助力生物分子建模，AI4Science重要落地"
     },
     {
-      "title": "Making global data easier to explore",
-      "sourceUrl": "https://blog.google/innovation-and-ai/technology/ai/google-un-data-commons-platform/",
-      "source": "Google AI",
-      "reason": "谷歌与联合国共建开放数据平台，影响广泛"
+      "title": "Partnering with Accenture on embedded evaluation",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1zV25taFVITFJSbmFtMnJkRnRZMF9MOUdTaUNBSmgwc0czUmFuMEZJZHVrM0t6elFIVVJvQ1dSelJ0a2xHTDhSWnNOcUF6NmVXREFXSm5iMWVoRmJjZUVDMFhoSHRrUkRXMnNmU3Jybw?oc=5",
+      "source": "Anthropic",
+      "reason": "Anthropic与埃森哲合作嵌入式评估，企业级动向"
+    },
+    {
+      "title": "Inside Claude for Financial Advisors",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1sOGpwSU80bnNqZUI3ZEdjWk9xQkV5Mi1oX09uVzR5QmVrd2R1c0M1UWxMdFRUc0U1RExVbWJ1UldieEh0RU0yaWM3MDNaazRuUFFRQm5VR096VmE1SmJGSVdXZ2hXd3NDbk96OHh6VDc2aE1UMHBlV2RBZw?oc=5",
+      "source": "Anthropic",
+      "reason": "Claude进军金融顾问场景，垂直行业应用拓展"
+    },
+    {
+      "title": "Quantifying Overclaiming Propensity in Frontier LLM Agents",
+      "sourceUrl": "http://arxiv.org/abs/2609.20812v1",
+      "source": "arXiv",
+      "reason": "量化前沿LLM智能体过度宣称倾向，安全议题关键"
     }
   ],
-  "trendSummary": "本周AI加速渗透金融、法律、教育、生物医药等专业场景，前沿实验室发展节奏也成关注焦点。"
+  "trendSummary": "本周AI圈聚焦落地与评测，从金融顾问、教育互动到时尚共创，大厂加速把模型嵌入真实场景，同时探索前沿实验室的评估标准。"
 }
