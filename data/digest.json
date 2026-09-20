@@ -1,37 +1,37 @@
 {
-  "date": "2026-09-19",
-  "generatedAt": "2026-09-19T00:22:53.273Z",
+  "date": "2026-09-20",
+  "generatedAt": "2026-09-20T00:09:46.096Z",
   "picks": [
     {
       "title": "Measurements for understanding the pace of AI development inside frontier labs",
       "sourceUrl": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1hSlNaZU5CMXdjOERiMTltcEVxMXduUXVrT1UtSExlUGlUUHFCc2huOVM0NEY0cmhCMVF6X0o2QjMwUUZOQkhuSGlHVjFlaWdKelR3ZTEzUV9SRzRIdkxhV3RfQ0N2OUI5U214a0RqZjh3c2MxUktr?oc=5",
       "source": "Anthropic",
-      "reason": "前沿实验室内部AI发展速度测量，关乎行业节奏判断"
+      "reason": "前沿实验室AI发展速度的量化研究，行业风向标"
     },
     {
-      "title": "How Claude is uplifting biomolecular modeling",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5PbzNJUlpWVXZ6VzVsNU13YVBoQUNmTDNEUG83cTFoZk1oU0ZQMFJCWFhqNTFZSGVZWkg3RjBRNktiaXZjd1ZoNTRLM3NpS2V4a3lVUXRJVXFDbXVwRmhfdDlPSy04ZVBzUHB3aHFEUjRtcHVzd0dvN0NYMA?oc=5",
+      "title": "Dynamically Scaled Activation Steering",
+      "sourceUrl": "https://machinelearning.apple.com/research/dynamically-scaled-activation-steering",
+      "source": "Apple ML Research",
+      "reason": "Apple提出动态缩放激活引导，模型控制新方法"
+    },
+    {
+      "title": "Introducing the Australian Youth Safety Blueprint",
+      "sourceUrl": "https://openai.com/index/australian-youth-safety-blueprint",
+      "source": "OpenAI",
+      "reason": "OpenAI发布澳洲青少年安全蓝图，AI治理重要动向"
+    },
+    {
+      "title": "Accelerating open-source biomolecular models with Claude",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBrX011ekl5UkFCcG1wSlVXaHJRUEZOa2xzMjdqUG9BRFp6T0JTV0NTNWpFV3VsZ3BtY0I3OS1HYVdjRmF5ZnBMa1AxU1lzU3A3MU1vdUd1Y3JpSDFkcUoweDFkVWEwTXlWRGFxdzhBa1UwaFhqSjdMaFk3UnV5cUU?oc=5",
       "source": "Anthropic",
-      "reason": "Claude助力生物分子建模，AI4Science重要落地"
+      "reason": "Claude加速开源生物分子模型，AI4Science落地"
     },
     {
-      "title": "Partnering with Accenture on embedded evaluation",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1zV25taFVITFJSbmFtMnJkRnRZMF9MOUdTaUNBSmgwc0czUmFuMEZJZHVrM0t6elFIVVJvQ1dSelJ0a2xHTDhSWnNOcUF6NmVXREFXSm5iMWVoRmJjZUVDMFhoSHRrUkRXMnNmU3Jybw?oc=5",
-      "source": "Anthropic",
-      "reason": "Anthropic与埃森哲合作嵌入式评估，企业级动向"
-    },
-    {
-      "title": "Inside Claude for Financial Advisors",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1sOGpwSU80bnNqZUI3ZEdjWk9xQkV5Mi1oX09uVzR5QmVrd2R1c0M1UWxMdFRUc0U1RExVbWJ1UldieEh0RU0yaWM3MDNaazRuUFFRQm5VR096VmE1SmJGSVdXZ2hXd3NDbk96OHh6VDc2aE1UMHBlV2RBZw?oc=5",
-      "source": "Anthropic",
-      "reason": "Claude进军金融顾问场景，垂直行业应用拓展"
-    },
-    {
-      "title": "Quantifying Overclaiming Propensity in Frontier LLM Agents",
-      "sourceUrl": "http://arxiv.org/abs/2609.20812v1",
-      "source": "arXiv",
-      "reason": "量化前沿LLM智能体过度宣称倾向，安全议题关键"
+      "title": "The future of practice: Enabling teachers to create learning interactives with generative UI",
+      "sourceUrl": "https://research.google/blog/the-future-of-practice-enabling-teachers-to-create-learning-interactives-with-generative-ui/",
+      "source": "Google Research",
+      "reason": "Google用生成式UI赋能教师，教育AI创新"
     }
   ],
-  "trendSummary": "本周AI圈聚焦落地与评测，从金融顾问、教育互动到时尚共创，大厂加速把模型嵌入真实场景，同时探索前沿实验室的评估标准。"
+  "trendSummary": "大模型正加速渗透金融、时尚与开发工具，同时学界业界联手关注AI发展节奏与安全评估。"
 }
