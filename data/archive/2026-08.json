@@ -11865,7 +11865,7 @@
     "origin": "hackernews",
     "aiNote": null,
     "image": null,
-    "heat": 20,
+    "heat": 21,
     "firstSeen": "2026-08-07T01:33:58.898Z",
     "fetchedAt": null,
     "tier": 2
@@ -19658,7 +19658,7 @@
     "origin": "hackernews",
     "aiNote": null,
     "image": null,
-    "heat": 19,
+    "heat": 20,
     "firstSeen": "2026-08-10T22:57:01.923Z",
     "fetchedAt": null,
     "tier": 2
@@ -25659,7 +25659,7 @@
     "origin": "hackernews",
     "aiNote": "开源大模型竞争白热化，后发者能否撼动头部格局值得紧盯。",
     "image": null,
-    "heat": 20,
+    "heat": 21,
     "firstSeen": "2026-08-12T23:02:39.648Z",
     "fetchedAt": null,
     "tier": 2
@@ -25909,7 +25909,7 @@
     "origin": "hackernews",
     "aiNote": null,
     "image": null,
-    "heat": 19,
+    "heat": 20,
     "firstSeen": "2026-08-12T23:02:39.648Z",
     "fetchedAt": null,
     "tier": 2
@@ -29091,7 +29091,7 @@
     "origin": "hackernews",
     "aiNote": null,
     "image": null,
-    "heat": 23,
+    "heat": 24,
     "firstSeen": "2026-08-13T23:04:07.240Z",
     "fetchedAt": null,
     "tier": 2
@@ -30897,7 +30897,7 @@
     "aiSelected": true,
     "origin": "rss:interconnects",
     "aiNote": "中国大模型独立创新路径清晰，破除“蒸馏依赖”偏见，展现前沿追赶的真实技术实力。",
-    "heat": 23,
+    "heat": 22,
     "firstSeen": "2026-08-14T22:41:58.336Z",
     "fetchedAt": null,
     "tier": 2
@@ -33821,7 +33821,7 @@
     "aiSelected": true,
     "origin": "rss:raschka",
     "aiNote": "从零构建AI文本检测器，覆盖数据到部署全流程，实操价值高。",
-    "heat": 23,
+    "heat": 22,
     "firstSeen": "2026-08-15T22:38:48.662Z",
     "fetchedAt": null,
     "tier": 2
@@ -46375,7 +46375,7 @@
     "aiSelected": true,
     "origin": "rss:google-research",
     "aiNote": "生成式AI入局可穿戴数据挖掘，为生物标志物筛选提速，医疗诊断智能化再进一步。",
-    "heat": 32,
+    "heat": 31,
     "firstSeen": "2026-08-21T22:43:12.096Z",
     "fetchedAt": null,
     "tier": 1
@@ -46689,7 +46689,7 @@
     "aiSelected": true,
     "origin": "rss:deepmind",
     "aiNote": null,
-    "heat": 32,
+    "heat": 31,
     "firstSeen": "2026-08-21T22:43:12.096Z",
     "fetchedAt": null,
     "tier": 1
@@ -47198,7 +47198,7 @@
     "aiSelected": true,
     "origin": "rss:hf-blog",
     "aiNote": null,
-    "heat": 32,
+    "heat": 31,
     "firstSeen": "2026-08-21T22:43:12.096Z",
     "fetchedAt": null,
     "tier": 1
@@ -54775,7 +54775,7 @@
     "aiSelected": true,
     "origin": "rss:hf-blog",
     "aiNote": null,
-    "heat": 32,
+    "heat": 31,
     "firstSeen": "2026-08-25T22:47:03.342Z",
     "fetchedAt": null,
     "tier": 1
@@ -57547,7 +57547,7 @@
     "origin": "hackernews",
     "aiNote": null,
     "image": null,
-    "heat": 16,
+    "heat": 15,
     "firstSeen": "2026-08-27T03:20:48.283Z",
     "fetchedAt": null,
     "tier": 2
@@ -57717,7 +57717,7 @@
     "aiSelected": true,
     "origin": "rss:tldr-ai",
     "aiNote": null,
-    "heat": 24,
+    "heat": 23,
     "firstSeen": "2026-08-27T03:20:48.283Z",
     "fetchedAt": null,
     "tier": 2
@@ -57955,7 +57955,7 @@
       "multimodal-llm",
       "Python"
     ],
-    "engagement": 1621,
+    "engagement": 1635,
     "aiSelected": true,
     "origin": "github",
     "aiNote": null,
@@ -59838,7 +59838,7 @@
     "aiSelected": true,
     "origin": "rss:google-research",
     "aiNote": null,
-    "heat": 33,
+    "heat": 32,
     "firstSeen": "2026-08-28T06:09:11.114Z",
     "fetchedAt": null,
     "tier": 1
@@ -60108,7 +60108,7 @@
     "aiSelected": true,
     "origin": "rss:deepmind",
     "aiNote": null,
-    "heat": 33,
+    "heat": 32,
     "firstSeen": "2026-08-28T06:09:11.114Z",
     "fetchedAt": null,
     "tier": 1
@@ -60159,7 +60159,7 @@
     "aiSelected": true,
     "origin": "rss:google-ai",
     "aiNote": null,
-    "heat": 33,
+    "heat": 32,
     "firstSeen": "2026-08-28T06:09:11.114Z",
     "fetchedAt": null,
     "tier": 1
@@ -60562,7 +60562,7 @@
     "aiSelected": true,
     "origin": "rss:deepmind",
     "aiNote": null,
-    "heat": 33,
+    "heat": 32,
     "firstSeen": "2026-08-28T06:09:11.114Z",
     "fetchedAt": null,
     "tier": 1
@@ -64624,7 +64624,7 @@
       "claude-code",
       "Python"
     ],
-    "engagement": 2689,
+    "engagement": 2713,
     "aiSelected": true,
     "origin": "github",
     "aiNote": null,
