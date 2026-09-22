@@ -1,37 +1,37 @@
 {
-  "date": "2026-09-21",
-  "generatedAt": "2026-09-21T00:18:02.174Z",
+  "date": "2026-09-22",
+  "generatedAt": "2026-09-22T00:52:26.861Z",
   "picks": [
-    {
-      "title": "A heap overflow and SSO misconfiguration to compromise OpenAI internal repos",
-      "sourceUrl": "https://www.hacktron.ai/blog/hacking-openai",
-      "source": "Hacker News",
-      "reason": "OpenAI内部仓库遭堆溢出与SSO配置漏洞攻破，安全警示性强"
-    },
     {
       "title": "ChatGPT now knows what you do on other websites via ad collector",
       "sourceUrl": "https://www.buchodi.com/chatgpt-now-knows-what-you-do-on-other-websites-via-ad-collector/",
       "source": "Hacker News",
-      "reason": "ChatGPT借广告收集器读取用户其他网站行为，隐私争议重大"
+      "reason": "ChatGPT借广告采集器获取跨站浏览数据，隐私争议重大"
     },
     {
-      "title": "ZCode, the GLM coding agent, silently uploads your Git history",
-      "sourceUrl": "https://tokenstead.ai/guides/zcode-silent-git-history-upload",
-      "source": "Hacker News",
-      "reason": "GLM编程代理被曝静默上传Git历史，开发者数据安全风险"
+      "title": "Higgsfield AI ships new video features in a day with GPT-6 Astra",
+      "sourceUrl": "https://openai.com/index/higgsfield-from-prompt-to-production-with-astra",
+      "source": "OpenAI",
+      "reason": "GPT-6 Astra赋能视频广告，一天上线新功能"
     },
     {
       "title": "Measurements for understanding the pace of AI development inside frontier labs",
       "sourceUrl": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1hSlNaZU5CMXdjOERiMTltcEVxMXduUXVrT1UtSExlUGlUUHFCc2huOVM0NEY0cmhCMVF6X0o2QjMwUUZOQkhuSGlHVjFlaWdKelR3ZTEzUV9SRzRIdkxhV3RfQ0N2OUI5U214a0RqZjh3c2MxUktr?oc=5",
       "source": "Anthropic",
-      "reason": "Anthropic提出衡量前沿实验室AI发展节奏的方法，方法论价值高"
+      "reason": "Anthropic公开前沿实验室AI发展速度的度量方法"
     },
     {
-      "title": "GPT-6 Astra Solves a WWI German Radio Cipher",
-      "sourceUrl": "https://www.prinzai.com/p/gpt-6-astra-solves-a-wwi-german-radio",
-      "source": "Hacker News",
-      "reason": "GPT-6 Astra破解一战德军无线电密码，AI能力突破引关注"
+      "title": "AI Security Is an Engineering Problem — How to Solve It at Every Layer of the Agent Stack",
+      "sourceUrl": "https://blogs.nvidia.com/blog/ai-security-agent-stack/",
+      "source": "NVIDIA",
+      "reason": "AI安全被重新定义为工程问题，覆盖Agent全栈"
+    },
+    {
+      "title": "Building standards for the next phase of AI",
+      "sourceUrl": "https://openai.com/index/building-standards-next-phase-ai",
+      "source": "OpenAI",
+      "reason": "OpenAI呼吁建立全球AI标准，影响行业走向"
     }
   ],
-  "trendSummary": "本周AI圈聚焦模型能力评估与行业落地，从实验室节奏衡量到金融、时尚等场景渗透，同时ChatGPT广告追踪引发隐私关注。"
+  "trendSummary": "本周AI圈从模型研发转向落地与规范，算力基建、安全部署和行业标准成为焦点。"
 }
