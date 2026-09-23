@@ -1,37 +1,37 @@
 {
-  "date": "2026-09-22",
-  "generatedAt": "2026-09-22T00:52:26.861Z",
+  "date": "2026-09-23",
+  "generatedAt": "2026-09-23T00:36:55.693Z",
   "picks": [
     {
-      "title": "ChatGPT now knows what you do on other websites via ad collector",
-      "sourceUrl": "https://www.buchodi.com/chatgpt-now-knows-what-you-do-on-other-websites-via-ad-collector/",
-      "source": "Hacker News",
-      "reason": "ChatGPT借广告采集器获取跨站浏览数据，隐私争议重大"
+      "title": "Introducing GPT-6 Sol and Luna",
+      "sourceUrl": "https://openai.com/index/introducing-gpt-6-sol-and-luna",
+      "source": "OpenAI",
+      "reason": "OpenAI发布GPT-6双模型，前沿智能落地日常应用"
     },
     {
-      "title": "Higgsfield AI ships new video features in a day with GPT-6 Astra",
-      "sourceUrl": "https://openai.com/index/higgsfield-from-prompt-to-production-with-astra",
-      "source": "OpenAI",
-      "reason": "GPT-6 Astra赋能视频广告，一天上线新功能"
+      "title": "Introducing Claude Opus 5.5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9xbTN1a0tOdm9kT0JxbVBHMU9XYUhpUjd0MHNFYm8yd2pRMnhjdEYzdjF3ckZEY1V0a2ZQTXlyRUhteVozMlhDbVQ3Mm1KWlRYbUVF?oc=5",
+      "source": "Anthropic",
+      "reason": "Anthropic推出Claude Opus 5.5，头部模型竞争升级"
     },
     {
       "title": "Measurements for understanding the pace of AI development inside frontier labs",
       "sourceUrl": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1hSlNaZU5CMXdjOERiMTltcEVxMXduUXVrT1UtSExlUGlUUHFCc2huOVM0NEY0cmhCMVF6X0o2QjMwUUZOQkhuSGlHVjFlaWdKelR3ZTEzUV9SRzRIdkxhV3RfQ0N2OUI5U214a0RqZjh3c2MxUktr?oc=5",
       "source": "Anthropic",
-      "reason": "Anthropic公开前沿实验室AI发展速度的度量方法"
+      "reason": "前沿实验室AI发展速度测量，洞察行业节奏"
     },
     {
-      "title": "AI Security Is an Engineering Problem — How to Solve It at Every Layer of the Agent Stack",
-      "sourceUrl": "https://blogs.nvidia.com/blog/ai-security-agent-stack/",
-      "source": "NVIDIA",
-      "reason": "AI安全被重新定义为工程问题，覆盖Agent全栈"
-    },
-    {
-      "title": "Building standards for the next phase of AI",
-      "sourceUrl": "https://openai.com/index/building-standards-next-phase-ai",
+      "title": "Better prompt caching for GPT-6",
+      "sourceUrl": "https://openai.com/index/better-prompt-caching-for-gpt-6",
       "source": "OpenAI",
-      "reason": "OpenAI呼吁建立全球AI标准，影响行业走向"
+      "reason": "GPT-6提示缓存优化，提升命中率与开发效率"
+    },
+    {
+      "title": "NVIDIA Isaac ROS 5.0 Advances Agentic, Open Source Robotics Development",
+      "sourceUrl": "https://blogs.nvidia.com/blog/isaac-ros-5-0-agentic-open-source-robotics/",
+      "source": "NVIDIA",
+      "reason": "NVIDIA Isaac ROS 5.0推进智能体开源机器人开发"
     }
   ],
-  "trendSummary": "本周AI圈从模型研发转向落地与规范，算力基建、安全部署和行业标准成为焦点。"
+  "trendSummary": "本周GPT-6与Claude Opus 5.5双双更新，前沿实验室开始重视开发节奏评估与第三方测评，英伟达则推动机器人智能体开源。"
 }
