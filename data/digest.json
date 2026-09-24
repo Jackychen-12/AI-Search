@@ -1,37 +1,37 @@
 {
-  "date": "2026-09-23",
-  "generatedAt": "2026-09-23T00:36:55.693Z",
+  "date": "2026-09-24",
+  "generatedAt": "2026-09-24T00:31:31.433Z",
   "picks": [
     {
-      "title": "Introducing GPT-6 Sol and Luna",
-      "sourceUrl": "https://openai.com/index/introducing-gpt-6-sol-and-luna",
-      "source": "OpenAI",
-      "reason": "OpenAI发布GPT-6双模型，前沿智能落地日常应用"
+      "title": "Claude discovers a novel enzyme system with CRISPR-like repeats",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9JT0FwTVctZXNkYnJXeW44aHhoZmJfbDYwN3B4a2tMTThJZm9XRklxMkEzdFlxb2Z6VGM2UnpDTGlaQ09PODJUMkJFWWl1UVZOTDJ0WU1UQ1pZMDlrbS0tM3FTS0RGWmNSeGt5QlJjZktQWkl4N0E?oc=5",
+      "source": "Anthropic",
+      "reason": "Claude发现类CRISPR新型酶系统，AI科研里程碑"
     },
     {
-      "title": "Introducing Claude Opus 5.5",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9xbTN1a0tOdm9kT0JxbVBHMU9XYUhpUjd0MHNFYm8yd2pRMnhjdEYzdjF3ckZEY1V0a2ZQTXlyRUhteVozMlhDbVQ3Mm1KWlRYbUVF?oc=5",
+      "title": "Autonomous AI agents discover reverse transcriptases with tandem repeat arrays",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE10cjdNSUdBZFU1c0lEOHJ4N3FRZ0gtMFBPNXllaENuTlQyWGN6enpnLVdzWkNwVjVQMzdWX2p6VXgyamhOeDF0SW1oRVcxZlUycm41NjM1ZXFXbGtDa1JONW4xbXljd0lLaFZmU0M2ZkIxY01MMXNFSDFWRzBDUDQ?oc=5",
       "source": "Anthropic",
-      "reason": "Anthropic推出Claude Opus 5.5，头部模型竞争升级"
+      "reason": "自主AI智能体发现逆转录酶，科学自动化突破"
     },
     {
       "title": "Measurements for understanding the pace of AI development inside frontier labs",
       "sourceUrl": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1hSlNaZU5CMXdjOERiMTltcEVxMXduUXVrT1UtSExlUGlUUHFCc2huOVM0NEY0cmhCMVF6X0o2QjMwUUZOQkhuSGlHVjFlaWdKelR3ZTEzUV9SRzRIdkxhV3RfQ0N2OUI5U214a0RqZjh3c2MxUktr?oc=5",
       "source": "Anthropic",
-      "reason": "前沿实验室AI发展速度测量，洞察行业节奏"
+      "reason": "Anthropic提出衡量前沿实验室AI发展速度的方法"
     },
     {
-      "title": "Better prompt caching for GPT-6",
-      "sourceUrl": "https://openai.com/index/better-prompt-caching-for-gpt-6",
+      "title": "Sam Altman’s remarks at the United Nations Security Council",
+      "sourceUrl": "https://openai.com/index/sam-altman-un-security-council-remarks",
       "source": "OpenAI",
-      "reason": "GPT-6提示缓存优化，提升命中率与开发效率"
+      "reason": "Altman在联合国安理会谈AI安全与国际合作"
     },
     {
-      "title": "NVIDIA Isaac ROS 5.0 Advances Agentic, Open Source Robotics Development",
-      "sourceUrl": "https://blogs.nvidia.com/blog/isaac-ros-5-0-agentic-open-source-robotics/",
-      "source": "NVIDIA",
-      "reason": "NVIDIA Isaac ROS 5.0推进智能体开源机器人开发"
+      "title": "Introducing MentalHealthBench",
+      "sourceUrl": "https://openai.com/index/introducing-mentalhealthbench",
+      "source": "OpenAI",
+      "reason": "OpenAI发布心理健康评估基准，安全评测受关注"
     }
   ],
-  "trendSummary": "本周GPT-6与Claude Opus 5.5双双更新，前沿实验室开始重视开发节奏评估与第三方测评，英伟达则推动机器人智能体开源。"
+  "trendSummary": "本周AI前沿聚焦智能体自主科研突破，从发现逆转录酶到类CRISPR系统，同时机器人仿真与隐私计算加速落地。"
 }
