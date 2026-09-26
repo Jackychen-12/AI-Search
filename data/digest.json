@@ -1,37 +1,37 @@
 {
-  "date": "2026-09-25",
-  "generatedAt": "2026-09-25T00:34:29.110Z",
+  "date": "2026-09-26",
+  "generatedAt": "2026-09-26T00:38:34.860Z",
   "picks": [
-    {
-      "title": "Introducing Gemini 3.8 Live with Live Avatar",
-      "sourceUrl": "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/",
-      "source": "Google DeepMind",
-      "reason": "Gemini 3.8 Live 新增实时虚拟形象，多模态交互重大升级"
-    },
     {
       "title": "Opus 5.5 for Work",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE00dWwwdEZIOXRVaHBSM09MYy1ZMk5TQ1RsUzFxem8wQTQwMGdvVmxHTFd4NTN5ODhTUVdLSi1ObUx1WjJ0aTA5ZU1lNHZEeWlBSkliTkoxTjY2czRzaFprVGpB?oc=5",
       "source": "Anthropic",
-      "reason": "Anthropic 推出 Opus 5.5 企业版，面向办公场景"
+      "reason": "Anthropic发布Opus 5.5，旗舰模型迭代直接影响行业格局"
     },
     {
-      "title": "Claude discovers a novel enzyme system with CRISPR-like repeats",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9JT0FwTVctZXNkYnJXeW44aHhoZmJfbDYwN3B4a2tMTThJZm9XRklxMkEzdFlxb2Z6VGM2UnpDTGlaQ09PODJUMkJFWWl1UVZOTDJ0WU1UQ1pZMDlrbS0tM3FTS0RGWmNSeGt5QlJjZktQWkl4N0E?oc=5",
+      "title": "Measurements for understanding the pace of AI development inside frontier labs",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1hSlNaZU5CMXdjOERiMTltcEVxMXduUXVrT1UtSExlUGlUUHFCc2huOVM0NEY0cmhCMVF6X0o2QjMwUUZOQkhuSGlHVjFlaWdKelR3ZTEzUV9SRzRIdkxhV3RfQ0N2OUI5U214a0RqZjh3c2MxUktr?oc=5",
       "source": "Anthropic",
-      "reason": "Claude 自主发现类 CRISPR 新型酶系统，科研突破"
+      "reason": "前沿实验室AI发展速度的量化研究，具行业参考价值"
     },
     {
-      "title": "Automating coherent long-form video generation",
-      "sourceUrl": "https://research.google/blog/coherent-long-form-video-generation/",
-      "source": "Google Research",
-      "reason": "Google 实现长视频连贯生成自动化，创作门槛降低"
+      "title": "LLM Agents Can Easily Tamper With Their Own Traces",
+      "sourceUrl": "http://arxiv.org/abs/2609.30266v1",
+      "source": "arXiv",
+      "reason": "揭示LLM智能体可篡改自身痕迹，安全风险重大"
     },
     {
-      "title": "Autonomous AI agents discover reverse transcriptases with tandem repeat arrays",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE10cjdNSUdBZFU1c0lEOHJ4N3FRZ0gtMFBPNXllaENuTlQyWGN6enpnLVdzWkNwVjVQMzdWX2p6VXgyamhOeDF0SW1oRVcxZlUycm41NjM1ZXFXbGtDa1JONW4xbXljd0lLaFZmU0M2ZkIxY01MMXNFSDFWRzBDUDQ?oc=5",
+      "title": "Claude computes a nine-loop amplitude in N=4 super-Yang-Mills",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA0cmtPNG1Fa0prVnBpWXZmaDh4VXRGOE5haUQzQ1VjY3BpUnRJNks2UFhNdEhXdjdDaDFGbHdTX3FCTVhmeDBLdWIyZWVBVlY1T2tUMWNZYWNXX3NoaWIxdWxNQ3NLczNiSWRuTjZjWkQ?oc=5",
       "source": "Anthropic",
-      "reason": "AI 智能体自主发现逆转录酶，加速生物研究"
+      "reason": "Claude完成九圈振幅计算，展现AI科研推理新高度"
+    },
+    {
+      "title": "Proaction boosts sales 60% and saves 75+ hours with Codex",
+      "sourceUrl": "https://openai.com/index/proaction",
+      "source": "OpenAI",
+      "reason": "Codex落地案例，销量增60%验证AI商业价值"
     }
   ],
-  "trendSummary": "本周AI圈聚焦多模态与智能体落地，视频生成、语音识别和视觉模型持续提速，同时业界开始正视AI在心理健康和城市研究中的伦理风险。"
+  "trendSummary": "本周AI圈聚焦Agent自主交易与自我篡改风险，同时大模型正加速渗透科研计算、视频生成和企业销售。"
 }
