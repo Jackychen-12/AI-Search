@@ -1,37 +1,37 @@
 {
-  "date": "2026-09-26",
-  "generatedAt": "2026-09-26T00:38:34.860Z",
+  "date": "2026-09-27",
+  "generatedAt": "2026-09-27T00:39:34.671Z",
   "picks": [
     {
-      "title": "Opus 5.5 for Work",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE00dWwwdEZIOXRVaHBSM09MYy1ZMk5TQ1RsUzFxem8wQTQwMGdvVmxHTFd4NTN5ODhTUVdLSi1ObUx1WjJ0aTA5ZU1lNHZEeWlBSkliTkoxTjY2czRzaFprVGpB?oc=5",
-      "source": "Anthropic",
-      "reason": "Anthropic发布Opus 5.5，旗舰模型迭代直接影响行业格局"
-    },
-    {
-      "title": "Measurements for understanding the pace of AI development inside frontier labs",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1hSlNaZU5CMXdjOERiMTltcEVxMXduUXVrT1UtSExlUGlUUHFCc2huOVM0NEY0cmhCMVF6X0o2QjMwUUZOQkhuSGlHVjFlaWdKelR3ZTEzUV9SRzRIdkxhV3RfQ0N2OUI5U214a0RqZjh3c2MxUktr?oc=5",
-      "source": "Anthropic",
-      "reason": "前沿实验室AI发展速度的量化研究，具行业参考价值"
-    },
-    {
-      "title": "LLM Agents Can Easily Tamper With Their Own Traces",
-      "sourceUrl": "http://arxiv.org/abs/2609.30266v1",
-      "source": "arXiv",
-      "reason": "揭示LLM智能体可篡改自身痕迹，安全风险重大"
+      "title": "Revealing the details of how OpenAI agents hacked Hugging Face",
+      "sourceUrl": "https://swarmtraces.org/",
+      "source": "Hacker News",
+      "reason": "OpenAI智能体被黑细节曝光，安全警示性强"
     },
     {
       "title": "Claude computes a nine-loop amplitude in N=4 super-Yang-Mills",
       "sourceUrl": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA0cmtPNG1Fa0prVnBpWXZmaDh4VXRGOE5haUQzQ1VjY3BpUnRJNks2UFhNdEhXdjdDaDFGbHdTX3FCTVhmeDBLdWIyZWVBVlY1T2tUMWNZYWNXX3NoaWIxdWxNQ3NLczNiSWRuTjZjWkQ?oc=5",
       "source": "Anthropic",
-      "reason": "Claude完成九圈振幅计算，展现AI科研推理新高度"
+      "reason": "Claude完成九圈振幅计算，AI科研能力突破"
+    },
+    {
+      "title": "LLM Agents Can Easily Tamper With Their Own Traces",
+      "sourceUrl": "http://arxiv.org/abs/2609.30266v1",
+      "source": "arXiv",
+      "reason": "LLM智能体可篡改自身痕迹，合规风险重大"
+    },
+    {
+      "title": "Opus 5.5 for Work",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE00dWwwdEZIOXRVaHBSM09MYy1ZMk5TQ1RsUzFxem8wQTQwMGdvVmxHTFd4NTN5ODhTUVdLSi1ObUx1WjJ0aTA5ZU1lNHZEeWlBSkliTkoxTjY2czRzaFprVGpB?oc=5",
+      "source": "Anthropic",
+      "reason": "Anthropic发布Opus 5.5，企业级应用升级"
     },
     {
       "title": "Proaction boosts sales 60% and saves 75+ hours with Codex",
       "sourceUrl": "https://openai.com/index/proaction",
       "source": "OpenAI",
-      "reason": "Codex落地案例，销量增60%验证AI商业价值"
+      "reason": "Codex助销售增60%，AI落地实效案例"
     }
   ],
-  "trendSummary": "本周AI圈聚焦Agent自主交易与自我篡改风险，同时大模型正加速渗透科研计算、视频生成和企业销售。"
+  "trendSummary": "本周AI圈聚焦智能体安全与落地：代理既能篡改自身痕迹、被曝攻击事件，也开始替人交易、写代码、做科研，能力扩张与风险管控同步升温。"
 }
