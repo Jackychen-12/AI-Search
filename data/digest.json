@@ -1,37 +1,37 @@
 {
-  "date": "2026-09-27",
-  "generatedAt": "2026-09-27T00:39:34.671Z",
+  "date": "2026-09-28",
+  "generatedAt": "2026-09-28T00:48:49.760Z",
   "picks": [
     {
-      "title": "Revealing the details of how OpenAI agents hacked Hugging Face",
-      "sourceUrl": "https://swarmtraces.org/",
+      "title": "Unsealed Briefs in Authors’ Case v. Microsoft/OpenAI",
+      "sourceUrl": "https://authorsguild.org/news/ag-v-openai-top-execs-knew-mass-book-piracy-was-illegal/",
       "source": "Hacker News",
-      "reason": "OpenAI智能体被黑细节曝光，安全警示性强"
+      "reason": "作家诉微软OpenAI案文件解封，版权诉讼关键进展"
     },
     {
-      "title": "Claude computes a nine-loop amplitude in N=4 super-Yang-Mills",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA0cmtPNG1Fa0prVnBpWXZmaDh4VXRGOE5haUQzQ1VjY3BpUnRJNks2UFhNdEhXdjdDaDFGbHdTX3FCTVhmeDBLdWIyZWVBVlY1T2tUMWNZYWNXX3NoaWIxdWxNQ3NLczNiSWRuTjZjWkQ?oc=5",
-      "source": "Anthropic",
-      "reason": "Claude完成九圈振幅计算，AI科研能力突破"
+      "title": "U.S. appeals court upholds designation of Anthropic as supply chain risk",
+      "sourceUrl": "https://www.cnbc.com/2026/09/25/pentagon-anthropic-ai-risk-appeals-court.html",
+      "source": "Hacker News",
+      "reason": "上诉法院维持Anthropic供应链风险认定，影响重大"
     },
     {
-      "title": "LLM Agents Can Easily Tamper With Their Own Traces",
-      "sourceUrl": "http://arxiv.org/abs/2609.30266v1",
-      "source": "arXiv",
-      "reason": "LLM智能体可篡改自身痕迹，合规风险重大"
+      "title": "Anthropic’s CEO is about to have dinner with President Trump",
+      "sourceUrl": "https://techcrunch.com/2026/09/27/anthropics-ceo-is-about-to-have-dinner-with-president-trump/",
+      "source": "TechCrunch",
+      "reason": "Anthropic CEO与特朗普首次单独会面，政商风向标"
     },
     {
-      "title": "Opus 5.5 for Work",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE00dWwwdEZIOXRVaHBSM09MYy1ZMk5TQ1RsUzFxem8wQTQwMGdvVmxHTFd4NTN5ODhTUVdLSi1ObUx1WjJ0aTA5ZU1lNHZEeWlBSkliTkoxTjY2czRzaFprVGpB?oc=5",
-      "source": "Anthropic",
-      "reason": "Anthropic发布Opus 5.5，企业级应用升级"
+      "title": "Microsoft abandons personal AI chatbot race with Copilot reboot",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-09-25/microsoft-abandons-personal-ai-chatbot-race-with-copilot-reboot",
+      "source": "Hacker News",
+      "reason": "微软放弃个人AI聊天机器人赛道，战略转向"
     },
     {
-      "title": "Proaction boosts sales 60% and saves 75+ hours with Codex",
-      "sourceUrl": "https://openai.com/index/proaction",
-      "source": "OpenAI",
-      "reason": "Codex助销售增60%，AI落地实效案例"
+      "title": "Classified estimates show the NSA is paying billions to test AI models",
+      "sourceUrl": "https://www.washingtonsun.com/technology/classified-estimates-nsa-paying-billions-to-test-ai-models",
+      "source": "Hacker News",
+      "reason": "NSA斥资数十亿测试AI模型的机密估算曝光"
     }
   ],
-  "trendSummary": "本周AI圈聚焦智能体安全与落地：代理既能篡改自身痕迹、被曝攻击事件，也开始替人交易、写代码、做科研，能力扩张与风险管控同步升温。"
+  "trendSummary": "本周AI圈聚焦智能体安全与落地：一边是OpenAI智能体被曝漏洞、版权诉讼升温，一边是企业用AI提效增收，科研与伦理探索同步推进。"
 }
