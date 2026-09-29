@@ -1,37 +1,37 @@
 {
-  "date": "2026-09-28",
-  "generatedAt": "2026-09-28T00:48:49.760Z",
+  "date": "2026-09-29",
+  "generatedAt": "2026-09-29T01:59:56.952Z",
   "picks": [
     {
-      "title": "Unsealed Briefs in Authors’ Case v. Microsoft/OpenAI",
-      "sourceUrl": "https://authorsguild.org/news/ag-v-openai-top-execs-knew-mass-book-piracy-was-illegal/",
-      "source": "Hacker News",
-      "reason": "作家诉微软OpenAI案文件解封，版权诉讼关键进展"
+      "title": "Introducing Claude Sonnet 5.5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9QeW1PdlZjMmdtNW5PQm94Nm1mN09LVFB1bk8zOE1fdTRhOG1nMUt4YnhPd0V5ZVNCWklyN0pGT29Uc2lxR3NZZjc0dG5ZaTB0dFBQNHZ3?oc=5",
+      "source": "Anthropic",
+      "reason": "Anthropic发布Claude Sonnet 5.5，今日最重磅模型更新"
     },
     {
-      "title": "U.S. appeals court upholds designation of Anthropic as supply chain risk",
-      "sourceUrl": "https://www.cnbc.com/2026/09/25/pentagon-anthropic-ai-risk-appeals-court.html",
-      "source": "Hacker News",
-      "reason": "上诉法院维持Anthropic供应链风险认定，影响重大"
+      "title": "Claude Sonnet 5.5 System Card",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9qV0J6eHRjNVU4N0s5TXVvN3Q1NUZ1SWt6a0dZLW9pcFppU0VhbmpFVS1NRzRTZGpyXzJseDI0S2JmcVlrTDEwUHRDSlRxYXNMNEQwUXE3TUpyTEVQT2w5RDM0RENpdw?oc=5",
+      "source": "Anthropic",
+      "reason": "配套系统卡披露安全评估细节，值得关注"
     },
     {
-      "title": "Anthropic’s CEO is about to have dinner with President Trump",
-      "sourceUrl": "https://techcrunch.com/2026/09/27/anthropics-ceo-is-about-to-have-dinner-with-president-trump/",
-      "source": "TechCrunch",
-      "reason": "Anthropic CEO与特朗普首次单独会面，政商风向标"
+      "title": "Basis completes a tax workbook 2x faster with GPT-6 Astra",
+      "sourceUrl": "https://openai.com/index/basis-tax-workbook-with-astra",
+      "source": "OpenAI",
+      "reason": "GPT-6 Astra实战案例，展现效率翻倍能力"
     },
     {
-      "title": "Microsoft abandons personal AI chatbot race with Copilot reboot",
-      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-09-25/microsoft-abandons-personal-ai-chatbot-race-with-copilot-reboot",
-      "source": "Hacker News",
-      "reason": "微软放弃个人AI聊天机器人赛道，战略转向"
+      "title": "Hallo, Deutschland!",
+      "sourceUrl": "https://mistral.ai/news/hallo-deutschland/",
+      "source": "Mistral AI",
+      "reason": "Mistral进军德国设研发中心，布局物理AI"
     },
     {
-      "title": "Classified estimates show the NSA is paying billions to test AI models",
-      "sourceUrl": "https://www.washingtonsun.com/technology/classified-estimates-nsa-paying-billions-to-test-ai-models",
-      "source": "Hacker News",
-      "reason": "NSA斥资数十亿测试AI模型的机密估算曝光"
+      "title": "New formulation helps RNA vaccines withstand high temperatures",
+      "sourceUrl": "https://news.mit.edu/2026/new-formulation-helps-rna-vaccines-withstand-high-temperatures-0928",
+      "source": "MIT News",
+      "reason": "MIT突破RNA疫苗热稳定性，实用价值高"
     }
   ],
-  "trendSummary": "本周AI圈聚焦智能体安全与落地：一边是OpenAI智能体被曝漏洞、版权诉讼升温，一边是企业用AI提效增收，科研与伦理探索同步推进。"
+  "trendSummary": "本周AI圈聚焦新一代模型发布与落地，Claude Sonnet 5.5和GPT-6 Astra推动智能体与行业应用加速普及。"
 }
