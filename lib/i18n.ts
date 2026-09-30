@@ -143,8 +143,6 @@ const dict: Record<string, Record<Locale, string>> = {
   "gh.gained": { zh: "新增", en: " gained" },
   "gh.stat.repos": { zh: "追踪项目", en: "Repos tracked" },
   "gh.stat.stars": { zh: "新增 Star", en: " stars" },
-  "gh.stat.track": { zh: "最热赛道", en: "Hottest track" },
-  "gh.stat.top": { zh: "增速冠军", en: "Fastest riser" },
   "gh.insight": { zh: "趋势速览", en: "At a glance" },
   "gh.onlyNew": { zh: "只看新项目", en: "New repos only" },
   "gh.new": { zh: "新项目", en: "New" },

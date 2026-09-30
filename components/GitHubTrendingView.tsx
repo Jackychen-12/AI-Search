@@ -44,6 +44,9 @@ function momentum(r: GhRepo): "up" | "down" | null {
   return null;
 }
 
+/** Repo descriptions often carry emoji — strip them so the page stays typographically calm. */
+const plain = (text: string) => text.replace(/\p{Extended_Pictographic}\uFE0F?/gu, "").replace(/\s{2,}/g, " ").trim();
+
 /** Hotness across windows — for lists that aren't tied to one period (fun column). */
 const score = (r: GhRepo) => (r.gained.weekly ?? 0) + (r.gained.daily ?? 0) * 3 + (r.gained.monthly ?? 0) / 4;
 
@@ -221,7 +224,7 @@ function Meta({ r, now }: { r: GhRepo; now: number }) {
 
 /** Chinese take when we have one, else the (English) description. */
 function Blurb({ r, lines }: { r: GhRepo; lines: 1 | 2 }) {
-  const text = r.aiNote || r.description;
+  const text = plain(r.aiNote || r.description || "");
   if (!text) return null;
   return (
     <p
@@ -324,12 +327,13 @@ function ListRow({ r, rank, period, now, fresh }: { r: GhRepo; rank: number; per
 
 // --- fun column (sidebar) -----------------------------------------------------
 
-function FunRow({ r }: { r: GhRepo }) {
+function FunRow({ r, period }: { r: GhRepo; period: GhPeriod }) {
   const { t, locale } = useLocale();
   const kind = GH_FUN_KINDS[r.fun!];
   const [owner] = r.fullName.split("/");
-  const g = bestGain(r);
-  const blurb = r.aiNote || r.description;
+  const n = r.gained[period];
+  const g = n !== undefined ? { period, n } : bestGain(r);
+  const blurb = plain(r.aiNote || r.description || "");
   return (
     <li>
       <a
@@ -371,7 +375,7 @@ function MoreButton({ onClick, children }: { onClick: () => void; children: Reac
 
 function SectionTitle({ title, desc, action }: { title: string; desc?: string; action?: React.ReactNode }) {
   return (
-    <div className="flex items-end justify-between gap-3 mb-3">
+    <div className="flex flex-wrap items-end justify-between gap-3 mb-3">
       <div className="min-w-0">
         <h2 className="text-base font-semibold dark:text-gray-100 flex items-center gap-2">
           <span className="w-1 h-4 bg-brand-500 rounded-sm" />
@@ -400,8 +404,17 @@ function SideCard({ title, desc, children }: { title: string; desc?: string; chi
 /** Leaderboard rows shown before "expand all". */
 const BOARD_LIMIT = 20;
 
-/** Dividers between stats: 2 columns on mobile, 4 from sm. */
-const STAT_DIVIDER = ["", "border-l pl-4", "sm:border-l sm:pl-4", "border-l pl-4"];
+/**
+ * Fun column picks: repos moving in the selected period first (so the numbers
+ * read like the rest of the page), one per kind for variety, then fill by heat.
+ */
+function pickFun(list: GhRepo[], period: GhPeriod, n = 6): GhRepo[] {
+  const rank = (r: GhRepo) => (r.gained[period] !== undefined ? 1e9 + (r.gained[period] ?? 0) : score(r));
+  const sorted = [...list].sort((a, b) => rank(b) - rank(a));
+  const seen = new Set<string>();
+  const firstOfKind = sorted.filter((r) => !seen.has(r.fun!) && seen.add(r.fun!));
+  return [...firstOfKind, ...sorted.filter((r) => !firstOfKind.includes(r))].slice(0, n);
+}
 
 const pill = (active: boolean) =>
   "px-3 h-7 inline-flex items-center rounded-full transition-all duration-200 text-[13px] font-medium " +
@@ -445,13 +458,7 @@ export default function GitHubTrendingView({ snapshot }: { snapshot: GhTrendingS
     return { stats, total: stats.reduce((s, x) => s + x.gained, 0) };
   }, [inPeriod, period]);
 
-  const funAll = useMemo(() => repos.filter((r) => r.fun).sort((a, b) => score(b) - score(a)), [repos]);
-  // Column: the hottest repo of each kind first (variety), then fill by heat.
-  const funPicks = useMemo(() => {
-    const seen = new Set<string>();
-    const firstOfKind = funAll.filter((r) => !seen.has(r.fun!) && seen.add(r.fun!));
-    return [...firstOfKind, ...funAll.filter((r) => !firstOfKind.includes(r))].slice(0, 6);
-  }, [funAll]);
+  const funAll = useMemo(() => repos.filter((r) => r.fun), [repos]);
 
   const breakouts = useMemo(
     () =>
@@ -462,8 +469,7 @@ export default function GitHubTrendingView({ snapshot }: { snapshot: GhTrendingS
           return { r, isNew: w === undefined, ratio: w ? (r.gained.daily ?? 0) / w : Infinity };
         })
         .filter((x) => x.isNew || x.ratio >= 1.8)
-        .sort((a, b) => (b.r.gained.daily ?? 0) - (a.r.gained.daily ?? 0))
-        .slice(0, 6),
+        .sort((a, b) => (b.r.gained.daily ?? 0) - (a.r.gained.daily ?? 0)),
     [repos],
   );
 
@@ -478,56 +484,52 @@ export default function GitHubTrendingView({ snapshot }: { snapshot: GhTrendingS
   const hottest = ranked[0]?.gained > 0 ? ranked[0] : null;
   const second = ranked[1]?.gained > 0 ? ranked[1] : null;
   const leader = inPeriod[0];
-  const breakoutNames = breakouts
-    .filter((b) => b.r !== leader)
-    .slice(0, 2)
-    .map((b) => b.r.fullName.split("/")[1]);
   const bySource = (s: GhSource) => repos.filter((r) => r.sources.includes(s)).length;
+  const strong = "text-gray-800 dark:text-gray-200 font-medium";
 
+  // One line of narrative; counts live in the stats, momentum in the sidebar.
   const insight =
     locale === "zh" ? (
       <>
-        {periodLabel}共 <b className="text-gray-800 dark:text-gray-200">{inPeriod.length}</b> 个项目上榜，新增{" "}
-        <b className="text-gray-800 dark:text-gray-200">{fmt(trackStats.total)}</b> Star
         {hottest && (
           <>
-            ；<b className="text-gray-800 dark:text-gray-200">{hottest.def.zh}</b>（{share(hottest.gained)}%）
+            <span className={strong}>{hottest.def.zh}</span>（{share(hottest.gained)}%）
             {second && (
               <>
-                与 <b className="text-gray-800 dark:text-gray-200">{second.def.zh}</b>（{share(second.gained)}%）
+                与 <span className={strong}>{second.def.zh}</span>（{share(second.gained)}%）
               </>
             )}
-            最热
+            贡献了最多新增 Star
           </>
         )}
         {leader && (
           <>
-            ，增速最快的是 <b className="text-gray-800 dark:text-gray-200">{leader.fullName}</b>（+{fmt(leader.gained[period] ?? 0)}）
+            {hottest ? "，" : ""}
+            <span className={strong}>{leader.fullName}</span> 以 +{fmt(leader.gained[period] ?? 0)} 领跑
           </>
         )}
-        {breakoutNames.length > 0 && <>；今日突围：{breakoutNames.join("、")}</>}。
+        。
       </>
     ) : (
       <>
-        {inPeriod.length} repos gained <b className="text-gray-800 dark:text-gray-200">{fmt(trackStats.total)}</b> stars{" "}
-        {periodLabel.toLowerCase()}.
         {hottest && (
           <>
-            {" "}
-            <b className="text-gray-800 dark:text-gray-200">{hottest.def.en}</b> ({share(hottest.gained)}%)
+            <span className={strong}>{hottest.def.en}</span> ({share(hottest.gained)}%)
             {second && (
               <>
-                {" "}and <b className="text-gray-800 dark:text-gray-200">{second.def.en}</b> ({share(second.gained)}%)
+                {" "}and <span className={strong}>{second.def.en}</span> ({share(second.gained)}%)
               </>
             )}{" "}
-            lead.
+            drew the most new stars
           </>
         )}
         {leader && (
           <>
-            {" "}Fastest riser: <b className="text-gray-800 dark:text-gray-200">{leader.fullName}</b> (+{fmt(leader.gained[period] ?? 0)}).
+            {hottest ? "; " : ""}
+            <span className={strong}>{leader.fullName}</span> leads with +{fmt(leader.gained[period] ?? 0)}
           </>
         )}
+        .
       </>
     );
 
@@ -537,22 +539,21 @@ export default function GitHubTrendingView({ snapshot }: { snapshot: GhTrendingS
     { key: "fun", label: t("gh.fun.tab"), count: inPeriod.filter((r) => r.fun).length },
   ];
 
-  const stats: { value: React.ReactNode; label: string; sub?: string }[] = [
+  const stats: { value: string; label: string; sub?: string }[] = [
+    { value: String(inPeriod.length), label: locale === "zh" ? `${periodLabel}上榜` : `Trending ${periodLabel.toLowerCase()}` },
+    { value: `+${fmt(trackStats.total)}`, label: `${periodLabel}${t("gh.stat.stars")}` },
     {
-      value: repos.length,
+      value: String(repos.length),
       label: t("gh.stat.repos"),
       sub: `Trending ${bySource("trending")} · ${t("gh.paper")} ${bySource("paper")} · ${t("gh.discovered")} ${bySource("discover")}`,
-    },
-    { value: `+${fmt(trackStats.total)}`, label: `${periodLabel}${t("gh.stat.stars")}` },
-    { value: hottest ? trackName(hottest.def.key) : "—", label: t("gh.stat.track"), sub: hottest ? `${share(hottest.gained)}%` : undefined },
-    {
-      value: leader ? leader.fullName.split("/")[1] : "—",
-      label: t("gh.stat.top"),
-      sub: leader ? `+${fmt(leader.gained[period] ?? 0)} Star` : undefined,
     },
   ];
 
   const top = visible.slice(0, 3);
+  const shown = new Set(top.map((r) => r.fullName));
+  const breakoutsShown = breakouts.filter((b) => !shown.has(b.r.fullName)).slice(0, 5);
+  breakoutsShown.forEach((b) => shown.add(b.r.fullName));
+  const funShown = pickFun(funAll.filter((r) => !shown.has(r.fullName)), period);
   const rest = visible.slice(3, expanded ? undefined : BOARD_LIMIT);
   const showBoard = () => document.getElementById("gh-board")?.scrollIntoView({ behavior: "smooth", block: "start" });
 
@@ -590,12 +591,10 @@ export default function GitHubTrendingView({ snapshot }: { snapshot: GhTrendingS
 
       <main id="main-content" className="max-w-7xl mx-auto px-4 py-6 pb-24 md:pb-10 grid grid-cols-1 lg:grid-cols-[1fr_300px] gap-6">
         <section className="min-w-0 space-y-8">
-          {/* Hero panel */}
-          <div className="card relative overflow-hidden p-5 sm:p-6">
-            <div className="pointer-events-none absolute -top-24 -right-20 w-72 h-72 rounded-full bg-brand-500/10 blur-3xl" />
-            <GitHubMark className="pointer-events-none absolute -right-6 -bottom-10 w-44 h-44 text-gray-900/[0.03] dark:text-white/[0.035]" />
-
-            <div className="relative flex items-start justify-between gap-4 flex-wrap">
+          {/* Page header — overview, only on the "全部" tab */}
+          {track === "all" && (
+          <div className="card p-5 sm:p-6 bg-gradient-to-br from-brand-50/80 via-transparent to-transparent dark:from-brand-500/10">
+            <div>
               <div className="min-w-0">
                 <h1 className="text-2xl font-bold dark:text-gray-100 flex items-center gap-2">
                   <GitHubMark className="w-6 h-6" />
@@ -609,30 +608,26 @@ export default function GitHubTrendingView({ snapshot }: { snapshot: GhTrendingS
                   {t("gh.updated")} {today} {formatBJTime(snapshot.fetchedAt)}
                 </p>
               </div>
-              <div className="flex items-center gap-1 p-1 bg-gray-100 dark:bg-gray-800 rounded-full">
-                {(["daily", "weekly", "monthly"] as GhPeriod[]).map((p) => (
-                  <button key={p} onClick={() => setPeriod(p)} className={pill(period === p)}>
-                    {t(`gh.period.${p}`)}
-                  </button>
-                ))}
-              </div>
             </div>
 
-            <div className="relative mt-6 grid grid-cols-2 sm:grid-cols-4 gap-y-5">
-              {stats.map((s, i) => (
-                <div key={i} className={"min-w-0 pr-3 border-gray-100 dark:border-gray-700 " + STAT_DIVIDER[i]}>
-                  <div className="text-2xl font-bold tabular-nums text-brand-600 dark:text-brand-500 truncate">{s.value}</div>
-                  <div className="mt-0.5 text-xs text-gray-500 dark:text-gray-400">{s.label}</div>
-                  {s.sub && <div className="text-[11px] text-gray-400 dark:text-gray-500 truncate">{s.sub}</div>}
+            <dl className="mt-5 flex divide-x divide-gray-200/70 dark:divide-gray-700">
+              {stats.map((s) => (
+                <div key={s.label} className="min-w-0 px-4 sm:px-6 first:pl-0">
+                  <dd className="text-xl sm:text-2xl font-bold tabular-nums text-brand-600 dark:text-brand-500">{s.value}</dd>
+                  <dt className="mt-0.5 text-xs text-gray-500 dark:text-gray-400">{s.label}</dt>
+                  {s.sub && <dd className="hidden sm:block text-[11px] text-gray-400 dark:text-gray-500">{s.sub}</dd>}
                 </div>
               ))}
-            </div>
+            </dl>
 
-            <p className="relative mt-6 pt-4 border-t border-gray-100 dark:border-gray-700 text-sm text-gray-600 dark:text-gray-400 leading-relaxed">
-              <span className="text-brand-600 dark:text-brand-500 font-medium">{t("gh.insight")} · </span>
-              {insight}
-            </p>
+            {(hottest || leader) && (
+              <p className="mt-5 pt-4 border-t border-gray-200/70 dark:border-gray-700 text-sm text-gray-600 dark:text-gray-400 leading-relaxed">
+                <span className="text-brand-600 dark:text-brand-500 font-medium">{t("gh.insight")} · </span>
+                {insight}
+              </p>
+            )}
           </div>
+          )}
 
           {/* Leaderboard */}
           <div id="gh-board" className="scroll-mt-4">
@@ -653,6 +648,13 @@ export default function GitHubTrendingView({ snapshot }: { snapshot: GhTrendingS
                     {t("feed.showing")} <b className="text-gray-700 dark:text-gray-200">{visible.length}</b>
                     {locale === "zh" ? " 个" : ""}
                   </span>
+                  <div className="flex items-center gap-1 p-1 bg-gray-100 dark:bg-gray-800 rounded-full">
+                    {(["daily", "weekly", "monthly"] as GhPeriod[]).map((p) => (
+                      <button key={p} onClick={() => setPeriod(p)} className={pill(period === p)}>
+                        {t(`gh.period.${p}`)}
+                      </button>
+                    ))}
+                  </div>
                   <div className="flex items-center p-1 bg-gray-100 dark:bg-gray-800 rounded-full">
                     <button onClick={() => setOnlyNew((v) => !v)} className={pill(onlyNew)} aria-pressed={onlyNew}>
                       {t("gh.onlyNew")}
@@ -732,10 +734,10 @@ export default function GitHubTrendingView({ snapshot }: { snapshot: GhTrendingS
             </ul>
           </SideCard>
 
-          {breakouts.length > 0 && (
+          {breakoutsShown.length > 0 && (
             <SideCard title={t("gh.breakout")} desc={t("gh.breakout.desc")}>
               <ol className="space-y-1">
-                {breakouts.map(({ r, isNew, ratio }, idx) => (
+                {breakoutsShown.map(({ r, isNew, ratio }, idx) => (
                   <li key={r.fullName}>
                     <a
                       href={r.url}
@@ -768,11 +770,11 @@ export default function GitHubTrendingView({ snapshot }: { snapshot: GhTrendingS
             </SideCard>
           )}
 
-          {funAll.length > 0 && (
+          {funShown.length > 0 && (
             <SideCard title={t("gh.fun")} desc={t("gh.fun.desc")}>
               <ol className="space-y-1">
-                {funPicks.map((r) => (
-                  <FunRow key={r.fullName} r={r} />
+                {funShown.map((r) => (
+                  <FunRow key={r.fullName} r={r} period={period} />
                 ))}
               </ol>
               <MoreButton
