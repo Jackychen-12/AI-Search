@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-30T09:21:55.521Z",
+  "fetchedAt": "2026-09-30T09:58:10.098Z",
   "count": 787,
   "sources": {
     "hf-papers": 50,
@@ -52,7 +52,6 @@
     "arxiv": 20
   },
   "errors": {
-    "rss:venturebeat-ai": "HTTP 429 Too Many Requests <- https://venturebeat.com/category/ai/feed/",
-    "rss:marktechpost": "HTTP 403 Forbidden <- https://www.marktechpost.com/feed/"
+    "rss:venturebeat-ai": "HTTP 429 Too Many Requests <- https://venturebeat.com/category/ai/feed/"
   }
 }
