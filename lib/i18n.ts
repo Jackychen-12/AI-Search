@@ -153,7 +153,6 @@ const dict: Record<string, Record<Locale, string>> = {
   "gh.viewAll": { zh: "查看全部", en: "View all" },
   "gh.expand": { zh: "展开全部", en: "Show all" },
   "gh.collapse": { zh: "收起", en: "Collapse" },
-  "gh.board": { zh: "热度榜", en: "Leaderboard" },
   "gh.days": { zh: " 天", en: "d" },
   "gh.accel": { zh: "加速", en: "Accelerating" },
   "gh.decel": { zh: "放缓", en: "Cooling" },

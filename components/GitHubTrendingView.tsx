@@ -1,6 +1,6 @@
 "use client";
 
-import { Fragment, useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { useLocale } from "./LocaleProvider";
 import GitHubMark, { ForkIcon, StarIcon } from "./GitHubMark";
 import {
@@ -18,7 +18,7 @@ import {
 } from "@/lib/ghTrending";
 import { formatBJDate, formatBJTime } from "@/lib/timeFormat";
 
-type TrackFilter = GhTrack | "all" | "fun";
+type TrackFilter = GhTrack | "all";
 
 /** 38088 -> "38.1k", 1293 -> "1,293" */
 function fmt(n: number): string {
@@ -373,21 +373,6 @@ function MoreButton({ onClick, children }: { onClick: () => void; children: Reac
   );
 }
 
-function SectionTitle({ title, desc, action }: { title: string; desc?: string; action?: React.ReactNode }) {
-  return (
-    <div className="flex flex-wrap items-end justify-between gap-3 mb-3">
-      <div className="min-w-0">
-        <h2 className="text-base font-semibold dark:text-gray-100 flex items-center gap-2">
-          <span className="w-1 h-4 bg-brand-500 rounded-sm" />
-          {title}
-        </h2>
-        {desc && <p className="mt-0.5 text-xs text-gray-500 dark:text-gray-400 truncate">{desc}</p>}
-      </div>
-      {action}
-    </div>
-  );
-}
-
 function SideCard({ title, desc, children }: { title: string; desc?: string; children: React.ReactNode }) {
   return (
     <div className="card p-4">
@@ -427,8 +412,10 @@ export default function GitHubTrendingView({ snapshot }: { snapshot: GhTrendingS
   const [period, setPeriod] = useState<GhPeriod>("weekly");
   const [track, setTrack] = useState<TrackFilter>("all");
   const [onlyNew, setOnlyNew] = useState(false);
+  // "有趣玩法" is a filter like "只看新项目" (combinable with any track), not a track.
+  const [onlyFun, setOnlyFun] = useState(false);
   const [expanded, setExpanded] = useState(false);
-  useEffect(() => setExpanded(false), [track, period, onlyNew]);
+  useEffect(() => setExpanded(false), [track, period, onlyNew, onlyFun]);
 
   const repos = useMemo(() => snapshot?.repos ?? [], [snapshot]);
   // Snapshot time, not Date.now(): identical on server and client (no hydration drift).
@@ -446,7 +433,8 @@ export default function GitHubTrendingView({ snapshot }: { snapshot: GhTrendingS
     [repos, period, onlyNew, now],
   );
   const matches = (r: GhRepo) =>
-    (track === "all" || (track === "fun" ? !!r.fun : r.track === track)) &&
+    (track === "all" || r.track === track) &&
+    (!onlyFun || !!r.fun) &&
     (!onlyNew || (ghAgeDays(r.createdAt, now) ?? Infinity) <= GH_NEW_DAYS);
   const visible = inPeriod.filter(matches);
 
@@ -533,11 +521,13 @@ export default function GitHubTrendingView({ snapshot }: { snapshot: GhTrendingS
       </>
     );
 
-  const tabs: { key: TrackFilter; label: string; count: number; color?: string }[] = [
-    { key: "all", label: t("gh.all"), count: inPeriod.length },
-    ...trackStats.stats.map((s) => ({ key: s.def.key, label: trackName(s.def.key), count: s.count, color: s.def.color })),
-    { key: "fun", label: t("gh.fun.tab"), count: inPeriod.filter((r) => r.fun).length },
+  const base = onlyFun ? inPeriod.filter((r) => r.fun) : inPeriod;
+  const tabs: { key: TrackFilter; label: string; count: number }[] = [
+    { key: "all", label: t("gh.all"), count: base.length },
+    ...GH_TRACKS.map((d) => ({ key: d.key, label: trackName(d.key), count: base.filter((r) => r.track === d.key).length })),
   ];
+  const note =
+    track !== "all" ? (locale === "zh" ? GH_TRACK_MAP[track].descZh : GH_TRACK_MAP[track].descEn) : onlyFun ? t("gh.fun.desc") : "";
 
   const stats: { value: string; label: string; sub?: string }[] = [
     { value: String(inPeriod.length), label: locale === "zh" ? `${periodLabel}上榜` : `Trending ${periodLabel.toLowerCase()}` },
@@ -559,38 +549,30 @@ export default function GitHubTrendingView({ snapshot }: { snapshot: GhTrendingS
 
   return (
     <>
-      {/* Track tabs — same pattern as the home page category bar. */}
-      <div className="border-b border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-900">
-        <div className="max-w-7xl mx-auto px-4 flex items-center gap-1 overflow-x-auto scroll-hide">
-          {tabs.map((tab) => {
-            const active = track === tab.key;
-            const desc =
-              tab.key === "all" ? undefined : tab.key === "fun" ? t("gh.fun.desc") : locale === "zh" ? GH_TRACK_MAP[tab.key].descZh : GH_TRACK_MAP[tab.key].descEn;
-            return (
-              <Fragment key={tab.key}>
-              {tab.key === "fun" && <span aria-hidden className="shrink-0 w-px h-4 mx-2 bg-gray-200 dark:bg-gray-700" />}
-              <button
-                onClick={() => setTrack(tab.key)}
-                title={desc}
-                className={
-                  "shrink-0 px-3 h-11 flex items-center gap-1.5 text-sm border-b-2 transition-colors duration-150 " +
-                  (active
-                    ? "border-brand-500 text-brand-600 dark:text-brand-500 font-medium"
-                    : "border-transparent text-gray-600 dark:text-gray-300 hover:text-brand-600")
-                }
-              >
-                {tab.color && <span className="w-1.5 h-1.5 rounded-full" style={{ background: tab.color }} />}
-                {tab.label}
-                <span className="text-[11px] text-gray-400 font-normal tabular-nums">{tab.count}</span>
-              </button>
-              </Fragment>
-            );
-          })}
-        </div>
-      </div>
-
       <main id="main-content" className="max-w-7xl mx-auto px-4 py-6 pb-24 md:pb-10 grid grid-cols-1 lg:grid-cols-[1fr_300px] gap-6">
-        <section className="min-w-0 space-y-8">
+        <section className="min-w-0 space-y-5">
+          {/* Track tabs — underline tabs like the home category bar, scoped to the content column */}
+          <div className="flex items-center gap-1 overflow-x-auto scroll-hide border-b border-gray-200 dark:border-gray-700">
+            {tabs.map((tab) => {
+              const active = track === tab.key;
+              return (
+                <button
+                  key={tab.key}
+                  onClick={() => setTrack(tab.key)}
+                  className={
+                    "shrink-0 -mb-px px-3 h-11 flex items-center gap-1.5 text-sm border-b-2 transition-colors duration-150 " +
+                    (active
+                      ? "border-brand-500 text-brand-600 dark:text-brand-500 font-medium"
+                      : "border-transparent text-gray-600 dark:text-gray-300 hover:text-brand-600")
+                  }
+                >
+                  {tab.label}
+                  <span className="text-[11px] text-gray-400 font-normal tabular-nums">{tab.count}</span>
+                </button>
+              );
+            })}
+          </div>
+
           {/* Page header — overview, only on the "全部" tab */}
           {track === "all" && (
           <div className="card p-5 sm:p-6 bg-gradient-to-br from-brand-50/80 via-transparent to-transparent dark:from-brand-500/10">
@@ -631,38 +613,32 @@ export default function GitHubTrendingView({ snapshot }: { snapshot: GhTrendingS
 
           {/* Leaderboard */}
           <div id="gh-board" className="scroll-mt-4">
-            <SectionTitle
-              title={
-                track === "all"
-                  ? t("gh.board")
-                  : track === "fun"
-                    ? t("gh.fun")
-                    : trackName(track)
-              }
-              desc={
-                track === "all" ? undefined : track === "fun" ? t("gh.fun.desc") : locale === "zh" ? GH_TRACK_MAP[track].descZh : GH_TRACK_MAP[track].descEn
-              }
-              action={
-                <div className="shrink-0 flex items-center gap-3">
-                  <span className="hidden sm:inline text-xs text-gray-500 dark:text-gray-400">
-                    {t("feed.showing")} <b className="text-gray-700 dark:text-gray-200">{visible.length}</b>
-                    {locale === "zh" ? " 个" : ""}
-                  </span>
-                  <div className="flex items-center gap-1 p-1 bg-gray-100 dark:bg-gray-800 rounded-full">
-                    {(["daily", "weekly", "monthly"] as GhPeriod[]).map((p) => (
-                      <button key={p} onClick={() => setPeriod(p)} className={pill(period === p)}>
-                        {t(`gh.period.${p}`)}
-                      </button>
-                    ))}
-                  </div>
-                  <div className="flex items-center p-1 bg-gray-100 dark:bg-gray-800 rounded-full">
-                    <button onClick={() => setOnlyNew((v) => !v)} className={pill(onlyNew)} aria-pressed={onlyNew}>
-                      {t("gh.onlyNew")}
+            {/* Row 1 — like the home SortTabs: rounded pill groups */}
+            <div className="flex items-center justify-between gap-3 flex-wrap mb-4">
+              <div className="flex items-center gap-3 flex-wrap">
+                <div className="flex items-center gap-1 p-1 bg-gray-100 dark:bg-gray-800 rounded-full">
+                  {(["daily", "weekly", "monthly"] as GhPeriod[]).map((p) => (
+                    <button key={p} onClick={() => setPeriod(p)} className={pill(period === p)}>
+                      {t(`gh.period.${p}`)}
                     </button>
-                  </div>
+                  ))}
                 </div>
-              }
-            />
+                <div className="flex items-center gap-1 p-1 bg-gray-100 dark:bg-gray-800 rounded-full">
+                  <button onClick={() => setOnlyNew((v) => !v)} className={pill(onlyNew)} aria-pressed={onlyNew}>
+                    {t("gh.onlyNew")}
+                  </button>
+                  <button onClick={() => setOnlyFun((v) => !v)} className={pill(onlyFun)} aria-pressed={onlyFun}>
+                    {t("gh.fun.tab")}
+                  </button>
+                </div>
+              </div>
+              <span className="text-sm text-gray-500 dark:text-gray-400">
+                {t("feed.showing")} <span className="text-gray-800 dark:text-gray-200 font-medium">{visible.length}</span>
+                {locale === "zh" ? " 个" : ""}
+              </span>
+            </div>
+
+            {note && <p className="-mt-1 mb-4 text-xs text-gray-400 dark:text-gray-500">{note}</p>}
 
             {visible.length === 0 ? (
               <div className="card p-8 text-center text-sm text-gray-500 dark:text-gray-400">
@@ -779,7 +755,8 @@ export default function GitHubTrendingView({ snapshot }: { snapshot: GhTrendingS
               </ol>
               <MoreButton
                 onClick={() => {
-                  setTrack("fun");
+                  setTrack("all");
+                  setOnlyFun(true);
                   showBoard();
                 }}
               >
