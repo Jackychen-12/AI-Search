@@ -110,6 +110,10 @@ function main() {
   const stories = buildStories([...(items as unknown as AIItem[]), ...readArchive()]).slice(0, 50);
   writeApi("stories.json", stories);
 
+  // 9. GitHub AI 趋势 — hot AI / agent repos from GitHub Trending
+  const gh = readJson(path.join(DATA_DIR, "github-trending.json"));
+  if (gh) writeApi("github-trending.json", gh);
+
   console.log(
     `[api] done — ${items.length} items, ${dates.length} dates, ${sources.length} sources, ${stories.length} stories`,
   );

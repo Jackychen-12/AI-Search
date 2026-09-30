@@ -50,6 +50,8 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data/items.json data/meta.json data/digest.json data/archive data/weekly-insight.json data/weekly-insights || true
+          # Separate: a missing trends snapshot must not abort staging the rest.
+          git add data/github-trending.json 2>/dev/null || true
           if git diff --staged --quiet; then
             echo "No snapshot changes."
           else

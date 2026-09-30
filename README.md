@@ -35,6 +35,7 @@
 | 🤖 | **AI 解读** | 每条资讯一句话 AI 点评 + 每日必读精选 + 周报 AI 总结 |
 | 📊 | **6 种视角** | 首页瀑布流 / 日报 / 周报 / 趋势图 / 话题聚合 / 时间线 |
 | 📈 | **交互式趋势** | 纯 SVG 折线图，hover 看数值，分类 / 话题筛选面板 |
+| 🐙 | **GitHub AI 趋势** | 每日汇总 GitHub Trending、HF 热门论文代码与世界模型新项目，按 7 个赛道分类，附新增 Star、增速与相关报道 |
 | ⭐ | **个性化** | 关注 / 屏蔽来源 · 收藏 · 已读 · 导出，全存浏览器本地 |
 | 🔍 | **全文搜索** | MiniSearch 模糊搜索 + ⌘K 命令面板 + 搜索历史 |
 | 🌙 | **暗色模式** | 跟随系统偏好自动切换 |
@@ -110,6 +111,7 @@ A **zero-server, zero-database** AI industry news aggregator. GitHub Actions aut
 | 🤖 | **AI Commentary** | One-line AI review per article + daily picks + weekly AI summary |
 | 📊 | **6 Views** | Feed / Daily / Weekly / Trends / Topics / Timeline |
 | 📈 | **Interactive Trends** | Pure SVG charts, hover values, category & topic filtering |
+| 🐙 | **GitHub AI Trending** | Daily GitHub Trending + trending paper code + new world-model repos, in 7 tracks with stars gained, momentum and related news |
 | ⭐ | **Personalization** | Follow/block sources · bookmarks · read status · export, all in localStorage |
 | 🔍 | **Full-Text Search** | MiniSearch fuzzy search + ⌘K command palette |
 | 🌙 | **Dark Mode** | Auto-follows system preference |

@@ -63,6 +63,7 @@ AI 每日必读
 | `/digest.json` | AI 每日必读（3-5 条精选 + 推荐理由） |
 | `/sources.json` | 数据来源列表（名称 + 条目数） |
 | `/meta.json` | 抓取元数据（时间、各源条目数、失败源） |
+| `/github-trending.json` | GitHub AI 趋势：Trending + 热门论文代码 + 世界模型新项目，含赛道（Agent 框架 / 编程 Agent / MCP · Skills / AI 应用 / 世界模型 · 具身 / 学术研究 / 模型 · 基建）、今日/本周/本月新增 Star、相关报道，适合回答“最近 GitHub 上什么 Agent 项目最火” |
 
 ## 数据结构
 

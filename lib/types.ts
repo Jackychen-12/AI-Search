@@ -44,6 +44,8 @@ export interface AIItem {
   aiNote?: string | null;
   /** Cover image URL (extracted from the feed item, if any). */
   image?: string | null;
+  /** Set at build time when the item is about a repo on /github (GitHub AI 趋势). */
+  ghTrend?: { repo: string; gained: number; period: "daily" | "weekly" | "monthly" } | null;
 }
 
 export interface ItemsQuery {

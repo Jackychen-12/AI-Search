@@ -21,6 +21,7 @@ import { updateArchive } from "./lib/archive";
 import { buildDigest, buildWeeklyInsight } from "./lib/digest";
 import { applyHistory, dedupeAndSort, loadPrevious, writeSnapshot } from "./lib/persist";
 import { bjWeekRange } from "./lib/time";
+import { runGithubTrending } from "./crawlGithub";
 import { arxiv } from "./sources/arxiv";
 import { github } from "./sources/github";
 import { hackernews } from "./sources/hackernews";
@@ -131,6 +132,16 @@ export async function runCrawl(only: string[] = []): Promise<CrawlResult> {
       "utf8",
     );
     console.log(`[weekly-insight] saved to ${WEEKLY_INSIGHT_PATH} + ${WEEKLY_INSIGHTS_DIR}/${startDate}.json`);
+  }
+
+  // GitHub AI 趋势 (/github) — separate snapshot; a Trending outage must not fail the crawl.
+  if (only.length === 0 || only.includes("gh-trending")) {
+    try {
+      const gh = await runGithubTrending();
+      console.log(`[gh-trending] ${gh.written} AI repos (${gh.counts.trending} trending scanned)`);
+    } catch (e) {
+      errors["gh-trending"] = String(e instanceof Error ? e.message : e).slice(0, 200);
+    }
   }
 
   return { total: all.length, written: count, sources, errors, path: outPath };

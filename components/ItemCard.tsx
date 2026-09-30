@@ -5,7 +5,9 @@ import { CATEGORY_MAP } from "@/lib/categories";
 import { formatItemTime } from "@/lib/timeFormat";
 import { highlight } from "@/lib/highlight";
 import { cleanText } from "@/lib/text";
+import Link from "next/link";
 import SourceIcon from "./SourceIcon";
+import GitHubMark from "./GitHubMark";
 import { useLocale } from "./LocaleProvider";
 
 const NEW_WINDOW_MS = 24 * 60 * 60 * 1000; // one crawl cycle — keeps NEW meaningful
@@ -111,7 +113,7 @@ export default function ItemCard({
         </p>
       )}
 
-      <div className="pt-2 mt-auto border-t border-gray-100 dark:border-gray-700 text-xs text-gray-500 dark:text-gray-400">
+      <div className="pt-2 mt-auto border-t border-gray-100 dark:border-gray-700 text-xs text-gray-500 dark:text-gray-400 flex items-center justify-between gap-2">
         <a
           href={item.sourceUrl}
           target="_blank"
@@ -123,6 +125,16 @@ export default function ItemCard({
           <SourceIcon url={item.sourceUrl} source={item.source} size={14} />
           <span className="truncate">{item.source}</span>
         </a>
+        {item.ghTrend && (
+          <Link
+            href="/github"
+            title={item.ghTrend.repo}
+            className="shrink-0 inline-flex items-center gap-1 text-amber-600 dark:text-amber-400 font-medium hover:underline"
+          >
+            <GitHubMark className="w-3 h-3" />
+            {t("card.ghTrend")} · {t(`gh.period.${item.ghTrend.period}`)} +{item.ghTrend.gained >= 10000 ? `${(item.ghTrend.gained / 1000).toFixed(1)}k` : item.ghTrend.gained.toLocaleString("en-US")}
+          </Link>
+        )}
       </div>
     </article>
   );

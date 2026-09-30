@@ -9,6 +9,7 @@
     "start": "next start",
     "lint": "next lint",
     "crawl": "tsx scripts/crawl.ts",
+    "crawl:github": "tsx scripts/crawlGithub.ts",
     "test": "vitest run"
   },
   "dependencies": {
