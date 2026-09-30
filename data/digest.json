@@ -1,37 +1,37 @@
 {
-  "date": "2026-09-29",
-  "generatedAt": "2026-09-29T01:59:56.952Z",
+  "date": "2026-09-30",
+  "generatedAt": "2026-09-30T01:18:54.069Z",
   "picks": [
     {
-      "title": "Introducing Claude Sonnet 5.5",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9QeW1PdlZjMmdtNW5PQm94Nm1mN09LVFB1bk8zOE1fdTRhOG1nMUt4YnhPd0V5ZVNCWklyN0pGT29Uc2lxR3NZZjc0dG5ZaTB0dFBQNHZ3?oc=5",
-      "source": "Anthropic",
-      "reason": "Anthropic发布Claude Sonnet 5.5，今日最重磅模型更新"
-    },
-    {
-      "title": "Claude Sonnet 5.5 System Card",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9qV0J6eHRjNVU4N0s5TXVvN3Q1NUZ1SWt6a0dZLW9pcFppU0VhbmpFVS1NRzRTZGpyXzJseDI0S2JmcVlrTDEwUHRDSlRxYXNMNEQwUXE3TUpyTEVQT2w5RDM0RENpdw?oc=5",
-      "source": "Anthropic",
-      "reason": "配套系统卡披露安全评估细节，值得关注"
-    },
-    {
-      "title": "Basis completes a tax workbook 2x faster with GPT-6 Astra",
-      "sourceUrl": "https://openai.com/index/basis-tax-workbook-with-astra",
+      "title": "Introducing GPT-6.1 Sol",
+      "sourceUrl": "https://openai.com/index/introducing-gpt-6-1-sol",
       "source": "OpenAI",
-      "reason": "GPT-6 Astra实战案例，展现效率翻倍能力"
+      "reason": "OpenAI发布GPT-6.1 Sol，旗舰模型重大升级，行业焦点"
     },
     {
-      "title": "Hallo, Deutschland!",
-      "sourceUrl": "https://mistral.ai/news/hallo-deutschland/",
-      "source": "Mistral AI",
-      "reason": "Mistral进军德国设研发中心，布局物理AI"
+      "title": "DevDay 2026 Recap",
+      "sourceUrl": "https://openai.com/index/devday-2026-recap",
+      "source": "OpenAI",
+      "reason": "DevDay 2026汇总20余项发布，含GPT-6 Astra，必读"
     },
     {
-      "title": "New formulation helps RNA vaccines withstand high temperatures",
-      "sourceUrl": "https://news.mit.edu/2026/new-formulation-helps-rna-vaccines-withstand-high-temperatures-0928",
-      "source": "MIT News",
-      "reason": "MIT突破RNA疫苗热稳定性，实用价值高"
+      "title": "Building with the Claude 5.5 Family: Choosing the Right Model and Getting More from Every Token",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQRHZqQWJnNEZtVXVNWUx1RlRacG5MLUFTcVBEb2FMZUtzMzNRdklBR0NIMERTbFppaTEyZUZrOFhWRjhMaFFPenE3eTBRX21vSlJKakwxU2Q4SzFqRXFyRDd5X1R5X2dQTUg4c0IxR2o2c09BTG9tOE5VZm1UczdHSjQyMGlPeEtqVzhzSURXb0xQbTJKVFFyQVFrTEpkMFZ1UUtPd2lTcEszMWh0NVA3SDBvcUREaVBDV1lVMUs0TzluNG0xcjk1MA?oc=5",
+      "source": "Anthropic",
+      "reason": "Anthropic详解Claude 5.5家族选型与token优化，实用指南"
+    },
+    {
+      "title": "GLM-5.3 and the spread of advanced cyber capabilities",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPX212WWhHNWgzWkdtSlZTV3hiU3ZVdmJoUnJPMl92MVlMd1VadHJrbXJ3RjFvdXJib3dueWk0eUFwY25DallZUTJGd1J2MWRTRkFZcWNoa1g3YVBzaEdKbmF5TE1HakN0cnI5emUwdVlKeTZPY2o5R3RheG54R0E2ODVVZXpVUGZ3MDFVQ0h3bDh0UQ?oc=5",
+      "source": "Anthropic",
+      "reason": "GLM-5.3与高级网络能力扩散，AI安全重要议题"
+    },
+    {
+      "title": "Introducing Quine: An AI research system designed for the complexity of biology",
+      "sourceUrl": "https://www.microsoft.com/en-us/research/blog/introducing-quine-an-ai-research-system-designed-for-the-complexity-of-biology/",
+      "source": "Microsoft Research",
+      "reason": "微软推出Quine，面向生物学复杂性的AI研究系统"
     }
   ],
-  "trendSummary": "本周AI圈聚焦新一代模型发布与落地，Claude Sonnet 5.5和GPT-6 Astra推动智能体与行业应用加速普及。"
+  "trendSummary": "本周大模型迭代密集，Claude、GPT、GLM纷纷上新，同时业界更关注推理效率、图像生成统一与AI安全治理。"
 }
