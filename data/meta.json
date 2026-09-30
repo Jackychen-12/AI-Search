@@ -1,13 +1,13 @@
 {
-  "fetchedAt": "2026-09-30T01:18:51.779Z",
-  "count": 791,
+  "fetchedAt": "2026-09-30T07:14:12.432Z",
+  "count": 749,
   "sources": {
     "hf-papers": 50,
     "github": 80,
-    "hackernews": 121,
+    "hackernews": 123,
     "rss:openai": 20,
-    "rss:anthropic": 20,
-    "rss:meta-ai": 20,
+    "rss:anthropic": 0,
+    "rss:meta-ai": 0,
     "rss:google-ai": 20,
     "rss:deepmind": 20,
     "rss:google-research": 11,
@@ -46,12 +46,14 @@
     "rss:xinzhiyuan": 20,
     "rss:geekpark": 15,
     "rss:36kr": 0,
-    "rss:infoq": 11,
+    "rss:infoq": 10,
     "rss:sspai": 3,
-    "rss:ithome": 6,
+    "rss:ithome": 2,
     "arxiv": 20
   },
   "errors": {
+    "rss:anthropic": "HTTP 503 Service Unavailable <- https://news.google.com/rss/search?q=site:anthropic.com&hl=en-US&gl=US&ceid=US:en",
+    "rss:meta-ai": "HTTP 503 Service Unavailable <- https://news.google.com/rss/search?q=site:ai.meta.com&hl=en-US&gl=US&ceid=US:en",
     "rss:venturebeat-ai": "HTTP 429 Too Many Requests <- https://venturebeat.com/category/ai/feed/",
     "rss:marktechpost": "HTTP 403 Forbidden <- https://www.marktechpost.com/feed/"
   }
