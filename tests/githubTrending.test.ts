@@ -1,6 +1,7 @@
 import { describe, expect, it } from "vitest";
 import { classifyRepo, funKind, parseTrendingHtml } from "../scripts/sources/githubTrending";
 import { matchNews } from "../scripts/lib/ghNews";
+import { cleanNote } from "../scripts/lib/ghNote";
 import { ghStreak } from "../lib/ghTrending";
 import type { AIItem } from "../lib/types";
 
@@ -76,17 +77,18 @@ describe("classifyRepo", () => {
     expect(track("TencentARC/WorldCrafter", "Consistent Video World Model with Implicit 3D").track).toBe("world-model");
     expect(track("shengshu-ai/Motus2", "A Self-Evolving General World Model for Dexterous Manipulation").track).toBe("world-model");
     expect(track("x/y", "Post-training trackers", { topics: ["humanoid", "reinforcement-learning"] }).track).toBe("world-model");
-    expect(track("Eurekaleo/awesome-ai-for-games", "A curated collection of research on AI for games", { topics: ["world-models"] }).track).toBe("research");
+    expect(track("Eurekaleo/awesome-ai-for-games", "A curated collection of research on AI for games", { topics: ["world-models"] }).track).toBe("learn");
     // Plain robotics libraries are not "AI world models".
     expect(track("borglab/gtsam", "smoothing and mapping (SAM) in robotics and vision").ai).toBe(false);
   });
 
-  it("routes papers, labs and courses to research", () => {
+  it("routes papers and labs to research, courses to learn", () => {
     expect(track("microsoft/SkillOpt", "A text-space optimizer for agent skills", { hasPaper: true }).track).toBe("research");
     expect(track("Westlake-AGI-Lab/WorldinWorld", "Official implementation of WorldinWorld", { hasPaper: true, topics: ["world-model"] }).track).toBe("world-model");
     expect(track("google-research/timesfm", "TimesFM is a pretrained time-series foundation model").track).toBe("research");
     expect(track("x/y", "Official implementation of our NeurIPS 2026 paper on LLM routing").track).toBe("research");
-    expect(track("microsoft/ai-agents-for-beginners", "18 Lessons to Get Started Building AI Agents").track).toBe("research");
+    expect(track("microsoft/ai-agents-for-beginners", "18 Lessons to Get Started Building AI Agents").track).toBe("learn");
+    expect(track("microsoft/ML-For-Beginners", "12 weeks, 26 lessons, 52 quizzes, classic Machine Learning for all").track).toBe("learn");
   });
 
   it("keeps non-AI repos out", () => {
@@ -95,6 +97,17 @@ describe("classifyRepo", () => {
     expect(track("hydra-db/hydradb", "HydraDB - fast graph database on object storage").ai).toBe(false);
     expect(track("golang/go", "The Go programming language").ai).toBe(false);
     expect(track("microsoft/IoT-For-Beginners", "12 Weeks, 24 Lessons, IoT for All!").ai).toBe(false);
+    // AI only mentioned in a tag cloud deep in the description of a life-advice guide.
+    expect(
+      track("byoungd/up", "An advanced guide which might benefit you a lot 🎉 . 韩先凯的人生进阶指南 人生进阶指南 离谱的人生 人生进阶 AI学习 AI指南 韩先凯的AI学习指南 英语学习指南").ai,
+    ).toBe(false);
+    // Offline knowledge server; AI is an optional extra, not what the project is.
+    expect(
+      track(
+        "Crosstalk-Solutions/project-nomad",
+        "Project NOMAD is an offline-first knowledge and education server. Wikipedia, thousands of books, courses, maps, and optional local AI, all running on hardware you own with no internet required.",
+      ).ai,
+    ).toBe(false);
   });
 
   it("trusts known AI orgs even without a description", () => {
@@ -168,5 +181,23 @@ describe("funKind", () => {
     expect(fun("TencentARC/WorldCrafter", "Consistent Video World Model", "world-model", ["video-generation"])).toBeNull();
     expect(fun("TencentARC/GameHorizon", "Multi-horizon data and evaluation in games", "research")).toBeNull();
     expect(fun("x/faceswap-studio", "Real-time face swap for video calls")).toBeNull();
+  });
+});
+
+describe("cleanNote", () => {
+  it("strips trailing boilerplate", () => {
+    expect(cleanNote("跨平台桌面助手，一站式管理多种AI编程代理，用Rust构建，值得关注。")).toBe("跨平台桌面助手，一站式管理多种AI编程代理，用Rust构建。");
+    expect(cleanNote("面向工程师的实用技能集合，源自作者日常代理配置，值得关注因其可直接复用。")).toBe("面向工程师的实用技能集合，源自作者日常代理配置。");
+    expect(cleanNote("让AI代理像最懒的资深开发者一样思考，少写代码。值得关注，因为它用极简哲学对抗过度工程。")).toBe("让AI代理像最懒的资深开发者一样思考，少写代码。");
+  });
+
+  it("drops notes cut off mid-sentence so they get regenerated", () => {
+    expect(cleanNote("一站式办公文档运行时，为 AI 智能体提供操作办公套件的底")).toBeNull();
+    expect(cleanNote(null)).toBeNull();
+  });
+
+  it("keeps clean notes as they are", () => {
+    const ok = "本地运行的语音克隆与配音工具，支持646种语言，可替代ElevenLabs。";
+    expect(cleanNote(ok)).toBe(ok);
   });
 });

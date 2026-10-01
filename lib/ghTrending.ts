@@ -14,7 +14,8 @@ export type GhTrack =
   | "ai-app"
   | "world-model"
   | "research"
-  | "infra";
+  | "infra"
+  | "learn";
 
 export interface GhTrackDef {
   key: GhTrack;
@@ -32,8 +33,9 @@ export const GH_TRACKS: GhTrackDef[] = [
   { key: "mcp-tools", zh: "MCP · Skills", en: "MCP · Skills", descZh: "MCP Server、Agent Skills、浏览器 / 电脑操控", descEn: "MCP servers, agent skills, browser & computer use", color: "#f59e0b" },
   { key: "ai-app", zh: "AI 应用", en: "AI Apps", descZh: "面向终端用户的 AI 产品与工作台", descEn: "End-user AI products and workspaces", color: "#10b981" },
   { key: "world-model", zh: "世界模型 · 具身", en: "World Models · Embodied", descZh: "世界模型、视频 / 3D 世界生成、机器人与 VLA、物理仿真", descEn: "World models, video/3D world generation, robotics & VLA, simulation", color: "#ef4444" },
-  { key: "research", zh: "学术研究", en: "Research", descZh: "附论文的开源代码、研究机构项目、Benchmark、课程教材", descEn: "Paper code, research-lab repos, benchmarks, courses", color: "#0d9488" },
+  { key: "research", zh: "学术研究", en: "Research", descZh: "附论文的开源代码、研究机构项目、Benchmark 与数据集", descEn: "Paper code, research-lab repos, benchmarks and datasets", color: "#0d9488" },
   { key: "infra", zh: "模型 · 基建", en: "Models · Infra", descZh: "推理引擎、训练微调、RAG 检索、网关路由、开源模型", descEn: "Inference, training, RAG, gateways, open models", color: "#64748b" },
+  { key: "learn", zh: "教程 · 资源", en: "Learn", descZh: "课程、教程、书籍与 Awesome 清单", descEn: "Courses, tutorials, books and awesome lists", color: "#a8a29e" },
 ];
 
 export const GH_TRACK_MAP: Record<GhTrack, GhTrackDef> = Object.fromEntries(

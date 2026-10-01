@@ -90,7 +90,7 @@ export const RULES: Rule[] = [
     re: /\b(world[- ]?models?|world[- ]action models?|embodied|humanoids?|vla|vision[- ]language[- ]action|robot (?:learning|policy|policies|foundation|agents?|skills?)|robot(?:ic)? manipulation|dexterous|locomotion|sim[- ]?to[- ]?real|sim2real|physical ai|physics simulat\w*|teleoperation|jepa|lerobot|mujoco|mjlab|isaac (?:sim|lab)|world generation|video world|3d worlds?|persistent worlds?|autonomous driving|self[- ]driving)\b|世界模型|具身/i,
   },
   {
-    track: "research",
+    track: "learn",
     learn: true,
     re: /\b(tutorials?|courses?|lessons|curriculum|for beginners|from scratch|zero to hero|hands[- ]?on|cookbook|awesome|(?:the )?book|learn(?:ing)? (?:path|roadmap)|guide)\b|教程|课程|入门|实战|从零|学习|指南/i,
   },
@@ -211,7 +211,10 @@ export function classifyRepo({ fullName, description, topics = [], hasPaper = fa
   if ((hasPaper || RESEARCH_OWNERS.has(owner.toLowerCase())) && track !== "world-model") {
     if (hasPaper || track === "infra" || track === "ai-app") track = "research";
   }
-  const aiText = desc.match(AI_RE) ?? tags.match(AI_RE);
+  // Learning material needs AI up front (name or first sentence): a life-advice
+  // guide that lists "AI 学习" among 20 tags is not an AI project.
+  const firstSentence = desc.split(/(?<=[.!?。！？])\s+/)[0] ?? "";
+  const aiText = hit?.learn ? firstSentence.match(AI_RE) : (desc.match(AI_RE) ?? tags.match(AI_RE));
   const aiName = name.match(AI_NAME_RE);
   if (aiText) signals.add(aiText[0].toLowerCase());
   const ownerAi = AI_OWNERS.has(owner.toLowerCase()) || RESEARCH_OWNERS.has(owner.toLowerCase());
@@ -239,7 +242,7 @@ const FUN_RULES: { kind: GhFunKind; re: RegExp }[] = [
 ];
 
 export function funKind(input: { fullName: string; description: string | null; topics?: string[]; track: GhTrack }): GhFunKind | null {
-  if (input.track === "research" || input.track === "infra" || input.track === "world-model") return null;
+  if (input.track === "research" || input.track === "infra" || input.track === "world-model" || input.track === "learn") return null;
   const name = input.fullName.split("/")[1].replace(/[-_.]+/g, " ");
   const text = `${name}. ${input.description ?? ""}. ${(input.topics ?? []).map((t) => t.replace(/-/g, " ")).join(", ")}`;
   if (NOT_FUN_RE.test(text)) return null;

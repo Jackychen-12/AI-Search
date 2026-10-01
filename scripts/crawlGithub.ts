@@ -28,6 +28,7 @@ import { readLocalItems } from "../lib/localStore";
 import { getJson, getText } from "./lib/fetchUtil";
 import { discoverRepos, hasToken, lookupRepos, starGains, type ApiRepo } from "./lib/ghApi";
 import { matchNews } from "./lib/ghNews";
+import { NOTE_SYSTEM, cleanNote } from "./lib/ghNote";
 import { bjDate } from "./lib/time";
 import { TRENDING_LANGS, classifyRepo, funKind, parseTrendingHtml, trendingUrl, type TrendingRow } from "./sources/githubTrending";
 
@@ -149,9 +150,7 @@ async function fetchPaperRepos(failed: string[]): Promise<Map<string, { fullName
 
 const LLM_KEY = process.env.DEEPSEEK_API_KEY || "";
 const LLM_MODEL = process.env.LLM_MODEL || "deepseek-chat";
-const SYSTEM =
-  "你是 AI 开源生态分析师。给定一个 GitHub 仓库的名称和英文简介，用不超过 40 个汉字写一句中文解读：" +
-  "先说它是什么，再点出它为什么值得关注。不要复述仓库名、不加引号、不加前缀。";
+const SYSTEM = NOTE_SYSTEM;
 
 async function noteFor(r: GhRepo): Promise<string | null> {
   const ctrl = new AbortController();
@@ -164,7 +163,7 @@ async function noteFor(r: GhRepo): Promise<string | null> {
       body: JSON.stringify({
         model: LLM_MODEL,
         temperature: 0.5,
-        max_tokens: 80,
+        max_tokens: 120,
         messages: [
           { role: "system", content: SYSTEM },
           {
@@ -178,8 +177,7 @@ async function noteFor(r: GhRepo): Promise<string | null> {
     });
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const data = (await res.json()) as { choices?: { message?: { content?: string } }[] };
-    const text = (data.choices?.[0]?.message?.content ?? "").replace(/^["“”'']+|["“”'']+$/g, "").trim();
-    return text.slice(0, 60) || null;
+    return cleanNote(data.choices?.[0]?.message?.content);
   } catch {
     return null;
   } finally {
@@ -411,8 +409,8 @@ export async function runGithubTrending(): Promise<{ written: number; counts: Gh
       news: [],
       firstSeen: old?.firstSeen ?? nowIso,
       history: history.slice(-HISTORY_DAYS),
-      // Description changed → the old take may be stale.
-      aiNote: old && old.description === c.description ? (old.aiNote ?? null) : null,
+      // Description changed → the old take may be stale; cleanNote also drops notes cut off mid-sentence.
+      aiNote: old && old.description === c.description ? cleanNote(old.aiNote) : null,
       fun: funKind({ fullName: c.fullName, description: c.description, topics: c.topics, track: cls.track }),
     });
   }

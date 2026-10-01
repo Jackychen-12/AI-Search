@@ -123,7 +123,7 @@ function PaceBars({ r }: { r: GhRepo }) {
   return (
     <div className="flex items-end gap-1" title={t("gh.pace")}>
       {bars.map((b) => (
-        <div key={b.k} className="flex flex-col items-center gap-1 w-7">
+        <div key={b.k} className="flex flex-col items-center gap-1 w-9">
           <div className="w-full h-7 flex items-end">
             <div
               className={
@@ -134,7 +134,7 @@ function PaceBars({ r }: { r: GhRepo }) {
               title={b.v === undefined ? "–" : `${b.label} ${Math.round(b.v).toLocaleString()} / day`}
             />
           </div>
-          <span className="text-[9px] leading-none text-gray-400">{b.label}</span>
+          <span className="text-[11px] leading-none text-gray-500 dark:text-gray-400">{b.label}</span>
         </div>
       ))}
     </div>
@@ -175,7 +175,7 @@ function Related({ r }: { r: GhRepo }) {
           <a href={n.url} target="_blank" rel="noreferrer" className="truncate hover:text-brand-600">
             {n.title}
           </a>
-          <span className="shrink-0 text-gray-400">· {n.source}</span>
+          <span className="shrink-0 text-gray-500 dark:text-gray-400">· {n.source}</span>
           {i === 0 && r.news.length > 1 && !open && (
             <button onClick={() => setOpen(true)} className="shrink-0 text-brand-600 dark:text-brand-500 hover:underline">
               +{r.news.length - 1}
@@ -265,7 +265,7 @@ function FeaturedCard({ r, rank, period, now, fresh }: { r: GhRepo; rank: number
           <div className="text-2xl font-bold tabular-nums text-brand-600 dark:text-brand-500 leading-none" title={gained.toLocaleString()}>
             +{fmt(gained)}
           </div>
-          <div className="mt-1 text-[11px] text-gray-400">
+          <div className="mt-1 text-[11px] text-gray-500 dark:text-gray-400">
             {t(`gh.period.${period}`)}
             {t("gh.gained")}
           </div>
@@ -290,7 +290,7 @@ function ListRow({ r, rank, period, now, fresh }: { r: GhRepo; rank: number; per
   const gained = r.gained[period] ?? 0;
   return (
     <li className="flex gap-3 px-4 py-3.5 hover:bg-gray-50/80 dark:hover:bg-gray-800/40 transition-colors">
-      <span className="shrink-0 w-6 h-6 grid place-items-center rounded-md bg-gray-100 dark:bg-gray-700 font-mono text-xs font-semibold text-gray-400 tabular-nums">
+      <span className="shrink-0 w-6 h-6 grid place-items-center rounded-md bg-gray-100 dark:bg-gray-700 font-mono text-xs font-semibold text-gray-500 dark:text-gray-400 tabular-nums">
         {rank}
       </span>
       <Avatar owner={owner} className="hidden sm:block w-9 h-9 rounded-lg" />
@@ -316,7 +316,7 @@ function ListRow({ r, rank, period, now, fresh }: { r: GhRepo; rank: number; per
         <div className="text-base font-bold tabular-nums text-brand-600 dark:text-brand-500 leading-none" title={gained.toLocaleString()}>
           +{fmt(gained)}
         </div>
-        <div className="mt-1 text-[11px] text-gray-400">
+        <div className="mt-1 text-[11px] text-gray-500 dark:text-gray-400">
           {t(`gh.period.${period}`)}
           {t("gh.gained")}
         </div>
@@ -353,7 +353,7 @@ function FunRow({ r, period }: { r: GhRepo; period: GhPeriod }) {
               </span>
             )}
           </div>
-          {blurb && <p className="text-[11px] text-gray-400 dark:text-gray-500 mt-0.5 leading-snug line-clamp-1">{blurb}</p>}
+          {blurb && <p className="text-[11px] text-gray-500 dark:text-gray-400 mt-0.5 leading-snug line-clamp-1">{blurb}</p>}
         </div>
       </a>
     </li>
@@ -401,6 +401,38 @@ function pickFun(list: GhRepo[], period: GhPeriod, n = 6): GhRepo[] {
   return [...firstOfKind, ...sorted.filter((r) => !firstOfKind.includes(r))].slice(0, n);
 }
 
+// --- filters live in the URL (like the home feed): shareable, back/forward, survives refresh
+
+interface View {
+  track: TrackFilter;
+  period: GhPeriod;
+  onlyNew: boolean;
+  onlyFun: boolean;
+}
+
+const DEFAULT_VIEW: View = { track: "all", period: "weekly", onlyNew: false, onlyFun: false };
+
+function readView(search: string): View {
+  const q = new URLSearchParams(search);
+  const track = q.get("track");
+  const period = q.get("period");
+  return {
+    track: track && track in GH_TRACK_MAP ? (track as GhTrack) : "all",
+    period: period === "daily" || period === "monthly" ? period : "weekly",
+    onlyNew: q.get("new") === "1",
+    onlyFun: q.get("fun") === "1",
+  };
+}
+
+function viewQuery(v: View): string {
+  const q = new URLSearchParams();
+  if (v.track !== "all") q.set("track", v.track);
+  if (v.period !== "weekly") q.set("period", v.period);
+  if (v.onlyNew) q.set("new", "1");
+  if (v.onlyFun) q.set("fun", "1");
+  return q.toString();
+}
+
 const pill = (active: boolean) =>
   "px-3 h-7 inline-flex items-center rounded-full transition-all duration-200 text-[13px] font-medium " +
   (active ? "bg-brand-500 text-white shadow-sm" : "text-gray-600 dark:text-gray-300 hover:text-brand-600");
@@ -409,13 +441,26 @@ const pill = (active: boolean) =>
 
 export default function GitHubTrendingView({ snapshot }: { snapshot: GhTrendingSnapshot | null }) {
   const { t, locale } = useLocale();
-  const [period, setPeriod] = useState<GhPeriod>("weekly");
-  const [track, setTrack] = useState<TrackFilter>("all");
-  const [onlyNew, setOnlyNew] = useState(false);
-  // "有趣玩法" is a filter like "只看新项目" (combinable with any track), not a track.
-  const [onlyFun, setOnlyFun] = useState(false);
+  // "有趣玩法" (onlyFun) is a filter like "只看新项目", combinable with any track.
+  const [view, setView] = useState<View>(DEFAULT_VIEW);
+  const { track, period, onlyNew, onlyFun } = view;
   const [expanded, setExpanded] = useState(false);
   useEffect(() => setExpanded(false), [track, period, onlyNew, onlyFun]);
+
+  // Static export: the server renders the default view; apply the URL after mount.
+  useEffect(() => {
+    const sync = () => setView(readView(window.location.search));
+    sync();
+    window.addEventListener("popstate", sync);
+    return () => window.removeEventListener("popstate", sync);
+  }, []);
+
+  const update = (patch: Partial<View>) => {
+    const next = { ...view, ...patch };
+    setView(next);
+    const qs = viewQuery(next);
+    window.history.pushState(null, "", `${window.location.pathname}${qs ? `?${qs}` : ""}`);
+  };
 
   const repos = useMemo(() => snapshot?.repos ?? [], [snapshot]);
   // Snapshot time, not Date.now(): identical on server and client (no hydration drift).
@@ -552,22 +597,22 @@ export default function GitHubTrendingView({ snapshot }: { snapshot: GhTrendingS
       <main id="main-content" className="max-w-7xl mx-auto px-4 py-6 pb-24 md:pb-10 grid grid-cols-1 lg:grid-cols-[1fr_300px] gap-6">
         <section className="min-w-0 space-y-5">
           {/* Track tabs — underline tabs like the home category bar, scoped to the content column */}
-          <div className="flex items-center gap-1 overflow-x-auto scroll-hide border-b border-gray-200 dark:border-gray-700">
+          <div className="flex items-center overflow-x-auto scroll-hide border-b border-gray-200 dark:border-gray-700">
             {tabs.map((tab) => {
               const active = track === tab.key;
               return (
                 <button
                   key={tab.key}
-                  onClick={() => setTrack(tab.key)}
+                  onClick={() => update({ track: tab.key })}
                   className={
-                    "shrink-0 -mb-px px-3 h-11 flex items-center gap-1.5 text-sm border-b-2 transition-colors duration-150 " +
+                    "shrink-0 -mb-px px-2.5 h-11 flex items-center gap-1 text-sm border-b-2 transition-colors duration-150 " +
                     (active
                       ? "border-brand-500 text-brand-600 dark:text-brand-500 font-medium"
                       : "border-transparent text-gray-600 dark:text-gray-300 hover:text-brand-600")
                   }
                 >
                   {tab.label}
-                  <span className="text-[11px] text-gray-400 font-normal tabular-nums">{tab.count}</span>
+                  <span className="text-[11px] text-gray-500 dark:text-gray-400 font-normal tabular-nums">{tab.count}</span>
                 </button>
               );
             })}
@@ -597,7 +642,7 @@ export default function GitHubTrendingView({ snapshot }: { snapshot: GhTrendingS
                 <div key={s.label} className="min-w-0 px-4 sm:px-6 first:pl-0">
                   <dd className="text-xl sm:text-2xl font-bold tabular-nums text-brand-600 dark:text-brand-500">{s.value}</dd>
                   <dt className="mt-0.5 text-xs text-gray-500 dark:text-gray-400">{s.label}</dt>
-                  {s.sub && <dd className="hidden sm:block text-[11px] text-gray-400 dark:text-gray-500">{s.sub}</dd>}
+                  {s.sub && <dd className="hidden sm:block text-[11px] text-gray-500 dark:text-gray-400">{s.sub}</dd>}
                 </div>
               ))}
             </dl>
@@ -618,16 +663,16 @@ export default function GitHubTrendingView({ snapshot }: { snapshot: GhTrendingS
               <div className="flex items-center gap-3 flex-wrap">
                 <div className="flex items-center gap-1 p-1 bg-gray-100 dark:bg-gray-800 rounded-full">
                   {(["daily", "weekly", "monthly"] as GhPeriod[]).map((p) => (
-                    <button key={p} onClick={() => setPeriod(p)} className={pill(period === p)}>
+                    <button key={p} onClick={() => update({ period: p })} className={pill(period === p)}>
                       {t(`gh.period.${p}`)}
                     </button>
                   ))}
                 </div>
                 <div className="flex items-center gap-1 p-1 bg-gray-100 dark:bg-gray-800 rounded-full">
-                  <button onClick={() => setOnlyNew((v) => !v)} className={pill(onlyNew)} aria-pressed={onlyNew}>
+                  <button onClick={() => update({ onlyNew: !onlyNew })} className={pill(onlyNew)} aria-pressed={onlyNew}>
                     {t("gh.onlyNew")}
                   </button>
-                  <button onClick={() => setOnlyFun((v) => !v)} className={pill(onlyFun)} aria-pressed={onlyFun}>
+                  <button onClick={() => update({ onlyFun: !onlyFun })} className={pill(onlyFun)} aria-pressed={onlyFun}>
                     {t("gh.fun.tab")}
                   </button>
                 </div>
@@ -638,7 +683,7 @@ export default function GitHubTrendingView({ snapshot }: { snapshot: GhTrendingS
               </span>
             </div>
 
-            {note && <p className="-mt-1 mb-4 text-xs text-gray-400 dark:text-gray-500">{note}</p>}
+            {note && <p className="-mt-1 mb-4 text-xs text-gray-500 dark:text-gray-400">{note}</p>}
 
             {visible.length === 0 ? (
               <div className="card p-8 text-center text-sm text-gray-500 dark:text-gray-400">
@@ -649,7 +694,7 @@ export default function GitHubTrendingView({ snapshot }: { snapshot: GhTrendingS
                     .map((p) => ({ p, n: repos.filter((r) => r.gained[p] !== undefined && matches(r)).length }))
                     .filter((x) => x.n > 0)
                     .map(({ p, n }) => (
-                      <button key={p} onClick={() => setPeriod(p)} className="px-3 h-7 rounded-full text-[13px] font-medium bg-brand-50 dark:bg-brand-500/15 text-brand-600 dark:text-brand-500 hover:bg-brand-100">
+                      <button key={p} onClick={() => update({ period: p })} className="px-3 h-7 rounded-full text-[13px] font-medium bg-brand-50 dark:bg-brand-500/15 text-brand-600 dark:text-brand-500 hover:bg-brand-100">
                         {t(`gh.period.${p}`)} · {n}
                       </button>
                     ))}
@@ -691,7 +736,7 @@ export default function GitHubTrendingView({ snapshot }: { snapshot: GhTrendingS
                 .filter((s) => s.count > 0)
                 .map((s) => (
                   <li key={s.def.key}>
-                    <button onClick={() => setTrack(s.def.key)} className="w-full text-left group">
+                    <button onClick={() => update({ track: s.def.key })} className="w-full text-left group">
                       <div className="flex items-center justify-between text-xs mb-1">
                         <span className="flex items-center gap-1.5 text-gray-700 dark:text-gray-200 group-hover:text-brand-600">
                           <span className="w-2 h-2 rounded-full" style={{ background: s.def.color }} />
@@ -724,7 +769,7 @@ export default function GitHubTrendingView({ snapshot }: { snapshot: GhTrendingS
                       <span
                         className={
                           "shrink-0 w-5 h-5 grid place-items-center rounded-md font-mono text-xs font-semibold " +
-                          (idx < 3 ? "bg-gradient-to-br from-brand-500 to-brand-700 text-white" : "bg-gray-100 dark:bg-gray-700 text-gray-400")
+                          (idx < 3 ? "bg-gradient-to-br from-brand-500 to-brand-700 text-white" : "bg-gray-100 dark:bg-gray-700 text-gray-500 dark:text-gray-400")
                         }
                       >
                         {idx + 1}
@@ -755,8 +800,7 @@ export default function GitHubTrendingView({ snapshot }: { snapshot: GhTrendingS
               </ol>
               <MoreButton
                 onClick={() => {
-                  setTrack("all");
-                  setOnlyFun(true);
+                  update({ track: "all", onlyFun: true });
                   showBoard();
                 }}
               >

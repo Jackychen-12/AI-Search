@@ -9,6 +9,7 @@ const dict: Record<string, Record<Locale, string>> = {
   "nav.topics": { zh: "话题", en: "Topics" },
   "nav.stories": { zh: "事件", en: "Stories" },
   "nav.github": { zh: "GitHub 趋势", en: "GitHub Trends" },
+  "nav.githubShort": { zh: "GitHub", en: "GitHub" },
   "site.subtitle": { zh: "AI 行业资讯聚合", en: "AI News Aggregator" },
 
   // Search
