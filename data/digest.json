@@ -1,37 +1,37 @@
 {
-  "date": "2026-09-30",
-  "generatedAt": "2026-09-30T01:18:54.069Z",
+  "date": "2026-10-01",
+  "generatedAt": "2026-10-01T01:18:40.977Z",
   "picks": [
     {
-      "title": "Introducing GPT-6.1 Sol",
-      "sourceUrl": "https://openai.com/index/introducing-gpt-6-1-sol",
-      "source": "OpenAI",
-      "reason": "OpenAI发布GPT-6.1 Sol，旗舰模型重大升级，行业焦点"
+      "title": "Gemini 4 Argon: our next era of frontier intelligence",
+      "sourceUrl": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
+      "source": "Google DeepMind",
+      "reason": "DeepMind发布新一代前沿模型，行业格局级重磅"
     },
     {
-      "title": "DevDay 2026 Recap",
-      "sourceUrl": "https://openai.com/index/devday-2026-recap",
+      "title": "Disrupting a coordinated model-distillation campaign",
+      "sourceUrl": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign",
       "source": "OpenAI",
-      "reason": "DevDay 2026汇总20余项发布，含GPT-6 Astra，必读"
+      "reason": "OpenAI披露模型蒸馏攻击，AI安全重要案例"
     },
     {
       "title": "Building with the Claude 5.5 Family: Choosing the Right Model and Getting More from Every Token",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQRHZqQWJnNEZtVXVNWUx1RlRacG5MLUFTcVBEb2FMZUtzMzNRdklBR0NIMERTbFppaTEyZUZrOFhWRjhMaFFPenE3eTBRX21vSlJKakwxU2Q4SzFqRXFyRDd5X1R5X2dQTUg4c0IxR2o2c09BTG9tOE5VZm1UczdHSjQyMGlPeEtqVzhzSURXb0xQbTJKVFFyQVFrTEpkMFZ1UUtPd2lTcEszMWh0NVA3SDBvcUREaVBDV1lVMUs0TzluNG0xcjk1MA?oc=5",
       "source": "Anthropic",
-      "reason": "Anthropic详解Claude 5.5家族选型与token优化，实用指南"
+      "reason": "Claude新家族实用指南，开发者高度关注"
     },
     {
-      "title": "GLM-5.3 and the spread of advanced cyber capabilities",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPX212WWhHNWgzWkdtSlZTV3hiU3ZVdmJoUnJPMl92MVlMd1VadHJrbXJ3RjFvdXJib3dueWk0eUFwY25DallZUTJGd1J2MWRTRkFZcWNoa1g3YVBzaEdKbmF5TE1HakN0cnI5emUwdVlKeTZPY2o5R3RheG54R0E2ODVVZXpVUGZ3MDFVQ0h3bDh0UQ?oc=5",
-      "source": "Anthropic",
-      "reason": "GLM-5.3与高级网络能力扩散，AI安全重要议题"
+      "title": "Gemini 4 Argon",
+      "sourceUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+      "source": "Hacker News",
+      "reason": "Gemini 4性能与价格分析，热度极高"
     },
     {
-      "title": "Introducing Quine: An AI research system designed for the complexity of biology",
-      "sourceUrl": "https://www.microsoft.com/en-us/research/blog/introducing-quine-an-ai-research-system-designed-for-the-complexity-of-biology/",
-      "source": "Microsoft Research",
-      "reason": "微软推出Quine，面向生物学复杂性的AI研究系统"
+      "title": "Introducing SynthID Bio",
+      "sourceUrl": "https://deepmind.google/blog/introducing-synthid-bio/",
+      "source": "Google DeepMind",
+      "reason": "AI生成蛋白质水印，生物安全创新突破"
     }
   ],
-  "trendSummary": "本周大模型迭代密集，Claude、GPT、GLM纷纷上新，同时业界更关注推理效率、图像生成统一与AI安全治理。"
+  "trendSummary": "本周焦点集中在Gemini 4 Argon引领的新一代前沿智能，同时AI正加速落地交通、电网、生物识别和中小企业等实际场景。"
 }
