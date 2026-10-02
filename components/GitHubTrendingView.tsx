@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { useLocale } from "./LocaleProvider";
 import GitHubMark, { ForkIcon, StarIcon } from "./GitHubMark";
 import {
@@ -16,6 +16,7 @@ import {
   type GhTrack,
   type GhTrendingSnapshot,
 } from "@/lib/ghTrending";
+import { ghWideQuery, parseGhQuery, searchGhRepos } from "@/lib/ghSearch";
 import { formatBJDate, formatBJTime } from "@/lib/timeFormat";
 
 type TrackFilter = GhTrack | "all";
@@ -52,11 +53,16 @@ const score = (r: GhRepo) => (r.gained.weekly ?? 0) + (r.gained.daily ?? 0) * 3 
 
 /** Best window to quote for a repo outside the period ranking. */
 function bestGain(r: GhRepo): { period: GhPeriod; n: number } | null {
-  for (const p of ["weekly", "daily", "monthly"] as GhPeriod[]) {
-    const n = r.gained[p];
-    if (n !== undefined) return { period: p, n };
-  }
-  return null;
+  const order = ["weekly", "daily", "monthly"] as GhPeriod[];
+  // Prefer a window where it actually grew ("+0 今日" says nothing), else any known window.
+  const p = order.find((k) => (r.gained[k] ?? 0) > 0) ?? order.find((k) => r.gained[k] !== undefined);
+  return p ? { period: p, n: r.gained[p] ?? 0 } : null;
+}
+
+/** Gain to display: the selected period when the repo has it, else its best known window. */
+function gainOf(r: GhRepo, period: GhPeriod): { period: GhPeriod; n: number } | null {
+  const n = r.gained[period];
+  return n !== undefined && n > 0 ? { period, n } : bestGain(r);
 }
 
 // --- small pieces -----------------------------------------------------------
@@ -224,11 +230,13 @@ function Meta({ r, now }: { r: GhRepo; now: number }) {
 
 /** Chinese take when we have one, else the (English) description. */
 function Blurb({ r, lines }: { r: GhRepo; lines: 1 | 2 }) {
-  const text = plain(r.aiNote || r.description || "");
+  const { locale } = useLocale();
+  const note = locale === "zh" ? r.aiNote : null; // the AI takes are Chinese; English readers get the original
+  const text = plain(note || r.description || r.aiNote || "");
   if (!text) return null;
   return (
     <p
-      title={r.aiNote ? (r.description ?? undefined) : undefined}
+      title={note ? (r.description ?? undefined) : undefined}
       className={"text-[13px] leading-relaxed text-gray-600 dark:text-gray-400 " + (lines === 1 ? "line-clamp-1" : "line-clamp-2")}
     >
       {text}
@@ -241,7 +249,7 @@ function Blurb({ r, lines }: { r: GhRepo; lines: 1 | 2 }) {
 function FeaturedCard({ r, rank, period, now, fresh }: { r: GhRepo; rank: number; period: GhPeriod; now: number; fresh: boolean }) {
   const { t } = useLocale();
   const [owner, name] = r.fullName.split("/");
-  const gained = r.gained[period] ?? 0;
+  const g = gainOf(r, period);
   return (
     <li className="card p-4 flex flex-col gap-3 min-w-0">
       <div className="flex items-center justify-between gap-2">
@@ -262,11 +270,11 @@ function FeaturedCard({ r, rank, period, now, fresh }: { r: GhRepo; rank: number
       </div>
       <div className="flex items-end justify-between gap-3">
         <div>
-          <div className="text-2xl font-bold tabular-nums text-brand-600 dark:text-brand-500 leading-none" title={gained.toLocaleString()}>
-            +{fmt(gained)}
+          <div className="text-2xl font-bold tabular-nums text-brand-600 dark:text-brand-500 leading-none" title={g?.n.toLocaleString()}>
+            {g ? `+${fmt(g.n)}` : "—"}
           </div>
           <div className="mt-1 text-[11px] text-gray-500 dark:text-gray-400">
-            {t(`gh.period.${period}`)}
+            {t(`gh.period.${g?.period ?? period}`)}
             {t("gh.gained")}
           </div>
         </div>
@@ -284,13 +292,32 @@ function FeaturedCard({ r, rank, period, now, fresh }: { r: GhRepo; rank: number
   );
 }
 
-function ListRow({ r, rank, period, now, fresh }: { r: GhRepo; rank: number; period: GhPeriod; now: number; fresh: boolean }) {
+function ListRow({
+  r,
+  rank,
+  period,
+  now,
+  fresh,
+  className = "",
+}: {
+  r: GhRepo;
+  rank: number;
+  period: GhPeriod;
+  now: number;
+  fresh: boolean;
+  className?: string;
+}) {
   const { t } = useLocale();
   const [owner, name] = r.fullName.split("/");
-  const gained = r.gained[period] ?? 0;
+  const g = gainOf(r, period);
   return (
-    <li className="flex gap-3 px-4 py-3.5 hover:bg-gray-50/80 dark:hover:bg-gray-800/40 transition-colors">
-      <span className="shrink-0 w-6 h-6 grid place-items-center rounded-md bg-gray-100 dark:bg-gray-700 font-mono text-xs font-semibold text-gray-500 dark:text-gray-400 tabular-nums">
+    <li className={"flex gap-3 px-4 py-3.5 hover:bg-gray-50/80 dark:hover:bg-gray-800/40 transition-colors " + className}>
+      <span
+        className={
+          "shrink-0 w-6 h-6 grid place-items-center rounded-md font-mono text-xs font-semibold tabular-nums " +
+          (rank <= 3 ? "bg-gradient-to-br from-brand-500 to-brand-700 text-white" : "bg-gray-100 dark:bg-gray-700 text-gray-500 dark:text-gray-400")
+        }
+      >
         {rank}
       </span>
       <Avatar owner={owner} className="hidden sm:block w-9 h-9 rounded-lg" />
@@ -313,11 +340,11 @@ function ListRow({ r, rank, period, now, fresh }: { r: GhRepo; rank: number; per
         <Meta r={r} now={now} />
       </div>
       <div className="shrink-0 text-right">
-        <div className="text-base font-bold tabular-nums text-brand-600 dark:text-brand-500 leading-none" title={gained.toLocaleString()}>
-          +{fmt(gained)}
+        <div className="text-base font-bold tabular-nums text-brand-600 dark:text-brand-500 leading-none" title={g?.n.toLocaleString()}>
+          {g ? `+${fmt(g.n)}` : "—"}
         </div>
         <div className="mt-1 text-[11px] text-gray-500 dark:text-gray-400">
-          {t(`gh.period.${period}`)}
+          {t(`gh.period.${g?.period ?? period}`)}
           {t("gh.gained")}
         </div>
       </div>
@@ -331,9 +358,8 @@ function FunRow({ r, period }: { r: GhRepo; period: GhPeriod }) {
   const { t, locale } = useLocale();
   const kind = GH_FUN_KINDS[r.fun!];
   const [owner] = r.fullName.split("/");
-  const n = r.gained[period];
-  const g = n !== undefined ? { period, n } : bestGain(r);
-  const blurb = plain(r.aiNote || r.description || "");
+  const g = gainOf(r, period);
+  const blurb = plain((locale === "zh" ? r.aiNote : null) || r.description || r.aiNote || "");
   return (
     <li>
       <a
@@ -348,7 +374,7 @@ function FunRow({ r, period }: { r: GhRepo; period: GhPeriod }) {
           <div className="text-[11px] text-gray-500 dark:text-gray-400 mt-0.5 flex items-center gap-1.5 truncate">
             <span>{locale === "zh" ? kind.zh : kind.en}</span>
             {g && (
-              <span className="text-amber-600 dark:text-amber-400 font-medium">
+              <span className="text-brand-600 dark:text-brand-500 font-medium">
                 · +{fmt(g.n)} {t(`gh.period.${g.period}`)}
               </span>
             )}
@@ -408,9 +434,11 @@ interface View {
   period: GhPeriod;
   onlyNew: boolean;
   onlyFun: boolean;
+  /** Search text (榜单内搜索). */
+  q: string;
 }
 
-const DEFAULT_VIEW: View = { track: "all", period: "weekly", onlyNew: false, onlyFun: false };
+const DEFAULT_VIEW: View = { track: "all", period: "weekly", onlyNew: false, onlyFun: false, q: "" };
 
 function readView(search: string): View {
   const q = new URLSearchParams(search);
@@ -421,6 +449,7 @@ function readView(search: string): View {
     period: period === "daily" || period === "monthly" ? period : "weekly",
     onlyNew: q.get("new") === "1",
     onlyFun: q.get("fun") === "1",
+    q: (q.get("q") ?? "").trim().slice(0, 80),
   };
 }
 
@@ -430,8 +459,21 @@ function viewQuery(v: View): string {
   if (v.period !== "weekly") q.set("period", v.period);
   if (v.onlyNew) q.set("new", "1");
   if (v.onlyFun) q.set("fun", "1");
+  if (v.q) q.set("q", v.q);
   return q.toString();
 }
+
+/** A repo from GitHub's own search (not tracked on this page). */
+interface WideRepo {
+  fullName: string;
+  url: string;
+  description: string | null;
+  language: string | null;
+  stars: number;
+  pushedAt: string;
+}
+
+type WideState = { query: string; status: "loading" | "done" | "limited" | "error"; items: WideRepo[] };
 
 const pill = (active: boolean) =>
   "px-3 h-7 inline-flex items-center rounded-full transition-all duration-200 text-[13px] font-medium " +
@@ -444,25 +486,88 @@ export default function GitHubTrendingView({ snapshot }: { snapshot: GhTrendingS
   // "有趣玩法" (onlyFun) is a filter like "只看新项目", combinable with any track.
   const [view, setView] = useState<View>(DEFAULT_VIEW);
   const { track, period, onlyNew, onlyFun } = view;
+  // What's typed in the search box; filtering follows it live, the URL catches up on submit.
+  const [draft, setDraft] = useState("");
+  const [wide, setWide] = useState<WideState | null>(null);
+  const wideSeq = useRef(0);
   const [expanded, setExpanded] = useState(false);
-  useEffect(() => setExpanded(false), [track, period, onlyNew, onlyFun]);
+  useEffect(() => setExpanded(false), [track, period, onlyNew, onlyFun, draft]);
+
+  const repos = useMemo(() => snapshot?.repos ?? [], [snapshot]);
+
+  /** Ask GitHub's own search for repos beyond the ones tracked here (explicit: Enter / button). */
+  const runWide = async (text: string) => {
+    const query = ghWideQuery(parseGhQuery(text), Date.now());
+    const seq = ++wideSeq.current;
+    if (!query) return setWide(null);
+    setWide({ query, status: "loading", items: [] });
+    try {
+      const res = await fetch(
+        `https://api.github.com/search/repositories?q=${encodeURIComponent(query)}&sort=stars&order=desc&per_page=30`,
+        { headers: { Accept: "application/vnd.github+json" } },
+      );
+      if (seq !== wideSeq.current) return;
+      if (res.status === 403 || res.status === 429) return setWide({ query, status: "limited", items: [] });
+      if (!res.ok) throw new Error(String(res.status));
+      const data = (await res.json()) as {
+        items?: { full_name: string; html_url: string; description: string | null; language: string | null; stargazers_count: number; pushed_at: string }[];
+      };
+      const tracked = new Set(repos.map((r) => r.fullName.toLowerCase()));
+      const items = (data.items ?? [])
+        .filter((r) => !tracked.has(r.full_name.toLowerCase()))
+        // Keyword-stuffed spam repos game GitHub's search with enormous descriptions.
+        .filter((r) => (r.description ?? "").length <= 300)
+        .slice(0, 8)
+        .map((r) => ({ fullName: r.full_name, url: r.html_url, description: r.description, language: r.language, stars: r.stargazers_count, pushedAt: r.pushed_at }));
+      if (seq === wideSeq.current) setWide({ query, status: "done", items });
+    } catch {
+      if (seq === wideSeq.current) setWide({ query, status: "error", items: [] });
+    }
+  };
 
   // Static export: the server renders the default view; apply the URL after mount.
   useEffect(() => {
-    const sync = () => setView(readView(window.location.search));
+    const sync = () => {
+      const v = readView(window.location.search);
+      setView(v);
+      setDraft(v.q);
+      // A shared link with a query shows the full picture: list matches + GitHub-wide results.
+      if (v.q) void runWide(v.q);
+      else {
+        wideSeq.current++;
+        setWide(null);
+      }
+    };
     sync();
     window.addEventListener("popstate", sync);
     return () => window.removeEventListener("popstate", sync);
+    // Mount only: runWide just reads the static snapshot.
   }, []);
 
   const update = (patch: Partial<View>) => {
-    const next = { ...view, ...patch };
+    // The box may hold edits that were never submitted — the URL always reflects what's on screen.
+    const next = { ...view, q: draft.trim().slice(0, 80), ...patch };
     setView(next);
     const qs = viewQuery(next);
     window.history.pushState(null, "", `${window.location.pathname}${qs ? `?${qs}` : ""}`);
   };
 
-  const repos = useMemo(() => snapshot?.repos ?? [], [snapshot]);
+  const submitSearch = (text: string) => {
+    const q = text.trim().slice(0, 80);
+    setDraft(q);
+    if (q !== view.q) update({ q });
+    if (q) void runWide(q);
+    else {
+      wideSeq.current++;
+      setWide(null);
+    }
+  };
+
+  const searching = draft.trim().length > 0;
+  const found = useMemo(
+    () => (draft.trim() ? searchGhRepos(repos, parseGhQuery(draft)).map((h) => h.repo) : []),
+    [repos, draft],
+  );
   // Snapshot time, not Date.now(): identical on server and client (no hydration drift).
   const now = snapshot ? Date.parse(snapshot.fetchedAt) : 0;
   const today = snapshot ? formatBJDate(snapshot.fetchedAt) : "";
@@ -472,16 +577,16 @@ export default function GitHubTrendingView({ snapshot }: { snapshot: GhTrendingS
   const inPeriod = useMemo(
     () =>
       repos
-        .filter((r) => r.gained[period] !== undefined)
+        .filter((r) => (r.gained[period] ?? 0) > 0) // no growth in the window = not on this period's list
         .filter((r) => !onlyNew || (ghAgeDays(r.createdAt, now) ?? Infinity) <= GH_NEW_DAYS)
         .sort((a, b) => (b.gained[period] ?? 0) - (a.gained[period] ?? 0)),
     [repos, period, onlyNew, now],
   );
-  const matches = (r: GhRepo) =>
-    (track === "all" || r.track === track) &&
-    (!onlyFun || !!r.fun) &&
-    (!onlyNew || (ghAgeDays(r.createdAt, now) ?? Infinity) <= GH_NEW_DAYS);
-  const visible = inPeriod.filter(matches);
+  const passes = (r: GhRepo) => (!onlyFun || !!r.fun) && (!onlyNew || (ghAgeDays(r.createdAt, now) ?? Infinity) <= GH_NEW_DAYS);
+  const matches = (r: GhRepo) => (track === "all" || r.track === track) && passes(r);
+  // Search looks at every tracked repo (ranked by relevance); otherwise it's the period ranking.
+  const base = (searching ? found : inPeriod).filter(passes);
+  const visible = track === "all" ? base : base.filter((r) => r.track === track);
 
   const trackStats = useMemo(() => {
     const stats = GH_TRACKS.map((d) => {
@@ -566,10 +671,17 @@ export default function GitHubTrendingView({ snapshot }: { snapshot: GhTrendingS
       </>
     );
 
-  const base = onlyFun ? inPeriod.filter((r) => r.fun) : inPeriod;
-  const tabs: { key: TrackFilter; label: string; count: number }[] = [
-    { key: "all", label: t("gh.all"), count: base.length },
-    ...GH_TRACKS.map((d) => ({ key: d.key, label: trackName(d.key), count: base.filter((r) => r.track === d.key).length })),
+  // A tab is dead when nothing can ever show under the current filters (e.g. 学术研究 + 有趣玩法),
+  // as opposed to merely empty for this period — that one stays clickable and offers other periods.
+  const reachable = searching ? base : repos.filter(passes);
+  const tabs: { key: TrackFilter; label: string; count: number; dead: boolean }[] = [
+    { key: "all", label: t("gh.all"), count: base.length, dead: false },
+    ...GH_TRACKS.map((d) => ({
+      key: d.key,
+      label: trackName(d.key),
+      count: base.filter((r) => r.track === d.key).length,
+      dead: !reachable.some((r) => r.track === d.key),
+    })),
   ];
   const note =
     track !== "all" ? (locale === "zh" ? GH_TRACK_MAP[track].descZh : GH_TRACK_MAP[track].descEn) : onlyFun ? t("gh.fun.desc") : "";
@@ -584,12 +696,16 @@ export default function GitHubTrendingView({ snapshot }: { snapshot: GhTrendingS
     },
   ];
 
-  const top = visible.slice(0, 3);
+  const top = searching ? [] : visible.slice(0, 3);
   const shown = new Set(top.map((r) => r.fullName));
   const breakoutsShown = breakouts.filter((b) => !shown.has(b.r.fullName)).slice(0, 5);
   breakoutsShown.forEach((b) => shown.add(b.r.fullName));
   const funShown = pickFun(funAll.filter((r) => !shown.has(r.fullName)), period);
-  const rest = visible.slice(3, expanded ? undefined : BOARD_LIMIT);
+  const rows = visible.slice(0, expanded ? undefined : BOARD_LIMIT);
+  const updatedAt =
+    locale === "zh"
+      ? `${today} ${formatBJTime(snapshot.fetchedAt)}`
+      : `${today} ${new Date(now + 8 * 3600_000).toISOString().slice(11, 16)} (UTC+8)`;
   const showBoard = () => document.getElementById("gh-board")?.scrollIntoView({ behavior: "smooth", block: "start" });
 
   return (
@@ -604,22 +720,25 @@ export default function GitHubTrendingView({ snapshot }: { snapshot: GhTrendingS
                 <button
                   key={tab.key}
                   onClick={() => update({ track: tab.key })}
+                  disabled={tab.dead && !active}
                   className={
                     "shrink-0 -mb-px px-2.5 h-11 flex items-center gap-1 text-sm border-b-2 transition-colors duration-150 " +
                     (active
                       ? "border-brand-500 text-brand-600 dark:text-brand-500 font-medium"
-                      : "border-transparent text-gray-600 dark:text-gray-300 hover:text-brand-600")
+                      : tab.dead
+                        ? "border-transparent text-gray-300 dark:text-gray-600 cursor-not-allowed"
+                        : "border-transparent text-gray-600 dark:text-gray-300 hover:text-brand-600")
                   }
                 >
                   {tab.label}
-                  <span className="text-[11px] text-gray-500 dark:text-gray-400 font-normal tabular-nums">{tab.count}</span>
+                  <span className={"text-[11px] font-normal tabular-nums " + (tab.dead && !active ? "" : "text-gray-500 dark:text-gray-400")}>{tab.count}</span>
                 </button>
               );
             })}
           </div>
 
           {/* Page header — overview, only on the "全部" tab */}
-          {track === "all" && (
+          {track === "all" && !searching && (
           <div className="card p-5 sm:p-6 bg-gradient-to-br from-brand-50/80 via-transparent to-transparent dark:from-brand-500/10">
             <div>
               <div className="min-w-0">
@@ -632,7 +751,7 @@ export default function GitHubTrendingView({ snapshot }: { snapshot: GhTrendingS
                     ? "汇总 GitHub Trending、HuggingFace 热门论文代码与世界模型新项目"
                     : "GitHub Trending, trending HuggingFace paper code and new world-model repos"}
                   <span className="mx-1.5">·</span>
-                  {t("gh.updated")} {today} {formatBJTime(snapshot.fetchedAt)}
+                  {t("gh.updated")} {updatedAt}
                 </p>
               </div>
             </div>
@@ -658,6 +777,38 @@ export default function GitHubTrendingView({ snapshot }: { snapshot: GhTrendingS
 
           {/* Leaderboard */}
           <div id="gh-board" className="scroll-mt-4">
+            {/* Search — same field style as the site header search */}
+            <form
+              role="search"
+              className="relative mb-4"
+              onSubmit={(e) => {
+                e.preventDefault();
+                submitSearch(draft);
+              }}
+            >
+              <svg className="absolute left-3.5 top-1/2 -translate-y-1/2 w-4 h-4 text-gray-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden>
+                <circle cx="11" cy="11" r="7" />
+                <path d="m20 20-3.5-3.5" />
+              </svg>
+              <input
+                value={draft}
+                onChange={(e) => setDraft(e.target.value)}
+                placeholder={t("gh.search.placeholder")}
+                aria-label={t("gh.search.placeholder")}
+                enterKeyHint="search"
+                className="w-full h-10 pl-10 pr-16 rounded-full border border-gray-200 dark:border-gray-600 bg-white dark:bg-gray-800 dark:text-gray-100 text-sm focus:outline-none focus:ring-2 focus:ring-brand-500/40"
+              />
+              {searching && (
+                <button
+                  type="button"
+                  onClick={() => submitSearch("")}
+                  className="absolute right-3.5 top-1/2 -translate-y-1/2 text-xs text-gray-500 dark:text-gray-400 hover:text-brand-600"
+                >
+                  {t("gh.search.clear")}
+                </button>
+              )}
+            </form>
+
             {/* Row 1 — like the home SortTabs: rounded pill groups */}
             <div className="flex items-center justify-between gap-3 flex-wrap mb-4">
               <div className="flex items-center gap-3 flex-wrap">
@@ -678,7 +829,8 @@ export default function GitHubTrendingView({ snapshot }: { snapshot: GhTrendingS
                 </div>
               </div>
               <span className="text-sm text-gray-500 dark:text-gray-400">
-                {t("feed.showing")} <span className="text-gray-800 dark:text-gray-200 font-medium">{visible.length}</span>
+                {searching ? t("gh.search.found") : t("feed.showing")}{" "}
+                <span className="text-gray-800 dark:text-gray-200 font-medium">{visible.length}</span>
                 {locale === "zh" ? " 个" : ""}
               </span>
             </div>
@@ -687,33 +839,44 @@ export default function GitHubTrendingView({ snapshot }: { snapshot: GhTrendingS
 
             {visible.length === 0 ? (
               <div className="card p-8 text-center text-sm text-gray-500 dark:text-gray-400">
-                <p>{t("gh.empty")}</p>
-                <div className="mt-3 flex items-center justify-center gap-2">
-                  {(["daily", "weekly", "monthly"] as GhPeriod[])
-                    .filter((p) => p !== period)
-                    .map((p) => ({ p, n: repos.filter((r) => r.gained[p] !== undefined && matches(r)).length }))
-                    .filter((x) => x.n > 0)
-                    .map(({ p, n }) => (
-                      <button key={p} onClick={() => update({ period: p })} className="px-3 h-7 rounded-full text-[13px] font-medium bg-brand-50 dark:bg-brand-500/15 text-brand-600 dark:text-brand-500 hover:bg-brand-100">
-                        {t(`gh.period.${p}`)} · {n}
-                      </button>
-                    ))}
-                </div>
+                <p>{searching ? t("gh.search.empty") : t("gh.empty")}</p>
+                {!searching && (
+                  <div className="mt-3 flex items-center justify-center gap-2">
+                    {(["daily", "weekly", "monthly"] as GhPeriod[])
+                      .filter((p) => p !== period)
+                      .map((p) => ({ p, n: repos.filter((r) => (r.gained[p] ?? 0) > 0 && matches(r)).length }))
+                      .filter((x) => x.n > 0)
+                      .map(({ p, n }) => (
+                        <button key={p} onClick={() => update({ period: p })} className="px-3 h-7 rounded-full text-[13px] font-medium bg-brand-50 dark:bg-brand-500/15 text-brand-600 dark:text-brand-500 hover:bg-brand-100">
+                          {t(`gh.period.${p}`)} · {n}
+                        </button>
+                      ))}
+                  </div>
+                )}
               </div>
             ) : (
               <>
-                <ol className="grid grid-cols-1 md:grid-cols-3 gap-3">
-                  {top.map((r, i) => (
-                    <FeaturedCard key={r.fullName} r={r} rank={i + 1} period={period} now={now} fresh={isFresh(r)} />
-                  ))}
-                </ol>
-                {rest.length > 0 && (
-                  <ol start={4} className="card mt-3 divide-y divide-gray-100 dark:divide-gray-700/70 overflow-hidden">
-                    {rest.map((r, i) => (
-                      <ListRow key={r.fullName} r={r} rank={i + 4} period={period} now={now} fresh={isFresh(r)} />
+                {/* Top 3 as cards from md up; on phones they are ordinary rows (three tall cards push the list too far down). */}
+                {top.length > 0 && (
+                  <ol className="hidden md:grid md:grid-cols-3 gap-3 mb-3">
+                    {top.map((r, i) => (
+                      <FeaturedCard key={r.fullName} r={r} rank={i + 1} period={period} now={now} fresh={isFresh(r)} />
                     ))}
                   </ol>
                 )}
+                <ol className={"card divide-y divide-gray-100 dark:divide-gray-700/70 overflow-hidden " + (rows.length <= top.length ? "md:hidden" : "")}>
+                  {rows.map((r, i) => (
+                    <ListRow
+                      key={r.fullName}
+                      r={r}
+                      rank={i + 1}
+                      period={period}
+                      now={now}
+                      fresh={isFresh(r)}
+                      className={i < top.length ? "md:hidden" : i === top.length && top.length > 0 ? "md:border-t-0" : ""}
+                    />
+                  ))}
+                </ol>
                 {visible.length > BOARD_LIMIT && (
                   <MoreButton
                     onClick={() => {
@@ -725,6 +888,85 @@ export default function GitHubTrendingView({ snapshot }: { snapshot: GhTrendingS
                   </MoreButton>
                 )}
               </>
+            )}
+
+            {/* Beyond the tracked list: GitHub's own search, on request */}
+            {searching && (
+              <div className="mt-6">
+                <h2 className="text-sm font-semibold dark:text-gray-100 flex items-center gap-2">
+                  <span className="w-1 h-4 bg-brand-500 rounded-sm" />
+                  {t("gh.wide.title")}
+                </h2>
+                <p className="mt-1 mb-3 text-[11px] text-gray-500 dark:text-gray-400">
+                  {t("gh.wide.desc")}
+                  {wide && (
+                    <>
+                      {" · "}
+                      {t("gh.wide.keywords")} <code className="text-gray-700 dark:text-gray-300">{wide.query.split(" in:")[0]}</code>
+                    </>
+                  )}
+                </p>
+                {!wide ? (
+                  <button
+                    type="button"
+                    onClick={() => submitSearch(draft)}
+                    className="w-full h-9 rounded-lg border border-gray-200 dark:border-gray-600 text-sm text-gray-700 dark:text-gray-200 hover:border-brand-500 hover:text-brand-600 transition"
+                  >
+                    {t("gh.wide.button")}
+                  </button>
+                ) : wide.status === "loading" ? (
+                  <p className="card p-4 text-sm text-gray-500 dark:text-gray-400">{t("gh.wide.loading")}</p>
+                ) : wide.status !== "done" ? (
+                  <p className="card p-4 text-sm text-gray-500 dark:text-gray-400">{t(wide.status === "limited" ? "gh.wide.limited" : "gh.wide.error")}</p>
+                ) : wide.items.length === 0 ? (
+                  <p className="card p-4 text-sm text-gray-500 dark:text-gray-400">{t("gh.wide.none")}</p>
+                ) : (
+                  <ol className="card divide-y divide-gray-100 dark:divide-gray-700/70 overflow-hidden">
+                    {wide.items.map((r) => {
+                      const [owner, name] = r.fullName.split("/");
+                      return (
+                        <li key={r.fullName} className="flex gap-3 px-4 py-3.5 hover:bg-gray-50/80 dark:hover:bg-gray-800/40 transition-colors">
+                          <Avatar owner={owner} className="hidden sm:block w-9 h-9 rounded-lg" />
+                          <div className="min-w-0 flex-1 space-y-1.5">
+                            <a
+                              href={r.url}
+                              target="_blank"
+                              rel="noreferrer"
+                              className="text-[15px] leading-snug text-gray-900 dark:text-gray-100 hover:text-brand-600 [overflow-wrap:anywhere]"
+                            >
+                              <span className="text-gray-500 dark:text-gray-400">{owner} / </span>
+                              <span className="font-semibold">{name}</span>
+                            </a>
+                            {r.description && (
+                              <p className="text-[13px] leading-relaxed text-gray-600 dark:text-gray-400 line-clamp-2">{plain(r.description)}</p>
+                            )}
+                            <div className="flex items-center gap-x-3 gap-y-1 flex-wrap text-xs text-gray-500 dark:text-gray-400">
+                              {r.language && <span>{r.language}</span>}
+                              <span className="inline-flex items-center gap-1">
+                                <StarIcon className="w-3.5 h-3.5" />
+                                {fmt(r.stars)}
+                              </span>
+                              <span>
+                                {t("gh.updated")} {r.pushedAt.slice(0, 10)}
+                              </span>
+                            </div>
+                          </div>
+                        </li>
+                      );
+                    })}
+                  </ol>
+                )}
+                {wide && (
+                  <a
+                    href={`https://github.com/search?type=repositories&s=stars&o=desc&q=${encodeURIComponent(wide.query)}`}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="mt-2 block text-center text-xs text-brand-600 dark:text-brand-500 hover:underline py-1.5"
+                  >
+                    {t("gh.wide.all")}
+                  </a>
+                )}
+              </div>
             )}
           </div>
         </section>
@@ -778,7 +1020,7 @@ export default function GitHubTrendingView({ snapshot }: { snapshot: GhTrendingS
                         <span className="block text-sm text-gray-700 dark:text-gray-200 group-hover:text-brand-600 truncate">{r.fullName}</span>
                         <div className="text-[11px] text-gray-500 dark:text-gray-400 mt-0.5 flex items-center gap-1.5 truncate">
                           <span>{trackName(r.track)}</span>
-                          <span className="text-amber-600 dark:text-amber-400 font-medium">
+                          <span className="text-brand-600 dark:text-brand-500 font-medium">
                             · +{fmt(r.gained.daily ?? 0)} {t("gh.period.daily")}
                           </span>
                           <span>· {isNew ? t("gh.breakout.new") : `${ratio.toFixed(1)}× ${t("gh.pace.w")}`}</span>

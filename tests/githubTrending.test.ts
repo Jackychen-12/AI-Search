@@ -2,6 +2,8 @@ import { describe, expect, it } from "vitest";
 import { classifyRepo, funKind, parseTrendingHtml } from "../scripts/sources/githubTrending";
 import { matchNews } from "../scripts/lib/ghNews";
 import { cleanNote } from "../scripts/lib/ghNote";
+import { ghWideQuery, parseGhQuery, searchGhRepos } from "../lib/ghSearch";
+import type { GhRepo } from "../lib/ghTrending";
 import { ghStreak } from "../lib/ghTrending";
 import type { AIItem } from "../lib/types";
 
@@ -196,8 +198,80 @@ describe("cleanNote", () => {
     expect(cleanNote(null)).toBeNull();
   });
 
+  it("catches 值得…关注 variants", () => {
+    expect(cleanNote("从零手写AI工程全流程的实战教程，值得想深入理解底层原理的开发者关注。")).toBe("从零手写AI工程全流程的实战教程。");
+  });
+
+  it("repairs fresh model output instead of dropping it", () => {
+    expect(cleanNote("开源的多智能体协作管理工具，让团队统一调度AI代理", true)).toBe("开源的多智能体协作管理工具，让团队统一调度AI代理。");
+    const long = "一站式办公文档运行时，把表格、文档、幻灯片、画布、关系表和 PDF 统一进同一引擎，为 AI 智能体提供操作办公套件的底层能力，并且支持协同编辑与插件扩展";
+    const out = cleanNote(long, true)!;
+    expect(out.length).toBeLessThanOrEqual(70);
+    expect(out.endsWith("底层能力。")).toBe(true);
+  });
+
   it("keeps clean notes as they are", () => {
     const ok = "本地运行的语音克隆与配音工具，支持646种语言，可替代ElevenLabs。";
     expect(cleanNote(ok)).toBe(ok);
+  });
+});
+
+describe("GitHub trends search", () => {
+  const repo = (fullName: string, description: string, aiNote: string | null = null, extra: Partial<GhRepo> = {}): GhRepo => ({
+    fullName,
+    url: `https://github.com/${fullName}`,
+    description,
+    language: null,
+    languageColor: null,
+    stars: 100,
+    forks: 1,
+    gained: { weekly: 10 },
+    track: "ai-app",
+    signals: [],
+    sources: ["trending"],
+    createdAt: null,
+    topics: [],
+    paper: null,
+    news: [],
+    firstSeen: "2026-10-01T00:00:00Z",
+    history: [],
+    aiNote,
+    ...extra,
+  });
+  const repos = [
+    repo("pbakaus/impeccable", "The design language that makes your AI harness better at design.", "一套让 AI 工具更懂设计的提示语言规范。"),
+    repo("Leonxlnx/taste-skill", "Gives your AI good taste: stops generic UI and frontend slop.", "给AI注入审美判断力。", { topics: ["design", "ui"] }),
+    repo("heygen-com/hyperframes", "Write HTML. Render video. Built for agents.", "用HTML写视频脚本，专为AI智能体设计。"),
+    repo("pydantic/monty", "A minimal Python interpreter designed for use by AI.", null),
+    repo("debpalash/VoiceStudio", "Local ElevenLabs alternative — voice cloning, dubbing.", "本地运行的语音克隆与配音工具。"),
+    repo("browser-use/browser-use", "Make websites accessible for AI agents. Automate tasks online.", "让AI代理直接操控浏览器完成网页任务。"),
+  ];
+  const names = (q: string) => searchGhRepos(repos, parseGhQuery(q)).map((h) => h.repo.fullName);
+
+  it("reduces a natural-language query to concepts", () => {
+    const q = parseGhQuery("我希望搜索github上跟优化ai设计ui相关的项目");
+    expect(q.groups.map((g) => g.terms[0])).toEqual(["优化", "设计", "界面"]);
+    expect(q.groups[0].soft).toBe(true);
+    expect(parseGhQuery("AI 项目").groups).toEqual([]);
+    expect(parseGhQuery("本地跑大模型").groups.map((g) => g.terms[0])).toEqual(["本地", "大模型"]);
+  });
+
+  it("matches across Chinese and English", () => {
+    expect(names("优化ai设计ui相关的项目")).toEqual(["Leonxlnx/taste-skill", "pbakaus/impeccable"]);
+    expect(names("语音克隆")).toEqual(["debpalash/VoiceStudio"]);
+    expect(names("voice cloning")).toEqual(["debpalash/VoiceStudio"]);
+    expect(names("浏览器自动化")).toEqual(["browser-use/browser-use"]);
+  });
+
+  it("does not treat 为…设计 / designed for as design", () => {
+    expect(names("设计")).not.toContain("heygen-com/hyperframes");
+    expect(names("design")).not.toContain("pydantic/monty");
+  });
+
+  it("builds an English, AI-scoped query for GitHub's search", () => {
+    const q = ghWideQuery(parseGhQuery("优化ai设计ui相关的项目"), Date.parse("2026-10-01T00:00:00Z"));
+    expect(q).toBe("design ui ai in:name,description,topics stars:>100 pushed:>2026-04-04");
+    expect(ghWideQuery(parseGhQuery("agent 记忆"), 0)).toMatch(/^agent memory in:/);
+    expect(ghWideQuery(parseGhQuery("AI 项目"), 0)).toBeNull();
   });
 });

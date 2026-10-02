@@ -75,7 +75,8 @@ npm run dev
 - **8 个赛道**：Agent 框架、编程 Agent、MCP · Skills、AI 应用、世界模型 · 具身、学术研究、模型 · 基建、教程 · 资源，由 `scripts/sources/githubTrending.ts` 中的关键词规则判定
 - **有趣玩法**：游戏、音乐、声音、桌宠陪伴等好玩的用法，作为筛选开关，可与任意赛道叠加
 - **为什么火**：自动关联本站资讯库中提到该仓库的报道，以及 HuggingFace 上的对应论文
-- **分享链接**：筛选会写进网址，如 `/github/?track=agent-framework&period=monthly&new=1&fun=1`
+- **搜索**：支持自然语言和中英文互通，输入「AI 设计 UI」「语音克隆」即可在榜单内按相关度筛选；回车可继续搜索 GitHub 全站（榜单之外、按 Star 排序）
+- **分享链接**：筛选和搜索词会写进网址，如 `/github/?track=agent-framework&period=monthly&new=1&fun=1&q=语音克隆`
 
 ### Agent 接入（一行命令）
 
@@ -168,7 +169,8 @@ Visit `/github` for a daily view of open-source projects directly about AI apps 
 - **8 tracks**: Agent Frameworks, Coding Agents, MCP · Skills, AI Apps, World Models · Embodied, Research, Models · Infra, Learn — assigned by keyword rules in `scripts/sources/githubTrending.ts`
 - **Fun**: games, music, voice, desk pets and other playful uses — a filter you can combine with any track
 - **Why it's hot**: links each repo to this site's own news that mentions it, plus its HuggingFace paper
-- **Shareable links**: filters live in the URL, e.g. `/github/?track=agent-framework&period=monthly&new=1&fun=1`
+- **Search**: natural-language, Chinese ⇄ English concept matching ("AI design UI", "语音克隆") ranks the tracked repos by relevance; press Enter to also search all of GitHub (beyond this list, sorted by stars)
+- **Shareable links**: filters and the search text live in the URL, e.g. `/github/?track=agent-framework&period=monthly&new=1&fun=1&q=voice+cloning`
 
 ### Agent Integration (one command)
 

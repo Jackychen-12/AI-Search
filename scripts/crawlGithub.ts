@@ -177,7 +177,7 @@ async function noteFor(r: GhRepo): Promise<string | null> {
     });
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const data = (await res.json()) as { choices?: { message?: { content?: string } }[] };
-    return cleanNote(data.choices?.[0]?.message?.content);
+    return cleanNote(data.choices?.[0]?.message?.content, true);
   } catch {
     return null;
   } finally {
@@ -243,6 +243,12 @@ export async function runGithubTrending(): Promise<{ written: number; counts: Gh
   // 1. Trending — pre-filter to AI by name/description (topics come later).
   const trending = await scanTrending(failed);
   if (trending.size === 0) throw new Error(`all trending pages failed: ${failed[0] ?? "unknown"}`);
+  // GitHub changing its markup shows up as rows without star counts — refuse to
+  // write that (the previous snapshot stays in place and CI flags the source).
+  const noStars = [...trending.values()].filter((r) => r.stars === 0).length;
+  if (trending.size >= 20 && noStars > trending.size / 2) {
+    throw new Error(`trending markup changed? ${noStars}/${trending.size} rows parsed without star counts`);
+  }
   const langColors = new Map<string, string>();
   const cands = new Map<string, Cand>();
   for (const r of trending.values()) {
