@@ -28,13 +28,16 @@ import { readLocalItems } from "../lib/localStore";
 import { getJson, getText } from "./lib/fetchUtil";
 import { discoverRepos, hasToken, lookupRepos, starGains, type ApiRepo } from "./lib/ghApi";
 import { matchNews } from "./lib/ghNews";
-import { NOTE_SYSTEM, cleanNote } from "./lib/ghNote";
+import { NOTE_SYSTEM, TAG_SYSTEM, cleanNote, parseTags } from "./lib/ghNote";
 import { bjDate } from "./lib/time";
 import { TRENDING_LANGS, classifyRepo, funKind, parseTrendingHtml, trendingUrl, type TrendingRow } from "./sources/githubTrending";
 
 /** Star-history samples kept per repo (one per Beijing day). */
 const HISTORY_DAYS = 60;
 const NOTE_MAX = Number(process.env.GH_NOTE_MAX || 40);
+/** Keyword generation: repos per LLM call, and calls per run (30 × 8 covers the whole list in one go). */
+const TAG_BATCH = 8;
+const TAG_CALLS = Number(process.env.GH_TAG_CALLS || 30);
 /** Non-trending repos below this are noise. */
 const MIN_STARS = 50;
 /** Papers older than this aren't "trending research" any more. */
@@ -204,6 +207,59 @@ async function addNotes(repos: GhRepo[]): Promise<void> {
   };
   await Promise.all(Array.from({ length: Math.min(4, targets.length) }, worker));
   console.log(`[gh-trending] AI notes: ${ok}/${targets.length}`);
+}
+
+/** Chinese search keywords for repos that don't have them yet (batched; cached in the snapshot). */
+async function addTags(repos: GhRepo[]): Promise<void> {
+  if (!LLM_KEY) return;
+  const targets = repos.filter((r) => !r.tags?.length && (r.description || r.aiNote || r.paper));
+  const batches: GhRepo[][] = [];
+  for (let i = 0; i < targets.length && batches.length < TAG_CALLS; i += TAG_BATCH) batches.push(targets.slice(i, i + TAG_BATCH));
+  let ok = 0;
+  const worker = async () => {
+    for (let batch = batches.shift(); batch; batch = batches.shift()) {
+      const ctrl = new AbortController();
+      const timer = setTimeout(() => ctrl.abort(), 40000);
+      try {
+        const res = await fetch("https://api.deepseek.com/chat/completions", {
+          method: "POST",
+          headers: { Authorization: `Bearer ${LLM_KEY}`, "Content-Type": "application/json" },
+          signal: ctrl.signal,
+          body: JSON.stringify({
+            model: LLM_MODEL,
+            temperature: 0.2,
+            max_tokens: 900,
+            response_format: { type: "json_object" },
+            messages: [
+              { role: "system", content: TAG_SYSTEM },
+              {
+                role: "user",
+                content: batch
+                  .map((r) => `仓库：${r.fullName}\n简介：${r.description ?? "（无）"}\n解读：${r.aiNote ?? r.paper?.title ?? "（无）"}`)
+                  .join("\n\n"),
+              },
+            ],
+          }),
+        });
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+        const data = (await res.json()) as { choices?: { message?: { content?: string } }[] };
+        const tags = parseTags(data.choices?.[0]?.message?.content, batch.map((r) => r.fullName));
+        for (const r of batch) {
+          const t = tags.get(r.fullName);
+          if (t) {
+            r.tags = t;
+            ok++;
+          }
+        }
+      } catch {
+        // one failed batch never blocks the crawl — those repos are retried next run
+      } finally {
+        clearTimeout(timer);
+      }
+    }
+  };
+  await Promise.all(Array.from({ length: Math.min(3, batches.length) }, worker));
+  console.log(`[gh-trending] search keywords: ${ok}/${targets.length}`);
 }
 
 // ---------------------------------------------------------------------------
@@ -418,6 +474,8 @@ export async function runGithubTrending(): Promise<{ written: number; counts: Gh
       // Description changed → the old take may be stale; cleanNote also drops notes cut off mid-sentence.
       aiNote: old && old.description === c.description ? cleanNote(old.aiNote) : null,
       fun: funKind({ fullName: c.fullName, description: c.description, topics: c.topics, track: cls.track }),
+      // Keywords describe the repo itself — reuse them until its description changes.
+      tags: old && old.description === c.description ? old.tags : undefined,
     });
   }
   console.log(`[gh-trending] stargazer calls: ${starCalls}/${STAR_BUDGET}`);
@@ -431,6 +489,7 @@ export async function runGithubTrending(): Promise<{ written: number; counts: Gh
   const score = (r: GhRepo) => (r.gained.weekly ?? 0) + (r.gained.daily ?? 0) * 3 + (r.gained.monthly ?? 0) / 4;
   repos.sort((a, b) => score(b) - score(a));
   await addNotes(repos);
+  await addTags(repos); // after the notes: they are part of the prompt
 
   const counts = {
     trending: trending.size,

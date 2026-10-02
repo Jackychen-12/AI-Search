@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect, useRef } from "react";
+import { usePathname } from "next/navigation";
 import { OPEN_CMDK_EVENT } from "./CommandPalette";
 import { useLocale } from "./LocaleProvider";
 import { useViewState } from "@/lib/viewState";
@@ -22,6 +23,20 @@ function saveHistory(keyword: string) {
 export default function SearchBar() {
   const { state, update } = useViewState();
   const { t } = useLocale();
+  // On the GitHub trends page this box searches repos (the page's own search), not news.
+  const onGithub = (usePathname() ?? "").startsWith("/github");
+
+  /** Hand the query to the trends page: it keeps its state in the URL and re-reads it on popstate. */
+  function searchRepos(keyword: string) {
+    const sp = new URLSearchParams(window.location.search);
+    if (keyword) sp.set("q", keyword);
+    else sp.delete("q");
+    const qs = sp.toString();
+    window.history.pushState(null, "", `${window.location.pathname}${qs ? `?${qs}` : ""}`);
+    window.dispatchEvent(new PopStateEvent("popstate"));
+    setValue("");
+    setFocused(false);
+  }
   const [value, setValue] = useState(state.keyword);
   const [focused, setFocused] = useState(false);
   const [history, setHistory] = useState<string[]>([]);
@@ -41,6 +56,7 @@ export default function SearchBar() {
   function submit(e: React.FormEvent) {
     e.preventDefault();
     const keyword = value.trim();
+    if (onGithub) return searchRepos(keyword);
     if (keyword) {
       saveHistory(keyword);
       setHistory(getHistory());
@@ -57,7 +73,8 @@ export default function SearchBar() {
     setFocused(false);
   }
 
-  const showDropdown = focused && !value.trim() && (history.length > 0 || HOT_WORDS.length > 0);
+  // History and hot words are news searches — not offered on the repo page.
+  const showDropdown = !onGithub && focused && !value.trim() && (history.length > 0 || HOT_WORDS.length > 0);
 
   return (
     <div ref={wrapRef} className="relative">
@@ -66,7 +83,7 @@ export default function SearchBar() {
           value={value}
           onChange={(e) => setValue(e.target.value)}
           onFocus={() => setFocused(true)}
-          placeholder={t("search.placeholder")}
+          placeholder={t(onGithub ? "gh.search.header" : "search.placeholder")}
           className="w-full h-9 pl-9 pr-12 rounded-full border border-gray-200 dark:border-gray-600 bg-gray-50 dark:bg-gray-800 dark:text-gray-100 text-sm focus:outline-none focus:ring-2 focus:ring-brand-500/40 focus:bg-white dark:focus:bg-gray-700"
         />
         <svg

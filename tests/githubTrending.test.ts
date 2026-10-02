@@ -1,8 +1,8 @@
 import { describe, expect, it } from "vitest";
 import { classifyRepo, funKind, parseTrendingHtml } from "../scripts/sources/githubTrending";
 import { matchNews } from "../scripts/lib/ghNews";
-import { cleanNote } from "../scripts/lib/ghNote";
-import { ghWideQuery, parseGhQuery, searchGhRepos } from "../lib/ghSearch";
+import { cleanNote, parseTags } from "../scripts/lib/ghNote";
+import { ghWideKeywords, ghWideQuery, parseGhQuery, rankWideResults, searchGhRepos } from "../lib/ghSearch";
 import type { GhRepo } from "../lib/ghTrending";
 import { ghStreak } from "../lib/ghTrending";
 import type { AIItem } from "../lib/types";
@@ -245,6 +245,10 @@ describe("GitHub trends search", () => {
     repo("pydantic/monty", "A minimal Python interpreter designed for use by AI.", null),
     repo("debpalash/VoiceStudio", "Local ElevenLabs alternative — voice cloning, dubbing.", "本地运行的语音克隆与配音工具。"),
     repo("browser-use/browser-use", "Make websites accessible for AI agents. Automate tasks online.", "让AI代理直接操控浏览器完成网页任务。"),
+    repo("jo-inc/camofox-browser", "Stealth headless browser for AI agents", "为 AI 智能体设计的隐身无头浏览器，可绕过反爬检测。", {
+      topics: ["anti-bot", "browser", "ai-agents"],
+      tags: ["无头浏览器", "反爬虫", "指纹伪装"],
+    }),
   ];
   const names = (q: string) => searchGhRepos(repos, parseGhQuery(q)).map((h) => h.repo.fullName);
 
@@ -260,7 +264,19 @@ describe("GitHub trends search", () => {
     expect(names("优化ai设计ui相关的项目")).toEqual(["Leonxlnx/taste-skill", "pbakaus/impeccable"]);
     expect(names("语音克隆")).toEqual(["debpalash/VoiceStudio"]);
     expect(names("voice cloning")).toEqual(["debpalash/VoiceStudio"]);
-    expect(names("浏览器自动化")).toEqual(["browser-use/browser-use"]);
+    expect(names("浏览器自动化")[0]).toBe("browser-use/browser-use");
+  });
+
+  it("matches words outside the dictionary as 2-character grams, and the LLM keywords", () => {
+    const q = parseGhQuery("隐身浏览器");
+    expect(q.groups.map((g) => g.terms[0])).toEqual(["隐身", "浏览器"]);
+    expect(q.groups[0].phrase).toBe("隐身");
+    expect(names("隐身浏览器")[0]).toBe("jo-inc/camofox-browser");
+    expect(names("指纹伪装")).toEqual(["jo-inc/camofox-browser"]); // only in `tags`
+  });
+
+  it("returns nothing rather than near-misses when a named concept matches no repo", () => {
+    expect(names("浏览器翻译")).toEqual([]); // browsers yes, translation nowhere
   });
 
   it("does not treat 为…设计 / designed for as design", () => {
@@ -273,5 +289,34 @@ describe("GitHub trends search", () => {
     expect(q).toBe("design ui ai in:name,description,topics stars:>100 pushed:>2026-04-04");
     expect(ghWideQuery(parseGhQuery("agent 记忆"), 0)).toMatch(/^agent memory in:/);
     expect(ghWideQuery(parseGhQuery("AI 项目"), 0)).toBeNull();
+  });
+
+  it("finds an English keyword for unknown Chinese words from matching repos' topics", () => {
+    expect(ghWideKeywords(parseGhQuery("隐身浏览器"), repos)).toEqual(["browser", "anti", "bot"]);
+    // Nothing tracked matches → the Chinese phrase itself is all we have.
+    expect(ghWideKeywords(parseGhQuery("剪纸"), repos)).toEqual(["剪纸"]);
+  });
+
+  it("re-checks GitHub's results with the stricter matching", () => {
+    const q = parseGhQuery("设计 ui");
+    const ranked = rankWideResults(
+      [
+        { fullName: "firerpa/lamda", description: "Device control platform with UI automation, designed for clusters", stars: 9000 },
+        { fullName: "onlook-dev/onlook", description: "The developer tool for designers. Visually edit your UI.", stars: 500 },
+        { fullName: "acme/ui-design-kit", description: "AI design system", topics: ["ui"], stars: 100 },
+      ],
+      q,
+    ).map((r) => r.fullName);
+    expect(ranked).toEqual(["acme/ui-design-kit", "onlook-dev/onlook"]); // "designed for" is not design; name match first
+  });
+});
+
+describe("parseTags", () => {
+  it("reads keywords per repo and drops junk", () => {
+    const raw = '```json\n{"Owner/Repo": ["界面设计", "人工智能", "界面设计", "x", "RAG", 42], "other/missing": "oops"}\n```';
+    const tags = parseTags(raw, ["owner/repo", "other/missing", "not/there"]);
+    expect(tags.get("owner/repo")).toEqual(["界面设计", "RAG"]);
+    expect(tags.has("other/missing")).toBe(false);
+    expect(parseTags("not json", ["owner/repo"]).size).toBe(0);
   });
 });

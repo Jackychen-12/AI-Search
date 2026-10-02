@@ -106,6 +106,8 @@ export interface GhRepo {
   history: { date: string; stars: number }[];
   /** One-line Chinese take (LLM, cached). */
   aiNote?: string | null;
+  /** 5–8 Chinese keywords (LLM, cached) — what it is, what for, key tech. Powers Chinese search. */
+  tags?: string[];
   /** Set when the repo is a playful AI use — feeds the "有趣 AI 玩法" column. */
   fun?: GhFunKind | null;
 }

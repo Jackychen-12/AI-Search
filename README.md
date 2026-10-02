@@ -73,10 +73,10 @@ npm run dev
 - **数据来源**：GitHub Trending（今日 / 本周 / 本月 × 9 个语言分区）、HuggingFace 热门论文的代码仓库、GitHub 搜索发现的新建世界模型 / 具身 / 有趣 AI 项目
 - **新增 Star**：Trending 项目直接用 GitHub 给出的数字；其他项目只在能精确计算时显示（仓库建于统计窗口内、stargazer 时间戳、或与每日快照对比），**不做估算**
 - **8 个赛道**：Agent 框架、编程 Agent、MCP · Skills、AI 应用、世界模型 · 具身、学术研究、模型 · 基建、教程 · 资源，由 `scripts/sources/githubTrending.ts` 中的关键词规则判定
-- **有趣玩法**：游戏、音乐、声音、桌宠陪伴等好玩的用法，作为筛选开关，可与任意赛道叠加
+- **有趣玩法**：游戏、音乐、声音、桌宠陪伴等好玩的用法，跨赛道汇总成一个单独的标签页
 - **为什么火**：自动关联本站资讯库中提到该仓库的报道，以及 HuggingFace 上的对应论文
-- **搜索**：支持自然语言和中英文互通，输入「AI 设计 UI」「语音克隆」即可在榜单内按相关度筛选；回车可继续搜索 GitHub 全站（榜单之外、按 Star 排序）
-- **分享链接**：筛选和搜索词会写进网址，如 `/github/?track=agent-framework&period=monthly&new=1&fun=1&q=语音克隆`
+- **搜索**：支持自然语言和中英文互通，输入「AI 设计 UI」「语音克隆」即可在榜单内按相关度筛选（匹配仓库简介、中文解读，以及抓取时由模型生成的中文关键词）；回车可继续搜索 GitHub 全站（榜单之外，结果按相关度复筛）
+- **分享链接**：标签、周期和搜索词会写进网址，如 `/github/?track=agent-framework&period=monthly&q=语音克隆`
 
 ### Agent 接入（一行命令）
 
@@ -167,10 +167,10 @@ Visit `/github` for a daily view of open-source projects directly about AI apps 
 - **Sources**: GitHub Trending (today / week / month × 9 language slices), code repos of trending HuggingFace papers, and newly created world-model / embodied / fun AI repos found via GitHub search
 - **Stars gained**: GitHub's own numbers for Trending repos; for other repos only when exact (created inside the window, stargazer timestamps, or diff against the daily snapshot) — **never estimated**
 - **8 tracks**: Agent Frameworks, Coding Agents, MCP · Skills, AI Apps, World Models · Embodied, Research, Models · Infra, Learn — assigned by keyword rules in `scripts/sources/githubTrending.ts`
-- **Fun**: games, music, voice, desk pets and other playful uses — a filter you can combine with any track
+- **Fun**: games, music, voice, desk pets and other playful uses, gathered across tracks into their own tab
 - **Why it's hot**: links each repo to this site's own news that mentions it, plus its HuggingFace paper
-- **Search**: natural-language, Chinese ⇄ English concept matching ("AI design UI", "语音克隆") ranks the tracked repos by relevance; press Enter to also search all of GitHub (beyond this list, sorted by stars)
-- **Shareable links**: filters and the search text live in the URL, e.g. `/github/?track=agent-framework&period=monthly&new=1&fun=1&q=voice+cloning`
+- **Search**: natural-language, Chinese ⇄ English concept matching ("AI design UI", "语音克隆") ranks the tracked repos by relevance (descriptions, Chinese takes, and LLM-written Chinese keywords generated at crawl time); press Enter to also search all of GitHub (beyond this list, re-checked for relevance)
+- **Shareable links**: tab, period and search text live in the URL, e.g. `/github/?track=agent-framework&period=monthly&q=voice+cloning`
 
 ### Agent Integration (one command)
 
@@ -206,7 +206,7 @@ Edit `scripts/sources/rss.ts` to replace FEEDS + `lib/categories.ts` for categor
 |----------|---------|
 | `DEEPSEEK_API_KEY` | AI commentary for news and GitHub repos (optional — everything else works without it) |
 | `GITHUB_TOKEN` | GitHub API token: higher rate limits for the crawlers; the stargazers API (exact daily / weekly stars for non-Trending repos) requires one. Provided automatically in GitHub Actions |
-| `GH_TRENDING_LANGS` / `GH_NOTE_MAX` / `GH_STAR_BUDGET` | GitHub trends tuning (optional): Trending language slices, AI takes per run (default 40), stargazer API call budget |
+| `GH_TRENDING_LANGS` / `GH_NOTE_MAX` / `GH_TAG_CALLS` / `GH_STAR_BUDGET` | GitHub trends tuning (optional): Trending language slices, AI takes per run (default 40), keyword-generation calls per run (default 30, 8 repos each), stargazer API call budget |
 | `NEXT_PUBLIC_ASK_AI_URL` | AI Q&A proxy (see `worker/`) |
 | `NEXT_PUBLIC_GISCUS_REPO` / `_REPO_ID` / `_CATEGORY_ID` | giscus comments (optional; set all three to your own repo) |
 | `NEXT_PUBLIC_SITE_URL` | Canonical site URL for SEO/sitemap (set this on forks) |

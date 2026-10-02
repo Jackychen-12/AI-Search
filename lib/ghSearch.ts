@@ -62,6 +62,50 @@ const CONCEPTS: string[][] = [
   ["插件", "plugin", "extension"],
   ["协作", "团队", "collaborat", "team"],
   ["电脑操控", "操控电脑", "computer-use", "computer use"],
+  ["审美", "美感", "品味", "taste", "aesthetic"],
+  ["数字人", "虚拟人", "avatar", "digital human", "talking head"],
+  ["字幕", "转写", "转录", "subtitle", "transcri", "whisper", "caption"],
+  ["会议", "meeting"],
+  ["邮件", "邮箱", "email", "mail"],
+  ["笔记", "note-taking", "notes", "obsidian"],
+  ["知识图谱", "knowledge graph", "graphrag"],
+  ["向量", "嵌入", "embedding", "vector"],
+  ["上下文", "context"],
+  ["沙箱", "隔离", "sandbox", "isolat"],
+  ["虚拟机", "容器", "vm", "docker", "container", "kubernetes"],
+  ["监控", "可观测", "追踪", "monitor", "observab", "tracing"],
+  ["成本", "省钱", "cost", "token usage", "token saving"],
+  ["免费", "free"],
+  ["客服", "customer support", "helpdesk"],
+  ["营销", "seo", "marketing"],
+  ["电商", "e-commerce", "ecommerce", "shop"],
+  ["医疗", "医学", "健康", "medical", "health", "clinical"],
+  ["法律", "合规", "legal", "compliance", "law"],
+  ["教育", "课堂", "education", "classroom", "teach"],
+  ["科研", "科学", "science", "scientific"],
+  ["多模态", "multimodal"],
+  ["视觉", "vision", "visual"],
+  ["三维", "3d", "mesh", "gaussian"],
+  ["时间序列", "预测", "time series", "forecast"],
+  ["强化学习", "reinforcement learning", "rl"],
+  ["蒸馏", "量化", "压缩", "distill", "quantiz", "compress"],
+  ["显卡", "gpu", "cuda"],
+  ["苹果", "mac", "macos", "apple silicon", "mlx"],
+  ["代码评审", "代码审查", "code review"],
+  ["版本控制", "git", "worktree"],
+  ["调试", "debug"],
+  ["主题", "皮肤", "theme", "skin"],
+  ["后端", "接口", "api", "backend", "sdk"],
+  ["简历", "求职", "resume", "job"],
+  ["社交", "推特", "social", "twitter"],
+  ["新闻", "资讯", "news"],
+  ["地图", "map"],
+  ["框架", "framework"],
+  ["运行时", "runtime"],
+  ["编排", "orchestrat"],
+  ["角色扮演", "女友", "roleplay", "role-play", "girlfriend"],
+  ["截图", "screenshot"],
+  ["支付", "payment", "pay"],
 ];
 
 /** Vague intent words: they help ranking but are never required, and aren't sent to GitHub. */
@@ -79,6 +123,12 @@ const CJK = /[一-鿿]/;
 export interface GhQueryGroup {
   terms: string[];
   soft: boolean;
+  /**
+   * Set on groups cut from a Chinese stretch the dictionary doesn't know: the
+   * stretch is matched as overlapping 2-character grams (how CJK text is
+   * usually indexed), and `phrase` keeps the original wording.
+   */
+  phrase?: string;
 }
 
 export interface GhQuery {
@@ -99,15 +149,17 @@ function groupFor(token: string): GhQueryGroup {
 export function parseGhQuery(raw: string): GhQuery {
   const text = raw.toLowerCase().trim();
   const tokens: string[] = [];
+  const grams = new Map<string, string>(); // gram -> the stretch it was cut from
   for (const run of text.match(/[a-z0-9][a-z0-9.+#-]*|[一-鿿]+/g) ?? []) {
     if (!CJK.test(run)) {
       tokens.push(run);
       continue;
     }
-    // Greedy longest-match over known terms; unknown stretches are kept literally.
+    // Greedy longest-match over known terms; unknown stretches are cut into 2-character grams.
     let unknown = "";
     const flush = () => {
-      if (unknown.length >= 2) tokens.push(unknown);
+      for (let j = 0; j + 2 <= unknown.length; j++) grams.set(unknown.slice(j, j + 2), unknown);
+      if (unknown.length >= 2) tokens.push(...Array.from({ length: unknown.length - 1 }, (_, j) => unknown.slice(j, j + 2)));
       unknown = "";
     };
     for (let i = 0; i < run.length; ) {
@@ -125,7 +177,7 @@ export function parseGhQuery(raw: string): GhQuery {
   const groups: GhQueryGroup[] = [];
   for (const tok of tokens) {
     if (NOISE.has(tok)) continue;
-    const g = groupFor(tok);
+    const g = grams.has(tok) ? { terms: [tok], soft: false, phrase: grams.get(tok) } : groupFor(tok);
     if (!groups.includes(g) && !groups.some((x) => x.terms[0] === g.terms[0])) groups.push(g);
   }
   return { groups };
@@ -158,12 +210,13 @@ function matcher(term: string): RegExp {
 
 interface Fields {
   name: string;
+  tags: string;
   topics: string;
   note: string;
   desc: string;
   extra: string;
 }
-const WEIGHT: Record<keyof Fields, number> = { name: 5, topics: 3, note: 3, desc: 2, extra: 1 };
+const WEIGHT: Record<keyof Fields, number> = { name: 5, tags: 4, topics: 3, note: 3, desc: 2, extra: 1 };
 
 const fieldCache = new WeakMap<GhRepo, Fields>();
 function fieldsOf(r: GhRepo): Fields {
@@ -173,6 +226,7 @@ function fieldsOf(r: GhRepo): Fields {
     const fun = r.fun ? GH_FUN_KINDS[r.fun] : null;
     f = {
       name: r.fullName.toLowerCase().replace(/[/_.]+/g, " "),
+      tags: (r.tags ?? []).join(" ").toLowerCase(),
       topics: (r.topics ?? []).join(" ").toLowerCase(),
       note: (r.aiNote ?? "").toLowerCase(),
       desc: (r.description ?? "").toLowerCase(),
@@ -221,6 +275,11 @@ export function searchGhRepos(repos: GhRepo[], query: GhQuery): GhSearchHit[] {
       ok: h.w.some((w, i) => w > 0 && (!hard || !query.groups[i].soft)),
     }))
     .filter((h) => h.ok && h.score > 0);
+  // A named concept that matches no tracked repo at all means the list can't answer this query
+  // ("离线翻译" with no translation project): better to say so than to return everything "local".
+  // Grams of an unknown phrase are exempt — most cross-word grams never occur anywhere.
+  const unmatched = query.groups.some((g, i) => !g.soft && !g.phrase && !hits.some((h) => h.w[i] > 0));
+  if (unmatched) return [];
   const top = Math.max(0, ...scored.map((h) => h.score));
   return scored
     .filter((h) => h.score >= top * 0.5)
@@ -232,17 +291,98 @@ export function searchGhRepos(repos: GhRepo[], query: GhQuery): GhSearchHit[] {
 
 const AIISH = /^(agent|agentic|llm|model|rag|mcp|prompt|gpt|claude|copilot|diffusion|inference|world model)/;
 
-/** Query string for GitHub's repository search: English keywords, AI-scoped, recently active. */
-export function ghWideQuery(query: GhQuery, now: number): string | null {
-  const kws = query.groups
-    .filter((g) => !g.soft)
-    .map((g) => g.terms.find((t) => !CJK.test(t)) ?? g.terms[0])
-    // Stemmed dictionary forms ("clon", "optimiz") are for local matching; GitHub wants whole words.
-    .map((k) => ({ clon: "clone", translat: "translation", scrap: "scraper", crawl: "crawler", collaborat: "collaboration", visualiz: "visualization", "fine-tun": "fine-tuning" })[k] ?? k);
-  if (kws.length === 0) return null;
+/** Stemmed dictionary forms are for local matching; GitHub's search wants whole words. */
+const WHOLE: Record<string, string> = {
+  clon: "clone", translat: "translation", scrap: "scraper", crawl: "crawler", collaborat: "collaboration", visualiz: "visualization",
+  "fine-tun": "fine-tuning", optimiz: "optimization", transcri: "transcription", observab: "observability", isolat: "isolation",
+  orchestrat: "orchestration", distill: "distillation", quantiz: "quantization", teach: "teaching",
+};
+
+/** Topics too generic to stand in for a concept. */
+const VAGUE_TOPICS = new Set([
+  "ai", "llm", "llms", "agent", "agents", "ai-agent", "ai-agents", "agentic", "agentic-ai", "claude", "claude-code", "openai", "anthropic", "gpt", "chatgpt", "gemini", "codex",
+  "python", "typescript", "javascript", "rust", "go", "golang", "nodejs", "react", "nextjs", "cli", "tool", "tools", "open-source", "opensource", "awesome", "machine-learning", "deep-learning",
+  "generative-ai", "genai", "artificial-intelligence", "mcp", "skills", "automation", "framework", "sdk", "api", "self-hosted", "local-first",
+]);
+
+/**
+ * An English keyword for a Chinese phrase the dictionary doesn't know: the
+ * most common GitHub topic among tracked repos that match the phrase
+ * (pseudo-relevance feedback — no translation service needed).
+ */
+function topicFor(grams: GhQueryGroup[], repos: GhRepo[]): string | null {
+  const need = Math.max(1, Math.ceil(grams.length / 2));
+  const counts = new Map<string, number>();
+  for (const r of repos) {
+    const f = fieldsOf(r);
+    if (grams.filter((g) => groupHit(g, f) >= WEIGHT.note).length < need) continue;
+    for (const t of r.topics ?? []) if (!VAGUE_TOPICS.has(t)) counts.set(t, (counts.get(t) ?? 0) + 1);
+  }
+  const best = [...counts].sort((a, b) => b[1] - a[1])[0];
+  return best ? best[0].replace(/-/g, " ") : null;
+}
+
+/** Keywords sent to GitHub for a query (English where we can find it). */
+export function ghWideKeywords(query: GhQuery, repos: GhRepo[] = []): string[] {
+  const kws: string[] = [];
+  const phrases = new Map<string, GhQueryGroup[]>();
+  for (const g of query.groups) {
+    if (g.soft) continue;
+    if (g.phrase) {
+      phrases.set(g.phrase, [...(phrases.get(g.phrase) ?? []), g]);
+      continue;
+    }
+    const k = g.terms.find((t) => !CJK.test(t)) ?? g.terms[0];
+    kws.push(WHOLE[k] ?? k);
+  }
+  for (const [phrase, grams] of phrases) kws.push(topicFor(grams, repos) ?? phrase);
+  // CJK words AND-ed with English ones return nothing on GitHub — keep them only when there's no English.
   const latin = kws.filter((k) => !CJK.test(k));
-  if (latin.length > 0) kws.splice(0, kws.length, ...latin);
+  // GitHub ANDs every word, so repeat words add nothing ("agent memory" + "ai memory").
+  return [...new Set((latin.length > 0 ? latin : kws).flatMap((k) => k.split(" ")))];
+}
+
+/** Query string for GitHub's repository search: AI-scoped, recently active. */
+export function ghWideQuery(query: GhQuery, now: number, repos: GhRepo[] = []): string | null {
+  const kws = ghWideKeywords(query, repos);
+  if (kws.length === 0) return null;
   if (!kws.some((k) => AIISH.test(k))) kws.push("ai");
   const since = new Date(now - 180 * 86_400_000).toISOString().slice(0, 10);
   return `${kws.join(" ")} in:name,description,topics stars:>100 pushed:>${since}`;
+}
+
+export interface GhWideItem {
+  fullName: string;
+  description: string | null;
+  topics?: string[];
+  stars: number;
+}
+
+/**
+ * Re-check GitHub's results with our own (stricter) concept matching and put
+ * the most on-topic first. GitHub stems and matches loosely ("designed for…"
+ * counts as "design"), which is where the off-topic results come from.
+ */
+export function rankWideResults<T extends GhWideItem>(items: T[], query: GhQuery): T[] {
+  const concepts = query.groups.filter((g) => !g.soft && !g.phrase);
+  return items
+    .map((it) => {
+      const name = it.fullName.toLowerCase().replace(/[/_.]+/g, " ");
+      const topics = (it.topics ?? []).join(" ").toLowerCase();
+      const desc = (it.description ?? "").toLowerCase();
+      const w = concepts.map((g) => {
+        let best = 0;
+        for (const term of g.terms) {
+          const re = matcher(term);
+          if (re.test(name)) best = Math.max(best, WEIGHT.name);
+          else if (re.test(topics)) best = Math.max(best, WEIGHT.topics);
+          else if (re.test(desc)) best = Math.max(best, WEIGHT.desc);
+        }
+        return best;
+      });
+      return { it, ok: w.every((x) => x > 0), score: w.reduce((a, b) => a + b, 0) };
+    })
+    .filter((x) => x.ok)
+    .sort((a, b) => b.score - a.score || b.it.stars - a.it.stars)
+    .map((x) => x.it);
 }

@@ -16,10 +16,11 @@ import {
   type GhTrack,
   type GhTrendingSnapshot,
 } from "@/lib/ghTrending";
-import { ghWideQuery, parseGhQuery, searchGhRepos } from "@/lib/ghSearch";
+import { ghWideQuery, parseGhQuery, rankWideResults, searchGhRepos } from "@/lib/ghSearch";
 import { formatBJDate, formatBJTime } from "@/lib/timeFormat";
 
-type TrackFilter = GhTrack | "all";
+/** A track, everything, or the cross-track "有趣玩法" selection. */
+type TrackFilter = GhTrack | "all" | "fun";
 
 /** 38088 -> "38.1k", 1293 -> "1,293" */
 function fmt(n: number): string {
@@ -432,23 +433,20 @@ function pickFun(list: GhRepo[], period: GhPeriod, n = 6): GhRepo[] {
 interface View {
   track: TrackFilter;
   period: GhPeriod;
-  onlyNew: boolean;
-  onlyFun: boolean;
   /** Search text (榜单内搜索). */
   q: string;
 }
 
-const DEFAULT_VIEW: View = { track: "all", period: "weekly", onlyNew: false, onlyFun: false, q: "" };
+const DEFAULT_VIEW: View = { track: "all", period: "weekly", q: "" };
 
 function readView(search: string): View {
   const q = new URLSearchParams(search);
   const track = q.get("track");
   const period = q.get("period");
   return {
-    track: track && track in GH_TRACK_MAP ? (track as GhTrack) : "all",
+    // `fun=1` is the pre-tab URL form of the fun filter — keep old shared links working.
+    track: track === "fun" || (!track && q.get("fun") === "1") ? "fun" : track && track in GH_TRACK_MAP ? (track as GhTrack) : "all",
     period: period === "daily" || period === "monthly" ? period : "weekly",
-    onlyNew: q.get("new") === "1",
-    onlyFun: q.get("fun") === "1",
     q: (q.get("q") ?? "").trim().slice(0, 80),
   };
 }
@@ -457,8 +455,6 @@ function viewQuery(v: View): string {
   const q = new URLSearchParams();
   if (v.track !== "all") q.set("track", v.track);
   if (v.period !== "weekly") q.set("period", v.period);
-  if (v.onlyNew) q.set("new", "1");
-  if (v.onlyFun) q.set("fun", "1");
   if (v.q) q.set("q", v.q);
   return q.toString();
 }
@@ -473,7 +469,29 @@ interface WideRepo {
   pushedAt: string;
 }
 
-type WideState = { query: string; status: "loading" | "done" | "limited" | "error"; items: WideRepo[] };
+type WideState = {
+  query: string;
+  status: "loading" | "done" | "limited" | "error";
+  items: WideRepo[];
+  /** When rate-limited: seconds until GitHub's search quota resets. */
+  retryIn?: number;
+};
+
+/** GitHub allows ~10 unauthenticated searches a minute — don't spend them on repeats. */
+const WIDE_TTL_MS = 10 * 60_000;
+function wideCache(query: string, items?: WideRepo[]): WideRepo[] | null {
+  try {
+    const key = `gh-wide:${query}`;
+    if (items) {
+      sessionStorage.setItem(key, JSON.stringify({ at: Date.now(), items }));
+      return items;
+    }
+    const hit = JSON.parse(sessionStorage.getItem(key) ?? "null") as { at: number; items: WideRepo[] } | null;
+    return hit && Date.now() - hit.at < WIDE_TTL_MS ? hit.items : null;
+  } catch {
+    return null; // storage disabled
+  }
+}
 
 const pill = (active: boolean) =>
   "px-3 h-7 inline-flex items-center rounded-full transition-all duration-200 text-[13px] font-medium " +
@@ -483,42 +501,67 @@ const pill = (active: boolean) =>
 
 export default function GitHubTrendingView({ snapshot }: { snapshot: GhTrendingSnapshot | null }) {
   const { t, locale } = useLocale();
-  // "有趣玩法" (onlyFun) is a filter like "只看新项目", combinable with any track.
   const [view, setView] = useState<View>(DEFAULT_VIEW);
-  const { track, period, onlyNew, onlyFun } = view;
+  const { track, period } = view;
   // What's typed in the search box; filtering follows it live, the URL catches up on submit.
   const [draft, setDraft] = useState("");
   const [wide, setWide] = useState<WideState | null>(null);
   const wideSeq = useRef(0);
   const [expanded, setExpanded] = useState(false);
-  useEffect(() => setExpanded(false), [track, period, onlyNew, onlyFun, draft]);
+  useEffect(() => setExpanded(false), [track, period, draft]);
 
   const repos = useMemo(() => snapshot?.repos ?? [], [snapshot]);
 
-  /** Ask GitHub's own search for repos beyond the ones tracked here (explicit: Enter / button). */
+  /** Ask GitHub's own search for repos beyond the ones tracked here (explicit: Enter / button / shared link). */
   const runWide = async (text: string) => {
-    const query = ghWideQuery(parseGhQuery(text), Date.now());
+    const parsed = parseGhQuery(text);
+    const query = ghWideQuery(parsed, Date.now(), repos);
     const seq = ++wideSeq.current;
     if (!query) return setWide(null);
+    const cached = wideCache(query);
+    if (cached) return setWide({ query, status: "done", items: cached });
     setWide({ query, status: "loading", items: [] });
     try {
       const res = await fetch(
-        `https://api.github.com/search/repositories?q=${encodeURIComponent(query)}&sort=stars&order=desc&per_page=30`,
+        `https://api.github.com/search/repositories?q=${encodeURIComponent(query)}&sort=stars&order=desc&per_page=50`,
         { headers: { Accept: "application/vnd.github+json" } },
       );
       if (seq !== wideSeq.current) return;
-      if (res.status === 403 || res.status === 429) return setWide({ query, status: "limited", items: [] });
+      if (res.status === 403 || res.status === 429) {
+        const reset = Number(res.headers.get("x-ratelimit-reset") ?? 0) * 1000;
+        return setWide({ query, status: "limited", items: [], retryIn: reset ? Math.max(1, Math.ceil((reset - Date.now()) / 1000)) : undefined });
+      }
       if (!res.ok) throw new Error(String(res.status));
       const data = (await res.json()) as {
-        items?: { full_name: string; html_url: string; description: string | null; language: string | null; stargazers_count: number; pushed_at: string }[];
+        items?: {
+          full_name: string;
+          html_url: string;
+          description: string | null;
+          language: string | null;
+          stargazers_count: number;
+          pushed_at: string;
+          topics?: string[];
+        }[];
       };
       const tracked = new Set(repos.map((r) => r.fullName.toLowerCase()));
-      const items = (data.items ?? [])
+      const candidates = (data.items ?? [])
         .filter((r) => !tracked.has(r.full_name.toLowerCase()))
         // Keyword-stuffed spam repos game GitHub's search with enormous descriptions.
         .filter((r) => (r.description ?? "").length <= 300)
+        .map((r) => ({
+          fullName: r.full_name,
+          url: r.html_url,
+          description: r.description,
+          language: r.language,
+          stars: r.stargazers_count,
+          pushedAt: r.pushed_at,
+          topics: r.topics,
+        }));
+      // GitHub matches loosely; re-check with our own concept matching and put the most on-topic first.
+      const items = rankWideResults(candidates, parsed)
         .slice(0, 8)
-        .map((r) => ({ fullName: r.full_name, url: r.html_url, description: r.description, language: r.language, stars: r.stargazers_count, pushedAt: r.pushed_at }));
+        .map(({ topics: _topics, ...r }) => r);
+      wideCache(query, items);
       if (seq === wideSeq.current) setWide({ query, status: "done", items });
     } catch {
       if (seq === wideSeq.current) setWide({ query, status: "error", items: [] });
@@ -578,15 +621,14 @@ export default function GitHubTrendingView({ snapshot }: { snapshot: GhTrendingS
     () =>
       repos
         .filter((r) => (r.gained[period] ?? 0) > 0) // no growth in the window = not on this period's list
-        .filter((r) => !onlyNew || (ghAgeDays(r.createdAt, now) ?? Infinity) <= GH_NEW_DAYS)
         .sort((a, b) => (b.gained[period] ?? 0) - (a.gained[period] ?? 0)),
-    [repos, period, onlyNew, now],
+    [repos, period],
   );
-  const passes = (r: GhRepo) => (!onlyFun || !!r.fun) && (!onlyNew || (ghAgeDays(r.createdAt, now) ?? Infinity) <= GH_NEW_DAYS);
-  const matches = (r: GhRepo) => (track === "all" || r.track === track) && passes(r);
+  const inTab = (r: GhRepo, key: TrackFilter) => key === "all" || (key === "fun" ? !!r.fun : r.track === key);
+  const matches = (r: GhRepo) => inTab(r, track);
   // Search looks at every tracked repo (ranked by relevance); otherwise it's the period ranking.
-  const base = (searching ? found : inPeriod).filter(passes);
-  const visible = track === "all" ? base : base.filter((r) => r.track === track);
+  const base = searching ? found : inPeriod;
+  const visible = base.filter(matches);
 
   const trackStats = useMemo(() => {
     const stats = GH_TRACKS.map((d) => {
@@ -671,20 +713,18 @@ export default function GitHubTrendingView({ snapshot }: { snapshot: GhTrendingS
       </>
     );
 
-  // A tab is dead when nothing can ever show under the current filters (e.g. 学术研究 + 有趣玩法),
-  // as opposed to merely empty for this period — that one stays clickable and offers other periods.
-  const reachable = searching ? base : repos.filter(passes);
+  // A tab is dead only while searching, when the query has no match in it. Outside search an
+  // empty tab (nothing this period) stays clickable and offers the periods that do have repos.
   const tabs: { key: TrackFilter; label: string; count: number; dead: boolean }[] = [
-    { key: "all", label: t("gh.all"), count: base.length, dead: false },
-    ...GH_TRACKS.map((d) => ({
-      key: d.key,
-      label: trackName(d.key),
-      count: base.filter((r) => r.track === d.key).length,
-      dead: !reachable.some((r) => r.track === d.key),
-    })),
-  ];
-  const note =
-    track !== "all" ? (locale === "zh" ? GH_TRACK_MAP[track].descZh : GH_TRACK_MAP[track].descEn) : onlyFun ? t("gh.fun.desc") : "";
+    { key: "all" as TrackFilter, label: t("gh.all") },
+    ...GH_TRACKS.map((d) => ({ key: d.key as TrackFilter, label: trackName(d.key) })),
+    { key: "fun" as TrackFilter, label: t("gh.fun.tab") },
+  ].map((tab) => {
+    const count = base.filter((r) => inTab(r, tab.key)).length;
+    return { ...tab, count, dead: searching && count === 0 && tab.key !== "all" };
+  });
+  const note = track === "all" ? "" : track === "fun" ? t("gh.fun.desc") : locale === "zh" ? GH_TRACK_MAP[track].descZh : GH_TRACK_MAP[track].descEn;
+  const overview = track === "all" && !searching;
 
   const stats: { value: string; label: string; sub?: string }[] = [
     { value: String(inPeriod.length), label: locale === "zh" ? `${periodLabel}上榜` : `Trending ${periodLabel.toLowerCase()}` },
@@ -731,16 +771,18 @@ export default function GitHubTrendingView({ snapshot }: { snapshot: GhTrendingS
                   }
                 >
                   {tab.label}
-                  <span className={"text-[11px] font-normal tabular-nums " + (tab.dead && !active ? "" : "text-gray-500 dark:text-gray-400")}>{tab.count}</span>
+                  <span className={"hidden min-[1440px]:inline text-[11px] font-normal tabular-nums " + (tab.dead && !active ? "" : "text-gray-500 dark:text-gray-400")}>
+                    {tab.count}
+                  </span>
                 </button>
               );
             })}
           </div>
 
-          {/* Page header — overview, only on the "全部" tab */}
-          {track === "all" && !searching && (
+          {/* Summary panel. Title, period and search are always here; the stats and the
+              at-a-glance line are the overview and only show on "全部" when not searching. */}
           <div className="card p-5 sm:p-6 bg-gradient-to-br from-brand-50/80 via-transparent to-transparent dark:from-brand-500/10">
-            <div>
+            <div className="flex items-start justify-between gap-x-4 gap-y-3 flex-wrap">
               <div className="min-w-0">
                 <h1 className="text-2xl font-bold dark:text-gray-100 flex items-center gap-2">
                   <GitHubMark className="w-6 h-6" />
@@ -754,33 +796,19 @@ export default function GitHubTrendingView({ snapshot }: { snapshot: GhTrendingS
                   {t("gh.updated")} {updatedAt}
                 </p>
               </div>
+              <div className="shrink-0 flex items-center gap-1 p-1 bg-gray-100 dark:bg-gray-800 rounded-full">
+                {(["daily", "weekly", "monthly"] as GhPeriod[]).map((p) => (
+                  <button key={p} onClick={() => update({ period: p })} className={pill(period === p)}>
+                    {t(`gh.period.${p}`)}
+                  </button>
+                ))}
+              </div>
             </div>
 
-            <dl className="mt-5 flex divide-x divide-gray-200/70 dark:divide-gray-700">
-              {stats.map((s) => (
-                <div key={s.label} className="min-w-0 px-4 sm:px-6 first:pl-0">
-                  <dd className="text-xl sm:text-2xl font-bold tabular-nums text-brand-600 dark:text-brand-500">{s.value}</dd>
-                  <dt className="mt-0.5 text-xs text-gray-500 dark:text-gray-400">{s.label}</dt>
-                  {s.sub && <dd className="hidden sm:block text-[11px] text-gray-500 dark:text-gray-400">{s.sub}</dd>}
-                </div>
-              ))}
-            </dl>
-
-            {(hottest || leader) && (
-              <p className="mt-5 pt-4 border-t border-gray-200/70 dark:border-gray-700 text-sm text-gray-600 dark:text-gray-400 leading-relaxed">
-                <span className="text-brand-600 dark:text-brand-500 font-medium">{t("gh.insight")} · </span>
-                {insight}
-              </p>
-            )}
-          </div>
-          )}
-
-          {/* Leaderboard */}
-          <div id="gh-board" className="scroll-mt-4">
             {/* Search — same field style as the site header search */}
             <form
               role="search"
-              className="relative mb-4"
+              className="relative mt-4"
               onSubmit={(e) => {
                 e.preventDefault();
                 submitSearch(draft);
@@ -809,34 +837,38 @@ export default function GitHubTrendingView({ snapshot }: { snapshot: GhTrendingS
               )}
             </form>
 
-            {/* Row 1 — like the home SortTabs: rounded pill groups */}
-            <div className="flex items-center justify-between gap-3 flex-wrap mb-4">
-              <div className="flex items-center gap-3 flex-wrap">
-                <div className="flex items-center gap-1 p-1 bg-gray-100 dark:bg-gray-800 rounded-full">
-                  {(["daily", "weekly", "monthly"] as GhPeriod[]).map((p) => (
-                    <button key={p} onClick={() => update({ period: p })} className={pill(period === p)}>
-                      {t(`gh.period.${p}`)}
-                    </button>
+            {overview ? (
+              <>
+                <dl className="mt-5 flex divide-x divide-gray-200/70 dark:divide-gray-700">
+                  {stats.map((s) => (
+                    <div key={s.label} className="min-w-0 px-4 sm:px-6 first:pl-0">
+                      <dd className="text-xl sm:text-2xl font-bold tabular-nums text-brand-600 dark:text-brand-500">{s.value}</dd>
+                      <dt className="mt-0.5 text-xs text-gray-500 dark:text-gray-400">{s.label}</dt>
+                      {s.sub && <dd className="hidden sm:block text-[11px] text-gray-500 dark:text-gray-400">{s.sub}</dd>}
+                    </div>
                   ))}
-                </div>
-                <div className="flex items-center gap-1 p-1 bg-gray-100 dark:bg-gray-800 rounded-full">
-                  <button onClick={() => update({ onlyNew: !onlyNew })} className={pill(onlyNew)} aria-pressed={onlyNew}>
-                    {t("gh.onlyNew")}
-                  </button>
-                  <button onClick={() => update({ onlyFun: !onlyFun })} className={pill(onlyFun)} aria-pressed={onlyFun}>
-                    {t("gh.fun.tab")}
-                  </button>
-                </div>
-              </div>
-              <span className="text-sm text-gray-500 dark:text-gray-400">
-                {searching ? t("gh.search.found") : t("feed.showing")}{" "}
-                <span className="text-gray-800 dark:text-gray-200 font-medium">{visible.length}</span>
-                {locale === "zh" ? " 个" : ""}
-              </span>
-            </div>
+                </dl>
+                {(hottest || leader) && (
+                  <p className="mt-5 pt-4 border-t border-gray-200/70 dark:border-gray-700 text-sm text-gray-600 dark:text-gray-400 leading-relaxed">
+                    <span className="text-brand-600 dark:text-brand-500 font-medium">{t("gh.insight")} · </span>
+                    {insight}
+                  </p>
+                )}
+              </>
+            ) : (
+              <p className="mt-4 flex items-baseline justify-between gap-3 text-sm text-gray-500 dark:text-gray-400">
+                <span className="min-w-0 text-xs">{note}</span>
+                <span className="shrink-0">
+                  {searching ? t("gh.search.found") : t("feed.showing")}{" "}
+                  <span className="text-gray-800 dark:text-gray-200 font-medium">{visible.length}</span>
+                  {locale === "zh" ? " 个" : ""}
+                </span>
+              </p>
+            )}
+          </div>
 
-            {note && <p className="-mt-1 mb-4 text-xs text-gray-500 dark:text-gray-400">{note}</p>}
-
+          {/* Leaderboard */}
+          <div id="gh-board" className="scroll-mt-4">
             {visible.length === 0 ? (
               <div className="card p-8 text-center text-sm text-gray-500 dark:text-gray-400">
                 <p>{searching ? t("gh.search.empty") : t("gh.empty")}</p>
@@ -917,7 +949,20 @@ export default function GitHubTrendingView({ snapshot }: { snapshot: GhTrendingS
                 ) : wide.status === "loading" ? (
                   <p className="card p-4 text-sm text-gray-500 dark:text-gray-400">{t("gh.wide.loading")}</p>
                 ) : wide.status !== "done" ? (
-                  <p className="card p-4 text-sm text-gray-500 dark:text-gray-400">{t(wide.status === "limited" ? "gh.wide.limited" : "gh.wide.error")}</p>
+                  <div className="card p-4 flex items-center justify-between gap-3 flex-wrap text-sm text-gray-500 dark:text-gray-400">
+                    <span>
+                      {wide.status === "limited"
+                        ? `${t("gh.wide.limited")}${wide.retryIn ? (locale === "zh" ? `约 ${wide.retryIn} 秒后恢复。` : ` Resets in about ${wide.retryIn}s.`) : ""}`
+                        : t("gh.wide.error")}
+                    </span>
+                    <button
+                      type="button"
+                      onClick={() => void runWide(draft)}
+                      className="shrink-0 px-3 h-8 rounded-md text-sm border border-gray-200 dark:border-gray-600 text-gray-700 dark:text-gray-200 hover:border-brand-500 hover:text-brand-600 transition"
+                    >
+                      {t("gh.wide.retry")}
+                    </button>
+                  </div>
                 ) : wide.items.length === 0 ? (
                   <p className="card p-4 text-sm text-gray-500 dark:text-gray-400">{t("gh.wide.none")}</p>
                 ) : (
@@ -1042,7 +1087,7 @@ export default function GitHubTrendingView({ snapshot }: { snapshot: GhTrendingS
               </ol>
               <MoreButton
                 onClick={() => {
-                  update({ track: "all", onlyFun: true });
+                  update({ track: "fun" });
                   showBoard();
                 }}
               >
