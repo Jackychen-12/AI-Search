@@ -1,37 +1,37 @@
 {
-  "date": "2026-10-01",
-  "generatedAt": "2026-10-01T01:18:40.977Z",
+  "date": "2026-10-02",
+  "generatedAt": "2026-10-02T01:42:22.737Z",
   "picks": [
     {
       "title": "Gemini 4 Argon: our next era of frontier intelligence",
       "sourceUrl": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
       "source": "Google DeepMind",
-      "reason": "DeepMind发布新一代前沿模型，行业格局级重磅"
+      "reason": "谷歌发布新一代前沿模型Gemini 4 Argon，行业格局级大事"
     },
     {
-      "title": "Disrupting a coordinated model-distillation campaign",
-      "sourceUrl": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign",
-      "source": "OpenAI",
-      "reason": "OpenAI披露模型蒸馏攻击，AI安全重要案例"
+      "title": "How NVIDIA GPUs Help Accelerate OpenAI’s GPT-6 Astra Ultrafast",
+      "sourceUrl": "https://blogs.nvidia.com/blog/gpus-openai-gpt-6-astra-ultrafast/",
+      "source": "NVIDIA",
+      "reason": "英伟达GPU加速OpenAI GPT-6 Astra，算力与模型双料重磅"
     },
     {
       "title": "Building with the Claude 5.5 Family: Choosing the Right Model and Getting More from Every Token",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQRHZqQWJnNEZtVXVNWUx1RlRacG5MLUFTcVBEb2FMZUtzMzNRdklBR0NIMERTbFppaTEyZUZrOFhWRjhMaFFPenE3eTBRX21vSlJKakwxU2Q4SzFqRXFyRDd5X1R5X2dQTUg4c0IxR2o2c09BTG9tOE5VZm1UczdHSjQyMGlPeEtqVzhzSURXb0xQbTJKVFFyQVFrTEpkMFZ1UUtPd2lTcEszMWh0NVA3SDBvcUREaVBDV1lVMUs0TzluNG0xcjk1MA?oc=5",
       "source": "Anthropic",
-      "reason": "Claude新家族实用指南，开发者高度关注"
+      "reason": "Anthropic发布Claude 5.5家族，开发者选型必读指南"
     },
     {
-      "title": "Gemini 4 Argon",
-      "sourceUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
-      "source": "Hacker News",
-      "reason": "Gemini 4性能与价格分析，热度极高"
+      "title": "Barclays scales Claude to upgrade operations and improve client experience",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9iWlNWRnpuZHlvMWUyZ3ZXanVqU1NjQ3FaaTlpVHlMaDhzdzdub25CMERKYThTYjN5RFFaSzBlZGJEbHNNMkpLN0M1Wkhfa2ltdFJZX0dpY3BJNndZLXhuRHN1Zw?oc=5",
+      "source": "Anthropic",
+      "reason": "巴克莱银行规模化部署Claude，金融业落地标杆案例"
     },
     {
-      "title": "Introducing SynthID Bio",
-      "sourceUrl": "https://deepmind.google/blog/introducing-synthid-bio/",
-      "source": "Google DeepMind",
-      "reason": "AI生成蛋白质水印，生物安全创新突破"
+      "title": "Introducing Olmo-core 3: Open, scalable training infrastructure for large MoEs",
+      "sourceUrl": "https://huggingface.co/blog/allenai/olmocore3",
+      "source": "HuggingFace Blog",
+      "reason": "HuggingFace开源Olmo-core 3，大规模MoE训练基础设施"
     }
   ],
-  "trendSummary": "本周焦点集中在Gemini 4 Argon引领的新一代前沿智能，同时AI正加速落地交通、电网、生物识别和中小企业等实际场景。"
+  "trendSummary": "本周AI圈聚焦模型迭代与落地：GPT-6、Claude 5.5等新版本加速商用，企业大规模部署推动零售金融升级，开源训练设施与3D修复工具也在降低门槛。"
 }
