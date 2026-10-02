@@ -1,9 +1,9 @@
 {
-  "fetchedAt": "2026-10-02T01:42:30.110Z",
+  "fetchedAt": "2026-10-02T10:31:57.520Z",
   "startedAt": "2026-09-30T07:14:20.189Z",
   "counts": {
     "trending": 344,
-    "paper": 20,
+    "paper": 21,
     "discover": 31
   },
   "repos": [
@@ -13,8 +13,8 @@
       "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": 51410,
-      "forks": 5722,
+      "stars": 51621,
+      "forks": 5753,
       "gained": {
         "daily": 1284,
         "weekly": 16114,
@@ -52,7 +52,7 @@
         },
         {
           "date": "2026-10-02",
-          "stars": 51410
+          "stars": 51621
         }
       ],
       "aiNote": "本地运行的语音克隆与配音工具，支持646种语言，可替代ElevenLabs。",
@@ -64,8 +64,8 @@
       "description": "Hindsight: Agent Memory That Learns",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": 44331,
-      "forks": 5856,
+      "stars": 44495,
+      "forks": 5862,
       "gained": {
         "weekly": 17403,
         "monthly": 22416
@@ -99,7 +99,7 @@
         },
         {
           "date": "2026-10-02",
-          "stars": 44331
+          "stars": 44495
         }
       ],
       "aiNote": "为智能体提供可学习记忆的Python框架，让AI从历史交互中持续积累经验，提升长期任务表现。",
@@ -111,8 +111,8 @@
       "description": "The open-source app everyone uses to manage agents at work",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": 95863,
-      "forks": 16252,
+      "stars": 96030,
+      "forks": 16273,
       "gained": {
         "weekly": 14335,
         "monthly": 16130
@@ -141,7 +141,7 @@
         },
         {
           "date": "2026-10-02",
-          "stars": 95863
+          "stars": 96030
         }
       ],
       "aiNote": "开源的多智能体协作管理工具，让团队统一调度AI代理。",
@@ -153,8 +153,8 @@
       "description": "OpenShell is the safe, private runtime for autonomous AI agents.",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 14036,
-      "forks": 1629,
+      "stars": 14204,
+      "forks": 1640,
       "gained": {
         "daily": 2456,
         "weekly": 5083,
@@ -192,7 +192,7 @@
         },
         {
           "date": "2026-10-02",
-          "stars": 14036
+          "stars": 14204
         }
       ],
       "aiNote": "英伟达用 Rust 打造的安全隔离运行时，为自主 AI 智能体提供私密执行环境。",
@@ -204,8 +204,8 @@
       "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
       "language": "JavaScript",
       "languageColor": "#f1e05a",
-      "stars": 150553,
-      "forks": 8083,
+      "stars": 151061,
+      "forks": 8105,
       "gained": {
         "daily": 1194,
         "monthly": 31160
@@ -243,7 +243,7 @@
         },
         {
           "date": "2026-10-02",
-          "stars": 150553
+          "stars": 151061
         }
       ],
       "aiNote": "让AI代理像最懒的资深开发者一样思考，少写代码。",
@@ -255,8 +255,8 @@
       "description": "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
       "language": "JavaScript",
       "languageColor": "#f1e05a",
-      "stars": 75844,
-      "forks": 5099,
+      "stars": 76044,
+      "forks": 5119,
       "gained": {
         "daily": 657,
         "monthly": 35068
@@ -294,7 +294,7 @@
         },
         {
           "date": "2026-10-02",
-          "stars": 75844
+          "stars": 76044
         }
       ],
       "aiNote": "为智能体提供生成美观可验证架构与流程图的技能，输出带动效的独立网页并支持高清导出。",
@@ -306,8 +306,8 @@
       "description": "Learn it. Build it. Ship it for others.",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": 62459,
-      "forks": 10684,
+      "stars": 62551,
+      "forks": 10696,
       "gained": {
         "weekly": 6469,
         "monthly": 10879
@@ -344,10 +344,10 @@
         },
         {
           "date": "2026-10-02",
-          "stars": 62459
+          "stars": 62551
         }
       ],
-      "aiNote": "从零手写AI工程全流程的实战教程，值得想深入理解底层原理的开发者关注。",
+      "aiNote": "从零手写AI工程全流程的实战教程。",
       "fun": null
     },
     {
@@ -356,8 +356,8 @@
       "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
       "language": "JavaScript",
       "languageColor": "#f1e05a",
-      "stars": 270726,
-      "forks": 40469,
+      "stars": 270900,
+      "forks": 40504,
       "gained": {
         "daily": 532,
         "monthly": 26450
@@ -395,7 +395,7 @@
         },
         {
           "date": "2026-10-02",
-          "stars": 270726
+          "stars": 270900
         }
       ],
       "aiNote": "面向 Claude Code 等编码代理的性能优化框架，整合技能、记忆与安全机制。",
@@ -407,8 +407,8 @@
       "description": "Skills for Real Engineers. Straight from my .agents directory.",
       "language": "Shell",
       "languageColor": "#89e051",
-      "stars": 273929,
-      "forks": 22998,
+      "stars": 274264,
+      "forks": 23037,
       "gained": {
         "daily": 883,
         "weekly": 4828
@@ -445,7 +445,7 @@
         },
         {
           "date": "2026-10-02",
-          "stars": 273929
+          "stars": 274264
         }
       ],
       "aiNote": "面向工程师的实用技能集合，源自作者日常代理配置。",
@@ -457,8 +457,8 @@
       "description": "The Office Harness for AI Agents — Spreadsheets, Docs, Slides, Canvas, Relational Tables, and PDF in one runtime.",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": 22252,
-      "forks": 1869,
+      "stars": 22287,
+      "forks": 1870,
       "gained": {
         "weekly": 5267,
         "monthly": 8067
@@ -496,10 +496,10 @@
         },
         {
           "date": "2026-10-02",
-          "stars": 22252
+          "stars": 22287
         }
       ],
-      "aiNote": null,
+      "aiNote": "一个用 TypeScript 编写的办公套件运行时，把表格、文档、幻灯片、画布、关系表和 PDF 统一到同一引擎，供 AI 智能体直接调用。",
       "fun": null
     },
     {
@@ -508,8 +508,8 @@
       "description": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": 52724,
-      "forks": 3033,
+      "stars": 52806,
+      "forks": 3039,
       "gained": {
         "monthly": 26584
       },
@@ -544,7 +544,7 @@
         },
         {
           "date": "2026-10-02",
-          "stars": 52724
+          "stars": 52806
         }
       ],
       "aiNote": "让编程助手先给答案再讲细节，避免长篇埋没重点，适合注意力易分散者。",
@@ -556,8 +556,8 @@
       "description": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": 83219,
-      "forks": 5386,
+      "stars": 83497,
+      "forks": 5402,
       "gained": {
         "weekly": 5804
       },
@@ -594,7 +594,7 @@
         },
         {
           "date": "2026-10-02",
-          "stars": 83219
+          "stars": 83497
         }
       ],
       "aiNote": "面向并行智能体的开发环境，支持自带订阅运行各类编码代理，覆盖桌面、移动与远程，适合多代理协作场景。",
@@ -606,8 +606,8 @@
       "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 43196,
-      "forks": 3110,
+      "stars": 43261,
+      "forks": 3116,
       "gained": {
         "monthly": 21646
       },
@@ -650,7 +650,7 @@
         },
         {
           "date": "2026-10-02",
-          "stars": 43196
+          "stars": 43261
         }
       ],
       "aiNote": "阿里开源的高效代码审查工具，融合确定性流水线与大模型智能体，支持行级精准评论和多语言安全规则。",
@@ -662,8 +662,8 @@
       "description": "25 MB lightweight cross-platform database client for 100+ databases, including MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, SQL Server, and Dameng. Built-in AI, MCP Server, CLI, desktop and Docker. | 轻量级跨平台数据库管理工具，支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB、达梦等 100+ 数据库，提供桌面端、Docker、CLI、内置 AI 助手和 MCP。",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 23731,
-      "forks": 2178,
+      "stars": 23820,
+      "forks": 2186,
       "gained": {
         "daily": 739,
         "weekly": 3067
@@ -701,7 +701,7 @@
         },
         {
           "date": "2026-10-02",
-          "stars": 23731
+          "stars": 23820
         }
       ],
       "aiNote": "仅25MB的跨平台数据库客户端，支持百余种数据库并内置AI与MCP，轻量且功能全面。",
@@ -713,8 +713,8 @@
       "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
       "language": "JavaScript",
       "languageColor": "#f1e05a",
-      "stars": 23646,
-      "forks": 1389,
+      "stars": 23699,
+      "forks": 1392,
       "gained": {
         "monthly": 20736
       },
@@ -742,7 +742,7 @@
         },
         {
           "date": "2026-10-02",
-          "stars": 23646
+          "stars": 23699
         }
       ],
       "aiNote": "给编码代理做多阶段安全审计的技能，产出可机器读取且经独立验证的漏洞结果，让自动化审计更可信。",
@@ -754,8 +754,8 @@
       "description": "Write HTML. Render video. Built for agents.",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": 55357,
-      "forks": 5021,
+      "stars": 55558,
+      "forks": 5029,
       "gained": {
         "daily": 627,
         "monthly": 11734
@@ -793,7 +793,7 @@
         },
         {
           "date": "2026-10-02",
-          "stars": 55357
+          "stars": 55558
         }
       ],
       "aiNote": "用HTML写视频脚本，专为AI智能体设计，让自动化视频生成更简单。",
@@ -805,8 +805,8 @@
       "description": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 31668,
-      "forks": 4224,
+      "stars": 31712,
+      "forks": 4232,
       "gained": {
         "weekly": 2026,
         "monthly": 10740
@@ -844,7 +844,7 @@
         },
         {
           "date": "2026-10-02",
-          "stars": 31668
+          "stars": 31712
         }
       ],
       "aiNote": "腾讯开源的大模型知识平台，能把原始文档变成可检索问答、自主推理智能体和自维护知识库。",
@@ -856,8 +856,8 @@
       "description": "Independent Auditing of AI Agents. Run by human or the agent itself, to answer the most crucial question in the AI Agent Economy. Is the agent doing what is supposed to do? With iFixAi you can have this answer in less than 120 seconds.",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": 18506,
-      "forks": 1367,
+      "stars": 18851,
+      "forks": 1369,
       "gained": {
         "daily": 1492
       },
@@ -889,7 +889,7 @@
         },
         {
           "date": "2026-10-02",
-          "stars": 18506
+          "stars": 18851
         }
       ],
       "aiNote": "AI智能体独立审计工具，120秒内验证其是否按预期执行任务，为智能体经济提供可信保障。",
@@ -901,8 +901,8 @@
       "description": "An agentic skills framework & software development methodology that works.",
       "language": "Shell",
       "languageColor": "#89e051",
-      "stars": 293986,
-      "forks": 26295,
+      "stars": 294159,
+      "forks": 26305,
       "gained": {
         "daily": 455,
         "weekly": 2993
@@ -940,7 +940,7 @@
         },
         {
           "date": "2026-10-02",
-          "stars": 293986
+          "stars": 294159
         }
       ],
       "aiNote": "一套可落地的智能体技能框架与开发方法论，让AI代理协作开发真正跑通。",
@@ -952,8 +952,8 @@
       "description": "The design language that makes your AI harness better at design.",
       "language": "JavaScript",
       "languageColor": "#f1e05a",
-      "stars": 73697,
-      "forks": 4439,
+      "stars": 73936,
+      "forks": 4456,
       "gained": {
         "daily": 495,
         "weekly": 2704
@@ -981,7 +981,7 @@
         },
         {
           "date": "2026-10-02",
-          "stars": 73697
+          "stars": 73936
         }
       ],
       "aiNote": "一套让 AI 工具更懂设计的提示语言规范。",
@@ -993,8 +993,8 @@
       "description": "Source control for agents. Use multiple coding agents, track their changes and query them in one place",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 8578,
-      "forks": 341,
+      "stars": 8709,
+      "forks": 342,
       "gained": {
         "weekly": 2526,
         "monthly": 6491
@@ -1032,7 +1032,7 @@
         },
         {
           "date": "2026-10-02",
-          "stars": 8578
+          "stars": 8709
         }
       ],
       "aiNote": "多智能体编程的版本控制中枢，集中追踪并查询各代理的代码改动，让协作开发可追溯。",
@@ -1044,8 +1044,8 @@
       "description": "📑 PageIndex: Document Index for Vectorless, Reasoning-based RAG",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": 38438,
-      "forks": 3331,
+      "stars": 38490,
+      "forks": 3336,
       "gained": {
         "daily": 477,
         "weekly": 2550
@@ -1083,7 +1083,7 @@
         },
         {
           "date": "2026-10-02",
-          "stars": 38438
+          "stars": 38490
         }
       ],
       "aiNote": "面向文档的推理式检索索引，无需向量库，靠推理定位内容，为RAG提供更轻量精准的新思路。",
@@ -1095,8 +1095,8 @@
       "description": "A smarter, self-hosted AI assistant — multi-user, multi-agent.",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": 6253,
-      "forks": 785,
+      "stars": 6313,
+      "forks": 788,
       "gained": {
         "daily": 189,
         "weekly": 1360,
@@ -1134,7 +1134,7 @@
         },
         {
           "date": "2026-10-02",
-          "stars": 6253
+          "stars": 6313
         }
       ],
       "aiNote": "腾讯云推出的自托管多用户多智能体AI助手，强调更智能的协作与部署自主性。",
@@ -1146,8 +1146,8 @@
       "description": "Production-grade engineering skills for AI coding agents.",
       "language": "JavaScript",
       "languageColor": "#f1e05a",
-      "stars": 100355,
-      "forks": 10543,
+      "stars": 100422,
+      "forks": 10551,
       "gained": {
         "daily": 214,
         "monthly": 9561
@@ -1175,7 +1175,7 @@
       "history": [
         {
           "date": "2026-10-02",
-          "stars": 100355
+          "stars": 100422
         }
       ],
       "aiNote": "为 AI 编程代理提供生产级工程技能，以 JavaScript 实现并强调可直接用于实际开发流程。",
@@ -1187,8 +1187,8 @@
       "description": "Google's open agentic orchestration runtime",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 12796,
-      "forks": 627,
+      "stars": 12823,
+      "forks": 628,
       "gained": {
         "weekly": 2919
       },
@@ -1216,7 +1216,7 @@
         },
         {
           "date": "2026-10-02",
-          "stars": 12796
+          "stars": 12823
         }
       ],
       "aiNote": "谷歌开源的智能体编排运行时，用 Go 编写，为多智能体协作提供统一调度基础。",
@@ -1228,8 +1228,8 @@
       "description": "Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": 39764,
-      "forks": 6165,
+      "stars": 39794,
+      "forks": 6166,
       "gained": {
         "monthly": 11062
       },
@@ -1256,7 +1256,7 @@
         },
         {
           "date": "2026-10-02",
-          "stars": 39764
+          "stars": 39794
         }
       ],
       "aiNote": "一键开启多智能体互动课堂，带来沉浸式学习体验。",
@@ -1268,8 +1268,8 @@
       "description": "Open source inference engine for agents that optimizes itself for your exact hardware. Compiles and tunes its kernels on your device, so open models run up to 2x faster than llama.cpp. Works on Apple Silicon, NVIDIA, AMD, or just a CPU.",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 6155,
-      "forks": 412,
+      "stars": 6224,
+      "forks": 420,
       "gained": {
         "daily": 538,
         "monthly": 4512
@@ -1306,7 +1306,7 @@
         },
         {
           "date": "2026-10-02",
-          "stars": 6155
+          "stars": 6224
         }
       ],
       "aiNote": "这是一个在本地设备上编译并调优内核的智能体推理引擎，能针对具体硬件自动优化，使开放模型运行速度最高达 llama.cpp 的两倍。",
@@ -1318,8 +1318,8 @@
       "description": "Use ChatGPT Web (including Pro) as a native model in Codex — with context, tools, streaming and images, without using Codex quota.",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": 13165,
-      "forks": 1040,
+      "stars": 13211,
+      "forks": 1046,
       "gained": {
         "monthly": 9530
       },
@@ -1356,7 +1356,7 @@
         },
         {
           "date": "2026-10-02",
-          "stars": 13165
+          "stars": 13211
         }
       ],
       "aiNote": "把 ChatGPT 网页版接入 Codex 当原生模型用，支持上下文、工具、流式与图片，且不消耗 Codex 额度。",
@@ -1368,8 +1368,8 @@
       "description": null,
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": 38476,
-      "forks": 5535,
+      "stars": 38505,
+      "forks": 5538,
       "gained": {
         "weekly": 1270,
         "monthly": 3930
@@ -1395,7 +1395,7 @@
         },
         {
           "date": "2026-10-02",
-          "stars": 38476
+          "stars": 38505
         }
       ],
       "aiNote": null,
@@ -1407,8 +1407,8 @@
       "description": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": 24790,
-      "forks": 1784,
+      "stars": 24895,
+      "forks": 1789,
       "gained": {
         "daily": 362,
         "monthly": 4470
@@ -1446,7 +1446,7 @@
         },
         {
           "date": "2026-10-02",
-          "stars": 24790
+          "stars": 24895
         }
       ],
       "aiNote": "为AI编程助手压缩上下文窗口，沙箱化工具输出并跨平台持久记忆，显著降低token消耗。",
@@ -1458,8 +1458,8 @@
       "description": "Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop",
       "language": "JavaScript",
       "languageColor": "#f1e05a",
-      "stars": 91806,
-      "forks": 6238,
+      "stars": 91914,
+      "forks": 6244,
       "gained": {
         "weekly": 2007
       },
@@ -1492,7 +1492,7 @@
         },
         {
           "date": "2026-10-02",
-          "stars": 91806
+          "stars": 91914
         }
       ],
       "aiNote": "给AI注入审美判断力，避免生成千篇一律的平庸内容。",
@@ -1504,8 +1504,8 @@
       "description": "Build your own network of agents from Claude Code, Codex and Pi: persistent teams with roles, shared context and owned work.",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": 3737,
-      "forks": 248,
+      "stars": 3954,
+      "forks": 261,
       "gained": {
         "daily": 642
       },
@@ -1542,10 +1542,10 @@
         },
         {
           "date": "2026-10-02",
-          "stars": 3737
+          "stars": 3954
         }
       ],
-      "aiNote": null,
+      "aiNote": "用 TypeScript 搭建由 Claude Code、Codex 和 Pi 组成的智能体网络。",
       "fun": null
     },
     {
@@ -1554,8 +1554,8 @@
       "description": "利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": 127966,
-      "forks": 20023,
+      "stars": 128030,
+      "forks": 20038,
       "gained": {
         "daily": 576
       },
@@ -1591,7 +1591,7 @@
         },
         {
           "date": "2026-10-02",
-          "stars": 127966
+          "stars": 128030
         }
       ],
       "aiNote": "一键把主题变成高清短视频的自动化工具，靠大模型编排全流程，大幅降低创作门槛。",
@@ -1603,8 +1603,8 @@
       "description": "Model Context Protocol Server for Mobile Automation and Scraping (iOS, Android, Emulators, Simulators and Real Devices)",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": 8530,
-      "forks": 747,
+      "stars": 8545,
+      "forks": 751,
       "gained": {
         "weekly": 1685
       },
@@ -1641,7 +1641,7 @@
         },
         {
           "date": "2026-10-02",
-          "stars": 8530
+          "stars": 8545
         }
       ],
       "aiNote": "为移动自动化与抓取提供模型上下文协议服务，覆盖iOS、安卓及模拟器和真机，让AI代理能直接操控手机。",
@@ -1653,8 +1653,8 @@
       "description": "7.4 billion tokens per month. 34 free LLM providers. 635 free model endpoints. All behind one /v1 endpoint, plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only.",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": 29983,
-      "forks": 4195,
+      "stars": 30064,
+      "forks": 4211,
       "gained": {
         "monthly": 6611
       },
@@ -1673,7 +1673,7 @@
       "history": [
         {
           "date": "2026-10-02",
-          "stars": 29983
+          "stars": 30064
         }
       ],
       "aiNote": "聚合三十四家免费大模型服务商的六百余个模型端点，通过统一接口调用并支持智能路由与故障转移。",
@@ -1685,8 +1685,8 @@
       "description": "Let AI agents use your real, logged-in browser without interrupting your work. CLI + extension for browser automation across any shell-capable AI agent.",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": 8026,
-      "forks": 567,
+      "stars": 8042,
+      "forks": 571,
       "gained": {
         "monthly": 6447
       },
@@ -1718,7 +1718,7 @@
         },
         {
           "date": "2026-10-02",
-          "stars": 8026
+          "stars": 8042
         }
       ],
       "aiNote": "让 AI 代理直接操控你已登录的真实浏览器，不打断你的工作，通过命令行与扩展支持各类 AI 代理。",
@@ -1730,8 +1730,8 @@
       "description": "🧠 Train a 64M-parameter LLM from scratch in just 2h!",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": 63053,
-      "forks": 8189,
+      "stars": 63080,
+      "forks": 8193,
       "gained": {
         "monthly": 6436
       },
@@ -1762,7 +1762,7 @@
         },
         {
           "date": "2026-10-02",
-          "stars": 63053
+          "stars": 63080
         }
       ],
       "aiNote": "两小时从零训练6400万参数小模型，低成本复现大模型流程，适合入门学习。",
@@ -1774,8 +1774,8 @@
       "description": "A unified library of SOTA model optimization techniques like quantization, distillation, pruning, neural architecture search, speculative decoding, etc. It compresses deep learning models for downstream deployment frameworks like TensorRT-LLM, TensorRT, vLLM, etc. to optimize inference speed.",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": 5152,
-      "forks": 716,
+      "stars": 5161,
+      "forks": 718,
       "gained": {
         "weekly": 1225,
         "monthly": 1488
@@ -1804,60 +1804,10 @@
         },
         {
           "date": "2026-10-02",
-          "stars": 5152
+          "stars": 5161
         }
       ],
       "aiNote": "英伟达推出的统一模型压缩库，集成量化、蒸馏、剪枝等前沿技术，可直接对接主流推理框架加速部署。",
-      "fun": null
-    },
-    {
-      "fullName": "K-Dense-AI/scientific-agent-skills",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
-      "description": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ scientists worldwide. 177 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "stars": 47299,
-      "forks": 4281,
-      "gained": {
-        "monthly": 6100
-      },
-      "track": "mcp-tools",
-      "signals": [
-        "scientific agent skills",
-        "ai"
-      ],
-      "sources": [
-        "trending"
-      ],
-      "createdAt": "2025-10-19T20:54:15Z",
-      "topics": [
-        "agent-skills",
-        "ai-scientist",
-        "bioinformatics",
-        "chemoinformatics",
-        "claude",
-        "claude-skills",
-        "claudecode",
-        "clinical-research"
-      ],
-      "paper": null,
-      "news": [],
-      "firstSeen": "2026-09-30T07:14:20.189Z",
-      "history": [
-        {
-          "date": "2026-09-30",
-          "stars": 47179
-        },
-        {
-          "date": "2026-10-01",
-          "stars": 47243
-        },
-        {
-          "date": "2026-10-02",
-          "stars": 47299
-        }
-      ],
-      "aiNote": "这是一个面向科研场景的智能体技能库，内置177个经校验技能并接入百余个生物化学医药数据库，可让通用智能体直接执行科学任务。",
       "fun": null
     },
     {
@@ -1866,12 +1816,12 @@
       "description": "Official PyTorch implementation of VisionHOPE: Visual Backbones as Self-Modifying Learning Systems.",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": 412,
+      "stars": 431,
       "forks": 8,
       "gained": {
-        "weekly": 412,
-        "monthly": 412,
-        "daily": 332
+        "weekly": 431,
+        "monthly": 431,
+        "daily": 351
       },
       "track": "research",
       "signals": [
@@ -1908,10 +1858,60 @@
         },
         {
           "date": "2026-10-02",
-          "stars": 412
+          "stars": 431
         }
       ],
       "aiNote": "视觉主干网络可自我修改学习系统的官方PyTorch实现，探索模型在线自适应新范式。",
+      "fun": null
+    },
+    {
+      "fullName": "K-Dense-AI/scientific-agent-skills",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+      "description": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ scientists worldwide. 177 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 47346,
+      "forks": 4285,
+      "gained": {
+        "monthly": 6100
+      },
+      "track": "mcp-tools",
+      "signals": [
+        "scientific agent skills",
+        "ai"
+      ],
+      "sources": [
+        "trending"
+      ],
+      "createdAt": "2025-10-19T20:54:15Z",
+      "topics": [
+        "agent-skills",
+        "ai-scientist",
+        "bioinformatics",
+        "chemoinformatics",
+        "claude",
+        "claude-skills",
+        "claudecode",
+        "clinical-research"
+      ],
+      "paper": null,
+      "news": [],
+      "firstSeen": "2026-09-30T07:14:20.189Z",
+      "history": [
+        {
+          "date": "2026-09-30",
+          "stars": 47179
+        },
+        {
+          "date": "2026-10-01",
+          "stars": 47243
+        },
+        {
+          "date": "2026-10-02",
+          "stars": 47346
+        }
+      ],
+      "aiNote": "这是一个面向科研场景的智能体技能库，内置177个经校验技能并接入百余个生物化学医药数据库，可让通用智能体直接执行科学任务。",
       "fun": null
     },
     {
@@ -1920,8 +1920,8 @@
       "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": 148871,
-      "forks": 25134,
+      "stars": 148924,
+      "forks": 25154,
       "gained": {
         "monthly": 5819
       },
@@ -1985,7 +1985,7 @@
         },
         {
           "date": "2026-10-02",
-          "stars": 148871
+          "stars": 148924
         }
       ],
       "aiNote": "终端里的智能编程助手，能理解代码库、执行日常任务并处理 Git 流程，让自然语言直接驱动开发。",
@@ -1997,8 +1997,8 @@
       "description": "Scale computer-use 2.0 with open-source drivers, cross-OS fleets, and benchmarks for training, evaluation, and data generation.",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 27695,
-      "forks": 1949,
+      "stars": 27733,
+      "forks": 1952,
       "gained": {
         "monthly": 5674
       },
@@ -2043,7 +2043,7 @@
         },
         {
           "date": "2026-10-02",
-          "stars": 27695
+          "stars": 27733
         }
       ],
       "aiNote": "开源计算机操作驱动与跨系统集群，提供训练评测基准，推动智能体规模化落地。",
@@ -2055,8 +2055,8 @@
       "description": "Academic Research Skills for Claude Code: research → write → review → revise → finalize",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": 50092,
-      "forks": 3865,
+      "stars": 50130,
+      "forks": 3867,
       "gained": {
         "monthly": 5513
       },
@@ -2093,7 +2093,7 @@
         },
         {
           "date": "2026-10-02",
-          "stars": 50092
+          "stars": 50130
         }
       ],
       "aiNote": "面向学术研究的Claude Code技能包，覆盖从调研到定稿全流程，让AI辅助论文写作更规范高效。",
@@ -2105,8 +2105,8 @@
       "description": "Agents that use the browser.",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": 116960,
-      "forks": 12905,
+      "stars": 116987,
+      "forks": 12911,
       "gained": {
         "monthly": 5285
       },
@@ -2142,7 +2142,7 @@
         },
         {
           "date": "2026-10-02",
-          "stars": 116960
+          "stars": 116987
         }
       ],
       "aiNote": "让AI代理直接操控浏览器完成网页任务，为自动化操作和智能体落地提供关键能力。",
@@ -2154,8 +2154,8 @@
       "description": "LLM inference in C/C++",
       "language": "C++",
       "languageColor": "#f34b7d",
-      "stars": 130095,
-      "forks": 23980,
+      "stars": 130123,
+      "forks": 23990,
       "gained": {
         "daily": 107,
         "monthly": 3852
@@ -2185,7 +2185,7 @@
         },
         {
           "date": "2026-10-02",
-          "stars": 130095
+          "stars": 130123
         }
       ],
       "aiNote": "纯C/C++实现的大模型推理引擎，无需GPU也能高效运行，是本地部署AI的关键基础设施。",
@@ -2197,7 +2197,7 @@
       "description": "Removes 20+ patterns of AI slop from any piece of writing.",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": 11668,
+      "stars": 11693,
       "forks": 796,
       "gained": {
         "monthly": 5128
@@ -2225,10 +2225,10 @@
         },
         {
           "date": "2026-10-02",
-          "stars": 11668
+          "stars": 11693
         }
       ],
-      "aiNote": "自动清除文章里二十多种AI腔套路，让文字回归自然，值得写作者关注。",
+      "aiNote": "自动清除文章里二十多种AI腔套路，让文字回归自然。",
       "fun": null
     },
     {
@@ -2237,8 +2237,8 @@
       "description": "《动手学大模型Dive into LLMs》系列编程实践教程",
       "language": "Jupyter Notebook",
       "languageColor": "#DA5B0B",
-      "stars": 55557,
-      "forks": 6631,
+      "stars": 55568,
+      "forks": 6632,
       "gained": {
         "daily": 27,
         "monthly": 4696
@@ -2267,7 +2267,7 @@
         },
         {
           "date": "2026-10-02",
-          "stars": 55557
+          "stars": 55568
         }
       ],
       "aiNote": "大模型编程实践教程，用Jupyter带你动手实现，适合入门者边学边练。",
@@ -2279,7 +2279,7 @@
       "description": null,
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": 4800,
+      "stars": 4830,
       "forks": 154,
       "gained": {
         "daily": 66,
@@ -2308,7 +2308,7 @@
         },
         {
           "date": "2026-10-02",
-          "stars": 4800
+          "stars": 4830
         }
       ],
       "aiNote": null,
@@ -2320,8 +2320,8 @@
       "description": "Cursor plugin specification and official plugins",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": 9324,
-      "forks": 883,
+      "stars": 9384,
+      "forks": 887,
       "gained": {
         "daily": 150,
         "monthly": 2977
@@ -2349,7 +2349,7 @@
         },
         {
           "date": "2026-10-02",
-          "stars": 9324
+          "stars": 9384
         }
       ],
       "aiNote": "这是 Cursor 编辑器官方插件规范与配套插件。",
@@ -2361,8 +2361,8 @@
       "description": "The AI that really does things. Any OS. Any Platform. The lobster way. 🦞",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": 391167,
-      "forks": 82239,
+      "stars": 391195,
+      "forks": 82244,
       "gained": {
         "weekly": 1183
       },
@@ -2393,7 +2393,7 @@
         },
         {
           "date": "2026-10-02",
-          "stars": 391167
+          "stars": 391195
         }
       ],
       "aiNote": "跨平台AI代理，能真正执行任务而非仅对话。",
@@ -2405,8 +2405,8 @@
       "description": "380 Claude Code skills & agent skills & plugins (30+ Agents, 70+ custom commands, 380+ skills, customizable references, scripts)for Claude Code, Codex, Gemini CLI, Cursor, and 8 more coding agents — engineering, marketing, product, compliance, C-level advisory, research, business operations, commercial & finance, and your daily productivity skills.",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": 27190,
-      "forks": 3839,
+      "stars": 27232,
+      "forks": 3844,
       "gained": {
         "daily": 138,
         "weekly": 743
@@ -2440,10 +2440,54 @@
         },
         {
           "date": "2026-10-02",
-          "stars": 27190
+          "stars": 27232
         }
       ],
       "aiNote": "面向十余款编程助手的技能插件合集，覆盖工程营销合规等场景，可快速扩展智能体能力。",
+      "fun": null
+    },
+    {
+      "fullName": "Edge0-AI/Edge0",
+      "url": "https://github.com/Edge0-AI/Edge0",
+      "description": null,
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 2320,
+      "forks": 210,
+      "gained": {
+        "monthly": 2320,
+        "daily": 178
+      },
+      "track": "research",
+      "signals": [],
+      "sources": [
+        "paper"
+      ],
+      "createdAt": "2026-09-08T13:41:47Z",
+      "topics": [],
+      "paper": {
+        "title": "The Other Half of the Memory Wall: Serving 35B MoEs from SSD with Trained Routing Prediction",
+        "url": "https://huggingface.co/papers/2609.18063",
+        "publishedAt": "2026-09-16T00:00:00.000Z",
+        "upvotes": 19
+      },
+      "news": [],
+      "firstSeen": "2026-09-30T07:14:20.189Z",
+      "history": [
+        {
+          "date": "2026-09-30",
+          "stars": 2142
+        },
+        {
+          "date": "2026-10-01",
+          "stars": 2154
+        },
+        {
+          "date": "2026-10-02",
+          "stars": 2320
+        }
+      ],
+      "aiNote": "面向SSD部署35B混合专家模型的开源推理方案，靠可训练路由预测绕过显存墙，为大模型低成本落地提供新思路。",
       "fun": null
     },
     {
@@ -2452,8 +2496,8 @@
       "description": "An Open Source Machine Learning Framework for Everyone",
       "language": "C++",
       "languageColor": "#f34b7d",
-      "stars": 200659,
-      "forks": 77995,
+      "stars": 200665,
+      "forks": 78005,
       "gained": {
         "weekly": 422,
         "monthly": 2634
@@ -2491,7 +2535,7 @@
         },
         {
           "date": "2026-10-02",
-          "stars": 200659
+          "stars": 200665
         }
       ],
       "aiNote": "谷歌开源的机器学习框架，生态最完善、部署最广，是深度学习入门与工业落地的基础设施。",
@@ -2503,8 +2547,8 @@
       "description": "claude-red is a curated library of offensive security skills designed for the Claude skills system. Each skill is a structured SKILL.md file that primes Claude with expert-level methodology for a specific attack surface — from SQLi to shellcode, EDR evasion to exploit development.",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": 7175,
-      "forks": 941,
+      "stars": 7183,
+      "forks": 942,
       "gained": {
         "monthly": 4301
       },
@@ -2539,7 +2583,7 @@
         },
         {
           "date": "2026-10-02",
-          "stars": 7175
+          "stars": 7183
         }
       ],
       "aiNote": "面向Claude技能系统的攻击性安全技能库，用结构化文档注入专家级渗透方法论。",
@@ -2551,8 +2595,8 @@
       "description": "SGLang is a high-performance serving framework for large language models and multimodal models.",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": 36702,
-      "forks": 9261,
+      "stars": 36716,
+      "forks": 9266,
       "gained": {
         "daily": 40,
         "monthly": 3752
@@ -2590,7 +2634,7 @@
         },
         {
           "date": "2026-10-02",
-          "stars": 36702
+          "stars": 36716
         }
       ],
       "aiNote": "高性能大模型与多模态模型服务框架，主打高吞吐低延迟推理。",
@@ -2602,8 +2646,8 @@
       "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": 51249,
-      "forks": 4672,
+      "stars": 51321,
+      "forks": 4678,
       "gained": {
         "weekly": 1055
       },
@@ -2631,7 +2675,7 @@
         },
         {
           "date": "2026-10-02",
-          "stars": 51249
+          "stars": 51321
         }
       ],
       "aiNote": "把任意软件包装成命令行接口供智能体调用，让传统工具无需改造即可被 AI 代理直接驱动。",
@@ -2643,8 +2687,8 @@
       "description": "Free, open-source AI Office suite: Docs, Sheets, Slides, PDF, Markdown and HTML editors with a built-in AI agent, plus a `genoffice` CLI and agent skill so Claude Code, Codex and Cursor can create and edit real .docx/.xlsx/.pptx files locally. Bring your own key. macOS, Windows & Linux.",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": 8339,
-      "forks": 1083,
+      "stars": 8385,
+      "forks": 1088,
       "gained": {
         "monthly": 4190
       },
@@ -2677,7 +2721,7 @@
         },
         {
           "date": "2026-10-02",
-          "stars": 8339
+          "stars": 8385
         }
       ],
       "aiNote": "开源AI办公套件，含文档表格幻灯片编辑器与内置智能体，还能让编程助手直接生成真实Office文件。",
@@ -2689,8 +2733,8 @@
       "description": "🙌 OpenHands: AI-Driven Development",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": 89752,
-      "forks": 11851,
+      "stars": 89790,
+      "forks": 11863,
       "gained": {
         "monthly": 4106
       },
@@ -2726,7 +2770,7 @@
         },
         {
           "date": "2026-10-02",
-          "stars": 89752
+          "stars": 89790
         }
       ],
       "aiNote": "开源AI编程助手，能自动写代码、修bug、执行开发任务，推动软件开发自动化。",
@@ -2738,8 +2782,8 @@
       "description": "18 Lessons to Get Started Building AI Agents",
       "language": "Jupyter Notebook",
       "languageColor": "#DA5B0B",
-      "stars": 76312,
-      "forks": 25057,
+      "stars": 76331,
+      "forks": 25065,
       "gained": {
         "daily": 84,
         "weekly": 753
@@ -2777,7 +2821,7 @@
         },
         {
           "date": "2026-10-02",
-          "stars": 76312
+          "stars": 76331
         }
       ],
       "aiNote": "微软推出的AI智能体入门课程，含18节实战课，适合零基础快速上手构建智能体。",
@@ -2789,8 +2833,8 @@
       "description": "List of Permanent Free LLM API (API Keys)",
       "language": "JavaScript",
       "languageColor": "#f1e05a",
-      "stars": 8890,
-      "forks": 900,
+      "stars": 8931,
+      "forks": 911,
       "gained": {
         "weekly": 581,
         "monthly": 1599
@@ -2828,7 +2872,7 @@
         },
         {
           "date": "2026-10-02",
-          "stars": 8890
+          "stars": 8931
         }
       ],
       "aiNote": "汇总可长期免费调用的语言模型接口及密钥，方便开发者低成本接入与测试。",
@@ -2840,7 +2884,7 @@
       "description": "Agent Substrate: the core system",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 4114,
+      "stars": 4147,
       "forks": 490,
       "gained": {
         "weekly": 365,
@@ -2869,7 +2913,7 @@
         },
         {
           "date": "2026-10-02",
-          "stars": 4114
+          "stars": 4147
         }
       ],
       "aiNote": "面向智能体的 Go 语言核心运行系统，为构建自主代理提供底层支撑。",
@@ -2881,8 +2925,8 @@
       "description": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": 76319,
-      "forks": 8901,
+      "stars": 76345,
+      "forks": 8908,
       "gained": {
         "daily": 319
       },
@@ -2915,102 +2959,10 @@
         },
         {
           "date": "2026-10-02",
-          "stars": 76319
+          "stars": 76345
         }
       ],
       "aiNote": "汇集Claude技能与工具的资源清单，助你定制AI工作流。",
-      "fun": null
-    },
-    {
-      "fullName": "diegosouzapw/OmniRoute",
-      "url": "https://github.com/diegosouzapw/OmniRoute",
-      "description": "Never stop coding. Free MIT AI gateway: one endpoint, 359 providers (150+ free), 1200+ models Kimi, Claude, GPT, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline & Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop/PWA. Built by hundreds of contributors",
-      "language": "TypeScript",
-      "languageColor": "#3178c6",
-      "stars": 72097,
-      "forks": 10300,
-      "gained": {
-        "daily": 311
-      },
-      "track": "mcp-tools",
-      "signals": [
-        "mcp",
-        "ai"
-      ],
-      "sources": [
-        "trending"
-      ],
-      "createdAt": "2026-02-13T12:38:31Z",
-      "topics": [
-        "a2a",
-        "ai-agents",
-        "ai-gateway",
-        "anthropic",
-        "claude",
-        "claude-code",
-        "cline",
-        "codex"
-      ],
-      "paper": null,
-      "news": [],
-      "firstSeen": "2026-10-02T01:42:30.110Z",
-      "history": [
-        {
-          "date": "2026-10-02",
-          "stars": 72097
-        }
-      ],
-      "aiNote": null,
-      "fun": null
-    },
-    {
-      "fullName": "melgarafael/DeskcommCRM",
-      "url": "https://github.com/melgarafael/DeskcommCRM",
-      "description": "Open-source AI sales OS — self-hosted CRM with native AI agents + WhatsApp (WAHA). Open alternative to Kommo, Octadesk & Intercom for any business that sells by chat. MCP-ready, multi-tenant, LGPD.",
-      "language": "TypeScript",
-      "languageColor": "#3178c6",
-      "stars": 4348,
-      "forks": 1114,
-      "gained": {
-        "monthly": 3721
-      },
-      "track": "mcp-tools",
-      "signals": [
-        "mcp",
-        "ai"
-      ],
-      "sources": [
-        "trending"
-      ],
-      "createdAt": "2026-04-28T20:00:33Z",
-      "topics": [
-        "ai",
-        "ai-agents",
-        "chatbot",
-        "crm",
-        "customer-support",
-        "ecommerce",
-        "lgpd",
-        "mcp"
-      ],
-      "paper": null,
-      "news": [],
-      "firstSeen": "2026-09-30T07:14:20.189Z",
-      "history": [
-        {
-          "date": "2026-09-30",
-          "stars": 4281
-        },
-        {
-          "date": "2026-10-01",
-          "stars": 4316
-        },
-        {
-          "date": "2026-10-02",
-          "stars": 4348
-        }
-      ],
-      "aiNote": "开源自托管的AI销售系统，内置智能体与WhatsApp集成，适合以聊天成交的企业，可替代主流商业CRM。",
       "fun": null
     },
     {
@@ -3019,11 +2971,11 @@
       "description": "SoL-Pi: Scaling Auto-Research Loops for Efficient Agent Harnesses",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": 3246,
+      "stars": 3256,
       "forks": 259,
       "gained": {
-        "monthly": 3246,
-        "daily": 32
+        "monthly": 3256,
+        "daily": 42
       },
       "track": "research",
       "signals": [
@@ -3061,10 +3013,146 @@
         },
         {
           "date": "2026-10-02",
-          "stars": 3246
+          "stars": 3256
         }
       ],
       "aiNote": "自动研究循环递归扩展框架，让智能体工具链高效自优化。",
+      "fun": null
+    },
+    {
+      "fullName": "diegosouzapw/OmniRoute",
+      "url": "https://github.com/diegosouzapw/OmniRoute",
+      "description": "Never stop coding. Free MIT AI gateway: one endpoint, 359 providers (150+ free), 1200+ models Kimi, Claude, GPT, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline & Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop/PWA. Built by hundreds of contributors",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 72203,
+      "forks": 10315,
+      "gained": {
+        "daily": 311
+      },
+      "track": "mcp-tools",
+      "signals": [
+        "mcp",
+        "ai"
+      ],
+      "sources": [
+        "trending"
+      ],
+      "createdAt": "2026-02-13T12:38:31Z",
+      "topics": [
+        "a2a",
+        "ai-agents",
+        "ai-gateway",
+        "anthropic",
+        "claude",
+        "claude-code",
+        "cline",
+        "codex"
+      ],
+      "paper": null,
+      "news": [],
+      "firstSeen": "2026-10-02T01:42:30.110Z",
+      "history": [
+        {
+          "date": "2026-10-02",
+          "stars": 72203
+        }
+      ],
+      "aiNote": "一个 MIT 协议的多模型 AI 网关，通过单一接口聚合 359 家服务商与 1200 多个模型，支持配额感知自动降级与令牌压缩。",
+      "fun": null
+    },
+    {
+      "fullName": "melgarafael/DeskcommCRM",
+      "url": "https://github.com/melgarafael/DeskcommCRM",
+      "description": "Open-source AI sales OS — self-hosted CRM with native AI agents + WhatsApp (WAHA). Open alternative to Kommo, Octadesk & Intercom for any business that sells by chat. MCP-ready, multi-tenant, LGPD.",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 4358,
+      "forks": 1122,
+      "gained": {
+        "monthly": 3721
+      },
+      "track": "mcp-tools",
+      "signals": [
+        "mcp",
+        "ai"
+      ],
+      "sources": [
+        "trending"
+      ],
+      "createdAt": "2026-04-28T20:00:33Z",
+      "topics": [
+        "ai",
+        "ai-agents",
+        "chatbot",
+        "crm",
+        "customer-support",
+        "ecommerce",
+        "lgpd",
+        "mcp"
+      ],
+      "paper": null,
+      "news": [],
+      "firstSeen": "2026-09-30T07:14:20.189Z",
+      "history": [
+        {
+          "date": "2026-09-30",
+          "stars": 4281
+        },
+        {
+          "date": "2026-10-01",
+          "stars": 4316
+        },
+        {
+          "date": "2026-10-02",
+          "stars": 4358
+        }
+      ],
+      "aiNote": "开源自托管的AI销售系统，内置智能体与WhatsApp集成，适合以聊天成交的企业，可替代主流商业CRM。",
+      "fun": null
+    },
+    {
+      "fullName": "google-research/rrsi",
+      "url": "https://github.com/google-research/rrsi",
+      "description": null,
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 1178,
+      "forks": 107,
+      "gained": {
+        "monthly": 1178,
+        "daily": 200
+      },
+      "track": "research",
+      "signals": [],
+      "sources": [
+        "paper"
+      ],
+      "createdAt": "2026-09-16T04:50:49Z",
+      "topics": [],
+      "paper": {
+        "title": "RRSI: Regularized Recursive Self-Improvement of Agent Harnesses",
+        "url": "https://huggingface.co/papers/2609.24972",
+        "publishedAt": "2026-09-21T00:00:00.000Z",
+        "upvotes": 220
+      },
+      "news": [],
+      "firstSeen": "2026-09-30T07:14:20.189Z",
+      "history": [
+        {
+          "date": "2026-09-30",
+          "stars": 978
+        },
+        {
+          "date": "2026-10-01",
+          "stars": 1085
+        },
+        {
+          "date": "2026-10-02",
+          "stars": 1178
+        }
+      ],
+      "aiNote": "谷歌研究的智能体框架递归自我改进方法，通过正则化防止迭代退化，提升智能体长期演化稳定性。",
       "fun": null
     },
     {
@@ -3073,8 +3161,8 @@
       "description": "AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": 111242,
-      "forks": 14134,
+      "stars": 111528,
+      "forks": 14152,
       "gained": {
         "daily": 298
       },
@@ -3094,54 +3182,10 @@
       "history": [
         {
           "date": "2026-10-02",
-          "stars": 111242
+          "stars": 111528
         }
       ],
       "aiNote": "一个统一大模型接口、智能体循环、终端界面与编码命令行工具的智能体开发套件，用 TypeScript 编写。",
-      "fun": null
-    },
-    {
-      "fullName": "Edge0-AI/Edge0",
-      "url": "https://github.com/Edge0-AI/Edge0",
-      "description": null,
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "stars": 2246,
-      "forks": 203,
-      "gained": {
-        "monthly": 2246,
-        "daily": 104
-      },
-      "track": "research",
-      "signals": [],
-      "sources": [
-        "paper"
-      ],
-      "createdAt": "2026-09-08T13:41:47Z",
-      "topics": [],
-      "paper": {
-        "title": "The Other Half of the Memory Wall: Serving 35B MoEs from SSD with Trained Routing Prediction",
-        "url": "https://huggingface.co/papers/2609.18063",
-        "publishedAt": "2026-09-16T00:00:00.000Z",
-        "upvotes": 19
-      },
-      "news": [],
-      "firstSeen": "2026-09-30T07:14:20.189Z",
-      "history": [
-        {
-          "date": "2026-09-30",
-          "stars": 2142
-        },
-        {
-          "date": "2026-10-01",
-          "stars": 2154
-        },
-        {
-          "date": "2026-10-02",
-          "stars": 2246
-        }
-      ],
-      "aiNote": "面向SSD部署35B混合专家模型的开源推理方案，靠可训练路由预测绕过显存墙，为大模型低成本落地提供新思路。",
       "fun": null
     },
     {
@@ -3150,8 +3194,8 @@
       "description": "Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, security risks, prompt injection, data exfiltration, and supply-chain risks in Claude Code, Codex, and MCP skills before you install them.",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": 18969,
-      "forks": 1654,
+      "stars": 19018,
+      "forks": 1656,
       "gained": {
         "monthly": 3423
       },
@@ -3188,7 +3232,7 @@
         },
         {
           "date": "2026-10-02",
-          "stars": 18969
+          "stars": 19018
         }
       ],
       "aiNote": "英伟达开源的AI智能体技能安全扫描器，可在安装前检测提示注入、数据外泄与供应链风险。",
@@ -3200,8 +3244,8 @@
       "description": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 8717,
-      "forks": 603,
+      "stars": 8744,
+      "forks": 607,
       "gained": {
         "monthly": 3350
       },
@@ -3229,7 +3273,7 @@
         },
         {
           "date": "2026-10-02",
-          "stars": 8717
+          "stars": 8744
         }
       ],
       "aiNote": "为编程智能体提供长期记忆与跨厂商交接的Rust方案，解决上下文遗忘和工具切换难题。",
@@ -3241,8 +3285,8 @@
       "description": "Community plugin to control Blender 3D with any LLM of your choice",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": 29831,
-      "forks": 2712,
+      "stars": 29847,
+      "forks": 2714,
       "gained": {
         "monthly": 3261
       },
@@ -3279,7 +3323,7 @@
         },
         {
           "date": "2026-10-02",
-          "stars": 29831
+          "stars": 29847
         }
       ],
       "aiNote": "让大模型直接操控 Blender 建模的社区插件，打通自然语言与三维创作。",
@@ -3291,8 +3335,8 @@
       "description": "OpenRouter for agent tools. Join community here: https://discord.gg/6mQYYfFMAn",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": 3993,
-      "forks": 330,
+      "stars": 4012,
+      "forks": 331,
       "gained": {
         "monthly": 3249
       },
@@ -3329,54 +3373,10 @@
         },
         {
           "date": "2026-10-02",
-          "stars": 3993
+          "stars": 4012
         }
       ],
       "aiNote": "面向智能体工具的统一接入层，让开发者像用 OpenRouter 一样便捷调用各类工具。",
-      "fun": null
-    },
-    {
-      "fullName": "google-research/rrsi",
-      "url": "https://github.com/google-research/rrsi",
-      "description": null,
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "stars": 1143,
-      "forks": 103,
-      "gained": {
-        "monthly": 1143,
-        "daily": 165
-      },
-      "track": "research",
-      "signals": [],
-      "sources": [
-        "paper"
-      ],
-      "createdAt": "2026-09-16T04:50:49Z",
-      "topics": [],
-      "paper": {
-        "title": "RRSI: Regularized Recursive Self-Improvement of Agent Harnesses",
-        "url": "https://huggingface.co/papers/2609.24972",
-        "publishedAt": "2026-09-21T00:00:00.000Z",
-        "upvotes": 219
-      },
-      "news": [],
-      "firstSeen": "2026-09-30T07:14:20.189Z",
-      "history": [
-        {
-          "date": "2026-09-30",
-          "stars": 978
-        },
-        {
-          "date": "2026-10-01",
-          "stars": 1085
-        },
-        {
-          "date": "2026-10-02",
-          "stars": 1143
-        }
-      ],
-      "aiNote": "谷歌研究的智能体框架递归自我改进方法，通过正则化防止迭代退化，提升智能体长期演化稳定性。",
       "fun": null
     },
     {
@@ -3385,7 +3385,7 @@
       "description": "Fully autonomous AI Agents system capable of performing complex penetration testing tasks",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 25180,
+      "stars": 25197,
       "forks": 3241,
       "gained": {
         "monthly": 3083
@@ -3423,292 +3423,50 @@
         },
         {
           "date": "2026-10-02",
-          "stars": 25180
+          "stars": 25197
         }
       ],
       "aiNote": "全自主AI代理系统，能执行复杂渗透测试任务。",
       "fun": null
     },
     {
-      "fullName": "LibreChat-AI/LibreChat",
-      "url": "https://github.com/LibreChat-AI/LibreChat",
-      "description": "Enhanced ChatGPT Clone: Features Agents, MCP, Skills, DeepSeek, Anthropic, AWS, OpenAI, Responses API, Azure, Groq, o1, GPT-5, Mistral, OpenRouter, Vertex AI, Gemini, Artifacts, AI model switching, message search, Code Interpreter, langchain, DALL-E-3, OpenAPI Actions, Functions, Secure Multi-User Auth, Presets, open-source for self-hosting. Active",
-      "language": "TypeScript",
-      "languageColor": "#3178c6",
-      "stars": 45191,
-      "forks": 9269,
+      "fullName": "facebookresearch/context-language-models",
+      "url": "https://github.com/facebookresearch/context-language-models",
+      "description": "Official repository for \"Context Language Models\"",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 397,
+      "forks": 49,
       "gained": {
-        "monthly": 2873
+        "monthly": 397,
+        "daily": 219
       },
-      "track": "mcp-tools",
-      "signals": [
-        "agents, mcp, skills",
-        "chatgpt"
-      ],
+      "track": "research",
+      "signals": [],
       "sources": [
-        "trending"
+        "paper"
       ],
-      "createdAt": "2023-02-12T01:06:52Z",
-      "topics": [
-        "ai",
-        "anthropic",
-        "artifacts",
-        "aws",
-        "azure",
-        "chatgpt",
-        "chatgpt-clone",
-        "claude"
-      ],
-      "paper": null,
-      "news": [],
-      "firstSeen": "2026-09-30T07:14:20.189Z",
-      "history": [
-        {
-          "date": "2026-09-30",
-          "stars": 45144
-        },
-        {
-          "date": "2026-10-01",
-          "stars": 45167
-        },
-        {
-          "date": "2026-10-02",
-          "stars": 45191
-        }
-      ],
-      "aiNote": "可自托管的多模型聊天平台，支持智能体与工具调用。",
-      "fun": null
-    },
-    {
-      "fullName": "kunchenguid/firstmate",
-      "url": "https://github.com/kunchenguid/firstmate",
-      "description": "Talk to one agent. Ship with a crew.",
-      "language": "Shell",
-      "languageColor": "#89e051",
-      "stars": 7424,
-      "forks": 2370,
-      "gained": {
-        "monthly": 2846
-      },
-      "track": "ai-app",
-      "signals": [
-        "agent"
-      ],
-      "sources": [
-        "trending"
-      ],
-      "createdAt": "2026-06-12T03:21:10Z",
+      "createdAt": "2026-09-18T00:36:27Z",
       "topics": [],
-      "paper": null,
-      "news": [],
-      "firstSeen": "2026-09-30T07:14:20.189Z",
-      "history": [
-        {
-          "date": "2026-09-30",
-          "stars": 7352
-        },
-        {
-          "date": "2026-10-01",
-          "stars": 7384
-        },
-        {
-          "date": "2026-10-02",
-          "stars": 7424
-        }
-      ],
-      "aiNote": "一个指挥多智能体协作的编排工具，让用户只对接单一入口，即可调度整支代理团队完成开发任务。",
-      "fun": null
-    },
-    {
-      "fullName": "cline/cline",
-      "url": "https://github.com/cline/cline",
-      "description": "Autonomous coding agent as an SDK, IDE extension, or CLI assistant.",
-      "language": "TypeScript",
-      "languageColor": "#3178c6",
-      "stars": 69682,
-      "forks": 7583,
-      "gained": {
-        "monthly": 2811
+      "paper": {
+        "title": "Context Language Models",
+        "url": "https://huggingface.co/papers/2609.37725",
+        "publishedAt": "2026-09-29T00:00:00.000Z",
+        "upvotes": 30
       },
-      "track": "coding-agent",
-      "signals": [
-        "coding agent",
-        "agent"
-      ],
-      "sources": [
-        "trending"
-      ],
-      "createdAt": "2024-07-06T07:28:10Z",
-      "topics": [],
-      "paper": null,
       "news": [],
-      "firstSeen": "2026-09-30T07:14:20.189Z",
+      "firstSeen": "2026-10-01T07:01:34.939Z",
       "history": [
         {
-          "date": "2026-09-30",
-          "stars": 69587
-        },
-        {
           "date": "2026-10-01",
-          "stars": 69638
+          "stars": 178
         },
         {
           "date": "2026-10-02",
-          "stars": 69682
+          "stars": 397
         }
       ],
-      "aiNote": "可作 SDK、IDE 插件或命令行使用的自主编程智能体，让 AI 直接读写代码并执行任务。",
-      "fun": null
-    },
-    {
-      "fullName": "microsoft/generative-ai-for-beginners",
-      "url": "https://github.com/microsoft/generative-ai-for-beginners",
-      "description": "21 Lessons, Get Started Building with Generative AI",
-      "language": "Jupyter Notebook",
-      "languageColor": "#DA5B0B",
-      "stars": 120907,
-      "forks": 63592,
-      "gained": {
-        "daily": 71,
-        "weekly": 488
-      },
-      "track": "learn",
-      "signals": [
-        "for beginners",
-        "generative"
-      ],
-      "sources": [
-        "trending"
-      ],
-      "createdAt": "2023-06-19T16:28:59Z",
-      "topics": [
-        "ai",
-        "azure",
-        "chatgpt",
-        "dall-e",
-        "generative-ai",
-        "generativeai",
-        "gpt",
-        "language-model"
-      ],
-      "paper": null,
-      "news": [],
-      "firstSeen": "2026-09-30T07:14:20.189Z",
-      "history": [
-        {
-          "date": "2026-09-30",
-          "stars": 120822
-        },
-        {
-          "date": "2026-10-01",
-          "stars": 120873
-        },
-        {
-          "date": "2026-10-02",
-          "stars": 120907
-        }
-      ],
-      "aiNote": "微软推出的生成式AI入门课程，含21节Jupyter实战课，适合零基础快速上手。",
-      "fun": null
-    },
-    {
-      "fullName": "zeronsh/zeron",
-      "url": "https://github.com/zeronsh/zeron",
-      "description": "A native control plane for Claude Code, Codex, Cursor, Devin and other coding agents.",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 2660,
-      "forks": 246,
-      "gained": {
-        "weekly": 335,
-        "monthly": 1393
-      },
-      "track": "coding-agent",
-      "signals": [
-        "claude code",
-        "claude"
-      ],
-      "sources": [
-        "trending"
-      ],
-      "createdAt": "2026-07-20T15:04:04Z",
-      "topics": [
-        "ai",
-        "claude-code",
-        "codex",
-        "coding-agent",
-        "cursor",
-        "developer-tools",
-        "gpui",
-        "local-first"
-      ],
-      "paper": null,
-      "news": [],
-      "firstSeen": "2026-09-30T07:14:20.189Z",
-      "history": [
-        {
-          "date": "2026-09-30",
-          "stars": 2492
-        },
-        {
-          "date": "2026-10-01",
-          "stars": 2514
-        },
-        {
-          "date": "2026-10-02",
-          "stars": 2660
-        }
-      ],
-      "aiNote": "面向多种编程智能体的原生控制中枢，用 Rust 编写，统一调度。",
-      "fun": null
-    },
-    {
-      "fullName": "ollama/ollama",
-      "url": "https://github.com/ollama/ollama",
-      "description": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 182027,
-      "forks": 18075,
-      "gained": {
-        "monthly": 2719
-      },
-      "track": "ai-app",
-      "signals": [
-        "kimi"
-      ],
-      "sources": [
-        "trending"
-      ],
-      "createdAt": "2023-06-26T19:39:32Z",
-      "topics": [
-        "deepseek",
-        "gemma",
-        "gemma3",
-        "glm",
-        "go",
-        "golang",
-        "gpt-oss",
-        "llama"
-      ],
-      "paper": null,
-      "news": [],
-      "firstSeen": "2026-09-30T07:14:20.189Z",
-      "history": [
-        {
-          "date": "2026-09-30",
-          "stars": 181946
-        },
-        {
-          "date": "2026-10-01",
-          "stars": 181992
-        },
-        {
-          "date": "2026-10-02",
-          "stars": 182027
-        }
-      ],
-      "aiNote": "本地一键运行各类开源大模型的工具，让私有化部署和推理变得极简。",
+      "aiNote": "这是 Meta 提出的上下文语言模型官方实现，把文档级上下文直接编码进语言模型，让生成与理解同时利用跨句信息。",
       "fun": null
     },
     {
@@ -3717,11 +3475,11 @@
       "description": "NeoHorse-1: Towards Recursive Self-Improvement via Agentic Post-Training with Routing Harness.",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": 1419,
+      "stars": 1442,
       "forks": 17,
       "gained": {
-        "monthly": 1419,
-        "daily": 104
+        "monthly": 1442,
+        "daily": 127
       },
       "track": "research",
       "signals": [
@@ -3759,10 +3517,292 @@
         },
         {
           "date": "2026-10-02",
-          "stars": 1419
+          "stars": 1442
         }
       ],
       "aiNote": "一个通过路由框架实现智能体后训练、迈向递归自我改进的Python项目，为自动化模型进化提供新思路。",
+      "fun": null
+    },
+    {
+      "fullName": "LibreChat-AI/LibreChat",
+      "url": "https://github.com/LibreChat-AI/LibreChat",
+      "description": "Enhanced ChatGPT Clone: Features Agents, MCP, Skills, DeepSeek, Anthropic, AWS, OpenAI, Responses API, Azure, Groq, o1, GPT-5, Mistral, OpenRouter, Vertex AI, Gemini, Artifacts, AI model switching, message search, Code Interpreter, langchain, DALL-E-3, OpenAPI Actions, Functions, Secure Multi-User Auth, Presets, open-source for self-hosting. Active",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 45202,
+      "forks": 9271,
+      "gained": {
+        "monthly": 2873
+      },
+      "track": "mcp-tools",
+      "signals": [
+        "agents, mcp, skills",
+        "chatgpt"
+      ],
+      "sources": [
+        "trending"
+      ],
+      "createdAt": "2023-02-12T01:06:52Z",
+      "topics": [
+        "ai",
+        "anthropic",
+        "artifacts",
+        "aws",
+        "azure",
+        "chatgpt",
+        "chatgpt-clone",
+        "claude"
+      ],
+      "paper": null,
+      "news": [],
+      "firstSeen": "2026-09-30T07:14:20.189Z",
+      "history": [
+        {
+          "date": "2026-09-30",
+          "stars": 45144
+        },
+        {
+          "date": "2026-10-01",
+          "stars": 45167
+        },
+        {
+          "date": "2026-10-02",
+          "stars": 45202
+        }
+      ],
+      "aiNote": "可自托管的多模型聊天平台，支持智能体与工具调用。",
+      "fun": null
+    },
+    {
+      "fullName": "kunchenguid/firstmate",
+      "url": "https://github.com/kunchenguid/firstmate",
+      "description": "Talk to one agent. Ship with a crew.",
+      "language": "Shell",
+      "languageColor": "#89e051",
+      "stars": 7438,
+      "forks": 2376,
+      "gained": {
+        "monthly": 2846
+      },
+      "track": "ai-app",
+      "signals": [
+        "agent"
+      ],
+      "sources": [
+        "trending"
+      ],
+      "createdAt": "2026-06-12T03:21:10Z",
+      "topics": [],
+      "paper": null,
+      "news": [],
+      "firstSeen": "2026-09-30T07:14:20.189Z",
+      "history": [
+        {
+          "date": "2026-09-30",
+          "stars": 7352
+        },
+        {
+          "date": "2026-10-01",
+          "stars": 7384
+        },
+        {
+          "date": "2026-10-02",
+          "stars": 7438
+        }
+      ],
+      "aiNote": "一个指挥多智能体协作的编排工具，让用户只对接单一入口，即可调度整支代理团队完成开发任务。",
+      "fun": null
+    },
+    {
+      "fullName": "cline/cline",
+      "url": "https://github.com/cline/cline",
+      "description": "Autonomous coding agent as an SDK, IDE extension, or CLI assistant.",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 69705,
+      "forks": 7587,
+      "gained": {
+        "monthly": 2811
+      },
+      "track": "coding-agent",
+      "signals": [
+        "coding agent",
+        "agent"
+      ],
+      "sources": [
+        "trending"
+      ],
+      "createdAt": "2024-07-06T07:28:10Z",
+      "topics": [],
+      "paper": null,
+      "news": [],
+      "firstSeen": "2026-09-30T07:14:20.189Z",
+      "history": [
+        {
+          "date": "2026-09-30",
+          "stars": 69587
+        },
+        {
+          "date": "2026-10-01",
+          "stars": 69638
+        },
+        {
+          "date": "2026-10-02",
+          "stars": 69705
+        }
+      ],
+      "aiNote": "可作 SDK、IDE 插件或命令行使用的自主编程智能体，让 AI 直接读写代码并执行任务。",
+      "fun": null
+    },
+    {
+      "fullName": "microsoft/generative-ai-for-beginners",
+      "url": "https://github.com/microsoft/generative-ai-for-beginners",
+      "description": "21 Lessons, Get Started Building with Generative AI",
+      "language": "Jupyter Notebook",
+      "languageColor": "#DA5B0B",
+      "stars": 120935,
+      "forks": 63600,
+      "gained": {
+        "daily": 71,
+        "weekly": 488
+      },
+      "track": "learn",
+      "signals": [
+        "for beginners",
+        "generative"
+      ],
+      "sources": [
+        "trending"
+      ],
+      "createdAt": "2023-06-19T16:28:59Z",
+      "topics": [
+        "ai",
+        "azure",
+        "chatgpt",
+        "dall-e",
+        "generative-ai",
+        "generativeai",
+        "gpt",
+        "language-model"
+      ],
+      "paper": null,
+      "news": [],
+      "firstSeen": "2026-09-30T07:14:20.189Z",
+      "history": [
+        {
+          "date": "2026-09-30",
+          "stars": 120822
+        },
+        {
+          "date": "2026-10-01",
+          "stars": 120873
+        },
+        {
+          "date": "2026-10-02",
+          "stars": 120935
+        }
+      ],
+      "aiNote": "微软推出的生成式AI入门课程，含21节Jupyter实战课，适合零基础快速上手。",
+      "fun": null
+    },
+    {
+      "fullName": "zeronsh/zeron",
+      "url": "https://github.com/zeronsh/zeron",
+      "description": "A native control plane for Claude Code, Codex, Cursor, Devin and other coding agents.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 2737,
+      "forks": 257,
+      "gained": {
+        "weekly": 335,
+        "monthly": 1393
+      },
+      "track": "coding-agent",
+      "signals": [
+        "claude code",
+        "claude"
+      ],
+      "sources": [
+        "trending"
+      ],
+      "createdAt": "2026-07-20T15:04:04Z",
+      "topics": [
+        "ai",
+        "claude-code",
+        "codex",
+        "coding-agent",
+        "cursor",
+        "developer-tools",
+        "gpui",
+        "local-first"
+      ],
+      "paper": null,
+      "news": [],
+      "firstSeen": "2026-09-30T07:14:20.189Z",
+      "history": [
+        {
+          "date": "2026-09-30",
+          "stars": 2492
+        },
+        {
+          "date": "2026-10-01",
+          "stars": 2514
+        },
+        {
+          "date": "2026-10-02",
+          "stars": 2737
+        }
+      ],
+      "aiNote": "面向多种编程智能体的原生控制中枢，用 Rust 编写，统一调度。",
+      "fun": null
+    },
+    {
+      "fullName": "ollama/ollama",
+      "url": "https://github.com/ollama/ollama",
+      "description": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 182047,
+      "forks": 18083,
+      "gained": {
+        "monthly": 2719
+      },
+      "track": "ai-app",
+      "signals": [
+        "kimi"
+      ],
+      "sources": [
+        "trending"
+      ],
+      "createdAt": "2023-06-26T19:39:32Z",
+      "topics": [
+        "deepseek",
+        "gemma",
+        "gemma3",
+        "glm",
+        "go",
+        "golang",
+        "gpt-oss",
+        "llama"
+      ],
+      "paper": null,
+      "news": [],
+      "firstSeen": "2026-09-30T07:14:20.189Z",
+      "history": [
+        {
+          "date": "2026-09-30",
+          "stars": 181946
+        },
+        {
+          "date": "2026-10-01",
+          "stars": 181992
+        },
+        {
+          "date": "2026-10-02",
+          "stars": 182047
+        }
+      ],
+      "aiNote": "本地一键运行各类开源大模型的工具，让私有化部署和推理变得极简。",
       "fun": null
     },
     {
@@ -3771,7 +3811,7 @@
       "description": "Secure environments for developers and their agents",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 16804,
+      "stars": 16811,
       "forks": 1604,
       "gained": {
         "monthly": 2640
@@ -3809,7 +3849,7 @@
         },
         {
           "date": "2026-10-02",
-          "stars": 16804
+          "stars": 16811
         }
       ],
       "aiNote": "为开发者及其智能体提供安全隔离的开发环境。",
@@ -3821,8 +3861,8 @@
       "description": "OpenHuman is the fastest, cheapest, most efficient open-source agent harness. Written in Rust",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 40430,
-      "forks": 3994,
+      "stars": 40443,
+      "forks": 3996,
       "gained": {
         "daily": 219
       },
@@ -3851,7 +3891,7 @@
       "history": [
         {
           "date": "2026-10-02",
-          "stars": 40430
+          "stars": 40443
         }
       ],
       "aiNote": "用 Rust 编写的开源智能体运行框架，主打速度最快、成本最低、效率最高。",
@@ -3863,8 +3903,8 @@
       "description": "[SIGGRAPH Asia 2026] UniMate: One Unified Model to Animate Diverse Skeletons",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": 1084,
-      "forks": 101,
+      "stars": 1166,
+      "forks": 103,
       "gained": {
         "daily": 217
       },
@@ -3889,7 +3929,7 @@
       "history": [
         {
           "date": "2026-10-02",
-          "stars": 1084
+          "stars": 1166
         }
       ],
       "aiNote": "一个统一模型可为多种骨架结构生成动画，无需针对每种骨架单独训练。",
@@ -3901,8 +3941,8 @@
       "description": "Get your documents ready for gen AI",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": 68279,
-      "forks": 4982,
+      "stars": 68295,
+      "forks": 4983,
       "gained": {
         "monthly": 2512
       },
@@ -3935,7 +3975,7 @@
         },
         {
           "date": "2026-10-02",
-          "stars": 68279
+          "stars": 68295
         }
       ],
       "aiNote": "将各类文档解析为生成式AI可用格式。",
@@ -3947,8 +3987,8 @@
       "description": "Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 8617,
-      "forks": 307,
+      "stars": 8639,
+      "forks": 309,
       "gained": {
         "daily": 49,
         "monthly": 1903
@@ -3984,50 +4024,10 @@
         },
         {
           "date": "2026-10-02",
-          "stars": 8617
+          "stars": 8639
         }
       ],
       "aiNote": "面向并行AI代理工作流的Git工作树管理命令行工具，用Rust编写，让多代理同时操作代码库更高效。",
-      "fun": null
-    },
-    {
-      "fullName": "facebookresearch/context-language-models",
-      "url": "https://github.com/facebookresearch/context-language-models",
-      "description": "Official repository for \"Context Language Models\"",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "stars": 354,
-      "forks": 44,
-      "gained": {
-        "monthly": 354,
-        "daily": 176
-      },
-      "track": "research",
-      "signals": [],
-      "sources": [
-        "paper"
-      ],
-      "createdAt": "2026-09-18T00:36:27Z",
-      "topics": [],
-      "paper": {
-        "title": "Context Language Models",
-        "url": "https://huggingface.co/papers/2609.37725",
-        "publishedAt": "2026-09-29T00:00:00.000Z",
-        "upvotes": 27
-      },
-      "news": [],
-      "firstSeen": "2026-10-01T07:01:34.939Z",
-      "history": [
-        {
-          "date": "2026-10-01",
-          "stars": 178
-        },
-        {
-          "date": "2026-10-02",
-          "stars": 354
-        }
-      ],
-      "aiNote": "这是 Meta 提出的上下文语言模型官方实现，把文档级上下文直接编码进语言模型，让生成与理解同时利用跨句信息。",
       "fun": null
     },
     {
@@ -4036,8 +4036,8 @@
       "description": "12 weeks, 26 lessons, 52 quizzes, classic Machine Learning for all",
       "language": "Jupyter Notebook",
       "languageColor": "#DA5B0B",
-      "stars": 91198,
-      "forks": 22533,
+      "stars": 91203,
+      "forks": 22536,
       "gained": {
         "weekly": 286,
         "monthly": 1294
@@ -4075,7 +4075,7 @@
         },
         {
           "date": "2026-10-02",
-          "stars": 91198
+          "stars": 91203
         }
       ],
       "aiNote": "微软出品的十二周机器学习入门课，含二十六课与五十二道测验，适合零基础系统学习。",
@@ -4087,8 +4087,8 @@
       "description": "CLI tool for configuring and monitoring Claude Code",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": 32277,
-      "forks": 3667,
+      "stars": 32291,
+      "forks": 3672,
       "gained": {
         "weekly": 601
       },
@@ -4121,7 +4121,7 @@
         },
         {
           "date": "2026-10-02",
-          "stars": 32277
+          "stars": 32291
         }
       ],
       "aiNote": "命令行工具，用于配置和监控Claude Code，简化AI编程助手的部署与状态追踪。",
@@ -4133,8 +4133,8 @@
       "description": "A living pixel-art station where real AI agents do real work. Local-first desktop agent harness - bring your own key, watch your crew actually run.",
       "language": "JavaScript",
       "languageColor": "#f1e05a",
-      "stars": 901,
-      "forks": 150,
+      "stars": 935,
+      "forks": 157,
       "gained": {
         "weekly": 592
       },
@@ -4171,7 +4171,7 @@
         },
         {
           "date": "2026-10-02",
-          "stars": 901
+          "stars": 935
         }
       ],
       "aiNote": "本地优先的桌面智能体框架，用像素画呈现AI员工真实干活，自带密钥即可运行。",
@@ -4183,8 +4183,8 @@
       "description": "Gentle-AI configures the AI coding agents you already use: Claude Code, Cursor, OpenCode, Codex, Pi, and more. Choose persistent memory, Organic-Driven Development, curated skills, MCP servers, personas, and optional bounded review. Open source, no agent lock-in.",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 7468,
-      "forks": 821,
+      "stars": 7481,
+      "forks": 822,
       "gained": {
         "weekly": 239,
         "monthly": 1402
@@ -4222,7 +4222,7 @@
         },
         {
           "date": "2026-10-02",
-          "stars": 7468
+          "stars": 7481
         }
       ],
       "aiNote": "统一配置多款主流AI编程代理的开源工具，支持持久记忆与技能管理，避免被单一平台锁定。",
@@ -4234,7 +4234,7 @@
       "description": "Stealth headless browser for AI agents — bypass Cloudflare, bot detection, and anti-scraping. Drop-in Puppeteer/Playwright replacement.",
       "language": "JavaScript",
       "languageColor": "#f1e05a",
-      "stars": 11310,
+      "stars": 11315,
       "forks": 1123,
       "gained": {
         "monthly": 2340
@@ -4272,7 +4272,7 @@
         },
         {
           "date": "2026-10-02",
-          "stars": 11310
+          "stars": 11315
         }
       ],
       "aiNote": "为 AI 智能体设计的隐身无头浏览器，可绕过 Cloudflare 等反爬检测，并能直接替换 Puppeteer 或 Playwright。",
@@ -4284,8 +4284,8 @@
       "description": "🎬 Fully automated YouTube channel management with AI agents. Creates, optimizes & publishes videos 24/7. Works with FREE Gemini API or OpenAI. No coding required!",
       "language": "JavaScript",
       "languageColor": "#f1e05a",
-      "stars": 3987,
-      "forks": 1224,
+      "stars": 3993,
+      "forks": 1227,
       "gained": {
         "weekly": 275,
         "monthly": 1221
@@ -4322,7 +4322,7 @@
         },
         {
           "date": "2026-10-02",
-          "stars": 3987
+          "stars": 3993
         }
       ],
       "aiNote": "用AI代理全自动运营YouTube频道，自动创作、优化并发布视频，支持免费Gemini接口且无需编程。",
@@ -4334,8 +4334,8 @@
       "description": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that cuts 65% of tokens by talking like a caveman.",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 108747,
-      "forks": 6303,
+      "stars": 108813,
+      "forks": 6309,
       "gained": {
         "daily": 193
       },
@@ -4364,7 +4364,7 @@
       "history": [
         {
           "date": "2026-10-02",
-          "stars": 108747
+          "stars": 108813
         }
       ],
       "aiNote": "这是一个用原始人式短语压缩提示词的编码代理代理工具，通过精简表达节省约六成五的令牌消耗。",
@@ -4376,8 +4376,8 @@
       "description": "Model Context Protocol Servers",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": 90939,
-      "forks": 11745,
+      "stars": 90950,
+      "forks": 11750,
       "gained": {
         "daily": 190
       },
@@ -4400,7 +4400,7 @@
         },
         {
           "date": "2026-10-02",
-          "stars": 90939
+          "stars": 90950
         }
       ],
       "aiNote": "提供模型上下文协议的服务器实现，让AI应用能标准化接入外部工具与数据源，是扩展智能体能力的关键基础设施。",
@@ -4412,8 +4412,8 @@
       "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": 25963,
-      "forks": 3052,
+      "stars": 25965,
+      "forks": 3051,
       "gained": {
         "monthly": 2254
       },
@@ -4440,7 +4440,7 @@
         },
         {
           "date": "2026-10-02",
-          "stars": 25963
+          "stars": 25965
         }
       ],
       "aiNote": "面向知识工作者的 Claude 协作插件集，开源可扩展。",
@@ -4452,8 +4452,8 @@
       "description": "AirLLM 70B inference with single 4GB GPU",
       "language": "Jupyter Notebook",
       "languageColor": "#DA5B0B",
-      "stars": 35285,
-      "forks": 3730,
+      "stars": 35289,
+      "forks": 3733,
       "gained": {
         "weekly": 546
       },
@@ -4490,7 +4490,7 @@
         },
         {
           "date": "2026-10-02",
-          "stars": 35285
+          "stars": 35289
         }
       ],
       "aiNote": "让70B大模型仅用单张4GB显卡推理，大幅降低显存门槛。",
@@ -4502,8 +4502,8 @@
       "description": "Open Source AI trading agent that operates autonomously across 1000+ markets - Polymarket, Kalshi, Binance, Hyperliquid, Solana DEXs, 5 EVM chains. Scans for edge, executes instantly, manages risk while you sleep. Agent commerce protocol for machine-to-machine payments. Self-hosted. Built on Claude.",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": 2914,
-      "forks": 357,
+      "stars": 2917,
+      "forks": 358,
       "gained": {
         "monthly": 2101
       },
@@ -4539,7 +4539,7 @@
         },
         {
           "date": "2026-10-02",
-          "stars": 2914
+          "stars": 2917
         }
       ],
       "aiNote": "自主跨千余市场的开源AI交易代理，自托管并支持机器间支付。",
@@ -4551,7 +4551,7 @@
       "description": "Isolated VM environment for running Claude Code and Codex",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 739,
+      "stars": 744,
       "forks": 38,
       "gained": {
         "weekly": 488
@@ -4597,7 +4597,7 @@
         },
         {
           "date": "2026-10-02",
-          "stars": 739
+          "stars": 744
         }
       ],
       "aiNote": "一个用 Rust 编写的隔离虚拟机环境，专门用于安全运行 Claude Code 和 Codex 等 AI 编程代理。",
@@ -4609,8 +4609,8 @@
       "description": "Claude Code toolkit - agents, commands, skills, rules, and hooks for productive AI-assisted development",
       "language": "JavaScript",
       "languageColor": "#f1e05a",
-      "stars": 3839,
-      "forks": 590,
+      "stars": 3867,
+      "forks": 595,
       "gained": {
         "monthly": 1892
       },
@@ -4638,7 +4638,7 @@
         },
         {
           "date": "2026-10-02",
-          "stars": 3839
+          "stars": 3867
         }
       ],
       "aiNote": "一套面向 Claude Code 的智能体、命令、技能与钩子工具集，让 AI 辅助开发更高效可定制。",
@@ -4650,8 +4650,8 @@
       "description": "Lightweight coding agent that runs in your terminal",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 127548,
-      "forks": 19951,
+      "stars": 127592,
+      "forks": 19968,
       "gained": {
         "daily": 157
       },
@@ -4707,7 +4707,7 @@
       "history": [
         {
           "date": "2026-10-02",
-          "stars": 127548
+          "stars": 127592
         }
       ],
       "aiNote": "OpenAI 推出的轻量级终端编程代理，用 Rust 编写，可在命令行内直接执行编码任务。",
@@ -4719,8 +4719,8 @@
       "description": "Fine-tune LLMs from one YAML. Layer streaming trains an 8B model on a 4 GB laptop GPU.",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": 7970,
-      "forks": 1276,
+      "stars": 7990,
+      "forks": 1279,
       "gained": {
         "daily": 152
       },
@@ -4749,10 +4749,51 @@
       "history": [
         {
           "date": "2026-10-02",
-          "stars": 7970
+          "stars": 7990
         }
       ],
       "aiNote": "一个用单份 YAML 配置微调大语言模型的开源工具，通过分层流式加载在 4GB 显存的笔记本 GPU 上训练 80 亿参数模型。",
+      "fun": null
+    },
+    {
+      "fullName": "shengshu-ai/Motus2",
+      "url": "https://github.com/shengshu-ai/Motus2",
+      "description": "Motus2: A Self-Evolving General World Model for Dexterous Manipulation",
+      "language": null,
+      "languageColor": null,
+      "stars": 418,
+      "forks": 2,
+      "gained": {
+        "monthly": 418,
+        "daily": 117
+      },
+      "track": "world-model",
+      "signals": [
+        "world model"
+      ],
+      "sources": [
+        "discover"
+      ],
+      "createdAt": "2026-09-11T15:12:14Z",
+      "topics": [],
+      "paper": null,
+      "news": [],
+      "firstSeen": "2026-09-30T07:14:20.189Z",
+      "history": [
+        {
+          "date": "2026-09-30",
+          "stars": 301
+        },
+        {
+          "date": "2026-10-01",
+          "stars": 358
+        },
+        {
+          "date": "2026-10-02",
+          "stars": 418
+        }
+      ],
+      "aiNote": "面向灵巧操作的自进化通用世界模型，让机器人自主积累经验并持续提升技能。",
       "fun": null
     },
     {
@@ -4761,8 +4802,8 @@
       "description": "Diffusion model(SD,Flux,Wan,Qwen Image,Z-Image,...) inference in pure C/C++",
       "language": "C++",
       "languageColor": "#f34b7d",
-      "stars": 7490,
-      "forks": 845,
+      "stars": 7498,
+      "forks": 846,
       "gained": {
         "weekly": 286,
         "monthly": 615
@@ -4800,7 +4841,7 @@
         },
         {
           "date": "2026-10-02",
-          "stars": 7490
+          "stars": 7498
         }
       ],
       "aiNote": "纯C/C++实现的扩散模型推理引擎，支持多种主流模型，无需重型框架即可高效部署。",
@@ -4812,7 +4853,7 @@
       "description": "Fault-tolerant, highly scalable GPU orchestration, and a machine learning framework designed for training models with billions to trillions of parameters",
       "language": "Jupyter Notebook",
       "languageColor": "#DA5B0B",
-      "stars": 5840,
+      "stars": 5842,
       "forks": 1048,
       "gained": {
         "monthly": 1722
@@ -4858,7 +4899,7 @@
         },
         {
           "date": "2026-10-02",
-          "stars": 5840
+          "stars": 5842
         }
       ],
       "aiNote": "容错可扩展的GPU编排与超大规模模型训练框架，面向万亿参数级AI训练。",
@@ -4870,8 +4911,8 @@
       "description": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": 140520,
-      "forks": 20643,
+      "stars": 140534,
+      "forks": 20646,
       "gained": {
         "daily": 136
       },
@@ -4896,10 +4937,54 @@
       "history": [
         {
           "date": "2026-10-02",
-          "stars": 140520
+          "stars": 140534
         }
       ],
       "aiNote": "汇集百余个基于大模型的应用实例，涵盖智能体、技能与检索增强生成，全部开源且可免费取用。",
+      "fun": null
+    },
+    {
+      "fullName": "Maelic/RelateAnything",
+      "url": "https://github.com/Maelic/RelateAnything",
+      "description": "RelateAnything: Real-Time Open-Vocabulary Relation Prediction From Any Inputs ",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 826,
+      "forks": 117,
+      "gained": {
+        "monthly": 826,
+        "daily": 67
+      },
+      "track": "research",
+      "signals": [],
+      "sources": [
+        "paper"
+      ],
+      "createdAt": "2026-09-05T19:21:05Z",
+      "topics": [],
+      "paper": {
+        "title": "RelateAnything: Real-Time Open-Vocabulary Relation Prediction From Any Inputs",
+        "url": "https://huggingface.co/papers/2609.12552",
+        "publishedAt": "2026-09-11T00:00:00.000Z",
+        "upvotes": 6
+      },
+      "news": [],
+      "firstSeen": "2026-09-30T07:14:20.189Z",
+      "history": [
+        {
+          "date": "2026-09-30",
+          "stars": 759
+        },
+        {
+          "date": "2026-10-01",
+          "stars": 788
+        },
+        {
+          "date": "2026-10-02",
+          "stars": 826
+        }
+      ],
+      "aiNote": "实时开放词汇关系预测工具，任意输入即可推断物体间关联。",
       "fun": null
     },
     {
@@ -4908,8 +4993,8 @@
       "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
       "language": "Shell",
       "languageColor": "#89e051",
-      "stars": 155634,
-      "forks": 25130,
+      "stars": 155730,
+      "forks": 25148,
       "gained": {
         "daily": 130
       },
@@ -4936,51 +5021,10 @@
         },
         {
           "date": "2026-10-02",
-          "stars": 155634
+          "stars": 155730
         }
       ],
       "aiNote": "一套可直接调用的AI代理团队，覆盖前端、社区运营等角色，每个代理有专长与交付物，适合快速搭建自动化工作流。",
-      "fun": null
-    },
-    {
-      "fullName": "shengshu-ai/Motus2",
-      "url": "https://github.com/shengshu-ai/Motus2",
-      "description": "Motus2: A Self-Evolving General World Model for Dexterous Manipulation",
-      "language": null,
-      "languageColor": null,
-      "stars": 396,
-      "forks": 2,
-      "gained": {
-        "monthly": 396,
-        "daily": 95
-      },
-      "track": "world-model",
-      "signals": [
-        "world model"
-      ],
-      "sources": [
-        "discover"
-      ],
-      "createdAt": "2026-09-11T15:12:14Z",
-      "topics": [],
-      "paper": null,
-      "news": [],
-      "firstSeen": "2026-09-30T07:14:20.189Z",
-      "history": [
-        {
-          "date": "2026-09-30",
-          "stars": 301
-        },
-        {
-          "date": "2026-10-01",
-          "stars": 358
-        },
-        {
-          "date": "2026-10-02",
-          "stars": 396
-        }
-      ],
-      "aiNote": "面向灵巧操作的自进化通用世界模型，让机器人自主积累经验并持续提升技能。",
       "fun": null
     },
     {
@@ -4989,7 +5033,7 @@
       "description": "A terminal window manager that knows what your agents are doing. Tiling panes, workspaces, sessions that survive restarts, and one Inbox for every coding agent.",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 4464,
+      "stars": 4492,
       "forks": 198,
       "gained": {
         "daily": 54,
@@ -5028,10 +5072,54 @@
         },
         {
           "date": "2026-10-02",
-          "stars": 4464
+          "stars": 4492
         }
       ],
       "aiNote": "面向编码智能体的终端窗口管理器，支持平铺分屏、工作区与会话持久化，并用统一收件箱汇总各智能体动态。",
+      "fun": null
+    },
+    {
+      "fullName": "zhengkid/Dream-RSI",
+      "url": "https://github.com/zhengkid/Dream-RSI",
+      "description": "The offical repo for \"Dream-RSI: Recursive Self-Improvement through Evolving Worlds\"",
+      "language": null,
+      "languageColor": null,
+      "stars": 1335,
+      "forks": 120,
+      "gained": {
+        "monthly": 1335,
+        "daily": 15
+      },
+      "track": "research",
+      "signals": [],
+      "sources": [
+        "paper"
+      ],
+      "createdAt": "2026-09-13T20:39:43Z",
+      "topics": [],
+      "paper": {
+        "title": "Dream-RSI: Recursive Self-Improvement through Evolving Worlds",
+        "url": "https://huggingface.co/papers/2609.14858",
+        "publishedAt": "2026-09-14T00:00:00.000Z",
+        "upvotes": 250
+      },
+      "news": [],
+      "firstSeen": "2026-09-30T07:14:20.189Z",
+      "history": [
+        {
+          "date": "2026-09-30",
+          "stars": 1320
+        },
+        {
+          "date": "2026-10-01",
+          "stars": 1328
+        },
+        {
+          "date": "2026-10-02",
+          "stars": 1335
+        }
+      ],
+      "aiNote": "通过演化世界实现递归自我改进的官方代码库，为智能体持续进化提供新思路。",
       "fun": null
     },
     {
@@ -5040,8 +5128,8 @@
       "description": null,
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": 9336,
-      "forks": 2183,
+      "stars": 9350,
+      "forks": 2184,
       "gained": {
         "weekly": 376
       },
@@ -5068,54 +5156,10 @@
         },
         {
           "date": "2026-10-02",
-          "stars": 9336
+          "stars": 9350
         }
       ],
       "aiNote": null,
-      "fun": null
-    },
-    {
-      "fullName": "zhengkid/Dream-RSI",
-      "url": "https://github.com/zhengkid/Dream-RSI",
-      "description": "The offical repo for \"Dream-RSI: Recursive Self-Improvement through Evolving Worlds\"",
-      "language": null,
-      "languageColor": null,
-      "stars": 1334,
-      "forks": 119,
-      "gained": {
-        "monthly": 1334,
-        "daily": 14
-      },
-      "track": "research",
-      "signals": [],
-      "sources": [
-        "paper"
-      ],
-      "createdAt": "2026-09-13T20:39:43Z",
-      "topics": [],
-      "paper": {
-        "title": "Dream-RSI: Recursive Self-Improvement through Evolving Worlds",
-        "url": "https://huggingface.co/papers/2609.14858",
-        "publishedAt": "2026-09-14T00:00:00.000Z",
-        "upvotes": 249
-      },
-      "news": [],
-      "firstSeen": "2026-09-30T07:14:20.189Z",
-      "history": [
-        {
-          "date": "2026-09-30",
-          "stars": 1320
-        },
-        {
-          "date": "2026-10-01",
-          "stars": 1328
-        },
-        {
-          "date": "2026-10-02",
-          "stars": 1334
-        }
-      ],
-      "aiNote": "通过演化世界实现递归自我改进的官方代码库，为智能体持续进化提供新思路。",
       "fun": null
     },
     {
@@ -5124,7 +5168,7 @@
       "description": "Persistent memory system for AI coding agents. Agent-agnostic Go binary with SQLite + FTS5, MCP server, HTTP API, CLI, and TUI.",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 6987,
+      "stars": 6993,
       "forks": 720,
       "gained": {
         "weekly": 185,
@@ -5154,54 +5198,10 @@
         },
         {
           "date": "2026-10-02",
-          "stars": 6987
+          "stars": 6993
         }
       ],
       "aiNote": "为 AI 编程代理提供持久记忆的 Go 工具，兼容多种代理，支持全文检索与多种接口。",
-      "fun": null
-    },
-    {
-      "fullName": "Maelic/RelateAnything",
-      "url": "https://github.com/Maelic/RelateAnything",
-      "description": "RelateAnything: Real-Time Open-Vocabulary Relation Prediction From Any Inputs ",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "stars": 807,
-      "forks": 115,
-      "gained": {
-        "monthly": 807,
-        "daily": 48
-      },
-      "track": "research",
-      "signals": [],
-      "sources": [
-        "paper"
-      ],
-      "createdAt": "2026-09-05T19:21:05Z",
-      "topics": [],
-      "paper": {
-        "title": "RelateAnything: Real-Time Open-Vocabulary Relation Prediction From Any Inputs",
-        "url": "https://huggingface.co/papers/2609.12552",
-        "publishedAt": "2026-09-11T00:00:00.000Z",
-        "upvotes": 6
-      },
-      "news": [],
-      "firstSeen": "2026-09-30T07:14:20.189Z",
-      "history": [
-        {
-          "date": "2026-09-30",
-          "stars": 759
-        },
-        {
-          "date": "2026-10-01",
-          "stars": 788
-        },
-        {
-          "date": "2026-10-02",
-          "stars": 807
-        }
-      ],
-      "aiNote": "实时开放词汇关系预测工具，任意输入即可推断物体间关联。",
       "fun": null
     },
     {
@@ -5210,8 +5210,8 @@
       "description": "High-performance single-GPU inference for selected model checkpoints and GPUs.",
       "language": "C++",
       "languageColor": "#f34b7d",
-      "stars": 2582,
-      "forks": 513,
+      "stars": 2594,
+      "forks": 516,
       "gained": {
         "monthly": 1362
       },
@@ -5238,7 +5238,7 @@
         },
         {
           "date": "2026-10-02",
-          "stars": 2582
+          "stars": 2594
         }
       ],
       "aiNote": "面向特定模型与显卡的高性能单卡推理引擎，用C++实现，适合追求低延迟本地部署的开发者。",
@@ -5250,8 +5250,8 @@
       "description": "In-depth tutorials on LLMs, RAGs and real-world AI agent applications.",
       "language": "Jupyter Notebook",
       "languageColor": "#DA5B0B",
-      "stars": 38188,
-      "forks": 6278,
+      "stars": 38191,
+      "forks": 6281,
       "gained": {
         "daily": 28,
         "monthly": 979
@@ -5287,7 +5287,7 @@
         },
         {
           "date": "2026-10-02",
-          "stars": 38188
+          "stars": 38191
         }
       ],
       "aiNote": "深入讲解大模型、检索增强与智能体实战的教程合集，适合系统学习落地应用。",
@@ -5299,8 +5299,8 @@
       "description": "AutoShorts is a local-first desktop application for turning long-form video or audio recordings into high-impact, vertical short-form clip candidates (9:16 portrait) with AI-powered viral moment ranking.",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 1080,
-      "forks": 207,
+      "stars": 1098,
+      "forks": 212,
       "gained": {
         "daily": 34,
         "weekly": 217
@@ -5324,10 +5324,56 @@
         },
         {
           "date": "2026-10-02",
-          "stars": 1080
+          "stars": 1098
         }
       ],
       "aiNote": "本地优先的桌面工具，用AI从长视频音频中自动挑选高传播潜力的竖屏短片，Rust打造，兼顾隐私与性能。",
+      "fun": null
+    },
+    {
+      "fullName": "TencentARC/GameHorizon",
+      "url": "https://github.com/TencentARC/GameHorizon",
+      "description": "The official repo of GameHorizon, a unified data and evaluation suite that measures AAA gameplay capabilities at different temporal horizons for diverse model families.",
+      "language": null,
+      "languageColor": null,
+      "stars": 457,
+      "forks": 1,
+      "gained": {
+        "monthly": 457,
+        "daily": 67
+      },
+      "track": "research",
+      "signals": [
+        "evaluation suite"
+      ],
+      "sources": [
+        "paper"
+      ],
+      "createdAt": "2026-09-20T07:30:38Z",
+      "topics": [],
+      "paper": {
+        "title": "GameHorizon Suite: Multi-Horizon Data and Evaluation in Gameplay",
+        "url": "https://huggingface.co/papers/2609.25001",
+        "publishedAt": "2026-09-21T00:00:00.000Z",
+        "upvotes": 131
+      },
+      "news": [],
+      "firstSeen": "2026-09-30T07:14:20.189Z",
+      "history": [
+        {
+          "date": "2026-09-30",
+          "stars": 390
+        },
+        {
+          "date": "2026-10-01",
+          "stars": 421
+        },
+        {
+          "date": "2026-10-02",
+          "stars": 457
+        }
+      ],
+      "aiNote": "腾讯推出的游戏AI评测套件，用多时间跨度数据衡量不同模型在3A游戏中的表现，为游戏智能体能力提供统一标尺。",
       "fun": null
     },
     {
@@ -5336,8 +5382,8 @@
       "description": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": 134713,
-      "forks": 20061,
+      "stars": 134741,
+      "forks": 20063,
       "gained": {
         "daily": 104
       },
@@ -5357,10 +5403,10 @@
       "history": [
         {
           "date": "2026-10-02",
-          "stars": 134713
+          "stars": 134741
         }
       ],
-      "aiNote": null,
+      "aiNote": "这是一套包含二十三种工具的个人AI编程配置，让单一助手扮演CEO、设计师、工程经理、发布经理、文档工程师和测试六种角色。",
       "fun": null
     },
     {
@@ -5369,8 +5415,8 @@
       "description": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": 95132,
-      "forks": 8424,
+      "stars": 95164,
+      "forks": 8430,
       "gained": {
         "daily": 99
       },
@@ -5399,7 +5445,7 @@
       "history": [
         {
           "date": "2026-10-02",
-          "stars": 95132
+          "stars": 95164
         }
       ],
       "aiNote": "一个为多种编程代理提供跨会话持久上下文的工具，能捕获代理会话中的全部操作，用AI压缩后在未来会话中注入相关上下文。",
@@ -5411,8 +5457,8 @@
       "description": "The cross-harness, self-improving memory layer for AI agents.",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 1730,
-      "forks": 153,
+      "stars": 1735,
+      "forks": 154,
       "gained": {
         "weekly": 295
       },
@@ -5449,56 +5495,10 @@
         },
         {
           "date": "2026-10-02",
-          "stars": 1730
+          "stars": 1735
         }
       ],
       "aiNote": "跨框架自进化记忆层，让不同AI代理共享并持续优化记忆。",
-      "fun": null
-    },
-    {
-      "fullName": "TencentARC/GameHorizon",
-      "url": "https://github.com/TencentARC/GameHorizon",
-      "description": "The official repo of GameHorizon, a unified data and evaluation suite that measures AAA gameplay capabilities at different temporal horizons for diverse model families.",
-      "language": null,
-      "languageColor": null,
-      "stars": 444,
-      "forks": 1,
-      "gained": {
-        "monthly": 444,
-        "daily": 54
-      },
-      "track": "research",
-      "signals": [
-        "evaluation suite"
-      ],
-      "sources": [
-        "paper"
-      ],
-      "createdAt": "2026-09-20T07:30:38Z",
-      "topics": [],
-      "paper": {
-        "title": "GameHorizon Suite: Multi-Horizon Data and Evaluation in Gameplay",
-        "url": "https://huggingface.co/papers/2609.25001",
-        "publishedAt": "2026-09-21T00:00:00.000Z",
-        "upvotes": 131
-      },
-      "news": [],
-      "firstSeen": "2026-09-30T07:14:20.189Z",
-      "history": [
-        {
-          "date": "2026-09-30",
-          "stars": 390
-        },
-        {
-          "date": "2026-10-01",
-          "stars": 421
-        },
-        {
-          "date": "2026-10-02",
-          "stars": 444
-        }
-      ],
-      "aiNote": "腾讯推出的游戏AI评测套件，用多时间跨度数据衡量不同模型在3A游戏中的表现，为游戏智能体能力提供统一标尺。",
       "fun": null
     },
     {
@@ -5507,7 +5507,7 @@
       "description": "GitHub Agentic Workflows",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 5323,
+      "stars": 5324,
       "forks": 571,
       "gained": {
         "daily": 40,
@@ -5538,7 +5538,7 @@
       "history": [
         {
           "date": "2026-10-02",
-          "stars": 5323
+          "stars": 5324
         }
       ],
       "aiNote": "这是用 Go 编写的 GitHub 智能体工作流引擎，把 AI 代理直接嵌入仓库自动化流程中执行任务。",
@@ -5550,7 +5550,7 @@
       "description": "MiniCPM5: SOTA on-device LLMs, small yet powerful.",
       "language": "Jupyter Notebook",
       "languageColor": "#DA5B0B",
-      "stars": 11343,
+      "stars": 11346,
       "forks": 777,
       "gained": {
         "monthly": 1073
@@ -5579,7 +5579,7 @@
         },
         {
           "date": "2026-10-02",
-          "stars": 11343
+          "stars": 11346
         }
       ],
       "aiNote": "端侧小模型新标杆，性能领先且体积小巧。",
@@ -5591,8 +5591,8 @@
       "description": "FinRL®: Financial Reinforcement Learning. 🔥",
       "language": "Jupyter Notebook",
       "languageColor": "#DA5B0B",
-      "stars": 16528,
-      "forks": 3537,
+      "stars": 16532,
+      "forks": 3538,
       "gained": {
         "daily": 10,
         "weekly": 142,
@@ -5626,7 +5626,7 @@
         },
         {
           "date": "2026-10-02",
-          "stars": 16528
+          "stars": 16532
         }
       ],
       "aiNote": "首个金融强化学习开源框架，把深度强化学习用于量化交易。",
@@ -5638,7 +5638,7 @@
       "description": "The open-source AI workbench for scientific research",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": 3887,
+      "stars": 3896,
       "forks": 517,
       "gained": {
         "weekly": 256
@@ -5667,11 +5667,61 @@
       "history": [
         {
           "date": "2026-10-02",
-          "stars": 3887
+          "stars": 3896
         }
       ],
       "aiNote": "面向科研的开源 AI 工作台，用 TypeScript 构建，将模型调用与实验流程整合于统一界面。",
       "fun": null
+    },
+    {
+      "fullName": "timoncool/YuE2-Studio",
+      "url": "https://github.com/timoncool/YuE2-Studio",
+      "description": "Local AI song generator with an editable score — YuE2 on your GPU: full songs with vocals, sheet music, covers, exact replay. Native Windows app, no Python, installer with auto-update.",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 383,
+      "forks": 33,
+      "gained": {
+        "monthly": 383,
+        "daily": 50
+      },
+      "track": "ai-app",
+      "signals": [
+        "ai"
+      ],
+      "sources": [
+        "discover"
+      ],
+      "createdAt": "2026-09-22T23:06:11Z",
+      "topics": [
+        "abc-notation",
+        "ai-music",
+        "covers",
+        "cuda",
+        "ggml",
+        "local-ai",
+        "music-generation",
+        "offline"
+      ],
+      "paper": null,
+      "news": [],
+      "firstSeen": "2026-09-30T07:14:20.189Z",
+      "history": [
+        {
+          "date": "2026-09-30",
+          "stars": 333
+        },
+        {
+          "date": "2026-10-01",
+          "stars": 353
+        },
+        {
+          "date": "2026-10-02",
+          "stars": 383
+        }
+      ],
+      "aiNote": "本地AI歌曲生成器，可编辑乐谱并生成带人声完整歌曲，Windows原生应用免装Python。",
+      "fun": "music"
     },
     {
       "fullName": "pydantic/monty",
@@ -5679,8 +5729,8 @@
       "description": "A minimal, secure Python interpreter written in Rust for use by AI",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 8511,
-      "forks": 438,
+      "stars": 8516,
+      "forks": 441,
       "gained": {
         "weekly": 240
       },
@@ -5708,7 +5758,7 @@
         },
         {
           "date": "2026-10-02",
-          "stars": 8511
+          "stars": 8516
         }
       ],
       "aiNote": "用 Rust 编写的极简安全 Python 解释器，专为 AI 执行代码设计，以内存安全语言实现沙箱隔离。",
@@ -5720,8 +5770,8 @@
       "description": "Skill that audits and rewrites content to remove AI writing patterns. Use it with your favorite agents including Claude Code, OpenClaw, Codex, and Hermes.",
       "language": "JavaScript",
       "languageColor": "#f1e05a",
-      "stars": 4820,
-      "forks": 421,
+      "stars": 4829,
+      "forks": 423,
       "gained": {
         "monthly": 909
       },
@@ -5757,92 +5807,10 @@
         },
         {
           "date": "2026-10-02",
-          "stars": 4820
+          "stars": 4829
         }
       ],
       "aiNote": "检测并改写文本中AI写作痕迹的技能，兼容主流智能体，助内容回归自然。",
-      "fun": null
-    },
-    {
-      "fullName": "router-for-me/EasyCLIProxyAPI",
-      "url": "https://github.com/router-for-me/EasyCLIProxyAPI",
-      "description": "A desktop GUI for CLIProxyAPI and a tool for automatically configuring popular AI agents.",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 2606,
-      "forks": 213,
-      "gained": {
-        "monthly": 900
-      },
-      "track": "ai-app",
-      "signals": [
-        "ai"
-      ],
-      "sources": [
-        "trending"
-      ],
-      "createdAt": "2025-09-07T19:30:58Z",
-      "topics": [],
-      "paper": null,
-      "news": [],
-      "firstSeen": "2026-10-01T01:18:48.852Z",
-      "history": [
-        {
-          "date": "2026-10-01",
-          "stars": 2593
-        },
-        {
-          "date": "2026-10-02",
-          "stars": 2606
-        }
-      ],
-      "aiNote": "一个桌面图形界面工具，可自动配置主流AI代理，让命令行代理服务更易用。",
-      "fun": null
-    },
-    {
-      "fullName": "aayushch/laya",
-      "url": "https://github.com/aayushch/laya",
-      "description": "Laya is an open-source, local-first AI notification command center that aggregates Slack, Gmail, GitHub, Jira, Notion, Outlook, Calendar (and more) notifications using local LLMs via Ollama and LM Studio. Supports cloud models via BYOK.",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "stars": 502,
-      "forks": 83,
-      "gained": {
-        "weekly": 224
-      },
-      "track": "infra",
-      "signals": [
-        "local llms",
-        "ai"
-      ],
-      "sources": [
-        "trending"
-      ],
-      "createdAt": "2026-05-10T07:49:41Z",
-      "topics": [
-        "ai",
-        "ai-agents",
-        "automation",
-        "byok",
-        "lmstudio",
-        "local-first",
-        "local-first-ai",
-        "localai"
-      ],
-      "paper": null,
-      "news": [],
-      "firstSeen": "2026-10-01T01:18:48.852Z",
-      "history": [
-        {
-          "date": "2026-10-01",
-          "stars": 472
-        },
-        {
-          "date": "2026-10-02",
-          "stars": 502
-        }
-      ],
-      "aiNote": "本地优先的AI通知中枢，聚合多平台消息并用本地大模型处理，兼顾隐私与云端模型可选。",
       "fun": null
     },
     {
@@ -5851,11 +5819,11 @@
       "description": "EvoOntology: A Self-Evolving Ontology Layer for Data Agents ⚙️ EvoOntology插件为Claude Code/Codex 建立&进化本体层",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": 563,
+      "stars": 567,
       "forks": 45,
       "gained": {
-        "monthly": 563,
-        "daily": 24
+        "monthly": 567,
+        "daily": 28
       },
       "track": "research",
       "signals": [
@@ -5895,10 +5863,92 @@
         },
         {
           "date": "2026-10-02",
-          "stars": 563
+          "stars": 567
         }
       ],
       "aiNote": "为数据智能体构建可自我进化的本体层插件，让Claude Code等工具持续积累领域知识，提升数据任务理解与执行能力。",
+      "fun": null
+    },
+    {
+      "fullName": "router-for-me/EasyCLIProxyAPI",
+      "url": "https://github.com/router-for-me/EasyCLIProxyAPI",
+      "description": "A desktop GUI for CLIProxyAPI and a tool for automatically configuring popular AI agents.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 2621,
+      "forks": 215,
+      "gained": {
+        "monthly": 900
+      },
+      "track": "ai-app",
+      "signals": [
+        "ai"
+      ],
+      "sources": [
+        "trending"
+      ],
+      "createdAt": "2025-09-07T19:30:58Z",
+      "topics": [],
+      "paper": null,
+      "news": [],
+      "firstSeen": "2026-10-01T01:18:48.852Z",
+      "history": [
+        {
+          "date": "2026-10-01",
+          "stars": 2593
+        },
+        {
+          "date": "2026-10-02",
+          "stars": 2621
+        }
+      ],
+      "aiNote": "一个桌面图形界面工具，可自动配置主流AI代理，让命令行代理服务更易用。",
+      "fun": null
+    },
+    {
+      "fullName": "aayushch/laya",
+      "url": "https://github.com/aayushch/laya",
+      "description": "Laya is an open-source, local-first AI notification command center that aggregates Slack, Gmail, GitHub, Jira, Notion, Outlook, Calendar (and more) notifications using local LLMs via Ollama and LM Studio. Supports cloud models via BYOK.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 508,
+      "forks": 84,
+      "gained": {
+        "weekly": 224
+      },
+      "track": "infra",
+      "signals": [
+        "local llms",
+        "ai"
+      ],
+      "sources": [
+        "trending"
+      ],
+      "createdAt": "2026-05-10T07:49:41Z",
+      "topics": [
+        "ai",
+        "ai-agents",
+        "automation",
+        "byok",
+        "lmstudio",
+        "local-first",
+        "local-first-ai",
+        "localai"
+      ],
+      "paper": null,
+      "news": [],
+      "firstSeen": "2026-10-01T01:18:48.852Z",
+      "history": [
+        {
+          "date": "2026-10-01",
+          "stars": 472
+        },
+        {
+          "date": "2026-10-02",
+          "stars": 508
+        }
+      ],
+      "aiNote": "本地优先的AI通知中枢，聚合多平台消息并用本地大模型处理，兼顾隐私与云端模型可选。",
       "fun": null
     },
     {
@@ -5907,11 +5957,11 @@
       "description": "A curated list of fruit fly connectome projects: MaleCNS, FlyWire, brain simulations, embodied models, games, and research tools.",
       "language": null,
       "languageColor": null,
-      "stars": 649,
-      "forks": 57,
+      "stars": 651,
+      "forks": 58,
       "gained": {
-        "monthly": 649,
-        "daily": 15
+        "monthly": 651,
+        "daily": 17
       },
       "track": "world-model",
       "signals": [
@@ -5946,7 +5996,7 @@
         },
         {
           "date": "2026-10-02",
-          "stars": 649
+          "stars": 651
         }
       ],
       "aiNote": "汇总果蝇连接组项目资源，涵盖脑模拟、具身模型与游戏工具，为神经科学研究提供一站式参考。",
@@ -5958,8 +6008,8 @@
       "description": "Fastest enterprise AI gateway (50x faster than LiteLLM) with adaptive load balancer, cluster mode, guardrails, 1000+ models support & <100 µs overhead at 5k RPS.",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 8512,
-      "forks": 1321,
+      "stars": 8516,
+      "forks": 1323,
       "gained": {
         "monthly": 817
       },
@@ -5996,61 +6046,11 @@
         },
         {
           "date": "2026-10-02",
-          "stars": 8512
+          "stars": 8516
         }
       ],
       "aiNote": "企业级AI网关，性能远超同类，支持千余模型与集群模式，延迟极低。",
       "fun": null
-    },
-    {
-      "fullName": "timoncool/YuE2-Studio",
-      "url": "https://github.com/timoncool/YuE2-Studio",
-      "description": "Local AI song generator with an editable score — YuE2 on your GPU: full songs with vocals, sheet music, covers, exact replay. Native Windows app, no Python, installer with auto-update.",
-      "language": "TypeScript",
-      "languageColor": "#3178c6",
-      "stars": 370,
-      "forks": 32,
-      "gained": {
-        "monthly": 370,
-        "daily": 37
-      },
-      "track": "ai-app",
-      "signals": [
-        "ai"
-      ],
-      "sources": [
-        "discover"
-      ],
-      "createdAt": "2026-09-22T23:06:11Z",
-      "topics": [
-        "abc-notation",
-        "ai-music",
-        "covers",
-        "cuda",
-        "ggml",
-        "local-ai",
-        "music-generation",
-        "offline"
-      ],
-      "paper": null,
-      "news": [],
-      "firstSeen": "2026-09-30T07:14:20.189Z",
-      "history": [
-        {
-          "date": "2026-09-30",
-          "stars": 333
-        },
-        {
-          "date": "2026-10-01",
-          "stars": 353
-        },
-        {
-          "date": "2026-10-02",
-          "stars": 370
-        }
-      ],
-      "aiNote": "本地AI歌曲生成器，可编辑乐谱并生成带人声完整歌曲，Windows原生应用免装Python。",
-      "fun": "music"
     },
     {
       "fullName": "ag-ui-protocol/ag-ui",
@@ -6058,8 +6058,8 @@
       "description": "AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications.",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": 16216,
-      "forks": 1478,
+      "stars": 16233,
+      "forks": 1480,
       "gained": {
         "daily": 67
       },
@@ -6084,185 +6084,10 @@
       "history": [
         {
           "date": "2026-10-02",
-          "stars": 16216
+          "stars": 16233
         }
       ],
       "aiNote": "这是一个把智能体接入前端应用的交互协议，用 TypeScript 定义事件流与状态同步，让界面实时响应智能体行为。",
-      "fun": null
-    },
-    {
-      "fullName": "datawhalechina/deepagents-in-action",
-      "url": "https://github.com/datawhalechina/deepagents-in-action",
-      "description": "📚 《Deep Agents 实战》—— LangChain 官方大使出品，基于 LangChain / LangGraph 生态，从零构建生产级 AI Agent 的完整指南",
-      "language": "Jupyter Notebook",
-      "languageColor": "#DA5B0B",
-      "stars": 2570,
-      "forks": 259,
-      "gained": {
-        "monthly": 733
-      },
-      "track": "learn",
-      "signals": [
-        "实战",
-        "agents"
-      ],
-      "sources": [
-        "trending"
-      ],
-      "createdAt": "2026-05-05T08:14:44Z",
-      "topics": [
-        "agentic-ai",
-        "ai-agents",
-        "astro",
-        "chinese",
-        "context-engineering",
-        "course",
-        "deepagents",
-        "langchain"
-      ],
-      "paper": null,
-      "news": [],
-      "firstSeen": "2026-09-30T07:14:20.189Z",
-      "history": [
-        {
-          "date": "2026-09-30",
-          "stars": 2558
-        },
-        {
-          "date": "2026-10-01",
-          "stars": 2561
-        },
-        {
-          "date": "2026-10-02",
-          "stars": 2570
-        }
-      ],
-      "aiNote": "LangChain官方大使编写的实战教程，教你从零构建生产级AI智能体。",
-      "fun": null
-    },
-    {
-      "fullName": "Autumn-27/ARTEX",
-      "url": "https://github.com/Autumn-27/ARTEX",
-      "description": "AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 1318,
-      "forks": 204,
-      "gained": {
-        "monthly": 728
-      },
-      "track": "ai-app",
-      "signals": [
-        "ai"
-      ],
-      "sources": [
-        "trending"
-      ],
-      "createdAt": "2026-07-26T08:15:05Z",
-      "topics": [],
-      "paper": null,
-      "news": [],
-      "firstSeen": "2026-10-01T01:18:48.852Z",
-      "history": [
-        {
-          "date": "2026-10-01",
-          "stars": 1307
-        },
-        {
-          "date": "2026-10-02",
-          "stars": 1318
-        }
-      ],
-      "aiNote": "用Go打造的AI自主渗透测试系统，攻防挑战赛冠军。",
-      "fun": null
-    },
-    {
-      "fullName": "mozilla-ai/llamafile",
-      "url": "https://github.com/mozilla-ai/llamafile",
-      "description": "Distribute and run LLMs with a single file.",
-      "language": "C++",
-      "languageColor": "#f34b7d",
-      "stars": 26145,
-      "forks": 1632,
-      "gained": {
-        "daily": 25,
-        "weekly": 106
-      },
-      "track": "infra",
-      "signals": [
-        "run llms",
-        "llms"
-      ],
-      "sources": [
-        "trending"
-      ],
-      "createdAt": "2023-09-10T21:12:32Z",
-      "topics": [
-        "cross-platform",
-        "gguf",
-        "llama-cpp",
-        "local-ai",
-        "local-inference",
-        "local-llm",
-        "open-source-ai",
-        "single-file-executable"
-      ],
-      "paper": null,
-      "news": [],
-      "firstSeen": "2026-10-02T01:42:30.110Z",
-      "history": [
-        {
-          "date": "2026-10-02",
-          "stars": 26145
-        }
-      ],
-      "aiNote": "把大模型及其运行环境打包成单个可执行文件，无需安装依赖即可跨平台分发和运行。",
-      "fun": null
-    },
-    {
-      "fullName": "openai/openai-cookbook",
-      "url": "https://github.com/openai/openai-cookbook",
-      "description": "Examples and guides for using the OpenAI API",
-      "language": "Jupyter Notebook",
-      "languageColor": "#DA5B0B",
-      "stars": 76301,
-      "forks": 12902,
-      "gained": {
-        "monthly": 713
-      },
-      "track": "learn",
-      "signals": [
-        "cookbook",
-        "openai"
-      ],
-      "sources": [
-        "trending"
-      ],
-      "createdAt": "2022-03-11T02:08:53Z",
-      "topics": [
-        "chatgpt",
-        "gpt-4",
-        "openai",
-        "openai-api"
-      ],
-      "paper": null,
-      "news": [],
-      "firstSeen": "2026-09-30T07:14:20.189Z",
-      "history": [
-        {
-          "date": "2026-09-30",
-          "stars": 76280
-        },
-        {
-          "date": "2026-10-01",
-          "stars": 76290
-        },
-        {
-          "date": "2026-10-02",
-          "stars": 76301
-        }
-      ],
-      "aiNote": "OpenAI API 官方示例与指南集，是快速上手并掌握其调用技巧的权威参考。",
       "fun": null
     },
     {
@@ -6271,11 +6096,11 @@
       "description": "[arxiv'26] GAE: Learning a Geometry-Native Latent Space for 3D-Consistent World Generation",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": 471,
+      "stars": 473,
       "forks": 16,
       "gained": {
-        "monthly": 471,
-        "daily": 20
+        "monthly": 473,
+        "daily": 22
       },
       "track": "world-model",
       "signals": [
@@ -6313,10 +6138,96 @@
         },
         {
           "date": "2026-10-02",
-          "stars": 471
+          "stars": 473
         }
       ],
-      "aiNote": "腾讯开源的三维原生几何隐空间模型，让世界生成保持跨视角几何一致，值得3D生成研究者关注。",
+      "aiNote": "腾讯开源的三维原生几何隐空间模型，让世界生成保持跨视角几何一致。",
+      "fun": null
+    },
+    {
+      "fullName": "datawhalechina/deepagents-in-action",
+      "url": "https://github.com/datawhalechina/deepagents-in-action",
+      "description": "📚 《Deep Agents 实战》—— LangChain 官方大使出品，基于 LangChain / LangGraph 生态，从零构建生产级 AI Agent 的完整指南",
+      "language": "Jupyter Notebook",
+      "languageColor": "#DA5B0B",
+      "stars": 2571,
+      "forks": 260,
+      "gained": {
+        "monthly": 733
+      },
+      "track": "learn",
+      "signals": [
+        "实战",
+        "agents"
+      ],
+      "sources": [
+        "trending"
+      ],
+      "createdAt": "2026-05-05T08:14:44Z",
+      "topics": [
+        "agentic-ai",
+        "ai-agents",
+        "astro",
+        "chinese",
+        "context-engineering",
+        "course",
+        "deepagents",
+        "langchain"
+      ],
+      "paper": null,
+      "news": [],
+      "firstSeen": "2026-09-30T07:14:20.189Z",
+      "history": [
+        {
+          "date": "2026-09-30",
+          "stars": 2558
+        },
+        {
+          "date": "2026-10-01",
+          "stars": 2561
+        },
+        {
+          "date": "2026-10-02",
+          "stars": 2571
+        }
+      ],
+      "aiNote": "LangChain官方大使编写的实战教程，教你从零构建生产级AI智能体。",
+      "fun": null
+    },
+    {
+      "fullName": "Autumn-27/ARTEX",
+      "url": "https://github.com/Autumn-27/ARTEX",
+      "description": "AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 1357,
+      "forks": 227,
+      "gained": {
+        "monthly": 728
+      },
+      "track": "ai-app",
+      "signals": [
+        "ai"
+      ],
+      "sources": [
+        "trending"
+      ],
+      "createdAt": "2026-07-26T08:15:05Z",
+      "topics": [],
+      "paper": null,
+      "news": [],
+      "firstSeen": "2026-10-01T01:18:48.852Z",
+      "history": [
+        {
+          "date": "2026-10-01",
+          "stars": 1307
+        },
+        {
+          "date": "2026-10-02",
+          "stars": 1357
+        }
+      ],
+      "aiNote": "用Go打造的AI自主渗透测试系统，攻防挑战赛冠军。",
       "fun": null
     },
     {
@@ -6325,11 +6236,11 @@
       "description": "Open-source voice creation for macOS and Windows. Local TTS, voice cloning, and emotion control — no cloud APIs or per-character fees.",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": 317,
-      "forks": 37,
+      "stars": 320,
+      "forks": 38,
       "gained": {
-        "monthly": 317,
-        "daily": 31
+        "monthly": 320,
+        "daily": 34
       },
       "track": "ai-app",
       "signals": [
@@ -6363,11 +6274,142 @@
         },
         {
           "date": "2026-10-02",
-          "stars": 317
+          "stars": 320
         }
       ],
       "aiNote": "一款支持 macOS 和 Windows 的开源语音生成工具，本地完成文字转语音、声音克隆与情感控制，无需调用云接口或按字符付费。",
       "fun": "voice"
+    },
+    {
+      "fullName": "mozilla-ai/llamafile",
+      "url": "https://github.com/mozilla-ai/llamafile",
+      "description": "Distribute and run LLMs with a single file.",
+      "language": "C++",
+      "languageColor": "#f34b7d",
+      "stars": 26152,
+      "forks": 1634,
+      "gained": {
+        "daily": 25,
+        "weekly": 106
+      },
+      "track": "infra",
+      "signals": [
+        "run llms",
+        "llms"
+      ],
+      "sources": [
+        "trending"
+      ],
+      "createdAt": "2023-09-10T21:12:32Z",
+      "topics": [
+        "cross-platform",
+        "gguf",
+        "llama-cpp",
+        "local-ai",
+        "local-inference",
+        "local-llm",
+        "open-source-ai",
+        "single-file-executable"
+      ],
+      "paper": null,
+      "news": [],
+      "firstSeen": "2026-10-02T01:42:30.110Z",
+      "history": [
+        {
+          "date": "2026-10-02",
+          "stars": 26152
+        }
+      ],
+      "aiNote": "把大模型及其运行环境打包成单个可执行文件，无需安装依赖即可跨平台分发和运行。",
+      "fun": null
+    },
+    {
+      "fullName": "openai/openai-cookbook",
+      "url": "https://github.com/openai/openai-cookbook",
+      "description": "Examples and guides for using the OpenAI API",
+      "language": "Jupyter Notebook",
+      "languageColor": "#DA5B0B",
+      "stars": 76307,
+      "forks": 12904,
+      "gained": {
+        "monthly": 713
+      },
+      "track": "learn",
+      "signals": [
+        "cookbook",
+        "openai"
+      ],
+      "sources": [
+        "trending"
+      ],
+      "createdAt": "2022-03-11T02:08:53Z",
+      "topics": [
+        "chatgpt",
+        "gpt-4",
+        "openai",
+        "openai-api"
+      ],
+      "paper": null,
+      "news": [],
+      "firstSeen": "2026-09-30T07:14:20.189Z",
+      "history": [
+        {
+          "date": "2026-09-30",
+          "stars": 76280
+        },
+        {
+          "date": "2026-10-01",
+          "stars": 76290
+        },
+        {
+          "date": "2026-10-02",
+          "stars": 76307
+        }
+      ],
+      "aiNote": "OpenAI API 官方示例与指南集，是快速上手并掌握其调用技巧的权威参考。",
+      "fun": null
+    },
+    {
+      "fullName": "microsoft/mcp-for-beginners",
+      "url": "https://github.com/microsoft/mcp-for-beginners",
+      "description": "This open-source curriculum introduces the fundamentals of Model Context Protocol (MCP) through real-world, cross-language examples in .NET, Java, TypeScript, JavaScript, Rust and Python. Designed for developers, it focuses on practical techniques for building modular, scalable, and secure AI workflows from session setup to service orchestration.",
+      "language": "Jupyter Notebook",
+      "languageColor": "#DA5B0B",
+      "stars": 17381,
+      "forks": 5634,
+      "gained": {
+        "weekly": 92,
+        "monthly": 283
+      },
+      "track": "learn",
+      "signals": [
+        "for beginners"
+      ],
+      "sources": [
+        "trending"
+      ],
+      "createdAt": "2025-04-04T20:46:17Z",
+      "topics": [
+        "csharp",
+        "java",
+        "javascript",
+        "javascript-applications",
+        "mcp",
+        "mcp-client",
+        "mcp-security",
+        "mcp-server"
+      ],
+      "paper": null,
+      "news": [],
+      "firstSeen": "2026-10-02T10:31:57.520Z",
+      "history": [
+        {
+          "date": "2026-10-02",
+          "stars": 17381
+        }
+      ],
+      "aiNote": "面向开发者讲解模型上下文协议基础的开源课程，用六种语言实例演示从会话搭建到服务编排的模块化安全AI工作流。",
+      "fun": null
     },
     {
       "fullName": "charmbracelet/crush",
@@ -6375,8 +6417,8 @@
       "description": "Glamourous agentic coding for all 💘",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 28438,
-      "forks": 2311,
+      "stars": 28449,
+      "forks": 2312,
       "gained": {
         "daily": 54
       },
@@ -6401,7 +6443,7 @@
       "history": [
         {
           "date": "2026-10-02",
-          "stars": 28438
+          "stars": 28449
         }
       ],
       "aiNote": "用 Go 编写的终端 AI 编程代理，为命令行界面提供华丽的交互体验。",
@@ -6413,8 +6455,8 @@
       "description": "Community-contributed instructions, agents, skills, and configurations to help you make the most of GitHub Copilot.",
       "language": "JavaScript",
       "languageColor": "#f1e05a",
-      "stars": 39606,
-      "forks": 5042,
+      "stars": 39619,
+      "forks": 5045,
       "gained": {
         "daily": 53
       },
@@ -6443,7 +6485,7 @@
       "history": [
         {
           "date": "2026-10-02",
-          "stars": 39606
+          "stars": 39619
         }
       ],
       "aiNote": "汇集社区贡献的指令、智能体、技能与配置，用于扩展和定制 GitHub Copilot 的能力。",
@@ -6455,8 +6497,8 @@
       "description": "[WIP] Resources for AI engineers. Also contains supporting materials for the book AI Engineering (Chip Huyen, 2025)",
       "language": "Jupyter Notebook",
       "languageColor": "#DA5B0B",
-      "stars": 17693,
-      "forks": 2581,
+      "stars": 17697,
+      "forks": 2580,
       "gained": {
         "weekly": 155
       },
@@ -6484,7 +6526,7 @@
         },
         {
           "date": "2026-10-02",
-          "stars": 17693
+          "stars": 17697
         }
       ],
       "aiNote": "面向 AI 工程师的资源合集，也是 2025 年新书配套材料，助你系统掌握工程实践。",
@@ -6496,8 +6538,8 @@
       "description": "End-to-end realtime stack for connecting humans and AI",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 21240,
-      "forks": 2402,
+      "stars": 21244,
+      "forks": 2403,
       "gained": {
         "monthly": 619
       },
@@ -6532,7 +6574,7 @@
         },
         {
           "date": "2026-10-02",
-          "stars": 21240
+          "stars": 21244
         }
       ],
       "aiNote": "面向实时音视频与AI交互的开源端到端基础设施，让开发者自建低延迟通信。",
@@ -6544,8 +6586,8 @@
       "description": "A self-improving RLM agent for coding workflows and long-running autonomous tasks.",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 21464,
-      "forks": 2367,
+      "stars": 21478,
+      "forks": 2372,
       "gained": {
         "daily": 51
       },
@@ -6571,7 +6613,7 @@
       "history": [
         {
           "date": "2026-10-02",
-          "stars": 21464
+          "stars": 21478
         }
       ],
       "aiNote": "这是一个用Rust编写的自我改进型RLM智能体，专为编码工作流和长时间自主任务设计。",
@@ -6583,8 +6625,8 @@
       "description": "The fastest path to AI-powered full stack observability, even for lean teams.",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 80777,
-      "forks": 6646,
+      "stars": 80780,
+      "forks": 6647,
       "gained": {
         "weekly": 150
       },
@@ -6616,7 +6658,7 @@
         },
         {
           "date": "2026-10-02",
-          "stars": 80777
+          "stars": 80780
         }
       ],
       "aiNote": "面向精简团队的全栈可观测性平台，用AI加速指标监控与故障排查。",
@@ -6628,7 +6670,7 @@
       "description": "Multi-Joint dynamics with Contact. A general purpose physics simulator.",
       "language": "C++",
       "languageColor": "#f34b7d",
-      "stars": 15430,
+      "stars": 15434,
       "forks": 1796,
       "gained": {
         "monthly": 596
@@ -6660,52 +6702,112 @@
         },
         {
           "date": "2026-10-02",
-          "stars": 15430
+          "stars": 15434
         }
       ],
       "aiNote": "通用物理仿真引擎，能高精度模拟多关节接触动力学，是机器人控制与强化学习研究的常用基础设施。",
       "fun": null
     },
     {
-      "fullName": "anonymous-report-421/GPT-as-Policy",
-      "url": "https://github.com/anonymous-report-421/GPT-as-Policy",
-      "description": "GPT as Policy",
-      "language": "HTML",
-      "languageColor": "#e34c26",
-      "stars": 565,
-      "forks": 25,
+      "fullName": "Eurekaleo/awesome-ai-for-games",
+      "url": "https://github.com/Eurekaleo/awesome-ai-for-games",
+      "description": "A curated, searchable collection of research on AI and foundation models across the game lifecycle.",
+      "language": "TeX",
+      "languageColor": null,
+      "stars": 310,
+      "forks": 12,
       "gained": {
-        "monthly": 565,
-        "daily": 2
+        "monthly": 310,
+        "daily": 23
       },
-      "track": "research",
+      "track": "learn",
       "signals": [
-        "gpt as"
+        "awesome",
+        "ai"
       ],
       "sources": [
-        "paper"
+        "discover"
       ],
-      "createdAt": "2026-09-13T19:05:04Z",
-      "topics": [],
-      "paper": {
-        "title": "Systematically Exploring the Capabilities of GPT-6 Astra as Embodied Policies",
-        "url": "https://huggingface.co/papers/2609.38537",
-        "publishedAt": "2026-09-29T00:00:00.000Z",
-        "upvotes": 28
-      },
+      "createdAt": "2026-09-04T01:05:57Z",
+      "topics": [
+        "awesome-list",
+        "foundation-models",
+        "game-agents",
+        "game-ai",
+        "game-development",
+        "generative-ai",
+        "llm-agents",
+        "multimodal-models"
+      ],
+      "paper": null,
       "news": [],
-      "firstSeen": "2026-10-01T07:01:34.939Z",
+      "firstSeen": "2026-09-30T07:14:20.189Z",
       "history": [
         {
+          "date": "2026-09-30",
+          "stars": 287
+        },
+        {
           "date": "2026-10-01",
-          "stars": 563
+          "stars": 299
         },
         {
           "date": "2026-10-02",
-          "stars": 565
+          "stars": 310
         }
       ],
-      "aiNote": "这是把GPT-6 Astra当作具身策略来系统评测的HTML项目，用网页形式呈现模型在机器人控制任务中的能力边界。",
+      "aiNote": "这是一个可检索的AI与基础模型研究合集，覆盖游戏全生命周期各环节。",
+      "fun": null
+    },
+    {
+      "fullName": "Apeireth/Apeireth",
+      "url": "https://github.com/Apeireth/Apeireth",
+      "description": "Apeireth — A Pure Safe Rust AGI Operating System & Cognitive Microkernel. 18 crates: continuous topological memory, causal world model, cognitive scheduler, Ember HUD, triple-onion security & portable USB agent.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 305,
+      "forks": 10,
+      "gained": {
+        "monthly": 305,
+        "daily": 23
+      },
+      "track": "world-model",
+      "signals": [
+        "world model",
+        "agent"
+      ],
+      "sources": [
+        "discover"
+      ],
+      "createdAt": "2026-09-04T08:55:31Z",
+      "topics": [
+        "agi",
+        "ai-agents",
+        "autonomous-agents",
+        "cognitive-architecture",
+        "microkernel",
+        "operating-system",
+        "pure-safe-rust",
+        "rust"
+      ],
+      "paper": null,
+      "news": [],
+      "firstSeen": "2026-09-30T07:14:20.189Z",
+      "history": [
+        {
+          "date": "2026-09-30",
+          "stars": 282
+        },
+        {
+          "date": "2026-10-01",
+          "stars": 293
+        },
+        {
+          "date": "2026-10-02",
+          "stars": 305
+        }
+      ],
+      "aiNote": "用Rust编写的纯安全AGI操作系统与认知微内核，含18个组件，涵盖拓扑记忆、因果世界模型与认知调度器。",
       "fun": null
     },
     {
@@ -6714,8 +6816,8 @@
       "description": "Vercel's official collection of agent skills",
       "language": "JavaScript",
       "languageColor": "#f1e05a",
-      "stars": 31814,
-      "forks": 2785,
+      "stars": 31833,
+      "forks": 2787,
       "gained": {
         "daily": 47
       },
@@ -6743,7 +6845,7 @@
         },
         {
           "date": "2026-10-02",
-          "stars": 31814
+          "stars": 31833
         }
       ],
       "aiNote": "Vercel 官方智能体技能合集，为 AI 代理提供可复用能力模块。",
@@ -6755,8 +6857,8 @@
       "description": "Turn Claude Code into a full game dev studio — 49 AI agents, 72 workflow skills, and a complete coordination system mirroring real studio hierarchy.",
       "language": "Shell",
       "languageColor": "#89e051",
-      "stars": 25625,
-      "forks": 3650,
+      "stars": 25646,
+      "forks": 3651,
       "gained": {
         "daily": 47
       },
@@ -6793,42 +6895,39 @@
         },
         {
           "date": "2026-10-02",
-          "stars": 25625
+          "stars": 25646
         }
       ],
       "aiNote": "把 Claude Code 变成完整游戏开发工作室，49 个智能体与 72 项工作流技能按真实团队层级协作。",
       "fun": "game"
     },
     {
-      "fullName": "Apeireth/Apeireth",
-      "url": "https://github.com/Apeireth/Apeireth",
-      "description": "Apeireth — A Pure Safe Rust AGI Operating System & Cognitive Microkernel. 18 crates: continuous topological memory, causal world model, cognitive scheduler, Ember HUD, triple-onion security & portable USB agent.",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 302,
-      "forks": 10,
+      "fullName": "BuzzPlay/infinite-world",
+      "url": "https://github.com/BuzzPlay/infinite-world",
+      "description": "An open-source system for building persistent worlds with multimodal AI.",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 357,
+      "forks": 20,
       "gained": {
-        "monthly": 302,
-        "daily": 20
+        "monthly": 357,
+        "daily": 17
       },
       "track": "world-model",
       "signals": [
-        "world model",
-        "agent"
+        "persistent worlds",
+        "multimodal"
       ],
       "sources": [
         "discover"
       ],
-      "createdAt": "2026-09-04T08:55:31Z",
+      "createdAt": "2026-09-04T07:23:41Z",
       "topics": [
-        "agi",
-        "ai-agents",
-        "autonomous-agents",
-        "cognitive-architecture",
-        "microkernel",
-        "operating-system",
-        "pure-safe-rust",
-        "rust"
+        "generative-media",
+        "interactive-worlds",
+        "multimodal-ai",
+        "open-source",
+        "world-model"
       ],
       "paper": null,
       "news": [],
@@ -6836,18 +6935,64 @@
       "history": [
         {
           "date": "2026-09-30",
-          "stars": 282
+          "stars": 340
         },
         {
           "date": "2026-10-01",
-          "stars": 293
+          "stars": 350
         },
         {
           "date": "2026-10-02",
-          "stars": 302
+          "stars": 357
         }
       ],
-      "aiNote": "用Rust编写的纯安全AGI操作系统与认知微内核，含18个组件，涵盖拓扑记忆、因果世界模型与认知调度器。",
+      "aiNote": "这是一个用多模态 AI 构建持久世界的开源系统，让虚拟环境能持续演化并记住交互。",
+      "fun": null
+    },
+    {
+      "fullName": "HarlandZZC/OmniVChat",
+      "url": "https://github.com/HarlandZZC/OmniVChat",
+      "description": "Synthesizing, Benchmarking, and Training for Native Audio-Visual Dialogue",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 149,
+      "forks": 9,
+      "gained": {
+        "monthly": 149,
+        "daily": 33
+      },
+      "track": "research",
+      "signals": [
+        "training"
+      ],
+      "sources": [
+        "paper"
+      ],
+      "createdAt": "2026-09-18T13:30:12Z",
+      "topics": [],
+      "paper": {
+        "title": "OmniVChat: Synthesizing, Benchmarking, and Training for Native Audio-Visual Dialogue",
+        "url": "https://huggingface.co/papers/2609.21465",
+        "publishedAt": "2026-09-18T00:00:00.000Z",
+        "upvotes": 150
+      },
+      "news": [],
+      "firstSeen": "2026-09-30T07:14:20.189Z",
+      "history": [
+        {
+          "date": "2026-09-30",
+          "stars": 116
+        },
+        {
+          "date": "2026-10-01",
+          "stars": 131
+        },
+        {
+          "date": "2026-10-02",
+          "stars": 149
+        }
+      ],
+      "aiNote": "首个支持音视频原生对话合成、基准测试与训练的Python框架。",
       "fun": null
     },
     {
@@ -6856,8 +7001,8 @@
       "description": "A programmable Mixture-of-Models router for heterogeneous LLM inference",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 5996,
-      "forks": 995,
+      "stars": 5999,
+      "forks": 996,
       "gained": {
         "monthly": 537
       },
@@ -6894,109 +7039,10 @@
         },
         {
           "date": "2026-10-02",
-          "stars": 5996
+          "stars": 5999
         }
       ],
       "aiNote": "面向异构大模型推理的可编程混合模型路由器，用 Go 编写，能按语义动态调度不同模型。",
-      "fun": null
-    },
-    {
-      "fullName": "BuzzPlay/infinite-world",
-      "url": "https://github.com/BuzzPlay/infinite-world",
-      "description": "An open-source system for building persistent worlds with multimodal AI.",
-      "language": "TypeScript",
-      "languageColor": "#3178c6",
-      "stars": 355,
-      "forks": 20,
-      "gained": {
-        "monthly": 355,
-        "daily": 15
-      },
-      "track": "world-model",
-      "signals": [
-        "persistent worlds",
-        "multimodal"
-      ],
-      "sources": [
-        "discover"
-      ],
-      "createdAt": "2026-09-04T07:23:41Z",
-      "topics": [
-        "generative-media",
-        "interactive-worlds",
-        "multimodal-ai",
-        "open-source",
-        "world-model"
-      ],
-      "paper": null,
-      "news": [],
-      "firstSeen": "2026-09-30T07:14:20.189Z",
-      "history": [
-        {
-          "date": "2026-09-30",
-          "stars": 340
-        },
-        {
-          "date": "2026-10-01",
-          "stars": 350
-        },
-        {
-          "date": "2026-10-02",
-          "stars": 355
-        }
-      ],
-      "aiNote": "这是一个用多模态 AI 构建持久世界的开源系统，让虚拟环境能持续演化并记住交互。",
-      "fun": null
-    },
-    {
-      "fullName": "Eurekaleo/awesome-ai-for-games",
-      "url": "https://github.com/Eurekaleo/awesome-ai-for-games",
-      "description": "A curated, searchable collection of research on AI and foundation models across the game lifecycle.",
-      "language": "TeX",
-      "languageColor": null,
-      "stars": 306,
-      "forks": 12,
-      "gained": {
-        "monthly": 306,
-        "daily": 19
-      },
-      "track": "learn",
-      "signals": [
-        "awesome",
-        "ai"
-      ],
-      "sources": [
-        "discover"
-      ],
-      "createdAt": "2026-09-04T01:05:57Z",
-      "topics": [
-        "awesome-list",
-        "foundation-models",
-        "game-agents",
-        "game-ai",
-        "game-development",
-        "generative-ai",
-        "llm-agents",
-        "multimodal-models"
-      ],
-      "paper": null,
-      "news": [],
-      "firstSeen": "2026-09-30T07:14:20.189Z",
-      "history": [
-        {
-          "date": "2026-09-30",
-          "stars": 287
-        },
-        {
-          "date": "2026-10-01",
-          "stars": 299
-        },
-        {
-          "date": "2026-10-02",
-          "stars": 306
-        }
-      ],
-      "aiNote": "这是一个可检索的AI与基础模型研究合集，覆盖游戏全生命周期各环节。",
       "fun": null
     },
     {
@@ -7005,8 +7051,8 @@
       "description": "Persistent file-based planning for AI coding agents and long-running tasks. Crash-proof markdown plans, session recovery after /clear and compaction, per-turn re-injection against context rot, deterministic completion gate. Manus-style. Install from npm, the Claude Code plugin marketplace, or npx skills. Codex, Cursor, OpenCode, 60+ agents.",
       "language": "Shell",
       "languageColor": "#89e051",
-      "stars": 27252,
-      "forks": 2265,
+      "stars": 27258,
+      "forks": 2267,
       "gained": {
         "daily": 43
       },
@@ -7035,10 +7081,10 @@
       "history": [
         {
           "date": "2026-10-02",
-          "stars": 27252
+          "stars": 27258
         }
       ],
-      "aiNote": null,
+      "aiNote": "把任务计划以 Markdown 文件持久化，让 AI 编码代理在会话清空或压缩后仍能恢复进度，并每轮重新注入以防上下文腐化。",
       "fun": null
     },
     {
@@ -7047,7 +7093,7 @@
       "description": "Neural Networks: Zero to Hero",
       "language": "Jupyter Notebook",
       "languageColor": "#DA5B0B",
-      "stars": 24612,
+      "stars": 24615,
       "forks": 3587,
       "gained": {
         "daily": 9,
@@ -7069,10 +7115,60 @@
       "history": [
         {
           "date": "2026-10-02",
-          "stars": 24612
+          "stars": 24615
         }
       ],
       "aiNote": "一套从零手写反向传播到训练神经网络的 Jupyter 课程，由 Karpathy 逐步拆解代码实现细节。",
+      "fun": null
+    },
+    {
+      "fullName": "TencentARC/WorldCrafter",
+      "url": "https://github.com/TencentARC/WorldCrafter",
+      "description": "[Arxiv 2026] WorldCrafter: Consistent Video World Model with Implicit 3D-aware Memory",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 424,
+      "forks": 13,
+      "gained": {
+        "monthly": 424,
+        "daily": 6
+      },
+      "track": "world-model",
+      "signals": [
+        "video world"
+      ],
+      "sources": [
+        "paper",
+        "discover"
+      ],
+      "createdAt": "2026-09-14T09:03:58Z",
+      "topics": [
+        "video-generation",
+        "world-models"
+      ],
+      "paper": {
+        "title": "WorldCrafter: Consistent Video World Model with Implicit 3D-aware Memory",
+        "url": "https://huggingface.co/papers/2609.24984",
+        "publishedAt": "2026-09-21T00:00:00.000Z",
+        "upvotes": 157
+      },
+      "news": [],
+      "firstSeen": "2026-09-30T07:14:20.189Z",
+      "history": [
+        {
+          "date": "2026-09-30",
+          "stars": 418
+        },
+        {
+          "date": "2026-10-01",
+          "stars": 420
+        },
+        {
+          "date": "2026-10-02",
+          "stars": 424
+        }
+      ],
+      "aiNote": "腾讯开源的一致视频世界模型，靠隐式三维记忆保持长时生成的空间连贯。",
       "fun": null
     },
     {
@@ -7081,7 +7177,7 @@
       "description": "The ultimate collection of high-fidelity Seedance 2.0 prompts and Seedance AI resources. Discover Seedance 2.0 how to use for cinematic film, anime, UGC, social media, meme and advertising. Includes Seedance API guides and advanced video generation workflows.",
       "language": "Shell",
       "languageColor": "#89e051",
-      "stars": 2589,
+      "stars": 2591,
       "forks": 288,
       "gained": {
         "weekly": 63,
@@ -7116,106 +7212,10 @@
         },
         {
           "date": "2026-10-02",
-          "stars": 2589
+          "stars": 2591
         }
       ],
       "aiNote": "这是一个汇集Seedance 2.0高保真提示词与API指南的资源库，覆盖电影、动漫、广告等视频生成场景。",
-      "fun": null
-    },
-    {
-      "fullName": "HarlandZZC/OmniVChat",
-      "url": "https://github.com/HarlandZZC/OmniVChat",
-      "description": "Synthesizing, Benchmarking, and Training for Native Audio-Visual Dialogue",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "stars": 144,
-      "forks": 9,
-      "gained": {
-        "monthly": 144,
-        "daily": 28
-      },
-      "track": "research",
-      "signals": [
-        "training"
-      ],
-      "sources": [
-        "paper"
-      ],
-      "createdAt": "2026-09-18T13:30:12Z",
-      "topics": [],
-      "paper": {
-        "title": "OmniVChat: Synthesizing, Benchmarking, and Training for Native Audio-Visual Dialogue",
-        "url": "https://huggingface.co/papers/2609.21465",
-        "publishedAt": "2026-09-18T00:00:00.000Z",
-        "upvotes": 150
-      },
-      "news": [],
-      "firstSeen": "2026-09-30T07:14:20.189Z",
-      "history": [
-        {
-          "date": "2026-09-30",
-          "stars": 116
-        },
-        {
-          "date": "2026-10-01",
-          "stars": 131
-        },
-        {
-          "date": "2026-10-02",
-          "stars": 144
-        }
-      ],
-      "aiNote": "首个支持音视频原生对话合成、基准测试与训练的Python框架。",
-      "fun": null
-    },
-    {
-      "fullName": "TencentARC/WorldCrafter",
-      "url": "https://github.com/TencentARC/WorldCrafter",
-      "description": "[Arxiv 2026] WorldCrafter: Consistent Video World Model with Implicit 3D-aware Memory",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "stars": 421,
-      "forks": 13,
-      "gained": {
-        "monthly": 421,
-        "daily": 3
-      },
-      "track": "world-model",
-      "signals": [
-        "video world"
-      ],
-      "sources": [
-        "paper",
-        "discover"
-      ],
-      "createdAt": "2026-09-14T09:03:58Z",
-      "topics": [
-        "video-generation",
-        "world-models"
-      ],
-      "paper": {
-        "title": "WorldCrafter: Consistent Video World Model with Implicit 3D-aware Memory",
-        "url": "https://huggingface.co/papers/2609.24984",
-        "publishedAt": "2026-09-21T00:00:00.000Z",
-        "upvotes": 157
-      },
-      "news": [],
-      "firstSeen": "2026-09-30T07:14:20.189Z",
-      "history": [
-        {
-          "date": "2026-09-30",
-          "stars": 418
-        },
-        {
-          "date": "2026-10-01",
-          "stars": 420
-        },
-        {
-          "date": "2026-10-02",
-          "stars": 421
-        }
-      ],
-      "aiNote": "腾讯开源的一致视频世界模型，靠隐式三维记忆保持长时生成的空间连贯。",
       "fun": null
     },
     {
@@ -7224,11 +7224,11 @@
       "description": "ScienceBuddy: Recursive-in-Recursive Self-Improvement for Interactive Scientific Agents",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": 296,
+      "stars": 299,
       "forks": 43,
       "gained": {
-        "monthly": 296,
-        "daily": 13
+        "monthly": 299,
+        "daily": 16
       },
       "track": "research",
       "signals": [
@@ -7265,10 +7265,43 @@
         },
         {
           "date": "2026-10-02",
-          "stars": 296
+          "stars": 299
         }
       ],
       "aiNote": "一个用Python构建的交互式科学智能体，通过递归嵌套的自我改进机制持续提升科研任务表现。",
+      "fun": null
+    },
+    {
+      "fullName": "adewaskar/jarvis",
+      "url": "https://github.com/adewaskar/jarvis",
+      "description": "J.A.R.V.I.S for automating your daily tasks using Claude Code",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 333,
+      "forks": 142,
+      "gained": {
+        "weekly": 120
+      },
+      "track": "coding-agent",
+      "signals": [
+        "claude code",
+        "claude"
+      ],
+      "sources": [
+        "trending"
+      ],
+      "createdAt": "2026-08-02T05:06:53Z",
+      "topics": [],
+      "paper": null,
+      "news": [],
+      "firstSeen": "2026-10-02T10:31:57.520Z",
+      "history": [
+        {
+          "date": "2026-10-02",
+          "stars": 333
+        }
+      ],
+      "aiNote": "一个用 TypeScript 编写的日常任务自动化助手，通过 Claude Code 驱动执行。",
       "fun": null
     },
     {
@@ -7277,7 +7310,7 @@
       "description": "The terminal that outlives its window. Shells survive quitting the app, agents can drive other agents, and remote machines work the same way. Pure Rust, GPU-rendered.",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 1188,
+      "stars": 1194,
       "forks": 95,
       "gained": {
         "weekly": 110
@@ -7307,7 +7340,7 @@
       "history": [
         {
           "date": "2026-10-02",
-          "stars": 1188
+          "stars": 1194
         }
       ],
       "aiNote": "一个用 Rust 编写、GPU 渲染的终端，关闭窗口后 shell 仍存活，还能让智能体互相驱动并统一操作远程机器。",
@@ -7319,8 +7352,8 @@
       "description": "Use Codex from Claude Code to review code or delegate tasks.",
       "language": "JavaScript",
       "languageColor": "#f1e05a",
-      "stars": 33763,
-      "forks": 2357,
+      "stars": 33775,
+      "forks": 2360,
       "gained": {
         "daily": 36
       },
@@ -7340,7 +7373,7 @@
       "history": [
         {
           "date": "2026-10-02",
-          "stars": 33763
+          "stars": 33775
         }
       ],
       "aiNote": "这是一个让 Claude Code 调用 Codex 来审查代码或委派任务的插件。",
@@ -7405,7 +7438,7 @@
       "description": "Autonomous penetration testing using a swarm of AI agents. Orchestrates recon, classification, exploitation, and reporting specialists with ReAct reasoning — supports bug bounty, continuous monitoring, and CTF modes. Built with Go and 7+ native security tools.",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 2679,
+      "stars": 2683,
       "forks": 493,
       "gained": {
         "weekly": 106
@@ -7441,10 +7474,61 @@
         },
         {
           "date": "2026-10-02",
-          "stars": 2679
+          "stars": 2683
         }
       ],
       "aiNote": "用AI智能体集群自动完成渗透测试全流程，支持漏洞赏金与CTF。",
+      "fun": null
+    },
+    {
+      "fullName": "muellerberndt/cadence",
+      "url": "https://github.com/muellerberndt/cadence",
+      "description": "A brain that learns from live experience. System 1 by default: perception, memory, plasticity and action. Optional System 2 for self-observation and slow corrections.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 334,
+      "forks": 40,
+      "gained": {
+        "monthly": 334,
+        "daily": 6
+      },
+      "track": "world-model",
+      "signals": [
+        "embodied",
+        "ai"
+      ],
+      "sources": [
+        "discover"
+      ],
+      "createdAt": "2026-09-07T10:20:11Z",
+      "topics": [
+        "brain-inspired",
+        "embodied-ai",
+        "equilibrium-networks",
+        "local-learning",
+        "machine-learning",
+        "online-learning",
+        "python",
+        "recursive-networks"
+      ],
+      "paper": null,
+      "news": [],
+      "firstSeen": "2026-09-30T07:14:20.189Z",
+      "history": [
+        {
+          "date": "2026-09-30",
+          "stars": 328
+        },
+        {
+          "date": "2026-10-01",
+          "stars": 330
+        },
+        {
+          "date": "2026-10-02",
+          "stars": 334
+        }
+      ],
+      "aiNote": "一个以感知、记忆、可塑性和行动构成默认第一系统的学习型大脑，可选第二系统进行自我观察与缓慢修正。",
       "fun": null
     },
     {
@@ -7453,8 +7537,8 @@
       "description": "A collection of notebooks/recipes showcasing some fun and effective ways of using Claude.",
       "language": "Jupyter Notebook",
       "languageColor": "#DA5B0B",
-      "stars": 53126,
-      "forks": 6389,
+      "stars": 53135,
+      "forks": 6387,
       "gained": {
         "daily": 31
       },
@@ -7473,61 +7557,11 @@
       "history": [
         {
           "date": "2026-10-02",
-          "stars": 53126
+          "stars": 53135
         }
       ],
       "aiNote": "这是 Anthropic 官方提供的 Claude 使用示例集合，以 Jupyter 笔记本形式展示提示工程、工具调用等实用技巧。",
       "fun": "quirky"
-    },
-    {
-      "fullName": "muellerberndt/cadence",
-      "url": "https://github.com/muellerberndt/cadence",
-      "description": "A deep real-time brain that learns from experience. Flat, state-coupled and recursive patch-net settlement, with code and reproducible demos.",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "stars": 331,
-      "forks": 39,
-      "gained": {
-        "monthly": 331,
-        "daily": 3
-      },
-      "track": "world-model",
-      "signals": [
-        "embodied",
-        "ai"
-      ],
-      "sources": [
-        "discover"
-      ],
-      "createdAt": "2026-09-07T10:20:11Z",
-      "topics": [
-        "embodied-ai",
-        "equilibrium-networks",
-        "machine-learning",
-        "online-learning",
-        "python",
-        "recursive-networks",
-        "research"
-      ],
-      "paper": null,
-      "news": [],
-      "firstSeen": "2026-09-30T07:14:20.189Z",
-      "history": [
-        {
-          "date": "2026-09-30",
-          "stars": 328
-        },
-        {
-          "date": "2026-10-01",
-          "stars": 330
-        },
-        {
-          "date": "2026-10-02",
-          "stars": 331
-        }
-      ],
-      "aiNote": "一个用Python实现的实时学习型神经网络，采用扁平状态耦合与递归补丁网络结算，附带代码和可复现演示。",
-      "fun": null
     },
     {
       "fullName": "Snailclimb/JavaGuide",
@@ -7535,7 +7569,7 @@
       "description": "Java 面试 & 后端通用面试指南，覆盖计算机基础、数据库、分布式、高并发、系统设计与 AI 应用开发",
       "language": "JavaScript",
       "languageColor": "#f1e05a",
-      "stars": 159006,
+      "stars": 159009,
       "forks": 46141,
       "gained": {
         "daily": 30
@@ -7565,7 +7599,7 @@
       "history": [
         {
           "date": "2026-10-02",
-          "stars": 159006
+          "stars": 159009
         }
       ],
       "aiNote": "这是一份面向 Java 后端求职者的面试知识库，除计算机基础与分布式高并发外还纳入 AI 应用开发内容。",
@@ -7577,8 +7611,8 @@
       "description": "Beads - A memory upgrade for your coding agent",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 27574,
-      "forks": 1874,
+      "stars": 27586,
+      "forks": 1873,
       "gained": {
         "daily": 30
       },
@@ -7610,7 +7644,7 @@
         },
         {
           "date": "2026-10-02",
-          "stars": 27574
+          "stars": 27586
         }
       ],
       "aiNote": "为编程智能体提供持久记忆的Go工具，让AI编码助手能记住上下文。",
@@ -7622,8 +7656,8 @@
       "description": "Agent Skills for Google products and technologies",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": 20571,
-      "forks": 1709,
+      "stars": 20579,
+      "forks": 1710,
       "gained": {
         "daily": 30
       },
@@ -7647,7 +7681,7 @@
       "history": [
         {
           "date": "2026-10-02",
-          "stars": 20571
+          "stars": 20579
         }
       ],
       "aiNote": "为谷歌产品与技术提供智能体技能模块，用 Python 实现，让 AI 代理能直接调用谷歌服务。",
@@ -7659,7 +7693,7 @@
       "description": "🦔 PostHog is the leading platform for building self-driving products. Our developer tools – AI observability, analytics, session replay, flags, experiments, error tracking, logs, and more – capture all the context agents need to diagnose problems, uncover opportunities, and ship fixes. Steer it all from Slack, web, desktop, or the MCP.",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": 40083,
+      "stars": 40094,
       "forks": 3465,
       "gained": {
         "daily": 29
@@ -7689,10 +7723,53 @@
       "history": [
         {
           "date": "2026-10-02",
-          "stars": 40083
+          "stars": 40094
         }
       ],
       "aiNote": "集产品分析、会话回放、功能开关与错误追踪于一体的开发者平台，通过MCP等接口让智能体自主诊断问题并交付修复。",
+      "fun": null
+    },
+    {
+      "fullName": "LeapLabTHU/Simple-WAM",
+      "url": "https://github.com/LeapLabTHU/Simple-WAM",
+      "description": "Official implementation of \"What Makes World Action Models Generalize? An Empirical Study of Test-Time Future Modeling\"",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 63,
+      "forks": 1,
+      "gained": {
+        "weekly": 63,
+        "monthly": 63,
+        "daily": 2
+      },
+      "track": "world-model",
+      "signals": [
+        "world action models"
+      ],
+      "sources": [
+        "paper"
+      ],
+      "createdAt": "2026-09-28T14:13:57Z",
+      "topics": [],
+      "paper": {
+        "title": "What Makes World Action Models Generalize? An Empirical Study of Test-Time Future Modeling",
+        "url": "https://huggingface.co/papers/2609.34981",
+        "publishedAt": "2026-09-29T00:00:00.000Z",
+        "upvotes": 116
+      },
+      "news": [],
+      "firstSeen": "2026-10-01T01:18:48.852Z",
+      "history": [
+        {
+          "date": "2026-10-01",
+          "stars": 61
+        },
+        {
+          "date": "2026-10-02",
+          "stars": 63
+        }
+      ],
+      "aiNote": "这是世界动作模型泛化能力的实证研究官方代码，通过测试时未来建模实验分析其泛化关键因素。",
       "fun": null
     },
     {
@@ -7701,7 +7778,7 @@
       "description": "A collection of AI agent skills for working with Expo projects and Expo Application Services",
       "language": "Shell",
       "languageColor": "#89e051",
-      "stars": 2649,
+      "stars": 2650,
       "forks": 156,
       "gained": {
         "weekly": 43,
@@ -7731,7 +7808,7 @@
         },
         {
           "date": "2026-10-02",
-          "stars": 2649
+          "stars": 2650
         }
       ],
       "aiNote": "这是一套面向 Expo 项目及其应用服务的 AI 智能体技能集合，以 Shell 脚本形式提供。",
@@ -7784,56 +7861,13 @@
       "fun": null
     },
     {
-      "fullName": "LeapLabTHU/Simple-WAM",
-      "url": "https://github.com/LeapLabTHU/Simple-WAM",
-      "description": "Official implementation of \"What Makes World Action Models Generalize? An Empirical Study of Test-Time Future Modeling\"",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "stars": 62,
-      "forks": 1,
-      "gained": {
-        "weekly": 62,
-        "monthly": 62,
-        "daily": 1
-      },
-      "track": "world-model",
-      "signals": [
-        "world action models"
-      ],
-      "sources": [
-        "paper"
-      ],
-      "createdAt": "2026-09-28T14:13:57Z",
-      "topics": [],
-      "paper": {
-        "title": "What Makes World Action Models Generalize? An Empirical Study of Test-Time Future Modeling",
-        "url": "https://huggingface.co/papers/2609.34981",
-        "publishedAt": "2026-09-29T00:00:00.000Z",
-        "upvotes": 111
-      },
-      "news": [],
-      "firstSeen": "2026-10-01T01:18:48.852Z",
-      "history": [
-        {
-          "date": "2026-10-01",
-          "stars": 61
-        },
-        {
-          "date": "2026-10-02",
-          "stars": 62
-        }
-      ],
-      "aiNote": "这是世界动作模型泛化能力的实证研究官方代码，通过测试时未来建模实验分析其泛化关键因素。",
-      "fun": null
-    },
-    {
       "fullName": "ed-donner/llm_engineering",
       "url": "https://github.com/ed-donner/llm_engineering",
       "description": "Repo to accompany my mastering LLM engineering course",
       "language": "Jupyter Notebook",
       "languageColor": "#DA5B0B",
       "stars": 7551,
-      "forks": 7378,
+      "forks": 7379,
       "gained": {
         "monthly": 310
       },
@@ -7873,7 +7907,7 @@
       "description": "GitHub Copilot CLI brings the power of Copilot coding agent directly to your terminal.",
       "language": "Shell",
       "languageColor": "#89e051",
-      "stars": 11237,
+      "stars": 11235,
       "forks": 1951,
       "gained": {
         "daily": 10,
@@ -7906,7 +7940,7 @@
         },
         {
           "date": "2026-10-02",
-          "stars": 11237
+          "stars": 11235
         }
       ],
       "aiNote": "把 Copilot 编码代理直接搬进终端的命令行工具，让开发者无需离开 shell 即可调用 AI 辅助编程。",
@@ -8019,7 +8053,7 @@
       "description": "The fastai book, published as Jupyter Notebooks",
       "language": "Jupyter Notebook",
       "languageColor": "#DA5B0B",
-      "stars": 25357,
+      "stars": 25356,
       "forks": 9481,
       "gained": {
         "weekly": 42,
@@ -8056,7 +8090,7 @@
         },
         {
           "date": "2026-10-02",
-          "stars": 25357
+          "stars": 25356
         }
       ],
       "aiNote": "这是一本以 Jupyter Notebook 形式发布的深度学习教材，将代码、图表与讲解融为一体，读者可直接运行书中示例并观察结果。",
@@ -8068,8 +8102,8 @@
       "description": "FlashMLA: Efficient Multi-head Latent Attention Kernels",
       "language": "C++",
       "languageColor": "#f34b7d",
-      "stars": 13023,
-      "forks": 1179,
+      "stars": 13025,
+      "forks": 1180,
       "gained": {
         "weekly": 73
       },
@@ -8086,139 +8120,10 @@
       "history": [
         {
           "date": "2026-10-02",
-          "stars": 13023
+          "stars": 13025
         }
       ],
       "aiNote": "这是面向英伟达Hopper架构GPU优化的多头潜在注意力解码内核，用C++实现，可提升大模型推理效率。",
-      "fun": null
-    },
-    {
-      "fullName": "udlbook/udlbook",
-      "url": "https://github.com/udlbook/udlbook",
-      "description": "Understanding Deep Learning - Simon J.D. Prince",
-      "language": "Jupyter Notebook",
-      "languageColor": "#DA5B0B",
-      "stars": 9970,
-      "forks": 2351,
-      "gained": {
-        "weekly": 36,
-        "monthly": 139
-      },
-      "track": "ai-app",
-      "signals": [
-        "deep learning"
-      ],
-      "sources": [
-        "trending"
-      ],
-      "createdAt": "2022-08-01T13:48:44Z",
-      "topics": [],
-      "paper": null,
-      "news": [],
-      "firstSeen": "2026-09-30T07:14:20.189Z",
-      "history": [
-        {
-          "date": "2026-09-30",
-          "stars": 9966
-        },
-        {
-          "date": "2026-10-01",
-          "stars": 9970
-        },
-        {
-          "date": "2026-10-02",
-          "stars": 9970
-        }
-      ],
-      "aiNote": "这是一本深度学习教材的配套代码仓库，用 Jupyter Notebook 呈现书中插图与习题，便于读者动手复现和理解。",
-      "fun": null
-    },
-    {
-      "fullName": "cloudflare/skills",
-      "url": "https://github.com/cloudflare/skills",
-      "description": "Skills for teaching agents how to build on Cloudflare.",
-      "language": "Shell",
-      "languageColor": "#89e051",
-      "stars": 2965,
-      "forks": 298,
-      "gained": {
-        "weekly": 66
-      },
-      "track": "mcp-tools",
-      "signals": [
-        "skills",
-        "agents"
-      ],
-      "sources": [
-        "trending"
-      ],
-      "createdAt": "2025-12-10T16:45:17Z",
-      "topics": [
-        "agents",
-        "cloudflare",
-        "skills",
-        "workers"
-      ],
-      "paper": null,
-      "news": [],
-      "firstSeen": "2026-09-30T07:14:20.189Z",
-      "history": [
-        {
-          "date": "2026-09-30",
-          "stars": 2946
-        },
-        {
-          "date": "2026-10-01",
-          "stars": 2955
-        },
-        {
-          "date": "2026-10-02",
-          "stars": 2965
-        }
-      ],
-      "aiNote": "一套面向智能体的技能集，用于指导其在 Cloudflare 平台上构建应用，以 Shell 脚本形式提供。",
-      "fun": null
-    },
-    {
-      "fullName": "hashgraph-online/awesome-codex-plugins",
-      "url": "https://github.com/hashgraph-online/awesome-codex-plugins",
-      "description": "A curated list of awesome OpenAI Codex / ChatGPT plugins, skills, and resources. The #1 Codex Marketplace. See live plugins at: https://hol.org/plugins/best-codex-plugins",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "stars": 1139,
-      "forks": 325,
-      "gained": {
-        "daily": 19
-      },
-      "track": "learn",
-      "signals": [
-        "awesome",
-        "openai"
-      ],
-      "sources": [
-        "trending"
-      ],
-      "createdAt": "2026-03-28T02:38:44Z",
-      "topics": [
-        "ai-coding",
-        "awesome",
-        "awesome-list",
-        "best-ai-plugins",
-        "best-codex-plugins",
-        "chatgpt",
-        "chatgpt-plugins",
-        "codex"
-      ],
-      "paper": null,
-      "news": [],
-      "firstSeen": "2026-10-02T01:42:30.110Z",
-      "history": [
-        {
-          "date": "2026-10-02",
-          "stars": 1139
-        }
-      ],
-      "aiNote": "汇集 OpenAI Codex 与 ChatGPT 插件、技能及资源的精选清单，并附有可实时查看插件的线上市场。",
       "fun": null
     },
     {
@@ -8227,11 +8132,11 @@
       "description": "A visual multi-agent desktop for Codex: live tasks, shared projects, isolated Missions, and OpenCodex models on Windows.",
       "language": "JavaScript",
       "languageColor": "#f1e05a",
-      "stars": 93,
+      "stars": 98,
       "forks": 0,
       "gained": {
-        "monthly": 93,
-        "daily": 11
+        "monthly": 98,
+        "daily": 16
       },
       "track": "coding-agent",
       "signals": [
@@ -8266,11 +8171,225 @@
         },
         {
           "date": "2026-10-02",
-          "stars": 93
+          "stars": 98
         }
       ],
       "aiNote": "这是一个面向 Codex 的可视化多智能体桌面，在 Windows 上以实时任务、共享项目、隔离任务区和 OpenCodex 模型组织协作。",
       "fun": "companion"
+    },
+    {
+      "fullName": "WenyiWU0111/RSIGame",
+      "url": "https://github.com/WenyiWU0111/RSIGame",
+      "description": "RSIGame: Autonomous agentic game development with recursive self-improvement",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 57,
+      "forks": 10,
+      "gained": {
+        "weekly": 57,
+        "monthly": 57
+      },
+      "track": "research",
+      "signals": [
+        "agentic game development",
+        "agentic"
+      ],
+      "sources": [
+        "paper"
+      ],
+      "createdAt": "2026-09-28T23:54:09Z",
+      "topics": [],
+      "paper": {
+        "title": "RSIGame: Autonomous Agentic Game Development with Recursive Self-improvement",
+        "url": "https://huggingface.co/papers/2609.39045",
+        "publishedAt": "2026-09-30T00:00:00.000Z",
+        "upvotes": 76
+      },
+      "news": [],
+      "firstSeen": "2026-10-02T10:31:57.520Z",
+      "history": [
+        {
+          "date": "2026-10-02",
+          "stars": 57
+        }
+      ],
+      "aiNote": "一个用Python实现自主游戏开发的智能体框架，通过递归自我改进机制让AI持续优化自身生成的游戏代码。",
+      "fun": null
+    },
+    {
+      "fullName": "udlbook/udlbook",
+      "url": "https://github.com/udlbook/udlbook",
+      "description": "Understanding Deep Learning - Simon J.D. Prince",
+      "language": "Jupyter Notebook",
+      "languageColor": "#DA5B0B",
+      "stars": 9972,
+      "forks": 2351,
+      "gained": {
+        "weekly": 36,
+        "monthly": 139
+      },
+      "track": "ai-app",
+      "signals": [
+        "deep learning"
+      ],
+      "sources": [
+        "trending"
+      ],
+      "createdAt": "2022-08-01T13:48:44Z",
+      "topics": [],
+      "paper": null,
+      "news": [],
+      "firstSeen": "2026-09-30T07:14:20.189Z",
+      "history": [
+        {
+          "date": "2026-09-30",
+          "stars": 9966
+        },
+        {
+          "date": "2026-10-01",
+          "stars": 9970
+        },
+        {
+          "date": "2026-10-02",
+          "stars": 9972
+        }
+      ],
+      "aiNote": "这是一本深度学习教材的配套代码仓库，用 Jupyter Notebook 呈现书中插图与习题，便于读者动手复现和理解。",
+      "fun": null
+    },
+    {
+      "fullName": "cloudflare/skills",
+      "url": "https://github.com/cloudflare/skills",
+      "description": "Skills for teaching agents how to build on Cloudflare.",
+      "language": "Shell",
+      "languageColor": "#89e051",
+      "stars": 2968,
+      "forks": 299,
+      "gained": {
+        "weekly": 66
+      },
+      "track": "mcp-tools",
+      "signals": [
+        "skills",
+        "agents"
+      ],
+      "sources": [
+        "trending"
+      ],
+      "createdAt": "2025-12-10T16:45:17Z",
+      "topics": [
+        "agents",
+        "cloudflare",
+        "skills",
+        "workers"
+      ],
+      "paper": null,
+      "news": [],
+      "firstSeen": "2026-09-30T07:14:20.189Z",
+      "history": [
+        {
+          "date": "2026-09-30",
+          "stars": 2946
+        },
+        {
+          "date": "2026-10-01",
+          "stars": 2955
+        },
+        {
+          "date": "2026-10-02",
+          "stars": 2968
+        }
+      ],
+      "aiNote": "一套面向智能体的技能集，用于指导其在 Cloudflare 平台上构建应用，以 Shell 脚本形式提供。",
+      "fun": null
+    },
+    {
+      "fullName": "hashgraph-online/awesome-codex-plugins",
+      "url": "https://github.com/hashgraph-online/awesome-codex-plugins",
+      "description": "A curated list of awesome OpenAI Codex / ChatGPT plugins, skills, and resources. The #1 Codex Marketplace. See live plugins at: https://hol.org/plugins/best-codex-plugins",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 1143,
+      "forks": 327,
+      "gained": {
+        "daily": 19
+      },
+      "track": "learn",
+      "signals": [
+        "awesome",
+        "openai"
+      ],
+      "sources": [
+        "trending"
+      ],
+      "createdAt": "2026-03-28T02:38:44Z",
+      "topics": [
+        "ai-coding",
+        "awesome",
+        "awesome-list",
+        "best-ai-plugins",
+        "best-codex-plugins",
+        "chatgpt",
+        "chatgpt-plugins",
+        "codex"
+      ],
+      "paper": null,
+      "news": [],
+      "firstSeen": "2026-10-02T01:42:30.110Z",
+      "history": [
+        {
+          "date": "2026-10-02",
+          "stars": 1143
+        }
+      ],
+      "aiNote": "汇集 OpenAI Codex 与 ChatGPT 插件、技能及资源的精选清单，并附有可实时查看插件的线上市场。",
+      "fun": null
+    },
+    {
+      "fullName": "filliptm/ComfyUI-FL-YuE2",
+      "url": "https://github.com/filliptm/ComfyUI-FL-YuE2",
+      "description": "YuE2 music generation and an editable piano roll for ComfyUI",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 188,
+      "forks": 21,
+      "gained": {
+        "monthly": 188,
+        "daily": 3
+      },
+      "track": "ai-app",
+      "signals": [
+        "comfyui"
+      ],
+      "sources": [
+        "discover"
+      ],
+      "createdAt": "2026-09-11T04:46:33Z",
+      "topics": [
+        "comfyui",
+        "custom-nodes",
+        "music-generation",
+        "yue2"
+      ],
+      "paper": null,
+      "news": [],
+      "firstSeen": "2026-09-30T07:14:20.189Z",
+      "history": [
+        {
+          "date": "2026-09-30",
+          "stars": 185
+        },
+        {
+          "date": "2026-10-01",
+          "stars": 186
+        },
+        {
+          "date": "2026-10-02",
+          "stars": 188
+        }
+      ],
+      "aiNote": "将音乐生成模型集成进节点式界面，并提供可编辑钢琴卷帘以调整生成结果。",
+      "fun": "music"
     },
     {
       "fullName": "ageron/handson-ml3",
@@ -8310,7 +8429,7 @@
           "stars": 14246
         }
       ],
-      "aiNote": null,
+      "aiNote": "一套用 Scikit-Learn、Keras 和 TensorFlow 2 讲解机器学习与深度学习基础的 Jupyter 笔记本系列。",
       "fun": null
     },
     {
@@ -8319,8 +8438,8 @@
       "description": "Google Research",
       "language": "Jupyter Notebook",
       "languageColor": "#DA5B0B",
-      "stars": 38859,
-      "forks": 8477,
+      "stars": 38860,
+      "forks": 8479,
       "gained": {
         "monthly": 222
       },
@@ -8351,7 +8470,7 @@
         },
         {
           "date": "2026-10-02",
-          "stars": 38859
+          "stars": 38860
         }
       ],
       "aiNote": "谷歌研究团队公开的代码仓库，汇集机器学习、量子计算等多领域论文配套实现，以 Notebook 形式便于复现实验。",
@@ -8363,7 +8482,7 @@
       "description": "HELP WANTED: AI AGENTS. Real bounties, real money, every payout sealed to a public ledger. The notice board for gofrantic.com",
       "language": "Shell",
       "languageColor": "#89e051",
-      "stars": 492,
+      "stars": 503,
       "forks": 53,
       "gained": {
         "monthly": 213
@@ -8397,37 +8516,42 @@
         },
         {
           "date": "2026-10-02",
-          "stars": 492
+          "stars": 503
         }
       ],
       "aiNote": "这是一个面向AI代理的悬赏任务公告板，每笔支付都记录在公开账本上。",
       "fun": null
     },
     {
-      "fullName": "filliptm/ComfyUI-FL-YuE2",
-      "url": "https://github.com/filliptm/ComfyUI-FL-YuE2",
-      "description": "YuE2 music generation and an editable piano roll for ComfyUI",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "stars": 187,
-      "forks": 21,
+      "fullName": "inikolax/remiqora",
+      "url": "https://github.com/inikolax/remiqora",
+      "description": "Local AI music studio unifying ACE-Step 1.5 and YuE2-3B in one Vue interface — text-to-music generation, stem separation, MIDI transcription, and LoRA fine-tuning, with a built-in multitrack DAW.",
+      "language": "Vue",
+      "languageColor": null,
+      "stars": 140,
+      "forks": 20,
       "gained": {
-        "monthly": 187,
-        "daily": 2
+        "monthly": 140,
+        "daily": 6
       },
-      "track": "ai-app",
+      "track": "infra",
       "signals": [
-        "comfyui"
+        "lora",
+        "ai"
       ],
       "sources": [
         "discover"
       ],
-      "createdAt": "2026-09-11T04:46:33Z",
+      "createdAt": "2026-09-17T13:09:15Z",
       "topics": [
-        "comfyui",
-        "custom-nodes",
-        "music-generation",
-        "yue2"
+        "ace-step",
+        "ai-music",
+        "apple-silicon",
+        "daw",
+        "demucs",
+        "fastapi",
+        "generative-ai",
+        "local-ai"
       ],
       "paper": null,
       "news": [],
@@ -8435,19 +8559,19 @@
       "history": [
         {
           "date": "2026-09-30",
-          "stars": 185
+          "stars": 134
         },
         {
           "date": "2026-10-01",
-          "stars": 186
+          "stars": 135
         },
         {
           "date": "2026-10-02",
-          "stars": 187
+          "stars": 140
         }
       ],
-      "aiNote": "将音乐生成模型集成进节点式界面，并提供可编辑钢琴卷帘以调整生成结果。",
-      "fun": "music"
+      "aiNote": "本地 AI 音乐工作室，将文本生成音乐、分轨、MIDI 转录与 LoRA 微调整合进单一 Vue 界面，并内置多轨 DAW。",
+      "fun": null
     },
     {
       "fullName": "AlayaLab/PWM",
@@ -8492,12 +8616,55 @@
       "fun": null
     },
     {
+      "fullName": "Pal-AI-Lab/Coopanion",
+      "url": "https://github.com/Pal-AI-Lab/Coopanion",
+      "description": "你的小小万能桌面伴侣:桌宠 Coo 住在屏幕底边,会聊天、听你说话、能帮你操作电脑。基于 Cortico,填入 API Key 即用。",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 70,
+      "forks": 9,
+      "gained": {
+        "monthly": 70,
+        "daily": 11
+      },
+      "track": "ai-app",
+      "signals": [
+        "ai"
+      ],
+      "sources": [
+        "discover"
+      ],
+      "createdAt": "2026-09-23T01:24:38Z",
+      "topics": [
+        "ai-companion",
+        "cortico",
+        "deepseek",
+        "desktop-pet",
+        "electron"
+      ],
+      "paper": null,
+      "news": [],
+      "firstSeen": "2026-10-01T01:18:48.852Z",
+      "history": [
+        {
+          "date": "2026-10-01",
+          "stars": 59
+        },
+        {
+          "date": "2026-10-02",
+          "stars": 70
+        }
+      ],
+      "aiNote": "一个住在屏幕底边的桌面宠物，能聊天、听语音并代操作电脑，基于 Cortico 且填入 API Key 即可使用。",
+      "fun": "companion"
+    },
+    {
       "fullName": "jomjol/AI-on-the-edge-device",
       "url": "https://github.com/jomjol/AI-on-the-edge-device",
       "description": "Easy to use device for connecting \"old\" measuring units (water, power, gas, ...) to the digital world",
       "language": "C++",
       "languageColor": "#f34b7d",
-      "stars": 8824,
+      "stars": 8825,
       "forks": 920,
       "gained": {
         "monthly": 194
@@ -8519,7 +8686,7 @@
         },
         {
           "date": "2026-10-02",
-          "stars": 8824
+          "stars": 8825
         }
       ],
       "aiNote": "将老旧水电气表接入数字世界的边缘计算设备，通过摄像头识别读数并在本地完成处理。",
@@ -8531,8 +8698,8 @@
       "description": "Git with a cup of tea! Painless self-hosted all-in-one software development service, including Git hosting, code review, team collaboration, package registry and CI/CD",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 58258,
-      "forks": 7206,
+      "stars": 58265,
+      "forks": 7208,
       "gained": {
         "daily": 16
       },
@@ -8560,61 +8727,10 @@
       "history": [
         {
           "date": "2026-10-02",
-          "stars": 58258
+          "stars": 58265
         }
       ],
       "aiNote": "用 Go 编写的自托管一体化开发平台，整合 Git 托管、代码审查、团队协作、包注册与 CI/CD。",
-      "fun": null
-    },
-    {
-      "fullName": "inikolax/remiqora",
-      "url": "https://github.com/inikolax/remiqora",
-      "description": "Local AI music studio unifying ACE-Step 1.5 and YuE2-3B in one Vue interface — text-to-music generation, stem separation, MIDI transcription, and LoRA fine-tuning, with a built-in multitrack DAW.",
-      "language": "Vue",
-      "languageColor": null,
-      "stars": 138,
-      "forks": 20,
-      "gained": {
-        "monthly": 138,
-        "daily": 4
-      },
-      "track": "infra",
-      "signals": [
-        "lora",
-        "ai"
-      ],
-      "sources": [
-        "discover"
-      ],
-      "createdAt": "2026-09-17T13:09:15Z",
-      "topics": [
-        "ace-step",
-        "ai-music",
-        "apple-silicon",
-        "daw",
-        "demucs",
-        "fastapi",
-        "generative-ai",
-        "local-ai"
-      ],
-      "paper": null,
-      "news": [],
-      "firstSeen": "2026-09-30T07:14:20.189Z",
-      "history": [
-        {
-          "date": "2026-09-30",
-          "stars": 134
-        },
-        {
-          "date": "2026-10-01",
-          "stars": 135
-        },
-        {
-          "date": "2026-10-02",
-          "stars": 138
-        }
-      ],
-      "aiNote": null,
       "fun": null
     },
     {
@@ -8665,7 +8781,7 @@
           "stars": 180
         }
       ],
-      "aiNote": null,
+      "aiNote": "这是一个把 Claude Code 全部 15 类钩子事件接入桌面宠物的脚本，能在桌面上直接回应权限请求。",
       "fun": "companion"
     },
     {
@@ -8697,7 +8813,7 @@
           "stars": 14648
         }
       ],
-      "aiNote": null,
+      "aiNote": "这是全球首个全自动开放式科学发现系统，能独立完成从构思到论文撰写的完整科研流程。",
       "fun": null
     },
     {
@@ -8706,8 +8822,8 @@
       "description": "Agent2Agent (A2A) is an open protocol enabling communication and interoperability between opaque agentic applications.",
       "language": "Shell",
       "languageColor": "#89e051",
-      "stars": 25987,
-      "forks": 2639,
+      "stars": 25990,
+      "forks": 2640,
       "gained": {
         "daily": 13
       },
@@ -8735,10 +8851,10 @@
       "history": [
         {
           "date": "2026-10-02",
-          "stars": 25987
+          "stars": 25990
         }
       ],
-      "aiNote": null,
+      "aiNote": "这是一个让不同智能体应用在互不透明的情况下实现通信与互操作的开放协议。",
       "fun": null
     },
     {
@@ -8747,8 +8863,8 @@
       "description": "A Datacenter Scale Distributed Inference Serving Framework",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 8203,
-      "forks": 1649,
+      "stars": 8206,
+      "forks": 1650,
       "gained": {
         "daily": 13
       },
@@ -8781,54 +8897,57 @@
         },
         {
           "date": "2026-10-02",
-          "stars": 8203
+          "stars": 8206
         }
       ],
-      "aiNote": null,
+      "aiNote": "面向数据中心规模的开源分布式推理服务框架，用 Rust 编写，支持跨节点调度大模型推理负载。",
       "fun": null
     },
     {
-      "fullName": "Pal-AI-Lab/Coopanion",
-      "url": "https://github.com/Pal-AI-Lab/Coopanion",
-      "description": "你的小小万能桌面伴侣:桌宠 Coo 住在屏幕底边,会聊天、听你说话、能帮你操作电脑。基于 Cortico,填入 API Key 即用。",
-      "language": "TypeScript",
-      "languageColor": "#3178c6",
-      "stars": 66,
-      "forks": 9,
+      "fullName": "Cuongyd196/cit-voice-studio",
+      "url": "https://github.com/Cuongyd196/cit-voice-studio",
+      "description": "CIT Voice Stuido - Chuyển văn bản tiếng Việt thành giọng nói, chạy hoàn toàn trên máy bạn.",
+      "language": null,
+      "languageColor": null,
+      "stars": 76,
+      "forks": 34,
       "gained": {
-        "monthly": 66,
-        "daily": 7
+        "monthly": 76,
+        "daily": 5
       },
       "track": "ai-app",
       "signals": [
-        "ai"
+        "text to speech"
       ],
       "sources": [
         "discover"
       ],
-      "createdAt": "2026-09-23T01:24:38Z",
+      "createdAt": "2026-09-23T09:51:52Z",
       "topics": [
-        "ai-companion",
-        "cortico",
-        "deepseek",
-        "desktop-pet",
-        "electron"
+        "text-to-speech",
+        "tts",
+        "voice-ai",
+        "voice-cloning"
       ],
       "paper": null,
       "news": [],
-      "firstSeen": "2026-10-01T01:18:48.852Z",
+      "firstSeen": "2026-09-30T07:14:20.189Z",
       "history": [
         {
+          "date": "2026-09-30",
+          "stars": 71
+        },
+        {
           "date": "2026-10-01",
-          "stars": 59
+          "stars": 73
         },
         {
           "date": "2026-10-02",
-          "stars": 66
+          "stars": 76
         }
       ],
-      "aiNote": null,
-      "fun": "companion"
+      "aiNote": "一款在本地将越南语文本转为语音的工具，无需联网即可在个人电脑上完成全部处理。",
+      "fun": "voice"
     },
     {
       "fullName": "Gen-Verse/JEPA-Anything",
@@ -8873,7 +8992,7 @@
           "stars": 123
         }
       ],
-      "aiNote": null,
+      "aiNote": "一个用 Python 实现跨不同环境学习预测模型的框架，把联合嵌入预测架构扩展到任意世界。",
       "fun": null
     },
     {
@@ -8882,8 +9001,8 @@
       "description": "ONNX Runtime: cross-platform, high performance ML inferencing and training accelerator",
       "language": "C++",
       "languageColor": "#f34b7d",
-      "stars": 21977,
-      "forks": 4270,
+      "stars": 21976,
+      "forks": 4271,
       "gained": {
         "daily": 11
       },
@@ -8920,7 +9039,7 @@
         },
         {
           "date": "2026-10-02",
-          "stars": 21977
+          "stars": 21976
         }
       ],
       "aiNote": "微软推出的跨平台机器学习推理与训练加速引擎，以C++编写，支持ONNX模型高效部署。",
@@ -8974,7 +9093,7 @@
           "stars": 72
         }
       ],
-      "aiNote": null,
+      "aiNote": "这是一个将要点和图像转换为单行时间码视频提示词的专业剧本工具，支持本地视觉模型与平面图分析，并提供德英双语界面。",
       "fun": null
     },
     {
@@ -9018,7 +9137,7 @@
           "stars": 128
         }
       ],
-      "aiNote": null,
+      "aiNote": "西湖大学AGI实验室发布的官方实现，用Python构建世界模型嵌套框架，在虚拟环境中模拟多层级交互。",
       "fun": null
     },
     {
@@ -9069,7 +9188,7 @@
           "stars": 103
         }
       ],
-      "aiNote": null,
+      "aiNote": "收录五十条面向 gpt-image-2.5 的提示词，每条附对应生成画面，含二十条短提示与三十条完整工程说明及一次光晕与星芒的实测对比。",
       "fun": null
     },
     {
@@ -9078,8 +9197,8 @@
       "description": "Materials for the Learn PyTorch for Deep Learning: Zero to Mastery course.",
       "language": "Jupyter Notebook",
       "languageColor": "#DA5B0B",
-      "stars": 19119,
-      "forks": 5200,
+      "stars": 19123,
+      "forks": 5202,
       "gained": {
         "daily": 10
       },
@@ -9103,10 +9222,10 @@
       "history": [
         {
           "date": "2026-10-02",
-          "stars": 19119
+          "stars": 19123
         }
       ],
-      "aiNote": null,
+      "aiNote": "这是一套从零起步的PyTorch深度学习课程配套材料，以Jupyter Notebook形式提供可运行的代码示例。",
       "fun": null
     },
     {
@@ -9115,7 +9234,7 @@
       "description": "Sample code and notebooks for Generative AI on Google Cloud, with Gemini Enterprise Agent Platform",
       "language": "Jupyter Notebook",
       "languageColor": "#DA5B0B",
-      "stars": 17778,
+      "stars": 17779,
       "forks": 4479,
       "gained": {
         "weekly": 30
@@ -9153,10 +9272,10 @@
         },
         {
           "date": "2026-10-02",
-          "stars": 17778
+          "stars": 17779
         }
       ],
-      "aiNote": null,
+      "aiNote": "这是谷歌云生成式AI的示例代码与笔记本集合，涵盖Gemini企业智能体平台的实践用法。",
       "fun": null
     },
     {
@@ -9165,8 +9284,8 @@
       "description": "LLM Zoomcamp - a free online course about real-life applications of LLMs. In 10 weeks you will learn how to build an AI system that answers questions about your knowledge base. Register here 👇🏼",
       "language": "Jupyter Notebook",
       "languageColor": "#DA5B0B",
-      "stars": 7394,
-      "forks": 1375,
+      "stars": 7398,
+      "forks": 1376,
       "gained": {
         "daily": 10
       },
@@ -9186,10 +9305,10 @@
       "history": [
         {
           "date": "2026-10-02",
-          "stars": 7394
+          "stars": 7398
         }
       ],
-      "aiNote": null,
+      "aiNote": "这是一门为期十周的免费在线课程，教你构建基于知识库的问答AI系统。",
       "fun": null
     },
     {
@@ -9198,8 +9317,8 @@
       "description": "OpenAI Plugins",
       "language": "JavaScript",
       "languageColor": "#f1e05a",
-      "stars": 7252,
-      "forks": 941,
+      "stars": 7257,
+      "forks": 942,
       "gained": {
         "daily": 10
       },
@@ -9218,57 +9337,11 @@
       "history": [
         {
           "date": "2026-10-02",
-          "stars": 7252
+          "stars": 7257
         }
       ],
-      "aiNote": null,
+      "aiNote": "这是 OpenAI 官方发布的插件开发工具集，为 ChatGPT 生态提供标准化的接口规范与 JavaScript 实现。",
       "fun": null
-    },
-    {
-      "fullName": "Cuongyd196/cit-voice-studio",
-      "url": "https://github.com/Cuongyd196/cit-voice-studio",
-      "description": "CIT Voice Stuido - Chuyển văn bản tiếng Việt thành giọng nói, chạy hoàn toàn trên máy bạn.",
-      "language": null,
-      "languageColor": null,
-      "stars": 74,
-      "forks": 33,
-      "gained": {
-        "monthly": 74,
-        "daily": 3
-      },
-      "track": "ai-app",
-      "signals": [
-        "text to speech"
-      ],
-      "sources": [
-        "discover"
-      ],
-      "createdAt": "2026-09-23T09:51:52Z",
-      "topics": [
-        "text-to-speech",
-        "tts",
-        "voice-ai",
-        "voice-cloning"
-      ],
-      "paper": null,
-      "news": [],
-      "firstSeen": "2026-09-30T07:14:20.189Z",
-      "history": [
-        {
-          "date": "2026-09-30",
-          "stars": 71
-        },
-        {
-          "date": "2026-10-01",
-          "stars": 73
-        },
-        {
-          "date": "2026-10-02",
-          "stars": 74
-        }
-      ],
-      "aiNote": null,
-      "fun": "voice"
     },
     {
       "fullName": "kkakkkka/awesome-code-as-x",
@@ -9315,7 +9388,7 @@
           "stars": 97
         }
       ],
-      "aiNote": null,
+      "aiNote": "这是一个收录把程序当作策略、世界模型与编辑器等中间表示形式的编码智能体清单。",
       "fun": null
     },
     {
@@ -9365,7 +9438,7 @@
           "stars": 105
         }
       ],
-      "aiNote": null,
+      "aiNote": "这是一个用 Python 编写的本地 3D 虚拟陪玩，支持语音聊天、口型表情动作与运镜，还能与用户互动抽塔罗。",
       "fun": "companion"
     },
     {
@@ -9414,7 +9487,7 @@
           "stars": 76
         }
       ],
-      "aiNote": null,
+      "aiNote": "为 YuE2 音乐生成模型提供快速并发推理，同一模型与配方下每首歌提速 1.68 倍、单卡吞吐提升 3.31 倍。",
       "fun": null
     },
     {
@@ -9423,7 +9496,7 @@
       "description": "NVIDIA Cosmos is an open platform of world models, datasets, and tools that enables developers to build Physical AI for robots, autonomous vehicles, smart infrastructure, and more.",
       "language": "Jupyter Notebook",
       "languageColor": "#DA5B0B",
-      "stars": 11964,
+      "stars": 11968,
       "forks": 898,
       "gained": {
         "daily": 8
@@ -9456,10 +9529,10 @@
         },
         {
           "date": "2026-10-02",
-          "stars": 11964
+          "stars": 11968
         }
       ],
-      "aiNote": null,
+      "aiNote": "英伟达推出的开放世界模型平台，整合数据集与工具，供开发者构建机器人、自动驾驶等物理AI系统。",
       "fun": null
     },
     {
@@ -9469,7 +9542,7 @@
       "language": "C++",
       "languageColor": "#f34b7d",
       "stars": 5814,
-      "forks": 515,
+      "forks": 517,
       "gained": {
         "daily": 7
       },
@@ -9501,53 +9574,7 @@
           "stars": 5814
         }
       ],
-      "aiNote": null,
-      "fun": null
-    },
-    {
-      "fullName": "nyldn/claude-octopus",
-      "url": "https://github.com/nyldn/claude-octopus",
-      "description": "Run multiple AI models against the same research, design, or coding task. Surface disagreements before you ship.",
-      "language": "Shell",
-      "languageColor": "#89e051",
-      "stars": 4139,
-      "forks": 390,
-      "gained": {
-        "daily": 7
-      },
-      "track": "mcp-tools",
-      "signals": [
-        "claude code, claude code",
-        "ai"
-      ],
-      "sources": [
-        "trending"
-      ],
-      "createdAt": "2026-01-15T08:49:38Z",
-      "topics": [
-        "ai-agents",
-        "ai-orchestration",
-        "claude-code",
-        "claude-code-plugin",
-        "codex",
-        "copilot",
-        "developer-tools",
-        "double-diamond"
-      ],
-      "paper": null,
-      "news": [],
-      "firstSeen": "2026-10-01T01:18:48.852Z",
-      "history": [
-        {
-          "date": "2026-10-01",
-          "stars": 4134
-        },
-        {
-          "date": "2026-10-02",
-          "stars": 4139
-        }
-      ],
-      "aiNote": "让多个 AI 模型并行处理同一研究、设计或编码任务，在交付前暴露模型间的分歧。",
+      "aiNote": "这是一个帮助用户在本地GPU和NPU上发现并运行AI应用的C++工具包，通过提供优化的大语言模型服务，让本地AI部署更高效。",
       "fun": null
     },
     {
@@ -9595,7 +9622,7 @@
           "stars": 83
         }
       ],
-      "aiNote": null,
+      "aiNote": "这是一个让智能体通过与可观测物理世界交互来学习空间推理的Python框架，其独特之处在于将空间理解建立在真实环境的主动探索上。",
       "fun": null
     },
     {
@@ -9646,7 +9673,7 @@
           "stars": 52
         }
       ],
-      "aiNote": null,
+      "aiNote": "这是一个 Windows 平台的 AI 伴侣程序，支持长期记忆、本地声音克隆和可选的 WSL2 数字人。",
       "fun": "voice"
     },
     {
@@ -9655,8 +9682,8 @@
       "description": "Developer Asset Hub for NVIDIA Nemotron — A one-stop resource for training recipes, usage cookbooks, datasets, and full end-to-end reference examples to build with Nemotron models",
       "language": "Jupyter Notebook",
       "languageColor": "#DA5B0B",
-      "stars": 2120,
-      "forks": 428,
+      "stars": 2121,
+      "forks": 427,
       "gained": {
         "daily": 6
       },
@@ -9691,10 +9718,47 @@
         },
         {
           "date": "2026-10-02",
-          "stars": 2120
+          "stars": 2121
         }
       ],
-      "aiNote": null,
+      "aiNote": "这是英伟达Nemotron模型的开发者资源中心，汇集训练配方、使用手册、数据集与端到端参考示例。",
+      "fun": null
+    },
+    {
+      "fullName": "haolpku/Omni-Edu",
+      "url": "https://github.com/haolpku/Omni-Edu",
+      "description": "OmniEdu: Open Foundation Models for Learning and Teaching",
+      "language": "HTML",
+      "languageColor": null,
+      "stars": 72,
+      "forks": 10,
+      "gained": {
+        "monthly": 72
+      },
+      "track": "research",
+      "signals": [
+        "foundation models"
+      ],
+      "sources": [
+        "paper"
+      ],
+      "createdAt": "2026-09-15T15:00:21Z",
+      "topics": [],
+      "paper": {
+        "title": "OmniEdu: Open Foundation Models for Learning and Teaching",
+        "url": "https://huggingface.co/papers/2609.23088",
+        "publishedAt": "2026-09-19T00:00:00.000Z",
+        "upvotes": 236
+      },
+      "news": [],
+      "firstSeen": "2026-10-02T10:31:57.520Z",
+      "history": [
+        {
+          "date": "2026-10-02",
+          "stars": 72
+        }
+      ],
+      "aiNote": "面向教学场景的开源基础模型，以HTML实现交互界面，覆盖学习与授课双端需求。",
       "fun": null
     },
     {
@@ -9742,7 +9806,7 @@
           "stars": 56
         }
       ],
-      "aiNote": null,
+      "aiNote": "本地语音克隆配合字幕驱动的网页演示，两个可安装的智能体技能覆盖脚本到配音再到动效的完整流程。",
       "fun": "voice"
     },
     {
@@ -9751,10 +9815,10 @@
       "description": "A harness for embodied intelligence — connecting agents, robot skills and the physical world through execution, feedback and recovery.",
       "language": "C++",
       "languageColor": "#f34b7d",
-      "stars": 54,
+      "stars": 55,
       "forks": 4,
       "gained": {
-        "monthly": 54
+        "monthly": 55
       },
       "track": "world-model",
       "signals": [
@@ -9781,10 +9845,10 @@
       "history": [
         {
           "date": "2026-10-02",
-          "stars": 54
+          "stars": 55
         }
       ],
-      "aiNote": null,
+      "aiNote": "这是一个用C++编写的具身智能执行框架，通过执行、反馈与恢复机制连接智能体、机器人技能和物理世界。",
       "fun": null
     },
     {
@@ -9793,8 +9857,8 @@
       "description": "This repo is meant to serve as a guide for Machine Learning/AI technical interviews.",
       "language": "Jupyter Notebook",
       "languageColor": "#DA5B0B",
-      "stars": 9766,
-      "forks": 1707,
+      "stars": 9771,
+      "forks": 1708,
       "gained": {
         "daily": 3
       },
@@ -9823,10 +9887,10 @@
       "history": [
         {
           "date": "2026-10-02",
-          "stars": 9766
+          "stars": 9771
         }
       ],
-      "aiNote": null,
+      "aiNote": "这是一个面向机器学习与人工智能技术面试的备考指南，以 Jupyter Notebook 形式整理知识点与题目。",
       "fun": null
     },
     {
@@ -9835,8 +9899,8 @@
       "description": "Repo for the Complete Agentic AI Engineering Course",
       "language": "Jupyter Notebook",
       "languageColor": "#DA5B0B",
-      "stars": 6288,
-      "forks": 5448,
+      "stars": 6289,
+      "forks": 5451,
       "gained": {
         "daily": 3
       },
@@ -9856,10 +9920,10 @@
       "history": [
         {
           "date": "2026-10-02",
-          "stars": 6288
+          "stars": 6289
         }
       ],
-      "aiNote": null,
+      "aiNote": "这是完整智能体AI工程课程的配套代码库，以Jupyter笔记本形式呈现，覆盖智能体系统从设计到实现的完整流程。",
       "fun": null
     },
     {
@@ -9869,7 +9933,7 @@
       "language": "Jupyter Notebook",
       "languageColor": "#DA5B0B",
       "stars": 8830,
-      "forks": 4592,
+      "forks": 4593,
       "gained": {
         "daily": 2
       },
@@ -9908,7 +9972,7 @@
           "stars": 8830
         }
       ],
-      "aiNote": null,
+      "aiNote": "麻省理工深度学习入门课程的实验材料，以 Jupyter Notebook 形式提供，涵盖神经网络基础到生成模型等主题。",
       "fun": null
     }
   ]
