@@ -1,6 +1,6 @@
 {
-  "fetchedAt": "2026-10-02T10:31:49.834Z",
-  "count": 754,
+  "fetchedAt": "2026-10-02T11:05:48.525Z",
+  "count": 771,
   "sources": {
     "hf-papers": 50,
     "github": 80,
@@ -48,12 +48,11 @@
     "rss:36kr": 0,
     "rss:infoq": 8,
     "rss:sspai": 2,
-    "rss:ithome": 2,
-    "arxiv": 0
+    "rss:ithome": 1,
+    "arxiv": 20
   },
   "errors": {
     "rss:venturebeat-ai": "HTTP 429 Too Many Requests <- https://venturebeat.com/category/ai/feed/",
-    "rss:marktechpost": "HTTP 403 Forbidden <- https://www.marktechpost.com/feed/",
-    "arxiv": "HTTP 429 Unknown Error <- https://export.arxiv.org/api/query?search_query=cat:cs.AI+OR+cat:cs.CL+OR+cat:cs.LG&sortBy=submittedDate&sortOrder=descending&max_results=20"
+    "rss:marktechpost": "HTTP 403 Forbidden <- https://www.marktechpost.com/feed/"
   }
 }
