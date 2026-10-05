@@ -1,7 +1,13 @@
 {
-  "date": "2026-10-04",
-  "generatedAt": "2026-10-04T00:40:25.613Z",
+  "date": "2026-10-05",
+  "generatedAt": "2026-10-05T00:58:04.512Z",
   "picks": [
+    {
+      "title": "I quit OpenAI because its culture is broken",
+      "sourceUrl": "https://www.theatlantic.com/technology/2026/10/openai-safety-team-resignation/688881/?gift=v5U_UzUTothfWXsPxtvNVAh7esWToMRD6XnbXmc5WgA",
+      "source": "Hacker News",
+      "reason": "OpenAI安全负责人离职爆料，行业震动级人事与治理事件"
+    },
     {
       "title": "A model guide for the GPT-6 family",
       "sourceUrl": "https://openai.com/index/practical-guide-building-gpt-6",
@@ -9,29 +15,23 @@
       "reason": "GPT-6家族模型指南，开发者选型与调优必读"
     },
     {
-      "title": "How NVIDIA GPUs Help Accelerate OpenAI’s GPT-6 Astra Ultrafast",
-      "sourceUrl": "https://blogs.nvidia.com/blog/gpus-openai-gpt-6-astra-ultrafast/",
-      "source": "NVIDIA",
-      "reason": "GPT-6 Astra登陆Blackwell，算力与模型协同加速"
+      "title": "Run Qwen 3.8 Flash Next (125B) on consumer hardware (RTX 4090) at 100T/s",
+      "sourceUrl": "https://github.com/Niko1221/Strata",
+      "source": "Hacker News",
+      "reason": "消费级RTX 4090跑125B模型达100T/s，本地推理重大突破"
     },
     {
       "title": "Claude Frontier Academy: $100M to train 10,000 engineers",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9FNlFxVHBSRkl5bVF0c253UE5sUEFac3dDZmQ4bzFjc2lER0hNcjFmUUxPVFI5T0xQcldFTXhsd1diR2h4UUVoRnl4TWxEVnp5WXpCMFdkZHNKdlA1bFV4QTVqUDI?oc=5",
       "source": "Anthropic",
-      "reason": "Anthropic亿元培养万名工程师，AI人才战升级"
+      "reason": "Anthropic斥资1亿美元培训万名工程师，人才布局大手笔"
     },
     {
       "title": "NVIDIA DGX Spark 64GB Gives Developers More Ways to Build and Scale Local AI",
       "sourceUrl": "https://blogs.nvidia.com/blog/local-ai-dgx-spark-64gb-sync/",
       "source": "NVIDIA",
-      "reason": "DGX Spark本地AI开发新选择，边缘智能提速"
-    },
-    {
-      "title": "The Agent Said It Was Done. The Database Disagreed.",
-      "sourceUrl": "https://huggingface.co/blog/microsoft/thinkingbox",
-      "source": "HuggingFace Blog",
-      "reason": "智能体自述完成却与数据库不符，可靠性警示"
+      "reason": "DGX Spark 64GB发布，本地AI开发与规模化新选择"
     }
   ],
-  "trendSummary": "智能体落地遇阻，大厂砸钱育人，本地算力与开源工具加速普及。"
+  "trendSummary": "本周AI圈一边是模型加速下放消费级硬件、开源工具持续涌现，一边是巨头砸钱培养人才、布局本地算力，落地与基建同步提速。"
 }
