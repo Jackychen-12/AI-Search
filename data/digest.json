@@ -1,37 +1,37 @@
 {
-  "date": "2026-10-06",
-  "generatedAt": "2026-10-06T02:19:46.790Z",
+  "date": "2026-10-07",
+  "generatedAt": "2026-10-07T01:34:44.249Z",
   "picks": [
     {
-      "title": "From Scan to Treatment Plan, AI Helps Close Breast Cancer’s Deadliest Gaps",
-      "sourceUrl": "https://blogs.nvidia.com/blog/ai-breast-cancer-startups/",
+      "title": "Mistral Large 4",
+      "sourceUrl": "https://mistral.ai/news/mistral-large-4/\\",
+      "source": "Hacker News",
+      "reason": "Mistral发布新旗舰大模型，开源社区重要更新"
+    },
+    {
+      "title": "Atlassian and OpenAI expand partnership to turn enterprise knowledge into action",
+      "sourceUrl": "https://openai.com/index/atlassian-partnership",
+      "source": "OpenAI",
+      "reason": "OpenAI与Atlassian深化企业合作，落地价值高"
+    },
+    {
+      "title": "Why Telecom Operators Are Building Their AI Strategy on Open Models",
+      "sourceUrl": "https://blogs.nvidia.com/blog/telecom-operators-open-models/",
       "source": "NVIDIA",
-      "reason": "NVIDIA用AI缩小乳腺癌诊疗差距，医疗AI落地价值高"
+      "reason": "电信运营商押注开源模型，行业趋势信号"
     },
     {
-      "title": "Building advertising for the way people use AI",
-      "sourceUrl": "https://openai.com/index/new-chatgpt-ads-format-and-measurement",
-      "source": "OpenAI",
-      "reason": "OpenAI在ChatGPT推出广告新格式，商业化关键动向"
+      "title": "Unlocking Earth AI’s planetary geospatial foundation models for global public health",
+      "sourceUrl": "https://research.google/blog/earth-ais-planetary-geospatial-foundation-models-for-global-public-health/",
+      "source": "Google Research",
+      "reason": "Google地球AI基础模型，公共卫生应用新颖"
     },
     {
-      "title": "Our approach to EU text provenance rules",
-      "sourceUrl": "https://openai.com/index/eu-text-provenance",
-      "source": "OpenAI",
-      "reason": "OpenAI应对欧盟文本溯源规则，合规议题受关注"
-    },
-    {
-      "title": "TurboPairFormer: Fast and Stable Protein Folding Model Training with an Optimized Triangle Attention Kernel",
-      "sourceUrl": "http://arxiv.org/abs/2610.05854v1",
-      "source": "arXiv",
-      "reason": "TurboPairFormer加速蛋白质折叠训练，生物AI突破"
-    },
-    {
-      "title": "Imagine to Act: High-Fidelity Data Synthesis via Image Editing World Model for Scalable GUI Agent Training",
-      "sourceUrl": "http://arxiv.org/abs/2610.05861v1",
-      "source": "arXiv",
-      "reason": "图像编辑世界模型合成数据，助推GUI智能体训练"
+      "title": "Falcon-Emirati: When an LLM Learns the Dialect, the Culture, and the Nuance",
+      "sourceUrl": "https://huggingface.co/blog/tiiuae/falcon-emirati",
+      "source": "HuggingFace Blog",
+      "reason": "Falcon阿联酋方言模型，文化本地化有看点"
     }
   ],
-  "trendSummary": "本周AI圈聚焦落地与合规：欧盟溯源规则推进，AI深入医疗、广告和儿童健康，强化学习与GUI智能体训练持续突破。"
+  "trendSummary": "本周AI圈聚焦硬件演进与开源大模型落地，企业合作深化，安全验证与人才培养同步推进。"
 }
