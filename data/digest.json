@@ -1,37 +1,37 @@
 {
-  "date": "2026-10-07",
-  "generatedAt": "2026-10-07T01:34:44.249Z",
+  "date": "2026-10-08",
+  "generatedAt": "2026-10-08T01:58:09.470Z",
   "picks": [
     {
-      "title": "Mistral Large 4",
-      "sourceUrl": "https://mistral.ai/news/mistral-large-4/\\",
-      "source": "Hacker News",
-      "reason": "Mistral发布新旗舰大模型，开源社区重要更新"
-    },
-    {
-      "title": "Atlassian and OpenAI expand partnership to turn enterprise knowledge into action",
-      "sourceUrl": "https://openai.com/index/atlassian-partnership",
-      "source": "OpenAI",
-      "reason": "OpenAI与Atlassian深化企业合作，落地价值高"
-    },
-    {
-      "title": "Why Telecom Operators Are Building Their AI Strategy on Open Models",
-      "sourceUrl": "https://blogs.nvidia.com/blog/telecom-operators-open-models/",
+      "title": "NVIDIA, Microsoft Kick Off a New Beginning for Windows PCs With RTX Spark and AI Agents",
+      "sourceUrl": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-microsoft-windows-event/",
       "source": "NVIDIA",
-      "reason": "电信运营商押注开源模型，行业趋势信号"
+      "reason": "英伟达与微软联手开启Windows PC的AI代理新时代，行业风向标"
     },
     {
-      "title": "Unlocking Earth AI’s planetary geospatial foundation models for global public health",
-      "sourceUrl": "https://research.google/blog/earth-ais-planetary-geospatial-foundation-models-for-global-public-health/",
-      "source": "Google Research",
-      "reason": "Google地球AI基础模型，公共卫生应用新颖"
+      "title": "Introducing Claude Haiku 5.5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE94MUNId0d0TmJZUzNMVGwtcU5ZX0ZGYnlwZFVlRUxaM2tndlktanQwR3Z5OWJvMVRhWlNsVkhlWEpzY3pMY0M5Wl9DWkptZmlMYUtleA?oc=5",
+      "source": "Anthropic",
+      "reason": "Anthropic发布Claude Haiku 5.5，轻量模型迭代值得关注"
     },
     {
-      "title": "Falcon-Emirati: When an LLM Learns the Dialect, the Culture, and the Nuance",
-      "sourceUrl": "https://huggingface.co/blog/tiiuae/falcon-emirati",
+      "title": "Agent Lightning v1.0: A 3,500-Line Lightweight Agentic RL Framework for Training Agents with Real Harnesses",
+      "sourceUrl": "https://www.microsoft.com/en-us/research/blog/agent-lightning-v1-0-a-3500-line-lightweight-agentic-rl-framework-for-training-agents-with-real-harnesses/",
+      "source": "Microsoft Research",
+      "reason": "微软开源轻量级智能体RL框架，降低训练门槛"
+    },
+    {
+      "title": "One Model Family, Two Gold-Level Results: Fine-Tuning Nemotron for IOI and IMO",
+      "sourceUrl": "https://huggingface.co/blog/nvidia/nemotron-ioi-and-imo-2026",
       "source": "HuggingFace Blog",
-      "reason": "Falcon阿联酋方言模型，文化本地化有看点"
+      "reason": "Nemotron微调在IOI与IMO双双夺金，推理能力突破"
+    },
+    {
+      "title": "AgentTime: Can Agents Estimate and Control Their Own Runtime?",
+      "sourceUrl": "http://arxiv.org/abs/2610.09944v1",
+      "source": "arXiv",
+      "reason": "AgentTime探究智能体运行时自我估计与控制，前沿课题"
     }
   ],
-  "trendSummary": "本周AI圈聚焦硬件演进与开源大模型落地，企业合作深化，安全验证与人才培养同步推进。"
+  "trendSummary": "本周AI圈聚焦智能体落地与轻量化，英伟达微软联手推动PC端AI代理，Claude新模型和高效训练框架密集发布，同时多模态决策与推理能力持续突破。"
 }
