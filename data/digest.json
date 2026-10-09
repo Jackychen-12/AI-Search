@@ -1,37 +1,37 @@
 {
-  "date": "2026-10-08",
-  "generatedAt": "2026-10-08T01:58:09.470Z",
+  "date": "2026-10-09",
+  "generatedAt": "2026-10-09T02:12:39.086Z",
   "picks": [
     {
-      "title": "NVIDIA, Microsoft Kick Off a New Beginning for Windows PCs With RTX Spark and AI Agents",
-      "sourceUrl": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-microsoft-windows-event/",
-      "source": "NVIDIA",
-      "reason": "英伟达与微软联手开启Windows PC的AI代理新时代，行业风向标"
-    },
-    {
-      "title": "Introducing Claude Haiku 5.5",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE94MUNId0d0TmJZUzNMVGwtcU5ZX0ZGYnlwZFVlRUxaM2tndlktanQwR3Z5OWJvMVRhWlNsVkhlWEpzY3pMY0M5Wl9DWkptZmlMYUtleA?oc=5",
+      "title": "Launching an opt-in vulnerability-finding service for open-source software",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQYlVFa0lLSzZRaDNqRXNLWjFxOE0xa3pZdkNrV2hkNHkxTDg3QnVRdFVVclpaUXVXTVZyekdxNkRGQTFGTWdmb1h2NGtLT3pOaUJuZG8wYldhVUFMbEdta2o0eERWaGlTalpISG9reWhCTm9VSmI1X0RFVDJ3Rk1zSDF6YmEwZWRiVnFHSS1DczNLZw?oc=5",
       "source": "Anthropic",
-      "reason": "Anthropic发布Claude Haiku 5.5，轻量模型迭代值得关注"
+      "reason": "Anthropic开源漏洞挖掘服务，安全领域重要落地"
     },
     {
-      "title": "Agent Lightning v1.0: A 3,500-Line Lightweight Agentic RL Framework for Training Agents with Real Harnesses",
-      "sourceUrl": "https://www.microsoft.com/en-us/research/blog/agent-lightning-v1-0-a-3500-line-lightweight-agentic-rl-framework-for-training-agents-with-real-harnesses/",
-      "source": "Microsoft Research",
-      "reason": "微软开源轻量级智能体RL框架，降低训练门槛"
+      "title": "Using Claude Science to produce the first complete map of the sky in UV light",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9sMnp6UURINkFSMTYxWUIwUkhnTkRQLWhjYS1tMFZ5VU1acWY5STFDRDcyVXJVN3JfdXU0bmMxd0VPaG9tM1NDcUJHTENGbHdLVkxLa1ZQUVY5enJIVndMYVRRem9Idmdmei1ZTWVR?oc=5",
+      "source": "Anthropic",
+      "reason": "Claude助力绘制首张紫外全天空图，科研突破"
     },
     {
-      "title": "One Model Family, Two Gold-Level Results: Fine-Tuning Nemotron for IOI and IMO",
-      "sourceUrl": "https://huggingface.co/blog/nvidia/nemotron-ioi-and-imo-2026",
-      "source": "HuggingFace Blog",
-      "reason": "Nemotron微调在IOI与IMO双双夺金，推理能力突破"
+      "title": "How Oracle turns days of work into minutes with ChatGPT and Codex",
+      "sourceUrl": "https://openai.com/index/oracle",
+      "source": "OpenAI",
+      "reason": "Oracle用ChatGPT与Codex大幅提效，企业级标杆"
     },
     {
-      "title": "AgentTime: Can Agents Estimate and Control Their Own Runtime?",
-      "sourceUrl": "http://arxiv.org/abs/2610.09944v1",
-      "source": "arXiv",
-      "reason": "AgentTime探究智能体运行时自我估计与控制，前沿课题"
+      "title": "3 Questions: What is the best path forward for AI in academia?",
+      "sourceUrl": "https://news.mit.edu/2026/3-questions-what-best-path-forward-ai-academia-0925",
+      "source": "MIT News",
+      "reason": "MIT探讨AI在学术界的最佳路径，方向性思考"
+    },
+    {
+      "title": "LegalOn halves Codex costs while maintaining development speed",
+      "sourceUrl": "https://openai.com/index/legalon-halves-codex-costs",
+      "source": "OpenAI",
+      "reason": "LegalOn降Codex成本65%且保持速度，实用参考"
     }
   ],
-  "trendSummary": "本周AI圈聚焦智能体落地与轻量化，英伟达微软联手推动PC端AI代理，Claude新模型和高效训练框架密集发布，同时多模态决策与推理能力持续突破。"
+  "trendSummary": "本周AI圈聚焦科研与产业落地，从学术路径、天文制图到漏洞发现和企业提效，智能体正加速融入真实工作流。"
 }
