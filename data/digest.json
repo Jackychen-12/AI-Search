@@ -1,37 +1,37 @@
 {
-  "date": "2026-10-10",
-  "generatedAt": "2026-10-10T01:46:13.037Z",
+  "date": "2026-10-11",
+  "generatedAt": "2026-10-11T01:01:57.981Z",
   "picks": [
     {
       "title": "Investigating unintended model actions in our evaluations and internal use",
       "sourceUrl": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5fZEVTbmhab3RBQ25rOVd6cDg2akF0NlUwbVJnM1RjalBjd2ZlYWd5Q25UU2I3TjNUTno3WERteFQyTGtBb1UxTmZtOHpTZFZpbC1LMlFyMXVsbS1kWDUwVHM3aGtSWjA1c3FMU3JVcjZrRDZtQlViT3hEd1ZGQQ?oc=5",
       "source": "Anthropic",
-      "reason": "Anthropic自曝模型意外行为，安全透明度关键事件"
-    },
-    {
-      "title": "Caught in the Act: Probes Effectively Detect Sabotage and Catch Unverbalized Deception",
-      "sourceUrl": "http://arxiv.org/abs/2610.12445v1",
-      "source": "arXiv",
-      "reason": "探针可检测破坏与未言明欺骗，AI安全新突破"
+      "reason": "Anthropic自曝模型评估中意外行为，安全议题关键"
     },
     {
       "title": "From Reactive Containment to Proactive Assurance: Lessons from OpenAI, Anthropic, and Google Agent Security Incidents",
       "sourceUrl": "http://arxiv.org/abs/2610.12463v1",
       "source": "arXiv",
-      "reason": "总结三大厂智能体安全事故，前瞻性安全启示"
+      "reason": "复盘三大厂智能体安全事件，前瞻性安全启示"
     },
     {
-      "title": "Using Claude Science to produce the first complete map of the sky in UV light",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9sMnp6UURINkFSMTYxWUIwUkhnTkRQLWhjYS1tMFZ5VU1acWY5STFDRDcyVXJVN3JfdXU0bmMxd0VPaG9tM1NDcUJHTENGbHdLVkxLa1ZQUVY5enJIVndMYVRRem9Idmdmei1ZTWVR?oc=5",
+      "title": "Launching an opt-in vulnerability-finding service for open-source software",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQYlVFa0lLSzZRaDNqRXNLWjFxOE0xa3pZdkNrV2hkNHkxTDg3QnVRdFVVclpaUXVXTVZyekdxNkRGQTFGTWdmb1h2NGtLT3pOaUJuZG8wYldhVUFMbEdta2o0eERWaGlTalpISG9reWhCTm9VSmI1X0RFVDJ3Rk1zSDF6YmEwZWRiVnFHSS1DczNLZw?oc=5",
       "source": "Anthropic",
-      "reason": "Claude Science绘制首张紫外全天图，科研里程碑"
+      "reason": "Anthropic开源漏洞挖掘服务，落地安全实践"
     },
     {
       "title": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
       "sourceUrl": "https://openai.com/index/asana-browser-agent",
       "source": "OpenAI",
-      "reason": "Asana模型成本降76倍，工程优化极具参考价值"
+      "reason": "Asana模型成本降76倍，工程优化标杆案例"
+    },
+    {
+      "title": "Caught in the Act: Probes Effectively Detect Sabotage and Catch Unverbalized Deception",
+      "sourceUrl": "http://arxiv.org/abs/2610.12445v1",
+      "source": "arXiv",
+      "reason": "探针检测破坏与未言明欺骗，对齐研究新进展"
     }
   ],
-  "trendSummary": "本周AI圈在安全评估、GPU调度和降本增效上持续发力，开源漏洞扫描与科研应用也明显升温。"
+  "trendSummary": "本周AI圈聚焦模型安全与降本增效，开源漏洞排查和科学模拟应用也在加速落地。"
 }
