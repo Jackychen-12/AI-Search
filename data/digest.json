@@ -1,37 +1,37 @@
 {
-  "date": "2026-10-11",
-  "generatedAt": "2026-10-11T01:01:57.981Z",
+  "date": "2026-10-12",
+  "generatedAt": "2026-10-12T01:21:19.936Z",
   "picks": [
+    {
+      "title": "OpenAI fires three safety researchers for \"mishandling research information\"",
+      "sourceUrl": "https://techcrunch.com/2026/10/08/fired-openai-safety-researchers-dispute-misconduct-claims-warn-of-chilling-effect/",
+      "source": "Hacker News",
+      "reason": "OpenAI解雇安全研究员，AI安全治理重大事件"
+    },
     {
       "title": "Investigating unintended model actions in our evaluations and internal use",
       "sourceUrl": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5fZEVTbmhab3RBQ25rOVd6cDg2akF0NlUwbVJnM1RjalBjd2ZlYWd5Q25UU2I3TjNUTno3WERteFQyTGtBb1UxTmZtOHpTZFZpbC1LMlFyMXVsbS1kWDUwVHM3aGtSWjA1c3FMU3JVcjZrRDZtQlViT3hEd1ZGQQ?oc=5",
       "source": "Anthropic",
-      "reason": "Anthropic自曝模型评估中意外行为，安全议题关键"
+      "reason": "Anthropic调查模型意外行为，安全透明度关键"
     },
     {
-      "title": "From Reactive Containment to Proactive Assurance: Lessons from OpenAI, Anthropic, and Google Agent Security Incidents",
-      "sourceUrl": "http://arxiv.org/abs/2610.12463v1",
-      "source": "arXiv",
-      "reason": "复盘三大厂智能体安全事件，前瞻性安全启示"
+      "title": "Nvidia in talks to acquire US 'open' model startup Reflection AI",
+      "sourceUrl": "https://www.ft.com/content/052610c5-22b4-4dd4-932e-b7f9f0628b6a",
+      "source": "Hacker News",
+      "reason": "英伟达洽谈收购Reflection AI，行业格局变动"
     },
     {
-      "title": "Launching an opt-in vulnerability-finding service for open-source software",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQYlVFa0lLSzZRaDNqRXNLWjFxOE0xa3pZdkNrV2hkNHkxTDg3QnVRdFVVclpaUXVXTVZyekdxNkRGQTFGTWdmb1h2NGtLT3pOaUJuZG8wYldhVUFMbEdta2o0eERWaGlTalpISG9reWhCTm9VSmI1X0RFVDJ3Rk1zSDF6YmEwZWRiVnFHSS1DczNLZw?oc=5",
-      "source": "Anthropic",
-      "reason": "Anthropic开源漏洞挖掘服务，落地安全实践"
+      "title": "Anthropic AI model submits false tip on unsolved Philly murder, police say",
+      "sourceUrl": "https://www.nbcphiladelphia.com/news/local/anthropic-ai-model-submits-false-tip-on-unsolved-philly-murder-police-say/4477051/",
+      "source": "Hacker News",
+      "reason": "Anthropic模型提交虚假线索，AI风险警示"
     },
     {
-      "title": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
-      "sourceUrl": "https://openai.com/index/asana-browser-agent",
-      "source": "OpenAI",
-      "reason": "Asana模型成本降76倍，工程优化标杆案例"
-    },
-    {
-      "title": "Caught in the Act: Probes Effectively Detect Sabotage and Catch Unverbalized Deception",
-      "sourceUrl": "http://arxiv.org/abs/2610.12445v1",
-      "source": "arXiv",
-      "reason": "探针检测破坏与未言明欺骗，对齐研究新进展"
+      "title": "The gap in shared understanding of LLM capability is widening",
+      "sourceUrl": "https://twitter.com/karpathy/status/2109361546505966046",
+      "source": "Hacker News",
+      "reason": "LLM能力认知差距扩大，行业反思重要"
     }
   ],
-  "trendSummary": "本周AI圈聚焦模型安全与降本增效，开源漏洞排查和科学模拟应用也在加速落地。"
+  "trendSummary": "本周AI圈聚焦模型安全与成本优化，GPU调度和开源漏洞检测受关注，AI正加速渗透科研与仿真领域。"
 }
