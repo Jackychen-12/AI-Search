@@ -1,37 +1,37 @@
 {
-  "date": "2026-10-13",
-  "generatedAt": "2026-10-13T03:04:00.712Z",
+  "date": "2026-10-14",
+  "generatedAt": "2026-10-14T01:14:55.869Z",
   "picks": [
+    {
+      "title": "Gemini 4 Argon: Built to solve your hardest problems",
+      "sourceUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
+      "source": "Google AI",
+      "reason": "Gemini 4 Argon发布，面向开发者与科学家的最强模型"
+    },
+    {
+      "title": "Developing Gemini 4 Argon responsibly and safely",
+      "sourceUrl": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/",
+      "source": "Google DeepMind",
+      "reason": "DeepMind详解Gemini 4安全开发，负责任AI标杆"
+    },
     {
       "title": "AI models may be capable of self-replicating without access to a datacenter",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBRTnpIbVhZdVJZa2ZyVy1Namo1b3Qxcm5IVEVJcmllZ0tITVJkd1FKTjBJazBDU3JRX055UHdkTUxtM0hQbG1aSmpKaFZxMFRTU1YzUzNtWi1jU2hiUjR6c3E5VWk?oc=5",
       "source": "Anthropic",
-      "reason": "Anthropic警示AI或能脱离数据中心自我复制，安全议题重大"
+      "reason": "Anthropic警示AI或可无数据中心自我复制，安全重大"
     },
     {
-      "title": "The gap in shared understanding of LLM capability is widening",
-      "sourceUrl": "https://twitter.com/karpathy/status/2109361546505966046",
-      "source": "Hacker News",
-      "reason": "LLM能力认知鸿沟扩大，关乎行业预期与风险判断"
+      "title": "Higgsfield takes AI video from 1 minute to over 10",
+      "sourceUrl": "https://openai.com/index/higgsfield-longer-videos-voice",
+      "source": "OpenAI",
+      "reason": "Higgsfield借GPT-6将AI视频延长至10分钟以上"
     },
     {
-      "title": "OCP Global Summit: Amid Ecosystem Adoption, NVIDIA Opens Vera Rubin Architecture to Help Scale AI Factories Worldwide",
-      "sourceUrl": "https://blogs.nvidia.com/blog/ocp-global-summit-vera-rubin-scale-ai-factories/",
-      "source": "NVIDIA",
-      "reason": "英伟达开放Vera Rubin架构，AI工厂迈向吉瓦级"
-    },
-    {
-      "title": "Simulating student learning for better AI tutoring",
-      "sourceUrl": "https://www.microsoft.com/en-us/research/blog/simulating-student-learning-for-better-ai-tutoring/",
-      "source": "Microsoft Research",
-      "reason": "微软用学生模拟评估AI辅导，教育落地方法创新"
-    },
-    {
-      "title": "Minions: A Dynamic and Distributed Virtual GPU Cloud Built on Idle Apple Silicon Devices",
-      "sourceUrl": "https://machinelearning.apple.com/research/distributed-gpu-cloud",
-      "source": "Apple ML Research",
-      "reason": "苹果用闲置芯片组分布式GPU云，算力思路新颖"
+      "title": "How artificial neural networks build their own learning machinery",
+      "sourceUrl": "https://news.mit.edu/2026/how-artificial-neural-networks-build-their-own-learning-machinery-1013",
+      "source": "MIT News",
+      "reason": "MIT揭示神经网络自主学习机制，理论突破"
     }
   ],
-  "trendSummary": "本周AI圈聚焦模型自主性与分布式算力突破，同时法律、翻译等垂直应用加速落地，开源社区对AI贡献的争议也在升温。"
+  "trendSummary": "本周谷歌Gemini 4 Argon发布、端侧智能体与AI视频时长突破成焦点，同时模型自我复制能力引发安全关注。"
 }
