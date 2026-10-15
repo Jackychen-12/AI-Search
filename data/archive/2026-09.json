@@ -19291,7 +19291,7 @@
     "aiSelected": true,
     "origin": "rss:interconnects",
     "aiNote": null,
-    "heat": 23,
+    "heat": 22,
     "firstSeen": "2026-09-09T00:17:30.368Z",
     "fetchedAt": null,
     "tier": 2
@@ -19418,7 +19418,7 @@
     "aiSelected": true,
     "origin": "rss:bensbites",
     "aiNote": null,
-    "heat": 23,
+    "heat": 22,
     "firstSeen": "2026-09-09T00:17:30.368Z",
     "fetchedAt": null,
     "tier": 2
@@ -28623,7 +28623,7 @@
     "origin": "hackernews",
     "aiNote": null,
     "image": null,
-    "heat": 18,
+    "heat": 17,
     "firstSeen": "2026-09-12T00:20:23.191Z",
     "fetchedAt": null,
     "tier": 2
@@ -28678,7 +28678,7 @@
     "origin": "hackernews",
     "aiNote": null,
     "image": null,
-    "heat": 17,
+    "heat": 16,
     "firstSeen": "2026-09-12T00:20:23.191Z",
     "fetchedAt": null,
     "tier": 2
@@ -31192,7 +31192,7 @@
     "aiSelected": true,
     "origin": "rss:smol-ainews",
     "aiNote": null,
-    "heat": 23,
+    "heat": 22,
     "firstSeen": "2026-09-13T00:01:28.233Z",
     "fetchedAt": null,
     "tier": 2
@@ -32806,7 +32806,7 @@
     "aiSelected": true,
     "origin": "rss:google-ai",
     "aiNote": "谷歌研究高管对话女航天员，科技如何助力深空探索值得关注。",
-    "heat": 32,
+    "heat": 31,
     "firstSeen": "2026-09-15T00:40:26.311Z",
     "fetchedAt": null,
     "tier": 1
@@ -33060,7 +33060,7 @@
     "aiSelected": true,
     "origin": "rss:google-ai",
     "aiNote": null,
-    "heat": 32,
+    "heat": 31,
     "firstSeen": "2026-09-15T00:40:26.311Z",
     "fetchedAt": null,
     "tier": 1
@@ -42340,7 +42340,7 @@
     "origin": "hackernews",
     "aiNote": null,
     "image": null,
-    "heat": 23,
+    "heat": 24,
     "firstSeen": "2026-09-23T00:36:46.696Z",
     "fetchedAt": null,
     "tier": 2
@@ -46229,7 +46229,7 @@
     "origin": "github",
     "aiNote": null,
     "image": null,
-    "heat": 25,
+    "heat": 24,
     "firstSeen": "2026-09-21T00:17:52.990Z",
     "fetchedAt": null,
     "tier": 2
@@ -46729,7 +46729,7 @@
     "aiSelected": true,
     "origin": "rss:interconnects",
     "aiNote": "真正通用智能仍遥远，行业需警惕过度炒作与安全风险。",
-    "heat": 24,
+    "heat": 23,
     "firstSeen": "2026-09-20T00:09:37.242Z",
     "fetchedAt": null,
     "tier": 2
@@ -48583,7 +48583,7 @@
       "llm",
       "Python"
     ],
-    "engagement": 2316,
+    "engagement": 2337,
     "aiSelected": true,
     "origin": "github",
     "aiNote": null,
@@ -50076,7 +50076,7 @@
       "chat-assistant",
       "Kotlin"
     ],
-    "engagement": 7714,
+    "engagement": 7749,
     "aiSelected": true,
     "origin": "github",
     "aiNote": null,
@@ -50957,7 +50957,7 @@
       "ai-agents",
       "api"
     ],
-    "engagement": 185,
+    "engagement": 187,
     "aiSelected": true,
     "origin": "github",
     "aiNote": null,
@@ -51246,12 +51246,12 @@
       "python",
       "Python"
     ],
-    "engagement": 117,
+    "engagement": 120,
     "aiSelected": true,
     "origin": "github",
     "aiNote": null,
     "image": null,
-    "heat": 23,
+    "heat": 22,
     "firstSeen": "2026-09-22T00:52:16.574Z",
     "fetchedAt": null,
     "tier": 2
@@ -54388,7 +54388,7 @@
       "generative-ai",
       "TypeScript"
     ],
-    "engagement": 1499,
+    "engagement": 1729,
     "aiSelected": true,
     "origin": "github",
     "aiNote": null,
@@ -55599,7 +55599,7 @@
     "aiSelected": true,
     "origin": "rss:google-ai",
     "aiNote": null,
-    "heat": 34,
+    "heat": 33,
     "firstSeen": "2026-09-24T00:31:22.914Z",
     "fetchedAt": null,
     "tier": 1
@@ -55803,7 +55803,7 @@
     "aiSelected": true,
     "origin": "rss:msr",
     "aiNote": null,
-    "heat": 34,
+    "heat": 33,
     "firstSeen": "2026-09-24T00:31:22.914Z",
     "fetchedAt": null,
     "tier": 1
@@ -55820,7 +55820,7 @@
     "aiSelected": true,
     "origin": "rss:deepmind",
     "aiNote": null,
-    "heat": 34,
+    "heat": 33,
     "firstSeen": "2026-09-24T00:31:22.914Z",
     "fetchedAt": null,
     "tier": 1
@@ -55909,7 +55909,7 @@
     "aiSelected": true,
     "origin": "rss:deepmind",
     "aiNote": null,
-    "heat": 34,
+    "heat": 33,
     "firstSeen": "2026-09-24T00:31:22.914Z",
     "fetchedAt": null,
     "tier": 1
@@ -57399,7 +57399,7 @@
       "obsidian",
       "Swift"
     ],
-    "engagement": 1420,
+    "engagement": 1446,
     "aiSelected": true,
     "origin": "github",
     "aiNote": null,
@@ -57643,7 +57643,7 @@
       "cinematography",
       "claude-skill"
     ],
-    "engagement": 149,
+    "engagement": 151,
     "aiSelected": true,
     "origin": "github",
     "aiNote": null,
@@ -57690,7 +57690,7 @@
     "origin": "github",
     "aiNote": null,
     "image": null,
-    "heat": 19,
+    "heat": 18,
     "firstSeen": "2026-09-24T00:31:22.914Z",
     "fetchedAt": null,
     "tier": 2
@@ -59337,7 +59337,7 @@
     "aiSelected": true,
     "origin": "rss:bensbites",
     "aiNote": null,
-    "heat": 25,
+    "heat": 24,
     "firstSeen": "2026-09-25T00:34:19.665Z",
     "fetchedAt": null,
     "tier": 2
@@ -62481,7 +62481,7 @@
     "aiSelected": true,
     "origin": "rss:tldr-ai",
     "aiNote": null,
-    "heat": 25,
+    "heat": 24,
     "firstSeen": "2026-09-26T00:38:26.032Z",
     "fetchedAt": null,
     "tier": 2
@@ -63251,7 +63251,7 @@
       "gemini-cli",
       "Go"
     ],
-    "engagement": 11555,
+    "engagement": 12714,
     "aiSelected": true,
     "origin": "github",
     "aiNote": null,
@@ -63429,7 +63429,7 @@
       "mcp",
       "Python"
     ],
-    "engagement": 131,
+    "engagement": 132,
     "aiSelected": true,
     "origin": "github",
     "aiNote": null,
@@ -64230,7 +64230,7 @@
       "claude-skills",
       "HTML"
     ],
-    "engagement": 30,
+    "engagement": 31,
     "aiSelected": true,
     "origin": "github",
     "aiNote": null,
@@ -65148,7 +65148,7 @@
       "agentic-memory",
       "Python"
     ],
-    "engagement": 206,
+    "engagement": 210,
     "aiSelected": true,
     "origin": "github",
     "aiNote": null,
@@ -65793,7 +65793,7 @@
     "aiSelected": true,
     "origin": "rss:google-ai",
     "aiNote": "AI与人类共创叙事摘得大奖，预示内容生产新范式。",
-    "heat": 36,
+    "heat": 35,
     "firstSeen": "2026-09-29T01:59:45.220Z",
     "fetchedAt": null,
     "tier": 1
@@ -66196,7 +66196,7 @@
     "aiSelected": true,
     "origin": "rss:mistral",
     "aiNote": null,
-    "heat": 36,
+    "heat": 35,
     "firstSeen": "2026-09-29T01:59:45.220Z",
     "fetchedAt": null,
     "tier": 1
@@ -66709,7 +66709,7 @@
     "aiSelected": true,
     "origin": "rss:hf-blog",
     "aiNote": null,
-    "heat": 36,
+    "heat": 35,
     "firstSeen": "2026-09-29T01:59:45.220Z",
     "fetchedAt": null,
     "tier": 1
@@ -67014,7 +67014,7 @@
     "aiSelected": true,
     "origin": "rss:tldr-ai",
     "aiNote": null,
-    "heat": 26,
+    "heat": 25,
     "firstSeen": "2026-09-29T01:59:45.220Z",
     "fetchedAt": null,
     "tier": 2
@@ -68273,7 +68273,7 @@
       "go",
       "Go"
     ],
-    "engagement": 592,
+    "engagement": 601,
     "aiSelected": true,
     "origin": "github",
     "aiNote": null,
@@ -69539,7 +69539,7 @@
     "aiSelected": true,
     "origin": "rss:anthropic",
     "aiNote": "中国开源大模型正把高级网络攻防能力扩散到全球，这比技术本身更值得警惕。",
-    "heat": 36,
+    "heat": 35,
     "firstSeen": "2026-09-30T09:21:48.562Z",
     "fetchedAt": null,
     "tier": 1
@@ -70625,7 +70625,7 @@
     "aiSelected": true,
     "origin": "rss:mit-news-ai",
     "aiNote": null,
-    "heat": 36,
+    "heat": 35,
     "firstSeen": "2026-09-30T01:18:44.626Z",
     "fetchedAt": null,
     "tier": 1
@@ -70642,7 +70642,7 @@
     "aiSelected": true,
     "origin": "rss:mit-news-ai",
     "aiNote": null,
-    "heat": 36,
+    "heat": 35,
     "firstSeen": "2026-09-30T01:18:44.626Z",
     "fetchedAt": null,
     "tier": 1
@@ -70747,12 +70747,12 @@
       "daily-digest",
       "TypeScript"
     ],
-    "engagement": 7510,
+    "engagement": 7647,
     "aiSelected": true,
     "origin": "github",
     "aiNote": null,
     "image": null,
-    "heat": 35,
+    "heat": 34,
     "firstSeen": "2026-09-30T01:18:44.626Z",
     "fetchedAt": null,
     "tier": 2
@@ -71337,12 +71337,12 @@
       "gui-agent",
       "Python"
     ],
-    "engagement": 165,
+    "engagement": 168,
     "aiSelected": true,
     "origin": "github",
     "aiNote": null,
     "image": null,
-    "heat": 27,
+    "heat": 26,
     "firstSeen": "2026-09-30T01:18:44.626Z",
     "fetchedAt": null,
     "tier": 2
@@ -71362,7 +71362,7 @@
       "chinese",
       "Python"
     ],
-    "engagement": 171,
+    "engagement": 189,
     "aiSelected": true,
     "origin": "github",
     "aiNote": null,
@@ -71918,7 +71918,7 @@
     "origin": "github",
     "aiNote": null,
     "image": null,
-    "heat": 27,
+    "heat": 26,
     "firstSeen": "2026-09-30T01:18:44.626Z",
     "fetchedAt": null,
     "tier": 2
@@ -72006,7 +72006,7 @@
       "journione",
       "JavaScript"
     ],
-    "engagement": 844,
+    "engagement": 877,
     "aiSelected": true,
     "origin": "github",
     "aiNote": null,
@@ -72300,12 +72300,12 @@
       "generative-ai",
       "JavaScript"
     ],
-    "engagement": 253,
+    "engagement": 255,
     "aiSelected": true,
     "origin": "github",
     "aiNote": "开源框架把AI生成3D资产与电影级网页体验合一，二十个示例让独立开发者也能低成本搭建交互式三维站点。",
     "image": null,
-    "heat": 30,
+    "heat": 29,
     "firstSeen": "2026-09-30T07:14:03.171Z",
     "fetchedAt": null,
     "tier": 2
