@@ -1,37 +1,37 @@
 {
-  "date": "2026-10-15",
-  "generatedAt": "2026-10-15T00:33:41.917Z",
+  "date": "2026-10-16",
+  "generatedAt": "2026-10-16T00:25:59.245Z",
   "picks": [
     {
-      "title": "Amp puts AI agents to work beyond code with OpenAI models",
-      "sourceUrl": "https://openai.com/index/amp-beyond-coding",
-      "source": "OpenAI",
-      "reason": "Amp借GPT-6 Astra拓展agent边界，行业风向标"
+      "title": "Welcome Muse Spark Open: open-weight frontier multimodal mixture-of-experts model from Meta",
+      "sourceUrl": "https://huggingface.co/blog/meta-muse-spark-open",
+      "source": "HuggingFace Blog",
+      "reason": "Meta开源前沿多模态MoE模型，开放权重意义重大"
     },
     {
-      "title": "How Third Moment Research runs 10,000 agents for 36+ hours",
-      "sourceUrl": "https://openai.com/index/third-moment-research",
+      "title": "Bringing GPT-Rosalind to academic research labs",
+      "sourceUrl": "https://openai.com/index/introducing-the-rosalind-academic-plan",
       "source": "OpenAI",
-      "reason": "万级agent长时运行，展示规模化落地新高度"
+      "reason": "OpenAI面向学术实验室推出赞助计划，推动科研"
     },
     {
-      "title": "Researchers improve weather forecasts looking two to six weeks out",
-      "sourceUrl": "https://news.mit.edu/2026/researchers-improve-weather-forecasts-looking-two-six-weeks-out-1014",
+      "title": "Accelerating the search for antimicrobial peptides with Google Antigravity",
+      "sourceUrl": "https://deepmind.google/blog/accelerating-antimicrobial-discovery/",
+      "source": "Google DeepMind",
+      "reason": "DeepMind用AI加速抗菌肽发现，医疗应用前景广"
+    },
+    {
+      "title": "State of Supply Chain Sustainability Report finds corporate commitment at record high, but governance lags behind",
+      "sourceUrl": "https://news.mit.edu/2026/state-of-supply-chain-sustainability-report-1015",
       "source": "MIT News",
-      "reason": "MIT机器学习天气预报破纪录，2-6周预测突破"
+      "reason": "MIT供应链可持续报告：承诺创新高但治理滞后"
     },
     {
-      "title": "Google DeepMind and Singapore Government collaborate to build fine-tuned AI model for scam detection",
-      "sourceUrl": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/",
-      "source": "Google DeepMind",
-      "reason": "DeepMind与新加坡合作端侧反诈模型，实用性强"
-    },
-    {
-      "title": "Developing Gemini 4 Argon responsibly and safely",
-      "sourceUrl": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/",
-      "source": "Google DeepMind",
-      "reason": "Gemini 4 Argon安全开发，关注前沿模型动向"
+      "title": "Introducing Timestral",
+      "sourceUrl": "https://mistral.ai/news/timestral/",
+      "source": "Mistral AI",
+      "reason": "Mistral推出高效概率预测模型，CPU可运行"
     }
   ],
-  "trendSummary": "本周AI正加速落地地球观测、气象预测与城市安全，多智能体规模化运行成新焦点。"
+  "trendSummary": "本周AI圈从供应链治理到细胞语言解码全面开花，模型能力持续向科研、教育与产业纵深渗透，落地节奏明显加快。"
 }

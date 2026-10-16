@@ -19863,7 +19863,7 @@
     "origin": "hackernews",
     "aiNote": null,
     "image": null,
-    "heat": 22,
+    "heat": 21,
     "firstSeen": "2026-09-09T00:17:30.368Z",
     "fetchedAt": null,
     "tier": 2
@@ -21696,7 +21696,7 @@
     "aiSelected": true,
     "origin": "rss:raschka",
     "aiNote": null,
-    "heat": 23,
+    "heat": 22,
     "firstSeen": "2026-09-10T00:17:09.236Z",
     "fetchedAt": null,
     "tier": 2
@@ -21713,7 +21713,7 @@
     "aiSelected": true,
     "origin": "rss:interconnects",
     "aiNote": null,
-    "heat": 23,
+    "heat": 22,
     "firstSeen": "2026-09-10T00:17:09.236Z",
     "fetchedAt": null,
     "tier": 2
@@ -31150,7 +31150,7 @@
     "aiSelected": true,
     "origin": "rss:smol-ainews",
     "aiNote": null,
-    "heat": 23,
+    "heat": 22,
     "firstSeen": "2026-09-13T00:01:28.233Z",
     "fetchedAt": null,
     "tier": 2
@@ -35416,7 +35416,7 @@
     "aiSelected": true,
     "origin": "rss:google-research",
     "aiNote": "用检索替代训练期搜索，为复杂推理降本增效开辟新路径。",
-    "heat": 32,
+    "heat": 31,
     "firstSeen": "2026-09-16T00:23:51.330Z",
     "fetchedAt": null,
     "tier": 1
@@ -35819,7 +35819,7 @@
     "aiSelected": true,
     "origin": "rss:hf-blog",
     "aiNote": null,
-    "heat": 32,
+    "heat": 31,
     "firstSeen": "2026-09-16T00:23:51.330Z",
     "fetchedAt": null,
     "tier": 1
@@ -35836,7 +35836,7 @@
     "aiSelected": true,
     "origin": "rss:google-ai",
     "aiNote": null,
-    "heat": 32,
+    "heat": 31,
     "firstSeen": "2026-09-16T00:23:51.330Z",
     "fetchedAt": null,
     "tier": 1
@@ -35853,7 +35853,7 @@
     "aiSelected": true,
     "origin": "rss:google-ai",
     "aiNote": null,
-    "heat": 32,
+    "heat": 31,
     "firstSeen": "2026-09-16T00:23:51.330Z",
     "fetchedAt": null,
     "tier": 1
@@ -35870,7 +35870,7 @@
     "aiSelected": true,
     "origin": "rss:google-ai",
     "aiNote": null,
-    "heat": 32,
+    "heat": 31,
     "firstSeen": "2026-09-16T00:23:51.330Z",
     "fetchedAt": null,
     "tier": 1
@@ -36158,7 +36158,7 @@
     "aiSelected": true,
     "origin": "rss:google-ai",
     "aiNote": null,
-    "heat": 32,
+    "heat": 31,
     "firstSeen": "2026-09-16T00:23:51.330Z",
     "fetchedAt": null,
     "tier": 1
@@ -39853,7 +39853,7 @@
     "origin": "hackernews",
     "aiNote": null,
     "image": null,
-    "heat": 18,
+    "heat": 17,
     "firstSeen": "2026-09-17T00:34:39.015Z",
     "fetchedAt": null,
     "tier": 2
@@ -41861,7 +41861,7 @@
     "origin": "hackernews",
     "aiNote": null,
     "image": null,
-    "heat": 21,
+    "heat": 20,
     "firstSeen": "2026-09-18T00:22:03.995Z",
     "fetchedAt": null,
     "tier": 2
@@ -42340,7 +42340,7 @@
     "origin": "hackernews",
     "aiNote": null,
     "image": null,
-    "heat": 24,
+    "heat": 23,
     "firstSeen": "2026-09-23T00:36:46.696Z",
     "fetchedAt": null,
     "tier": 2
@@ -45808,12 +45808,12 @@
       "apple-silicon",
       "Vue"
     ],
-    "engagement": 157,
+    "engagement": 161,
     "aiSelected": true,
     "origin": "github",
     "aiNote": null,
     "image": null,
-    "heat": 24,
+    "heat": 23,
     "firstSeen": "2026-09-19T00:22:43.918Z",
     "fetchedAt": null,
     "tier": 2
@@ -47306,7 +47306,7 @@
     "origin": "hackernews",
     "aiNote": null,
     "image": null,
-    "heat": 17,
+    "heat": 16,
     "firstSeen": "2026-09-20T00:09:37.242Z",
     "fetchedAt": null,
     "tier": 2
@@ -47361,7 +47361,7 @@
     "origin": "hackernews",
     "aiNote": null,
     "image": null,
-    "heat": 24,
+    "heat": 23,
     "firstSeen": "2026-09-20T00:09:37.242Z",
     "fetchedAt": null,
     "tier": 2
@@ -48583,7 +48583,7 @@
       "llm",
       "Python"
     ],
-    "engagement": 2337,
+    "engagement": 2357,
     "aiSelected": true,
     "origin": "github",
     "aiNote": null,
@@ -50076,7 +50076,7 @@
       "chat-assistant",
       "Kotlin"
     ],
-    "engagement": 7749,
+    "engagement": 7787,
     "aiSelected": true,
     "origin": "github",
     "aiNote": null,
@@ -50539,7 +50539,7 @@
     "aiSelected": true,
     "origin": "rss:hf-blog",
     "aiNote": null,
-    "heat": 33,
+    "heat": 32,
     "firstSeen": "2026-09-22T00:52:16.574Z",
     "fetchedAt": null,
     "tier": 1
@@ -50957,7 +50957,7 @@
       "ai-agents",
       "api"
     ],
-    "engagement": 187,
+    "engagement": 190,
     "aiSelected": true,
     "origin": "github",
     "aiNote": null,
@@ -53036,7 +53036,7 @@
     "origin": "hackernews",
     "aiNote": null,
     "image": null,
-    "heat": 25,
+    "heat": 24,
     "firstSeen": "2026-09-23T00:36:46.696Z",
     "fetchedAt": null,
     "tier": 2
@@ -54388,7 +54388,7 @@
       "generative-ai",
       "TypeScript"
     ],
-    "engagement": 1729,
+    "engagement": 1812,
     "aiSelected": true,
     "origin": "github",
     "aiNote": null,
@@ -57203,7 +57203,7 @@
     "origin": "hackernews",
     "aiNote": null,
     "image": null,
-    "heat": 20,
+    "heat": 19,
     "firstSeen": "2026-09-24T00:31:22.914Z",
     "fetchedAt": null,
     "tier": 2
@@ -57399,12 +57399,12 @@
       "obsidian",
       "Swift"
     ],
-    "engagement": 1446,
+    "engagement": 1479,
     "aiSelected": true,
     "origin": "github",
     "aiNote": null,
     "image": null,
-    "heat": 30,
+    "heat": 29,
     "firstSeen": "2026-09-24T00:31:22.914Z",
     "fetchedAt": null,
     "tier": 2
@@ -57643,12 +57643,12 @@
       "cinematography",
       "claude-skill"
     ],
-    "engagement": 151,
+    "engagement": 152,
     "aiSelected": true,
     "origin": "github",
     "aiNote": null,
     "image": null,
-    "heat": 24,
+    "heat": 23,
     "firstSeen": "2026-09-24T00:31:22.914Z",
     "fetchedAt": null,
     "tier": 2
@@ -58234,7 +58234,7 @@
     "aiSelected": true,
     "origin": "rss:google-research",
     "aiNote": "长视频生成从片段拼凑迈向连贯叙事，自动化突破将重塑影视与内容创作门槛。",
-    "heat": 34,
+    "heat": 33,
     "firstSeen": "2026-09-25T00:34:19.665Z",
     "fetchedAt": null,
     "tier": 1
@@ -58646,7 +58646,7 @@
     "aiSelected": true,
     "origin": "rss:deepmind",
     "aiNote": null,
-    "heat": 34,
+    "heat": 33,
     "firstSeen": "2026-09-25T00:34:19.665Z",
     "fetchedAt": null,
     "tier": 1
@@ -59413,7 +59413,7 @@
     "origin": "hackernews",
     "aiNote": null,
     "image": null,
-    "heat": 25,
+    "heat": 24,
     "firstSeen": "2026-09-25T00:34:19.665Z",
     "fetchedAt": null,
     "tier": 2
@@ -61020,7 +61020,7 @@
     "origin": "github",
     "aiNote": null,
     "image": null,
-    "heat": 19,
+    "heat": 18,
     "firstSeen": "2026-09-25T00:34:19.665Z",
     "fetchedAt": null,
     "tier": 2
@@ -61518,7 +61518,7 @@
     "origin": "hackernews",
     "aiNote": "开源决策模型迎来轻量本地化部署工具，降低AI决策应用门槛。",
     "image": null,
-    "heat": 32,
+    "heat": 31,
     "firstSeen": "2026-09-26T00:38:26.032Z",
     "fetchedAt": null,
     "tier": 2
@@ -62090,7 +62090,7 @@
     "aiSelected": true,
     "origin": "rss:bensbites",
     "aiNote": null,
-    "heat": 25,
+    "heat": 24,
     "firstSeen": "2026-09-26T00:38:26.032Z",
     "fetchedAt": null,
     "tier": 2
@@ -63251,7 +63251,7 @@
       "gemini-cli",
       "Go"
     ],
-    "engagement": 12714,
+    "engagement": 13444,
     "aiSelected": true,
     "origin": "github",
     "aiNote": null,
@@ -63387,7 +63387,7 @@
     "origin": "hackernews",
     "aiNote": null,
     "image": null,
-    "heat": 20,
+    "heat": 19,
     "firstSeen": "2026-09-26T00:38:26.032Z",
     "fetchedAt": null,
     "tier": 2
@@ -63613,7 +63613,7 @@
     "origin": "hackernews",
     "aiNote": "国产大模型开始补算力调度这块短板，能否撑起大规模推理训练值得关注。",
     "image": null,
-    "heat": 30,
+    "heat": 29,
     "firstSeen": "2026-09-27T00:39:25.031Z",
     "fetchedAt": null,
     "tier": 2
@@ -64230,12 +64230,12 @@
       "claude-skills",
       "HTML"
     ],
-    "engagement": 31,
+    "engagement": 32,
     "aiSelected": true,
     "origin": "github",
     "aiNote": null,
     "image": null,
-    "heat": 19,
+    "heat": 18,
     "firstSeen": "2026-09-27T00:39:25.031Z",
     "fetchedAt": null,
     "tier": 2
@@ -65148,7 +65148,7 @@
       "agentic-memory",
       "Python"
     ],
-    "engagement": 210,
+    "engagement": 212,
     "aiSelected": true,
     "origin": "github",
     "aiNote": null,
@@ -66531,7 +66531,7 @@
     "aiSelected": true,
     "origin": "rss:importai",
     "aiNote": null,
-    "heat": 26,
+    "heat": 25,
     "firstSeen": "2026-09-29T01:59:45.220Z",
     "fetchedAt": null,
     "tier": 2
@@ -67060,7 +67060,7 @@
     "origin": "github",
     "aiNote": null,
     "image": null,
-    "heat": 17,
+    "heat": 16,
     "firstSeen": "2026-09-29T01:59:45.220Z",
     "fetchedAt": null,
     "tier": 2
@@ -68273,12 +68273,12 @@
       "go",
       "Go"
     ],
-    "engagement": 601,
+    "engagement": 606,
     "aiSelected": true,
     "origin": "github",
     "aiNote": null,
     "image": null,
-    "heat": 28,
+    "heat": 27,
     "firstSeen": "2026-09-29T01:59:45.220Z",
     "fetchedAt": null,
     "tier": 2
@@ -68881,7 +68881,7 @@
     "aiSelected": true,
     "origin": "rss:google-research",
     "aiNote": "扩散控制器把生成控制从外挂变成内建，统一接口有望降低图像生成的门槛。",
-    "heat": 36,
+    "heat": 35,
     "firstSeen": "2026-09-30T01:18:44.626Z",
     "fetchedAt": null,
     "tier": 1
@@ -69717,7 +69717,7 @@
     "aiSelected": true,
     "origin": "rss:msr",
     "aiNote": "AI开始构建跨模态生物世界模型，有望打破数据孤岛，加速生命科学发现。",
-    "heat": 36,
+    "heat": 35,
     "firstSeen": "2026-09-30T01:18:44.626Z",
     "fetchedAt": null,
     "tier": 1
@@ -69768,7 +69768,7 @@
     "aiSelected": true,
     "origin": "rss:hf-blog",
     "aiNote": "MCP代理若只验事实不辨来源，仍可能被恶意数据源操纵，来源感知校验才是关键防线。",
-    "heat": 36,
+    "heat": 35,
     "firstSeen": "2026-09-30T01:18:44.626Z",
     "fetchedAt": null,
     "tier": 1
@@ -69942,7 +69942,7 @@
     "aiSelected": true,
     "origin": "rss:raschka",
     "aiNote": null,
-    "heat": 26,
+    "heat": 25,
     "firstSeen": "2026-09-30T01:18:44.626Z",
     "fetchedAt": null,
     "tier": 2
@@ -70727,7 +70727,7 @@
     "aiSelected": true,
     "origin": "rss:tldr-ai",
     "aiNote": null,
-    "heat": 26,
+    "heat": 25,
     "firstSeen": "2026-09-30T01:18:44.626Z",
     "fetchedAt": null,
     "tier": 2
@@ -70747,7 +70747,7 @@
       "daily-digest",
       "TypeScript"
     ],
-    "engagement": 7647,
+    "engagement": 7786,
     "aiSelected": true,
     "origin": "github",
     "aiNote": null,
@@ -71337,12 +71337,12 @@
       "gui-agent",
       "Python"
     ],
-    "engagement": 168,
+    "engagement": 171,
     "aiSelected": true,
     "origin": "github",
     "aiNote": null,
     "image": null,
-    "heat": 26,
+    "heat": 25,
     "firstSeen": "2026-09-30T01:18:44.626Z",
     "fetchedAt": null,
     "tier": 2
@@ -71362,7 +71362,7 @@
       "chinese",
       "Python"
     ],
-    "engagement": 189,
+    "engagement": 204,
     "aiSelected": true,
     "origin": "github",
     "aiNote": null,
@@ -72300,7 +72300,7 @@
       "generative-ai",
       "JavaScript"
     ],
-    "engagement": 255,
+    "engagement": 256,
     "aiSelected": true,
     "origin": "github",
     "aiNote": "开源框架把AI生成3D资产与电影级网页体验合一，二十个示例让独立开发者也能低成本搭建交互式三维站点。",
