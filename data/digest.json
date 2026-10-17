@@ -1,37 +1,37 @@
 {
-  "date": "2026-10-16",
-  "generatedAt": "2026-10-16T00:25:59.245Z",
+  "date": "2026-10-17",
+  "generatedAt": "2026-10-17T00:31:37.203Z",
   "picks": [
     {
-      "title": "Welcome Muse Spark Open: open-weight frontier multimodal mixture-of-experts model from Meta",
-      "sourceUrl": "https://huggingface.co/blog/meta-muse-spark-open",
+      "title": "Welcome Beam: a 501B open model you can own, customize, and scale",
+      "sourceUrl": "https://huggingface.co/blog/reflection-beam",
       "source": "HuggingFace Blog",
-      "reason": "Meta开源前沿多模态MoE模型，开放权重意义重大"
+      "reason": "501B开源大模型，可自持定制，开源生态重磅"
     },
     {
-      "title": "Bringing GPT-Rosalind to academic research labs",
-      "sourceUrl": "https://openai.com/index/introducing-the-rosalind-academic-plan",
-      "source": "OpenAI",
-      "reason": "OpenAI面向学术实验室推出赞助计划，推动科研"
+      "title": "Designing more efficient quantum circuits with Claude",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9mdmhqUzNHN09EMF9VUnNTcmlMTlpDVnlnTmxNa0tVY3h1bjJ4bmVDSWROR3JoRTgxb0dQcWYzNGF4dE9YYlNpRDlKVEx6OEVyM3RnY0R6WVRiZERYRVRtcnJ4WF9ZNWZFWVQ2a1Q5UFRnM2xYM0U5akZzOA?oc=5",
+      "source": "Anthropic",
+      "reason": "Claude设计量子电路，AI4Science前沿突破"
     },
     {
-      "title": "Accelerating the search for antimicrobial peptides with Google Antigravity",
-      "sourceUrl": "https://deepmind.google/blog/accelerating-antimicrobial-discovery/",
-      "source": "Google DeepMind",
-      "reason": "DeepMind用AI加速抗菌肽发现，医疗应用前景广"
+      "title": "Scaling Indic Pretraining: 2.8 Trillion Tokens and an Open Data Generation Pipeline",
+      "sourceUrl": "https://huggingface.co/blog/nvidia/scaling-indic-pretraining",
+      "source": "HuggingFace Blog",
+      "reason": "2.8万亿token印度语预训练，开放数据管线"
     },
     {
-      "title": "State of Supply Chain Sustainability Report finds corporate commitment at record high, but governance lags behind",
-      "sourceUrl": "https://news.mit.edu/2026/state-of-supply-chain-sustainability-report-1015",
+      "title": "AI model decodes the language cells use to communicate",
+      "sourceUrl": "https://news.mit.edu/2026/ai-model-decodes-language-cells-use-communicate-1015",
       "source": "MIT News",
-      "reason": "MIT供应链可持续报告：承诺创新高但治理滞后"
+      "reason": "AI解码细胞通讯语言，生物学重要进展"
     },
     {
-      "title": "Introducing Timestral",
-      "sourceUrl": "https://mistral.ai/news/timestral/",
-      "source": "Mistral AI",
-      "reason": "Mistral推出高效概率预测模型，CPU可运行"
+      "title": "How Itaú is building generative AI for its entire customer base",
+      "sourceUrl": "https://openai.com/index/itau-generative-ai",
+      "source": "OpenAI",
+      "reason": "Itaú规模化生成式AI落地，金融行业标杆"
     }
   ],
-  "trendSummary": "本周AI圈从供应链治理到细胞语言解码全面开花，模型能力持续向科研、教育与产业纵深渗透，落地节奏明显加快。"
+  "trendSummary": "本周AI圈聚焦落地与期待落差，金融、科研、就业多场景加速渗透，开源大模型与智能体生态持续升温。"
 }
