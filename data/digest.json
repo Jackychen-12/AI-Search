@@ -1,37 +1,37 @@
 {
-  "date": "2026-10-17",
-  "generatedAt": "2026-10-17T00:31:37.203Z",
+  "date": "2026-10-18",
+  "generatedAt": "2026-10-18T00:04:19.301Z",
   "picks": [
+    {
+      "title": "DeepSeek-v4.1-Flash-1017",
+      "sourceUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+      "source": "Hacker News",
+      "reason": "DeepSeek新模型发布，开源大模型竞争格局再起变化"
+    },
     {
       "title": "Welcome Beam: a 501B open model you can own, customize, and scale",
       "sourceUrl": "https://huggingface.co/blog/reflection-beam",
       "source": "HuggingFace Blog",
-      "reason": "501B开源大模型，可自持定制，开源生态重磅"
+      "reason": "501B开源大模型可自部署，开源生态重要里程碑"
+    },
+    {
+      "title": "RTX Spark Ignites Global Celebration as New Windows PCs Arrive",
+      "sourceUrl": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-windows-laptops-celebration/",
+      "source": "NVIDIA",
+      "reason": "RTX Spark笔记本上市，Blackwell消费级落地"
     },
     {
       "title": "Designing more efficient quantum circuits with Claude",
       "sourceUrl": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9mdmhqUzNHN09EMF9VUnNTcmlMTlpDVnlnTmxNa0tVY3h1bjJ4bmVDSWROR3JoRTgxb0dQcWYzNGF4dE9YYlNpRDlKVEx6OEVyM3RnY0R6WVRiZERYRVRtcnJ4WF9ZNWZFWVQ2a1Q5UFRnM2xYM0U5akZzOA?oc=5",
       "source": "Anthropic",
-      "reason": "Claude设计量子电路，AI4Science前沿突破"
-    },
-    {
-      "title": "Scaling Indic Pretraining: 2.8 Trillion Tokens and an Open Data Generation Pipeline",
-      "sourceUrl": "https://huggingface.co/blog/nvidia/scaling-indic-pretraining",
-      "source": "HuggingFace Blog",
-      "reason": "2.8万亿token印度语预训练，开放数据管线"
+      "reason": "Claude设计量子电路，AI科研应用前沿突破"
     },
     {
       "title": "AI model decodes the language cells use to communicate",
       "sourceUrl": "https://news.mit.edu/2026/ai-model-decodes-language-cells-use-communicate-1015",
       "source": "MIT News",
-      "reason": "AI解码细胞通讯语言，生物学重要进展"
-    },
-    {
-      "title": "How Itaú is building generative AI for its entire customer base",
-      "sourceUrl": "https://openai.com/index/itau-generative-ai",
-      "source": "OpenAI",
-      "reason": "Itaú规模化生成式AI落地，金融行业标杆"
+      "reason": "AI解码细胞通讯语言，生物医学交叉创新"
     }
   ],
-  "trendSummary": "本周AI圈聚焦落地与期待落差，金融、科研、就业多场景加速渗透，开源大模型与智能体生态持续升温。"
+  "trendSummary": "本周AI圈硬件新品与生成式AI落地齐头并进，量子计算和生物实验室自动化加速探索，同时业界正反思AI预期落差与就业变化。"
 }
