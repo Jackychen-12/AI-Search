@@ -3051,7 +3051,7 @@
     "aiSelected": true,
     "origin": "rss:google-ai",
     "aiNote": "谷歌八月密集发布AI更新，展示技术迭代速度，值得科技从业者密切关注。",
-    "heat": 31,
+    "heat": 30,
     "firstSeen": "2026-09-02T00:17:12.892Z",
     "fetchedAt": null,
     "tier": 1
@@ -3242,7 +3242,7 @@
     "aiSelected": true,
     "origin": "rss:google-research",
     "aiNote": "深度学习从太空精准追踪甲烷排放，为气候治理提供实时数据新利器。",
-    "heat": 31,
+    "heat": 30,
     "firstSeen": "2026-09-02T00:17:12.892Z",
     "fetchedAt": null,
     "tier": 1
@@ -3411,7 +3411,7 @@
     "aiSelected": true,
     "origin": "rss:deepmind",
     "aiNote": null,
-    "heat": 31,
+    "heat": 30,
     "firstSeen": "2026-09-02T00:17:12.892Z",
     "fetchedAt": null,
     "tier": 1
@@ -3619,7 +3619,7 @@
     "aiSelected": true,
     "origin": "rss:google-ai",
     "aiNote": null,
-    "heat": 31,
+    "heat": 30,
     "firstSeen": "2026-09-02T00:17:12.892Z",
     "fetchedAt": null,
     "tier": 1
@@ -28809,7 +28809,7 @@
     "origin": "hackernews",
     "aiNote": null,
     "image": null,
-    "heat": 15,
+    "heat": 14,
     "firstSeen": "2026-09-12T00:20:23.191Z",
     "fetchedAt": null,
     "tier": 2
@@ -39025,7 +39025,7 @@
     "origin": "hackernews",
     "aiNote": null,
     "image": null,
-    "heat": 23,
+    "heat": 24,
     "firstSeen": "2026-09-17T00:34:39.015Z",
     "fetchedAt": null,
     "tier": 2
@@ -41080,7 +41080,7 @@
     "aiSelected": true,
     "origin": "rss:google-research",
     "aiNote": "生成式界面让教师变身互动课件创作者，教育AI从辅助工具走向共创平台。",
-    "heat": 32,
+    "heat": 31,
     "firstSeen": "2026-09-18T00:22:03.995Z",
     "fetchedAt": null,
     "tier": 1
@@ -41861,7 +41861,7 @@
     "origin": "hackernews",
     "aiNote": null,
     "image": null,
-    "heat": 19,
+    "heat": 20,
     "firstSeen": "2026-09-18T00:22:03.995Z",
     "fetchedAt": null,
     "tier": 2
@@ -44782,7 +44782,7 @@
     "aiSelected": true,
     "origin": "rss:google-ai",
     "aiNote": null,
-    "heat": 32,
+    "heat": 31,
     "firstSeen": "2026-09-19T00:22:43.918Z",
     "fetchedAt": null,
     "tier": 1
@@ -44922,7 +44922,7 @@
     "aiSelected": true,
     "origin": "rss:google-ai",
     "aiNote": null,
-    "heat": 32,
+    "heat": 31,
     "firstSeen": "2026-09-19T00:22:43.918Z",
     "fetchedAt": null,
     "tier": 1
@@ -50076,7 +50076,7 @@
       "chat-assistant",
       "Kotlin"
     ],
-    "engagement": 7865,
+    "engagement": 7884,
     "aiSelected": true,
     "origin": "github",
     "aiNote": null,
@@ -54388,12 +54388,12 @@
       "generative-ai",
       "TypeScript"
     ],
-    "engagement": 1908,
+    "engagement": 1930,
     "aiSelected": true,
     "origin": "github",
     "aiNote": null,
     "image": null,
-    "heat": 30,
+    "heat": 29,
     "firstSeen": "2026-09-23T00:36:46.696Z",
     "fetchedAt": null,
     "tier": 2
@@ -56762,7 +56762,7 @@
     "aiSelected": true,
     "origin": "rss:tldr-ai",
     "aiNote": null,
-    "heat": 24,
+    "heat": 23,
     "firstSeen": "2026-09-24T00:31:22.914Z",
     "fetchedAt": null,
     "tier": 2
@@ -57399,7 +57399,7 @@
       "obsidian",
       "Swift"
     ],
-    "engagement": 1502,
+    "engagement": 1507,
     "aiSelected": true,
     "origin": "github",
     "aiNote": null,
@@ -58646,7 +58646,7 @@
     "aiSelected": true,
     "origin": "rss:deepmind",
     "aiNote": null,
-    "heat": 33,
+    "heat": 32,
     "firstSeen": "2026-09-25T00:34:19.665Z",
     "fetchedAt": null,
     "tier": 1
@@ -63251,7 +63251,7 @@
       "gemini-cli",
       "Go"
     ],
-    "engagement": 15043,
+    "engagement": 15920,
     "aiSelected": true,
     "origin": "github",
     "aiNote": null,
@@ -64235,7 +64235,7 @@
     "origin": "github",
     "aiNote": null,
     "image": null,
-    "heat": 18,
+    "heat": 17,
     "firstSeen": "2026-09-27T00:39:25.031Z",
     "fetchedAt": null,
     "tier": 2
@@ -65148,7 +65148,7 @@
       "agentic-memory",
       "Python"
     ],
-    "engagement": 218,
+    "engagement": 220,
     "aiSelected": true,
     "origin": "github",
     "aiNote": null,
@@ -66531,7 +66531,7 @@
     "aiSelected": true,
     "origin": "rss:importai",
     "aiNote": null,
-    "heat": 25,
+    "heat": 24,
     "firstSeen": "2026-09-29T01:59:45.220Z",
     "fetchedAt": null,
     "tier": 2
@@ -66709,7 +66709,7 @@
     "aiSelected": true,
     "origin": "rss:hf-blog",
     "aiNote": null,
-    "heat": 34,
+    "heat": 33,
     "firstSeen": "2026-09-29T01:59:45.220Z",
     "fetchedAt": null,
     "tier": 1
@@ -67060,7 +67060,7 @@
     "origin": "github",
     "aiNote": null,
     "image": null,
-    "heat": 16,
+    "heat": 15,
     "firstSeen": "2026-09-29T01:59:45.220Z",
     "fetchedAt": null,
     "tier": 2
@@ -70727,7 +70727,7 @@
     "aiSelected": true,
     "origin": "rss:tldr-ai",
     "aiNote": null,
-    "heat": 25,
+    "heat": 24,
     "firstSeen": "2026-09-30T01:18:44.626Z",
     "fetchedAt": null,
     "tier": 2
@@ -70747,7 +70747,7 @@
       "daily-digest",
       "TypeScript"
     ],
-    "engagement": 7945,
+    "engagement": 8010,
     "aiSelected": true,
     "origin": "github",
     "aiNote": null,
@@ -71342,7 +71342,7 @@
     "origin": "github",
     "aiNote": null,
     "image": null,
-    "heat": 25,
+    "heat": 24,
     "firstSeen": "2026-09-30T01:18:44.626Z",
     "fetchedAt": null,
     "tier": 2
@@ -71362,12 +71362,12 @@
       "chinese",
       "Python"
     ],
-    "engagement": 228,
+    "engagement": 242,
     "aiSelected": true,
     "origin": "github",
     "aiNote": null,
     "image": null,
-    "heat": 27,
+    "heat": 26,
     "firstSeen": "2026-09-30T01:18:44.626Z",
     "fetchedAt": null,
     "tier": 2
@@ -71918,7 +71918,7 @@
     "origin": "github",
     "aiNote": null,
     "image": null,
-    "heat": 25,
+    "heat": 24,
     "firstSeen": "2026-09-30T01:18:44.626Z",
     "fetchedAt": null,
     "tier": 2
@@ -72300,12 +72300,12 @@
       "generative-ai",
       "JavaScript"
     ],
-    "engagement": 258,
+    "engagement": 308,
     "aiSelected": true,
     "origin": "github",
     "aiNote": "开源框架把AI生成3D资产与电影级网页体验合一，二十个示例让独立开发者也能低成本搭建交互式三维站点。",
     "image": null,
-    "heat": 28,
+    "heat": 27,
     "firstSeen": "2026-09-30T07:14:03.171Z",
     "fetchedAt": null,
     "tier": 2
