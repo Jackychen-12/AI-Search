@@ -1,37 +1,37 @@
 {
-  "date": "2026-10-19",
-  "generatedAt": "2026-10-19T00:13:26.802Z",
+  "date": "2026-10-20",
+  "generatedAt": "2026-10-20T01:06:12.178Z",
   "picks": [
+    {
+      "title": "Muse Glimmer 30B: An On-Device Agentic Model | Research",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNQjZZVk1ERVYyQmZEMEZSZE1yTFg4M3hYV0hyMmtqamx2VmgyYldwMTd6MzZmX1hIMkFJSWxhaUdZREo0QUFIWGdEXzhjczNCY0ItVklUQmJPSFFMNVFyNVJoTTY4Z2NjdDBhQmFJX01VTmZaS1NkMW8yc0trcnBxVy1KX3NZcTM1eGY2RUZZbw?oc=5",
+      "source": "Meta AI",
+      "reason": "Meta端侧智能体模型，移动AI落地重要信号"
+    },
     {
       "title": "DeepSeek-v4.1-Flash-1017",
       "sourceUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
       "source": "Hacker News",
-      "reason": "DeepSeek新模型发布，开源社区高度关注"
+      "reason": "DeepSeek新模型发布，国产大模型动态焦点"
     },
     {
-      "title": "DeepSeek search and fetch – $0.75 per 1000 successful requests",
-      "sourceUrl": "https://api-docs.deepseek.com/guides/search/",
-      "source": "Hacker News",
-      "reason": "DeepSeek搜索抓取低价API，开发者实用"
+      "title": "Germany Wants to Lead the World in Industrial AI: How NVIDIA Will Help",
+      "sourceUrl": "https://blogs.nvidia.com/blog/germany-wants-to-lead-the-world-in-industrial-ai-how-nvidia-will-help/",
+      "source": "NVIDIA",
+      "reason": "德国联手英伟达押注工业AI，国家级战略"
     },
     {
-      "title": "Investing in the public benefit",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBWMUFBangwVDdnUXBLeEFmOEtSVFYzN3NSU1lVdVduQl9iNFVTN0hfdEVkNS1yakJCLWFtdkVqTXlLM1VhblU5empsdmVKTVNDVy1PZ1JoUW1HYUlLb0FV?oc=5",
+      "title": "Reducing Reward Hacking by Localizing Bad Behavior Instead of Penalizing It",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE50eHR1LU9xamQ4ekZBdGRBZUowYmpRaHFIQkRKTXV5bUdfdlE4ZlV2M2lsVGZFSU9ERzdwWmI4aHdCdS1vVXAtc1FoNGg2ZG83bHdXc2Rn?oc=5",
       "source": "Anthropic",
-      "reason": "Anthropic公益投资战略，头部AI公司动向"
+      "reason": "Anthropic提出奖励黑客新解法，对齐研究价值高"
     },
     {
-      "title": "Designing more efficient quantum circuits with Claude",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9mdmhqUzNHN09EMF9VUnNTcmlMTlpDVnlnTmxNa0tVY3h1bjJ4bmVDSWROR3JoRTgxb0dQcWYzNGF4dE9YYlNpRDlKVEx6OEVyM3RnY0R6WVRiZERYRVRtcnJ4WF9ZNWZFWVQ2a1Q5UFRnM2xYM0U5akZzOA?oc=5",
-      "source": "Anthropic",
-      "reason": "Claude设计量子电路，AI科研应用新案例"
-    },
-    {
-      "title": "90% of US working hours are spent on tasks not covered well by AI benchmarks",
-      "sourceUrl": "https://www.mercor.com/research/labor-index/benchmark-map/",
+      "title": "CERN and Mistral sign a statement of intent to establish a strategic partnership",
+      "sourceUrl": "https://home.cern/cern-and-mistral-join-forces-to-accelerate-ai-for-science/",
       "source": "Hacker News",
-      "reason": "揭示AI基准与实际工作脱节，值得反思"
+      "reason": "CERN与Mistral合作，欧洲AI科研布局"
     }
   ],
-  "trendSummary": "本周AI热点集中在模型迭代与落地应用，DeepSeek新版本和低价检索引关注，企业级生成式AI与科研自动化加速推进，就业影响与预期落差成讨论焦点。"
+  "trendSummary": "本周AI圈聚焦端侧智能体落地、工业AI国家竞争与训练方法优化，同时向医疗、材料等垂直领域纵深渗透。"
 }

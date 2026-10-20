@@ -6552,7 +6552,7 @@
     "aiSelected": true,
     "origin": "rss:google-ai",
     "aiNote": null,
-    "heat": 31,
+    "heat": 30,
     "firstSeen": "2026-09-03T00:18:40.874Z",
     "fetchedAt": null,
     "tier": 1
@@ -9730,7 +9730,7 @@
     "aiSelected": true,
     "origin": "rss:deepmind",
     "aiNote": null,
-    "heat": 31,
+    "heat": 30,
     "firstSeen": "2026-09-04T00:12:24.864Z",
     "fetchedAt": null,
     "tier": 1
@@ -41861,7 +41861,7 @@
     "origin": "hackernews",
     "aiNote": null,
     "image": null,
-    "heat": 20,
+    "heat": 19,
     "firstSeen": "2026-09-18T00:22:03.995Z",
     "fetchedAt": null,
     "tier": 2
@@ -47361,7 +47361,7 @@
     "origin": "hackernews",
     "aiNote": null,
     "image": null,
-    "heat": 22,
+    "heat": 23,
     "firstSeen": "2026-09-20T00:09:37.242Z",
     "fetchedAt": null,
     "tier": 2
@@ -50076,7 +50076,7 @@
       "chat-assistant",
       "Kotlin"
     ],
-    "engagement": 7884,
+    "engagement": 7918,
     "aiSelected": true,
     "origin": "github",
     "aiNote": null,
@@ -57399,7 +57399,7 @@
       "obsidian",
       "Swift"
     ],
-    "engagement": 1507,
+    "engagement": 1526,
     "aiSelected": true,
     "origin": "github",
     "aiNote": null,
@@ -58234,7 +58234,7 @@
     "aiSelected": true,
     "origin": "rss:google-research",
     "aiNote": "长视频生成从片段拼凑迈向连贯叙事，自动化突破将重塑影视与内容创作门槛。",
-    "heat": 33,
+    "heat": 32,
     "firstSeen": "2026-09-25T00:34:19.665Z",
     "fetchedAt": null,
     "tier": 1
@@ -59337,7 +59337,7 @@
     "aiSelected": true,
     "origin": "rss:bensbites",
     "aiNote": null,
-    "heat": 24,
+    "heat": 23,
     "firstSeen": "2026-09-25T00:34:19.665Z",
     "fetchedAt": null,
     "tier": 2
@@ -59879,7 +59879,7 @@
     "aiSelected": true,
     "origin": "rss:tldr-ai",
     "aiNote": null,
-    "heat": 24,
+    "heat": 23,
     "firstSeen": "2026-09-25T00:34:19.665Z",
     "fetchedAt": null,
     "tier": 2
@@ -63251,7 +63251,7 @@
       "gemini-cli",
       "Go"
     ],
-    "engagement": 15920,
+    "engagement": 17021,
     "aiSelected": true,
     "origin": "github",
     "aiNote": null,
@@ -65793,7 +65793,7 @@
     "aiSelected": true,
     "origin": "rss:google-ai",
     "aiNote": "AI与人类共创叙事摘得大奖，预示内容生产新范式。",
-    "heat": 34,
+    "heat": 33,
     "firstSeen": "2026-09-29T01:59:45.220Z",
     "fetchedAt": null,
     "tier": 1
@@ -66196,7 +66196,7 @@
     "aiSelected": true,
     "origin": "rss:mistral",
     "aiNote": null,
-    "heat": 34,
+    "heat": 33,
     "firstSeen": "2026-09-29T01:59:45.220Z",
     "fetchedAt": null,
     "tier": 1
@@ -69785,7 +69785,7 @@
     "aiSelected": true,
     "origin": "rss:bensbites",
     "aiNote": null,
-    "heat": 25,
+    "heat": 24,
     "firstSeen": "2026-09-30T01:18:44.626Z",
     "fetchedAt": null,
     "tier": 2
@@ -69942,7 +69942,7 @@
     "aiSelected": true,
     "origin": "rss:raschka",
     "aiNote": null,
-    "heat": 25,
+    "heat": 24,
     "firstSeen": "2026-09-30T01:18:44.626Z",
     "fetchedAt": null,
     "tier": 2
@@ -70747,7 +70747,7 @@
       "daily-digest",
       "TypeScript"
     ],
-    "engagement": 8010,
+    "engagement": 8090,
     "aiSelected": true,
     "origin": "github",
     "aiNote": null,
@@ -71337,7 +71337,7 @@
       "gui-agent",
       "Python"
     ],
-    "engagement": 172,
+    "engagement": 176,
     "aiSelected": true,
     "origin": "github",
     "aiNote": null,
@@ -71362,7 +71362,7 @@
       "chinese",
       "Python"
     ],
-    "engagement": 242,
+    "engagement": 253,
     "aiSelected": true,
     "origin": "github",
     "aiNote": null,
@@ -72300,7 +72300,7 @@
       "generative-ai",
       "JavaScript"
     ],
-    "engagement": 308,
+    "engagement": 363,
     "aiSelected": true,
     "origin": "github",
     "aiNote": "开源框架把AI生成3D资产与电影级网页体验合一，二十个示例让独立开发者也能低成本搭建交互式三维站点。",
