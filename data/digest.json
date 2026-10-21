@@ -1,37 +1,37 @@
 {
-  "date": "2026-10-20",
-  "generatedAt": "2026-10-20T01:06:12.178Z",
+  "date": "2026-10-21",
+  "generatedAt": "2026-10-21T00:38:52.681Z",
   "picks": [
+    {
+      "title": "OpenAI acquires Orchestra Bio",
+      "sourceUrl": "https://openai.com/index/openai-to-acquire-orchestra-bio",
+      "source": "OpenAI",
+      "reason": "OpenAI收购Orchestra Bio，AI进入生命科学运营，重大战略信号"
+    },
+    {
+      "title": "How Claude designed protein binders against scorpion neurotoxins",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9VNkRtQVc2UUZVVmgyWUJOQU5RSjdCMjQ0V1JuczVKVmxoME1pQ295LWZ5a3J1M21SWk1yWUtGQ01pbTN3bFVldVVmc01QLXNYYlBqRi04UnZ4VWR5NzU1dTZuYzFxRVA5enZObVVFeE1sVURIVFp1NGVn?oc=5",
+      "source": "Anthropic",
+      "reason": "Claude设计抗蝎毒蛋白结合体，AI科研落地范例"
+    },
+    {
+      "title": "Voxtral 3",
+      "sourceUrl": "https://mistral.ai/news/voxtral-3/",
+      "source": "Mistral AI",
+      "reason": "Mistral发布Voxtral 3实时语音SDK，覆盖50+语言"
+    },
     {
       "title": "Muse Glimmer 30B: An On-Device Agentic Model | Research",
       "sourceUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNQjZZVk1ERVYyQmZEMEZSZE1yTFg4M3hYV0hyMmtqamx2VmgyYldwMTd6MzZmX1hIMkFJSWxhaUdZREo0QUFIWGdEXzhjczNCY0ItVklUQmJPSFFMNVFyNVJoTTY4Z2NjdDBhQmFJX01VTmZaS1NkMW8yc0trcnBxVy1KX3NZcTM1eGY2RUZZbw?oc=5",
       "source": "Meta AI",
-      "reason": "Meta端侧智能体模型，移动AI落地重要信号"
-    },
-    {
-      "title": "DeepSeek-v4.1-Flash-1017",
-      "sourceUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
-      "source": "Hacker News",
-      "reason": "DeepSeek新模型发布，国产大模型动态焦点"
-    },
-    {
-      "title": "Germany Wants to Lead the World in Industrial AI: How NVIDIA Will Help",
-      "sourceUrl": "https://blogs.nvidia.com/blog/germany-wants-to-lead-the-world-in-industrial-ai-how-nvidia-will-help/",
-      "source": "NVIDIA",
-      "reason": "德国联手英伟达押注工业AI，国家级战略"
+      "reason": "Meta推出30B端侧智能体模型，端侧AI重要进展"
     },
     {
       "title": "Reducing Reward Hacking by Localizing Bad Behavior Instead of Penalizing It",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE50eHR1LU9xamQ4ekZBdGRBZUowYmpRaHFIQkRKTXV5bUdfdlE4ZlV2M2lsVGZFSU9ERzdwWmI4aHdCdS1vVXAtc1FoNGg2ZG83bHdXc2Rn?oc=5",
       "source": "Anthropic",
-      "reason": "Anthropic提出奖励黑客新解法，对齐研究价值高"
-    },
-    {
-      "title": "CERN and Mistral sign a statement of intent to establish a strategic partnership",
-      "sourceUrl": "https://home.cern/cern-and-mistral-join-forces-to-accelerate-ai-for-science/",
-      "source": "Hacker News",
-      "reason": "CERN与Mistral合作，欧洲AI科研布局"
+      "reason": "Anthropic提出定位而非惩罚奖励黑客，对齐方法新思路"
     }
   ],
-  "trendSummary": "本周AI圈聚焦端侧智能体落地、工业AI国家竞争与训练方法优化，同时向医疗、材料等垂直领域纵深渗透。"
+  "trendSummary": "本周AI热点从生成式手术仿真、蛋白质设计延伸到模型公平性、记忆增强推理与高性能推理框架，企业级落地和并购也在加速。"
 }
