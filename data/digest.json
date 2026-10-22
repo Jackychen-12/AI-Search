@@ -1,37 +1,37 @@
 {
-  "date": "2026-10-21",
-  "generatedAt": "2026-10-21T00:38:52.681Z",
+  "date": "2026-10-22",
+  "generatedAt": "2026-10-22T00:42:17.717Z",
   "picks": [
     {
-      "title": "OpenAI acquires Orchestra Bio",
-      "sourceUrl": "https://openai.com/index/openai-to-acquire-orchestra-bio",
+      "title": "OpenAI models are coming to Google Cloud",
+      "sourceUrl": "https://openai.com/index/openai-models-google-cloud",
       "source": "OpenAI",
-      "reason": "OpenAI收购Orchestra Bio，AI进入生命科学运营，重大战略信号"
+      "reason": "OpenAI模型登陆Google Cloud，跨云合作重塑竞争格局"
     },
     {
-      "title": "How Claude designed protein binders against scorpion neurotoxins",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9VNkRtQVc2UUZVVmgyWUJOQU5RSjdCMjQ0V1JuczVKVmxoME1pQ295LWZ5a3J1M21SWk1yWUtGQ01pbTN3bFVldVVmc01QLXNYYlBqRi04UnZ4VWR5NzU1dTZuYzFxRVA5enZObVVFeE1sVURIVFp1NGVn?oc=5",
+      "title": "ChatGPT Ads expands to 26 new countries as over 100,000 advertisers have used the platform",
+      "sourceUrl": "https://openai.com/index/chatgpt-ads-expands-26-new-countries",
+      "source": "OpenAI",
+      "reason": "ChatGPT广告扩至26国，商业化提速值得关注"
+    },
+    {
+      "title": "Anthropic 2026 Public Benefit Report Taking stock of our progress toward our charter",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBxTV92LUpSMkM3VmtLNU5VN3VPNUFfRVFOUDY2b19URFhNUGtiX3pNdWZoT1ExT3dNSVpXQk5menJPQU9iYTVjWnlvZVU2eUk3XzBEWVROanFhNmp2Y0FYSTBFU0trTDhQeUVlOFpzTTJCNVBBRUg2RC04cGkzU1U?oc=5",
       "source": "Anthropic",
-      "reason": "Claude设计抗蝎毒蛋白结合体，AI科研落地范例"
+      "reason": "Anthropic年度公益报告，披露治理与使命进展"
     },
     {
-      "title": "Voxtral 3",
-      "sourceUrl": "https://mistral.ai/news/voxtral-3/",
-      "source": "Mistral AI",
-      "reason": "Mistral发布Voxtral 3实时语音SDK，覆盖50+语言"
+      "title": "Empowering frontline maternal care with AI-assisted ultrasound",
+      "sourceUrl": "https://research.google/blog/empowering-frontline-maternal-care-with-ai-assisted-ultrasound/",
+      "source": "Google Research",
+      "reason": "AI辅助超声赋能基层母婴护理，落地价值高"
     },
     {
-      "title": "Muse Glimmer 30B: An On-Device Agentic Model | Research",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNQjZZVk1ERVYyQmZEMEZSZE1yTFg4M3hYV0hyMmtqamx2VmgyYldwMTd6MzZmX1hIMkFJSWxhaUdZREo0QUFIWGdEXzhjczNCY0ItVklUQmJPSFFMNVFyNVJoTTY4Z2NjdDBhQmFJX01VTmZaS1NkMW8yc0trcnBxVy1KX3NZcTM1eGY2RUZZbw?oc=5",
-      "source": "Meta AI",
-      "reason": "Meta推出30B端侧智能体模型，端侧AI重要进展"
-    },
-    {
-      "title": "Reducing Reward Hacking by Localizing Bad Behavior Instead of Penalizing It",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE50eHR1LU9xamQ4ekZBdGRBZUowYmpRaHFIQkRKTXV5bUdfdlE4ZlV2M2lsVGZFSU9ERzdwWmI4aHdCdS1vVXAtc1FoNGg2ZG83bHdXc2Rn?oc=5",
-      "source": "Anthropic",
-      "reason": "Anthropic提出定位而非惩罚奖励黑客，对齐方法新思路"
+      "title": "How Specializing the Vocabulary of SLMs Can Cut Inference Cost by 77% in Real Applications",
+      "sourceUrl": "https://huggingface.co/blog/Dharma-AI/vocabx-vocabulary-specialization",
+      "source": "HuggingFace Blog",
+      "reason": "小模型词表优化降本77%，实用工程启示"
     }
   ],
-  "trendSummary": "本周AI热点从生成式手术仿真、蛋白质设计延伸到模型公平性、记忆增强推理与高性能推理框架，企业级落地和并购也在加速。"
+  "trendSummary": "本周AI圈更关注落地与治理：模型降本增效、行业应用深化，同时安全与公共利益机制持续完善。"
 }
