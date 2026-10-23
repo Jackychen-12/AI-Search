@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-10-23T03:37:34.395Z",
-  "count": 779,
+  "fetchedAt": "2026-10-23T05:39:13.503Z",
+  "count": 791,
   "sources": {
     "hf-papers": 50,
     "github": 80,
-    "hackernews": 114,
+    "hackernews": 116,
     "rss:openai": 20,
     "rss:anthropic": 20,
     "rss:meta-ai": 20,
@@ -19,7 +19,7 @@
     "rss:apple-ml": 10,
     "rss:bair": 10,
     "rss:mit-news-ai": 20,
-    "rss:msr": 0,
+    "rss:msr": 6,
     "rss:aws-ml": 20,
     "rss:theverge-ai": 10,
     "rss:techcrunch-ai": 20,
@@ -46,13 +46,12 @@
     "rss:xinzhiyuan": 20,
     "rss:geekpark": 16,
     "rss:36kr": 0,
-    "rss:infoq": 10,
+    "rss:infoq": 12,
     "rss:sspai": 3,
-    "rss:ithome": 3,
+    "rss:ithome": 6,
     "arxiv": 20
   },
   "errors": {
-    "rss:msr": "HTTP 502 Bad Gateway <- https://www.microsoft.com/en-us/research/feed/",
     "rss:venturebeat-ai": "HTTP 429 Too Many Requests <- https://venturebeat.com/category/ai/feed/"
   }
 }
