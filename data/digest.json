@@ -1,37 +1,37 @@
 {
-  "date": "2026-10-22",
-  "generatedAt": "2026-10-22T00:42:17.717Z",
+  "date": "2026-10-23",
+  "generatedAt": "2026-10-23T00:42:06.259Z",
   "picks": [
     {
-      "title": "OpenAI models are coming to Google Cloud",
-      "sourceUrl": "https://openai.com/index/openai-models-google-cloud",
-      "source": "OpenAI",
-      "reason": "OpenAI模型登陆Google Cloud，跨云合作重塑竞争格局"
-    },
-    {
-      "title": "ChatGPT Ads expands to 26 new countries as over 100,000 advertisers have used the platform",
-      "sourceUrl": "https://openai.com/index/chatgpt-ads-expands-26-new-countries",
-      "source": "OpenAI",
-      "reason": "ChatGPT广告扩至26国，商业化提速值得关注"
-    },
-    {
-      "title": "Anthropic 2026 Public Benefit Report Taking stock of our progress toward our charter",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBxTV92LUpSMkM3VmtLNU5VN3VPNUFfRVFOUDY2b19URFhNUGtiX3pNdWZoT1ExT3dNSVpXQk5menJPQU9iYTVjWnlvZVU2eUk3XzBEWVROanFhNmp2Y0FYSTBFU0trTDhQeUVlOFpzTTJCNVBBRUg2RC04cGkzU1U?oc=5",
+      "title": "LLMs are making formal software verification feasible at a much larger scale",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1Ba1lXTGVFWUJQTVA5UUJMdDJfRVNyU0E1cmlUMXJLSkV2X3RaUnFtbmhpT1IzOUxsNlh1LTA3SGxXd2E5MEM0TnFxZ1B1T1drRUNvQXhodk9nVkFSbUlORXRNNXQ?oc=5",
       "source": "Anthropic",
-      "reason": "Anthropic年度公益报告，披露治理与使命进展"
+      "reason": "LLM让形式化软件验证大规模可行，技术突破意义重大"
     },
     {
-      "title": "Empowering frontline maternal care with AI-assisted ultrasound",
-      "sourceUrl": "https://research.google/blog/empowering-frontline-maternal-care-with-ai-assisted-ultrasound/",
-      "source": "Google Research",
-      "reason": "AI辅助超声赋能基层母婴护理，落地价值高"
+      "title": "Open call for guest investigators in the life sciences",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE93eS1EdWp1NUVXZG1jYXF5OHRWZjgtakZ2WXh6WmY3OHRfWndmTEZlVmRaZGJjSExGdGZvZDZjSEgwbDVKNmZ4WlZxVUliWGdRdE82VzdzVFF6OE0xNEtDeXdaaFJlUXNzdDRNNzJic2lSeHhKWHhKZ3l5MkVGaWc?oc=5",
+      "source": "Anthropic",
+      "reason": "Anthropic开放生命科学客座研究员招募，生态布局值得关注"
     },
     {
-      "title": "How Specializing the Vocabulary of SLMs Can Cut Inference Cost by 77% in Real Applications",
-      "sourceUrl": "https://huggingface.co/blog/Dharma-AI/vocabx-vocabulary-specialization",
-      "source": "HuggingFace Blog",
-      "reason": "小模型词表优化降本77%，实用工程启示"
+      "title": "NVIDIA Unveils Minerva to Bring End-to-End Observability for AI Factories",
+      "sourceUrl": "https://blogs.nvidia.com/blog/minerva-platform-infrastructure/",
+      "source": "NVIDIA",
+      "reason": "英伟达Minerva为AI工厂提供端到端可观测性，基础设施关键"
+    },
+    {
+      "title": "NVIDIA Cosmos Opens New Tools to Train, Evaluate and Deploy World Models",
+      "sourceUrl": "https://blogs.nvidia.com/blog/cosmos-open-train-evaluate-deploy-world-models/",
+      "source": "NVIDIA",
+      "reason": "Cosmos开放世界模型训练部署工具，推动物理AI落地"
+    },
+    {
+      "title": "Uber brings ChatGPT Work to all employees with OpenAI",
+      "sourceUrl": "https://openai.com/index/uber-chatgpt-work-rollout",
+      "source": "OpenAI",
+      "reason": "Uber全员部署ChatGPT Work，企业级AI应用标杆案例"
     }
   ],
-  "trendSummary": "本周AI圈更关注落地与治理：模型降本增效、行业应用深化，同时安全与公共利益机制持续完善。"
+  "trendSummary": "本周 AI 圈聚焦智能体训练与落地，强化学习、形式化验证和可观测性工具齐头并进，同时地球观测与数据可视化也在加速。"
 }
