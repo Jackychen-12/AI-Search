@@ -53,7 +53,7 @@ function cspContent(): string {
   const devWs = process.env.NODE_ENV === "development" ? " ws:" : ""; // HMR websocket
   return [
     "default-src 'self'",
-    `script-src 'self' 'unsafe-inline'${devEval} https://giscus.app ${analyticsOrigin}`,
+    `script-src 'self' 'unsafe-inline'${devEval} https://giscus.app ${analyticsOrigin} https://static.cloudflareinsights.com`,
     "style-src 'self' 'unsafe-inline' https://giscus.app",
     "img-src https: data:",
     "font-src 'self' data:",
