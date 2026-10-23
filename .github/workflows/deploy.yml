@@ -103,7 +103,7 @@ jobs:
       - name: Build static export
         env:
           NEXT_PUBLIC_ASK_AI_URL: ${{ vars.ASK_AI_URL }}
-          NEXT_PUBLIC_CF_BEACON_TOKEN: ${{ vars.CF_BEACON_TOKEN }} # Cloudflare Web Analytics (optional)
+          NEXT_PUBLIC_CF_BEACON_TOKEN: 9d83073946e64433b1d0fe6ed97beda6 # Cloudflare Web Analytics site token (public, ends up in page HTML)
           DATA_SOURCE: local
         run: npm run build
 
