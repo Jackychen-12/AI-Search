@@ -1,37 +1,37 @@
 {
-  "date": "2026-10-23",
-  "generatedAt": "2026-10-23T00:42:06.259Z",
+  "date": "2026-10-24",
+  "generatedAt": "2026-10-24T00:44:27.087Z",
   "picks": [
+    {
+      "title": "Securing our frontier model training environment",
+      "sourceUrl": "https://openai.com/index/securing-our-frontier-model-training-environment",
+      "source": "OpenAI",
+      "reason": "前沿模型训练环境安全加固，关乎AI安全底线"
+    },
+    {
+      "title": "An alignment assessment of the UK AISI cybertesting incident",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9hcjNRbVFacnhzLWNNYnRkSTlVM2FkMnotYTd0MEpwTmlsQ2N1NlVPdjJjdXJhNG9FbC14d3FIR3pVaEh0SEdIamRWWmNTazRXVGNxbFg3dEFZN0RQT0tVcWpWZlpGTlZYb29uTW9PQQ?oc=5",
+      "source": "Anthropic",
+      "reason": "英国AI安全研究所网络测试事件的对齐评估，权威警示"
+    },
+    {
+      "title": "Bringing foundational models to the front lines of TB screening",
+      "sourceUrl": "https://research.google/blog/bringing-foundational-models-to-the-front-lines-of-tb-screening/",
+      "source": "Google Research",
+      "reason": "生成式AI落地结核病筛查一线，医疗应用价值高"
+    },
     {
       "title": "LLMs are making formal software verification feasible at a much larger scale",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1Ba1lXTGVFWUJQTVA5UUJMdDJfRVNyU0E1cmlUMXJLSkV2X3RaUnFtbmhpT1IzOUxsNlh1LTA3SGxXd2E5MEM0TnFxZ1B1T1drRUNvQXhodk9nVkFSbUlORXRNNXQ?oc=5",
       "source": "Anthropic",
-      "reason": "LLM让形式化软件验证大规模可行，技术突破意义重大"
+      "reason": "LLM让形式化软件验证大规模可行，工程意义重大"
     },
     {
-      "title": "Open call for guest investigators in the life sciences",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE93eS1EdWp1NUVXZG1jYXF5OHRWZjgtakZ2WXh6WmY3OHRfWndmTEZlVmRaZGJjSExGdGZvZDZjSEgwbDVKNmZ4WlZxVUliWGdRdE82VzdzVFF6OE0xNEtDeXdaaFJlUXNzdDRNNzJic2lSeHhKWHhKZ3l5MkVGaWc?oc=5",
-      "source": "Anthropic",
-      "reason": "Anthropic开放生命科学客座研究员招募，生态布局值得关注"
-    },
-    {
-      "title": "NVIDIA Unveils Minerva to Bring End-to-End Observability for AI Factories",
-      "sourceUrl": "https://blogs.nvidia.com/blog/minerva-platform-infrastructure/",
-      "source": "NVIDIA",
-      "reason": "英伟达Minerva为AI工厂提供端到端可观测性，基础设施关键"
-    },
-    {
-      "title": "NVIDIA Cosmos Opens New Tools to Train, Evaluate and Deploy World Models",
-      "sourceUrl": "https://blogs.nvidia.com/blog/cosmos-open-train-evaluate-deploy-world-models/",
-      "source": "NVIDIA",
-      "reason": "Cosmos开放世界模型训练部署工具，推动物理AI落地"
-    },
-    {
-      "title": "Uber brings ChatGPT Work to all employees with OpenAI",
-      "sourceUrl": "https://openai.com/index/uber-chatgpt-work-rollout",
+      "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
+      "sourceUrl": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
       "source": "OpenAI",
-      "reason": "Uber全员部署ChatGPT Work，企业级AI应用标杆案例"
+      "reason": "支撑十亿ChatGPT用户的存储扩展实战，架构参考性强"
     }
   ],
-  "trendSummary": "本周 AI 圈聚焦智能体训练与落地，强化学习、形式化验证和可观测性工具齐头并进，同时地球观测与数据可视化也在加速。"
+  "trendSummary": "本周AI圈一边推进前沿模型与算力基建，一边密集关注安全治理与人文反思，落地应用也在加速。"
 }

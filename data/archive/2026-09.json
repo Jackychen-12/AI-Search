@@ -41878,7 +41878,7 @@
     "aiSelected": true,
     "origin": "rss:bensbites",
     "aiNote": null,
-    "heat": 23,
+    "heat": 22,
     "firstSeen": "2026-09-18T00:22:03.995Z",
     "fetchedAt": null,
     "tier": 2
@@ -55599,7 +55599,7 @@
     "aiSelected": true,
     "origin": "rss:google-ai",
     "aiNote": null,
-    "heat": 32,
+    "heat": 31,
     "firstSeen": "2026-09-24T00:31:22.914Z",
     "fetchedAt": null,
     "tier": 1
@@ -55820,7 +55820,7 @@
     "aiSelected": true,
     "origin": "rss:deepmind",
     "aiNote": null,
-    "heat": 32,
+    "heat": 31,
     "firstSeen": "2026-09-24T00:31:22.914Z",
     "fetchedAt": null,
     "tier": 1
@@ -55909,7 +55909,7 @@
     "aiSelected": true,
     "origin": "rss:deepmind",
     "aiNote": null,
-    "heat": 32,
+    "heat": 31,
     "firstSeen": "2026-09-24T00:31:22.914Z",
     "fetchedAt": null,
     "tier": 1
@@ -66531,7 +66531,7 @@
     "aiSelected": true,
     "origin": "rss:importai",
     "aiNote": null,
-    "heat": 24,
+    "heat": 23,
     "firstSeen": "2026-09-29T01:59:45.220Z",
     "fetchedAt": null,
     "tier": 2
@@ -68881,7 +68881,7 @@
     "aiSelected": true,
     "origin": "rss:google-research",
     "aiNote": "扩散控制器把生成控制从外挂变成内建，统一接口有望降低图像生成的门槛。",
-    "heat": 33,
+    "heat": 32,
     "firstSeen": "2026-09-30T01:18:44.626Z",
     "fetchedAt": null,
     "tier": 1
@@ -70747,7 +70747,7 @@
       "daily-digest",
       "TypeScript"
     ],
-    "engagement": 8460,
+    "engagement": 8506,
     "aiSelected": true,
     "origin": "github",
     "aiNote": null,
@@ -71337,7 +71337,7 @@
       "gui-agent",
       "Python"
     ],
-    "engagement": 186,
+    "engagement": 189,
     "aiSelected": true,
     "origin": "github",
     "aiNote": null,
@@ -71362,7 +71362,7 @@
       "chinese",
       "Python"
     ],
-    "engagement": 285,
+    "engagement": 296,
     "aiSelected": true,
     "origin": "github",
     "aiNote": null,
@@ -72300,7 +72300,7 @@
       "generative-ai",
       "JavaScript"
     ],
-    "engagement": 501,
+    "engagement": 526,
     "aiSelected": true,
     "origin": "github",
     "aiNote": "开源框架把AI生成3D资产与电影级网页体验合一，二十个示例让独立开发者也能低成本搭建交互式三维站点。",
@@ -74236,8 +74236,8 @@
   },
   {
     "id": "rss:meta-ai-92a8bb99c9",
-    "title": "Meta AI: Your personal AI assistant & chatbot | Ask, chat & more",
-    "summary": "Meta AI: Your personal AI assistant & chatbot | Ask, chat & more AI at Meta",
+    "title": "Your personal AI assistant & chatbot | Ask, chat & more",
+    "summary": "Your personal AI assistant & chatbot | Ask, chat & more AI at Meta",
     "source": "Meta AI",
     "sourceUrl": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE4xN1RIbER2TUxocmZ4a0QyNUlNMFRxbFhNeVZNYm80c1lRbUI5ZDN3Qlg0cHZyMVAzRDh3Y1B2T2twVndKd1pFRkc4QTkxOHM?oc=5",
     "category": "ai-models",
