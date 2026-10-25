@@ -1,37 +1,37 @@
 {
-  "date": "2026-10-24",
-  "generatedAt": "2026-10-24T00:44:27.087Z",
+  "date": "2026-10-25",
+  "generatedAt": "2026-10-25T00:21:17.589Z",
   "picks": [
     {
       "title": "Securing our frontier model training environment",
       "sourceUrl": "https://openai.com/index/securing-our-frontier-model-training-environment",
       "source": "OpenAI",
-      "reason": "前沿模型训练环境安全加固，关乎AI安全底线"
+      "reason": "前沿模型训练安全是AI治理核心议题"
     },
     {
       "title": "An alignment assessment of the UK AISI cybertesting incident",
       "sourceUrl": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9hcjNRbVFacnhzLWNNYnRkSTlVM2FkMnotYTd0MEpwTmlsQ2N1NlVPdjJjdXJhNG9FbC14d3FIR3pVaEh0SEdIamRWWmNTazRXVGNxbFg3dEFZN0RQT0tVcWpWZlpGTlZYb29uTW9PQQ?oc=5",
       "source": "Anthropic",
-      "reason": "英国AI安全研究所网络测试事件的对齐评估，权威警示"
+      "reason": "英国AI安全机构网络测试事件的对齐评估"
     },
     {
       "title": "Bringing foundational models to the front lines of TB screening",
       "sourceUrl": "https://research.google/blog/bringing-foundational-models-to-the-front-lines-of-tb-screening/",
       "source": "Google Research",
-      "reason": "生成式AI落地结核病筛查一线，医疗应用价值高"
+      "reason": "生成式AI落地结核病筛查，医疗应用价值高"
     },
     {
       "title": "LLMs are making formal software verification feasible at a much larger scale",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1Ba1lXTGVFWUJQTVA5UUJMdDJfRVNyU0E1cmlUMXJLSkV2X3RaUnFtbmhpT1IzOUxsNlh1LTA3SGxXd2E5MEM0TnFxZ1B1T1drRUNvQXhodk9nVkFSbUlORXRNNXQ?oc=5",
       "source": "Anthropic",
-      "reason": "LLM让形式化软件验证大规模可行，工程意义重大"
+      "reason": "LLM让形式化软件验证大规模可行"
     },
     {
-      "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
-      "sourceUrl": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
-      "source": "OpenAI",
-      "reason": "支撑十亿ChatGPT用户的存储扩展实战，架构参考性强"
+      "title": "Q&A: How AI came to model the “messy” human mind",
+      "sourceUrl": "https://news.mit.edu/2026/qa-how-ai-came-to-model-messy-human-mind-1023",
+      "source": "MIT News",
+      "reason": "MIT探讨AI如何建模复杂人类心智"
     }
   ],
-  "trendSummary": "本周AI圈一边推进前沿模型与算力基建，一边密集关注安全治理与人文反思，落地应用也在加速。"
+  "trendSummary": "本周AI热点转向务实：一边加固安全与对齐防线，一边把模型推向结核筛查等真实场景，同时扩容算力与存储支撑十亿级用户。"
 }
