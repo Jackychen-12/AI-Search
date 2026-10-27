@@ -1,37 +1,37 @@
 {
-  "date": "2026-10-26",
-  "generatedAt": "2026-10-26T00:24:54.505Z",
+  "date": "2026-10-27",
+  "generatedAt": "2026-10-27T01:29:51.409Z",
   "picks": [
     {
-      "title": "Securing our frontier model training environment",
-      "sourceUrl": "https://openai.com/index/securing-our-frontier-model-training-environment",
-      "source": "OpenAI",
-      "reason": "OpenAI前沿模型训练环境安全加固，行业安全基准"
-    },
-    {
-      "title": "An alignment assessment of the UK AISI cybertesting incident",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9hcjNRbVFacnhzLWNNYnRkSTlVM2FkMnotYTd0MEpwTmlsQ2N1NlVPdjJjdXJhNG9FbC14d3FIR3pVaEh0SEdIamRWWmNTazRXVGNxbFg3dEFZN0RQT0tVcWpWZlpGTlZYb29uTW9PQQ?oc=5",
+      "title": "Anthropic files S-1 with the SEC for proposed initial public offering",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBnZUdLN3hwaXFFbndLU0FTMC1INVZzenp4cl92WXJqM3VDWTZUSXN2S1NTdzBjeTBDaUZmRHFud1M1azhBX3pmcFAxR3Nzdw?oc=5",
       "source": "Anthropic",
-      "reason": "Anthropic对英国AISI网络测试事件的对齐评估，安全治理关键"
+      "reason": "Anthropic提交IPO申请，行业资本化里程碑"
     },
     {
-      "title": "Bringing foundational models to the front lines of TB screening",
-      "sourceUrl": "https://research.google/blog/bringing-foundational-models-to-the-front-lines-of-tb-screening/",
-      "source": "Google Research",
-      "reason": "谷歌将基础模型用于结核病筛查一线，AI医疗落地"
+      "title": "OpenAI and Anthropic cut their LLM prices by up to 80% within a few months. Why?",
+      "sourceUrl": "https://minimaxir.com/2026/10/cheap-llms/",
+      "source": "Hacker News",
+      "reason": "OpenAI与Anthropic大幅降价，价格战影响深远"
+    },
+    {
+      "title": "ChatGPT’s expanding world of work",
+      "sourceUrl": "https://openai.com/index/chatgpt-expanding-world-of-work",
+      "source": "OpenAI",
+      "reason": "ChatGPT职场应用数据，覆盖百国工作场景"
     },
     {
       "title": "No signs of AI payoff outside the tech sector",
       "sourceUrl": "https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector",
       "source": "Hacker News",
-      "reason": "科技业外AI回报乏力的警示，值得行业反思"
+      "reason": "AI回报集中于科技业，值得警惕的行业信号"
     },
     {
-      "title": "At MIT, Martha Minow speaks on sustaining democracy, both by using and overcoming AI",
-      "sourceUrl": "https://news.mit.edu/2026/martha-minow-speaks-on-sustaining-democracy-using-overcoming-ai-1023",
-      "source": "MIT News",
-      "reason": "MIT讲座探讨AI与民主韧性，公共议题重要"
+      "title": "Greptile takes bug detection beyond code review with GPT-6 Astra",
+      "sourceUrl": "https://openai.com/index/greptile-code-review-codex-astra",
+      "source": "OpenAI",
+      "reason": "Greptile用GPT-6 Astra拓展代码缺陷检测"
     }
   ],
-  "trendSummary": "本周AI热点从技术突破转向落地反思：一边是模型迭代与工程规模化，一边是学界和业界追问AI真实回报、安全对齐与人文价值。"
+  "trendSummary": "本周AI圈聚焦GPT-6系列深入代码审查与安全场景，Anthropic启动IPO进程，AI加速渗透企业运营与科研协作。"
 }
