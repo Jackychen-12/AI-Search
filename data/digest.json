@@ -1,37 +1,37 @@
 {
-  "date": "2026-10-27",
-  "generatedAt": "2026-10-27T01:29:51.409Z",
+  "date": "2026-10-28",
+  "generatedAt": "2026-10-28T01:24:56.345Z",
   "picks": [
     {
-      "title": "Anthropic files S-1 with the SEC for proposed initial public offering",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBnZUdLN3hwaXFFbndLU0FTMC1INVZzenp4cl92WXJqM3VDWTZUSXN2S1NTdzBjeTBDaUZmRHFud1M1azhBX3pmcFAxR3Nzdw?oc=5",
+      "title": "Genie 4: A new generation of world simulation",
+      "sourceUrl": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
+      "source": "Google DeepMind",
+      "reason": "DeepMind发布Genie 4世界模型，实时仿真真实感突破，行业里程碑"
+    },
+    {
+      "title": "Retell uses OpenAI models to help power 100M monthly calls",
+      "sourceUrl": "https://openai.com/index/retell-ai",
+      "source": "OpenAI",
+      "reason": "OpenAI模型支撑1亿月通话，GPT-6 Astra登顶语音基准"
+    },
+    {
+      "title": "Expanding our partnership with GSA to bring Claude to all levels of government",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9SdnRpWjk1Nk1Fem1Ka0tLclJoVnFkQmZzVUVOU0hsQ0pwYVZLWVpCUGhkZ1Q0UmhYekhYcFdraTdtbFd5MF91MkhPVlJzYlM3ZXVlOUUwLUhDVVBMOUR4aXlVZXhRRlU?oc=5",
       "source": "Anthropic",
-      "reason": "Anthropic提交IPO申请，行业资本化里程碑"
+      "reason": "Anthropic与GSA扩大合作，Claude全面进入政府各级部门"
     },
     {
-      "title": "OpenAI and Anthropic cut their LLM prices by up to 80% within a few months. Why?",
-      "sourceUrl": "https://minimaxir.com/2026/10/cheap-llms/",
-      "source": "Hacker News",
-      "reason": "OpenAI与Anthropic大幅降价，价格战影响深远"
+      "title": "Discovering and exploiting vulnerabilities in critical, real-world software with Claude",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBMTTViWmp6TE1SU3lNQjd6aWozb0Rhd0VjSVlMOThjRXpFRjBvN1lZdVRreFg3UWRGNjNqRkViU3lQbFJuaHRIMXBJUHFHSXhpbTZSTGhybUxOdTU3bEFDMUIzd0NmcWRHRk1CckVLV2FIT1ZDb1ZMZHJ0WWhxSE0?oc=5",
+      "source": "Anthropic",
+      "reason": "用Claude发现并利用真实关键软件漏洞，安全领域重要进展"
     },
     {
-      "title": "ChatGPT’s expanding world of work",
-      "sourceUrl": "https://openai.com/index/chatgpt-expanding-world-of-work",
-      "source": "OpenAI",
-      "reason": "ChatGPT职场应用数据，覆盖百国工作场景"
-    },
-    {
-      "title": "No signs of AI payoff outside the tech sector",
-      "sourceUrl": "https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector",
-      "source": "Hacker News",
-      "reason": "AI回报集中于科技业，值得警惕的行业信号"
-    },
-    {
-      "title": "Greptile takes bug detection beyond code review with GPT-6 Astra",
-      "sourceUrl": "https://openai.com/index/greptile-code-review-codex-astra",
-      "source": "OpenAI",
-      "reason": "Greptile用GPT-6 Astra拓展代码缺陷检测"
+      "title": "Can we trust LLMs to judge whether a research idea is novel?",
+      "sourceUrl": "https://huggingface.co/blog/allenai/novelty-bench",
+      "source": "HuggingFace Blog",
+      "reason": "探讨LLM评判研究想法新颖性是否可信，直击评审痛点"
     }
   ],
-  "trendSummary": "本周AI圈聚焦GPT-6系列深入代码审查与安全场景，Anthropic启动IPO进程，AI加速渗透企业运营与科研协作。"
+  "trendSummary": "本周AI热点显示，大模型正加速深入政府服务、药物研发、软件安全等实际场景，同时智能体对专家判断的影响、世界模拟与多模态专用模型也成为关注焦点。"
 }
