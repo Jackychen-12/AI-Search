@@ -1,37 +1,37 @@
 {
-  "date": "2026-10-28",
-  "generatedAt": "2026-10-28T01:24:56.345Z",
+  "date": "2026-10-29",
+  "generatedAt": "2026-10-29T01:49:39.046Z",
   "picks": [
     {
-      "title": "Genie 4: A new generation of world simulation",
-      "sourceUrl": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
+      "title": "Gemini 4 Carbon: Our next frontier model",
+      "sourceUrl": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
       "source": "Google DeepMind",
-      "reason": "DeepMind发布Genie 4世界模型，实时仿真真实感突破，行业里程碑"
+      "reason": "DeepMind发布下一代前沿模型Gemini 4 Carbon，行业重磅"
     },
     {
-      "title": "Retell uses OpenAI models to help power 100M monthly calls",
-      "sourceUrl": "https://openai.com/index/retell-ai",
+      "title": "The future of the firm",
+      "sourceUrl": "https://openai.com/index/the-future-of-the-firm",
       "source": "OpenAI",
-      "reason": "OpenAI模型支撑1亿月通话，GPT-6 Astra登顶语音基准"
+      "reason": "OpenAI探讨AI如何进入组织架构，具前瞻战略意义"
     },
     {
-      "title": "Expanding our partnership with GSA to bring Claude to all levels of government",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9SdnRpWjk1Nk1Fem1Ka0tLclJoVnFkQmZzVUVOU0hsQ0pwYVZLWVpCUGhkZ1Q0UmhYekhYcFdraTdtbFd5MF91MkhPVlJzYlM3ZXVlOUUwLUhDVVBMOUR4aXlVZXhRRlU?oc=5",
+      "title": "OpenAI and ServiceNow expand partnership across enterprise workflows",
+      "sourceUrl": "https://openai.com/index/openai-servicenow-partnership-expansion",
+      "source": "OpenAI",
+      "reason": "OpenAI与ServiceNow扩大企业工作流合作，落地信号强"
+    },
+    {
+      "title": "AI for Science expands to foundations and research institutions",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNTE8xTmRrRUZtQndpOVdCTUFQQ2ZXSjl5Tk4zeXB0RzhSVzRYaUt3S091Y3FmRnVvT1c0UXhIVW0xZF83R2c1VUwtNjhNUkcxYWI0MFRXWXcxT2ZLdkF6bUd5V0JpTWJla3BzOWNORmdFN0ZTUkplbmZRcjRNdm5GSUVDUXp5QWwxNkRoN3JCVXo?oc=5",
       "source": "Anthropic",
-      "reason": "Anthropic与GSA扩大合作，Claude全面进入政府各级部门"
+      "reason": "Anthropic将AI for Science拓展至基金会与研究机构"
     },
     {
-      "title": "Discovering and exploiting vulnerabilities in critical, real-world software with Claude",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBMTTViWmp6TE1SU3lNQjd6aWozb0Rhd0VjSVlMOThjRXpFRjBvN1lZdVRreFg3UWRGNjNqRkViU3lQbFJuaHRIMXBJUHFHSXhpbTZSTGhybUxOdTU3bEFDMUIzd0NmcWRHRk1CckVLV2FIT1ZDb1ZMZHJ0WWhxSE0?oc=5",
+      "title": "Early progress on accelerating drug development with Claude",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5IbmplZ01nQUt5R0hldklCR3FRMlVWZy1RcFZlc1VpRDhVNk00Vzd0Mm5QdlNXb1NncmxTX1ZFZTl4Xzl5bkpqUU56OGVxWjlZWmN6SjM4cVFLX3dkU0RUNWJVQ1JZTUswTk1iSzJ1MGwyUldn?oc=5",
       "source": "Anthropic",
-      "reason": "用Claude发现并利用真实关键软件漏洞，安全领域重要进展"
-    },
-    {
-      "title": "Can we trust LLMs to judge whether a research idea is novel?",
-      "sourceUrl": "https://huggingface.co/blog/allenai/novelty-bench",
-      "source": "HuggingFace Blog",
-      "reason": "探讨LLM评判研究想法新颖性是否可信，直击评审痛点"
+      "reason": "Claude加速药物开发早期进展，科学应用值得关注"
     }
   ],
-  "trendSummary": "本周AI热点显示，大模型正加速深入政府服务、药物研发、软件安全等实际场景，同时智能体对专家判断的影响、世界模拟与多模态专用模型也成为关注焦点。"
+  "trendSummary": "本周AI热点从模型竞赛转向落地深耕，科研、企业流程与法律政务加速拥抱智能体，硬件与多语言基础能力同步升级。"
 }
