@@ -1,37 +1,37 @@
 {
-  "date": "2026-10-29",
-  "generatedAt": "2026-10-29T01:49:39.046Z",
+  "date": "2026-10-30",
+  "generatedAt": "2026-10-30T01:59:03.864Z",
   "picks": [
     {
       "title": "Gemini 4 Carbon: Our next frontier model",
       "sourceUrl": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
       "source": "Google DeepMind",
-      "reason": "DeepMind发布下一代前沿模型Gemini 4 Carbon，行业重磅"
+      "reason": "Gemini 4 Carbon发布，下一代前沿模型，行业风向标"
     },
     {
-      "title": "The future of the firm",
-      "sourceUrl": "https://openai.com/index/the-future-of-the-firm",
-      "source": "OpenAI",
-      "reason": "OpenAI探讨AI如何进入组织架构，具前瞻战略意义"
+      "title": "Le Chonk: Built for Coders, Trusted by Defenders.",
+      "sourceUrl": "https://mistral.ai/news/mistral-large-4-oss/",
+      "source": "Mistral AI",
+      "reason": "Mistral开放1T参数多模态大模型权重，开源里程碑"
     },
     {
-      "title": "OpenAI and ServiceNow expand partnership across enterprise workflows",
-      "sourceUrl": "https://openai.com/index/openai-servicenow-partnership-expansion",
+      "title": "An updated Model Spec for more capable and beneficial AI",
+      "sourceUrl": "https://openai.com/index/updated-model-spec",
       "source": "OpenAI",
-      "reason": "OpenAI与ServiceNow扩大企业工作流合作，落地信号强"
+      "reason": "OpenAI更新模型规范，五大核心价值观影响深远"
+    },
+    {
+      "title": "How we detect frontier model misalignment",
+      "sourceUrl": "https://openai.com/index/how-we-detect-frontier-model-misalignment",
+      "source": "OpenAI",
+      "reason": "OpenAI披露前沿模型失准检测方法，安全治理关键"
     },
     {
       "title": "AI for Science expands to foundations and research institutions",
       "sourceUrl": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNTE8xTmRrRUZtQndpOVdCTUFQQ2ZXSjl5Tk4zeXB0RzhSVzRYaUt3S091Y3FmRnVvT1c0UXhIVW0xZF83R2c1VUwtNjhNUkcxYWI0MFRXWXcxT2ZLdkF6bUd5V0JpTWJla3BzOWNORmdFN0ZTUkplbmZRcjRNdm5GSUVDUXp5QWwxNkRoN3JCVXo?oc=5",
       "source": "Anthropic",
-      "reason": "Anthropic将AI for Science拓展至基金会与研究机构"
-    },
-    {
-      "title": "Early progress on accelerating drug development with Claude",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5IbmplZ01nQUt5R0hldklCR3FRMlVWZy1RcFZlc1VpRDhVNk00Vzd0Mm5QdlNXb1NncmxTX1ZFZTl4Xzl5bkpqUU56OGVxWjlZWmN6SjM4cVFLX3dkU0RUNWJVQ1JZTUswTk1iSzJ1MGwyUldn?oc=5",
-      "source": "Anthropic",
-      "reason": "Claude加速药物开发早期进展，科学应用值得关注"
+      "reason": "Anthropic科学AI扩展至基金会与研究机构，布局科研"
     }
   ],
-  "trendSummary": "本周AI热点从模型竞赛转向落地深耕，科研、企业流程与法律政务加速拥抱智能体，硬件与多语言基础能力同步升级。"
+  "trendSummary": "本周AI圈聚焦模型规范与失准检测，开源模型更新频繁，AI加速渗透科学研究和专业服务。"
 }
