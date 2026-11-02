@@ -1,37 +1,37 @@
 {
-  "date": "2026-11-01",
-  "generatedAt": "2026-11-01T01:13:26.064Z",
+  "date": "2026-11-02",
+  "generatedAt": "2026-11-02T01:31:40.327Z",
   "picks": [
+    {
+      "title": "Backdoor in Claude Code for VS Code extension on the Cursor Marketplace",
+      "sourceUrl": "https://phorion.io/blog/offical-claude-code-vsx-compromise/",
+      "source": "Hacker News",
+      "reason": "Claude Code扩展被植入后门，开发者需紧急排查"
+    },
     {
       "title": "Automated Subtle Emergent Misalignment Research",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1XNUJtenZlYUlZcldQVVBmY2x5YmJORkxTWm92NTVobk5jOTMzbmRkY0w1WGVuVEtMN292M0NISWJYMDEycEtxM05heHVsbGYtc1lJRkhHWUI0X3FxWUxVcFJCSVVGS1Rt?oc=5",
       "source": "Anthropic",
-      "reason": "Anthropic对齐研究新作，揭示AI隐性失准风险"
+      "reason": "Anthropic发布自动化涌现失准研究，对齐领域重要进展"
     },
     {
       "title": "Making it easier for websites to express AI training preferences",
       "sourceUrl": "https://openai.com/index/helping-websites-express-ai-training-preferences",
       "source": "OpenAI",
-      "reason": "OpenAI采纳robots.txt训练偏好信号，行业规范意义大"
+      "reason": "OpenAI支持robots.txt统一信号，影响AI训练数据合规"
     },
     {
       "title": "Community safety report and new protections for teens",
       "sourceUrl": "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
       "source": "OpenAI",
-      "reason": "OpenAI青少年保护新举措，AI安全治理受关注"
-    },
-    {
-      "title": "Q&A: Hey AI, who should I vote for this year?",
-      "sourceUrl": "https://news.mit.edu/2026/qa-hey-ai-who-should-i-vote-for-this-year-1030",
-      "source": "MIT News",
-      "reason": "MIT学者谈AI选举信息追踪，切中时政热点"
+      "reason": "OpenAI加强青少年保护，社区安全治理值得关注"
     },
     {
       "title": "Things That Go Beep in the Night: Agentic AI Joins the Search for Extraterrestrial Signals",
       "sourceUrl": "https://blogs.nvidia.com/blog/ai-joins-the-search-for-extraterrestrial-signals/",
       "source": "NVIDIA",
-      "reason": "NVIDIA用智能体AI搜寻地外信号，跨界吸睛"
+      "reason": "NVIDIA用智能体AI搜寻地外信号，跨界应用新颖"
     }
   ],
-  "trendSummary": "本周AI圈聚焦对齐安全与治理：涌现失准研究、青少年保护、训练偏好表达受关注，AI也走向选举问答与外星信号搜索等新场景。"
+  "trendSummary": "本周AI圈聚焦于对齐风险与安全治理，同时探索AI在选举、科研等场景的应用边界，并推进数据训练偏好与版权规范。"
 }
