@@ -1,37 +1,37 @@
 {
-  "date": "2026-11-03",
-  "generatedAt": "2026-11-03T03:28:58.305Z",
+  "date": "2026-11-04",
+  "generatedAt": "2026-11-04T02:21:31.690Z",
   "picks": [
     {
-      "title": "The latest AI news we announced in October 2026",
-      "sourceUrl": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-october-2026/",
-      "source": "Google AI",
-      "reason": "谷歌月度AI进展汇总，覆盖面广，信息密度高"
+      "title": "Progress on provable inference for large language models",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1qTzctMkJVc25sdVRiNlRUcGhHNjF1d2dJU2s0alBCZmFBVlZHS1VJNXlad0VHQnpDYnZLaEpJTklaUUdCVE1GRnNuN1REYWxBZkVwdFFyeWhDd3F1Mi0zWGlZVQ?oc=5",
+      "source": "Anthropic",
+      "reason": "Anthropic提出可证明推理进展，理论安全意义重大"
     },
     {
-      "title": "LifeVal",
-      "sourceUrl": "https://openai.com/index/lifeval",
+      "title": "StateBench: Testing how language models track state changes over long documents",
+      "sourceUrl": "https://huggingface.co/blog/allenai/statebench",
+      "source": "HuggingFace Blog",
+      "reason": "StateBench评测长文档状态追踪，直击LLM核心短板"
+    },
+    {
+      "title": "Agentic cheminformatics with Google Antigravity",
+      "sourceUrl": "https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/",
+      "source": "Google DeepMind",
+      "reason": "DeepMind智能体化学信息学加速药物发现"
+    },
+    {
+      "title": "Accelerating engineering for the physical world",
+      "sourceUrl": "https://openai.com/index/accelerating-engineering-for-the-physical-world",
       "source": "OpenAI",
-      "reason": "LifeVal新基准衡量AI实际助人能力，评测方向值得关注"
+      "reason": "OpenAI展示ChatGPT加速物理世界工程设计"
     },
     {
-      "title": "Astra can read and write weights to improve Qwen",
-      "sourceUrl": "https://rikiyat.github.io/blog/weight-space-programming/",
-      "source": "Hacker News",
-      "reason": "Astra可读写Qwen权重，模型操控新能力引人关注"
-    },
-    {
-      "title": "Evidence-grounded large language models guide perovskite solar cell design and optimization",
-      "sourceUrl": "http://arxiv.org/abs/2611.00633v1",
-      "source": "arXiv",
-      "reason": "LLM指导钙钛矿太阳能电池设计，AI科研落地范例"
-    },
-    {
-      "title": "Regina Barzilay and Jim Collins win Pritzker Prize for AI and Science Research Excellence for work in AI-enabled antibiotic discovery",
-      "sourceUrl": "https://news.mit.edu/2026/regina-barzilay-jim-collins-win-pritzker-prize-ai-and-science-research-excellence-1102",
-      "source": "MIT News",
-      "reason": "MIT教授获AI与科学奖，AI发现抗生素成果获认可"
+      "title": "AI Is Changing How Semiconductor Fabs Work — and Engineers Are Moving Faster Because of It",
+      "sourceUrl": "https://blogs.nvidia.com/blog/ai-semiconductor-fabs/",
+      "source": "NVIDIA",
+      "reason": "NVIDIA解析AI如何重塑半导体晶圆厂工作流"
     }
   ],
-  "trendSummary": "本周AI圈聚焦安全加固与人才争夺，Anthropic开放驻留申请，OpenAI连推漏洞赏金和安防冲刺，同时AI在抗生素研发等科学领域持续突破。"
+  "trendSummary": "本周AI圈聚焦智能体落地与工程化，从化学信息到设计、半导体和房地产，AI正加速渗透实体行业，同时长文档状态追踪等基础能力也在补强。"
 }
