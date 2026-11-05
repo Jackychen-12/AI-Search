@@ -1,37 +1,37 @@
 {
-  "date": "2026-11-04",
-  "generatedAt": "2026-11-04T02:21:31.690Z",
+  "date": "2026-11-05",
+  "generatedAt": "2026-11-05T02:29:10.772Z",
   "picks": [
     {
-      "title": "Progress on provable inference for large language models",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1qTzctMkJVc25sdVRiNlRUcGhHNjF1d2dJU2s0alBCZmFBVlZHS1VJNXlad0VHQnpDYnZLaEpJTklaUUdCVE1GRnNuN1REYWxBZkVwdFFyeWhDd3F1Mi0zWGlZVQ?oc=5",
-      "source": "Anthropic",
-      "reason": "Anthropic提出可证明推理进展，理论安全意义重大"
-    },
-    {
-      "title": "StateBench: Testing how language models track state changes over long documents",
-      "sourceUrl": "https://huggingface.co/blog/allenai/statebench",
-      "source": "HuggingFace Blog",
-      "reason": "StateBench评测长文档状态追踪，直击LLM核心短板"
-    },
-    {
-      "title": "Agentic cheminformatics with Google Antigravity",
-      "sourceUrl": "https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/",
-      "source": "Google DeepMind",
-      "reason": "DeepMind智能体化学信息学加速药物发现"
-    },
-    {
-      "title": "Accelerating engineering for the physical world",
-      "sourceUrl": "https://openai.com/index/accelerating-engineering-for-the-physical-world",
+      "title": "A thousand fewer paths to root",
+      "sourceUrl": "https://openai.com/index/a-thousand-fewer-paths-to-root",
       "source": "OpenAI",
-      "reason": "OpenAI展示ChatGPT加速物理世界工程设计"
+      "reason": "OpenAI自主流水线自动发现并生成补丁，工程自动化意义大"
     },
     {
-      "title": "AI Is Changing How Semiconductor Fabs Work — and Engineers Are Moving Faster Because of It",
-      "sourceUrl": "https://blogs.nvidia.com/blog/ai-semiconductor-fabs/",
-      "source": "NVIDIA",
-      "reason": "NVIDIA解析AI如何重塑半导体晶圆厂工作流"
+      "title": "Anthropic Residency: applications open for established technical leaders",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9RZThRbzhUdFJTZGszLUcwT29wNFdIZ29fVjJTUTB4SkJFRlZRekpOOVlpM1F6eGVSN2RENmpjWUl3QWU5YWNwRHZNaF9EdlNNMTY1TUtfaTJHOHk3S2s3SXJVc3BWSVVa?oc=5",
+      "source": "Anthropic",
+      "reason": "Anthropic驻留计划开放申请，面向资深技术领袖"
+    },
+    {
+      "title": "Graph-Mediated Large Language Model Systems in the Agentic Era: Reasoning, Knowledge, Retrieval, Execution, and Coordination",
+      "sourceUrl": "http://arxiv.org/abs/2611.05953v1",
+      "source": "arXiv",
+      "reason": "图介导LLM系统综述，覆盖推理检索执行协调"
+    },
+    {
+      "title": "Reward Budgeting Reduces Premature Convergence in Reinforcement Learning for LLM Reasoning",
+      "sourceUrl": "http://arxiv.org/abs/2611.05942v1",
+      "source": "arXiv",
+      "reason": "奖励预算缓解RL推理过早收敛，方法实用"
+    },
+    {
+      "title": "Agile Deliberation: How AI helps humans define the gray areas",
+      "sourceUrl": "https://research.google/blog/agile-deliberation-how-ai-helps-humans-define-the-gray-areas/",
+      "source": "Google Research",
+      "reason": "谷歌研究探讨AI辅助人类界定灰色地带决策"
     }
   ],
-  "trendSummary": "本周AI圈聚焦智能体落地与工程化，从化学信息到设计、半导体和房地产，AI正加速渗透实体行业，同时长文档状态追踪等基础能力也在补强。"
+  "trendSummary": "本周AI圈聚焦智能体系统与落地应用，从图结构协同、强化学习优化到文档结构化提取，同时关注机器人社会认知与模型可解释性。"
 }
