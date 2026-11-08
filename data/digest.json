@@ -1,37 +1,37 @@
 {
-  "date": "2026-11-07",
-  "generatedAt": "2026-11-07T01:57:38.171Z",
+  "date": "2026-11-08",
+  "generatedAt": "2026-11-08T01:27:51.078Z",
   "picks": [
-    {
-      "title": "Project EVE: Claude plays MMORPGs",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMidkFVX3lxTE4zQUNVYk03WEg1anJqMFdVd0hwa2E4MTNzTDdTQmM1Y2NQanplejhaRERoWGxNemgyNjNJREVwaEt6RFJiM2hfQjdBdkFRZ3ZZUFZHbm1yRWcwV0xUSmo5b29QZzd2Rmt3QUNfaUdLUXpQbEhpTFE?oc=5",
-      "source": "Anthropic",
-      "reason": "Claude玩MMORPG，展示智能体长程任务能力"
-    },
     {
       "title": "The components of agent memory",
       "sourceUrl": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5uaktEZlp1anNnLVpGTHNDMXE2d0p2cmxiRzZ3REI2QWQzYndMV01KVk1UYWExM0RlSF9YR3FrRzd6Wllhcm80NDZWanpDTV9zZkNoZWlzcWp4YWxDNkFqa1p2Z290X3BobFg1TnBn?oc=5",
       "source": "Anthropic",
-      "reason": "拆解智能体记忆组件，工程实践价值高"
+      "reason": "Anthropic官方解析智能体记忆架构，工程实践价值高"
+    },
+    {
+      "title": "Project EVE: Claude plays MMORPGs",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMidkFVX3lxTE4zQUNVYk03WEg1anJqMFdVd0hwa2E4MTNzTDdTQmM1Y2NQanplejhaRERoWGxNemgyNjNJREVwaEt6RFJiM2hfQjdBdkFRZ3ZZUFZHbm1yRWcwV0xUSmo5b29QZzd2Rmt3QUNfaUdLUXpQbEhpTFE?oc=5",
+      "source": "Anthropic",
+      "reason": "Claude玩MMORPG，展示智能体能力边界，话题性强"
     },
     {
       "title": "Measuring how AI agents handle everyday wet-lab science",
       "sourceUrl": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science",
       "source": "OpenAI",
-      "reason": "OpenAI发布湿实验室科学智能体基准"
+      "reason": "OpenAI发布湿实验室AI智能体基准，科学自动化重要进展"
     },
     {
-      "title": "Vera Delivers the Best of Both Worlds: Highest Throughput and Fastest Agents",
-      "sourceUrl": "https://blogs.nvidia.com/blog/vera-cpu-highest-throughput-fastest-agents/",
-      "source": "NVIDIA",
-      "reason": "英伟达Vera兼顾高吞吐与快速智能体"
+      "title": "Teaching AI to build scientific models",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1rLVltMFY0UFlmby1uSWtsdF9VZHpwWmNqUWZ3dFpTUDZKd2ZfZTVZRHl0aE5OdGxvLUt0OXc3WXZvLWdjSkNQZEpvSk9jNVJYUWlZZGpHZ0Q5Z2hQNFpDZ3JjZl9DUGROYXc0NWE4aWZfYnREX1ZMT3VGT3RaUQ?oc=5",
+      "source": "Anthropic",
+      "reason": "Anthropic谈AI构建科学模型，科学发现方向关键布局"
     },
     {
-      "title": "New NVIDIA Cosmos 3 Open Models for Interactive World Simulation",
-      "sourceUrl": "https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation",
-      "source": "HuggingFace Blog",
-      "reason": "英伟达Cosmos 3开放世界仿真模型"
+      "title": "Scientist World: Grow a Research World for AI-Scientists",
+      "sourceUrl": "http://arxiv.org/abs/2611.08478v1",
+      "source": "arXiv",
+      "reason": "arXiv提出AI科学家研究世界，前沿概念值得关注"
     }
   ],
-  "trendSummary": "本周AI圈聚焦智能体能力拓展与科学应用，从记忆机制、游戏操作到实验室研究，同时关注安全漏洞与多语言语音识别进展。"
+  "trendSummary": "本周AI圈聚焦智能体能力拓展与科学应用，从记忆机制、游戏操作到实验室研究，同时加强安全测试与多语言语音支持。"
 }
