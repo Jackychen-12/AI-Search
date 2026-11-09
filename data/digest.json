@@ -1,37 +1,37 @@
 {
-  "date": "2026-11-08",
-  "generatedAt": "2026-11-08T01:27:51.078Z",
+  "date": "2026-11-09",
+  "generatedAt": "2026-11-09T01:45:01.827Z",
   "picks": [
+    {
+      "title": "Goldman Sachs is pulling Claude Code from its bankers and traders",
+      "sourceUrl": "https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers",
+      "source": "Hacker News",
+      "reason": "高盛撤下Claude Code，金融巨头AI落地风向标"
+    },
+    {
+      "title": "Nvidia will investigate CEO Jensen Huang’s relationship with possible Chinese spy",
+      "sourceUrl": "https://techcrunch.com/2026/11/08/nvidia-says-its-investigating-ceo-jensen-huangs-relationship-with-possible-chinese-spy/",
+      "source": "TechCrunch",
+      "reason": "英伟达调查黄仁勋涉华间谍关系，重大公司治理事件"
+    },
+    {
+      "title": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
+      "sourceUrl": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
+      "source": "Hacker News",
+      "reason": "Claude Code泄露密码，AI工具安全隐患警示"
+    },
+    {
+      "title": "Anthropic IPO buyers see valuation as low as $1.1T",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-11-06/anthropic-ipo-valuation-expectations-pressured-after-ai-rout",
+      "source": "Hacker News",
+      "reason": "Anthropic IPO估值传闻，AI融资热度焦点"
+    },
     {
       "title": "The components of agent memory",
       "sourceUrl": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5uaktEZlp1anNnLVpGTHNDMXE2d0p2cmxiRzZ3REI2QWQzYndMV01KVk1UYWExM0RlSF9YR3FrRzd6Wllhcm80NDZWanpDTV9zZkNoZWlzcWp4YWxDNkFqa1p2Z290X3BobFg1TnBn?oc=5",
       "source": "Anthropic",
-      "reason": "Anthropic官方解析智能体记忆架构，工程实践价值高"
-    },
-    {
-      "title": "Project EVE: Claude plays MMORPGs",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMidkFVX3lxTE4zQUNVYk03WEg1anJqMFdVd0hwa2E4MTNzTDdTQmM1Y2NQanplejhaRERoWGxNemgyNjNJREVwaEt6RFJiM2hfQjdBdkFRZ3ZZUFZHbm1yRWcwV0xUSmo5b29QZzd2Rmt3QUNfaUdLUXpQbEhpTFE?oc=5",
-      "source": "Anthropic",
-      "reason": "Claude玩MMORPG，展示智能体能力边界，话题性强"
-    },
-    {
-      "title": "Measuring how AI agents handle everyday wet-lab science",
-      "sourceUrl": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science",
-      "source": "OpenAI",
-      "reason": "OpenAI发布湿实验室AI智能体基准，科学自动化重要进展"
-    },
-    {
-      "title": "Teaching AI to build scientific models",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1rLVltMFY0UFlmby1uSWtsdF9VZHpwWmNqUWZ3dFpTUDZKd2ZfZTVZRHl0aE5OdGxvLUt0OXc3WXZvLWdjSkNQZEpvSk9jNVJYUWlZZGpHZ0Q5Z2hQNFpDZ3JjZl9DUGROYXc0NWE4aWZfYnREX1ZMT3VGT3RaUQ?oc=5",
-      "source": "Anthropic",
-      "reason": "Anthropic谈AI构建科学模型，科学发现方向关键布局"
-    },
-    {
-      "title": "Scientist World: Grow a Research World for AI-Scientists",
-      "sourceUrl": "http://arxiv.org/abs/2611.08478v1",
-      "source": "arXiv",
-      "reason": "arXiv提出AI科学家研究世界，前沿概念值得关注"
+      "reason": "Anthropic解读智能体记忆机制，技术干货"
     }
   ],
-  "trendSummary": "本周AI圈聚焦智能体能力拓展与科学应用，从记忆机制、游戏操作到实验室研究，同时加强安全测试与多语言语音支持。"
+  "trendSummary": "本周AI圈在应用落地与基础研究间双向推进：一边是金融巨头调整工具选择、模型跨界玩游戏，另一边聚焦智能体记忆、科学建模与机器人学习，语音覆盖也在扩围。"
 }
