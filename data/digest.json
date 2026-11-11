@@ -1,37 +1,37 @@
 {
-  "date": "2026-11-10",
-  "generatedAt": "2026-11-10T04:08:10.268Z",
+  "date": "2026-11-11",
+  "generatedAt": "2026-11-11T01:57:17.146Z",
   "picks": [
     {
       "title": "Introducing Claude Fable 5.2 and Claude Mythos 5.2",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBvemRsWlN1U1g0NDQ5VUdhajBhZVVfd3J1eGRGV1lubnZQc3J6UVA1STMwdmlUM0k3a2c0SkN3VmdxYkplTnp4TWlheWV0NHlUUzFTYTU1b3Vmbmh1ZjVBakVlcw?oc=5",
       "source": "Anthropic",
-      "reason": "Anthropic发布双新模型，旗舰迭代最受关注"
+      "reason": "Anthropic发布新一代Claude模型，模型能力升级最受关注"
     },
     {
-      "title": "Claude can design electronic prototypes from start to finish",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBCTmk0c0tyNmVjUlFGNGlCZUtLSkxDQS13Unc1LUVXanhOVmt2a2xTLUQ2Vm5LZ2RLQnMzVUhUQXFLTVBfd1VQZi01V0ppVkZLU0VIcXNJT3V3Ul9ZSEFUS3l6S2ZLY0tHOVgxNw?oc=5",
-      "source": "Anthropic",
-      "reason": "Claude可端到端设计电子原型，能力边界突破"
+      "title": "Introducing AlphaProof Code: a breakthrough in verifying complex software at depth",
+      "sourceUrl": "https://deepmind.google/blog/introducing-alphaproof-code/",
+      "source": "Google DeepMind",
+      "reason": "DeepMind用AI验证复杂软件，代码验证领域重大突破"
     },
     {
-      "title": "A single AI model simulates the behavior of many substances, from sliding sand to folding proteins",
-      "sourceUrl": "https://news.mit.edu/2026/single-ai-model-simulates-many-substances-behavior-1109",
-      "source": "MIT News",
-      "reason": "MIT单模型模拟多物质行为，科学价值高"
+      "title": "Gemini Robotics 2.5 accelerates real-world general dexterity",
+      "sourceUrl": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/",
+      "source": "Google DeepMind",
+      "reason": "Gemini机器人模型升级，加速真实世界灵巧操作"
     },
     {
-      "title": "ChatGPT Enterprise now available in AWS Marketplace",
-      "sourceUrl": "https://openai.com/index/chatgpt-enterprise-aws-marketplace",
-      "source": "OpenAI",
-      "reason": "ChatGPT企业版上架AWS，渠道与商业化关键"
+      "title": "Lazare, veni foras: Reprogramming Dormant Neurons to Backdoor AI Agents",
+      "sourceUrl": "https://www.microsoft.com/en-us/research/blog/lazare-veni-foras-reprogramming-dormant-neurons-to-backdoor-ai-agents/",
+      "source": "Microsoft Research",
+      "reason": "微软揭示AI代理后门攻击，安全风险值得警惕"
     },
     {
-      "title": "AI-assisted learning platform helps robots reason beyond literal commands",
-      "sourceUrl": "https://news.mit.edu/2026/ai-assisted-learning-platform-helps-robots-reason-beyond-literal-commands-1109",
-      "source": "MIT News",
-      "reason": "FLEX让机器人超越字面指令，交互更自然"
+      "title": "Google Cloud launches Gemini for healthcare.",
+      "sourceUrl": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-for-healthcare/",
+      "source": "Google AI",
+      "reason": "谷歌云推出医疗版Gemini，垂直行业落地提速"
     }
   ],
-  "trendSummary": "本周AI圈聚焦模型能力深化与产业落地：Claude新版本强化端到端设计，企业级应用加速接入云市场，合成数据与算力投资持续升温，AI正深入制造与软件开发一线。"
+  "trendSummary": "本周AI热点集中在巨头生态扩张与资本化：谷歌将Gemini渗透至医疗、设备及办公场景，Anthropic启动IPO路演，英伟达加码开源基建，法律、编程等垂直领域AI应用加速落地。"
 }

@@ -1,6 +1,6 @@
 {
-  "fetchedAt": "2026-11-10T04:08:07.104Z",
-  "count": 773,
+  "fetchedAt": "2026-11-11T01:57:13.726Z",
+  "count": 783,
   "sources": {
     "hf-papers": 50,
     "github": 80,
@@ -32,7 +32,7 @@
     "rss:semianalysis": 10,
     "rss:smol-ainews": 20,
     "rss:tldr-ai": 20,
-    "rss:simonwillison": 10,
+    "rss:simonwillison": 12,
     "rss:lilianweng": 20,
     "rss:raschka": 20,
     "rss:thegradient": 12,
@@ -44,11 +44,11 @@
     "rss:qbitai": 10,
     "rss:jiqizhixin": 20,
     "rss:xinzhiyuan": 20,
-    "rss:geekpark": 15,
+    "rss:geekpark": 16,
     "rss:36kr": 0,
     "rss:infoq": 14,
-    "rss:sspai": 1,
-    "rss:ithome": 3,
+    "rss:sspai": 2,
+    "rss:ithome": 5,
     "arxiv": 20
   },
   "errors": {
