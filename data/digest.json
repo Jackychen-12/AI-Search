@@ -1,37 +1,37 @@
 {
-  "date": "2026-11-11",
-  "generatedAt": "2026-11-11T01:57:17.146Z",
+  "date": "2026-11-12",
+  "generatedAt": "2026-11-12T03:02:14.251Z",
   "picks": [
     {
-      "title": "Introducing Claude Fable 5.2 and Claude Mythos 5.2",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBvemRsWlN1U1g0NDQ5VUdhajBhZVVfd3J1eGRGV1lubnZQc3J6UVA1STMwdmlUM0k3a2c0SkN3VmdxYkplTnp4TWlheWV0NHlUUzFTYTU1b3Vmbmh1ZjVBakVlcw?oc=5",
-      "source": "Anthropic",
-      "reason": "Anthropic发布新一代Claude模型，模型能力升级最受关注"
-    },
-    {
-      "title": "Introducing AlphaProof Code: a breakthrough in verifying complex software at depth",
-      "sourceUrl": "https://deepmind.google/blog/introducing-alphaproof-code/",
+      "title": "AlphaGenome 2: Deciphering how cells read DNA to better understand disease",
+      "sourceUrl": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
       "source": "Google DeepMind",
-      "reason": "DeepMind用AI验证复杂软件，代码验证领域重大突破"
-    },
-    {
-      "title": "Gemini Robotics 2.5 accelerates real-world general dexterity",
-      "sourceUrl": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/",
-      "source": "Google DeepMind",
-      "reason": "Gemini机器人模型升级，加速真实世界灵巧操作"
+      "reason": "AlphaGenome 2 解码DNA与疾病机制，科学突破性强"
     },
     {
       "title": "Lazare, veni foras: Reprogramming Dormant Neurons to Backdoor AI Agents",
       "sourceUrl": "https://www.microsoft.com/en-us/research/blog/lazare-veni-foras-reprogramming-dormant-neurons-to-backdoor-ai-agents/",
       "source": "Microsoft Research",
-      "reason": "微软揭示AI代理后门攻击，安全风险值得警惕"
+      "reason": "微软揭示AI代理后门技术，安全议题重要"
     },
     {
-      "title": "Google Cloud launches Gemini for healthcare.",
-      "sourceUrl": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-for-healthcare/",
+      "title": "Diluting Poisoned Fine-Tuning Data Can Strengthen Its Effect",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1pT3BQSS05MGNNbk1LLTc3SXExY3paYnBObEs1S2d3MDk3UEE2N29VenZFWlRtZm5RNXlKdE8xRlowXzY4NHN0TnRJQUhkYk9ZS191dnR6S3A1N1RKMWdGa0JYY0pubWJiRHc?oc=5",
+      "source": "Anthropic",
+      "reason": "Anthropic发现稀释投毒数据反增强效果，反直觉"
+    },
+    {
+      "title": "Worse Together: How Performance Breaks Down in Multi-User Multi-Agent Teams",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5mZm01S0Via2g3cWczVVB5YlNSMlI1a2FKekVZY0liWmMzQndHSnIyNVd2RnlLUWFWb3ItWG1KZVZQY2Q3aUlGeGM2UzRDb0Qxc3dtWEFQZkN3TDdmMDJoam1R?oc=5",
+      "source": "Anthropic",
+      "reason": "多用户多代理团队性能崩溃研究，切中协作痛点"
+    },
+    {
+      "title": "Gemini Decisions API: Fast, calibrated multimodal decisions",
+      "sourceUrl": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
       "source": "Google AI",
-      "reason": "谷歌云推出医疗版Gemini，垂直行业落地提速"
+      "reason": "Gemini Decisions API 主打快速校准决策，实用"
     }
   ],
-  "trendSummary": "本周AI热点集中在巨头生态扩张与资本化：谷歌将Gemini渗透至医疗、设备及办公场景，Anthropic启动IPO路演，英伟达加码开源基建，法律、编程等垂直领域AI应用加速落地。"
+  "trendSummary": "本周AI圈从法律、基因组到超大规模推荐全面落地，多智能体协作短板与端侧小模型成为新焦点。"
 }
