@@ -1,37 +1,37 @@
 {
-  "date": "2026-11-12",
-  "generatedAt": "2026-11-12T03:02:14.251Z",
+  "date": "2026-11-13",
+  "generatedAt": "2026-11-13T02:38:56.797Z",
   "picks": [
+    {
+      "title": "Google Search gets a major upgrade with Gemini 4 Hydrogen",
+      "sourceUrl": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/",
+      "source": "Google AI",
+      "reason": "Gemini 4 Hydrogen全面接入谷歌搜索，影响面最大"
+    },
+    {
+      "title": "Introducing Gemini 4 Hydrogen",
+      "sourceUrl": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/",
+      "source": "Google DeepMind",
+      "reason": "DeepMind发布Gemini 4 Hydrogen，旗舰模型重磅更新"
+    },
+    {
+      "title": "Jensen Huang resigns",
+      "sourceUrl": "https://apnews.com/article/nvidia-megaspeed-china-singapore-huang-5403f152a601cf82ce939f1d24fffa0f",
+      "source": "Hacker News",
+      "reason": "黄仁勋辞任英伟达CEO，行业级重大人事变动"
+    },
     {
       "title": "AlphaGenome 2: Deciphering how cells read DNA to better understand disease",
       "sourceUrl": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
       "source": "Google DeepMind",
-      "reason": "AlphaGenome 2 解码DNA与疾病机制，科学突破性强"
+      "reason": "AlphaGenome 2解码DNA与疾病，科研突破性强"
     },
     {
-      "title": "Lazare, veni foras: Reprogramming Dormant Neurons to Backdoor AI Agents",
-      "sourceUrl": "https://www.microsoft.com/en-us/research/blog/lazare-veni-foras-reprogramming-dormant-neurons-to-backdoor-ai-agents/",
-      "source": "Microsoft Research",
-      "reason": "微软揭示AI代理后门技术，安全议题重要"
-    },
-    {
-      "title": "Diluting Poisoned Fine-Tuning Data Can Strengthen Its Effect",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1pT3BQSS05MGNNbk1LLTc3SXExY3paYnBObEs1S2d3MDk3UEE2N29VenZFWlRtZm5RNXlKdE8xRlowXzY4NHN0TnRJQUhkYk9ZS191dnR6S3A1N1RKMWdGa0JYY0pubWJiRHc?oc=5",
-      "source": "Anthropic",
-      "reason": "Anthropic发现稀释投毒数据反增强效果，反直觉"
-    },
-    {
-      "title": "Worse Together: How Performance Breaks Down in Multi-User Multi-Agent Teams",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5mZm01S0Via2g3cWczVVB5YlNSMlI1a2FKekVZY0liWmMzQndHSnIyNVd2RnlLUWFWb3ItWG1KZVZQY2Q3aUlGeGM2UzRDb0Qxc3dtWEFQZkN3TDdmMDJoam1R?oc=5",
-      "source": "Anthropic",
-      "reason": "多用户多代理团队性能崩溃研究，切中协作痛点"
-    },
-    {
-      "title": "Gemini Decisions API: Fast, calibrated multimodal decisions",
-      "sourceUrl": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
-      "source": "Google AI",
-      "reason": "Gemini Decisions API 主打快速校准决策，实用"
+      "title": "Three Lincoln Laboratory technologies receive 2026 R&D 100 Awards",
+      "sourceUrl": "https://news.mit.edu/2026/lincoln-laboratory-technologies-receive-rd-100-awards-1112",
+      "source": "MIT News",
+      "reason": "林肯实验室三项技术获R&D 100奖，硬科技亮点"
     }
   ],
-  "trendSummary": "本周AI圈从法律、基因组到超大规模推荐全面落地，多智能体协作短板与端侧小模型成为新焦点。"
+  "trendSummary": "本周AI圈聚焦模型落地提速：Gemini 4 Hydrogen接入搜索，Codex助企业快速迭代，开源标记语言与气候预测研究同步推进。"
 }
