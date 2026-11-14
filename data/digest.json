@@ -1,37 +1,37 @@
 {
-  "date": "2026-11-13",
-  "generatedAt": "2026-11-13T02:38:56.797Z",
+  "date": "2026-11-14",
+  "generatedAt": "2026-11-14T02:27:37.849Z",
   "picks": [
     {
-      "title": "Google Search gets a major upgrade with Gemini 4 Hydrogen",
-      "sourceUrl": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/",
-      "source": "Google AI",
-      "reason": "Gemini 4 Hydrogen全面接入谷歌搜索，影响面最大"
+      "title": "Introducing ChatGPT Wallet",
+      "sourceUrl": "https://openai.com/index/introducing-chatgpt-wallet",
+      "source": "OpenAI",
+      "reason": "OpenAI推出ChatGPT Wallet，支付与智能体结合，影响面广"
     },
     {
-      "title": "Introducing Gemini 4 Hydrogen",
-      "sourceUrl": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/",
-      "source": "Google DeepMind",
-      "reason": "DeepMind发布Gemini 4 Hydrogen，旗舰模型重磅更新"
+      "title": "llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem",
+      "sourceUrl": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
+      "source": "HuggingFace Blog",
+      "reason": "llama.cpp发布v1.0.0，本地AI生态里程碑"
     },
     {
-      "title": "Jensen Huang resigns",
-      "sourceUrl": "https://apnews.com/article/nvidia-megaspeed-china-singapore-huang-5403f152a601cf82ce939f1d24fffa0f",
-      "source": "Hacker News",
-      "reason": "黄仁勋辞任英伟达CEO，行业级重大人事变动"
+      "title": "Building strong safety evaluations",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5WQ1RoMWFsN1VyVjdlam5YZkZ4M1I1SUNjeWExWm1OcHR5MlRpRmtwU2NIT0dSQUhXSjlfb2hrZGhHYlVRUjUtUzBtRzRZUUZhcE9PNERJekdzNW1PUWhOd0s5MjBRXzVFdnFWZlJ5c0VSak5RZ3lUaA?oc=5",
+      "source": "Anthropic",
+      "reason": "Anthropic安全评估方法论，AI安全治理关键参考"
     },
     {
-      "title": "AlphaGenome 2: Deciphering how cells read DNA to better understand disease",
-      "sourceUrl": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
-      "source": "Google DeepMind",
-      "reason": "AlphaGenome 2解码DNA与疾病，科研突破性强"
-    },
-    {
-      "title": "Three Lincoln Laboratory technologies receive 2026 R&D 100 Awards",
-      "sourceUrl": "https://news.mit.edu/2026/lincoln-laboratory-technologies-receive-rd-100-awards-1112",
+      "title": "New AI “copilot” helps engineers design better structures",
+      "sourceUrl": "https://news.mit.edu/2026/new-ai-copilot-helps-engineers-design-better-structures-1113",
       "source": "MIT News",
-      "reason": "林肯实验室三项技术获R&D 100奖，硬科技亮点"
+      "reason": "MIT工程AI副驾驶，人机协作设计新范式"
+    },
+    {
+      "title": "Helping robots fit into the human workplace",
+      "sourceUrl": "https://news.mit.edu/2026/helping-robots-fit-into-human-workplace-1113",
+      "source": "MIT News",
+      "reason": "MIT机器人融入职场，落地应用值得关注"
     }
   ],
-  "trendSummary": "本周AI圈聚焦模型落地提速：Gemini 4 Hydrogen接入搜索，Codex助企业快速迭代，开源标记语言与气候预测研究同步推进。"
+  "trendSummary": "本周AI圈更重落地与安全：本地推理生态升级，机器人仿真与协作加速，安全评估和行业副驾正走向实用。"
 }
