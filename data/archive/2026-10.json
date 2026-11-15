@@ -21894,7 +21894,7 @@
     "aiSelected": true,
     "origin": "rss:nvidia",
     "aiNote": null,
-    "heat": 41,
+    "heat": 40,
     "firstSeen": "2026-10-30T01:58:53.075Z",
     "fetchedAt": null,
     "tier": 1
@@ -40319,7 +40319,7 @@
     "aiSelected": true,
     "origin": "rss:deepmind",
     "aiNote": null,
-    "heat": 32,
+    "heat": 31,
     "firstSeen": "2026-10-16T00:25:46.497Z",
     "fetchedAt": null,
     "tier": 1
@@ -40701,7 +40701,7 @@
     "aiSelected": true,
     "origin": "rss:mistral",
     "aiNote": null,
-    "heat": 32,
+    "heat": 31,
     "firstSeen": "2026-10-16T00:25:46.497Z",
     "fetchedAt": null,
     "tier": 1
@@ -40994,7 +40994,7 @@
     "aiSelected": true,
     "origin": "rss:apple-ml",
     "aiNote": null,
-    "heat": 32,
+    "heat": 31,
     "firstSeen": "2026-10-16T00:25:46.497Z",
     "fetchedAt": null,
     "tier": 1
@@ -41011,7 +41011,7 @@
     "aiSelected": true,
     "origin": "rss:apple-ml",
     "aiNote": null,
-    "heat": 32,
+    "heat": 31,
     "firstSeen": "2026-10-16T00:25:46.497Z",
     "fetchedAt": null,
     "tier": 1
@@ -47389,7 +47389,7 @@
     "origin": "github",
     "aiNote": null,
     "image": null,
-    "heat": 23,
+    "heat": 20,
     "firstSeen": "2026-10-19T00:13:17.256Z",
     "fetchedAt": null,
     "tier": 2
@@ -51349,7 +51349,7 @@
     "aiSelected": true,
     "origin": "rss:interconnects",
     "aiNote": null,
-    "heat": 24,
+    "heat": 23,
     "firstSeen": "2026-10-21T00:38:42.133Z",
     "fetchedAt": null,
     "tier": 2
@@ -51519,7 +51519,7 @@
     "aiSelected": true,
     "origin": "rss:oneusefulthing",
     "aiNote": null,
-    "heat": 24,
+    "heat": 23,
     "firstSeen": "2026-10-21T00:38:42.133Z",
     "fetchedAt": null,
     "tier": 2
@@ -51858,7 +51858,7 @@
     "aiSelected": true,
     "origin": "rss:bensbites",
     "aiNote": null,
-    "heat": 24,
+    "heat": 23,
     "firstSeen": "2026-10-21T00:38:42.133Z",
     "fetchedAt": null,
     "tier": 2
@@ -53332,7 +53332,7 @@
     "origin": "github",
     "aiNote": null,
     "image": null,
-    "heat": 18,
+    "heat": 19,
     "firstSeen": "2026-10-21T00:38:42.133Z",
     "fetchedAt": null,
     "tier": 2
@@ -55039,7 +55039,7 @@
     "aiSelected": true,
     "origin": "rss:google-research",
     "aiNote": null,
-    "heat": 33,
+    "heat": 32,
     "firstSeen": "2026-10-22T00:42:08.005Z",
     "fetchedAt": null,
     "tier": 1
@@ -55527,7 +55527,7 @@
     "aiSelected": true,
     "origin": "rss:mistral",
     "aiNote": null,
-    "heat": 33,
+    "heat": 32,
     "firstSeen": "2026-10-22T00:42:08.005Z",
     "fetchedAt": null,
     "tier": 1
@@ -56041,7 +56041,7 @@
     "aiSelected": true,
     "origin": "rss:google-ai",
     "aiNote": null,
-    "heat": 33,
+    "heat": 32,
     "firstSeen": "2026-10-22T00:42:08.005Z",
     "fetchedAt": null,
     "tier": 1
@@ -60223,7 +60223,7 @@
     "origin": "github",
     "aiNote": null,
     "image": null,
-    "heat": 24,
+    "heat": 21,
     "firstSeen": "2026-10-23T00:41:54.806Z",
     "fetchedAt": null,
     "tier": 2
@@ -66155,7 +66155,7 @@
     "aiSelected": true,
     "origin": "rss:interconnects",
     "aiNote": "Kimi新模型与网络现实议题同框，看点在于国产大模型迭代节奏与安全讨论并行。",
-    "heat": 25,
+    "heat": 24,
     "firstSeen": "2026-10-26T00:24:44.353Z",
     "fetchedAt": null,
     "tier": 2
@@ -66543,12 +66543,12 @@
       "coloros",
       "Python"
     ],
-    "engagement": 7843,
+    "engagement": 8039,
     "aiSelected": true,
     "origin": "github",
     "aiNote": null,
     "image": null,
-    "heat": 33,
+    "heat": 32,
     "firstSeen": "2026-10-26T00:24:44.353Z",
     "fetchedAt": null,
     "tier": 2
@@ -67930,7 +67930,7 @@
     "aiSelected": true,
     "origin": "rss:tldr-ai",
     "aiNote": null,
-    "heat": 25,
+    "heat": 24,
     "firstSeen": "2026-10-27T01:29:40.864Z",
     "fetchedAt": null,
     "tier": 2
@@ -69250,12 +69250,12 @@
       "data-extraction",
       "Rust"
     ],
-    "engagement": 271,
+    "engagement": 273,
     "aiSelected": true,
     "origin": "github",
     "aiNote": null,
     "image": null,
-    "heat": 25,
+    "heat": 22,
     "firstSeen": "2026-10-27T01:29:40.864Z",
     "fetchedAt": null,
     "tier": 2
@@ -70008,7 +70008,7 @@
     "aiSelected": true,
     "origin": "rss:mit-news-ai",
     "aiNote": "高管受训后联手MIT出书，企业AI落地经验值得借鉴。",
-    "heat": 35,
+    "heat": 34,
     "firstSeen": "2026-10-28T01:24:45.702Z",
     "fetchedAt": null,
     "tier": 1
@@ -70462,7 +70462,7 @@
     "aiSelected": true,
     "origin": "rss:deepmind",
     "aiNote": null,
-    "heat": 35,
+    "heat": 34,
     "firstSeen": "2026-10-28T01:24:45.702Z",
     "fetchedAt": null,
     "tier": 1
@@ -72606,12 +72606,12 @@
       "gpu",
       "TypeScript"
     ],
-    "engagement": 516,
+    "engagement": 522,
     "aiSelected": true,
     "origin": "github",
     "aiNote": null,
     "image": null,
-    "heat": 27,
+    "heat": 24,
     "firstSeen": "2026-10-28T01:24:45.702Z",
     "fetchedAt": null,
     "tier": 2
@@ -73870,7 +73870,7 @@
     "origin": "hackernews",
     "aiNote": null,
     "image": null,
-    "heat": 34,
+    "heat": 33,
     "firstSeen": "2026-10-29T01:49:26.671Z",
     "fetchedAt": null,
     "tier": 2
@@ -74655,7 +74655,7 @@
     "aiSelected": true,
     "origin": "rss:mit-news-ai",
     "aiNote": null,
-    "heat": 35,
+    "heat": 34,
     "firstSeen": "2026-10-29T01:49:26.671Z",
     "fetchedAt": null,
     "tier": 1
@@ -76037,7 +76037,7 @@
     "origin": "github",
     "aiNote": null,
     "image": null,
-    "heat": 19,
+    "heat": 20,
     "firstSeen": "2026-10-29T01:49:26.671Z",
     "fetchedAt": null,
     "tier": 2
@@ -76414,12 +76414,12 @@
       "deepagents",
       "JavaScript"
     ],
-    "engagement": 615,
+    "engagement": 618,
     "aiSelected": true,
     "origin": "github",
     "aiNote": null,
     "image": null,
-    "heat": 28,
+    "heat": 25,
     "firstSeen": "2026-10-29T01:49:26.671Z",
     "fetchedAt": null,
     "tier": 2
@@ -77572,7 +77572,7 @@
     "aiSelected": true,
     "origin": "rss:hf-blog",
     "aiNote": null,
-    "heat": 36,
+    "heat": 35,
     "firstSeen": "2026-10-30T01:58:53.075Z",
     "fetchedAt": null,
     "tier": 1
@@ -77661,7 +77661,7 @@
     "origin": "hackernews",
     "aiNote": null,
     "image": null,
-    "heat": 30,
+    "heat": 29,
     "firstSeen": "2026-10-30T01:58:53.075Z",
     "fetchedAt": null,
     "tier": 2
@@ -77678,7 +77678,7 @@
     "aiSelected": true,
     "origin": "rss:mistral",
     "aiNote": null,
-    "heat": 36,
+    "heat": 35,
     "firstSeen": "2026-10-30T01:58:53.075Z",
     "fetchedAt": null,
     "tier": 1
@@ -78170,7 +78170,7 @@
     "aiSelected": true,
     "origin": "rss:tldr-ai",
     "aiNote": null,
-    "heat": 26,
+    "heat": 25,
     "firstSeen": "2026-10-30T01:58:53.075Z",
     "fetchedAt": null,
     "tier": 2
@@ -81301,7 +81301,7 @@
       "automation",
       "Kotlin"
     ],
-    "engagement": 8531,
+    "engagement": 8624,
     "aiSelected": true,
     "origin": "github",
     "aiNote": null,
@@ -81416,7 +81416,7 @@
     "origin": "github",
     "aiNote": null,
     "image": null,
-    "heat": 19,
+    "heat": 20,
     "firstSeen": "2026-10-31T01:36:49.510Z",
     "fetchedAt": null,
     "tier": 2
@@ -82074,12 +82074,12 @@
       "coding-agent",
       "Dart"
     ],
-    "engagement": 21854,
+    "engagement": 22782,
     "aiSelected": true,
     "origin": "github",
     "aiNote": null,
     "image": null,
-    "heat": 34,
+    "heat": 33,
     "firstSeen": "2026-10-31T01:36:49.510Z",
     "fetchedAt": null,
     "tier": 2
