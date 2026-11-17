@@ -1,37 +1,37 @@
 {
-  "date": "2026-11-16",
-  "generatedAt": "2026-11-16T02:11:29.235Z",
+  "date": "2026-11-17",
+  "generatedAt": "2026-11-17T04:31:13.279Z",
   "picks": [
     {
-      "title": "Introducing ChatGPT Wallet",
-      "sourceUrl": "https://openai.com/index/introducing-chatgpt-wallet",
+      "title": "NVIDIA Sweeps MLPerf Training and Endpoints as Vera Rubin Debuts With Leading Performance",
+      "sourceUrl": "https://blogs.nvidia.com/blog/mlperf-training-endpoints-vera-rubin/",
+      "source": "NVIDIA",
+      "reason": "Vera Rubin首秀横扫MLPerf，性能领先成焦点"
+    },
+    {
+      "title": "NVIDIA Announces Rubin HPC — A New GPU to Accelerate Agents for Science, Engineering and Analytics",
+      "sourceUrl": "https://blogs.nvidia.com/blog/rubin-hpc/",
+      "source": "NVIDIA",
+      "reason": "Rubin HPC新GPU发布，加速科学智能体"
+    },
+    {
+      "title": "Broadening access to AI for scientists",
+      "sourceUrl": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
       "source": "OpenAI",
-      "reason": "ChatGPT Wallet落地支付场景，AI代理商业化关键一步"
+      "reason": "OpenAI扩大科研人员ChatGPT访问，惠及20万人"
     },
     {
-      "title": "llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem",
-      "sourceUrl": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
-      "source": "HuggingFace Blog",
-      "reason": "llama.cpp发1.0版，本地AI生态迎来重要里程碑"
+      "title": "TokenEconomizer: Learning from Experience to Make AI Coding Agents More Efficient",
+      "sourceUrl": "https://www.microsoft.com/en-us/research/blog/tokeneconomizer-learning-from-experience-to-make-ai-coding-agents-more-efficient/",
+      "source": "Microsoft Research",
+      "reason": "TokenEconomizer提升编码智能体效率，实用创新"
     },
     {
-      "title": "Nvidia allegedly engineered scarcity by funding AI startups to buy its GPUs",
-      "sourceUrl": "https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus",
-      "source": "Hacker News",
-      "reason": "英伟达被指资助初创买卡制造稀缺，争议重大"
-    },
-    {
-      "title": "Building strong safety evaluations",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5WQ1RoMWFsN1VyVjdlam5YZkZ4M1I1SUNjeWExWm1OcHR5MlRpRmtwU2NIT0dSQUhXSjlfb2hrZGhHYlVRUjUtUzBtRzRZUUZhcE9PNERJekdzNW1PUWhOd0s5MjBRXzVFdnFWZlJ5c0VSak5RZ3lUaA?oc=5",
-      "source": "Anthropic",
-      "reason": "Anthropic谈安全评估建设，安全议题持续升温"
-    },
-    {
-      "title": "New AI “copilot” helps engineers design better structures",
-      "sourceUrl": "https://news.mit.edu/2026/new-ai-copilot-helps-engineers-design-better-structures-1113",
-      "source": "MIT News",
-      "reason": "MIT推AI设计copilot，人机协作提升工程可信度"
+      "title": "More ways to move care forward with ChatGPT for Healthcare",
+      "sourceUrl": "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare",
+      "source": "OpenAI",
+      "reason": "ChatGPT医疗新功能上线，推动临床智能化"
     }
   ],
-  "trendSummary": "本周AI圈聚焦安全评估与开源生态，本地推理框架迎来里程碑，AI生成代码归属引发讨论，芯片供应争议持续发酵。"
+  "trendSummary": "本周AI圈聚焦算力基建与科学应用，英伟达密集发布Rubin新品并横扫MLPerf，同时业界探索智能体提效与更广的科研可及性。"
 }
