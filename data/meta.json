@@ -1,12 +1,12 @@
 {
-  "fetchedAt": "2026-11-18T03:43:33.826Z",
-  "count": 784,
+  "fetchedAt": "2026-11-19T03:31:39.577Z",
+  "count": 768,
   "sources": {
     "hf-papers": 50,
     "github": 80,
-    "hackernews": 109,
+    "hackernews": 114,
     "rss:openai": 20,
-    "rss:anthropic": 20,
+    "rss:anthropic": 0,
     "rss:meta-ai": 20,
     "rss:google-ai": 20,
     "rss:deepmind": 20,
@@ -32,7 +32,7 @@
     "rss:semianalysis": 10,
     "rss:smol-ainews": 20,
     "rss:tldr-ai": 20,
-    "rss:simonwillison": 9,
+    "rss:simonwillison": 7,
     "rss:lilianweng": 20,
     "rss:raschka": 20,
     "rss:thegradient": 12,
@@ -44,14 +44,15 @@
     "rss:qbitai": 10,
     "rss:jiqizhixin": 20,
     "rss:xinzhiyuan": 20,
-    "rss:geekpark": 17,
+    "rss:geekpark": 16,
     "rss:36kr": 0,
-    "rss:infoq": 10,
+    "rss:infoq": 9,
     "rss:sspai": 1,
-    "rss:ithome": 3,
+    "rss:ithome": 6,
     "arxiv": 20
   },
   "errors": {
+    "rss:anthropic": "HTTP 429 Too Many Requests <- https://news.google.com/rss/search?q=site:anthropic.com&hl=en-US&gl=US&ceid=US:en",
     "rss:venturebeat-ai": "HTTP 429 Too Many Requests <- https://venturebeat.com/category/ai/feed/"
   }
 }

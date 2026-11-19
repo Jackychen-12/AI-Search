@@ -1,37 +1,37 @@
 {
-  "date": "2026-11-18",
-  "generatedAt": "2026-11-18T03:43:36.712Z",
+  "date": "2026-11-19",
+  "generatedAt": "2026-11-19T03:31:42.687Z",
   "picks": [
     {
-      "title": "Introducing GPT-6.2 Astra and Sol",
-      "sourceUrl": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
+      "title": "Introducing Gemini 4 Neon",
+      "sourceUrl": "https://deepmind.google/blog/introducing-gemini-4-neon/",
+      "source": "Google DeepMind",
+      "reason": "Gemini 4 Neon发布，旗舰模型迭代最受关注"
+    },
+    {
+      "title": "Genie 4 is now available",
+      "sourceUrl": "https://deepmind.google/blog/genie-4-is-now-available/",
+      "source": "Google DeepMind",
+      "reason": "Genie 4上线，世界模型进展值得追踪"
+    },
+    {
+      "title": "Research acceleration: The jagged frontier",
+      "sourceUrl": "https://openai.com/index/research-acceleration-jagged-frontier",
       "source": "OpenAI",
-      "reason": "OpenAI发布GPT-6.2 Astra与Sol，旗舰模型升级最受关注"
+      "reason": "OpenAI量化编码智能体加速科研，数据硬核"
     },
     {
-      "title": "Put Gemini to work for you",
-      "sourceUrl": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/",
-      "source": "Google AI",
-      "reason": "Gemini Tasks在六国免费开放，产品落地影响广泛"
+      "title": "This featherweight, flying robot carries its own sensors and computers",
+      "sourceUrl": "https://news.mit.edu/2026/featherweight-flying-robot-carries-its-own-sensors-and-computers-1118",
+      "source": "MIT News",
+      "reason": "MIT无外挂感知微型飞行机器人，突破性强"
     },
     {
-      "title": "Ian Buck Kicks Off NVIDIA’s Week at SC26 as Science Enters the Age of Agents",
-      "sourceUrl": "https://blogs.nvidia.com/blog/ian-buck-sc26/",
-      "source": "NVIDIA",
-      "reason": "NVIDIA SC26开幕，科学进入智能体时代成风向标"
-    },
-    {
-      "title": "Introducing ChatGPT for Sales",
-      "sourceUrl": "https://openai.com/index/introducing-chatgpt-for-sales",
+      "title": "Managing frontier AI risk: From training to deployment",
+      "sourceUrl": "https://openai.com/index/managing-frontier-ai-risk",
       "source": "OpenAI",
-      "reason": "ChatGPT推出销售插件及30余合作插件，商业化加速"
-    },
-    {
-      "title": "Can AI help build a healthier future?",
-      "sourceUrl": "https://www.microsoft.com/en-us/research/podcast/can-ai-help-build-a-healthier-future/",
-      "source": "Microsoft Research",
-      "reason": "微软研究院探讨AI医疗前景，议题具长期价值"
+      "reason": "前沿AI风险治理框架，政策参考价值高"
     }
   ],
-  "trendSummary": "本周AI热点从模型迭代转向落地，GPT与Gemini加速融入销售、科研等场景，智能体与行业应用成主线。"
+  "trendSummary": "本周AI圈模型迭代提速，Gemini 4与Genie 4相继登场，轻量化部署和高效后训练成焦点，硬件与机器人也在同步跟进。"
 }
