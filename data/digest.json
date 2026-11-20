@@ -1,37 +1,37 @@
 {
-  "date": "2026-11-19",
-  "generatedAt": "2026-11-19T03:31:42.687Z",
+  "date": "2026-11-20",
+  "generatedAt": "2026-11-20T03:20:22.615Z",
   "picks": [
     {
-      "title": "Introducing Gemini 4 Neon",
-      "sourceUrl": "https://deepmind.google/blog/introducing-gemini-4-neon/",
-      "source": "Google DeepMind",
-      "reason": "Gemini 4 Neon发布，旗舰模型迭代最受关注"
-    },
-    {
-      "title": "Genie 4 is now available",
-      "sourceUrl": "https://deepmind.google/blog/genie-4-is-now-available/",
-      "source": "Google DeepMind",
-      "reason": "Genie 4上线，世界模型进展值得追踪"
-    },
-    {
-      "title": "Research acceleration: The jagged frontier",
-      "sourceUrl": "https://openai.com/index/research-acceleration-jagged-frontier",
-      "source": "OpenAI",
-      "reason": "OpenAI量化编码智能体加速科研，数据硬核"
-    },
-    {
-      "title": "This featherweight, flying robot carries its own sensors and computers",
-      "sourceUrl": "https://news.mit.edu/2026/featherweight-flying-robot-carries-its-own-sensors-and-computers-1118",
+      "title": "Study reveals data centers’ long-distance damage to air quality",
+      "sourceUrl": "https://news.mit.edu/2026/study-reveals-data-centers-long-distance-damage-air-quality-1119",
       "source": "MIT News",
-      "reason": "MIT无外挂感知微型飞行机器人，突破性强"
+      "reason": "揭示数据中心长距离空气污染影响，环境议题重要"
     },
     {
-      "title": "Managing frontier AI risk: From training to deployment",
-      "sourceUrl": "https://openai.com/index/managing-frontier-ai-risk",
+      "title": "AI helps researchers investigate how thousands of medical studies share code",
+      "sourceUrl": "https://news.mit.edu/2026/ai-helps-researchers-investigate-how-medical-studies-share-code-1119",
+      "source": "MIT News",
+      "reason": "MIT用大模型审查医学研究代码，方法学意义大"
+    },
+    {
+      "title": "Why Do LLMs Help with Scientific Misconduct Requests and What to Do About It?: Increasing the Trustworthiness of AI for Science",
+      "sourceUrl": "http://arxiv.org/abs/2611.25492v1",
+      "source": "arXiv",
+      "reason": "探讨LLM协助科研不端，关乎AI科研可信度"
+    },
+    {
+      "title": "How OpenAI’s Performance Factory keeps ChatGPT fast",
+      "sourceUrl": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
       "source": "OpenAI",
-      "reason": "前沿AI风险治理框架，政策参考价值高"
+      "reason": "OpenAI披露ChatGPT性能优化内幕，工程价值高"
+    },
+    {
+      "title": "Introducing Tool Retrieval in the Gemini API",
+      "sourceUrl": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/",
+      "source": "Google AI",
+      "reason": "Gemini API工具检索新功能，开发者实用更新"
     }
   ],
-  "trendSummary": "本周AI圈模型迭代提速，Gemini 4与Genie 4相继登场，轻量化部署和高效后训练成焦点，硬件与机器人也在同步跟进。"
+  "trendSummary": "本周AI圈聚焦工具调用与智能体落地，同时学界关注大模型助长科研不端、数据中心污染等隐忧，性能与可信度并进。"
 }
