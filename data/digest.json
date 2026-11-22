@@ -1,37 +1,37 @@
 {
-  "date": "2026-11-21",
-  "generatedAt": "2026-11-21T03:13:56.210Z",
+  "date": "2026-11-22",
+  "generatedAt": "2026-11-22T02:16:02.624Z",
   "picks": [
     {
       "title": "Combatting adversarial distillation",
       "sourceUrl": "https://openai.com/index/combatting-adversarial-distillation",
       "source": "OpenAI",
-      "reason": "OpenAI公开对抗蒸馏防御体系，安全议题重要"
+      "reason": "OpenAI公开对抗蒸馏防御体系，关乎模型安全与知识产权"
     },
     {
       "title": "How Google Duplex evolved to also call businesses for you in Gemini",
       "sourceUrl": "https://research.google/blog/how-google-duplex-evolved-to-also-call-businesses-for-you-in-gemini/",
       "source": "Google Research",
-      "reason": "Google Duplex演进为Gemini企业通话，产品化进展"
+      "reason": "Google Duplex演进为Gemini代打电话，展示语音AI落地进展"
     },
     {
       "title": "Hebbia sees improvements in financial research with GPT-6 Astra",
       "sourceUrl": "https://openai.com/business/customer-stories/hebbia",
       "source": "OpenAI",
-      "reason": "GPT-6 Astra金融研究实测，前沿模型落地案例"
+      "reason": "GPT-6 Astra金融研究实测，前沿模型商业应用重要信号"
     },
     {
       "title": "New approach enables physically consistent AI models of chaotic systems",
       "sourceUrl": "https://news.mit.edu/new-approach-enables-physically-consistent-ai-models-chaotic-systems-1120",
       "source": "MIT News",
-      "reason": "物理约束AI建模混沌系统，方法创新性强"
+      "reason": "物理约束AI建模混沌系统，提升科学计算可靠性"
     },
     {
       "title": "Can AI help scientists identify promising drug candidates?",
       "sourceUrl": "https://openai.com/index/introducing-medchembench",
       "source": "OpenAI",
-      "reason": "MedChemBench评估AI药物发现，应用价值高"
+      "reason": "MedChemBench评估AI识别药物候选，AI4S关键方向"
     }
   ],
-  "trendSummary": "本周AI圈聚焦多模态交互与本地模型性能提升，同时关注AI在科研、金融等领域的落地及安全挑战。"
+  "trendSummary": "本周AI圈聚焦多模态交互更自然、模型适配与本地部署优化，同时数学界和金融研究加速拥抱AI，药物发现等科研应用也在深化。"
 }
