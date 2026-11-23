@@ -1,37 +1,37 @@
 {
-  "date": "2026-11-22",
-  "generatedAt": "2026-11-22T02:16:02.624Z",
+  "date": "2026-11-23",
+  "generatedAt": "2026-11-23T02:48:35.180Z",
   "picks": [
+    {
+      "title": "Anthropic announces closing of initial public offering, including full exercise of underwriters’ option to purchase additional shares, and closing of concurrent private placement",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1pMHRici1uRTBSYVNzNnJ5UVFiS1gtRjdJNWJZNUpDV0JxdzJVWHVUVEh5dXhVcVBYWXpSQWs2N1dnclY1aXJFaDhzM21OamVwQ1E?oc=5",
+      "source": "Anthropic",
+      "reason": "Anthropic完成IPO，AI头部公司资本化里程碑"
+    },
     {
       "title": "Combatting adversarial distillation",
       "sourceUrl": "https://openai.com/index/combatting-adversarial-distillation",
       "source": "OpenAI",
-      "reason": "OpenAI公开对抗蒸馏防御体系，关乎模型安全与知识产权"
+      "reason": "OpenAI提出对抗蒸馏防御，关乎模型安全与竞争"
     },
     {
-      "title": "How Google Duplex evolved to also call businesses for you in Gemini",
-      "sourceUrl": "https://research.google/blog/how-google-duplex-evolved-to-also-call-businesses-for-you-in-gemini/",
-      "source": "Google Research",
-      "reason": "Google Duplex演进为Gemini代打电话，展示语音AI落地进展"
-    },
-    {
-      "title": "Hebbia sees improvements in financial research with GPT-6 Astra",
-      "sourceUrl": "https://openai.com/business/customer-stories/hebbia",
-      "source": "OpenAI",
-      "reason": "GPT-6 Astra金融研究实测，前沿模型商业应用重要信号"
+      "title": "Q&A: Enabling more human-like interactions and understanding in multimodal foundation models",
+      "sourceUrl": "https://news.mit.edu/2026/qa-enabling-more-human-interactions-understanding-multimodal-foundation-models-1120",
+      "source": "MIT News",
+      "reason": "MIT探讨多模态模型类人交互，方向前沿"
     },
     {
       "title": "New approach enables physically consistent AI models of chaotic systems",
       "sourceUrl": "https://news.mit.edu/new-approach-enables-physically-consistent-ai-models-chaotic-systems-1120",
       "source": "MIT News",
-      "reason": "物理约束AI建模混沌系统，提升科学计算可靠性"
+      "reason": "物理约束提升混沌系统建模可靠性，方法有价值"
     },
     {
-      "title": "Can AI help scientists identify promising drug candidates?",
-      "sourceUrl": "https://openai.com/index/introducing-medchembench",
-      "source": "OpenAI",
-      "reason": "MedChemBench评估AI识别药物候选，AI4S关键方向"
+      "title": "87% of the Anthropic power will come from gas and 11% from coal in 2028",
+      "sourceUrl": "https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power/",
+      "source": "Hacker News",
+      "reason": "揭示Anthropic算力能源结构，AI能耗议题受关注"
     }
   ],
-  "trendSummary": "本周AI圈聚焦多模态交互更自然、模型适配与本地部署优化，同时数学界和金融研究加速拥抱AI，药物发现等科研应用也在深化。"
+  "trendSummary": "本周AI圈聚焦多模态交互更自然、推理与建模能力提升，同时关注能耗、安全与数学基础受冲击等现实挑战。"
 }
