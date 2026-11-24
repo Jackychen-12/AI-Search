@@ -1,37 +1,37 @@
 {
-  "date": "2026-11-23",
-  "generatedAt": "2026-11-23T02:48:35.180Z",
+  "date": "2026-11-24",
+  "generatedAt": "2026-11-24T06:05:53.156Z",
   "picks": [
     {
-      "title": "Anthropic announces closing of initial public offering, including full exercise of underwriters’ option to purchase additional shares, and closing of concurrent private placement",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1pMHRici1uRTBSYVNzNnJ5UVFiS1gtRjdJNWJZNUpDV0JxdzJVWHVUVEh5dXhVcVBYWXpSQWs2N1dnclY1aXJFaDhzM21OamVwQ1E?oc=5",
-      "source": "Anthropic",
-      "reason": "Anthropic完成IPO，AI头部公司资本化里程碑"
-    },
-    {
-      "title": "Combatting adversarial distillation",
-      "sourceUrl": "https://openai.com/index/combatting-adversarial-distillation",
+      "title": "OpenAI and Cisco introduce Shirudo",
+      "sourceUrl": "https://openai.com/index/introducing-shirudo",
       "source": "OpenAI",
-      "reason": "OpenAI提出对抗蒸馏防御，关乎模型安全与竞争"
+      "reason": "OpenAI与思科开源Linux运行时，大厂合作重磅"
     },
     {
-      "title": "Q&A: Enabling more human-like interactions and understanding in multimodal foundation models",
-      "sourceUrl": "https://news.mit.edu/2026/qa-enabling-more-human-interactions-understanding-multimodal-foundation-models-1120",
+      "title": "Finding faster quantum algorithms with agents and formal verification",
+      "sourceUrl": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/",
+      "source": "Google DeepMind",
+      "reason": "DeepMind用智能体与形式验证加速量子算法"
+    },
+    {
+      "title": "Many languages, one common neural code",
+      "sourceUrl": "https://news.mit.edu/2026/many-languages-one-common-neural-code-1123",
       "source": "MIT News",
-      "reason": "MIT探讨多模态模型类人交互，方向前沿"
+      "reason": "MIT跨21种语言发现共通神经编码"
     },
     {
-      "title": "New approach enables physically consistent AI models of chaotic systems",
-      "sourceUrl": "https://news.mit.edu/new-approach-enables-physically-consistent-ai-models-chaotic-systems-1120",
-      "source": "MIT News",
-      "reason": "物理约束提升混沌系统建模可靠性，方法有价值"
+      "title": "Supercharging transformer residual connections",
+      "sourceUrl": "https://research.google/blog/supercharging-transformer-residual-connections/",
+      "source": "Google Research",
+      "reason": "谷歌研究改进Transformer残差连接"
     },
     {
-      "title": "87% of the Anthropic power will come from gas and 11% from coal in 2028",
-      "sourceUrl": "https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power/",
-      "source": "Hacker News",
-      "reason": "揭示Anthropic算力能源结构，AI能耗议题受关注"
+      "title": "Verifiable On-Policy Distillation",
+      "sourceUrl": "http://arxiv.org/abs/2611.30325v1",
+      "source": "arXiv",
+      "reason": "可验证在线策略蒸馏，推理训练新方法"
     }
   ],
-  "trendSummary": "本周AI圈聚焦多模态交互更自然、推理与建模能力提升，同时关注能耗、安全与数学基础受冲击等现实挑战。"
+  "trendSummary": "本周AI热点集中在模型底层优化与智能体落地，从残差连接改进到机器人操作、代码清理，同时隐私金融等垂直场景应用加速。"
 }
