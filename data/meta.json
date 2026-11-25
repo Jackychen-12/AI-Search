@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-11-24T06:05:50.460Z",
-  "count": 786,
+  "fetchedAt": "2026-11-25T04:54:11.585Z",
+  "count": 796,
   "sources": {
     "hf-papers": 50,
     "github": 80,
-    "hackernews": 123,
+    "hackernews": 124,
     "rss:openai": 20,
     "rss:anthropic": 20,
     "rss:meta-ai": 20,
@@ -19,7 +19,7 @@
     "rss:apple-ml": 10,
     "rss:bair": 10,
     "rss:mit-news-ai": 20,
-    "rss:msr": 0,
+    "rss:msr": 8,
     "rss:aws-ml": 20,
     "rss:theverge-ai": 10,
     "rss:techcrunch-ai": 20,
@@ -32,7 +32,7 @@
     "rss:semianalysis": 10,
     "rss:smol-ainews": 20,
     "rss:tldr-ai": 20,
-    "rss:simonwillison": 8,
+    "rss:simonwillison": 10,
     "rss:lilianweng": 20,
     "rss:raschka": 20,
     "rss:thegradient": 12,
@@ -44,15 +44,14 @@
     "rss:qbitai": 10,
     "rss:jiqizhixin": 20,
     "rss:xinzhiyuan": 20,
-    "rss:geekpark": 15,
+    "rss:geekpark": 14,
     "rss:36kr": 0,
-    "rss:infoq": 11,
+    "rss:infoq": 8,
     "rss:sspai": 1,
-    "rss:ithome": 6,
+    "rss:ithome": 7,
     "arxiv": 20
   },
   "errors": {
-    "rss:msr": "This operation was aborted",
     "rss:venturebeat-ai": "HTTP 429 Too Many Requests <- https://venturebeat.com/category/ai/feed/"
   }
 }
