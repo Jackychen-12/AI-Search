@@ -1,37 +1,37 @@
 {
-  "date": "2026-11-25",
-  "generatedAt": "2026-11-25T04:54:14.608Z",
+  "date": "2026-11-26",
+  "generatedAt": "2026-11-26T04:10:03.917Z",
   "picks": [
     {
-      "title": "Agentic system personalizes physical controls to help users “DJ their art”",
-      "sourceUrl": "https://news.mit.edu/2026/tangimap-agentic-system-personalizes-physical-controls-help-users-dj-their-art-1124",
-      "source": "MIT News",
-      "reason": "MIT出品，AI智能体重编程物理控件，交互创新有看点"
+      "title": "Migrating our Messages API to Rust",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE91blh2eENvd0hsR25fTlhrSkktUlc3djUxb3NYdGo2dm1maGJfZlhvU3NhSS1rWk45WDczZnpiUzVrOEFWVVA1aDRfSXo3YkpfY0RuSzdESDVlU1FqN1VBV1N3Mm5ZdTQ?oc=5",
+      "source": "Anthropic",
+      "reason": "Anthropic核心API迁移Rust，工程实践标杆"
     },
     {
-      "title": "\"I Do Intend to Deliver\": Will LLMs Run a Marketplace Advance-Fee Scam?",
-      "sourceUrl": "http://arxiv.org/abs/2611.32957v1",
-      "source": "arXiv",
-      "reason": "LLM能否执行预付费诈骗，AI安全伦理话题性强"
+      "title": "Where scientists draw the line on AI agents",
+      "sourceUrl": "https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents",
+      "source": "HuggingFace Blog",
+      "reason": "HuggingFace探讨AI智能体边界，行业共识议题"
     },
     {
-      "title": "ShellBench: What Matters More for AI Agents, Models, or Harness for Everyday Tasks",
-      "sourceUrl": "http://arxiv.org/abs/2611.32946v1",
-      "source": "arXiv",
-      "reason": "智能体日常任务基准，模型与框架之争实用"
+      "title": "Verifiable Social Reasoning for LLM Assistants",
+      "sourceUrl": "https://research.google/blog/verifiable-social-reasoning-for-llm-assistants/",
+      "source": "Google Research",
+      "reason": "谷歌提出LLM助手可验证社会推理，安全关键"
     },
     {
-      "title": "LoomKV: Lossless KV Cache Compression from GPU Memory to SSD for LLM Serving",
-      "sourceUrl": "http://arxiv.org/abs/2611.32954v1",
+      "title": "Crucible: Evaluating LLM Agents in Executable Chemistry Research Environments",
+      "sourceUrl": "http://arxiv.org/abs/2611.34254v1",
       "source": "arXiv",
-      "reason": "KV缓存跨GPU到SSD无损压缩，LLM服务降本关键"
+      "reason": "Crucible评测化学智能体，科学落地新基准"
     },
     {
-      "title": "Do Vision-Language Models Know Their Own Visual Weaknesses? Probing Capability-Level Metacognition",
-      "sourceUrl": "http://arxiv.org/abs/2611.32940v1",
+      "title": "Latent-in-the-Middle: On the Security of Cross-Model Latent Communication in Multi-Agent Systems",
+      "sourceUrl": "http://arxiv.org/abs/2611.34278v1",
       "source": "arXiv",
-      "reason": "视觉语言模型能力元认知探针，评估新视角"
+      "reason": "跨模型潜通信安全，多智能体风险前瞻"
     }
   ],
-  "trendSummary": "本周AI研究聚焦智能体落地与安全，从个性化控制到零信任架构，同时KV缓存压缩和视觉语言模型评测持续升温。"
+  "trendSummary": "本周AI圈聚焦智能体安全边界与多智能体协同，同时语言模型推理、生成与表示学习持续深化。"
 }
