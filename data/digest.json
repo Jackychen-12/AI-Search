@@ -1,37 +1,37 @@
 {
-  "date": "2026-11-26",
-  "generatedAt": "2026-11-26T04:10:03.917Z",
+  "date": "2026-11-27",
+  "generatedAt": "2026-11-27T04:17:08.145Z",
   "picks": [
     {
-      "title": "Migrating our Messages API to Rust",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE91blh2eENvd0hsR25fTlhrSkktUlc3djUxb3NYdGo2dm1maGJfZlhvU3NhSS1rWk45WDczZnpiUzVrOEFWVVA1aDRfSXo3YkpfY0RuSzdESDVlU1FqN1VBV1N3Mm5ZdTQ?oc=5",
-      "source": "Anthropic",
-      "reason": "Anthropic核心API迁移Rust，工程实践标杆"
+      "title": "Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon",
+      "sourceUrl": "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench",
+      "source": "HuggingFace Blog",
+      "reason": "llama.cpp推出AMD平台基准面板，本地推理性能可量化对比"
+    },
+    {
+      "title": "Swarms, Flocks, Gangs: How to build, train, and evaluate multi-agent systems",
+      "sourceUrl": "https://huggingface.co/blog/training-swarms",
+      "source": "HuggingFace Blog",
+      "reason": "多智能体系统构建训练评估指南，工程实践价值高"
+    },
+    {
+      "title": "How Much Do Coding Agents Over-Edit, and Why? An Empirical Study of Unneeded Edits in Repository-Level Agent Patches",
+      "sourceUrl": "http://arxiv.org/abs/2611.34875v1",
+      "source": "arXiv",
+      "reason": "实证揭示编码智能体过度编辑问题，直击落地痛点"
     },
     {
       "title": "Where scientists draw the line on AI agents",
       "sourceUrl": "https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents",
       "source": "HuggingFace Blog",
-      "reason": "HuggingFace探讨AI智能体边界，行业共识议题"
+      "reason": "科学家对AI智能体的边界立场，行业治理视角重要"
     },
     {
-      "title": "Verifiable Social Reasoning for LLM Assistants",
-      "sourceUrl": "https://research.google/blog/verifiable-social-reasoning-for-llm-assistants/",
-      "source": "Google Research",
-      "reason": "谷歌提出LLM助手可验证社会推理，安全关键"
-    },
-    {
-      "title": "Crucible: Evaluating LLM Agents in Executable Chemistry Research Environments",
-      "sourceUrl": "http://arxiv.org/abs/2611.34254v1",
+      "title": "Diverse Alternative Reasoning Traces for Hard Math Problems",
+      "sourceUrl": "http://arxiv.org/abs/2611.34928v1",
       "source": "arXiv",
-      "reason": "Crucible评测化学智能体，科学落地新基准"
-    },
-    {
-      "title": "Latent-in-the-Middle: On the Security of Cross-Model Latent Communication in Multi-Agent Systems",
-      "sourceUrl": "http://arxiv.org/abs/2611.34278v1",
-      "source": "arXiv",
-      "reason": "跨模型潜通信安全，多智能体风险前瞻"
+      "reason": "难题数学推理多样化替代路径，提升LLM推理鲁棒性"
     }
   ],
-  "trendSummary": "本周AI圈聚焦智能体安全边界与多智能体协同，同时语言模型推理、生成与表示学习持续深化。"
+  "trendSummary": "本周焦点集中在多智能体系统构建评测、推理与图像生成能力提升，以及面向硬件和垂直领域的基准测试完善。"
 }
