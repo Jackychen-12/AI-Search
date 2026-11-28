@@ -1,37 +1,37 @@
 {
-  "date": "2026-11-27",
-  "generatedAt": "2026-11-27T04:17:08.145Z",
+  "date": "2026-11-28",
+  "generatedAt": "2026-11-28T03:55:13.932Z",
   "picks": [
     {
-      "title": "Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon",
-      "sourceUrl": "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench",
-      "source": "HuggingFace Blog",
-      "reason": "llama.cpp推出AMD平台基准面板，本地推理性能可量化对比"
+      "title": "AI made self-hosting fun again",
+      "sourceUrl": "https://janlukas.blog/posts/ai-self-hosting",
+      "source": "Hacker News",
+      "reason": "自托管因AI重获乐趣，开发者社区热议话题"
     },
     {
       "title": "Swarms, Flocks, Gangs: How to build, train, and evaluate multi-agent systems",
       "sourceUrl": "https://huggingface.co/blog/training-swarms",
       "source": "HuggingFace Blog",
-      "reason": "多智能体系统构建训练评估指南，工程实践价值高"
+      "reason": "多智能体系统构建训练评估的实用指南"
     },
     {
-      "title": "How Much Do Coding Agents Over-Edit, and Why? An Empirical Study of Unneeded Edits in Repository-Level Agent Patches",
-      "sourceUrl": "http://arxiv.org/abs/2611.34875v1",
-      "source": "arXiv",
-      "reason": "实证揭示编码智能体过度编辑问题，直击落地痛点"
+      "title": "Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon",
+      "sourceUrl": "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench",
+      "source": "HuggingFace Blog",
+      "reason": "AMD平台llama.cpp基准面板，本地推理实用工具"
     },
     {
       "title": "Where scientists draw the line on AI agents",
       "sourceUrl": "https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents",
       "source": "HuggingFace Blog",
-      "reason": "科学家对AI智能体的边界立场，行业治理视角重要"
+      "reason": "科学家对AI智能体的边界立场，观点值得关注"
     },
     {
-      "title": "Diverse Alternative Reasoning Traces for Hard Math Problems",
-      "sourceUrl": "http://arxiv.org/abs/2611.34928v1",
+      "title": "Mixture-of-Loops Transformer",
+      "sourceUrl": "http://arxiv.org/abs/2611.34923v1",
       "source": "arXiv",
-      "reason": "难题数学推理多样化替代路径，提升LLM推理鲁棒性"
+      "reason": "循环Transformer新架构，提升表达力有创新"
     }
   ],
-  "trendSummary": "本周焦点集中在多智能体系统构建评测、推理与图像生成能力提升，以及面向硬件和垂直领域的基准测试完善。"
+  "trendSummary": "本周 AI 圈聚焦硬件加速与开源生态，视频生成、本地部署和多智能体系统成为热点，同时模型评测与安全研究持续深入。"
 }
